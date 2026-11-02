@@ -1,4 +1,4 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!doctype html><html lang="vi"><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
 <title>Lịch Sử Song Hành</title>
 <meta name="description" content="Dòng thời gian song song: lịch sử Việt Nam đặt cạnh Trung Quốc, Nhật – Hàn, Ấn Độ – Đông Nam Á, Tây Á – Ai Cập, châu Âu và châu Mỹ, từ thời cổ đại đến nay.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -511,6 +511,39 @@ button:focus-visible, [tabindex]:focus-visible { outline: 2px solid var(--gold);
   .panel { transition: none !important; }
 }
 
+
+details.xs-lane { padding-block: 0; }
+summary.xs-h { cursor: pointer; min-height: 44px; align-items: center; }
+summary.xs-h::after { content: "+"; margin-left: auto; color: var(--ink-2); font-size: 18px; }
+details[open] > summary.xs-h::after { content: "−"; }
+details.xs-lane[open] { padding-bottom: 10px; }
+summary.xs-h:focus-visible { outline: 2px solid var(--gold); }
+.tools-toggle, .period-bar { display: none; }
+.chap.on { box-shadow: inset 0 -2px var(--vn); }
+@media (max-width: 760px) {
+  .top { display: grid; grid-template-columns: 1fr auto; gap: 4px 10px; padding: 6px 12px; }
+  .brand h1 { font-size: clamp(17px, 5vw, 22px); }
+  .tools-toggle { display: inline-flex; min-height: 44px; grid-column: 2; grid-row: 1; }
+  .tools-toggle[aria-expanded="true"] { background: var(--bg-2); }
+  .seg { grid-column: 1 / -1; border-radius: 12px; padding: 2px; }
+  .seg button { flex: 1; min-height: 44px; border-radius: 9px; }
+  .acts { display: none; grid-column: 1 / -1; gap: 4px; }
+  .tools-toggle[aria-expanded="true"] + .acts { display: flex; }
+  .acts .btn { flex: 1; min-height: 44px; padding: 0 8px; }
+  .zoom { position: static; flex-direction: row; box-shadow: none; }
+  .zoom button { width: 44px; height: 44px; }
+  .zoom button + button { border-top: 0; border-left: 1px solid var(--line-2); }
+  .chapters { display: none; }
+  .period-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 0 9px; padding: 4px 12px; background: var(--surface); border-bottom: 1px solid var(--line); }
+  .period-bar label { font-weight: 600; }
+  .period-bar select { flex: 1; min-width: 0; max-width: 100%; min-height: 44px; font: inherit; font-weight: 600; color: var(--ink); background: var(--surface); border: 0; }
+  .period-bar span { flex-basis: 100%; font-size: 12px; color: var(--ink-2); }
+  .p-body .ref, .p-body .btn, .pop .ref { min-height: 44px; }
+  .pop { max-height: 48dvh; overflow: auto; }
+  .q { max-height: 90dvh; overflow: auto; }
+  .p-grip::after { content: "Mở"; color: var(--gold-ink); font-weight: 600; }
+  .sheet-open .p-grip::after { content: "Thu gọn"; }
+}
 </style>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
   <defs>
@@ -548,7 +581,8 @@ button:focus-visible, [tabindex]:focus-visible { outline: 2px solid var(--gold);
       <button type="button" id="m-ev" class="on" aria-pressed="true">Sự kiện</button>
       <button type="button" id="m-np" aria-pressed="false">Nhân vật</button>
     </div>
-    <div class="acts">
+    <button class="btn tools-toggle" id="tools-toggle" aria-controls="tools" aria-expanded="false">Công cụ <span aria-hidden="true">⌄</span></button>
+    <div class="acts" id="tools">
       <button type="button" class="btn" id="b-slices" aria-haspopup="true" aria-expanded="false"><svg class="ico"><use href="#i-slice"/></svg><span class="t-lg">Lát cắt nổi bật</span><span class="t-sm">Lát cắt</span></button>
       <button type="button" class="btn" id="b-tour"><svg class="ico"><use href="#i-tour"/></svg><span>Hành trình</span></button>
       <button type="button" class="btn" id="b-quiz"><svg class="ico"><use href="#i-quiz"/></svg><span>Đố vui</span></button>
@@ -562,6 +596,12 @@ button:focus-visible, [tabindex]:focus-visible { outline: 2px solid var(--gold);
   </header>
 
   <nav class="chapters" id="chapters" aria-label="Các thời kỳ lịch sử Việt Nam"></nav>
+
+  <div class="period-bar">
+    <label for="period-picker">Thời kỳ</label>
+    <select id="period-picker"></select>
+    <span>Vuốt để đổi năm · Chạm để đọc</span>
+  </div>
 
   <div class="stage" id="stage">
     <div class="vp" id="vp" tabindex="0" aria-label="Dòng thời gian song song: Việt Nam và 6 khu vực khác">
@@ -7147,6 +7187,7 @@ TL_LINKS.push(
     const c = chapterAt(y);
     if (S.chap === c) return;
     S.chap = c;
+    picker.value = c.id;
     chaptersEl.querySelectorAll('.chap').forEach((b) => b.classList.toggle('on', b.dataset.chap === c.id));
     const el = chaptersEl.querySelector('.chap.on');
     if (el) {
@@ -7307,12 +7348,17 @@ TL_LINKS.push(
   function evRef(e) {
     return `<li><button type="button" class="ref" data-open="${e.id}"><span class="yr">${e.ca ? AP : ''}${esc(fy(e.y))}</span><span>${esc(e.t)}</span></button></li>`;
   }
+  const expandedRegions = new Map();
+  pBody.addEventListener('toggle', event => {
+    if (event.target.matches('details.xs-lane')) expandedRegions.set(event.target.dataset.l, event.target.open);
+  }, true);
   function xsLaneHTML(r, y) {
     const pd = r.pds.map((p) => p.t).join(' · ');
     const evs = r.evs.map(evRef).join('');
     const pps = r.ppl.map((p) => `<button type="button" class="pp" data-open="${p.id}">${esc(p.n)}<small>${esc(ageStr(p, y))}</small></button>`).join('');
     const empty = !evs && !pps ? '<p class="muted">Chưa có ghi chép nổi bật quanh thời điểm này.</p>' : '';
-    return `<section class="xs-lane" data-l="${r.L.id}"><div class="xs-h"><i class="sw"></i><b>${esc(r.L.name)}</b>${pd ? `<span class="xs-pd">${esc(pd)}</span>` : ''}</div>${evs ? `<ul>${evs}</ul>` : ''}${pps ? `<div class="xs-pp">${pps}</div>` : ''}${empty}</section>`;
+    const expanded = expandedRegions.get(r.L.id) ?? (r.L.id === 'vn');
+    return `<details class="xs-lane" data-l="${r.L.id}" ${expanded ? 'open' : ''}><summary class="xs-h"><i class="sw"></i><b>${esc(r.L.name)}</b>${pd ? `<span class="xs-pd">${esc(pd)}</span>` : ''}</summary>${evs ? `<ul>${evs}</ul>` : ''}${pps ? `<div class="xs-pp">${pps}</div>` : ''}${empty}</details>`;
   }
   function nearestSlice(y) {
     let best = null;
@@ -7876,6 +7922,21 @@ TL_LINKS.push(
   /* ================= init ================= */
   buildLogo();
   buildChapters();
+  const picker = $('#period-picker');
+  chaptersEl.querySelectorAll('[data-chap]').forEach(button => {
+    picker.add(new Option(button.firstChild.textContent.trim() + ' · ' + button.querySelector('small').textContent, button.dataset.chap));
+  });
+  picker.addEventListener('change', () => {
+    const choice = picker.value;
+    chaptersEl.querySelector('[data-chap="' + choice + '"]').click();
+    if (S.chap) picker.value = S.chap.id;
+    openSheet(false);
+  });
+  const toolsToggle = $('#tools-toggle');
+  toolsToggle.addEventListener('click', () => {
+    popClose();
+    toolsToggle.setAttribute('aria-expanded', String(toolsToggle.getAttribute('aria-expanded') !== 'true'));
+  });
   buildLanes();
   setCorner();
   S.mobile = window.matchMedia('(max-width: 760px)').matches;
