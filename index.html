@@ -16,13 +16,31 @@
   <symbol id="find" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10" cy="10" r="6.5"/><path d="m15 15 6 6"/></g></symbol>
   <symbol id="book" viewBox="0 0 24 24"><path d="M12 6q-4-3-10-2v14q6-1 10 2 4-3 10-2V4q-6-1-10 2zm0 0v14" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
 </svg>
-<a class="skip" href="#story" id="skip">Đến bài đọc</a>
+<a class="skip" href="#intro" id="skip">Đến nội dung chính</a>
 <header class="mast"><div class="wrap mast-inner">
   <a class="brand" href="./"><svg aria-hidden="true"><use href="#seal"/></svg>Lịch Sử <i>Song Hành</i></a>
   <button class="lookup" id="lookup"><svg aria-hidden="true"><use href="#find"/></svg>Tra cứu</button>
 </div></header>
 <main class="wrap">
-  <div class="layout">
+  <section class="intro" id="intro" aria-labelledby="intro-title" tabindex="-1">
+    <div>
+      <p class="edition">Giới thiệu</p>
+      <h1 id="intro-title">Khi ấy, <i>thế giới</i><br>đang làm gì?</h1>
+      <p class="intro-copy">Lịch Sử Song Hành đặt lịch sử Việt Nam bên cạnh lịch sử thế giới. Mỗi bài bắt đầu từ một mốc thời gian, rồi đưa bạn đến những nơi khác để xem chuyện gì đang diễn ra cùng thời.</p>
+      <a class="start-reading" id="start-reading" href="#sl-938">Bắt đầu đọc <span aria-hidden="true">→</span></a>
+      <p class="intro-note">Bài mở đầu · Bạch Đằng, năm 938</p>
+    </div>
+    <aside class="sample" aria-label="Hai mốc lịch sử gần nhau">
+      <div class="sample-head"><span>Trong cùng một thập niên</span><span class="engraving" aria-hidden="true"></span></div>
+      <dl>
+        <dt><strong>936</strong> Bán đảo Triều Tiên</dt>
+        <dd>Vương Kiến thống nhất bán đảo dưới tên nước Cao Ly.</dd>
+        <dt><strong>938</strong> Việt Nam</dt>
+        <dd>Ngô Quyền đánh thắng quân Nam Hán trên sông Bạch Đằng.</dd>
+      </dl>
+    </aside>
+  </section>
+  <div class="layout" id="reader-layout" hidden>
     <aside class="margin">
       <div class="edition">Tủ sách lịch sử</div>
       <h2>Việt Nam<br><i>&amp; thế giới</i></h2>
@@ -42,7 +60,7 @@
     </article>
   </div>
 </main>
-<nav class="pager" aria-label="Chuyển bài"><div class="pager-inner">
+<nav class="pager" id="article-pager" hidden aria-label="Chuyển bài"><div class="pager-inner">
   <a id="prev" aria-label="Đọc mốc trước"><span>←</span><b>Mốc trước</b></a>
   <button id="contents"><svg aria-hidden="true"><use href="#book"/></svg>Mục lục</button>
   <a id="next" aria-label="Đọc mốc tiếp"><b>Mốc tiếp</b><span>→</span></a>

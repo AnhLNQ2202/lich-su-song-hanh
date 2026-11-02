@@ -83,7 +83,15 @@ function showTab(world) {
 function render(focus = false) {
   let id;
   try { id=decodeURIComponent(location.hash.slice(1)); } catch { id=''; }
-  current = catalog.get(id) || catalog.get('sl-938') || slices[0];
+  current = catalog.get(id);
+  $('intro').hidden = Boolean(current);
+  $('reader-layout').hidden = $('article-pager').hidden = !current;
+  $('skip').href = current ? '#story' : '#intro';
+  if (!current) {
+    document.title = 'Lịch Sử Song Hành';
+    if (focus) { $('intro').focus({preventScroll:true}); window.scrollTo(0,0); }
+    return;
+  }
   const sequence = current.kind === 'sl' ? slices : all.filter(e=>e.kind===current.kind && e.lane===current.lane);
   const index = sequence.indexOf(current);
   $('series').textContent = [labels[current.kind],regions.get(current.lane)].filter(Boolean).join(' · ');
@@ -119,7 +127,7 @@ function openLibrary(contents) {
 $('lookup').onclick=()=>openLibrary(false);
 $('contents').onclick=$('contents-side').onclick=()=>openLibrary(true);
 $('read').onclick=()=>showTab(false); $('compare').onclick=()=>showTab(true);
-$('skip').onclick=e=>{e.preventDefault();$('story').focus()};
+$('skip').onclick=e=>{e.preventDefault();$(current ? 'story' : 'intro').focus()};
 $('close').onclick=()=>library.close();
 library.onclick=e=>{if(e.target===library){const r=library.getBoundingClientRect();if(e.clientX<r.left || e.clientX>r.right || e.clientY<r.top || e.clientY>r.bottom)library.close();}};
 $('results').onclick=e=>{
