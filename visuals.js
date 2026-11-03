@@ -84,3 +84,9 @@ const ARTICLE_ART = {
     "547802"
   ]
 };
+
+ART_ASSETS["map-europe-1810"]={"title": "Châu Âu năm 1810", "artist": "Robert H. Labberton", "date": "Thời kỳ được thể hiện: 1810 · Atlas xuất bản năm 1886", "note": "Bản đồ lịch sử thể hiện châu Âu thời Napoleon. Khi năm của bài khác 1810, dùng bản đồ để đối chiếu bối cảnh giai đoạn, không coi đó là ranh giới chính xác cho mọi năm.", "url": "https://etc.usf.edu/maps/pages/6900/6928/6928.htm", "alt": "Bản đồ màu châu Âu thời Napoleon, thể hiện lãnh thổ và các quốc gia đầu thế kỷ XIX.", "src": "assets/map-europe-1810.jpg", "credit": "Courtesy the private collection of Roy Winkelman · FCIT, University of South Florida", "license": "FCIT / Maps ETC · Dùng cho giáo dục phi thương mại", "licenseUrl": "https://etc.usf.edu/maps"};
+
+ART_ASSETS["map-asia-1914"]={"title": "Châu Á năm 1914", "artist": "Lucius Hudson Holt", "date": "Thời kỳ được thể hiện: 1914 · Sách xuất bản năm 1918", "note": "Bản đồ lịch sử thể hiện các quốc gia và lãnh thổ ở châu Á năm 1914. Tên gọi và ranh giới thuộc bối cảnh của bản đồ gốc.", "url": "https://etc.usf.edu/maps/pages/800/871/871.htm", "alt": "Bản đồ châu Á năm 1914 với các quốc gia, lãnh thổ thuộc địa và tuyến đường sắt.", "src": "assets/map-asia-1914.jpg", "credit": "Courtesy the private collection of Roy Winkelman · FCIT, University of South Florida", "license": "FCIT / Maps ETC · Dùng cho giáo dục phi thương mại", "licenseUrl": "https://etc.usf.edu/maps"};
+
+const PERIOD_MAPS = [{id:"map-europe-1810",start:1804,end:1815,lanes:["eu"]},{id:"map-asia-1914",start:1905,end:1914,lanes:["vn","cn","ea","sa","wa"]}];

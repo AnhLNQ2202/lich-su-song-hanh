@@ -6,10 +6,10 @@
   <meta name="theme-color" content="#fbf8f1">
   <meta name="description" content="Đọc lịch sử Việt Nam và thế giới qua những lát cắt cùng thời.">
   <title>Lịch Sử Song Hành</title>
-  <link rel="stylesheet" href="reader.css?v=visuals-1">
-  <script src="history-data.js?v=visuals-1" defer></script>
-  <script src="visuals.js?v=visuals-1" defer></script>
-  <script src="reader.js?v=visuals-1" defer></script>
+  <link rel="stylesheet" href="reader.css?v=places-1">
+  <script src="history-data.js?v=places-1" defer></script>
+  <script src="visuals.js?v=places-1" defer></script>
+  <script src="reader.js?v=places-1" defer></script>
 </head>
 <body>
 <svg class="symbols" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -67,7 +67,7 @@
       <h1 id="headline" tabindex="-1"></h1>
       <nav class="tabs" aria-label="Nội dung của mốc đang đọc"><button id="read" aria-pressed="true">Bài đọc</button><button id="compare" aria-pressed="false">Cùng thời</button><button id="people" aria-pressed="false">Nhân vật</button><button id="play" aria-pressed="false">Đố vui</button></nav>
       <section id="body-copy" aria-label="Bài đọc"></section>
-      <section id="world" hidden aria-label="Đối chiếu cùng thời"></section>
+
       <section id="portraits" hidden aria-label="Nhân vật cùng thời"></section>
       <section id="challenge" hidden aria-label="Đố vui theo bài"></section>
       <section id="tracking" class="tracking" hidden aria-label="Tiến độ đọc sự kiện">
@@ -89,7 +89,7 @@
   <header class="art-dialog-head"><strong id="art-dialog-title"></strong><button id="art-close" aria-label="Đóng ảnh">Đóng ×</button></header>
   <label class="art-zoom">Phóng to <input type="range" id="art-zoom" min="100" max="250" step="25" value="100"><output id="art-scale">100%</output></label>
   <div id="art-viewport"><img id="art-full" alt=""></div>
-  <p id="art-description"></p><a id="art-source" target="_blank" rel="noopener">Xem hiện vật tại bảo tàng ↗</a>
+  <p id="art-description"></p><a id="art-source" target="_blank" rel="noopener">Xem nguồn gốc ảnh / bản đồ ↗</a>
 </dialog>
 <dialog id="library" aria-labelledby="dialog-title">
   <div class="dialog-head"><h2 id="dialog-title"></h2><button id="close" aria-label="Đóng">×</button></div>

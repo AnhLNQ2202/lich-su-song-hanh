@@ -113,15 +113,36 @@ function peopleAt(item) {
   return all.filter(e => e.kind === 'np' && e !== item && e.year <= year && (e.source.d ?? Infinity) >= year)
     .sort((a,b) => Number(named.includes(b.title))-Number(named.includes(a.title)) || Math.abs(a.source.k-year)-Math.abs(b.source.k-year));
 }
+function personTrail(entry, year) {
+  const p=entry.source;
+  const names=[entry.title,entry.title.split(' (')[0],...entry.title.split(/[–—]/)].map(n=>fold(n.trim())).filter(n=>n.length>3);
+  const linked=events.filter(e=>e.year>=p.b&&e.year<=(p.d??2026)&&e.source.who&&names.some(n=>fold(e.source.who).includes(n))).sort((a,b)=>a.year-b.year);
+  const rows=[{year:p.k,title:p.n+' '+p.act}];
+  for(const e of linked)if(!rows.some(r=>r.year===e.year&&fold(r.title).includes(fold(e.title))))rows.push({year:e.year,title:e.title,entry:e});
+  rows.sort((a,b)=>a.year-b.year);
+  return '<details class="person-trail"><summary>Theo dấu '+escapeHTML(entry.title)+'</summary><p class="summary">Các dấu mốc có trong thư viện, tính từ năm '+yearText(year)+'.</p><ol>'+rows.map(row=>{
+    const delta=row.year-year-(row.year>0&&year<0?1:row.year<0&&year>0?-1:0);
+    const distance=delta===0?'Cùng năm':Math.abs(delta)+' năm '+(delta<0?'trước':'sau');
+    return '<li><span>'+yearText(row.year)+' · '+distance+'</span>'+(row.entry?'<a href="'+href(row.entry)+'">'+escapeHTML(row.title)+'</a>':'<strong>'+escapeHTML(row.title)+'</strong>')+'</li>';
+  }).join('')+'</ol></details>';
+}
+function yearIntroduction(item) {
+  if(!eventIds.has(item.id))return '';
+  const inYear=timeline.filter(e=>e.year===item.year);
+  const locations=[...new Set(inYear.map(e=>regions.get(e.lane)||'Toàn cầu'))];
+  const older=timeline.filter(e=>e.year<item.year).at(-1);
+  const newer=timeline.find(e=>e.year>item.year);
+  return '<div class="year-intro"><p><b>Năm '+yearText(item.year)+'</b> · '+inYear.length+' mốc trong thư viện, ở '+locations.length+' khu vực.</p><details><summary>Xem những mốc trong cùng năm</summary><ol>'+inYear.map(e=>'<li><a href="'+href(e)+'" '+(e.id===item.id?'aria-current="page"':'')+'>'+escapeHTML(e.title)+'</a><small>'+escapeHTML(regions.get(e.lane)||'Toàn cầu')+'</small></li>').join('')+'</ol></details><nav aria-label="Chuyển năm">'+(older?'<a href="'+href(older)+'">← '+yearText(older.year)+'</a>':'')+(newer?'<a href="'+href(newer)+'">'+yearText(newer.year)+' →</a>':'')+'</nav></div>';
+}
 function lifeScene(entry, year) {
   const p=entry.source;
   const age=year-p.b-(p.b<0&&year>0?1:0);
   const uncertain=p.cb || p.cd;
   const difference=p.k-year;
   const action = difference===0 ? 'Ngay năm này, ' : difference>0 ? difference+' năm sau, ' : -difference+' năm trước, ';
-  return '<a class="person-scene" href="'+href(entry)+'"><span class="scene-age">'+(uncertain?'Khoảng ':'')+age+' tuổi · '+escapeHTML(regions.get(entry.lane))+'</span>'+
+  return '<div class="person-scene"><a class="person-bio-link" href="'+href(entry)+'"><span class="scene-age">'+'Khoảng '+age+' tuổi · '+escapeHTML(regions.get(entry.lane))+'</span>'+
     '<strong>'+escapeHTML(entry.title)+'</strong><span>'+escapeHTML(p.role)+'</span>'+
-    '<p>'+escapeHTML(action+p.n+' '+p.act+'.')+'</p><small>'+yearText(p.b)+' — '+(p.d==null?'nay':yearText(p.d))+' · Tìm hiểu thêm →</small></a>';
+    '<p>'+escapeHTML(action+p.n+' '+p.act+'.')+'</p><small>'+yearText(p.b)+' — '+(p.d==null?'nay':yearText(p.d))+' · Tìm hiểu thêm →</small></a>'+personTrail(entry,year)+'</div>';
 }
 function storyPeople(item) {
   if(item.kind==='np')return '';
@@ -173,12 +194,12 @@ const panels = {read:'body-copy', compare:'world', people:'portraits', play:'cha
 function selectPanel(name) {
   for (const [button,section] of Object.entries(panels)) {
     $(button).setAttribute('aria-pressed', String(name===button));
-    $(section).hidden = name!==button;
+    if($(section)) $(section).hidden = name!==button;
   }
   if (name==='compare' || name==='read') {
     showWorld();
     $('world').hidden=false;
-    $('world').insertAdjacentHTML('afterbegin','<h2>Cùng lúc ấy ở nơi khác</h2>');
+
   }
   if (name==='people') showPeople();
   if (name==='play' && !$('challenge').hasChildNodes()) newQuestion();
@@ -252,7 +273,7 @@ function paragraphs(text) {
 }
 function artFigure(id) {
   const art=ART_ASSETS[id];
-  return '<figure class="art-figure"><button class="art-open" data-art="'+id+'" aria-label="Phóng to '+escapeHTML(art.title)+'"><img src="'+art.src+'" alt="'+escapeHTML(art.alt)+'" loading="lazy" decoding="async"><span>Xem gần hơn ⤢</span></button><figcaption><strong>'+escapeHTML(art.title)+'</strong><span>'+escapeHTML(art.artist+' · '+art.date)+'</span><p>'+escapeHTML(art.note)+'</p><a href="'+art.url+'" target="_blank" rel="noopener">'+escapeHTML(art.license)+'</a></figcaption></figure>';
+  return '<figure class="art-figure"><button class="art-open" data-art="'+id+'" aria-label="Phóng to '+escapeHTML(art.title)+'"><img src="'+art.src+'" alt="'+escapeHTML(art.alt)+'" loading="lazy" decoding="async"><span>Xem gần hơn ⤢</span></button><figcaption><strong>'+escapeHTML(art.title)+'</strong><span>'+escapeHTML(art.artist+' · '+art.date)+'</span><p>'+escapeHTML(art.note)+'</p><a href="'+art.url+'" target="_blank" rel="noopener">'+escapeHTML(art.license)+'</a>'+(art.licenseUrl?'<a class="map-credit" href="'+art.licenseUrl+'" target="_blank" rel="noopener">Maps courtesy FCIT · Maps ETC</a>':'')+'</figcaption></figure>';
 }
 function articleVisuals(item) {
   const ids=ARTICLE_ART[item.id]||[];
@@ -285,13 +306,25 @@ $('art-zoom').oninput=()=>{
   $('art-full').style.width=zoom+'%';$('art-scale').value=zoom+'%';
 };
 artDialog.addEventListener('close',()=>{$('art-full').removeAttribute('src');if(artOpener?.isConnected)artOpener.focus({preventScroll:true});});
+function exploreHTML(item) {
+  const year=item.source.k??item.year;
+  const maps=PERIOD_MAPS.filter(map=>year>=map.start&&year<=map.end&&map.lanes.includes(item.lane));
+  return '<details class="explore-details"><summary>Khám phá chi tiết</summary><div class="explore-actions"><button data-explore="timeline">Mở dòng thời gian</button>'+
+    ((ARTICLE_ART[item.id]||[]).length?'<button data-art="'+ARTICLE_ART[item.id][0]+'">Xem ảnh lớn</button>':'')+
+    '</div>'+maps.map(map=>'<details class="period-map"><summary>Xem bản đồ · '+escapeHTML(ART_ASSETS[map.id].title)+'</summary>'+artFigure(map.id)+'</details>').join('')+'</details>';
+}
+document.addEventListener('click',event=>{
+  if(!event.target.closest('[data-explore="timeline"]'))return;
+  displayAtlas(true);
+  atlas.scrollIntoView({block:'start'});
+});
 function article(item) {
   const o = item.source;
   const body = item.kind === 'np' ? o.bio : o.d;
   const meta = [o.topic, o.date, o.place, o.role, item.kind === 'np' ? yearText(o.b)+' – '+(o.d == null ? 'nay' : yearText(o.d)) : '', ['pd','gb'].includes(item.kind) ? yearText(o.s)+' – '+yearText(o.e) : ''].filter(Boolean);
   const notes = [[noteTitle(item.id,'why'),o.why],[noteTitle(item.id,'alt'),o.alt],['Liên hệ Việt Nam',o.vn],['Một dấu mốc đáng nhớ',o.act ? 'Năm '+yearText(o.k)+', '+o.n+' '+o.act+'.' : ''],['Cùng thời',o.same],['Bạn có biết?',o.fun]];
   return (meta.length ? '<p class="meta">'+escapeHTML(meta.join(' · '))+'</p>' : '')+
-    '<div class="prose">'+paragraphs(body)+articleVisuals(item)+highlightHTML(item)+storyPeople(item)+(item.kind==='sl' ? sliceNotes(item) : '')+notes.filter(([,v])=>v).map(([h,v])=>'<h2>'+h+'</h2>'+paragraphs(v)).join('')+'</div>'+(o.ref ? '<a class="note-source" href="'+escapeHTML(o.ref)+'" target="_blank" rel="noopener">Nguồn tham khảo ↗</a>' : '');
+    '<div class="prose">'+yearIntroduction(item)+paragraphs(body)+'<div id="world" class="woven-world" aria-label="Đối chiếu cùng thời trong bài"></div>'+articleVisuals(item)+highlightHTML(item)+storyPeople(item)+(item.kind==='sl' ? sliceNotes(item) : '')+notes.filter(([,v])=>v).map(([h,v])=>'<h2>'+h+'</h2>'+paragraphs(v)).join('')+'</div>'+exploreHTML(item)+(o.ref ? '<a class="note-source" href="'+escapeHTML(o.ref)+'" target="_blank" rel="noopener">Nguồn tham khảo ↗</a>' : '');
 }
 function comparisonItems(item) {
   if (item.kind === 'sl') return (item.source.ev || []).map(id=>catalog.get(id)).filter(Boolean);
@@ -308,17 +341,65 @@ function comparisonItems(item) {
   }
   return peers;
 }
-function comparisonRows() {
-  const lane = $('region').value;
-  const rows = comparisons.filter(item=>!lane || lane===item.lane);
-  $('comparison-list').innerHTML = rows.map(item=>'<section class="compare-row"><div class="caption">'+escapeHTML(regions.get(item.lane))+' · '+escapeHTML(yearText(item.year)+(item.kind==='pd'?' – '+yearText(item.source.e):''))+'</div><h3>'+escapeHTML(item.title)+'</h3><p>'+escapeHTML(item.source.d || item.source.bio)+'</p><a href="'+href(item)+'">Đọc bài riêng →</a></section>').join('') || '<p>Chưa có mục cùng thời cho mốc này.</p>';
+let comparisonYear;
+let comparisonLanes=['vn','eu'];
+function comparisonLink(entry, detail) {
+  return '<a class="place-entry" href="'+href(entry)+'"><strong>'+escapeHTML(entry.title)+'</strong>'+(detail?'<span>'+escapeHTML(detail)+'</span>':'')+'</a>';
+}
+function placeCard(lane) {
+  const year=comparisonYear;
+  const active=all.filter(e=>e.kind==='pd'&&e.lane===lane&&e.source.s<=year&&year<=e.source.e).sort((a,b)=>Number(b.source.g==='a')-Number(a.source.g==='a')||b.source.s-a.source.s);
+  const exact=events.filter(e=>e.lane===lane&&e.year===year);
+  const near=events.filter(e=>e.lane===lane&&e.year!==year&&Math.abs(e.year-year)<=25)
+    .sort((a,b)=>Math.abs(a.year-year)-Math.abs(b.year-year)).slice(0,2);
+  const people=all.filter(e=>e.kind==='np'&&e.lane===lane&&e.year<=year&&(e.source.d??Infinity)>=year)
+    .sort((a,b)=>Math.abs(a.source.k-year)-Math.abs(b.source.k-year)).slice(0,3);
+  const background=active.length ? active.map(e=>comparisonLink(e,yearText(e.source.s)+' – '+yearText(e.source.e))).join('')+'<p class="place-background">'+escapeHTML(active[0].source.d)+'</p>' : '<p class="comparison-empty">Chưa có thời kỳ trong dữ liệu.</p>';
+  const landmarks=exact.length ? exact.map(e=>comparisonLink(e,(e.source.ca?'Niên đại xấp xỉ · ':'')+(e.source.date||yearText(e.year)))).join('') : '<p class="comparison-empty">Chưa có mốc được ghi ở năm này.</p>';
+  const neighbours=near.map(e=>{
+    const delta=Math.abs(e.year-year)-(Math.min(e.year,year)<0&&Math.max(e.year,year)>0?1:0);
+    return comparisonLink(e,yearText(e.year)+' · '+delta+' năm '+(e.year<year?'trước':'sau'));
+  }).join('');
+  const faces=people.length?people.map(e=>comparisonLink(e,'Khoảng '+(year-e.year-(e.year<0&&year>0?1:0))+' tuổi · '+e.source.role)).join(''):'<p class="comparison-empty">Chưa có hồ sơ nhân vật ở mốc này.</p>';
+  return '<section class="place-card" aria-label="'+escapeHTML(regions.get(lane))+' năm '+yearText(year)+'"><h3>'+escapeHTML(regions.get(lane))+'</h3><div class="place-section"><h4>Bối cảnh</h4>'+background+'</div><div class="place-section"><h4>Mốc tại năm '+yearText(year)+'</h4>'+landmarks+'</div><div class="place-section"><h4>Nhân vật cùng thời</h4>'+faces+'</div>'+(neighbours?'<details class="nearby-events"><summary>Mốc gần đó</summary>'+neighbours+'</details>':'')+'</section>';
+}
+function updateComparison() {
+  $('comparison-heading').textContent='Cùng lúc ấy, nhìn sang những nơi khác';
+  $('comparison-cards').innerHTML=comparisonLanes.map(placeCard).join('');
+  $('comparison-cards').classList.toggle('three-places',comparisonLanes.length===3);
+  $('add-place').hidden=comparisonLanes.length===3;
+  $('remove-place').hidden=comparisonLanes.length===2;
+  document.querySelectorAll('[data-place-select]').forEach(select=>{
+    const index=Number(select.dataset.placeSelect);
+    select.value=comparisonLanes[index];
+    for(const option of select.options)option.disabled=comparisonLanes.includes(option.value)&&option.value!==comparisonLanes[index];
+  });
+  $('comparison-year').value=comparisonYear;
+  $('comparison-reset').hidden=comparisonYear===(current.source.k??current.year);
+}
+function drawPlaceControls() {
+  $('place-controls').innerHTML=comparisonLanes.map((lane,index)=>'<label>Nơi '+(index+1)+'<select data-place-select="'+index+'">'+LANES.map(l=>'<option value="'+l.id+'">'+escapeHTML(l.name)+'</option>').join('')+'</select></label>').join('');
+  document.querySelectorAll('[data-place-select]').forEach(select=>select.onchange=()=>{
+    comparisonLanes[Number(select.dataset.placeSelect)]=select.value;
+    updateComparison();
+  });
+  updateComparison();
 }
 function showWorld() {
-  comparisons = comparisonItems(current);
-  const ids = new Set(comparisons.map(entry=>entry.lane));
-  $('world').innerHTML = '<p class="summary">'+(current.kind==='sl'?'Các sự kiện được nhắc đến trong lát cắt này.':'Các thời kỳ đang diễn ra hoặc sự kiện gần năm '+yearText(current.source.k ?? current.year)+'.')+'</p><div class="world-filter"><label for="region">Khu vực</label><select id="region"><option value="">Tất cả khu vực</option>'+LANES.filter(l=>ids.has(l.id)).map(l=>'<option value="'+l.id+'">'+escapeHTML(l.name)+'</option>').join('')+'</select></div><div id="comparison-list"></div>';
-  $('region').onchange = comparisonRows;
-  comparisonRows();
+  comparisonYear=current.source.k??current.year;
+  $('world').innerHTML='<h2 id="comparison-heading"></h2><p class="summary">Đặt các nơi cạnh nhau để xem bối cảnh, những mốc được ghi ở năm này và các nhân vật cùng thời.</p><form id="comparison-year-form" class="comparison-toolbar"><label>Năm <input id="comparison-year" type="number" min="-3500" max="2026" step="1" required aria-describedby="year-tip"></label><button type="submit">Đối chiếu</button><button type="button" id="comparison-reset">Về năm của bài</button><small id="year-tip">Nhập số âm cho năm trước Công nguyên. Không có năm 0.</small></form><div id="place-controls"></div><div class="place-count"><button id="add-place">+ Thêm nơi thứ ba</button><button id="remove-place" hidden>− Còn hai nơi</button></div><div id="comparison-cards"></div><p class="comparison-footnote">Các cột dùng chung một năm. “Mốc gần đó” ghi rõ khoảng cách thời gian. Bấm một mục để đọc ngay trong hành trình.</p>';
+  $('comparison-year-form').onsubmit=event=>{
+    event.preventDefault();
+    const input=$('comparison-year');
+    input.setCustomValidity(Number(input.value)===0?'Lịch sử không có năm 0. Hãy nhập -1 hoặc 1.':'');
+    if(!input.reportValidity())return;
+    comparisonYear=Number(input.value);updateComparison();
+  };
+  $('comparison-year').oninput=()=> $('comparison-year').setCustomValidity('');
+  $('comparison-reset').onclick=()=>{comparisonYear=current.source.k??current.year;updateComparison();};
+  $('add-place').onclick=()=>{comparisonLanes.push(LANES.find(l=>!comparisonLanes.includes(l.id)).id);drawPlaceControls();};
+  $('remove-place').onclick=()=>{comparisonLanes.pop();drawPlaceControls();};
+  drawPlaceControls();
 }
 function render(focus = false) {
   let id;
