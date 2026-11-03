@@ -121,26 +121,72 @@ function showPeople() {
     '<button class="secondary-path" id="all-people">Tra cứu mọi nhân vật →</button>';
   $('all-people').onclick=()=>{openLibrary('search');$('kind').value='np';results();};
 }
+let quizTopic='all', quizTurn=0, lastQuizId='';
+function shuffled(items) {
+  const copy=items.slice();
+  for(let i=copy.length-1;i>0;i--) { const j=Math.floor(Math.random()*(i+1)); [copy[i],copy[j]]=[copy[j],copy[i]]; }
+  return copy;
+}
 function newQuestion() {
-  const year = current.source.k ?? current.year;
-  const linked = current.kind === 'sl' ? comparisonItems(current).filter(e=>e.kind==='ev') : [];
-  const nearby = events.slice().sort((a,b)=>Math.abs(a.year-year)-Math.abs(b.year-year)).slice(0,16);
-  const pool = linked.length > 1 ? linked : nearby;
-  const a = pool[Math.floor(Math.random()*pool.length)];
-  let choices = pool.filter(e=>e.year!==a.year);
-  if (!choices.length) choices = events.filter(e=>e.year!==a.year).sort((x,y)=>Math.abs(x.year-year)-Math.abs(y.year-year)).slice(0,4);
-  const b = choices[Math.floor(Math.random()*choices.length)];
-  const pair = [a,b];
-  $('challenge').innerHTML = '<h2>Chuyện nào xảy ra trước?</h2><p class="summary">Chọn một trong hai sự kiện.</p>'+
-    pair.map((e,i)=>'<button class="answer" data-answer="'+i+'">'+escapeHTML(e.title)+'</button>').join('')+
+  const eligible=all.filter(e=>(e.kind==='ev'||e.kind==='np') &&
+    (quizTopic==='all' || quizTopic===e.kind || e.source.c===quizTopic));
+  const near=eligible.filter(e=>e.id!==lastQuizId).sort((a,b)=>
+    Math.abs((a.source.k??a.year)-(current.source.k??current.year))-Math.abs((b.source.k??b.year)-(current.source.k??current.year))).slice(0,35);
+  const entry=shuffled(near)[0]||eligible[0];
+  lastQuizId=entry.id;
+  const o=entry.source;
+  const mode=quizTurn++%4;
+  let ask, right, alternatives, explanation;
+  if(entry.kind==='np' && mode%2===0) {
+    ask='Ai có vai trò này?';
+    explanation=o.role;
+    right=entry.title;
+    alternatives=all.filter(e=>e.kind==='np'&&e.id!==entry.id).map(e=>e.title);
+  } else if(entry.kind==='np') {
+    ask=entry.title+' gắn với dấu mốc nào sau đây?';
+    right='Năm '+yearText(o.k)+': '+o.act;
+    alternatives=all.filter(e=>e.kind==='np'&&e.id!==entry.id&&e.source.act).map(e=>'Năm '+yearText(e.source.k)+': '+e.source.act);
+    explanation=entry.title+' '+o.act+' vào năm '+yearText(o.k)+'.';
+  } else if(mode===0) {
+    ask='Sự kiện nào được ghi nhận ở năm '+yearText(entry.year)+'?';
+    right=entry.title;
+    alternatives=events.filter(e=>e.year!==entry.year&&e.id!==entry.id).map(e=>e.title);
+    explanation=entry.title+' · '+(o.date||yearText(entry.year));
+  } else if(mode===1) {
+    ask='Sự kiện này thuộc khu vực nào trên dòng thời gian?';
+    right=regions.get(entry.lane);
+    alternatives=LANES.filter(l=>l.id!==entry.lane).map(l=>l.name);
+    explanation=entry.title+' được xếp trong khu vực '+right+'.';
+  } else if(mode===2) {
+    ask='Sự kiện này diễn ra vào thế kỷ nào?';
+    const century=y=>Math.ceil(Math.abs(y)/100);
+    const label=y=>'Thế kỷ '+century(y)+(y<0?' TCN':'');
+    right=label(entry.year);
+    alternatives=events.filter(e=>label(e.year)!==right).map(e=>label(e.year));
+    explanation=entry.title+' · '+(o.date||yearText(entry.year))+' · '+right+'.';
+  } else {
+    ask='Mốc năm nào gắn với sự kiện này?';
+    right=yearText(entry.year);
+    alternatives=events.filter(e=>e.year!==entry.year).map(e=>yearText(e.year));
+    explanation=entry.title+' · '+(o.date||yearText(entry.year));
+  }
+  const choices=shuffled([right,...shuffled([...new Set(alternatives)].filter(v=>v!==right)).slice(0,2)]);
+  $('challenge').innerHTML='<label class="quiz-topic">Chủ đề <select id="quiz-topic">'+
+    [['all','Tổng hợp'],['ev','Sự kiện'],['np','Nhân vật'],['sci','Khoa học'],['cul','Văn hóa']].map(([key,label])=>'<option value="'+key+'">'+label+'</option>').join('')+
+    '</select></label><h2>'+escapeHTML(ask)+'</h2>'+
+    '<p class="quiz-prompt">'+escapeHTML(entry.kind==='np'&&mode%2===0?o.role:mode===0&&entry.kind==='ev'?'Chọn một đáp án.':entry.title)+'</p>'+
+    choices.map((choice,i)=>'<button class="answer" data-answer="'+i+'">'+escapeHTML(choice)+'</button>').join('')+
     '<div id="quiz-feedback" role="status"></div>';
-  $('challenge').querySelectorAll('.answer').forEach(button => button.onclick = () => {
-    const answer = pair[Number(button.dataset.answer)];
-    const sorted = pair.slice().sort((x,y)=>x.year-y.year);
-    $('challenge').querySelectorAll('.answer').forEach(btn=>btn.disabled=true);
-    $('quiz-feedback').innerHTML = '<b>'+(answer===sorted[0]?'Đúng rồi.':'Thứ tự đúng là')+'</b>'+
-      sorted.map(e=>'<a class="answer-date" href="'+href(e)+'">'+yearText(e.year)+' · '+escapeHTML(e.title)+' →</a>').join('')+
-      '<button class="secondary-path" id="another">Thử câu tiếp →</button>';
+  $('quiz-topic').value=quizTopic;
+  $('quiz-topic').onchange=()=>{quizTopic=$('quiz-topic').value;newQuestion();};
+  $('challenge').querySelectorAll('.answer').forEach(button=>button.onclick=()=>{
+    const answer=choices[Number(button.dataset.answer)];
+    $('challenge').querySelectorAll('.answer').forEach(btn=>{
+      btn.disabled=true;
+      btn.classList.toggle('correct',choices[Number(btn.dataset.answer)]===right);
+    });
+    $('quiz-feedback').innerHTML='<b>'+(answer===right?'Đúng rồi.':'Đáp án đúng: '+escapeHTML(right))+'</b><p>'+escapeHTML(explanation)+'</p>'+
+      '<a class="answer-date" href="'+href(entry)+'">Đọc câu chuyện liên quan →</a><button class="secondary-path" id="another">Câu tiếp →</button>';
     $('another').onclick=newQuestion;
   });
 }

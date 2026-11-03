@@ -1322,6 +1322,7 @@ summary.xs-h:focus-visible { outline: 2px solid var(--gold); }
       ${box('why', noteTitle(o.id, 'why'), o.why)}${box('alt', noteTitle(o.id, 'alt'), o.alt)}${box('fun', 'Bạn có biết?', o.fun)}${box('vnl', 'Liên hệ Việt Nam', o.vn)}
       ${relHTML(o)}
       ${sameTimeHTML(o.y, o.lane, 4)}
+      ${o.ref ? `<a class="btn" href="${esc(o.ref)}" target="_blank" rel="noopener">Nguồn tham khảo ↗</a>` : ""}
       ${navHTML(o)}
     </article>`;
   }
@@ -1341,6 +1342,7 @@ summary.xs-h:focus-visible { outline: 2px solid var(--gold); }
       ${box('key', 'Khoảnh khắc làm nên tên tuổi', `Năm ${fy(o.k)}, ${o.n} ${o.act}.`)}${box('same', 'Cùng thời thú vị', o.same)}${box('fun', 'Bạn có biết?', o.fun)}
       ${cont}
       ${sameTimeHTML(o.k, o.lane, 0)}
+      ${o.ref ? `<a class="btn" href="${esc(o.ref)}" target="_blank" rel="noopener">Nguồn tham khảo ↗</a>` : ""}
       ${navHTML(o)}
     </article>`;
   }
@@ -1360,6 +1362,7 @@ summary.xs-h:focus-visible { outline: 2px solid var(--gold); }
       ${top.length ? `<section class="sec"><h3>Các mốc trong thời kỳ<small>${evs.length} sự kiện</small></h3><ul class="rel">${top.map(evRef).join('')}</ul></section>` : ''}
       ${ppl.length ? `<section class="sec"><h3>Nhân vật của thời kỳ</h3><div class="xs-pp" data-l="${o.lane}">${ppl.map((p) => `<button type="button" class="pp" data-open="${p.id}">${esc(p.n)}<small>${esc(p.life)}</small></button>`).join('')}</div></section>` : ''}
       <section class="sec"><h3>Cùng thời ở nơi khác<small>${esc(fr(o.s, o.e))}</small></h3><div class="xs">${others.map((x) => `<section class="xs-lane" data-l="${x.l.id}"><div class="xs-h"><i class="sw"></i><b>${esc(x.l.name)}</b></div><div class="pdx">${x.ps.map((p) => `<button type="button" class="pp" data-open="${p.id}">${esc(p.t)}<small>${esc(fr(p.s, p.e))}</small></button>`).join('')}</div></section>`).join('')}</div></section>
+      ${o.ref ? `<a class="btn" href="${esc(o.ref)}" target="_blank" rel="noopener">Nguồn tham khảo ↗</a>` : ""}
       ${navHTML(o)}
     </article>`;
   }

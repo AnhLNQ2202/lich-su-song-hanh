@@ -102,3 +102,9 @@ dialog{color:var(--ink);background:var(--paper);border:1px solid var(--line);bor
 .person-scene p { margin:8px 0; font:18px/1.6 var(--serif); }
 .person-scene small { font:13px/1.6 var(--ui); color:var(--rust); }
 .person-scene:hover strong { text-decoration:underline; text-underline-offset:4px; }
+
+.quiz-topic { display:flex; align-items:center; gap:12px; font-size:14px; }
+.quiz-topic select { min-height:44px; background:var(--paper); border:1px solid var(--line); border-radius:6px; padding:4px 8px; }
+.quiz-prompt { font:22px/1.5 var(--serif); }
+.answer.correct { border:2px solid var(--ink); background:#e1ece5; color:var(--ink); }
+.answer:disabled { opacity:1; cursor:default; }

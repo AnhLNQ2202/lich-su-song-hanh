@@ -1178,9 +1178,9 @@ TL_DATA.push({
       vn: 'Văn Miếu ở Thăng Long (1070) được xây để thờ Khổng Tử; Nho học theo con đường khoa cử trở thành nền giáo dục chính của Đại Việt.' },
 
     { id: 'cn-ton-tu-binh-phap-512tcn', y: -512, ca: true, date: 'Cuối thế kỷ VI TCN', r: 'Trung Quốc',
-      t: 'Tôn Tử viết Binh pháp', c: 'cul', imp: 2, who: 'Tôn Vũ (Tôn Tử)', place: 'Nước Ngô',
-      d: 'Tôn Vũ, thường gọi là Tôn Tử, là tướng giỏi phục vụ vua nước Ngô. Cuốn Binh pháp Tôn Tử gồm 13 thiên bàn về cách dùng binh: biết người biết ta, đánh vào chỗ yếu, lợi dụng địa hình, và hay nhất là thắng mà không cần đánh.',
-      why: 'Là cuốn sách quân sự nổi tiếng nhất thế giới, đến nay vẫn được học ở trường quân sự và cả trường kinh doanh.',
+      ref: 'https://afe.easia.columbia.edu/ps/cup/sunzi_art_of_war.pdf', t: 'Binh pháp Tôn Tử và vấn đề tác giả', c: 'cul', imp: 2, who: 'Tôn Vũ (Tôn Tử)', place: 'Nước Ngô',
+      d: 'Truyền thống gắn Binh pháp với Tôn Vũ, một người được kể là phục vụ nước Ngô cuối thời Xuân Thu. Tuy nhiên, sự tồn tại của nhân vật và thời điểm biên soạn văn bản còn được giới nghiên cứu tranh luận. Mốc cuối thế kỷ VI TCN trên dòng thời gian là niên đại theo truyền thống, không phải ngày tác phẩm đã được xác định chắc chắn. Sách gồm 13 thiên bàn về chiến lược và việc dùng binh.',
+      why: 'Là một tác phẩm quân sự có ảnh hưởng lâu dài, được đọc và diễn giải trong nhiều bối cảnh khác nhau.',
       fun: 'Câu nổi tiếng thường bị nhớ thành “biết người biết ta, trăm trận trăm thắng”, nhưng nguyên văn là “trăm trận không nguy”. Tôn Tử thực tế hơn chúng ta tưởng.',
       alt: 'Một cuốn sách về chiến tranh mà ý tưởng hay nhất lại là tránh đánh nhau: không đánh mà khiến đối phương khuất phục mới là giỏi nhất.' },
 
@@ -1377,7 +1377,7 @@ TL_DATA.push({
       alt: 'Chuyện tình Đường Minh Hoàng – Dương Quý Phi thường được kể như một bi kịch lãng mạn, nhưng với hàng triệu thường dân, đó là hậu quả của một triều đình lơ là chính sự.',
       vn: 'Nhà Đường suy yếu sau loạn này; ở An Nam, các cuộc nổi dậy như khởi nghĩa Phùng Hưng (khoảng 776–791) nổ ra.' },
 
-    { id: 'cn-kinh-kim-cuong-868', y: 868, r: 'Trung Quốc',
+    { id: 'cn-kinh-kim-cuong-868', ref: 'https://idp.bl.uk/wp-content/uploads/2025/01/BL.SR_.Large_.Print_.Guide_.V3.pdf', y: 868, r: 'Trung Quốc',
       t: 'Kinh Kim Cương: sách in cổ nhất có ghi năm', c: 'sci', imp: 2, place: 'Đôn Hoàng (Cam Túc)',
       d: 'Cuốn Kinh Kim Cương in bằng ván khắc gỗ, ghi rõ ngày in năm 868, được tìm thấy năm 1900 trong hang Mạc Cao ở Đôn Hoàng, giữa hàng vạn cuốn sách cổ bị niêm phong nhiều thế kỷ. Đây là cuốn sách in còn nguyên vẹn có ghi niên đại sớm nhất thế giới, cổ hơn Kinh Thánh của Gutenberg gần 600 năm.',
       why: 'Chứng minh kỹ thuật in khắc gỗ đã rất phát triển thời Đường, giúp kinh Phật, lịch, sách học lan rộng.',
@@ -1819,10 +1819,10 @@ TL_DATA.push({
       d: 'Hốt Tất Liệt hai lần sai quân Nguyên và Cao Ly vượt biển đánh Nhật Bản, vào năm 1274 và 1281. Các samurai chống trả quyết liệt trên bờ biển Hakata, lần sau còn đắp cả tường đá dọc bờ biển. Cả hai lần, bão lớn đánh tan phần lớn hạm đội xâm lược; người Nhật gọi đó là kamikaze, “gió thần”.',
       why: 'Thất bại của Mông Cổ củng cố niềm tin rằng Nhật Bản được thần linh che chở, nhưng cũng khiến Mạc phủ Kamakura suy yếu vì không có đất đai để ban thưởng cho samurai.',
       vn: 'Năm 1286, Hốt Tất Liệt gác kế hoạch đánh Nhật lần thứ ba để dồn sức đánh Đại Việt. Thất bại ở Bạch Đằng năm 1288 khiến kế hoạch ấy không bao giờ thành hiện thực: Đại Việt đã gián tiếp “che chắn” cho Nhật Bản.' },
-    { id: 'ea-jikji-1377', y: 1377, r: 'Triều Tiên', t: 'Jikji, sách in chữ kim loại cổ nhất', c: 'sci', imp: 2, place: 'Chùa Hưng Đức, Cheongju',
+    { id: 'ea-jikji-1377', ref: 'https://www.bnf.fr/en/jikji-treasure-world-printing', y: 1377, r: 'Triều Tiên', t: 'Jikji, sách in chữ kim loại cổ nhất', c: 'sci', imp: 2, place: 'Chùa Hưng Đức, Cheongju',
       d: 'Năm 1377, chùa Hưng Đức (Heungdeok) ở Cheongju in cuốn Jikji, tuyển tập lời dạy của các thiền sư, bằng những con chữ rời đúc từ kim loại. Đây là cuốn sách in chữ kim loại cổ nhất còn tồn tại, ra đời trước Kinh Thánh của Gutenberg khoảng 78 năm.',
       why: 'Cho thấy người Triều Tiên đã làm chủ kỹ thuật in chữ rời kim loại rất sớm, trước cả châu Âu.',
-      fun: 'Bản Jikji duy nhất còn lại hiện không ở Hàn Quốc mà nằm trong Thư viện Quốc gia Pháp ở Paris, do một nhà ngoại giao Pháp mang về cuối thế kỷ XIX.' },
+      fun: 'Bản in chữ kim loại năm 1377 còn lại ở Thư viện Quốc gia Pháp là quyển thứ hai, không phải trọn bộ. Bản khắc gỗ đầy đủ năm 1378 được lưu giữ ở Hàn Quốc.' },
     { id: 'ea-trieu-dai-joseon-1392', y: 1392, r: 'Triều Tiên', t: 'Lý Thành Quế lập triều Joseon', c: 'pol', imp: 3, who: 'Lý Thành Quế (Yi Seong-gye)', place: 'Hán Dương (Seoul)',
       d: 'Năm 1392, tướng Lý Thành Quế lật đổ nhà Cao Ly, lập vương triều mới lấy quốc hiệu là Triều Tiên (Joseon), rồi dời đô về Hán Dương, tức Seoul ngày nay. Nhà Joseon lấy Nho giáo làm nền tảng cai trị và tuyển chọn quan lại qua thi cử.',
       why: 'Joseon tồn tại hơn 500 năm, là một trong những vương triều lâu đời nhất thế giới và định hình văn hóa truyền thống của người Hàn.',
@@ -1938,7 +1938,7 @@ TL_DATA.push({
       vn: 'Ở Việt Nam, Nhật và Pháp cùng cai trị (1940–1945), vơ vét lúa gạo và bắt nhổ lúa trồng đay, góp phần gây ra nạn đói năm Ất Dậu (1945) làm khoảng 2 triệu người chết.' },
     { id: 'ea-hiroshima-nagasaki-1945', y: 1945, date: '6/8 – 15/8/1945', r: 'Nhật Bản', t: 'Hiroshima, Nagasaki và Nhật đầu hàng', c: 'war', imp: 3, place: 'Hiroshima, Nagasaki',
       d: 'Ngày 6/8 và 9/8/1945, Mỹ ném hai quả bom nguyên tử xuống Hiroshima và Nagasaki; ước tính từ khoảng 130.000 đến hơn 200.000 người đã chết ngay lập tức hoặc trong vài tháng sau đó. Ngày 8/8, Liên Xô tuyên chiến với Nhật. Ngày 15/8/1945, Thiên hoàng Chiêu Hòa tuyên bố đầu hàng qua đài phát thanh.',
-      why: 'Chiến tranh thế giới thứ hai kết thúc; đây là lần duy nhất vũ khí hạt nhân được dùng trong chiến tranh, mở ra thời đại hạt nhân đầy lo âu.',
+      why: 'Chiến tranh thế giới thứ hai kết thúc; Hiroshima và Nagasaki là hai lần vũ khí hạt nhân được dùng trong chiến tranh, mở ra thời đại hạt nhân đầy lo âu.',
       vn: 'Nhật đầu hàng tạo ra “thời cơ ngàn năm có một” cho Cách mạng tháng Tám ở Việt Nam. Đúng ngày 2/9/1945, khi Nhật ký văn kiện đầu hàng trên chiến hạm Missouri, Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập ở Hà Nội.' },
     { id: 'ea-trieu-tien-chia-cat-1945', y: 1945, y2: 1948, r: 'Triều Tiên', t: 'Triều Tiên giải phóng và bị chia cắt', c: 'pol', imp: 3,
       d: 'Nhật đầu hàng ngày 15/8/1945, Triều Tiên được giải phóng nhưng bị chia đôi theo vĩ tuyến 38: quân Liên Xô đóng ở miền Bắc, quân Mỹ ở miền Nam. Năm 1948, hai nhà nước ra đời: Đại Hàn Dân Quốc (Hàn Quốc) ở phía nam và Cộng hòa Dân chủ Nhân dân Triều Tiên ở phía bắc.',
@@ -4516,9 +4516,9 @@ TL_PEOPLE.push({
       same: 'Thế kỷ VI TCN là “thời của các nhà hiền triết”: Khổng Tử gần như cùng thời với Đức Phật ở Ấn Độ (theo một cách tính phổ biến, khoảng 563–483 TCN) và nhà toán học Pythagoras ở Hy Lạp (khoảng 570–495 TCN).' },
 
     { id: 'cn-np-ton-tu', n: 'Tôn Tử', b: -544, d: -496, cb: true, cd: true,
-      role: 'Nhà quân sự, tác giả Binh pháp Tôn Tử', c: 'war', imp: 2, r: 'Trung Quốc',
+      ref: 'https://afe.easia.columbia.edu/ps/cup/sunzi_art_of_war.pdf', role: 'Nhân vật theo truyền thống gắn với Binh pháp Tôn Tử', c: 'war', imp: 2, r: 'Trung Quốc',
       k: -512, act: 'dâng bộ Binh pháp 13 thiên lên Ngô vương Hạp Lư và được trọng dụng',
-      bio: 'Tên thật là Tôn Vũ, người nước Tề, sau sang giúp nước Ngô thời Xuân Thu. Theo Sử ký của Tư Mã Thiên, ông giúp vua Ngô đánh bại nước Sở hùng mạnh. Binh pháp Tôn Tử đề cao mưu lược, tình báo và việc thắng mà không cần đánh; đến nay sách vẫn được đọc ở các học viện quân sự lẫn trường kinh doanh. Năm sinh, năm mất của ông chỉ là ước đoán.',
+      bio: 'Tên thật là Tôn Vũ, người nước Tề, sau sang giúp nước Ngô thời Xuân Thu. Theo Sử ký của Tư Mã Thiên, ông giúp vua Ngô đánh bại nước Sở hùng mạnh. Binh pháp Tôn Tử đề cao mưu lược, tình báo và việc thắng mà không cần đánh; đến nay sách vẫn được đọc ở các học viện quân sự lẫn trường kinh doanh. Năm sinh, năm mất là các mốc theo truyền thống. Có học giả đặt vấn đề về sự tồn tại của nhân vật cũng như thời điểm hình thành văn bản.',
       fun: 'Câu nổi tiếng thường được nhớ là “biết người biết ta, trăm trận trăm thắng”, nhưng nguyên văn là “tri bỉ tri kỷ, bách chiến bất đãi”, nghĩa là trăm trận không nguy. Hóa ra Tôn Tử thận trọng hơn nhiều người tưởng.' },
 
     { id: 'cn-np-manh-tu', n: 'Mạnh Tử', b: -372, d: -289, cb: true, cd: true,
@@ -6674,3 +6674,821 @@ TL_SLICES.push({"id": "sl-1963", "y": 1963, "t": "Năm 1963: Những tiếng nó
 TL_SLICES.push({"id": "sl-1993", "y": 1993, "t": "Năm 1993: Di sản, liên minh và những câu chuyện được lắng nghe", "d": "Năm 1993, quần thể di tích Cố đô Huế được ghi tên vào Danh sách Di sản Thế giới. Một kinh đô cũ bước vào một mạng lưới bảo tồn quốc tế. Ở châu Âu, Hiệp ước Maastricht có hiệu lực ngày 1/11, đưa Liên minh châu Âu vào tồn tại. Cùng năm ấy, Toni Morrison nhận Nobel Văn học với những tiểu thuyết đưa trải nghiệm của người Mỹ da đen vào trung tâm câu chuyện. Đặt các mốc cạnh nhau, ta có thể đọc năm 1993 qua ba câu hỏi: giữ lại điều gì từ quá khứ, cùng nhau xây dựng thể chế nào, và những ai được quyền kể lịch sử của mình?", "ev": ["vn-hue-1993", "eu-eu-1993", "lit-event-670"], "ref": "https://whc.unesco.org/en/list/678"});
 
 TL_SLICES.push({"id": "sl-2023", "y": 2023, "t": "Năm 2023: Một cuộc hạ cánh ở phía nam Mặt Trăng", "d": "Ngày 23/8/2023, tàu đổ bộ Vikram của sứ mệnh Chandrayaan-3 hạ cánh mềm xuống Mặt Trăng. Điểm đáp nằm ở khoảng 69,37 độ vĩ nam, thuộc vùng vĩ độ cao phía nam. Cách nói này giúp hình dung chính xác hơn so với việc tưởng tượng tàu đã đáp ngay tại cực nam. Thành tựu của Ấn Độ tiếp nối một lịch sử khám phá vũ trụ có cả những lần thất bại lẫn những lần thử lại. Khi nhìn một mốc công nghệ trên dòng thời gian, ta thấy rõ kết quả ở ngày hạ cánh; những năm thiết kế, kiểm tra và điều chỉnh lại thường nằm phía sau nó.", "ev": ["sa-chandrayaan-3-mat-trang-2023", "am-apollo-11-1969"], "ref": "https://www.isro.gov.in/media_isro/pdf/APXS_CH3.pdf"});
+
+TL_DATA.push({
+  "lane": "eu",
+  "periods": [],
+  "events": [
+    {
+      "id": "phy-nobel-1901",
+      "y": 1901,
+      "t": "Tia X mở ra một cách nhìn mới — Nobel Vật lý 1901",
+      "c": "sci",
+      "imp": 1,
+      "who": "Wilhelm Conrad Röntgen",
+      "d": "Röntgen được vinh danh vì phát hiện loại bức xạ về sau mang tên ông. Giải thưởng ghi nhận một phát hiện trước đó, vì vậy năm trao Nobel không phải năm tìm ra tia X.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1901/summary/"
+    },
+    {
+      "id": "phy-nobel-1918",
+      "y": 1919,
+      "t": "Lượng tử năng lượng được ghi nhận — Nobel Vật lý 1918",
+      "c": "sci",
+      "imp": 1,
+      "who": "Max Planck",
+      "d": "Planck được ghi nhận vì đưa ra khái niệm lượng tử năng lượng. Công trình ấy góp phần thay đổi cách các nhà vật lý mô tả trao đổi năng lượng ở quy mô rất nhỏ. Giải mang niên hiệu 1918 được quyết định trao vào năm 1919.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1918/summary/"
+    },
+    {
+      "id": "phy-nobel-1922",
+      "y": 1922,
+      "t": "Đi tìm cấu trúc nguyên tử — Nobel Vật lý 1922",
+      "c": "sci",
+      "imp": 1,
+      "who": "Niels Bohr",
+      "d": "Niels Bohr được ghi nhận vì những nghiên cứu về cấu trúc nguyên tử và bức xạ phát ra từ nguyên tử.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1922/summary/"
+    },
+    {
+      "id": "phy-nobel-1925",
+      "y": 1926,
+      "t": "Khi electron va vào nguyên tử — Nobel Vật lý 1925",
+      "c": "sci",
+      "imp": 1,
+      "who": "James Franck, Gustav Hertz",
+      "d": "James Franck và Gustav Hertz cùng được vinh danh vì những định luật liên quan đến va chạm giữa electron với nguyên tử. Giải mang niên hiệu 1925 được quyết định trao vào năm 1926.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1925/summary/"
+    },
+    {
+      "id": "phy-nobel-1929",
+      "y": 1929,
+      "t": "Electron cũng có tính chất sóng — Nobel Vật lý 1929",
+      "c": "sci",
+      "imp": 1,
+      "who": "Louis de Broglie",
+      "d": "Louis de Broglie được ghi nhận vì phát hiện bản chất sóng của electron.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1929/summary/"
+    },
+    {
+      "id": "phy-nobel-1932",
+      "y": 1933,
+      "t": "Cơ học lượng tử bước vào một giai đoạn mới — Nobel Vật lý 1932",
+      "c": "sci",
+      "imp": 1,
+      "who": "Werner Heisenberg",
+      "d": "Werner Heisenberg được vinh danh vì xây dựng cơ học lượng tử và những ứng dụng của lý thuyết này. Giải mang niên hiệu 1932 được quyết định trao vào năm 1933.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1932/summary/"
+    },
+    {
+      "id": "phy-nobel-1933",
+      "y": 1933,
+      "t": "Những cách mô tả nguyên tử mới — Nobel Vật lý 1933",
+      "c": "sci",
+      "imp": 1,
+      "who": "Erwin Schrödinger, Paul A.M. Dirac",
+      "d": "Erwin Schrödinger và Paul Dirac cùng được trao giải vì phát hiện những hình thức mới của lý thuyết nguyên tử.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1933/summary/"
+    },
+    {
+      "id": "phy-nobel-1935",
+      "y": 1935,
+      "t": "Neutron được ghi nhận ở Stockholm — Nobel Vật lý 1935",
+      "c": "sci",
+      "imp": 1,
+      "who": "James Chadwick",
+      "d": "James Chadwick được trao giải vì phát hiện neutron. Mốc giải thưởng đánh dấu sự công nhận cho nghiên cứu đã được thực hiện trước đó.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1935/summary/"
+    },
+    {
+      "id": "phy-nobel-1950",
+      "y": 1950,
+      "t": "Dấu vết hạt trên ảnh chụp — Nobel Vật lý 1950",
+      "c": "sci",
+      "imp": 1,
+      "who": "Cecil Powell",
+      "d": "Cecil Powell được trao giải vì phát triển phương pháp ảnh để nghiên cứu quá trình hạt nhân và những phát hiện về meson nhờ phương pháp ấy.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1950/summary/"
+    },
+    {
+      "id": "phy-nobel-1964",
+      "y": 1964,
+      "t": "Từ điện tử lượng tử đến maser và laser — Nobel Vật lý 1964",
+      "c": "sci",
+      "imp": 1,
+      "who": "Charles H. Townes, Nicolay G. Basov, Aleksandr M. Prokhorov",
+      "d": "Charles Townes, Nicolay Basov và Aleksandr Prokhorov cùng được ghi nhận vì công trình nền tảng trong điện tử lượng tử, dẫn đến các bộ dao động và khuếch đại dựa trên nguyên lý maser–laser.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1964/summary/"
+    },
+    {
+      "id": "phy-nobel-2005",
+      "y": 2005,
+      "t": "Đo ánh sáng và hiểu tính kết hợp quang học — Nobel Vật lý 2005",
+      "c": "sci",
+      "imp": 1,
+      "who": "Roy J. Glauber, John L. Hall, Theodor W. Hänsch",
+      "d": "Roy Glauber được ghi nhận vì đóng góp cho lý thuyết lượng tử về tính kết hợp quang học. John Hall và Theodor Hänsch được ghi nhận vì quang phổ chính xác dựa trên laser, trong đó có kỹ thuật lược tần quang học.",
+      "ref": "https://www.nobelprize.org/prizes/physics/2005/summary/"
+    },
+    {
+      "id": "phy-nobel-2013",
+      "y": 2013,
+      "t": "Cơ chế giúp giải thích nguồn gốc khối lượng — Nobel Vật lý 2013",
+      "c": "sci",
+      "imp": 1,
+      "who": "François Englert, Peter Higgs",
+      "d": "François Englert và Peter Higgs được trao giải vì phát hiện lý thuyết về một cơ chế liên quan đến nguồn gốc khối lượng của các hạt hạ nguyên tử. Các thí nghiệm ATLAS và CMS tại CERN đã xác nhận hạt cơ bản được dự đoán bởi lý thuyết.",
+      "ref": "https://www.nobelprize.org/prizes/physics/2013/summary/"
+    },
+    {
+      "id": "phy-nobel-2020",
+      "y": 2020,
+      "t": "Từ dự đoán hố đen đến quan sát tâm Ngân Hà — Nobel Vật lý 2020",
+      "c": "sci",
+      "imp": 1,
+      "who": "Roger Penrose, Reinhard Genzel, Andrea Ghez",
+      "d": "Roger Penrose được ghi nhận vì chỉ ra sự hình thành hố đen là một dự đoán vững chắc của thuyết tương đối rộng. Reinhard Genzel và Andrea Ghez được ghi nhận vì phát hiện vật thể đặc siêu khối lượng ở tâm Ngân Hà.",
+      "ref": "https://www.nobelprize.org/prizes/physics/2020/summary/"
+    }
+  ]
+});
+
+TL_PEOPLE.push({
+  "lane": "eu",
+  "people": [
+    {
+      "id": "phy-person-1",
+      "n": "Wilhelm Conrad Röntgen",
+      "b": 1845,
+      "d": 1923,
+      "k": 1901,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 1901",
+      "bio": "Röntgen được vinh danh vì phát hiện loại bức xạ về sau mang tên ông. Giải thưởng ghi nhận một phát hiện trước đó, vì vậy năm trao Nobel không phải năm tìm ra tia X.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1901/rontgen/facts/"
+    },
+    {
+      "id": "phy-person-23",
+      "n": "Max Planck",
+      "b": 1858,
+      "d": 1947,
+      "k": 1919,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 1918",
+      "bio": "Planck được ghi nhận vì đưa ra khái niệm lượng tử năng lượng. Công trình ấy góp phần thay đổi cách các nhà vật lý mô tả trao đổi năng lượng ở quy mô rất nhỏ. Giải mang niên hiệu 1918 được quyết định trao vào năm 1919.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1918/planck/facts/"
+    },
+    {
+      "id": "phy-person-27",
+      "n": "Niels Bohr",
+      "b": 1885,
+      "d": 1962,
+      "k": 1922,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 1922",
+      "bio": "Niels Bohr được ghi nhận vì những nghiên cứu về cấu trúc nguyên tử và bức xạ phát ra từ nguyên tử.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1922/bohr/facts/"
+    },
+    {
+      "id": "phy-person-30",
+      "n": "James Franck",
+      "b": 1882,
+      "d": 1964,
+      "k": 1926,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 1925",
+      "bio": "James Franck và Gustav Hertz cùng được vinh danh vì những định luật liên quan đến va chạm giữa electron với nguyên tử. Giải mang niên hiệu 1925 được quyết định trao vào năm 1926.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1925/franck/facts/"
+    },
+    {
+      "id": "phy-person-31",
+      "n": "Gustav Hertz",
+      "b": 1887,
+      "d": 1975,
+      "k": 1926,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 1925",
+      "bio": "James Franck và Gustav Hertz cùng được vinh danh vì những định luật liên quan đến va chạm giữa electron với nguyên tử. Giải mang niên hiệu 1925 được quyết định trao vào năm 1926.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1925/hertz/facts/"
+    },
+    {
+      "id": "phy-person-36",
+      "n": "Louis de Broglie",
+      "b": 1892,
+      "d": 1987,
+      "k": 1929,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 1929",
+      "bio": "Louis de Broglie được ghi nhận vì phát hiện bản chất sóng của electron.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1929/broglie/facts/"
+    },
+    {
+      "id": "phy-person-38",
+      "n": "Werner Heisenberg",
+      "b": 1901,
+      "d": 1976,
+      "k": 1933,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 1932",
+      "bio": "Werner Heisenberg được vinh danh vì xây dựng cơ học lượng tử và những ứng dụng của lý thuyết này. Giải mang niên hiệu 1932 được quyết định trao vào năm 1933.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1932/heisenberg/facts/"
+    },
+    {
+      "id": "phy-person-39",
+      "n": "Erwin Schrödinger",
+      "b": 1887,
+      "d": 1961,
+      "k": 1933,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 1933",
+      "bio": "Erwin Schrödinger và Paul Dirac cùng được trao giải vì phát hiện những hình thức mới của lý thuyết nguyên tử.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1933/schrodinger/facts/"
+    },
+    {
+      "id": "phy-person-40",
+      "n": "Paul A.M. Dirac",
+      "b": 1902,
+      "d": 1984,
+      "k": 1933,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 1933",
+      "bio": "Erwin Schrödinger và Paul Dirac cùng được trao giải vì phát hiện những hình thức mới của lý thuyết nguyên tử.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1933/dirac/facts/"
+    },
+    {
+      "id": "phy-person-41",
+      "n": "James Chadwick",
+      "b": 1891,
+      "d": 1974,
+      "k": 1935,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 1935",
+      "bio": "James Chadwick được trao giải vì phát hiện neutron. Mốc giải thưởng đánh dấu sự công nhận cho nghiên cứu đã được thực hiện trước đó.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1935/chadwick/facts/"
+    },
+    {
+      "id": "phy-person-55",
+      "n": "Cecil Powell",
+      "b": 1903,
+      "d": 1969,
+      "k": 1950,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 1950",
+      "bio": "Cecil Powell được trao giải vì phát triển phương pháp ảnh để nghiên cứu quá trình hạt nhân và những phát hiện về meson nhờ phương pháp ấy.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1950/powell/facts/"
+    },
+    {
+      "id": "phy-person-82",
+      "n": "Nicolay G. Basov",
+      "b": 1922,
+      "d": 2001,
+      "k": 1964,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 1964",
+      "bio": "Charles Townes, Nicolay Basov và Aleksandr Prokhorov cùng được ghi nhận vì công trình nền tảng trong điện tử lượng tử, dẫn đến các bộ dao động và khuếch đại dựa trên nguyên lý maser–laser.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1964/basov/facts/"
+    },
+    {
+      "id": "phy-person-83",
+      "n": "Aleksandr M. Prokhorov",
+      "b": 1916,
+      "d": 2002,
+      "k": 1964,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 1964",
+      "bio": "Charles Townes, Nicolay Basov và Aleksandr Prokhorov cùng được ghi nhận vì công trình nền tảng trong điện tử lượng tử, dẫn đến các bộ dao động và khuếch đại dựa trên nguyên lý maser–laser.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1964/prokhorov/facts/"
+    },
+    {
+      "id": "phy-person-153",
+      "n": "Claude Cohen-Tannoudji",
+      "b": 1933,
+      "d": null,
+      "k": 1997,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 1997",
+      "bio": "Steven Chu, Claude Cohen-Tannoudji và William Phillips cùng nhận giải vì phát triển các phương pháp làm lạnh và bẫy nguyên tử bằng ánh sáng laser.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1997/cohen-tannoudji/facts/"
+    },
+    {
+      "id": "phy-person-739",
+      "n": "Wolfgang Ketterle",
+      "b": 1957,
+      "d": null,
+      "k": 2001,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 2001",
+      "bio": "Eric Cornell, Wolfgang Ketterle và Carl Wieman được vinh danh vì tạo ra trạng thái ngưng tụ Bose–Einstein trong các khí kiềm loãng và nghiên cứu những tính chất ban đầu của trạng thái ấy.",
+      "ref": "https://www.nobelprize.org/prizes/physics/2001/ketterle/facts/"
+    },
+    {
+      "id": "phy-person-791",
+      "n": "Roy J. Glauber",
+      "b": 1925,
+      "d": 2018,
+      "k": 2005,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 2005",
+      "bio": "Roy Glauber được ghi nhận vì đóng góp cho lý thuyết lượng tử về tính kết hợp quang học. John Hall và Theodor Hänsch được ghi nhận vì quang phổ chính xác dựa trên laser, trong đó có kỹ thuật lược tần quang học.",
+      "ref": "https://www.nobelprize.org/prizes/physics/2005/glauber/facts/"
+    },
+    {
+      "id": "phy-person-792",
+      "n": "John L. Hall",
+      "b": 1934,
+      "d": null,
+      "k": 2005,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 2005",
+      "bio": "Roy Glauber được ghi nhận vì đóng góp cho lý thuyết lượng tử về tính kết hợp quang học. John Hall và Theodor Hänsch được ghi nhận vì quang phổ chính xác dựa trên laser, trong đó có kỹ thuật lược tần quang học.",
+      "ref": "https://www.nobelprize.org/prizes/physics/2005/hall/facts/"
+    },
+    {
+      "id": "phy-person-793",
+      "n": "Theodor W. Hänsch",
+      "b": 1941,
+      "d": null,
+      "k": 2005,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 2005",
+      "bio": "Roy Glauber được ghi nhận vì đóng góp cho lý thuyết lượng tử về tính kết hợp quang học. John Hall và Theodor Hänsch được ghi nhận vì quang phổ chính xác dựa trên laser, trong đó có kỹ thuật lược tần quang học.",
+      "ref": "https://www.nobelprize.org/prizes/physics/2005/hansch/facts/"
+    },
+    {
+      "id": "phy-person-887",
+      "n": "François Englert",
+      "b": 1932,
+      "d": 2026,
+      "k": 2013,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 2013",
+      "bio": "François Englert và Peter Higgs được trao giải vì phát hiện lý thuyết về một cơ chế liên quan đến nguồn gốc khối lượng của các hạt hạ nguyên tử. Các thí nghiệm ATLAS và CMS tại CERN đã xác nhận hạt cơ bản được dự đoán bởi lý thuyết.",
+      "ref": "https://www.nobelprize.org/prizes/physics/2013/englert/facts/"
+    },
+    {
+      "id": "phy-person-888",
+      "n": "Peter Higgs",
+      "b": 1929,
+      "d": 2024,
+      "k": 2013,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 2013",
+      "bio": "François Englert và Peter Higgs được trao giải vì phát hiện lý thuyết về một cơ chế liên quan đến nguồn gốc khối lượng của các hạt hạ nguyên tử. Các thí nghiệm ATLAS và CMS tại CERN đã xác nhận hạt cơ bản được dự đoán bởi lý thuyết.",
+      "ref": "https://www.nobelprize.org/prizes/physics/2013/higgs/facts/"
+    },
+    {
+      "id": "phy-person-961",
+      "n": "Gérard Mourou",
+      "b": 1944,
+      "d": null,
+      "k": 2018,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 2018",
+      "bio": "Arthur Ashkin được ghi nhận vì kẹp quang học và ứng dụng vào hệ sinh học. Gérard Mourou và Donna Strickland được ghi nhận vì phương pháp tạo xung quang học cực ngắn có cường độ cao.",
+      "ref": "https://www.nobelprize.org/prizes/physics/2018/mourou/facts/"
+    },
+    {
+      "id": "phy-person-988",
+      "n": "Roger Penrose",
+      "b": 1931,
+      "d": null,
+      "k": 2020,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 2020",
+      "bio": "Roger Penrose được ghi nhận vì chỉ ra sự hình thành hố đen là một dự đoán vững chắc của thuyết tương đối rộng. Reinhard Genzel và Andrea Ghez được ghi nhận vì phát hiện vật thể đặc siêu khối lượng ở tâm Ngân Hà.",
+      "ref": "https://www.nobelprize.org/prizes/physics/2020/penrose/facts/"
+    },
+    {
+      "id": "phy-person-989",
+      "n": "Reinhard Genzel",
+      "b": 1952,
+      "d": null,
+      "k": 2020,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 2020",
+      "bio": "Roger Penrose được ghi nhận vì chỉ ra sự hình thành hố đen là một dự đoán vững chắc của thuyết tương đối rộng. Reinhard Genzel và Andrea Ghez được ghi nhận vì phát hiện vật thể đặc siêu khối lượng ở tâm Ngân Hà.",
+      "ref": "https://www.nobelprize.org/prizes/physics/2020/genzel/facts/"
+    }
+  ]
+});
+
+TL_DATA.push({
+  "lane": "am",
+  "periods": [],
+  "events": [
+    {
+      "id": "phy-nobel-1927",
+      "y": 1927,
+      "t": "Tán xạ ánh sáng hé lộ tính chất của vật chất — Nobel Vật lý 1927",
+      "c": "sci",
+      "imp": 1,
+      "who": "Arthur H. Compton",
+      "d": "Arthur Compton được trao giải cho hiệu ứng mang tên ông. Đây là một phần của giải năm đó, không phải toàn bộ giải.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1927/summary/"
+    },
+    {
+      "id": "phy-nobel-1956",
+      "y": 1956,
+      "t": "Nghiên cứu bán dẫn và hiệu ứng transistor — Nobel Vật lý 1956",
+      "c": "sci",
+      "imp": 1,
+      "who": "William B. Shockley, John Bardeen, Walter H. Brattain",
+      "d": "William Shockley, John Bardeen và Walter Brattain được ghi nhận vì nghiên cứu chất bán dẫn và phát hiện hiệu ứng transistor.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1956/summary/"
+    },
+    {
+      "id": "phy-nobel-1969",
+      "y": 1969,
+      "t": "Sắp xếp thế giới các hạt cơ bản — Nobel Vật lý 1969",
+      "c": "sci",
+      "imp": 1,
+      "who": "Murray Gell-Mann",
+      "d": "Murray Gell-Mann được ghi nhận vì những đóng góp và khám phá về phân loại hạt cơ bản cùng các tương tác của chúng.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1969/summary/"
+    },
+    {
+      "id": "phy-nobel-1997",
+      "y": 1997,
+      "t": "Dùng ánh sáng để làm lạnh và giữ nguyên tử — Nobel Vật lý 1997",
+      "c": "sci",
+      "imp": 1,
+      "who": "Steven Chu, Claude Cohen-Tannoudji, William D. Phillips",
+      "d": "Steven Chu, Claude Cohen-Tannoudji và William Phillips cùng nhận giải vì phát triển các phương pháp làm lạnh và bẫy nguyên tử bằng ánh sáng laser.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1997/summary/"
+    },
+    {
+      "id": "phy-nobel-2001",
+      "y": 2001,
+      "t": "Ngưng tụ Bose–Einstein trong khí loãng — Nobel Vật lý 2001",
+      "c": "sci",
+      "imp": 1,
+      "who": "Eric Cornell, Wolfgang Ketterle, Carl Wieman",
+      "d": "Eric Cornell, Wolfgang Ketterle và Carl Wieman được vinh danh vì tạo ra trạng thái ngưng tụ Bose–Einstein trong các khí kiềm loãng và nghiên cứu những tính chất ban đầu của trạng thái ấy.",
+      "ref": "https://www.nobelprize.org/prizes/physics/2001/summary/"
+    },
+    {
+      "id": "phy-nobel-2018",
+      "y": 2018,
+      "t": "Kẹp quang học và những xung sáng cực ngắn — Nobel Vật lý 2018",
+      "c": "sci",
+      "imp": 1,
+      "who": "Arthur Ashkin, Gérard Mourou, Donna Strickland",
+      "d": "Arthur Ashkin được ghi nhận vì kẹp quang học và ứng dụng vào hệ sinh học. Gérard Mourou và Donna Strickland được ghi nhận vì phương pháp tạo xung quang học cực ngắn có cường độ cao.",
+      "ref": "https://www.nobelprize.org/prizes/physics/2018/summary/"
+    }
+  ]
+});
+
+TL_PEOPLE.push({
+  "lane": "am",
+  "people": [
+    {
+      "id": "phy-person-33",
+      "n": "Arthur H. Compton",
+      "b": 1892,
+      "d": 1962,
+      "k": 1927,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 1927",
+      "bio": "Arthur Compton được trao giải cho hiệu ứng mang tên ông. Đây là một phần của giải năm đó, không phải toàn bộ giải.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1927/compton/facts/"
+    },
+    {
+      "id": "phy-person-65",
+      "n": "William B. Shockley",
+      "b": 1910,
+      "d": 1989,
+      "k": 1956,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 1956",
+      "bio": "William Shockley, John Bardeen và Walter Brattain được ghi nhận vì nghiên cứu chất bán dẫn và phát hiện hiệu ứng transistor.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1956/shockley/facts/"
+    },
+    {
+      "id": "phy-person-66",
+      "n": "John Bardeen",
+      "b": 1908,
+      "d": 1991,
+      "k": 1956,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 1956",
+      "bio": "William Shockley, John Bardeen và Walter Brattain được ghi nhận vì nghiên cứu chất bán dẫn và phát hiện hiệu ứng transistor.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1956/bardeen/facts/"
+    },
+    {
+      "id": "phy-person-67",
+      "n": "Walter H. Brattain",
+      "b": 1902,
+      "d": 1987,
+      "k": 1956,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 1956",
+      "bio": "William Shockley, John Bardeen và Walter Brattain được ghi nhận vì nghiên cứu chất bán dẫn và phát hiện hiệu ứng transistor.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1956/brattain/facts/"
+    },
+    {
+      "id": "phy-person-81",
+      "n": "Charles H. Townes",
+      "b": 1915,
+      "d": 2015,
+      "k": 1964,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 1964",
+      "bio": "Charles Townes, Nicolay Basov và Aleksandr Prokhorov cùng được ghi nhận vì công trình nền tảng trong điện tử lượng tử, dẫn đến các bộ dao động và khuếch đại dựa trên nguyên lý maser–laser.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1964/townes/facts/"
+    },
+    {
+      "id": "phy-person-85",
+      "n": "Julian Schwinger",
+      "b": 1918,
+      "d": 1994,
+      "k": 1965,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 1965",
+      "bio": "Sin-Itiro Tomonaga, Julian Schwinger và Richard Feynman cùng được vinh danh vì công trình cơ bản trong điện động lực học lượng tử, có tác động sâu rộng đến vật lý hạt.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1965/schwinger/facts/"
+    },
+    {
+      "id": "phy-person-86",
+      "n": "Richard P. Feynman",
+      "b": 1918,
+      "d": 1988,
+      "k": 1965,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 1965",
+      "bio": "Sin-Itiro Tomonaga, Julian Schwinger và Richard Feynman cùng được vinh danh vì công trình cơ bản trong điện động lực học lượng tử, có tác động sâu rộng đến vật lý hạt.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1965/feynman/facts/"
+    },
+    {
+      "id": "phy-person-90",
+      "n": "Murray Gell-Mann",
+      "b": 1929,
+      "d": 2019,
+      "k": 1969,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 1969",
+      "bio": "Murray Gell-Mann được ghi nhận vì những đóng góp và khám phá về phân loại hạt cơ bản cùng các tương tác của chúng.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1969/gell-mann/facts/"
+    },
+    {
+      "id": "phy-person-152",
+      "n": "Steven Chu",
+      "b": 1948,
+      "d": null,
+      "k": 1997,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 1997",
+      "bio": "Steven Chu, Claude Cohen-Tannoudji và William Phillips cùng nhận giải vì phát triển các phương pháp làm lạnh và bẫy nguyên tử bằng ánh sáng laser.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1997/chu/facts/"
+    },
+    {
+      "id": "phy-person-154",
+      "n": "William D. Phillips",
+      "b": 1948,
+      "d": null,
+      "k": 1997,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 1997",
+      "bio": "Steven Chu, Claude Cohen-Tannoudji và William Phillips cùng nhận giải vì phát triển các phương pháp làm lạnh và bẫy nguyên tử bằng ánh sáng laser.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1997/phillips/facts/"
+    },
+    {
+      "id": "phy-person-738",
+      "n": "Eric Cornell",
+      "b": 1961,
+      "d": null,
+      "k": 2001,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 2001",
+      "bio": "Eric Cornell, Wolfgang Ketterle và Carl Wieman được vinh danh vì tạo ra trạng thái ngưng tụ Bose–Einstein trong các khí kiềm loãng và nghiên cứu những tính chất ban đầu của trạng thái ấy.",
+      "ref": "https://www.nobelprize.org/prizes/physics/2001/cornell/facts/"
+    },
+    {
+      "id": "phy-person-740",
+      "n": "Carl Wieman",
+      "b": 1951,
+      "d": null,
+      "k": 2001,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 2001",
+      "bio": "Eric Cornell, Wolfgang Ketterle và Carl Wieman được vinh danh vì tạo ra trạng thái ngưng tụ Bose–Einstein trong các khí kiềm loãng và nghiên cứu những tính chất ban đầu của trạng thái ấy.",
+      "ref": "https://www.nobelprize.org/prizes/physics/2001/wieman/facts/"
+    },
+    {
+      "id": "phy-person-960",
+      "n": "Arthur Ashkin",
+      "b": 1922,
+      "d": 2020,
+      "k": 2018,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 2018",
+      "bio": "Arthur Ashkin được ghi nhận vì kẹp quang học và ứng dụng vào hệ sinh học. Gérard Mourou và Donna Strickland được ghi nhận vì phương pháp tạo xung quang học cực ngắn có cường độ cao.",
+      "ref": "https://www.nobelprize.org/prizes/physics/2018/ashkin/facts/"
+    },
+    {
+      "id": "phy-person-962",
+      "n": "Donna Strickland",
+      "b": 1959,
+      "d": null,
+      "k": 2018,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 2018",
+      "bio": "Arthur Ashkin được ghi nhận vì kẹp quang học và ứng dụng vào hệ sinh học. Gérard Mourou và Donna Strickland được ghi nhận vì phương pháp tạo xung quang học cực ngắn có cường độ cao.",
+      "ref": "https://www.nobelprize.org/prizes/physics/2018/strickland/facts/"
+    },
+    {
+      "id": "phy-person-990",
+      "n": "Andrea Ghez",
+      "b": 1965,
+      "d": null,
+      "k": 2020,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 2020",
+      "bio": "Roger Penrose được ghi nhận vì chỉ ra sự hình thành hố đen là một dự đoán vững chắc của thuyết tương đối rộng. Reinhard Genzel và Andrea Ghez được ghi nhận vì phát hiện vật thể đặc siêu khối lượng ở tâm Ngân Hà.",
+      "ref": "https://www.nobelprize.org/prizes/physics/2020/ghez/facts/"
+    }
+  ]
+});
+
+TL_DATA.push({
+  "lane": "ea",
+  "periods": [],
+  "events": [
+    {
+      "id": "phy-nobel-1949",
+      "y": 1949,
+      "t": "Dự đoán hạt từ nghiên cứu lực hạt nhân — Nobel Vật lý 1949",
+      "c": "sci",
+      "imp": 1,
+      "who": "Hideki Yukawa",
+      "d": "Hideki Yukawa được vinh danh vì dự đoán sự tồn tại của meson từ lý thuyết về lực hạt nhân.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1949/summary/"
+    },
+    {
+      "id": "phy-nobel-1965",
+      "y": 1965,
+      "t": "Ba nhà vật lý cùng phát triển điện động lực học lượng tử — Nobel Vật lý 1965",
+      "c": "sci",
+      "imp": 1,
+      "who": "Sin-Itiro Tomonaga, Julian Schwinger, Richard P. Feynman",
+      "d": "Sin-Itiro Tomonaga, Julian Schwinger và Richard Feynman cùng được vinh danh vì công trình cơ bản trong điện động lực học lượng tử, có tác động sâu rộng đến vật lý hạt.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1965/summary/"
+    },
+    {
+      "id": "phy-nobel-2014",
+      "y": 2014,
+      "t": "LED xanh mở đường cho nguồn sáng trắng tiết kiệm — Nobel Vật lý 2014",
+      "c": "sci",
+      "imp": 1,
+      "who": "Isamu Akasaki, Hiroshi Amano, Shuji Nakamura",
+      "d": "Isamu Akasaki, Hiroshi Amano và Shuji Nakamura được vinh danh vì phát minh diode phát sáng xanh hiệu suất cao, cho phép tạo nguồn sáng trắng sáng và tiết kiệm năng lượng.",
+      "ref": "https://www.nobelprize.org/prizes/physics/2014/summary/"
+    }
+  ]
+});
+
+TL_PEOPLE.push({
+  "lane": "ea",
+  "people": [
+    {
+      "id": "phy-person-54",
+      "n": "Hideki Yukawa",
+      "b": 1907,
+      "d": 1981,
+      "k": 1949,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 1949",
+      "bio": "Hideki Yukawa được vinh danh vì dự đoán sự tồn tại của meson từ lý thuyết về lực hạt nhân.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1949/yukawa/facts/"
+    },
+    {
+      "id": "phy-person-84",
+      "n": "Sin-Itiro Tomonaga",
+      "b": 1906,
+      "d": 1979,
+      "k": 1965,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 1965",
+      "bio": "Sin-Itiro Tomonaga, Julian Schwinger và Richard Feynman cùng được vinh danh vì công trình cơ bản trong điện động lực học lượng tử, có tác động sâu rộng đến vật lý hạt.",
+      "ref": "https://www.nobelprize.org/prizes/physics/1965/tomonaga/facts/"
+    },
+    {
+      "id": "phy-person-906",
+      "n": "Isamu Akasaki",
+      "b": 1929,
+      "d": 2021,
+      "k": 2014,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 2014",
+      "bio": "Isamu Akasaki, Hiroshi Amano và Shuji Nakamura được vinh danh vì phát minh diode phát sáng xanh hiệu suất cao, cho phép tạo nguồn sáng trắng sáng và tiết kiệm năng lượng.",
+      "ref": "https://www.nobelprize.org/prizes/physics/2014/akasaki/facts/"
+    },
+    {
+      "id": "phy-person-907",
+      "n": "Hiroshi Amano",
+      "b": 1960,
+      "d": null,
+      "k": 2014,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 2014",
+      "bio": "Isamu Akasaki, Hiroshi Amano và Shuji Nakamura được vinh danh vì phát minh diode phát sáng xanh hiệu suất cao, cho phép tạo nguồn sáng trắng sáng và tiết kiệm năng lượng.",
+      "ref": "https://www.nobelprize.org/prizes/physics/2014/amano/facts/"
+    },
+    {
+      "id": "phy-person-908",
+      "n": "Shuji Nakamura",
+      "b": 1954,
+      "d": null,
+      "k": 2014,
+      "role": "Nhà vật lý đoạt giải Nobel",
+      "c": "sci",
+      "imp": 1,
+      "act": "được vinh danh với giải Nobel Vật lý niên hiệu 2014",
+      "bio": "Isamu Akasaki, Hiroshi Amano và Shuji Nakamura được vinh danh vì phát minh diode phát sáng xanh hiệu suất cao, cho phép tạo nguồn sáng trắng sáng và tiết kiệm năng lượng.",
+      "ref": "https://www.nobelprize.org/prizes/physics/2014/nakamura/facts/"
+    }
+  ]
+});
