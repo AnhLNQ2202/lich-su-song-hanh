@@ -202,3 +202,6 @@ dialog{color:var(--ink);background:var(--paper);border:1px solid var(--line);bor
 .comparison-end>summary span { font:600 12px/1.5 var(--ui); color:var(--rust); }
 .comparison-end[open]>summary span { visibility:hidden; }
 .comparison-end #world { border:0; margin:0; }
+
+.quiz-next-actions { display:flex; align-items:center; justify-content:space-between; gap:20px; flex-wrap:wrap; margin-top:10px; }
+.quiz-next-actions .secondary-path { min-height:44px; padding-inline:0; }

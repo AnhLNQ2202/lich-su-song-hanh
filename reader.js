@@ -153,26 +153,30 @@ const surpriseQuestions = [
   {
     "ask": "Thứ gì đã góp phần cứu tháp Eiffel khỏi việc bị tháo dỡ?",
     "choices": [
-      "Khả năng phục vụ liên lạc vô tuyến",
-      "Một cuộc trưng cầu dân ý toàn nước Pháp",
-      "Việc chuyển nó thành khách sạn"
+      "Trạm liên lạc vô tuyến",
+      "Trạm báo hiệu hàng hải bằng đèn",
+      "Trung tâm tổng đài điện thoại của Paris"
     ],
     "correct": 0,
     "why": "Tháp vốn dự kiến tồn tại 20 năm. Các thí nghiệm khoa học và đặc biệt vai trò liên lạc vô tuyến giúp công trình có lý do để được giữ lại.",
     "id": "eu-eiffel-1889",
-    "ref": "https://www.toureiffel.paris/en/news/130-years/why-was-eiffel-tower-kept"
+    "ref": "https://www.toureiffel.paris/en/news/130-years/why-was-eiffel-tower-kept",
+    "key": "eu-eiffel-1889",
+    "theme": "architecture"
   },
   {
     "ask": "Trước khi Mario xuất hiện, Nintendo khởi nghiệp bằng thứ gì?",
     "choices": [
-      "Bài hanafuda",
-      "Đồng hồ cơ",
-      "Máy nghe đĩa"
+      "Sản xuất bài hanafuda",
+      "Chế tạo đồ chơi gỗ",
+      "Chế tạo máy trò chơi cơ khí"
     ],
     "correct": 0,
     "why": "Nintendo làm bài hanafuda ở Kyoto từ năm 1889, nhiều thập kỷ trước khi hãng bước vào trò chơi điện tử.",
     "id": "culture-nintendo-1889",
-    "ref": "https://www.nintendo.com/us/about/"
+    "ref": "https://www.nintendo.com/us/about/",
+    "key": "culture-nintendo-1889",
+    "theme": "games"
   },
   {
     "ask": "Cleopatra sống gần chuyến Apollo 11 hơn hay gần thời xây Đại Kim tự tháp Giza hơn?",
@@ -184,31 +188,37 @@ const surpriseQuestions = [
     "correct": 0,
     "why": "Cleopatra qua đời năm 30 TCN. Từ đó đến Apollo 11 năm 1969 là khoảng 2.000 năm, còn Đại Kim tự tháp đã được xây trước thời bà khoảng 2.500 năm.",
     "id": "wa-np-cleopatra",
-    "ref": "https://www.slam.org/collection/constituents/33528/"
+    "ref": "https://www.slam.org/collection/constituents/33528/",
+    "key": "wa-np-cleopatra",
+    "theme": "chronology"
   },
   {
-    "ask": "Khi những kim tự tháp Giza đã được xây, voi ma mút còn sống ở đâu?",
+    "ask": "Khi các kim tự tháp Giza đã được xây, tình hình của voi ma mút ra sao?",
     "choices": [
-      "Trên đảo Wrangel ở Bắc Băng Dương",
-      "Không còn ở đâu, đã tuyệt chủng hết",
-      "Chỉ còn trong các vườn thú Ai Cập"
+      "Vẫn có quần thể sống trên đảo ở Bắc Băng Dương",
+      "Chỉ còn quần thể sống trên lục địa châu Âu",
+      "Đã tuyệt chủng ở mọi nơi từ nhiều thiên niên kỷ trước"
     ],
     "correct": 0,
     "why": "Một quần thể voi ma mút ở Wrangel tồn tại tới khoảng 4.000 năm trước, muộn hơn thời xây các kim tự tháp Giza. Không phải mọi quần thể đều tuyệt chủng cùng lúc.",
     "id": "wa-kim-tu-thap-giza-2560tcn",
-    "ref": "https://www.nhm.ac.uk/discover/were-all-mammoths-woolly.html"
+    "ref": "https://www.nhm.ac.uk/discover/were-all-mammoths-woolly.html",
+    "key": "wa-kim-tu-thap-giza-2560tcn",
+    "theme": "chronology"
   },
   {
-    "ask": "Trong lịch sử trung tâm Langley, “computer” từng là tên gọi của ai?",
+    "ask": "Trong công việc ở Langley trước thời máy tính điện tử phổ biến, “computer” là tên gọi của ai?",
     "choices": [
-      "Những người làm công việc tính toán",
-      "Những người điều khiển máy bay thử nghiệm",
-      "Những người lắp ráp kính thiên văn"
+      "Những người thực hiện phép tính và xử lý số liệu",
+      "Những người thiết kế phần cứng máy tính",
+      "Những người lập trình máy tính điện tử"
     ],
     "correct": 0,
     "why": "Trước khi máy tính điện tử phổ biến, những nhóm người, trong đó có nhiều phụ nữ, thực hiện các phép tính phục vụ nghiên cứu hàng không tại Langley. NASA gọi họ là human computers.",
     "id": "am-langley-computers-1935",
-    "ref": "https://www.nasa.gov/history/langleys-computers-1935-1970/"
+    "ref": "https://www.nasa.gov/history/langleys-computers-1935-1970/",
+    "key": "am-langley-computers-1935",
+    "theme": "science"
   },
   {
     "ask": "Hai bản Pokémon đầu tiên tại Nhật có cặp màu nào?",
@@ -220,39 +230,102 @@ const surpriseQuestions = [
     "correct": 0,
     "why": "Red và Green ra mắt tại Nhật ngày 27/2/1996. Red và Blue quen thuộc với nhiều người chơi quốc tế thuộc đợt phát hành sau.",
     "id": "culture-pokemon-1996",
-    "ref": "https://www.pokemon.co.jp/game/other/gb-rg/"
+    "ref": "https://www.pokemon.co.jp/game/other/gb-rg/",
+    "key": "culture-pokemon-1996",
+    "theme": "games"
   },
   {
-    "ask": "Trước Kinh Thánh Gutenberg gần 80 năm, sách nào đã được in bằng chữ rời kim loại?",
+    "ask": "Bản Jikji năm 1377, sớm hơn Kinh Thánh Gutenberg gần 80 năm, được in bằng kỹ thuật nào?",
     "choices": [
-      "Jikji ở Triều Tiên",
-      "First Folio của Shakespeare",
-      "Tập Harry Potter đầu tiên"
+      "Sắp các con chữ rời đúc bằng kim loại",
+      "Khắc nguyên từng trang lên ván gỗ",
+      "Sắp các con chữ rời làm bằng đất nung"
     ],
     "correct": 0,
-    "why": "Jikji được in tại Cheongju năm 1377, trước Kinh Thánh Gutenberg khoảng 78 năm. Quyển hai của bản in chữ kim loại còn được giữ ở BnF.",
+    "why": "Bản Jikji năm 1377 dùng chữ rời kim loại. Dễ nhầm với bản Jikji khắc gỗ năm 1378, hoặc kỹ thuật chữ rời đất nung xuất hiện ở Trung Quốc trước đó. BnF hiện giữ quyển hai của bản in kim loại năm 1377.",
     "id": "ea-jikji-1377",
-    "ref": "https://www.bnf.fr/en/jikji-treasure-world-printing"
+    "ref": "https://www.bnf.fr/en/jikji-treasure-world-printing",
+    "key": "ea-jikji-1377",
+    "theme": "printing"
+  },
+  {
+    "key": "roman-food",
+    "theme": "daily-life",
+    "ask": "Nếu đến một bữa ăn ở La Mã cổ đại, nguyên liệu nào bạn sẽ không thấy?",
+    "choices": [
+      "Cà chua",
+      "Hành",
+      "Đậu lăng"
+    ],
+    "correct": 0,
+    "why": "Cà chua có nguồn gốc châu Mỹ, chưa có trong bếp La Mã cổ đại. Một nguyên liệu quen thuộc của ẩm thực Ý ngày nay không có nghĩa nó đã hiện diện ở Ý thời cổ.",
+    "ref": "https://www.getty.edu/news/what-did-ancient-romans-eat/"
+  },
+  {
+    "key": "ancient-sculpture-color",
+    "theme": "art",
+    "ask": "Những tượng cẩm thạch Hy Lạp và La Mã nay thường trắng. Ban đầu, nhiều tượng trông thế nào?",
+    "choices": [
+      "Được tô màu, đôi khi rất rực rỡ",
+      "Luôn để trắng như lúc vừa tạc",
+      "Được phủ toàn bộ bằng một lớp đá đen"
+    ],
+    "correct": 0,
+    "why": "Các bảo tàng tìm thấy dấu vết màu trên nhiều tượng cổ. Phong hóa, thời gian chôn vùi và cả việc làm sạch đã làm mất màu, khiến ta dễ tưởng nghệ thuật cổ điển vốn chỉ có màu trắng.",
+    "ref": "https://www.metmuseum.org/ja/essays/polychromy-of-roman-marble-sculpture"
+  },
+  {
+    "key": "benin-material",
+    "theme": "craft",
+    "ask": "Các phù điêu Benin thường được gọi chung là “Benin Bronzes”. Nhiều tấm phù điêu thực ra làm bằng gì?",
+    "choices": [
+      "Đồng thau, hợp kim đồng–kẽm",
+      "Đồng thanh, hợp kim đồng–thiếc",
+      "Sắt được mạ một lớp đồng"
+    ],
+    "correct": 0,
+    "why": "Tên gọi chung “Benin Bronzes” có thể gây nhầm: nhiều tấm phù điêu cung đình được đúc bằng đồng thau. Hồ sơ hiện vật của British Museum ghi rõ chất liệu này.",
+    "ref": "https://www.britishmuseum.org/collection/object/E_Af1898-0115-27"
   }
 ];
-let quizDeck=[];
+const quizHistoryKey='lsh.quiz.seen';
+let quizHistory=[];
+let quizStorageAvailable=true;
+function loadQuizHistory() {
+  if(!quizStorageAvailable)return;
+  try {
+    const saved=JSON.parse(localStorage.getItem(quizHistoryKey)||'[]');
+    if(Array.isArray(saved))quizHistory=[...new Set(saved.filter(key=>surpriseQuestions.some(q=>q.key===key)))];
+  } catch { quizStorageAvailable=false; }
+}
+function rememberQuiz(key) {
+  quizHistory.push(key);
+  try { localStorage.setItem(quizHistoryKey,JSON.stringify(quizHistory)); } catch { quizStorageAvailable=false; }
+}
 function shuffled(items) {
   const copy=items.slice();
   for(let i=copy.length-1;i>0;i--) { const j=Math.floor(Math.random()*(i+1)); [copy[i],copy[j]]=[copy[j],copy[i]]; }
   return copy;
 }
 function newQuestion() {
-  if (!quizDeck.length) quizDeck=shuffled(surpriseQuestions);
-  const q=quizDeck.pop();
+  loadQuizHistory();
+  const unseen=surpriseQuestions.filter(q=>!quizHistory.includes(q.key));
+  if(!unseen.length) {
+    $('challenge').innerHTML='<h2>Bạn đã xem hết '+surpriseQuestions.length+' câu trong bộ này.</h2><p>Muốn thử lại, bạn có thể bắt đầu một lượt mới.</p><button class="secondary-path" id="quiz-restart">Chơi lại từ đầu →</button>';
+    $('quiz-restart').onclick=()=>{quizHistory=[];try{localStorage.removeItem(quizHistoryKey);}catch{quizStorageAvailable=false;}newQuestion();};
+    return;
+  }
+  const recentThemes=quizHistory.slice(-2).map(key=>surpriseQuestions.find(q=>q.key===key)?.theme);
+  const differentTopic=unseen.filter(q=>!recentThemes.includes(q.theme));
+  const q=shuffled(differentTopic.length?differentTopic:unseen)[0];
+  rememberQuiz(q.key);
   const choices=shuffled(q.choices.map((label,index)=>({label,index})));
-  $('challenge').innerHTML='<p class="edition">Một chuyện dễ bất ngờ</p><h2>'+escapeHTML(q.ask)+'</h2>'+
-    choices.map((c,i)=>'<button class="answer" data-answer="'+i+'">'+escapeHTML(c.label)+'</button>').join('')+
-    '<div id="quiz-feedback" role="status"></div>';
+  $('challenge').dataset.question=q.key;
+  $('challenge').innerHTML='<p class="edition">Đố vui lịch sử · Đã xem '+quizHistory.length+'/'+surpriseQuestions.length+'</p><h2>'+escapeHTML(q.ask)+'</h2>'+choices.map((c,i)=>'<button class="answer" data-answer="'+i+'">'+escapeHTML(c.label)+'</button>').join('')+'<div id="quiz-feedback" role="status"></div>';
   $('challenge').querySelectorAll('.answer').forEach(button=>button.onclick=()=>{
     const pick=choices[Number(button.dataset.answer)];
     $('challenge').querySelectorAll('.answer').forEach(btn=>{btn.disabled=true;btn.classList.toggle('correct',choices[Number(btn.dataset.answer)].index===q.correct);});
-    $('quiz-feedback').innerHTML='<b>'+(pick.index===q.correct?'Đúng rồi.':'Đáp án là '+escapeHTML(q.choices[q.correct]))+'</b><p>'+escapeHTML(q.why)+'</p>'+
-      '<a class="answer-date" href="#'+q.id+'">Đọc câu chuyện →</a><a class="note-source" href="'+q.ref+'" target="_blank" rel="noopener">Đối chiếu nguồn ↗</a><button class="secondary-path" id="another">Thử chuyện tiếp →</button>';
+    $('quiz-feedback').innerHTML='<b>'+(pick.index===q.correct?'Đúng rồi.':'Đáp án là '+escapeHTML(q.choices[q.correct]))+'</b><p>'+escapeHTML(q.why)+'</p>'+(q.id?'<a class="answer-date" href="#'+q.id+'">Đọc bài liên quan →</a>':'')+'<div class="quiz-next-actions"><a class="note-source" href="'+q.ref+'" target="_blank" rel="noopener">Xem nguồn ↗</a><button class="secondary-path" id="another">Câu tiếp theo →</button></div>';
     $('another').onclick=newQuestion;
   });
 }
@@ -390,7 +463,7 @@ function article(item) {
   const meta = [o.topic, o.date, o.place, o.role, item.kind === 'np' ? yearText(o.b)+' – '+(o.d == null ? 'nay' : yearText(o.d)) : '', ['pd','gb'].includes(item.kind) ? yearText(o.s)+' – '+yearText(o.e) : ''].filter(Boolean);
   const notes = [[noteTitle(item.id,'why'),o.why],[noteTitle(item.id,'alt'),o.alt],['Liên hệ Việt Nam',o.vn],['Một dấu mốc đáng nhớ',o.act ? 'Năm '+yearText(o.k)+', '+o.n+' '+o.act+'.' : ''],['Cùng thời',o.same],['Bạn có biết?',o.fun]];
   return (meta.length ? '<p class="meta">'+escapeHTML(meta.join(' · '))+'</p>' : '')+
-    '<div class="prose">'+paragraphs(body)+articleVisuals(item)+highlightHTML(item)+storyPeople(item)+(item.kind==='sl' ? sliceNotes(item) : '')+notes.filter(([,v])=>v).map(([h,v])=>'<h2>'+h+'</h2>'+paragraphs(v)).join('')+'</div>'+exploreHTML(item)+(o.ref ? '<a class="note-source" href="'+escapeHTML(o.ref)+'" target="_blank" rel="noopener">Nguồn tham khảo ↗</a>' : '')+'<details id="comparison-details" class="comparison-end"><summary>Cùng thời ở những nơi khác <span>Mở đối chiếu +</span></summary><div id="world" aria-label="Đối chiếu cuối bài"></div></details>';
+    '<div class="prose">'+paragraphs(body)+articleVisuals(item)+notes.filter(([,v])=>v).map(([h,v])=>'<h2>'+h+'</h2>'+paragraphs(v)).join('')+(item.kind==='sl' ? sliceNotes(item) : '')+highlightHTML(item)+storyPeople(item)+'</div>'+exploreHTML(item)+(o.ref ? '<a class="note-source" href="'+escapeHTML(o.ref)+'" target="_blank" rel="noopener">Nguồn tham khảo ↗</a>' : '')+'<details id="comparison-details" class="comparison-end"><summary>Cùng thời ở những nơi khác <span>Mở đối chiếu +</span></summary><div id="world" aria-label="Đối chiếu cuối bài"></div></details>';
 }
 function comparisonItems(item) {
   if (item.kind === 'sl') return (item.source.ev || []).map(id=>catalog.get(id)).filter(Boolean);
