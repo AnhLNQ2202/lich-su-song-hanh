@@ -998,7 +998,7 @@ TL_DATA.push({
       why: 'Khẳng định khả năng tổ chức sự kiện quốc tế lớn, quảng bá hình ảnh một Việt Nam năng động, hòa bình.',
       alt: 'Với nhiều người, SEA Games 22 là lần đầu được cổ vũ các đoàn vận động viên quốc tế ngay trên sân nhà, một trải nghiệm hội nhập rất đời thường sau những năm dài khép kín.' },
 
-    { id: 'vn-wto-2007', y: 2007, date: '11/1/2007', t: 'Việt Nam gia nhập WTO', c: 'sci', imp: 3,
+    { id: 'vn-wto-2007', ref: 'https://www.wto.org/english/theWTO_e/countries_e/vietnam_e.htm', y: 2007, date: '11/1/2007', t: 'Việt Nam gia nhập WTO', c: 'pol', imp: 3,
       place: 'Giơ-ne-vơ (Thụy Sĩ)',
       d: 'Sau hơn 11 năm đàm phán, Việt Nam chính thức trở thành thành viên thứ 150 của Tổ chức Thương mại Thế giới (WTO). Việt Nam cam kết mở cửa thị trường, giảm thuế, minh bạch hóa luật lệ để buôn bán bình đẳng với các nước.',
       why: 'Đánh dấu sự hội nhập đầy đủ vào kinh tế toàn cầu, thúc đẩy xuất khẩu và thu hút đầu tư nước ngoài mạnh mẽ.',
@@ -3377,7 +3377,7 @@ TL_DATA.push({
     { id: 'eu-einstein-1905', y: 1905, r: 'Thụy Sĩ – Đức', t: 'Einstein và thuyết tương đối', c: 'sci', imp: 3, who: 'Albert Einstein',
       d: 'Năm 1905, một nhân viên phòng cấp bằng sáng chế 26 tuổi ở Bern công bố bốn bài báo làm thay đổi vật lý, trong đó có thuyết tương đối hẹp và công thức E = mc². Mười năm sau, ông hoàn thành thuyết tương đối rộng, giải thích lực hấp dẫn là sự uốn cong của không gian – thời gian.',
       why: 'Thuyết tương đối cùng cơ học lượng tử là hai trụ cột của vật lý hiện đại.',
-      fun: 'Einstein nhận giải Nobel năm 1921 nhưng không phải cho thuyết tương đối, mà cho công trình giải thích hiệu ứng quang điện.',
+      ref: 'https://www.nobelprize.org/prizes/physics/1921/einstein/facts/', fun: 'Giải Nobel Vật lý mang niên hiệu 1921 được công bố cho Einstein vào năm 1922. Hội đồng nhấn mạnh đóng góp của ông trong việc tìm ra định luật về hiệu ứng quang điện.',
       alt: 'Nếu không tính đến thuyết tương đối, định vị GPS trên điện thoại của bạn sẽ sai lệch khoảng 10 km mỗi ngày.' },
     { id: 'eu-titanic-1912', y: 1912, date: '15/4/1912', r: 'Anh', t: 'Tàu Titanic chìm', c: 'sci', imp: 1,
       d: 'Con tàu chở khách lớn nhất thế giới thời ấy, từng được quảng cáo là “gần như không thể chìm”, đâm phải tảng băng trôi trong chuyến đi đầu tiên từ Anh sang Mỹ. Khoảng 1.500 người thiệt mạng, phần lớn vì xuồng cứu sinh chỉ đủ cho khoảng một nửa số người trên tàu.',
@@ -3960,7 +3960,7 @@ TL_DATA.push({
       alt: 'Rút bài học từ thập niên 1930, khi các nước dựng hàng rào thuế quan và phá giá tiền tệ trả đũa nhau, các nhà kinh tế muốn xây một “luật chơi chung” để thương mại không biến thành chiến tranh.',
       vn: 'Việt Nam là thành viên của IMF và Ngân hàng Thế giới; từ năm 1993, nguồn vốn của hai tổ chức này hỗ trợ nhiều công trình hạ tầng thời Đổi Mới.' },
 
-    { id: 'am-lien-hop-quoc-1945', y: 1945, date: '24/10/1945', r: 'Hoa Kỳ', t: 'Liên Hợp Quốc ra đời', c: 'pol', imp: 3,
+    { id: 'am-lien-hop-quoc-1945', ref: 'https://www.un.org/en/about-us/history-of-the-un', y: 1945, date: '24/10/1945', r: 'Hoa Kỳ', t: 'Liên Hợp Quốc ra đời', c: 'pol', imp: 3,
       place: 'San Francisco – New York',
       d: 'Rút bài học từ sự bất lực của Hội Quốc Liên, đại biểu 50 nước họp tại San Francisco và ký Hiến chương Liên Hợp Quốc ngày 26/6/1945. Tổ chức chính thức ra đời ngày 24/10/1945, đặt trụ sở ở New York, với Hội đồng Bảo an gồm 5 nước thường trực có quyền phủ quyết.',
       why: 'Trở thành diễn đàn chung của gần như mọi quốc gia, góp phần ngăn một cuộc chiến tranh thế giới mới và thúc đẩy phát triển, nhân đạo.',
@@ -4010,7 +4010,7 @@ TL_DATA.push({
       alt: 'Âm nhạc trở thành tiếng nói của phong trào: những ca khúc phản chiến của Bob Dylan, Joan Baez hay bài “Give Peace a Chance” vang lên trong các cuộc tuần hành.',
       vn: 'Đây được gọi là “cuộc chiến tranh truyền hình đầu tiên”: những hình ảnh từ Việt Nam đã làm thay đổi cách người Mỹ nhìn về cuộc chiến.' },
 
-    { id: 'am-apollo-11-1969', y: 1969, date: '20/7/1969', r: 'Hoa Kỳ', t: 'Con người đặt chân lên Mặt Trăng', c: 'sci', imp: 3,
+    { id: 'am-apollo-11-1969', ref: 'https://nasa.gov/wp-content/uploads/static/history/alsj/a11/a11ov.html', y: 1969, date: '20/7/1969', r: 'Hoa Kỳ', t: 'Con người đặt chân lên Mặt Trăng', c: 'sci', imp: 3,
       who: 'Neil Armstrong, Buzz Aldrin, Michael Collins',
       d: 'Tàu Apollo 11 đưa ba phi hành gia tới Mặt Trăng. Ngày 20/7/1969, mô-đun Đại Bàng hạ cánh xuống Biển Yên Tĩnh; Neil Armstrong bước ra và nói: “Đây là một bước nhỏ của một con người, nhưng là bước nhảy vọt của nhân loại”. Khoảng 600 triệu người khắp thế giới xem trực tiếp qua truyền hình.',
       why: 'Là đỉnh cao của cuộc chạy đua vũ trụ Mỹ – Liên Xô và một trong những thành tựu kỹ thuật lớn nhất của loài người.',
@@ -6173,3 +6173,488 @@ function noteTitle(id, field) {
   const index = field === 'why' ? 0 : 1;
   return NOTE_TITLES[id]?.[index] || (index === 0 ? 'Điều còn lại sau đó' : 'Nhìn kỹ hơn một chút');
 }
+
+TL_DATA.push({
+  "lane": "eu",
+  "periods": [],
+  "events": [
+    {
+      "id": "lit-event-628",
+      "y": 1957,
+      "t": "Albert Camus đoạt Nobel Văn học 1957",
+      "c": "cul",
+      "imp": 1,
+      "who": "Albert Camus",
+      "d": "Trong văn chương của Camus, các nhân vật thường phải quyết định mình sẽ hành xử ra sao khi lương tâm bị thử thách.",
+      "ref": "https://www.nobelprize.org/prizes/literature/1957/camus/facts/"
+    },
+    {
+      "id": "lit-event-1017",
+      "y": 2022,
+      "t": "Annie Ernaux đoạt Nobel Văn học 2022",
+      "c": "cul",
+      "imp": 1,
+      "who": "Annie Ernaux",
+      "d": "Ernaux lần theo ký ức cá nhân để nhận ra những sức ép xã hội mà một người mang theo cả khi kể chuyện riêng tư.",
+      "ref": "https://www.nobelprize.org/prizes/literature/2022/ernaux/facts/"
+    },
+    {
+      "id": "lit-event-600",
+      "y": 1927,
+      "t": "Henri Bergson đoạt Nobel Văn học 1927",
+      "c": "cul",
+      "imp": 1,
+      "who": "Henri Bergson",
+      "d": "Henri Bergson đến với giải văn chương bằng triết học. Hội đồng trao giải ghi nhận cả sức sống của tư tưởng lẫn nghệ thuật trình bày những tư tưởng ấy.",
+      "ref": "https://www.nobelprize.org/prizes/literature/1927/bergson/facts/"
+    },
+    {
+      "id": "lit-event-575",
+      "y": 1905,
+      "t": "Henryk Sienkiewicz đoạt Nobel Văn học 1905",
+      "c": "cul",
+      "imp": 1,
+      "who": "Henryk Sienkiewicz",
+      "d": "Lối kể chuyện mang tầm vóc sử thi là nét nổi bật được ghi nhận trong văn chương của Henryk Sienkiewicz.",
+      "ref": "https://www.nobelprize.org/prizes/literature/1905/sienkiewicz/facts/"
+    },
+    {
+      "id": "lit-event-947",
+      "y": 2017,
+      "t": "Kazuo Ishiguro đoạt Nobel Văn học 2017",
+      "c": "cul",
+      "imp": 1,
+      "who": "Kazuo Ishiguro",
+      "d": "Tiểu thuyết của Ishiguro đặt nhân vật trước khoảng cách giữa cảm giác mình hiểu thế giới và những gì họ thực sự biết.",
+      "ref": "https://www.nobelprize.org/prizes/literature/2017/ishiguro/facts/"
+    },
+    {
+      "id": "lit-event-577",
+      "y": 1907,
+      "t": "Rudyard Kipling đoạt Nobel Văn học 1907",
+      "c": "cul",
+      "imp": 1,
+      "who": "Rudyard Kipling",
+      "d": "Kipling được ghi nhận nhờ tài quan sát và kể chuyện, đặc biệt là khả năng dựng nên một thế giới giàu sức tưởng tượng.",
+      "ref": "https://www.nobelprize.org/prizes/literature/1907/kipling/facts/"
+    },
+    {
+      "id": "lit-event-593",
+      "y": 1923,
+      "t": "William Butler Yeats đoạt Nobel Văn học 1923",
+      "c": "cul",
+      "imp": 1,
+      "who": "William Butler Yeats",
+      "d": "Thơ Yeats diễn đạt những cảm xúc và hình ảnh gắn với bản sắc Ireland trong một hình thức thơ được trau chuốt.",
+      "ref": "https://www.nobelprize.org/prizes/literature/1923/yeats/facts/"
+    },
+    {
+      "id": "lit-event-673",
+      "y": 1996,
+      "t": "Wisława Szymborska đoạt Nobel Văn học 1996",
+      "c": "cul",
+      "imp": 1,
+      "who": "Wisława Szymborska",
+      "d": "Szymborska thường bắt đầu từ một chi tiết nhỏ rồi mở nó ra thành câu hỏi về lịch sử, sự sống và vị trí của con người.",
+      "ref": "https://www.nobelprize.org/prizes/literature/1996/szymborska/facts/"
+    }
+  ]
+});
+
+TL_PEOPLE.push({
+  "lane": "eu",
+  "people": [
+    {
+      "id": "lit-person-628",
+      "n": "Albert Camus",
+      "b": 1913,
+      "d": 1960,
+      "k": 1957,
+      "act": "được vinh danh với giải Nobel Văn học 1957",
+      "role": "Tác giả đoạt Nobel Văn học",
+      "c": "cul",
+      "imp": 1,
+      "bio": "Trong văn chương của Camus, các nhân vật thường phải quyết định mình sẽ hành xử ra sao khi lương tâm bị thử thách.",
+      "ref": "https://www.nobelprize.org/prizes/literature/1957/camus/facts/"
+    },
+    {
+      "id": "lit-person-1017",
+      "n": "Annie Ernaux",
+      "b": 1940,
+      "d": null,
+      "k": 2022,
+      "act": "được vinh danh với giải Nobel Văn học 2022",
+      "role": "Tác giả đoạt Nobel Văn học",
+      "c": "cul",
+      "imp": 1,
+      "bio": "Ernaux lần theo ký ức cá nhân để nhận ra những sức ép xã hội mà một người mang theo cả khi kể chuyện riêng tư.",
+      "ref": "https://www.nobelprize.org/prizes/literature/2022/ernaux/facts/"
+    },
+    {
+      "id": "lit-person-600",
+      "n": "Henri Bergson",
+      "b": 1859,
+      "d": 1941,
+      "k": 1927,
+      "act": "được vinh danh với giải Nobel Văn học 1927",
+      "role": "Tác giả đoạt Nobel Văn học",
+      "c": "cul",
+      "imp": 1,
+      "bio": "Henri Bergson đến với giải văn chương bằng triết học. Hội đồng trao giải ghi nhận cả sức sống của tư tưởng lẫn nghệ thuật trình bày những tư tưởng ấy.",
+      "ref": "https://www.nobelprize.org/prizes/literature/1927/bergson/facts/"
+    },
+    {
+      "id": "lit-person-575",
+      "n": "Henryk Sienkiewicz",
+      "b": 1846,
+      "d": 1916,
+      "k": 1905,
+      "act": "được vinh danh với giải Nobel Văn học 1905",
+      "role": "Tác giả đoạt Nobel Văn học",
+      "c": "cul",
+      "imp": 1,
+      "bio": "Lối kể chuyện mang tầm vóc sử thi là nét nổi bật được ghi nhận trong văn chương của Henryk Sienkiewicz.",
+      "ref": "https://www.nobelprize.org/prizes/literature/1905/sienkiewicz/facts/"
+    },
+    {
+      "id": "lit-person-947",
+      "n": "Kazuo Ishiguro",
+      "b": 1954,
+      "d": null,
+      "k": 2017,
+      "act": "được vinh danh với giải Nobel Văn học 2017",
+      "role": "Tác giả đoạt Nobel Văn học",
+      "c": "cul",
+      "imp": 1,
+      "bio": "Tiểu thuyết của Ishiguro đặt nhân vật trước khoảng cách giữa cảm giác mình hiểu thế giới và những gì họ thực sự biết.",
+      "ref": "https://www.nobelprize.org/prizes/literature/2017/ishiguro/facts/"
+    },
+    {
+      "id": "lit-person-577",
+      "n": "Rudyard Kipling",
+      "b": 1865,
+      "d": 1936,
+      "k": 1907,
+      "act": "được vinh danh với giải Nobel Văn học 1907",
+      "role": "Tác giả đoạt Nobel Văn học",
+      "c": "cul",
+      "imp": 1,
+      "bio": "Kipling được ghi nhận nhờ tài quan sát và kể chuyện, đặc biệt là khả năng dựng nên một thế giới giàu sức tưởng tượng.",
+      "ref": "https://www.nobelprize.org/prizes/literature/1907/kipling/facts/"
+    },
+    {
+      "id": "lit-person-593",
+      "n": "William Butler Yeats",
+      "b": 1865,
+      "d": 1939,
+      "k": 1923,
+      "act": "được vinh danh với giải Nobel Văn học 1923",
+      "role": "Tác giả đoạt Nobel Văn học",
+      "c": "cul",
+      "imp": 1,
+      "bio": "Thơ Yeats diễn đạt những cảm xúc và hình ảnh gắn với bản sắc Ireland trong một hình thức thơ được trau chuốt.",
+      "ref": "https://www.nobelprize.org/prizes/literature/1923/yeats/facts/"
+    },
+    {
+      "id": "lit-person-673",
+      "n": "Wisława Szymborska",
+      "b": 1923,
+      "d": 2012,
+      "k": 1996,
+      "act": "được vinh danh với giải Nobel Văn học 1996",
+      "role": "Tác giả đoạt Nobel Văn học",
+      "c": "cul",
+      "imp": 1,
+      "bio": "Szymborska thường bắt đầu từ một chi tiết nhỏ rồi mở nó ra thành câu hỏi về lịch sử, sự sống và vị trí của con người.",
+      "ref": "https://www.nobelprize.org/prizes/literature/1996/szymborska/facts/"
+    }
+  ]
+});
+
+TL_DATA.push({
+  "lane": "am",
+  "periods": [],
+  "events": [
+    {
+      "id": "lit-event-892",
+      "y": 2013,
+      "t": "Alice Munro đoạt Nobel Văn học 2013",
+      "c": "cul",
+      "imp": 1,
+      "who": "Alice Munro",
+      "d": "Truyện ngắn là thể loại đưa Alice Munro đến với giải thưởng. Việc vinh danh bà dành một vị trí nổi bật cho thể loại thường bị đặt sau tiểu thuyết.",
+      "ref": "https://www.nobelprize.org/prizes/literature/2013/munro/facts/"
+    },
+    {
+      "id": "lit-event-659",
+      "y": 1982,
+      "t": "Gabriel García Márquez đoạt Nobel Văn học 1982",
+      "c": "cul",
+      "imp": 1,
+      "who": "Gabriel García Márquez",
+      "d": "Trong truyện của García Márquez, cái kỳ ảo đi cùng những xung đột rất thật của đời sống Mỹ Latinh.",
+      "ref": "https://www.nobelprize.org/prizes/literature/1982/marquez/facts/"
+    },
+    {
+      "id": "lit-event-615",
+      "y": 1945,
+      "t": "Gabriela Mistral đoạt Nobel Văn học 1945",
+      "c": "cul",
+      "imp": 1,
+      "who": "Gabriela Mistral",
+      "d": "Thơ trữ tình của Gabriela Mistral diễn đạt những khát vọng của người Mỹ Latinh qua những cảm xúc rất riêng.",
+      "ref": "https://www.nobelprize.org/prizes/literature/1945/mistral/facts/"
+    },
+    {
+      "id": "lit-event-667",
+      "y": 1990,
+      "t": "Octavio Paz đoạt Nobel Văn học 1990",
+      "c": "cul",
+      "imp": 1,
+      "who": "Octavio Paz",
+      "d": "Trong thơ và văn xuôi, Octavio Paz kết hợp sự nhạy cảm của một nhà thơ với những suy tư về con người.",
+      "ref": "https://www.nobelprize.org/prizes/literature/1990/paz/facts/"
+    },
+    {
+      "id": "lit-event-645",
+      "y": 1971,
+      "t": "Pablo Neruda đoạt Nobel Văn học 1971",
+      "c": "cul",
+      "imp": 1,
+      "who": "Pablo Neruda",
+      "d": "Thơ của Pablo Neruda nối những ước mơ cá nhân với lịch sử và số phận của cả một châu lục.",
+      "ref": "https://www.nobelprize.org/prizes/literature/1971/neruda/facts/"
+    },
+    {
+      "id": "lit-event-670",
+      "y": 1993,
+      "t": "Toni Morrison đoạt Nobel Văn học 1993",
+      "c": "cul",
+      "imp": 1,
+      "who": "Toni Morrison",
+      "d": "Qua tiểu thuyết giàu nhạc tính, Toni Morrison kể những trải nghiệm của người Mỹ da đen từ bên trong đời sống của họ.",
+      "ref": "https://www.nobelprize.org/prizes/literature/1993/morrison/facts/"
+    }
+  ]
+});
+
+TL_PEOPLE.push({
+  "lane": "am",
+  "people": [
+    {
+      "id": "lit-person-892",
+      "n": "Alice Munro",
+      "b": 1931,
+      "d": 2024,
+      "k": 2013,
+      "act": "được vinh danh với giải Nobel Văn học 2013",
+      "role": "Tác giả đoạt Nobel Văn học",
+      "c": "cul",
+      "imp": 1,
+      "bio": "Truyện ngắn là thể loại đưa Alice Munro đến với giải thưởng. Việc vinh danh bà dành một vị trí nổi bật cho thể loại thường bị đặt sau tiểu thuyết.",
+      "ref": "https://www.nobelprize.org/prizes/literature/2013/munro/facts/"
+    },
+    {
+      "id": "lit-person-615",
+      "n": "Gabriela Mistral",
+      "b": 1889,
+      "d": 1957,
+      "k": 1945,
+      "act": "được vinh danh với giải Nobel Văn học 1945",
+      "role": "Tác giả đoạt Nobel Văn học",
+      "c": "cul",
+      "imp": 1,
+      "bio": "Thơ trữ tình của Gabriela Mistral diễn đạt những khát vọng của người Mỹ Latinh qua những cảm xúc rất riêng.",
+      "ref": "https://www.nobelprize.org/prizes/literature/1945/mistral/facts/"
+    },
+    {
+      "id": "lit-person-667",
+      "n": "Octavio Paz",
+      "b": 1914,
+      "d": 1998,
+      "k": 1990,
+      "act": "được vinh danh với giải Nobel Văn học 1990",
+      "role": "Tác giả đoạt Nobel Văn học",
+      "c": "cul",
+      "imp": 1,
+      "bio": "Trong thơ và văn xuôi, Octavio Paz kết hợp sự nhạy cảm của một nhà thơ với những suy tư về con người.",
+      "ref": "https://www.nobelprize.org/prizes/literature/1990/paz/facts/"
+    },
+    {
+      "id": "lit-person-645",
+      "n": "Pablo Neruda",
+      "b": 1904,
+      "d": 1973,
+      "k": 1971,
+      "act": "được vinh danh với giải Nobel Văn học 1971",
+      "role": "Tác giả đoạt Nobel Văn học",
+      "c": "cul",
+      "imp": 1,
+      "bio": "Thơ của Pablo Neruda nối những ước mơ cá nhân với lịch sử và số phận của cả một châu lục.",
+      "ref": "https://www.nobelprize.org/prizes/literature/1971/neruda/facts/"
+    },
+    {
+      "id": "lit-person-670",
+      "n": "Toni Morrison",
+      "b": 1931,
+      "d": 2019,
+      "k": 1993,
+      "act": "được vinh danh với giải Nobel Văn học 1993",
+      "role": "Tác giả đoạt Nobel Văn học",
+      "c": "cul",
+      "imp": 1,
+      "bio": "Qua tiểu thuyết giàu nhạc tính, Toni Morrison kể những trải nghiệm của người Mỹ da đen từ bên trong đời sống của họ.",
+      "ref": "https://www.nobelprize.org/prizes/literature/1993/morrison/facts/"
+    }
+  ]
+});
+
+TL_DATA.push({
+  "lane": "cn",
+  "periods": [],
+  "events": [
+    {
+      "id": "lit-event-734",
+      "y": 2000,
+      "t": "Gao Xingjian đoạt Nobel Văn học 2000",
+      "c": "cul",
+      "imp": 1,
+      "who": "Gao Xingjian",
+      "d": "Qua tiểu thuyết và sân khấu, Gao Xingjian thử nghiệm với ngôn ngữ và mở rộng những cách kể chuyện bằng tiếng Trung.",
+      "ref": "https://www.nobelprize.org/prizes/literature/2000/gao/facts/"
+    },
+    {
+      "id": "lit-event-880",
+      "y": 2012,
+      "t": "Mo Yan đoạt Nobel Văn học 2012",
+      "c": "cul",
+      "imp": 1,
+      "who": "Mo Yan",
+      "d": "Mo Yan đan truyện dân gian vào lịch sử và đời sống đương thời. Trong văn của ông, chuyện thực nhiều lúc hiện ra như một ảo giác.",
+      "ref": "https://www.nobelprize.org/prizes/literature/2012/yan/facts/"
+    }
+  ]
+});
+
+TL_PEOPLE.push({
+  "lane": "cn",
+  "people": [
+    {
+      "id": "lit-person-734",
+      "n": "Gao Xingjian",
+      "b": 1940,
+      "d": null,
+      "k": 2000,
+      "act": "được vinh danh với giải Nobel Văn học 2000",
+      "role": "Tác giả đoạt Nobel Văn học",
+      "c": "cul",
+      "imp": 1,
+      "bio": "Qua tiểu thuyết và sân khấu, Gao Xingjian thử nghiệm với ngôn ngữ và mở rộng những cách kể chuyện bằng tiếng Trung.",
+      "ref": "https://www.nobelprize.org/prizes/literature/2000/gao/facts/"
+    },
+    {
+      "id": "lit-person-880",
+      "n": "Mo Yan",
+      "b": 1956,
+      "d": null,
+      "k": 2012,
+      "act": "được vinh danh với giải Nobel Văn học 2012",
+      "role": "Tác giả đoạt Nobel Văn học",
+      "c": "cul",
+      "imp": 1,
+      "bio": "Mo Yan đan truyện dân gian vào lịch sử và đời sống đương thời. Trong văn của ông, chuyện thực nhiều lúc hiện ra như một ảo giác.",
+      "ref": "https://www.nobelprize.org/prizes/literature/2012/yan/facts/"
+    }
+  ]
+});
+
+TL_DATA.push({
+  "lane": "ea",
+  "periods": [],
+  "events": [
+    {
+      "id": "lit-event-1042",
+      "y": 2024,
+      "t": "Han Kang đoạt Nobel Văn học 2024",
+      "c": "cul",
+      "imp": 1,
+      "who": "Han Kang",
+      "d": "Văn xuôi giàu chất thơ của Han Kang trở đi trở lại với những vết thương lịch sử và sự mong manh của đời người.",
+      "ref": "https://www.nobelprize.org/prizes/literature/2024/han/facts/"
+    },
+    {
+      "id": "lit-event-642",
+      "y": 1968,
+      "t": "Yasunari Kawabata đoạt Nobel Văn học 1968",
+      "c": "cul",
+      "imp": 1,
+      "who": "Yasunari Kawabata",
+      "d": "Kawabata được ghi nhận nhờ nghệ thuật tự sự tinh tế và khả năng thể hiện những nét riêng của cảm quan thẩm mỹ Nhật Bản.",
+      "ref": "https://www.nobelprize.org/prizes/literature/1968/kawabata/facts/"
+    }
+  ]
+});
+
+TL_PEOPLE.push({
+  "lane": "ea",
+  "people": [
+    {
+      "id": "lit-person-1042",
+      "n": "Han Kang",
+      "b": 1970,
+      "d": null,
+      "k": 2024,
+      "act": "được vinh danh với giải Nobel Văn học 2024",
+      "role": "Tác giả đoạt Nobel Văn học",
+      "c": "cul",
+      "imp": 1,
+      "bio": "Văn xuôi giàu chất thơ của Han Kang trở đi trở lại với những vết thương lịch sử và sự mong manh của đời người.",
+      "ref": "https://www.nobelprize.org/prizes/literature/2024/han/facts/"
+    },
+    {
+      "id": "lit-person-642",
+      "n": "Yasunari Kawabata",
+      "b": 1899,
+      "d": 1972,
+      "k": 1968,
+      "act": "được vinh danh với giải Nobel Văn học 1968",
+      "role": "Tác giả đoạt Nobel Văn học",
+      "c": "cul",
+      "imp": 1,
+      "bio": "Kawabata được ghi nhận nhờ nghệ thuật tự sự tinh tế và khả năng thể hiện những nét riêng của cảm quan thẩm mỹ Nhật Bản.",
+      "ref": "https://www.nobelprize.org/prizes/literature/1968/kawabata/facts/"
+    }
+  ]
+});
+
+TL_DATA.push({
+  "lane": "wa",
+  "periods": [],
+  "events": [
+    {
+      "id": "lit-event-665",
+      "y": 1988,
+      "t": "Naguib Mahfouz đoạt Nobel Văn học 1988",
+      "c": "cul",
+      "imp": 1,
+      "who": "Naguib Mahfouz",
+      "d": "Tiểu thuyết của Mahfouz kết hợp những cảnh đời được quan sát rất cụ thể với lối kể nhiều lớp nghĩa, đưa văn chương Ả Rập đến với độc giả ngoài khu vực.",
+      "ref": "https://www.nobelprize.org/prizes/literature/1988/mahfouz/facts/"
+    },
+    {
+      "id": "lit-event-808",
+      "y": 2006,
+      "t": "Orhan Pamuk đoạt Nobel Văn học 2006",
+      "c": "cul",
+      "imp": 1,
+      "who": "Orhan Pamuk",
+      "d": "Từ nỗi buồn của thành phố quê hương, Pamuk viết về những nền văn hóa va chạm và đan xen trong đời sống thường ngày.",
+      "ref": "https://www.nobelprize.org/prizes/literature/2006/pamuk/facts/"
+    }
+  ]
+});
+
+TL_PEOPLE.push({
+  "lane": "wa",
+  "people": []
+});
