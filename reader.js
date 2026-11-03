@@ -26,7 +26,7 @@ const events = all.filter(item => item.kind === 'ev');
 let current, comparisons = [], limit = 50;
 const library = $('library');
 const href = item => '#' + encodeURIComponent(item.id);
-const timeline = all.filter(entry => entry.kind === 'ev' || entry.kind === 'gb');
+const timeline = all.filter(entry => entry.kind === 'ev' || entry.kind === 'gb' || entry.kind === 'sl');
 // The visual timeline uses a reference year, including approximate and disputed dates.
 // In a shared year, compare the first month/day specified by the source.
 function withinYear(entry) {
@@ -48,7 +48,7 @@ try {
 } catch { /* Keep progress for the session when storage is unavailable. */ }
 function refreshProgress() {
   const next = timeline.find(entry => !finished.has(entry.id));
-  const count = finished.size + ' / ' + timeline.length + ' sự kiện đã đọc';
+  const count = finished.size + ' / ' + timeline.length + ' mục đã đọc';
   $('home-progress').textContent = count + ' · Tiến độ trên trình duyệt này';
   $('resume-events').href = href(next || timeline[0]);
   $('resume-events').textContent = !next ? 'Đọc lại từ đầu →' : finished.size ? 'Đọc tiếp theo dòng thời gian →' : 'Đọc theo dòng thời gian →';
@@ -121,72 +121,36 @@ function showPeople() {
     '<button class="secondary-path" id="all-people">Tra cứu mọi nhân vật →</button>';
   $('all-people').onclick=()=>{openLibrary('search');$('kind').value='np';results();};
 }
-let quizTopic='all', quizTurn=0, lastQuizId='';
+const surpriseQuestions = [
+  {ask:'Trước thời Mario, Nintendo bán thứ gì?', choices:['Bài hanafuda','Máy nghe nhạc','Truyện tranh'], correct:0, why:'Nintendo làm bài hanafuda ở Kyoto từ năm 1889. Trò chơi điện tử đến sau rất nhiều thập kỷ.', id:'culture-nintendo-1889', ref:'https://www.nintendo.com/us/about/'},
+  {ask:'Hai bản Pokémon ra mắt đầu tiên ở Nhật có màu gì?', choices:['Đỏ và xanh lá','Đỏ và xanh dương','Vàng và bạc'], correct:0, why:'Đó là Red và Green, phát hành ngày 27/2/1996. Red và Blue quen thuộc với nhiều người chơi quốc tế thuộc đợt phát hành sau.', id:'culture-pokemon-1996', ref:'https://www.pokemon.co.jp/game/other/gb-rg/'},
+  {ask:'Năm 1937 có phải lúc thế giới lần đầu có phim hoạt hình dài?', choices:['Không, đó là mốc phim dài đầu tiên của Disney','Đúng, mọi phim hoạt hình trước đó đều ngắn','Đó là năm hoạt hình máy tính xuất hiện'], correct:0, why:'Bạch Tuyết là phim hoạt hình dài đầu tiên của Disney. Không thể biến một cột mốc của hãng thành cột mốc đầu tiên của toàn thế giới.', id:'culture-snow-white-1937', ref:'https://d23.com/disney-history/'},
+  {ask:'Toy Story có gì đặc biệt trong lịch sử hoạt hình?', choices:['Phim truyện dài đầu tiên hoàn toàn bằng hoạt hình máy tính','Phim đầu tiên dùng bất kỳ hình ảnh máy tính nào','Phim hoạt hình dài đầu tiên của thế giới'], correct:0, why:'Pixar xác định cột mốc năm 1995 là phim dài hoàn toàn bằng hoạt hình máy tính. Hình ảnh máy tính và phim hoạt hình dài đều đã có lịch sử trước đó.', id:'culture-toy-story-1995', ref:'https://www.pixar.com/our-story'},
+  {ask:'Ca trù và Quan họ cùng được ghi danh năm 2009. Chúng vào cùng một danh sách UNESCO?', choices:['Không, Ca trù vào danh sách cần bảo vệ khẩn cấp','Có, mọi di sản phi vật thể ở cùng một danh sách','Ca trù chưa từng được ghi danh'], correct:0, why:'Ca trù vào danh sách cần bảo vệ khẩn cấp. Quan họ vào Danh sách đại diện. Hai cách ghi danh thể hiện mục đích bảo vệ khác nhau.', id:'culture-ca-tru-2009', ref:'https://ich.unesco.org/en/USL/ca-tru-singing-00309?USL=00309'},
+  {ask:'Jikji năm 1377 ở Pháp là cả bộ sách còn nguyên vẹn?', choices:['Chỉ còn quyển hai của bản in chữ kim loại','Là cả bộ, còn đủ hai quyển','Là bản chép tay của Gutenberg'], correct:0, why:'BnF lưu quyển hai của bản in chữ kim loại năm 1377. Bản khắc gỗ đầy đủ năm 1378 ở Hàn Quốc là một ấn bản khác.', id:'ea-jikji-1377', ref:'https://www.bnf.fr/en/jikji-treasure-world-printing'},
+  {ask:'Giải Nobel Vật lý mang niên hiệu 1921 của Einstein được quyết định trao năm nào?', choices:['1922','1921','1905'], correct:0, why:'Hồ sơ Nobel ghi niên hiệu giải là 1921 nhưng ngày công bố quyết định là 9/11/1922. Niên hiệu giải và năm công bố không phải lúc nào cũng trùng nhau.', id:'eu-einstein-1905', ref:'https://www.nobelprize.org/prizes/physics/1921/einstein/facts/'},
+  {ask:'Khi xây xong các kim tự tháp Giza, voi ma mút đã tuyệt chủng hết chưa?', choices:['Chưa, một quần thể còn sống trên đảo Wrangel','Đã tuyệt chủng hết từ rất lâu','Voi ma mút chỉ xuất hiện sau thời La Mã'], correct:0, why:'Theo các bảo tàng tự nhiên, voi ma mút ở Wrangel còn tồn tại tới khoảng 4.000 năm trước, muộn hơn thời xây các kim tự tháp Giza. Không phải mọi quần thể tuyệt chủng cùng lúc.', id:'wa-kim-tu-thap-giza-2560tcn', ref:'https://www.nhm.ac.uk/discover/were-all-mammoths-woolly.html'},
+  {ask:'Ghi “Oxford thành lập chính xác năm 1096” có ổn không?', choices:['Chưa chính xác: chỉ biết đã có giảng dạy vào năm ấy','Chính xác tuyệt đối, có ngày khai giảng rõ ràng','Không, Oxford chỉ xuất hiện ở thế kỷ XX'], correct:0, why:'Oxford cho biết không có ngày thành lập rõ ràng. Hoạt động giảng dạy đã tồn tại dưới một hình thức nào đó vào năm 1096.', id:'culture-oxford-1096', ref:'https://www.ox.ac.uk/about/the-university/history'},
+  {ask:'Một tỷ lượt xem của Gangnam Style là mốc nào?', choices:['Một kỷ lục đạt sau ngày video ra mắt','Ngày ca khúc lần đầu được sáng tác','Ngày YouTube bắt đầu hoạt động'], correct:0, why:'Video ra mắt tháng 7/2012, còn mốc một tỷ lượt xem đạt ngày 21/12/2012. Sự ra đời và sự lan truyền của một tác phẩm là hai câu chuyện khác nhau.', id:'culture-gangnam-2012', ref:'https://blog.youtube/creator-and-artist-stories/10-years-of-youtubes-billion-views-club-psy-gangnam-style/'}
+];
+let quizDeck=[];
 function shuffled(items) {
   const copy=items.slice();
   for(let i=copy.length-1;i>0;i--) { const j=Math.floor(Math.random()*(i+1)); [copy[i],copy[j]]=[copy[j],copy[i]]; }
   return copy;
 }
 function newQuestion() {
-  const eligible=all.filter(e=>(e.kind==='ev'||e.kind==='np') &&
-    (quizTopic==='all' || quizTopic===e.kind || e.source.c===quizTopic || e.source.topic===quizTopic));
-  const near=eligible.filter(e=>e.id!==lastQuizId).sort((a,b)=>
-    Math.abs((a.source.k??a.year)-(current.source.k??current.year))-Math.abs((b.source.k??b.year)-(current.source.k??current.year))).slice(0,35);
-  const entry=shuffled(near)[0]||eligible[0];
-  lastQuizId=entry.id;
-  const o=entry.source;
-  const mode=quizTurn++%4;
-  let ask, right, alternatives, explanation;
-  if(entry.kind==='np' && mode%2===0) {
-    ask='Ai có vai trò này?';
-    explanation=o.role;
-    right=entry.title;
-    alternatives=all.filter(e=>e.kind==='np'&&e.id!==entry.id).map(e=>e.title);
-  } else if(entry.kind==='np') {
-    ask=entry.title+' gắn với dấu mốc nào sau đây?';
-    right='Năm '+yearText(o.k)+': '+o.act;
-    alternatives=all.filter(e=>e.kind==='np'&&e.id!==entry.id&&e.source.act).map(e=>'Năm '+yearText(e.source.k)+': '+e.source.act);
-    explanation=entry.title+' '+o.act+' vào năm '+yearText(o.k)+'.';
-  } else if(mode===0) {
-    ask='Sự kiện nào được ghi nhận ở năm '+yearText(entry.year)+'?';
-    right=entry.title;
-    alternatives=events.filter(e=>e.year!==entry.year&&e.id!==entry.id).map(e=>e.title);
-    explanation=entry.title+' · '+(o.date||yearText(entry.year));
-  } else if(mode===1) {
-    ask='Sự kiện này thuộc khu vực nào trên dòng thời gian?';
-    right=regions.get(entry.lane);
-    alternatives=LANES.filter(l=>l.id!==entry.lane).map(l=>l.name);
-    explanation=entry.title+' được xếp trong khu vực '+right+'.';
-  } else if(mode===2) {
-    ask='Sự kiện này diễn ra vào thế kỷ nào?';
-    const century=y=>Math.ceil(Math.abs(y)/100);
-    const label=y=>'Thế kỷ '+century(y)+(y<0?' TCN':'');
-    right=label(entry.year);
-    alternatives=events.filter(e=>label(e.year)!==right).map(e=>label(e.year));
-    explanation=entry.title+' · '+(o.date||yearText(entry.year))+' · '+right+'.';
-  } else {
-    ask='Mốc năm nào gắn với sự kiện này?';
-    right=yearText(entry.year);
-    alternatives=events.filter(e=>e.year!==entry.year).map(e=>yearText(e.year));
-    explanation=entry.title+' · '+(o.date||yearText(entry.year));
-  }
-  const choices=shuffled([right,...shuffled([...new Set(alternatives)].filter(v=>v!==right)).slice(0,2)]);
-  $('challenge').innerHTML='<label class="quiz-topic">Chủ đề <select id="quiz-topic">'+
-    [['all','Tổng hợp'],['ev','Sự kiện'],['np','Nhân vật'],['sci','Khoa học'],['cul','Văn hóa'],['Âm nhạc','Âm nhạc'],['Điện ảnh','Điện ảnh'],['Trò chơi','Trò chơi'],['Esports','Esports']].map(([key,label])=>'<option value="'+key+'">'+label+'</option>').join('')+
-    '</select></label><h2>'+escapeHTML(ask)+'</h2>'+
-    '<p class="quiz-prompt">'+escapeHTML(entry.kind==='np'&&mode%2===0?o.role:mode===0&&entry.kind==='ev'?'Chọn một đáp án.':entry.title)+'</p>'+
-    choices.map((choice,i)=>'<button class="answer" data-answer="'+i+'">'+escapeHTML(choice)+'</button>').join('')+
+  if (!quizDeck.length) quizDeck=shuffled(surpriseQuestions);
+  const q=quizDeck.pop();
+  const choices=shuffled(q.choices.map((label,index)=>({label,index})));
+  $('challenge').innerHTML='<p class="edition">Một chuyện dễ bất ngờ</p><h2>'+escapeHTML(q.ask)+'</h2>'+
+    choices.map((c,i)=>'<button class="answer" data-answer="'+i+'">'+escapeHTML(c.label)+'</button>').join('')+
     '<div id="quiz-feedback" role="status"></div>';
-  $('quiz-topic').value=quizTopic;
-  $('quiz-topic').onchange=()=>{quizTopic=$('quiz-topic').value;newQuestion();};
   $('challenge').querySelectorAll('.answer').forEach(button=>button.onclick=()=>{
-    const answer=choices[Number(button.dataset.answer)];
-    $('challenge').querySelectorAll('.answer').forEach(btn=>{
-      btn.disabled=true;
-      btn.classList.toggle('correct',choices[Number(btn.dataset.answer)]===right);
-    });
-    $('quiz-feedback').innerHTML='<b>'+(answer===right?'Đúng rồi.':'Đáp án đúng: '+escapeHTML(right))+'</b><p>'+escapeHTML(explanation)+'</p>'+
-      '<a class="answer-date" href="'+href(entry)+'">Đọc câu chuyện liên quan →</a><button class="secondary-path" id="another">Câu tiếp →</button>';
+    const pick=choices[Number(button.dataset.answer)];
+    $('challenge').querySelectorAll('.answer').forEach(btn=>{btn.disabled=true;btn.classList.toggle('correct',choices[Number(btn.dataset.answer)].index===q.correct);});
+    $('quiz-feedback').innerHTML='<b>'+(pick.index===q.correct?'Đúng rồi.':'Đáp án là '+escapeHTML(q.choices[q.correct]))+'</b><p>'+escapeHTML(q.why)+'</p>'+
+      '<a class="answer-date" href="#'+q.id+'">Đọc câu chuyện →</a><a class="note-source" href="'+q.ref+'" target="_blank" rel="noopener">Đối chiếu nguồn ↗</a><button class="secondary-path" id="another">Thử chuyện tiếp →</button>';
     $('another').onclick=newQuestion;
   });
 }
@@ -196,7 +160,11 @@ function selectPanel(name) {
     $(button).setAttribute('aria-pressed', String(name===button));
     $(section).hidden = name!==button;
   }
-  if (name==='compare') showWorld();
+  if (name==='compare' || name==='read') {
+    showWorld();
+    $('world').hidden=false;
+    $('world').insertAdjacentHTML('afterbegin','<h2>Cùng lúc ấy ở nơi khác</h2>');
+  }
   if (name==='people') showPeople();
   if (name==='play' && !$('challenge').hasChildNodes()) newQuestion();
 }
@@ -316,8 +284,10 @@ function render(focus = false) {
     if (focus) { $('intro').focus({preventScroll:true}); window.scrollTo(0,0); }
     return;
   }
-  const sequence = eventIds.has(current.id) ? timeline : current.kind === 'sl' ? slices : all.filter(e=>e.kind===current.kind && e.lane===current.lane);
-  const index = sequence.indexOf(current);
+  const sequence = timeline;
+  const itemIndex=sequence.indexOf(current);
+  const nextIndex=sequence.findIndex(e=>e.year>=(current.source.k??current.year));
+  const index=itemIndex>=0?itemIndex:Math.max(0,(nextIndex<0?sequence.length:nextIndex)-1);
   const inTimeline = eventIds.has(current.id);
   $('next').querySelector('b').textContent = inTimeline ? 'Đã đọc · tiếp' : 'Mốc tiếp';
   $('next').onclick = event => {
@@ -337,6 +307,7 @@ function render(focus = false) {
   document.title=current.title+' · Lịch Sử Song Hành';
   $('challenge').replaceChildren();
   selectPanel('read');
+
   if (focus) { $('story').focus({preventScroll:true}); window.scrollTo(0,0); }
 }
 let catalogMode = "search";
@@ -380,8 +351,8 @@ $('discover-culture').onclick=()=>{
   $('topic-filter').value='cul';
   results();
 };
-$('contents').onclick=()=>openLibrary(eventIds.has(current?.id)?'events':'slices');
-$('contents-side').onclick=$('catalog-slices').onclick=()=>openLibrary('slices');
+$('contents').onclick=()=>openLibrary('events');
+$('contents-side').onclick=$('catalog-slices').onclick=()=>openLibrary('events');
 $('events-side').onclick=$('catalog-events').onclick=()=>openLibrary('events');
 $('only-unread').onclick=()=>{
   unreadOnly=!unreadOnly;
