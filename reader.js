@@ -172,7 +172,7 @@ function newQuestion() {
   }
   const choices=shuffled([right,...shuffled([...new Set(alternatives)].filter(v=>v!==right)).slice(0,2)]);
   $('challenge').innerHTML='<label class="quiz-topic">Chủ đề <select id="quiz-topic">'+
-    [['all','Tổng hợp'],['ev','Sự kiện'],['np','Nhân vật'],['sci','Khoa học'],['cul','Văn hóa'],['Âm nhạc','Âm nhạc'],['Điện ảnh','Điện ảnh'],['Trò chơi','Trò chơi']].map(([key,label])=>'<option value="'+key+'">'+label+'</option>').join('')+
+    [['all','Tổng hợp'],['ev','Sự kiện'],['np','Nhân vật'],['sci','Khoa học'],['cul','Văn hóa'],['Âm nhạc','Âm nhạc'],['Điện ảnh','Điện ảnh'],['Trò chơi','Trò chơi'],['Esports','Esports']].map(([key,label])=>'<option value="'+key+'">'+label+'</option>').join('')+
     '</select></label><h2>'+escapeHTML(ask)+'</h2>'+
     '<p class="quiz-prompt">'+escapeHTML(entry.kind==='np'&&mode%2===0?o.role:mode===0&&entry.kind==='ev'?'Chọn một đáp án.':entry.title)+'</p>'+
     choices.map((choice,i)=>'<button class="answer" data-answer="'+i+'">'+escapeHTML(choice)+'</button>').join('')+

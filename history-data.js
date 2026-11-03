@@ -7758,17 +7758,6 @@ TL_DATA.push({
       "d": "Tại lễ Oscar năm 2020, Ký sinh trùng của Bong Joon-ho thắng hạng mục Phim hay nhất. Bộ phim ra mắt năm 2019, vì vậy năm 2020 trên dòng thời gian này là năm nhận giải. Câu chuyện về khoảng cách giàu nghèo ở Hàn Quốc được đưa đến với nhiều khán giả qua hành trình chiếu phim và giải thưởng.",
       "why": "Một câu chuyện gắn với bối cảnh địa phương có thể tìm được khán giả ở nhiều nơi khác nhau.",
       "ref": "https://www.oscars.org/oscars/ceremonies/2020/R"
-    },
-    {
-      "id": "culture-bts-dynamite-2020",
-      "y": 2020,
-      "t": "Dynamite đưa BTS lên đầu Billboard Hot 100",
-      "c": "cul",
-      "imp": 1,
-      "topic": "Âm nhạc",
-      "d": "Năm 2020, Dynamite của BTS ra mắt ở vị trí số một Billboard Hot 100, theo bản tin của chính Billboard. Hot 100 là bảng xếp hạng bài hát tại Hoa Kỳ; thành tích này cần phân biệt với bảng xếp hạng album Billboard 200.",
-      "why": "Nêu rõ tên bảng xếp hạng giúp hiểu đúng một thành tích âm nhạc, thay vì gộp các loại bảng vào cùng một kỷ lục.",
-      "ref": "https://www.youtube.com/watch?v=ZfPFAZaiZvs"
     }
   ]
 });
@@ -7860,4 +7849,57 @@ TL_SLICES.push({"id": "sl-1984", "y": 1984, "t": "1984–1985: Khi màn hình tr
 
 TL_SLICES.push({"id": "sl-1995", "y": 1995, "t": "1995–1996: Đồ chơi lên màn ảnh, sinh vật bước vào máy chơi game", "d": "Toy Story ra rạp tại Hoa Kỳ ngày 22/11/1995, đưa Woody và Buzz Lightyear vào một phim truyện dài hoàn toàn bằng hoạt hình máy tính. Đến tháng 2/1996, Pokémon Red và Green được phát hành ở Nhật Bản trên Game Boy. Một bên là câu chuyện được khán giả theo dõi, một bên là thế giới người chơi trực tiếp tham gia. Đặt hai mốc gần nhau, ta thấy công nghệ số đi vào văn hóa qua nhiều cửa: dựng hình, kể chuyện, thiết kế luật chơi và tạo ra các nhân vật mà khán giả muốn gặp lại.", "ev": ["culture-toy-story-1995", "culture-pokemon-1996"], "ref": "https://www.pixar.com/our-story"});
 
-TL_SLICES.push({"id": "sl-2020", "y": 2020, "t": "Năm 2020: Điện ảnh và âm nhạc Hàn Quốc trên những sân khấu quốc tế", "d": "Tại Oscar năm 2020, Ký sinh trùng giành giải Phim hay nhất. Trong cùng năm, Dynamite của BTS ra mắt ở vị trí số một Billboard Hot 100. Hai mốc thuộc hai hệ thống ghi nhận khác nhau: một giải thưởng điện ảnh và một bảng xếp hạng bài hát ở Hoa Kỳ. Chúng cũng không cùng đánh dấu thời điểm sáng tác: bộ phim đã ra mắt năm 2019, còn ca khúc được phát hành năm 2020. Khi đọc văn hóa đại chúng trên dòng thời gian, phân biệt ra mắt, lan truyền và nhận giải giúp ta nhìn rõ hơn hành trình của từng tác phẩm.", "ev": ["culture-parasite-oscar-2020", "culture-bts-dynamite-2020"], "ref": "https://www.oscars.org/oscars/ceremonies/2020/R"});
+TL_SLICES.push({"id": "sl-2020", "y": 2020, "t": "Năm 2020: Ký sinh trùng trên sân khấu Oscar", "d": "Tại lễ Oscar năm 2020, Ký sinh trùng giành giải Phim hay nhất. Phim đã ra mắt năm 2019; mốc trên dòng thời gian là năm nhận giải. Đặt cạnh Avengers: Endgame, ra rạp năm 2019, ta thấy hai cách đưa khán giả đến rạp: một câu chuyện gia đình gắn với khoảng cách giàu nghèo và một mạch kể nối nhiều phim trong cùng thế giới hư cấu.", "ev": ["culture-parasite-oscar-2020", "culture-endgame-2019"], "ref": "https://www.oscars.org/oscars/ceremonies/2020/R"});
+
+TL_DATA.push({
+  "lane": "ea",
+  "periods": [],
+  "events": [
+    {
+      "id": "esports-faker-hall-2024",
+      "y": 2024,
+      "date": "22/5/2024",
+      "t": "Faker là người đầu tiên được chọn vào Hall of Legends",
+      "c": "cul",
+      "imp": 1,
+      "topic": "Esports",
+      "who": "Faker (Lee Sang-hyeok)",
+      "d": "Ngày 22/5/2024, LoL Esports thông báo Lee “Faker” Sang-hyeok là người đầu tiên được vinh danh trong Hall of Legends. Chương trình ghi nhận thành tích thi đấu, đóng góp và ảnh hưởng của tuyển thủ. Đây là mốc công bố lựa chọn của Riot Games, khác với một chức vô địch giải đấu.",
+      "why": "Esports xây dựng cách lưu giữ lịch sử qua cả kết quả thi đấu và việc tôn vinh những con người định hình cộng đồng.",
+      "ref": "https://lolesports.com/en-GB/news/lol-esports-welcomes-faker-to-hall-of-legends"
+    },
+    {
+      "id": "esports-t1-worlds-2024",
+      "y": 2024,
+      "date": "2/11/2024",
+      "t": "T1 giành chức vô địch Worlds thứ năm",
+      "c": "cul",
+      "imp": 2,
+      "topic": "Esports",
+      "who": "Faker (Lee Sang-hyeok)",
+      "d": "Ngày 2/11/2024, T1 giành chức vô địch thế giới Liên Minh Huyền Thoại thứ năm trong lịch sử đội. Faker, người chơi đường giữa của T1, góp mặt trong thành tích này. Con số năm mô tả số danh hiệu tính đến trận chung kết năm 2024, không phải tổng danh hiệu ở mọi thời điểm về sau.",
+      "why": "Một chức vô địch esports là kết quả của phối hợp đội hình, chiến thuật, kỹ năng thi đấu và công việc chuẩn bị của nhiều người.",
+      "ref": "https://www.korea.net/NewsFocus/Sports/view?articleId=261023"
+    }
+  ]
+});
+TL_PEOPLE.push({
+  "lane": "ea",
+  "people": [
+    {
+      "id": "ea-np-faker",
+      "birthRef": "https://prosettings.net/players/faker/",
+      "n": "Faker (Lee Sang-hyeok)",
+      "b": 1996,
+      "k": 2024,
+      "role": "Tuyển thủ đường giữa Liên Minh Huyền Thoại của T1",
+      "c": "cul",
+      "imp": 2,
+      "topic": "Esports",
+      "act": "được LoL Esports công bố là người đầu tiên được chọn vào Hall of Legends",
+      "bio": "Faker là tên thi đấu của Lee Sang-hyeok, tuyển thủ đường giữa của T1. Riot Games chọn anh làm người đầu tiên trong Hall of Legends năm 2024.",
+      "ref": "https://lolesports.com/en-GB/news/lol-esports-welcomes-faker-to-hall-of-legends"
+    }
+  ]
+});
+TL_SLICES.push({"id": "sl-2024", "y": 2024, "t": "Năm 2024: Faker, T1 và cách esports ghi nhớ lịch sử", "d": "Tháng 5/2024, Faker trở thành người đầu tiên được công bố cho Hall of Legends của LoL Esports. Đến tháng 11, T1 giành chức vô địch Worlds thứ năm tính đến thời điểm ấy. Một mốc là sự ghi nhận cá nhân, mốc còn lại là kết quả thi đấu của tập thể. Hai mốc cho thấy lịch sử esports có cả những cuộc đời và các tập thể.", "ev": ["esports-faker-hall-2024", "esports-t1-worlds-2024"], "ref": "https://lolesports.com/en-GB/news/lol-esports-welcomes-faker-to-hall-of-legends"});
