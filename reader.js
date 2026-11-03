@@ -65,8 +65,8 @@ function refreshProgress() {
   const next = timeline.find(entry => !finished.has(entry.id));
   const count = finished.size + ' / ' + timeline.length + ' mục đã đọc';
   $('home-progress').textContent = count + ' · Tiến độ trên trình duyệt này';
-  $('resume-events').href = href(next || timeline[0]);
-  $('resume-events').textContent = !next ? 'Đọc lại từ đầu →' : finished.size ? 'Đọc tiếp theo dòng thời gian →' : 'Đọc theo dòng thời gian →';
+  $('resume-events').href = href(timeline[0]);
+  $('resume-events').textContent = 'Bắt đầu đọc →';
   $('tracking').hidden = !current || !eventIds.has(current.id);
   if ($('tracking').hidden) return;
   const read = finished.has(current.id);
@@ -126,14 +126,6 @@ function personTrail(entry, year) {
     return '<li><span>'+yearText(row.year)+' · '+distance+'</span>'+(row.entry?'<a href="'+href(row.entry)+'">'+escapeHTML(row.title)+'</a>':'<strong>'+escapeHTML(row.title)+'</strong>')+'</li>';
   }).join('')+'</ol></details>';
 }
-function yearIntroduction(item) {
-  if(!eventIds.has(item.id))return '';
-  const inYear=timeline.filter(e=>e.year===item.year);
-  const locations=[...new Set(inYear.map(e=>regions.get(e.lane)||'Toàn cầu'))];
-  const older=timeline.filter(e=>e.year<item.year).at(-1);
-  const newer=timeline.find(e=>e.year>item.year);
-  return '<div class="year-intro"><p><b>Năm '+yearText(item.year)+'</b> · '+inYear.length+' mốc trong thư viện, ở '+locations.length+' khu vực.</p><details><summary>Xem những mốc trong cùng năm</summary><ol>'+inYear.map(e=>'<li><a href="'+href(e)+'" '+(e.id===item.id?'aria-current="page"':'')+'>'+escapeHTML(e.title)+'</a><small>'+escapeHTML(regions.get(e.lane)||'Toàn cầu')+'</small></li>').join('')+'</ol></details><nav aria-label="Chuyển năm">'+(older?'<a href="'+href(older)+'">← '+yearText(older.year)+'</a>':'')+(newer?'<a href="'+href(newer)+'">'+yearText(newer.year)+' →</a>':'')+'</nav></div>';
-}
 function lifeScene(entry, year) {
   const p=entry.source;
   const age=year-p.b-(p.b<0&&year>0?1:0);
@@ -158,16 +150,90 @@ function showPeople() {
   $('all-people').onclick=()=>{openLibrary('search');$('kind').value='np';results();};
 }
 const surpriseQuestions = [
-  {ask:'Trước thời Mario, Nintendo bán thứ gì?', choices:['Bài hanafuda','Máy nghe nhạc','Truyện tranh'], correct:0, why:'Nintendo làm bài hanafuda ở Kyoto từ năm 1889. Trò chơi điện tử đến sau rất nhiều thập kỷ.', id:'culture-nintendo-1889', ref:'https://www.nintendo.com/us/about/'},
-  {ask:'Hai bản Pokémon ra mắt đầu tiên ở Nhật có màu gì?', choices:['Đỏ và xanh lá','Đỏ và xanh dương','Vàng và bạc'], correct:0, why:'Đó là Red và Green, phát hành ngày 27/2/1996. Red và Blue quen thuộc với nhiều người chơi quốc tế thuộc đợt phát hành sau.', id:'culture-pokemon-1996', ref:'https://www.pokemon.co.jp/game/other/gb-rg/'},
-  {ask:'Năm 1937 có phải lúc thế giới lần đầu có phim hoạt hình dài?', choices:['Không, đó là mốc phim dài đầu tiên của Disney','Đúng, mọi phim hoạt hình trước đó đều ngắn','Đó là năm hoạt hình máy tính xuất hiện'], correct:0, why:'Bạch Tuyết là phim hoạt hình dài đầu tiên của Disney. Không thể biến một cột mốc của hãng thành cột mốc đầu tiên của toàn thế giới.', id:'culture-snow-white-1937', ref:'https://d23.com/disney-history/'},
-  {ask:'Toy Story có gì đặc biệt trong lịch sử hoạt hình?', choices:['Phim truyện dài đầu tiên hoàn toàn bằng hoạt hình máy tính','Phim đầu tiên dùng bất kỳ hình ảnh máy tính nào','Phim hoạt hình dài đầu tiên của thế giới'], correct:0, why:'Pixar xác định cột mốc năm 1995 là phim dài hoàn toàn bằng hoạt hình máy tính. Hình ảnh máy tính và phim hoạt hình dài đều đã có lịch sử trước đó.', id:'culture-toy-story-1995', ref:'https://www.pixar.com/our-story'},
-  {ask:'Ca trù và Quan họ cùng được ghi danh năm 2009. Chúng vào cùng một danh sách UNESCO?', choices:['Không, Ca trù vào danh sách cần bảo vệ khẩn cấp','Có, mọi di sản phi vật thể ở cùng một danh sách','Ca trù chưa từng được ghi danh'], correct:0, why:'Ca trù vào danh sách cần bảo vệ khẩn cấp. Quan họ vào Danh sách đại diện. Hai cách ghi danh thể hiện mục đích bảo vệ khác nhau.', id:'culture-ca-tru-2009', ref:'https://ich.unesco.org/en/USL/ca-tru-singing-00309?USL=00309'},
-  {ask:'Jikji năm 1377 ở Pháp là cả bộ sách còn nguyên vẹn?', choices:['Chỉ còn quyển hai của bản in chữ kim loại','Là cả bộ, còn đủ hai quyển','Là bản chép tay của Gutenberg'], correct:0, why:'BnF lưu quyển hai của bản in chữ kim loại năm 1377. Bản khắc gỗ đầy đủ năm 1378 ở Hàn Quốc là một ấn bản khác.', id:'ea-jikji-1377', ref:'https://www.bnf.fr/en/jikji-treasure-world-printing'},
-  {ask:'Giải Nobel Vật lý mang niên hiệu 1921 của Einstein được quyết định trao năm nào?', choices:['1922','1921','1905'], correct:0, why:'Hồ sơ Nobel ghi niên hiệu giải là 1921 nhưng ngày công bố quyết định là 9/11/1922. Niên hiệu giải và năm công bố không phải lúc nào cũng trùng nhau.', id:'eu-einstein-1905', ref:'https://www.nobelprize.org/prizes/physics/1921/einstein/facts/'},
-  {ask:'Khi xây xong các kim tự tháp Giza, voi ma mút đã tuyệt chủng hết chưa?', choices:['Chưa, một quần thể còn sống trên đảo Wrangel','Đã tuyệt chủng hết từ rất lâu','Voi ma mút chỉ xuất hiện sau thời La Mã'], correct:0, why:'Theo các bảo tàng tự nhiên, voi ma mút ở Wrangel còn tồn tại tới khoảng 4.000 năm trước, muộn hơn thời xây các kim tự tháp Giza. Không phải mọi quần thể tuyệt chủng cùng lúc.', id:'wa-kim-tu-thap-giza-2560tcn', ref:'https://www.nhm.ac.uk/discover/were-all-mammoths-woolly.html'},
-  {ask:'Ghi “Oxford thành lập chính xác năm 1096” có ổn không?', choices:['Chưa chính xác: chỉ biết đã có giảng dạy vào năm ấy','Chính xác tuyệt đối, có ngày khai giảng rõ ràng','Không, Oxford chỉ xuất hiện ở thế kỷ XX'], correct:0, why:'Oxford cho biết không có ngày thành lập rõ ràng. Hoạt động giảng dạy đã tồn tại dưới một hình thức nào đó vào năm 1096.', id:'culture-oxford-1096', ref:'https://www.ox.ac.uk/about/the-university/history'},
-  {ask:'Một tỷ lượt xem của Gangnam Style là mốc nào?', choices:['Một kỷ lục đạt sau ngày video ra mắt','Ngày ca khúc lần đầu được sáng tác','Ngày YouTube bắt đầu hoạt động'], correct:0, why:'Video ra mắt tháng 7/2012, còn mốc một tỷ lượt xem đạt ngày 21/12/2012. Sự ra đời và sự lan truyền của một tác phẩm là hai câu chuyện khác nhau.', id:'culture-gangnam-2012', ref:'https://blog.youtube/creator-and-artist-stories/10-years-of-youtubes-billion-views-club-psy-gangnam-style/'}
+  {
+    "ask": "Thứ gì đã góp phần cứu tháp Eiffel khỏi việc bị tháo dỡ?",
+    "choices": [
+      "Khả năng phục vụ liên lạc vô tuyến",
+      "Một cuộc trưng cầu dân ý toàn nước Pháp",
+      "Việc chuyển nó thành khách sạn"
+    ],
+    "correct": 0,
+    "why": "Tháp vốn dự kiến tồn tại 20 năm. Các thí nghiệm khoa học và đặc biệt vai trò liên lạc vô tuyến giúp công trình có lý do để được giữ lại.",
+    "id": "eu-eiffel-1889",
+    "ref": "https://www.toureiffel.paris/en/news/130-years/why-was-eiffel-tower-kept"
+  },
+  {
+    "ask": "Trước khi Mario xuất hiện, Nintendo khởi nghiệp bằng thứ gì?",
+    "choices": [
+      "Bài hanafuda",
+      "Đồng hồ cơ",
+      "Máy nghe đĩa"
+    ],
+    "correct": 0,
+    "why": "Nintendo làm bài hanafuda ở Kyoto từ năm 1889, nhiều thập kỷ trước khi hãng bước vào trò chơi điện tử.",
+    "id": "culture-nintendo-1889",
+    "ref": "https://www.nintendo.com/us/about/"
+  },
+  {
+    "ask": "Cleopatra sống gần chuyến Apollo 11 hơn hay gần thời xây Đại Kim tự tháp Giza hơn?",
+    "choices": [
+      "Gần chuyến Apollo 11 hơn",
+      "Gần thời xây Đại Kim tự tháp hơn",
+      "Hai khoảng thời gian gần như bằng nhau"
+    ],
+    "correct": 0,
+    "why": "Cleopatra qua đời năm 30 TCN. Từ đó đến Apollo 11 năm 1969 là khoảng 2.000 năm, còn Đại Kim tự tháp đã được xây trước thời bà khoảng 2.500 năm.",
+    "id": "wa-np-cleopatra",
+    "ref": "https://www.slam.org/collection/constituents/33528/"
+  },
+  {
+    "ask": "Khi những kim tự tháp Giza đã được xây, voi ma mút còn sống ở đâu?",
+    "choices": [
+      "Trên đảo Wrangel ở Bắc Băng Dương",
+      "Không còn ở đâu, đã tuyệt chủng hết",
+      "Chỉ còn trong các vườn thú Ai Cập"
+    ],
+    "correct": 0,
+    "why": "Một quần thể voi ma mút ở Wrangel tồn tại tới khoảng 4.000 năm trước, muộn hơn thời xây các kim tự tháp Giza. Không phải mọi quần thể đều tuyệt chủng cùng lúc.",
+    "id": "wa-kim-tu-thap-giza-2560tcn",
+    "ref": "https://www.nhm.ac.uk/discover/were-all-mammoths-woolly.html"
+  },
+  {
+    "ask": "Trong lịch sử trung tâm Langley, “computer” từng là tên gọi của ai?",
+    "choices": [
+      "Những người làm công việc tính toán",
+      "Những người điều khiển máy bay thử nghiệm",
+      "Những người lắp ráp kính thiên văn"
+    ],
+    "correct": 0,
+    "why": "Trước khi máy tính điện tử phổ biến, những nhóm người, trong đó có nhiều phụ nữ, thực hiện các phép tính phục vụ nghiên cứu hàng không tại Langley. NASA gọi họ là human computers.",
+    "id": "am-langley-computers-1935",
+    "ref": "https://www.nasa.gov/history/langleys-computers-1935-1970/"
+  },
+  {
+    "ask": "Hai bản Pokémon đầu tiên tại Nhật có cặp màu nào?",
+    "choices": [
+      "Đỏ và xanh lá",
+      "Đỏ và xanh dương",
+      "Vàng và bạc"
+    ],
+    "correct": 0,
+    "why": "Red và Green ra mắt tại Nhật ngày 27/2/1996. Red và Blue quen thuộc với nhiều người chơi quốc tế thuộc đợt phát hành sau.",
+    "id": "culture-pokemon-1996",
+    "ref": "https://www.pokemon.co.jp/game/other/gb-rg/"
+  },
+  {
+    "ask": "Trước Kinh Thánh Gutenberg gần 80 năm, sách nào đã được in bằng chữ rời kim loại?",
+    "choices": [
+      "Jikji ở Triều Tiên",
+      "First Folio của Shakespeare",
+      "Tập Harry Potter đầu tiên"
+    ],
+    "correct": 0,
+    "why": "Jikji được in tại Cheongju năm 1377, trước Kinh Thánh Gutenberg khoảng 78 năm. Quyển hai của bản in chữ kim loại còn được giữ ở BnF.",
+    "id": "ea-jikji-1377",
+    "ref": "https://www.bnf.fr/en/jikji-treasure-world-printing"
+  }
 ];
 let quizDeck=[];
 function shuffled(items) {
@@ -324,7 +390,7 @@ function article(item) {
   const meta = [o.topic, o.date, o.place, o.role, item.kind === 'np' ? yearText(o.b)+' – '+(o.d == null ? 'nay' : yearText(o.d)) : '', ['pd','gb'].includes(item.kind) ? yearText(o.s)+' – '+yearText(o.e) : ''].filter(Boolean);
   const notes = [[noteTitle(item.id,'why'),o.why],[noteTitle(item.id,'alt'),o.alt],['Liên hệ Việt Nam',o.vn],['Một dấu mốc đáng nhớ',o.act ? 'Năm '+yearText(o.k)+', '+o.n+' '+o.act+'.' : ''],['Cùng thời',o.same],['Bạn có biết?',o.fun]];
   return (meta.length ? '<p class="meta">'+escapeHTML(meta.join(' · '))+'</p>' : '')+
-    '<div class="prose">'+yearIntroduction(item)+paragraphs(body)+'<div id="world" class="woven-world" aria-label="Đối chiếu cùng thời trong bài"></div>'+articleVisuals(item)+highlightHTML(item)+storyPeople(item)+(item.kind==='sl' ? sliceNotes(item) : '')+notes.filter(([,v])=>v).map(([h,v])=>'<h2>'+h+'</h2>'+paragraphs(v)).join('')+'</div>'+exploreHTML(item)+(o.ref ? '<a class="note-source" href="'+escapeHTML(o.ref)+'" target="_blank" rel="noopener">Nguồn tham khảo ↗</a>' : '');
+    '<div class="prose">'+paragraphs(body)+articleVisuals(item)+highlightHTML(item)+storyPeople(item)+(item.kind==='sl' ? sliceNotes(item) : '')+notes.filter(([,v])=>v).map(([h,v])=>'<h2>'+h+'</h2>'+paragraphs(v)).join('')+'</div>'+exploreHTML(item)+(o.ref ? '<a class="note-source" href="'+escapeHTML(o.ref)+'" target="_blank" rel="noopener">Nguồn tham khảo ↗</a>' : '')+'<details id="comparison-details" class="comparison-end"><summary>Cùng thời ở những nơi khác <span>Mở đối chiếu +</span></summary><div id="world" aria-label="Đối chiếu cuối bài"></div></details>';
 }
 function comparisonItems(item) {
   if (item.kind === 'sl') return (item.source.ev || []).map(id=>catalog.get(id)).filter(Boolean);
@@ -346,7 +412,7 @@ let comparisonLanes=['vn','eu'];
 function comparisonLink(entry, detail) {
   return '<a class="place-entry" href="'+href(entry)+'"><strong>'+escapeHTML(entry.title)+'</strong>'+(detail?'<span>'+escapeHTML(detail)+'</span>':'')+'</a>';
 }
-function placeCard(lane) {
+function placeData(lane) {
   const year=comparisonYear;
   const active=all.filter(e=>e.kind==='pd'&&e.lane===lane&&e.source.s<=year&&year<=e.source.e).sort((a,b)=>Number(b.source.g==='a')-Number(a.source.g==='a')||b.source.s-a.source.s);
   const exact=events.filter(e=>e.lane===lane&&e.year===year);
@@ -354,6 +420,10 @@ function placeCard(lane) {
     .sort((a,b)=>Math.abs(a.year-year)-Math.abs(b.year-year)).slice(0,2);
   const people=all.filter(e=>e.kind==='np'&&e.lane===lane&&e.year<=year&&(e.source.d??Infinity)>=year)
     .sort((a,b)=>Math.abs(a.source.k-year)-Math.abs(b.source.k-year)).slice(0,3);
+  return {lane,name:regions.get(lane),year,active,exact,near,people};
+}
+function placeCard(lane) {
+  const {year,active,exact,near,people}=placeData(lane);
   const background=active.length ? active.map(e=>comparisonLink(e,yearText(e.source.s)+' – '+yearText(e.source.e))).join('')+'<p class="place-background">'+escapeHTML(active[0].source.d)+'</p>' : '<p class="comparison-empty">Chưa có thời kỳ trong dữ liệu.</p>';
   const landmarks=exact.length ? exact.map(e=>comparisonLink(e,(e.source.ca?'Niên đại xấp xỉ · ':'')+(e.source.date||yearText(e.year)))).join('') : '<p class="comparison-empty">Chưa có mốc được ghi ở năm này.</p>';
   const neighbours=near.map(e=>{
@@ -376,6 +446,7 @@ function updateComparison() {
   });
   $('comparison-year').value=comparisonYear;
   $('comparison-reset').hidden=comparisonYear===(current.source.k??current.year);
+  mountComparisonUI();
 }
 function drawPlaceControls() {
   $('place-controls').innerHTML=comparisonLanes.map((lane,index)=>'<label>Nơi '+(index+1)+'<select data-place-select="'+index+'">'+LANES.map(l=>'<option value="'+l.id+'">'+escapeHTML(l.name)+'</option>').join('')+'</select></label>').join('');
@@ -385,9 +456,35 @@ function drawPlaceControls() {
   });
   updateComparison();
 }
+let nativeComparisonLoading=false;
+function mountComparisonUI() {
+  const host=$('comparison-native-root');
+  const details=$('comparison-details');
+  if(!host||!details?.open)return;
+  if(!window.mountNativeComparison){
+    if(!nativeComparisonLoading){
+      nativeComparisonLoading=true;
+      const script=document.createElement('script');
+      script.src='comparison-native.js?v=native-2';
+      script.onerror=()=>{nativeComparisonLoading=false;script.remove();};
+      document.head.append(script);
+    }
+    return;
+  }
+  window.mountNativeComparison(host,{
+    year:comparisonYear,currentYear:current.source.k??current.year,
+    lanes:comparisonLanes,regions:LANES,cards:comparisonLanes.map(placeData),
+    onYear:year=>{comparisonYear=year;updateComparison();},
+    onLanes:lanes=>{comparisonLanes=lanes;drawPlaceControls();},
+    onRead:id=>{location.hash=href(catalog.get(id));},
+    onReady:()=>{if($('comparison-fallback'))$('comparison-fallback').hidden=true;}
+  });
+}
+window.addEventListener('native-comparison-ready',mountComparisonUI);
 function showWorld() {
+  window.unmountNativeComparison?.();
   comparisonYear=current.source.k??current.year;
-  $('world').innerHTML='<h2 id="comparison-heading"></h2><p class="summary">Đặt các nơi cạnh nhau để xem bối cảnh, những mốc được ghi ở năm này và các nhân vật cùng thời.</p><form id="comparison-year-form" class="comparison-toolbar"><label>Năm <input id="comparison-year" type="number" min="-3500" max="2026" step="1" required aria-describedby="year-tip"></label><button type="submit">Đối chiếu</button><button type="button" id="comparison-reset">Về năm của bài</button><small id="year-tip">Nhập số âm cho năm trước Công nguyên. Không có năm 0.</small></form><div id="place-controls"></div><div class="place-count"><button id="add-place">+ Thêm nơi thứ ba</button><button id="remove-place" hidden>− Còn hai nơi</button></div><div id="comparison-cards"></div><p class="comparison-footnote">Các cột dùng chung một năm. “Mốc gần đó” ghi rõ khoảng cách thời gian. Bấm một mục để đọc ngay trong hành trình.</p>';
+  $('world').innerHTML='<div id="comparison-native-root"></div><div id="comparison-fallback"><h2 id="comparison-heading"></h2><p class="summary">Đặt các nơi cạnh nhau để xem bối cảnh, những mốc được ghi ở năm này và các nhân vật cùng thời.</p><form id="comparison-year-form" class="comparison-toolbar"><label>Năm <input id="comparison-year" type="number" min="-3500" max="2026" step="1" required aria-describedby="year-tip"></label><button type="submit">Đối chiếu</button><button type="button" id="comparison-reset">Về năm của bài</button><small id="year-tip">Nhập số âm cho năm trước Công nguyên. Không có năm 0.</small></form><div id="place-controls"></div><div class="place-count"><button id="add-place">+ Thêm nơi thứ ba</button><button id="remove-place" hidden>− Còn hai nơi</button></div><div id="comparison-cards"></div><p class="comparison-footnote">Các cột dùng chung một năm. “Mốc gần đó” ghi rõ khoảng cách thời gian. Bấm một mục để đọc ngay trong hành trình.</p></div>';
   $('comparison-year-form').onsubmit=event=>{
     event.preventDefault();
     const input=$('comparison-year');
@@ -400,6 +497,7 @@ function showWorld() {
   $('add-place').onclick=()=>{comparisonLanes.push(LANES.find(l=>!comparisonLanes.includes(l.id)).id);drawPlaceControls();};
   $('remove-place').onclick=()=>{comparisonLanes.pop();drawPlaceControls();};
   drawPlaceControls();
+  $('comparison-details').ontoggle=()=>{if($('comparison-details').open)mountComparisonUI();};
 }
 function render(focus = false) {
   let id;
@@ -487,11 +585,6 @@ function openLibrary(mode) {
   else { $('close').focus(); $('results').querySelector('[aria-current]')?.scrollIntoView({block:'nearest'}); }
 }
 $('lookup').onclick=()=>openLibrary('search');
-$('discover-culture').onclick=()=>{
-  openLibrary('events');
-  $('topic-filter').value='cul';
-  results();
-};
 $('contents').onclick=()=>openLibrary('events');
 $('contents-side').onclick=$('catalog-slices').onclick=()=>openLibrary('events');
 $('events-side').onclick=$('catalog-events').onclick=()=>openLibrary('events');

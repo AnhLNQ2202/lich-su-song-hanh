@@ -1,0 +1,16 @@
+{
+  "name": "lich-su-song-hanh",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build:interactions": "node web/build.cjs"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-native-web": "^0.21.4"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}

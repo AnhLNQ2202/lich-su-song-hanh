@@ -181,16 +181,8 @@ dialog{color:var(--ink);background:var(--paper);border:1px solid var(--line);bor
 
 .woven-world { padding-block:20px; margin-block:22px; border-block:1px solid var(--line); }
 .woven-world>.summary { font:14px/1.6 var(--ui); }
-.year-intro { margin:0 0 22px; padding:12px 14px; background:var(--sand); border-radius:6px; font:14px/1.5 var(--ui); }
-.year-intro p { margin:0 0 4px; }
-.year-intro summary,.person-trail summary { cursor:pointer; min-height:44px; padding-block:10px; font:600 14px/1.5 var(--ui); }
-.year-intro ol,.person-trail ol { padding-left:20px; }
-.year-intro li { padding:7px 0; }
-.year-intro li a { text-decoration:underline; }
-.year-intro small { display:block; color:var(--muted); }
-.year-intro [aria-current] { font-weight:700; color:var(--rust); }
-.year-intro nav { display:flex; justify-content:space-between; gap:12px; }
-.year-intro nav a { display:flex; min-height:44px; align-items:center; }
+.person-trail summary { cursor:pointer; min-height:44px; padding-block:10px; font:600 14px/1.5 var(--ui); }
+.person-trail ol { padding-left:20px; }
 .person-bio-link { display:block; }
 .person-trail { margin-top:8px; }
 .person-trail li { padding:8px 0; font:17px/1.5 var(--serif); }
@@ -204,3 +196,9 @@ dialog{color:var(--ink);background:var(--paper);border:1px solid var(--line);bor
 .explore-actions button { min-height:44px; padding:8px 12px; border:1px solid var(--line); border-radius:6px; }
 .map-credit { display:block; margin-top:6px; }
 .period-map .art-figure { margin-top:8px; }
+
+.comparison-end { margin:24px 0 4px; border-block:1px solid var(--line); }
+.comparison-end>summary { cursor:pointer; min-height:50px; display:flex; justify-content:space-between; align-items:center; gap:12px; padding-block:12px; font:600 16px/1.5 var(--serif); }
+.comparison-end>summary span { font:600 12px/1.5 var(--ui); color:var(--rust); }
+.comparison-end[open]>summary span { visibility:hidden; }
+.comparison-end #world { border:0; margin:0; }
