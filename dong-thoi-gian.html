@@ -544,6 +544,21 @@ summary.xs-h:focus-visible { outline: 2px solid var(--gold); }
   .p-grip::after { content: "Mở"; color: var(--gold-ink); font-weight: 600; }
   .sheet-open .p-grip::after { content: "Thu gọn"; }
 }
+
+.in-reader {
+  --bg: #fbf8f1; --surface: #fffcf6; --bg-2: #eee8dc;
+  --ink: #203d38; --ink-2: #344e46; --muted: #58675e;
+  --line: #cfcabe; --line-2: #e4ddd1; --vn: #98442d;
+  --gold: #ad702e; --gold-ink: #76451b; --gold-soft: #f2e6cd; --on-c: white;
+  --f-display: Cambria, "Times New Roman", serif; --f-ui: system-ui, sans-serif;
+  color-scheme: light;
+}
+.in-reader .brand, .in-reader .panel, .in-reader .tools-toggle, .in-reader .acts, .in-reader .hint { display:none!important; }
+.in-reader .foot { padding:4px 8px; }
+.in-reader .seg { margin:0; }
+.in-reader .top { padding:4px 8px; }
+.in-reader .chapters { padding-block:3px; }
+.in-reader .period-bar span { display:none; }
 </style>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
   <defs>
@@ -1160,10 +1175,15 @@ summary.xs-h:focus-visible { outline: 2px solid var(--gold); }
     linksSvg.setAttribute('height', S.lanesH);
     linksSvg.innerHTML = d;
   }
+  const embeddedReader = window.parent !== window && new URLSearchParams(location.search).has('reader');
   function openItem(o, opts) {
     opts = opts || {};
     if (!o) return;
     hideTip();
+    if (embeddedReader && !opts.noSheet) {
+      parent.postMessage({type:'read-item',id:o.id}, location.origin==='null'?'*':location.origin);
+      opts.noSheet=true;
+    }
     if (o.kind === 'sl') {
       clearSel();
       S.view = 'slice';
@@ -1299,7 +1319,7 @@ summary.xs-h:focus-visible { outline: 2px solid var(--gold); }
       <h2 class="d-title">${esc(o.t)}</h2>
       ${meta ? `<div class="d-meta">${meta}</div>` : ''}
       <p class="d-text">${esc(o.d)}</p>
-      ${box('why', 'Vì sao quan trọng?', o.why)}${box('alt', 'Góc nhìn khác', o.alt)}${box('fun', 'Bạn có biết?', o.fun)}${box('vnl', 'Liên hệ Việt Nam', o.vn)}
+      ${box('why', noteTitle(o.id, 'why'), o.why)}${box('alt', noteTitle(o.id, 'alt'), o.alt)}${box('fun', 'Bạn có biết?', o.fun)}${box('vnl', 'Liên hệ Việt Nam', o.vn)}
       ${relHTML(o)}
       ${sameTimeHTML(o.y, o.lane, 4)}
       ${navHTML(o)}
@@ -1819,6 +1839,17 @@ summary.xs-h:focus-visible { outline: 2px solid var(--gold); }
   } else if (firstSlice) {
     renderSlice(firstSlice.y, firstSlice);
   } else renderSlice(S.play);
+  if (embeddedReader) {
+    app.classList.add('in-reader');
+    window.addEventListener('message', event => {
+      if (event.source!==parent || event.origin!==location.origin || event.data?.type!=='show-item') return;
+      const item=BYID.get(event.data.id);
+      if (!item || item===S.sel) return;
+      setMode(item.kind==='np'?'np':'ev');
+      openItem(item,{instant:true,noSheet:true});
+    });
+    parent.postMessage({type:'atlas-ready'}, location.origin==='null'?'*':location.origin);
+  }
   ro.observe(vp);
   ro.observe(mmBox);
   if (document.fonts && document.fonts.ready) {

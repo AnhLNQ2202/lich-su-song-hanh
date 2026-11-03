@@ -6135,3 +6135,41 @@ TL_LINKS.push(
       d: 'Virus SARS-CoV-2 lan ra toàn cầu từ đầu năm 2020: nhiều nước phong tỏa, trường học chuyển sang học trực tuyến, vắc xin được phát triển nhanh kỷ lục. Tháng 5/2023, WHO tuyên bố chấm dứt tình trạng khẩn cấp y tế toàn cầu.',
       vn: 'Việt Nam kiểm soát tốt dịch trong năm 2020, chịu làn sóng lớn năm 2021 rồi phủ vắc xin nhanh để mở cửa trở lại.' },
   ];
+
+// Section titles follow the event whose note is being read, in either view.
+const NOTE_TITLES = {
+  'wa-kim-tu-thap-giza-2560tcn': ['Kỳ quan nào vẫn còn đứng vững?', 'Kim tự tháp đã cổ đến mức nào?'],
+  'eu-dan-chu-athens-508tcn': ['Khi người dân Athens được quyết việc chung', 'Ai được tính là “người dân” Athens?'],
+  'vn-au-lac-208tcn': ['Những gì còn lại ở Cổ Loa', 'Ngoài chuyện tình Mỵ Châu – Trọng Thủy'],
+  'vn-hai-ba-trung-40': ['Khi Hai Bà Trưng dựng cờ', 'Ở bên kia thế giới cũng có một nữ thủ lĩnh'],
+  'vn-ba-trieu-248': ['Từ Hai Bà Trưng đến Bà Triệu'],
+  'am-maya-co-dien-250': [null, 'Người Maya có chung một vị vua không?'],
+  'vn-van-xuan-544': ['Lý Bí gửi gắm điều gì vào tên nước Vạn Xuân?'],
+  'ea-phat-giao-nhat-ban-538': [null, 'Một món quà khiến triều đình Nhật tranh luận'],
+  'eu-charlemagne-800': ['Một hoàng đế mới ở Tây Âu'],
+  'sa-borobudur-800': [null, 'Đọc chuyện trên những bậc đá Borobudur'],
+  'vn-bach-dang-938': ['Sau trận Bạch Đằng, điều gì thay đổi?', 'Ngô Quyền đã đọc con nước ra sao?'],
+  'vn-doi-do-thang-long-1010': ['Từ Đại La đến Hà Nội hôm nay', 'Vì sao rời núi Hoa Lư để ra đồng bằng?'],
+  'vn-nam-quoc-son-ha-1077': ['Lời khẳng định chủ quyền trong một bài thơ'],
+  'vn-quoc-tu-giam-1076': [null, 'Khi Thăng Long và Bologna cùng mở trường'],
+  'vn-bach-dang-1288': ['Trận Bạch Đằng khép lại ba cuộc kháng chiến', 'Sau thất bại, Hốt Tất Liệt còn tính gì?'],
+  'vn-binh-ngo-dai-cao-1428': ['Lời tuyên bố sau ngày thắng trận'],
+  'sa-angkor-bi-bo-1431': [null, 'Angkor có thật sự bị bỏ hoang?'],
+  'am-columbus-1492': ['Khi những chuyến tàu nối hai bờ Đại Tây Dương', 'Nhìn từ bờ biển của người Taíno'],
+  'sa-cong-ty-dong-an-1600': ['Từ buôn bán đến cai trị thuộc địa', 'Một công ty có thể nắm bao nhiêu quyền lực?'],
+  'vn-chu-quoc-ngu-1651': ['Từ trang từ điển đến chữ viết hằng ngày', 'Những người cùng tạo nên chữ Quốc ngữ'],
+  'vn-ngoc-hoi-dong-da-1789': ['Sau chiến thắng Ngọc Hồi – Đống Đa', 'Cùng năm ấy, Paris có chuyện gì?'],
+  'vn-da-nang-1858': ['Cuộc chiến bắt đầu từ cửa biển Đà Nẵng', 'Vì sao quân Pháp mắc kẹt ở Đà Nẵng?'],
+  'vn-ra-di-1911': ['Hành trình từ bến Nhà Rồng dẫn tới đâu?', 'Vì sao Nguyễn Tất Thành chọn sang Pháp?'],
+  'vn-nan-doi-1945': ['Từ nạn đói đến những cuộc phá kho thóc', 'Nhìn năm 1945 từ một bát cơm'],
+  'vn-dien-bien-phu-1954': ['Tiếng vang từ Điện Biên Phủ', 'Vì sao pháo đã kéo vào lại phải kéo ra?'],
+  'vn-bac-ho-1969': ['Bản Di chúc để lại cho những người ở lại'],
+  'am-apollo-11-1969': [null, 'Trái Đất hiện ra thế nào từ quỹ đạo Mặt Trăng?'],
+  'vn-giai-phong-mien-nam-1975': ['Khi chiến tranh khép lại', 'Một kế hoạch hai năm diễn ra trong bao lâu?'],
+  'vn-xuat-khau-gao-1989': ['Khi gạo Việt Nam bắt đầu đi xa', 'Điều gì thay đổi trên những thửa ruộng cũ?'],
+  'vn-wto-2007': ['Việt Nam bước vào thị trường chung', 'Cùng chơi theo một bộ luật']
+};
+function noteTitle(id, field) {
+  const index = field === 'why' ? 0 : 1;
+  return NOTE_TITLES[id]?.[index] || (index === 0 ? 'Điều còn lại sau đó' : 'Nhìn kỹ hơn một chút');
+}

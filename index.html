@@ -26,9 +26,10 @@
     <div>
       <p class="edition">Giới thiệu</p>
       <h1 id="intro-title">Khi ấy, <i>thế giới</i><br>đang làm gì?</h1>
-      <p class="intro-copy">Lịch Sử Song Hành đặt lịch sử Việt Nam bên cạnh lịch sử thế giới. Mỗi bài bắt đầu từ một mốc thời gian, rồi đưa bạn đến những nơi khác để xem chuyện gì đang diễn ra cùng thời.</p>
-      <a class="start-reading" id="start-reading" href="#sl-938">Bắt đầu đọc <span aria-hidden="true">→</span></a>
-      <p class="intro-note">Bài mở đầu · Bạch Đằng, năm 938</p>
+      <p class="intro-copy">Lịch Sử Song Hành đặt lịch sử Việt Nam bên cạnh lịch sử thế giới. Bạn có thể đi từ sự kiện sớm nhất đến hiện tại, hoặc chọn một lát cắt để xem cùng năm ấy, mỗi nơi đang trải qua chuyện gì.</p>
+      <a class="start-reading" id="resume-events" href="#vn-tien-su-3500tcn">Đọc theo dòng thời gian →</a>
+      <p class="intro-note" id="home-progress"></p>
+      <a class="secondary-path" id="start-reading" href="#sl-938">Đọc 24 lát cắt theo chủ đề →</a>
     </div>
     <aside class="sample" aria-label="Hai mốc lịch sử gần nhau">
       <div class="sample-head"><span>Trong cùng một thập niên</span><span class="engraving" aria-hidden="true"></span></div>
@@ -45,18 +46,35 @@
       <div class="edition">Tủ sách lịch sử</div>
       <h2>Việt Nam<br><i>&amp; thế giới</i></h2>
       <div class="hair"></div>
+      <button id="events-side" class="margin-btn">Danh mục sự kiện</button>
       <button id="contents-side" class="margin-btn"><svg aria-hidden="true"><use href="#book"/></svg>Mục lục lát cắt</button>
-      <a id="map-side" class="margin-link" href="dong-thoi-gian.html">Mở dòng thời gian <span>↗</span></a>
+      <a data-atlas id="map-side" class="margin-link" href="dong-thoi-gian.html">Mở dòng thời gian <span>↗</span></a>
     </aside>
     <article id="story" tabindex="-1">
       <div class="folio"><span id="series"></span><span class="folio-rule"></span><span id="number"></span></div>
-      <div class="yearline"><strong id="year"></strong><span class="engraving" aria-hidden="true"></span></div>
-      <h1 id="headline"></h1>
-      <nav class="tabs" aria-label="Nội dung của mốc đang đọc"><button id="read" aria-pressed="true">Bài đọc</button><button id="compare" aria-pressed="false">Cùng thời</button></nav>
+      <nav class="reading-rail" aria-label="Các sự kiện trên trục thời gian">
+        <a id="rail-before" class="rail-stop"></a>
+        <div class="rail-current" aria-current="step"><small>Đang đọc</small><strong id="year"></strong></div>
+        <a id="rail-after" class="rail-stop"></a>
+      </nav>
+      <div class="rail-tools"><button id="rail-list">Danh mục sự kiện</button><a class="time-link" data-atlas href="dong-thoi-gian.html" aria-controls="atlas-inline" aria-expanded="false">Mở bản đồ thời gian ↓</a></div>
+      <section id="atlas-inline" hidden aria-label="Dòng thời gian tương tác">
+        <div id="atlas-frame"></div>
+        <button id="atlas-close">Thu gọn bản đồ ↑</button>
+      </section>
+      <h1 id="headline" tabindex="-1"></h1>
+      <nav class="tabs" aria-label="Nội dung của mốc đang đọc"><button id="read" aria-pressed="true">Bài đọc</button><button id="compare" aria-pressed="false">Cùng thời</button><button id="people" aria-pressed="false">Nhân vật</button><button id="play" aria-pressed="false">Đố vui</button></nav>
       <section id="body-copy" aria-label="Bài đọc"></section>
       <section id="world" hidden aria-label="Đối chiếu cùng thời"></section>
+      <section id="portraits" hidden aria-label="Nhân vật cùng thời"></section>
+      <section id="challenge" hidden aria-label="Đố vui theo bài"></section>
+      <section id="tracking" class="tracking" hidden aria-label="Tiến độ đọc sự kiện">
+        <p id="progress-label"></p>
+        <button id="mark-read" aria-pressed="false">Đánh dấu đã đọc</button>
+        <a id="next-unread">Đến sự kiện chưa đọc →</a>
+      </section>
       <div class="endmark" aria-hidden="true">❖</div>
-      <a id="map" class="atlas" href="dong-thoi-gian.html">Xem mốc này trên dòng thời gian <span>↗</span></a>
+      <a data-atlas id="map" class="atlas" href="dong-thoi-gian.html">Xem mốc này trên dòng thời gian <span>↗</span></a>
     </article>
   </div>
 </main>
@@ -69,6 +87,7 @@
   <div class="dialog-head"><h2 id="dialog-title"></h2><button id="close" aria-label="Đóng">×</button></div>
   <div class="filters"><label for="search" class="sr">Tìm trong thư viện</label><input id="search" type="search" autocomplete="off" placeholder="Tìm tên, nhân vật hoặc năm…">
   <label for="kind" class="sr">Loại nội dung</label><select id="kind"><option value="">Tất cả nội dung</option><option value="sl">Lát cắt</option><option value="ev">Sự kiện</option><option value="np">Nhân vật</option><option value="pd">Thời kỳ</option></select></div>
+  <div class="catalog-options"><button id="catalog-events">Toàn bộ sự kiện</button><button id="catalog-slices">24 lát cắt</button><button id="only-unread" hidden aria-pressed="false">Chỉ hiện chưa đọc</button></div>
   <div id="status" role="status"></div><div id="results"></div>
 </dialog>
 <noscript>Hãy bật JavaScript trong trình duyệt để đọc và tra cứu lịch sử.</noscript>

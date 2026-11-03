@@ -26,6 +26,167 @@ const events = all.filter(item => item.kind === 'ev');
 let current, comparisons = [], limit = 50;
 const library = $('library');
 const href = item => '#' + encodeURIComponent(item.id);
+const timeline = all.filter(entry => entry.kind === 'ev' || entry.kind === 'gb');
+// The visual timeline uses a reference year, including approximate and disputed dates.
+// In a shared year, compare the first month/day specified by the source.
+function withinYear(entry) {
+  const date = entry.source.date || '';
+  const day = date.match(/(?:^|\D)(\d{1,2})(?:\s*[–-]\s*\d{1,2}|\s+rạng\s+\d{1,2})?\/(\d{1,2})(?!\d)/);
+  if (day) return Number(day[2]) * 32 + Number(day[1]);
+  const month = date.match(/tháng\s+(\d{1,2})/i) || date.match(/(?:^|\D)(\d{1,2})(?:[–-]\d{1,2})?\/\d{4}/);
+  if (month) return Number(month[1]) * 32;
+  if (/^Cuối 1944/.test(date)) return -1;
+  if (/^Cuối năm/i.test(date)) return 12 * 32;
+  return 0;
+}
+timeline.sort((a,b) => a.year - b.year || withinYear(a) - withinYear(b));
+const eventIds = new Set(timeline.map(entry => entry.id));
+const readKey = 'lsh.read.';
+const finished = new Set();
+try {
+  for (const entry of timeline) if (localStorage.getItem(readKey + entry.id)) finished.add(entry.id);
+} catch { /* Keep progress for the session when storage is unavailable. */ }
+function refreshProgress() {
+  const next = timeline.find(entry => !finished.has(entry.id));
+  const count = finished.size + ' / ' + timeline.length + ' sự kiện đã đọc';
+  $('home-progress').textContent = count + ' · Tiến độ trên trình duyệt này';
+  $('resume-events').href = href(next || timeline[0]);
+  $('resume-events').textContent = !next ? 'Đọc lại từ đầu →' : finished.size ? 'Đọc tiếp theo dòng thời gian →' : 'Đọc theo dòng thời gian →';
+  $('tracking').hidden = !current || !eventIds.has(current.id);
+  if ($('tracking').hidden) return;
+  const read = finished.has(current.id);
+  $('progress-label').textContent = count;
+  $('mark-read').textContent = read ? '✓ Đã đọc' : 'Đánh dấu đã đọc';
+  $('mark-read').setAttribute('aria-pressed', String(read));
+  $('next-unread').hidden = !next || next === current;
+  if (next) $('next-unread').href = href(next);
+}
+function markRead() {
+  const id = current.id;
+  if (finished.has(id)) finished.delete(id);
+  else finished.add(id);
+  try {
+    if (finished.has(id)) localStorage.setItem(readKey + id, '1');
+    else localStorage.removeItem(readKey + id);
+  } catch { /* Progress still works in the current page. */ }
+  refreshProgress();
+}
+$('mark-read').onclick = markRead;
+window.addEventListener('storage', event => {
+  if (event.key === null) finished.clear();
+  else if (event.key.startsWith(readKey)) {
+    const id = event.key.slice(readKey.length);
+    if (!eventIds.has(id)) return;
+    if (event.newValue) finished.add(id); else finished.delete(id);
+  } else return;
+  refreshProgress();
+  if (library.open) results();
+});
+
+function sliceNotes(item) {
+  const related = comparisonItems(item).sort((a,b) => Math.abs(a.year-item.year) - Math.abs(b.year-item.year));
+  return ['why','alt'].map(field => {
+    const entry = related.find(e => e.source[field]);
+    if (!entry) return '';
+    return '<section class="story-note"><h2>'+escapeHTML(noteTitle(entry.id,field))+'</h2>'+
+      paragraphs(entry.source[field])+'<a class="note-source" href="'+href(entry)+'">'+escapeHTML(entry.title)+' →</a></section>';
+  }).join('');
+}
+function showPeople() {
+  const year = current.source.k ?? current.year;
+  const alive = all.filter(e => e.kind === 'np' && e !== current && e.year <= year && (e.source.d ?? Infinity) >= year)
+    .sort((a,b) => Math.abs(a.source.k-year) - Math.abs(b.source.k-year));
+  $('portraits').innerHTML = '<h2>Ai đang sống vào năm '+yearText(year)+'?</h2>'+
+    (alive.length ? alive.map(e => '<a class="person-link" href="'+href(e)+'"><strong>'+escapeHTML(e.title)+'</strong><span>'+escapeHTML(e.source.role)+' · '+escapeHTML(regions.get(e.lane))+'</span></a>').join('') : '<p>Thư viện chưa có tiểu sử nào ghi nhận người sống vào mốc này.</p>')+
+    '<button class="secondary-path" id="all-people">Tra cứu mọi nhân vật →</button>';
+  $('all-people').onclick = () => { openLibrary('search'); $('kind').value = 'np'; results(); };
+}
+function newQuestion() {
+  const year = current.source.k ?? current.year;
+  const linked = current.kind === 'sl' ? comparisonItems(current).filter(e=>e.kind==='ev') : [];
+  const nearby = events.slice().sort((a,b)=>Math.abs(a.year-year)-Math.abs(b.year-year)).slice(0,16);
+  const pool = linked.length > 1 ? linked : nearby;
+  const a = pool[Math.floor(Math.random()*pool.length)];
+  let choices = pool.filter(e=>e.year!==a.year);
+  if (!choices.length) choices = events.filter(e=>e.year!==a.year).sort((x,y)=>Math.abs(x.year-year)-Math.abs(y.year-year)).slice(0,4);
+  const b = choices[Math.floor(Math.random()*choices.length)];
+  const pair = [a,b];
+  $('challenge').innerHTML = '<h2>Chuyện nào xảy ra trước?</h2><p class="summary">Chọn một trong hai sự kiện.</p>'+
+    pair.map((e,i)=>'<button class="answer" data-answer="'+i+'">'+escapeHTML(e.title)+'</button>').join('')+
+    '<div id="quiz-feedback" role="status"></div>';
+  $('challenge').querySelectorAll('.answer').forEach(button => button.onclick = () => {
+    const answer = pair[Number(button.dataset.answer)];
+    const sorted = pair.slice().sort((x,y)=>x.year-y.year);
+    $('challenge').querySelectorAll('.answer').forEach(btn=>btn.disabled=true);
+    $('quiz-feedback').innerHTML = '<b>'+(answer===sorted[0]?'Đúng rồi.':'Thứ tự đúng là')+'</b>'+
+      sorted.map(e=>'<a class="answer-date" href="'+href(e)+'">'+yearText(e.year)+' · '+escapeHTML(e.title)+' →</a>').join('')+
+      '<button class="secondary-path" id="another">Thử câu tiếp →</button>';
+    $('another').onclick=newQuestion;
+  });
+}
+const panels = {read:'body-copy', compare:'world', people:'portraits', play:'challenge'};
+function selectPanel(name) {
+  for (const [button,section] of Object.entries(panels)) {
+    $(button).setAttribute('aria-pressed', String(name===button));
+    $(section).hidden = name!==button;
+  }
+  if (name==='compare') showWorld();
+  if (name==='people') showPeople();
+  if (name==='play' && !$('challenge').hasChildNodes()) newQuestion();
+}
+for (const name of Object.keys(panels)) $(name).onclick=()=>selectPanel(name);
+const atlas = $('atlas-inline');
+function displayAtlas(open) {
+  atlas.hidden = !open;
+  const toggle = document.querySelector('.time-link');
+  toggle.textContent = open ? 'Thu gọn bản đồ ↑' : 'Mở bản đồ thời gian ↓';
+  toggle.setAttribute('aria-expanded', String(open));
+  if (!open) { $('atlas-frame').replaceChildren(); return; }
+  const frame = document.createElement('iframe');
+  frame.title = 'Chọn sự kiện hoặc nhân vật để đọc';
+  frame.src = 'dong-thoi-gian.html?reader=1' + href(current);
+  $('atlas-frame').replaceChildren(frame);
+  atlas.scrollIntoView({block:'nearest'});
+}
+$('atlas-close').onclick=()=>{ displayAtlas(false); document.querySelector('.time-link').focus(); };
+for (const link of document.querySelectorAll('[data-atlas]')) link.onclick = event => {
+  if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+  event.preventDefault();
+  displayAtlas(atlas.hidden || !link.classList.contains('time-link'));
+};
+function sendToAtlas(id) {
+  const frame = $('atlas-frame').firstElementChild;
+  frame?.contentWindow?.postMessage({type:'show-item', id}, location.origin==='null'?'*':location.origin);
+}
+window.addEventListener('message', event => {
+  const frame = $('atlas-frame').firstElementChild;
+  if (!frame || event.source!==frame.contentWindow || event.origin!==location.origin) return;
+  if (event.data?.type==='atlas-ready') { if(current) sendToAtlas(current.id); return; }
+  const entry = catalog.get(event.data?.id);
+  if (event.data?.type!=='read-item' || !entry) return;
+  if (current !== entry) {
+    history.pushState(null,'',href(entry));
+    render();
+  }
+  $('headline').focus({preventScroll:true});
+  $('headline').scrollIntoView({block:'start'});
+});
+function updateRail() {
+  const index = timeline.indexOf(current);
+  const year = current.source.k ?? current.year;
+  const nextIndex = index>=0 ? index+1 : timeline.findIndex(e=>e.year>=year);
+  const pivot = nextIndex<0 ? timeline.length : nextIndex;
+  const stops = [['rail-before',timeline[index>=0?index-1:pivot-1],'← Trước'],['rail-after',timeline[pivot],'Sau →']];
+  for(const [id,entry,label] of stops) {
+    const link=$(id);
+    link.hidden=!entry;
+    if (!entry) continue;
+    link.href=href(entry);
+    link.innerHTML='<small>'+label+' · '+yearText(entry.year)+'</small><span>'+escapeHTML(entry.title)+'</span>';
+  }
+  $('year').textContent=yearText(year);
+}
+$('rail-list').onclick=()=>openLibrary('events');
 function paragraphs(text) {
   const sentences = String(text || '').trim().split(/(?<=[.!?])\s+(?=[\p{Lu}“])/u);
   const blocks = [];
@@ -44,9 +205,9 @@ function article(item) {
   const o = item.source;
   const body = item.kind === 'np' ? o.bio : o.d;
   const meta = [o.date, o.place, o.role, item.kind === 'np' ? yearText(o.b)+' – '+(o.d == null ? 'nay' : yearText(o.d)) : '', ['pd','gb'].includes(item.kind) ? yearText(o.s)+' – '+yearText(o.e) : ''].filter(Boolean);
-  const notes = [['Vì sao quan trọng?',o.why],['Góc nhìn khác',o.alt],['Liên hệ Việt Nam',o.vn],['Dấu mốc trong đời',o.act ? 'Năm '+yearText(o.k)+', '+o.n+' '+o.act+'.' : ''],['Cùng thời',o.same],['Bạn có biết?',o.fun]];
+  const notes = [[noteTitle(item.id,'why'),o.why],[noteTitle(item.id,'alt'),o.alt],['Liên hệ Việt Nam',o.vn],['Dấu mốc trong đời',o.act ? 'Năm '+yearText(o.k)+', '+o.n+' '+o.act+'.' : ''],['Cùng thời',o.same],['Bạn có biết?',o.fun]];
   return (meta.length ? '<p class="meta">'+escapeHTML(meta.join(' · '))+'</p>' : '')+
-    '<div class="prose">'+paragraphs(body)+notes.filter(([,v])=>v).map(([h,v])=>'<h2>'+h+'</h2>'+paragraphs(v)).join('')+'</div>';
+    '<div class="prose">'+paragraphs(body)+(item.kind==='sl' ? sliceNotes(item) : '')+notes.filter(([,v])=>v).map(([h,v])=>'<h2>'+h+'</h2>'+paragraphs(v)).join('')+'</div>';
 }
 function comparisonItems(item) {
   if (item.kind === 'sl') return (item.source.ev || []).map(id=>catalog.get(id)).filter(Boolean);
@@ -68,12 +229,7 @@ function comparisonRows() {
   const rows = comparisons.filter(item=>!lane || lane===item.lane);
   $('comparison-list').innerHTML = rows.map(item=>'<section class="compare-row"><div class="caption">'+escapeHTML(regions.get(item.lane))+' · '+escapeHTML(yearText(item.year)+(item.kind==='pd'?' – '+yearText(item.source.e):''))+'</div><h3>'+escapeHTML(item.title)+'</h3><p>'+escapeHTML(item.source.d || item.source.bio)+'</p><a href="'+href(item)+'">Đọc bài riêng →</a></section>').join('') || '<p>Chưa có mục cùng thời cho mốc này.</p>';
 }
-function showTab(world) {
-  $('body-copy').hidden = world;
-  $('world').hidden = !world;
-  $('read').setAttribute('aria-pressed',String(!world));
-  $('compare').setAttribute('aria-pressed',String(world));
-  if (!world) return;
+function showWorld() {
   comparisons = comparisonItems(current);
   const ids = new Set(comparisons.map(entry=>entry.lane));
   $('world').innerHTML = '<p class="summary">'+(current.kind==='sl'?'Các sự kiện được nhắc đến trong lát cắt này.':'Các thời kỳ đang diễn ra hoặc sự kiện gần năm '+yearText(current.source.k ?? current.year)+'.')+'</p><div class="world-filter"><label for="region">Khu vực</label><select id="region"><option value="">Tất cả khu vực</option>'+LANES.filter(l=>ids.has(l.id)).map(l=>'<option value="'+l.id+'">'+escapeHTML(l.name)+'</option>').join('')+'</select></div><div id="comparison-list"></div>';
@@ -84,6 +240,8 @@ function render(focus = false) {
   let id;
   try { id=decodeURIComponent(location.hash.slice(1)); } catch { id=''; }
   current = catalog.get(id);
+  if (!current && !atlas.hidden) displayAtlas(false);
+  refreshProgress();
   $('intro').hidden = Boolean(current);
   $('reader-layout').hidden = $('article-pager').hidden = !current;
   $('skip').href = current ? '#story' : '#intro';
@@ -92,41 +250,67 @@ function render(focus = false) {
     if (focus) { $('intro').focus({preventScroll:true}); window.scrollTo(0,0); }
     return;
   }
-  const sequence = current.kind === 'sl' ? slices : all.filter(e=>e.kind===current.kind && e.lane===current.lane);
+  const sequence = eventIds.has(current.id) ? timeline : current.kind === 'sl' ? slices : all.filter(e=>e.kind===current.kind && e.lane===current.lane);
   const index = sequence.indexOf(current);
+  const inTimeline = eventIds.has(current.id);
+  $('next').querySelector('b').textContent = inTimeline ? 'Đã đọc · tiếp' : 'Mốc tiếp';
+  $('next').onclick = event => {
+    if (inTimeline && index < sequence.length-1 && !finished.has(current.id) && !event.ctrlKey && !event.metaKey && !event.shiftKey && !event.altKey) markRead();
+  };
   $('series').textContent = [labels[current.kind],regions.get(current.lane)].filter(Boolean).join(' · ');
   $('number').textContent = String(index+1).padStart(2,'0')+' / '+String(sequence.length).padStart(2,'0');
-  $('year').textContent = yearText(current.year);
+  updateRail();
+  sendToAtlas(current.id);
   $('headline').textContent = current.title;
   $('body-copy').innerHTML = article(current);
   for (const [name,entry] of [['prev',sequence[index-1]],['next',sequence[index+1]]]) {
-    if (entry) { $(name).href=href(entry); $(name).setAttribute('aria-label',(name==='next'?'Mốc tiếp':'Mốc trước')+' · '+entry.title); }
+    if (entry) { $(name).href=href(entry); $(name).setAttribute('aria-label',(name==='next'?(inTimeline?'Đánh dấu đã đọc và đến':'Mốc tiếp'):'Mốc trước')+' · '+entry.title); }
     else $(name).removeAttribute('href');
   }
-  $('map').href=$('map-side').href='dong-thoi-gian.html'+href(current);
+  for (const link of document.querySelectorAll('[data-atlas]')) link.href='dong-thoi-gian.html'+href(current);
   document.title=current.title+' · Lịch Sử Song Hành';
-  showTab(false);
+  $('challenge').replaceChildren();
+  selectPanel('read');
   if (focus) { $('story').focus({preventScroll:true}); window.scrollTo(0,0); }
 }
+let catalogMode = "search";
+let unreadOnly = false;
 function results() {
   const tokens=fold($('search').value.trim()).split(/\s+/).filter(Boolean);
   const kind=$('kind').value;
-  const matches=all.filter(entry=>(!kind || entry.kind===kind || (kind==='ev' && entry.kind==='gb')) && tokens.every(t=>entry.search.includes(t)));
+  const source = catalogMode === "events" ? timeline : all;
+  const matches=source.filter(entry=>(!unreadOnly || !finished.has(entry.id)) && (!kind || entry.kind===kind || (kind==='ev' && entry.kind==='gb')) && tokens.every(t=>entry.search.includes(t)));
   const visible=matches.slice(0,limit);
   $('status').textContent=matches.length ? matches.length+' mục' : 'Chưa tìm thấy. Thử tên ngắn hơn hoặc một năm.';
-  $('results').innerHTML=visible.map(entry=>'<a class="result" href="'+href(entry)+'" '+(entry===current?'aria-current="page"':'')+'><time>'+escapeHTML(yearText(entry.year))+'</time><div><strong>'+escapeHTML(entry.title)+'</strong><small>'+escapeHTML([labels[entry.kind],regions.get(entry.lane)].filter(Boolean).join(' · '))+'</small></div><span aria-hidden="true">›</span></a>').join('')+(visible.length<matches.length?'<button class="more" id="more">Xem thêm kết quả ↓</button>':'');
+  $('results').innerHTML=visible.map(entry=>'<a class="result" href="'+href(entry)+'" '+(entry===current?'aria-current="page"':'')+'><time>'+escapeHTML(yearText(entry.year))+'</time><div><strong>'+escapeHTML(entry.title)+'</strong><small>'+escapeHTML([labels[entry.kind],regions.get(entry.lane),finished.has(entry.id)?'✓ Đã đọc':''].filter(Boolean).join(' · '))+'</small></div><span aria-hidden="true">›</span></a>').join('')+(visible.length<matches.length?'<button class="more" id="more">Xem thêm kết quả ↓</button>':'');
 }
-function openLibrary(contents) {
-  $('dialog-title').textContent=contents?'Mục lục lát cắt':'Tra cứu lịch sử';
-  $('search').value=''; $('kind').value=contents?'sl':''; $('kind').hidden=contents;
-  $('search').placeholder=contents?'Tìm lát cắt hoặc năm…':'Tìm tên, nhân vật hoặc năm…';
-  limit=50; results(); library.showModal();
-  if (contents) { $('close').focus(); $('results').querySelector('[aria-current]')?.scrollIntoView({block:'nearest'}); }
-  else $('search').focus();
+function openLibrary(mode) {
+  catalogMode=mode;
+  unreadOnly=false;
+  const contents=mode==='slices', isEvents=mode==='events';
+  $('dialog-title').textContent=contents?'Mục lục lát cắt':isEvents?'Toàn bộ dòng sự kiện':'Tra cứu lịch sử';
+  $('search').value=''; $('kind').value=contents?'sl':'';
+  $('kind').hidden=contents || isEvents;
+  $('search').placeholder=contents?'Tìm lát cắt hoặc năm…':'Tìm tên hoặc năm…';
+  $('only-unread').hidden=!isEvents;
+  $('only-unread').setAttribute('aria-pressed','false');
+  $('catalog-events').setAttribute('aria-pressed',String(isEvents));
+  $('catalog-slices').setAttribute('aria-pressed',String(contents));
+  limit=isEvents ? Math.max(50,timeline.indexOf(current)+10) : 50; results();
+  if (!library.open) library.showModal();
+  $('results').scrollTop=0;
+  if (mode==='search') $('search').focus();
+  else { $('close').focus(); $('results').querySelector('[aria-current]')?.scrollIntoView({block:'nearest'}); }
 }
-$('lookup').onclick=()=>openLibrary(false);
-$('contents').onclick=$('contents-side').onclick=()=>openLibrary(true);
-$('read').onclick=()=>showTab(false); $('compare').onclick=()=>showTab(true);
+$('lookup').onclick=()=>openLibrary('search');
+$('contents').onclick=()=>openLibrary(eventIds.has(current?.id)?'events':'slices');
+$('contents-side').onclick=$('catalog-slices').onclick=()=>openLibrary('slices');
+$('events-side').onclick=$('catalog-events').onclick=()=>openLibrary('events');
+$('only-unread').onclick=()=>{
+  unreadOnly=!unreadOnly;
+  $('only-unread').setAttribute('aria-pressed',String(unreadOnly));
+  limit=50;results();$('results').scrollTop=0;
+};
 $('skip').onclick=e=>{e.preventDefault();$(current ? 'story' : 'intro').focus()};
 $('close').onclick=()=>library.close();
 library.onclick=e=>{if(e.target===library){const r=library.getBoundingClientRect();if(e.clientX<r.left || e.clientX>r.right || e.clientY<r.top || e.clientY>r.bottom)library.close();}};
