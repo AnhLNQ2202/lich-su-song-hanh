@@ -92,3 +92,13 @@ dialog{color:var(--ink);background:var(--paper);border:1px solid var(--line);bor
 #era-field { display:flex; gap:10px; align-items:center; margin:2px 20px 8px; font-size:14px; }
 #era-range { flex:1; min-width:0; min-height:44px; padding:4px 8px; border:1px solid var(--line); border-radius:6px; background:var(--paper); }
 @media (max-height:580px) { dialog#library[open] { overflow:auto; } #library #results { overflow:visible; } }
+
+.people-in-story { border-block:1px solid var(--line); margin:24px 0; padding-bottom:12px; }
+.person-scene { display:block; padding:14px 0; border-bottom:1px solid var(--line); }
+.person-scene:last-child { border-bottom:0; }
+.person-scene strong { display:block; font:600 25px/1.3 var(--serif); }
+.person-scene > span:not(.scene-age) { display:block; font:14px/1.5 var(--ui); color:var(--muted); }
+.person-scene .scene-age { font:650 12px var(--ui); color:var(--rust); }
+.person-scene p { margin:8px 0; font:18px/1.6 var(--serif); }
+.person-scene small { font:13px/1.6 var(--ui); color:var(--rust); }
+.person-scene:hover strong { text-decoration:underline; text-underline-offset:4px; }

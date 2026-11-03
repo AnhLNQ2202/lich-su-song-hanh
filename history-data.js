@@ -948,7 +948,7 @@ TL_DATA.push({
       why: 'Tạo môi trường hòa bình ở biên giới phía Bắc để Việt Nam tập trung phát triển kinh tế, mở đầu chính sách đối ngoại đa phương hóa, đa dạng hóa.',
       alt: 'Năm 1991 cũng là năm Liên Xô tan rã. Mất đi chỗ dựa lớn nhất, Việt Nam buộc phải tự tìm bạn mới khắp bốn phương, và chính điều đó đẩy nhanh quá trình hội nhập.' },
 
-    { id: 'vn-hue-1993', y: 1993, date: '11/12/1993', t: 'Cố đô Huế – di sản thế giới đầu tiên', c: 'cul', imp: 2,
+    { id: 'vn-hue-1993', ref: 'https://whc.unesco.org/en/list/678', y: 1993, date: '11/12/1993', t: 'Cố đô Huế – di sản thế giới đầu tiên', c: 'cul', imp: 2,
       place: 'Huế',
       d: 'UNESCO công nhận Quần thể di tích Cố đô Huế là Di sản văn hóa thế giới, di sản đầu tiên của Việt Nam. Một năm sau, vịnh Hạ Long trở thành Di sản thiên nhiên thế giới; tiếp theo là phố cổ Hội An, thánh địa Mỹ Sơn (1999) và nhiều di sản khác.',
       why: 'Đưa di sản Việt Nam ra thế giới, mở đường cho du lịch phát triển và nâng cao ý thức gìn giữ di sản.',
@@ -1925,7 +1925,7 @@ TL_DATA.push({
       d: 'Ngày 1/3/1919, các đại biểu đọc bản Tuyên ngôn Độc lập ở Seoul; hàng triệu người Triều Tiên khắp nơi xuống đường hô vang “Độc lập vạn tuế” trong hòa bình. Chính quyền Nhật đàn áp đẫm máu, nhưng phong trào dẫn tới việc thành lập Chính phủ lâm thời Đại Hàn Dân Quốc ở Thượng Hải.',
       why: 'Phong trào trở thành biểu tượng của tinh thần độc lập; ngày 1/3 nay là ngày lễ quốc gia ở Hàn Quốc.',
       vn: 'Cũng năm 1919, Nguyễn Ái Quốc gửi bản “Yêu sách của nhân dân An Nam” tới Hội nghị Versailles. Các dân tộc thuộc địa châu Á cùng lúc lên tiếng đòi quyền tự quyết.' },
-    { id: 'ea-dong-dat-kanto-1923', y: 1923, date: '1/9/1923', r: 'Nhật Bản', t: 'Đại động đất Kanto', c: 'sci', imp: 1, place: 'Tokyo, Yokohama',
+    { id: 'ea-dong-dat-kanto-1923', ref: 'https://www.data.jma.go.jp/eqev/data/1923_09_01_kantoujishin/gaiyo.html', y: 1923, date: '1/9/1923', r: 'Nhật Bản', t: 'Đại động đất Kanto', c: 'sci', imp: 1, place: 'Tokyo, Yokohama',
       d: 'Gần trưa ngày 1/9/1923, trận động đất mạnh khoảng 7,9 độ tàn phá Tokyo và Yokohama. Lửa bùng lên từ những bếp đang nấu bữa trưa trong các ngôi nhà gỗ rồi lan rộng khắp thành phố, khiến hơn 100.000 người thiệt mạng.',
       why: 'Tokyo được xây dựng lại hiện đại hơn; Nhật Bản trở thành nước đi đầu thế giới về nghiên cứu và phòng chống động đất.',
       fun: 'Ngày 1/9 hằng năm được Nhật Bản chọn làm Ngày Phòng chống thiên tai, khi trường học và công sở khắp nước diễn tập ứng phó động đất.' },
@@ -1945,7 +1945,7 @@ TL_DATA.push({
       why: 'Sự chia cắt vốn được coi là “tạm thời” kéo dài đến tận ngày nay, biến bán đảo thành một điểm nóng của Chiến tranh Lạnh.',
       fun: 'Đường ranh giới vĩ tuyến 38 được hai sĩ quan Mỹ đề xuất chỉ trong khoảng nửa giờ, dựa trên một tấm bản đồ treo tường.',
       vn: 'Việt Nam cũng bị chia cắt tạm thời ở vĩ tuyến 17 sau Hiệp định Giơ-ne-vơ năm 1954, nhưng đã thống nhất vào năm 1975.' },
-    { id: 'ea-hien-phap-hoa-binh-1947', y: 1947, date: '3/5/1947', r: 'Nhật Bản', t: 'Hiến pháp hòa bình của Nhật Bản', c: 'pol', imp: 2,
+    { id: 'ea-hien-phap-hoa-binh-1947', ref: 'https://www.ndl.go.jp/constitution/e/outline/05outline.html', y: 1947, date: '3/5/1947', r: 'Nhật Bản', t: 'Hiến pháp hòa bình của Nhật Bản', c: 'pol', imp: 2,
       d: 'Dưới thời Mỹ chiếm đóng, Nhật Bản ban hành hiến pháp mới có hiệu lực từ ngày 3/5/1947. Thiên hoàng chỉ còn là “biểu tượng của quốc gia”; Điều 9 tuyên bố Nhật Bản vĩnh viễn từ bỏ chiến tranh; nam nữ bình đẳng trước pháp luật.',
       why: 'Nhật Bản chuyển hẳn sang con đường hòa bình, dồn toàn lực cho phát triển kinh tế.',
       alt: 'Bản hiến pháp này chưa từng được sửa đổi dù chỉ một chữ kể từ năm 1947, một trường hợp hiếm thấy trên thế giới.' },
@@ -2461,8 +2461,8 @@ TL_DATA.push({
       d: 'Ngày 24/9/2014, tàu thăm dò Mangalyaan của Ấn Độ đi vào quỹ đạo Sao Hỏa. Ấn Độ trở thành nước châu Á đầu tiên đưa được tàu tới Sao Hỏa, và là nước đầu tiên làm được điều đó ngay trong lần thử đầu tiên.',
       why: 'Khẳng định năng lực công nghệ vũ trụ của Ấn Độ với chi phí thấp đáng kinh ngạc.',
       fun: 'Kinh phí của sứ mệnh vào khoảng 74 triệu USD, còn ít hơn chi phí làm bộ phim Hollywood “Gravity” (Cuộc chiến không trọng lực) về vũ trụ.' },
-    { id: 'sa-chandrayaan-3-mat-trang-2023', y: 2023, date: '23/8/2023', r: 'Ấn Độ', t: 'Ấn Độ đáp tàu xuống cực nam Mặt Trăng', c: 'sci', imp: 2,
-      d: 'Ngày 23/8/2023, tàu đổ bộ Vikram của sứ mệnh Chandrayaan-3 hạ cánh an toàn gần cực nam Mặt Trăng, vùng chưa tàu nào từng đáp xuống. Ấn Độ trở thành nước thứ tư hạ cánh mềm thành công lên Mặt Trăng, sau Liên Xô, Mỹ và Trung Quốc.',
+    { id: 'sa-chandrayaan-3-mat-trang-2023', y: 2023, date: '23/8/2023', r: 'Ấn Độ', ref: 'https://www.isro.gov.in/media_isro/pdf/APXS_CH3.pdf', t: 'Ấn Độ hạ cánh ở vùng vĩ độ cao phía nam Mặt Trăng', c: 'sci', imp: 2,
+      d: 'Ngày 23/8/2023, tàu đổ bộ Vikram của sứ mệnh Chandrayaan-3 hạ cánh an toàn ở khoảng 69,37 độ vĩ nam trên Mặt Trăng. Điểm đáp thuộc vùng vĩ độ cao phía nam, cách cực nam địa lý hơn 20 độ vĩ tuyến. Ấn Độ trở thành nước thứ tư hạ cánh mềm thành công lên Mặt Trăng, sau Liên Xô, Mỹ và Trung Quốc.',
       why: 'Mở ra hy vọng tìm nước đá ở cực nam Mặt Trăng, nguồn tài nguyên quý cho các chuyến thám hiểm vũ trụ trong tương lai.',
       fun: 'Ấn Độ đã chọn ngày 23/8 làm Ngày Vũ trụ quốc gia để kỷ niệm thành công này.' },
     { id: 'sa-an-do-dong-dan-nhat-2023', y: 2023, ca: true, date: 'Khoảng tháng 4/2023', r: 'Ấn Độ', t: 'Ấn Độ thành nước đông dân nhất thế giới', c: 'sci', imp: 1,
@@ -3330,7 +3330,7 @@ TL_DATA.push({
       d: 'Sau chuyến đi vòng quanh thế giới trên tàu Beagle và hơn 20 năm nghiên cứu, Darwin xuất bản cuốn “Nguồn gốc các loài”. Ông giải thích các loài biến đổi dần qua chọn lọc tự nhiên: cá thể nào thích nghi tốt hơn thì sống sót và sinh sản nhiều hơn.',
       why: 'Thuyết tiến hóa trở thành nền tảng của sinh học hiện đại, thay đổi cách con người hiểu về chính mình.',
       fun: 'Darwin ấp ủ ý tưởng suốt hai thập kỷ và chỉ vội cho in khi nhận thư của Alfred Wallace trình bày một ý tưởng gần như giống hệt. Bản in đầu tiên bán hết ngay trong ngày.' },
-    { id: 'eu-mendeleev-1869', y: 1869, r: 'Nga', t: 'Mendeleev lập bảng tuần hoàn', c: 'sci', imp: 1, who: 'Dmitri Mendeleev',
+    { id: 'eu-mendeleev-1869', ref: 'https://periodic-table.rsc.org/about', y: 1869, r: 'Nga', t: 'Mendeleev lập bảng tuần hoàn', c: 'sci', imp: 1, who: 'Dmitri Mendeleev',
       d: 'Nhà hóa học Nga Mendeleev sắp xếp các nguyên tố đã biết theo khối lượng và tính chất, phát hiện chúng lặp lại theo chu kỳ. Ông mạnh dạn để trống vài ô và dự đoán tính chất của những nguyên tố chưa ai tìm ra.',
       why: 'Bảng tuần hoàn trở thành “tấm bản đồ” của hóa học; các nguyên tố ông dự đoán như gali, gecmani lần lượt được tìm thấy đúng như mô tả.',
       fun: 'Học sinh khắp thế giới, trong đó có học sinh Việt Nam, vẫn đang “vật lộn” với bảng tuần hoàn — và trong bảng có hẳn một nguyên tố mang tên ông: mendelevi.' },
@@ -3482,7 +3482,7 @@ TL_DATA.push({
       d: 'Sau cuộc chính biến bất thành tháng 8/1991, các nước cộng hòa lần lượt tuyên bố độc lập. Ngày 25/12/1991, Tổng thống Gorbachev từ chức, lá cờ đỏ trên điện Kremlin được hạ xuống. Liên Xô chia thành 15 quốc gia độc lập.',
       why: 'Sự kiện khép lại Chiến tranh Lạnh và thay đổi hoàn toàn bản đồ chính trị thế giới.',
       vn: 'Liên Xô từng là đối tác kinh tế và nguồn viện trợ lớn nhất của Việt Nam; sự tan rã buộc Việt Nam đẩy nhanh Đổi Mới và mở rộng quan hệ với nhiều nước.' },
-    { id: 'eu-eu-1993', y: 1993, r: 'Liên minh châu Âu', t: 'Liên minh châu Âu (EU) ra đời', c: 'pol', imp: 3,
+    { id: 'eu-eu-1993', ref: 'https://www.europarl.europa.eu/about-parliament/en/in-the-past/the-parliament-and-the-treaties/maastricht-treaty', y: 1993, r: 'Liên minh châu Âu', t: 'Liên minh châu Âu (EU) ra đời', c: 'pol', imp: 3,
       d: 'Hiệp ước Maastricht có hiệu lực, biến Cộng đồng châu Âu thành Liên minh châu Âu. Quá trình này bắt đầu từ năm 1951, khi sáu nước lập cộng đồng than thép chung để chiến tranh giữa họ trở nên “không thể xảy ra”. Nay người dân trong khối được tự do đi lại, sinh sống và làm việc.',
       why: 'Từ những kẻ thù trong hai cuộc thế chiến, các nước châu Âu trở thành một khối liên kết kinh tế – chính trị chặt chẽ bậc nhất thế giới.',
       fun: 'Năm 2012, cả Liên minh châu Âu được trao giải Nobel Hòa bình — có lẽ là “người” nhận giải đông dân nhất lịch sử.',
@@ -3767,7 +3767,7 @@ TL_DATA.push({
       why: 'Lần đầu tiên một thuộc địa ở châu Mỹ đánh thắng chính quốc và lập ra một nước cộng hòa, cổ vũ các cuộc cách mạng ở Pháp và Mỹ Latinh.',
       alt: 'Nước Pháp quân chủ giúp Mỹ để trả thù Anh vụ năm 1763, nhưng chi phí chiến tranh khổng lồ lại làm ngân khố Pháp cạn kiệt, góp phần dẫn tới Cách mạng Pháp 1789. Giúp người làm cách mạng, rồi chính mình gặp cách mạng.' },
 
-    { id: 'am-tuyen-ngon-doc-lap-1776', y: 1776, date: '4/7/1776', r: 'Hoa Kỳ', t: 'Tuyên ngôn Độc lập của Hoa Kỳ', c: 'pol', imp: 3,
+    { id: 'am-tuyen-ngon-doc-lap-1776', ref: 'https://www.archives.gov/historical-docs/declaration', y: 1776, date: '4/7/1776', r: 'Hoa Kỳ', t: 'Tuyên ngôn Độc lập của Hoa Kỳ', c: 'pol', imp: 3,
       who: 'Thomas Jefferson', place: 'Philadelphia',
       d: 'Ngày 4/7/1776, Quốc hội Lục địa thông qua bản Tuyên ngôn Độc lập do Thomas Jefferson chấp bút, tuyên bố 13 thuộc địa tách khỏi nước Anh. Văn bản khẳng định mọi người sinh ra đều bình đẳng, có những quyền không ai xâm phạm được như quyền sống, quyền tự do và quyền mưu cầu hạnh phúc.',
       why: 'Là một trong những văn kiện chính trị có ảnh hưởng nhất thế giới; ngày 4/7 trở thành Quốc khánh Hoa Kỳ.',
@@ -3854,7 +3854,7 @@ TL_DATA.push({
       why: 'Vài chục năm sau, vàng rồi dầu mỏ được tìm thấy ở Alaska, biến thương vụ “dại dột” thành một trong những khoản đầu tư khôn ngoan nhất lịch sử.',
       fun: 'Tính ra Mỹ trả khoảng 2 xu cho mỗi mẫu Anh đất, còn rẻ hơn cả giá vùng Louisiana trước đó.' },
 
-    { id: 'am-duong-sat-1869', y: 1869, date: '10/5/1869', r: 'Hoa Kỳ', t: 'Đường sắt xuyên lục địa hoàn thành', c: 'sci', imp: 2,
+    { id: 'am-duong-sat-1869', ref: 'https://www.census.gov/about/history/stories/monthly/2023/may-2023.html', y: 1869, date: '10/5/1869', r: 'Hoa Kỳ', t: 'Đường sắt xuyên lục địa hoàn thành', c: 'sci', imp: 2,
       place: 'Promontory Summit (Utah)',
       d: 'Hai công ty đường sắt, một làm từ phía tây, một từ phía đông, gặp nhau ở Promontory Summit (Utah), nơi chiếc đinh vàng cuối cùng được đóng xuống. Phần lớn đoạn phía tây do hàng nghìn công nhân người Hoa xây dựng, đục xuyên những vách núi Sierra Nevada hiểm trở.',
       why: 'Thời gian đi từ bờ Đông sang bờ Tây giảm từ nhiều tháng xuống còn khoảng một tuần, thúc đẩy miền Tây phát triển bùng nổ.',
@@ -3895,7 +3895,7 @@ TL_DATA.push({
       why: 'Đánh dấu Mỹ bước ra thế giới như một cường quốc có thuộc địa ở cả vùng Caribe và châu Á.',
       vn: 'Từ đây Philippines, nước láng giềng bên kia Biển Đông của Việt Nam, trở thành thuộc địa của Mỹ cho tới năm 1946.' },
 
-    { id: 'am-wright-1903', y: 1903, date: '17/12/1903', r: 'Hoa Kỳ', t: 'Anh em Wright bay lên trời', c: 'sci', imp: 3,
+    { id: 'am-wright-1903', ref: 'https://www.nasa.gov/history/120-years-ago-the-first-powered-flight-at-kitty-hawk/', y: 1903, date: '17/12/1903', r: 'Hoa Kỳ', t: 'Anh em Wright bay lên trời', c: 'sci', imp: 3,
       who: 'Orville và Wilbur Wright', place: 'Kitty Hawk (Bắc Carolina)',
       d: 'Hai anh em thợ sửa xe đạp Orville và Wilbur Wright tự chế tạo chiếc Flyer có động cơ và cánh điều khiển được. Ngày 17/12/1903, Orville bay được 12 giây, xa khoảng 37 m; chuyến bay thứ tư trong ngày của Wilbur kéo dài 59 giây.',
       why: 'Là chuyến bay có động cơ, có điều khiển đầu tiên của loài người; chỉ 66 năm sau, con người đã đặt chân lên Mặt Trăng.',
@@ -3997,7 +3997,7 @@ TL_DATA.push({
       why: 'Là lúc nhân loại tiến gần nhất tới chiến tranh hạt nhân; sau đó hai siêu cường bắt đầu tìm cách giảm căng thẳng.',
       fun: 'Giữa khủng hoảng, thư từ giữa hai nhà lãnh đạo mất nhiều giờ mới tới nơi. Bài học được rút ra ngay: năm 1963, Washington và Moscow lập đường liên lạc trực tiếp, thường gọi là “đường dây nóng”.' },
 
-    { id: 'am-mlk-1963', y: 1963, date: '28/8/1963', r: 'Hoa Kỳ', t: 'Martin Luther King: “Tôi có một giấc mơ”', c: 'pol', imp: 2,
+    { id: 'am-mlk-1963', ref: 'https://www.archives.gov/legislative/features/march-on-washington', y: 1963, date: '28/8/1963', r: 'Hoa Kỳ', t: 'Martin Luther King: “Tôi có một giấc mơ”', c: 'pol', imp: 2,
       who: 'Martin Luther King Jr.', place: 'Washington D.C.',
       d: 'Trong cuộc tuần hành vì việc làm và tự do ở Washington với khoảng 250.000 người, mục sư Martin Luther King đọc bài diễn văn mơ về một nước Mỹ nơi con người được đánh giá bằng phẩm chất chứ không phải màu da. Năm 1964, ông nhận giải Nobel Hòa bình; năm 1968, ông bị ám sát.',
       why: 'Là một trong những bài diễn văn nổi tiếng nhất thế kỷ XX, thúc đẩy Quốc hội Mỹ thông qua các đạo luật dân quyền.',
@@ -6658,3 +6658,19 @@ TL_PEOPLE.push({
   "lane": "wa",
   "people": []
 });
+
+TL_SLICES.push({"id": "sl-1776", "y": 1776, "t": "Năm 1776: Những trang sách và một bản tuyên ngôn", "d": "Ở Philadelphia, ngày 4/7/1776, Quốc hội Lục địa thông qua Tuyên ngôn Độc lập. Văn bản tuyên bố các thuộc địa tách khỏi Anh, nhưng cuộc chiến vẫn tiếp diễn. Ngày thông qua tuyên ngôn vì thế khác với ngày một nền độc lập được đối phương công nhận. Cùng năm ấy ở Việt Nam, Lê Quý Đôn biên soạn Phủ biên tạp lục, ghi lại nhiều mặt đời sống của vùng Thuận Hóa và Quảng Nam. Đặt hai trang viết cạnh nhau, ta thấy hai công việc rất khác: một văn bản xác lập vị thế chính trị mới, một bộ sách lưu giữ hiểu biết về đất đai và con người. Cả hai đều cho người đọc hôm nay nhìn vào những điều người đương thời thấy cần phải viết xuống.", "ev": ["am-tuyen-ngon-doc-lap-1776", "vn-le-quy-don-1776"], "ref": "https://www.archives.gov/historical-docs/declaration"});
+
+TL_SLICES.push({"id": "sl-1869", "y": 1869, "t": "Năm 1869: Những đường nối trên bản đồ và trong phòng thí nghiệm", "d": "Ngày 10/5/1869, hai tuyến đường sắt gặp nhau tại Promontory, Utah, hoàn thành đường sắt xuyên lục địa của Hoa Kỳ. Việc vượt lục địa có thể tính bằng ngày thay vì một hành trình kéo dài nhiều tháng. Cũng năm này, Mendeleev trình bày cách sắp xếp các nguyên tố thành một hệ thống tuần hoàn. Một bên nối các vùng đất bằng đường ray, bên kia nối những quan sát hóa học bằng quy luật. Đó là hai cách rất cụ thể mà con người thay đổi cảm nhận về thế giới: đi xa nhanh hơn và nhận ra trật tự trong những thứ tưởng chừng rời rạc.", "ev": ["am-duong-sat-1869", "eu-mendeleev-1869"], "ref": "https://www.census.gov/about/history/stories/monthly/2023/may-2023.html"});
+
+TL_SLICES.push({"id": "sl-1903", "y": 1903, "t": "Năm 1903: Mười hai giây trên bầu trời", "d": "Ngày 17/12/1903, gần Kitty Hawk, Orville Wright điều khiển chiếc Flyer bay bằng động cơ. Chuyến đầu kéo dài khoảng 12 giây. Thành tựu nằm ở việc một máy bay nặng hơn không khí có người lái cất lên bằng sức động cơ và được điều khiển trong chuyến bay. Một năm có thể được nhớ bằng một khoảnh khắc rất ngắn, nhưng phía sau khoảnh khắc ấy là quá trình thử cánh, đo lực nâng và sửa thiết kế. Trong cùng giai đoạn, nghiên cứu phóng xạ của Marie và Pierre Curie cũng mở ra những câu hỏi mới về cấu trúc vật chất. Những thay đổi lớn đầu thế kỷ XX thường bắt đầu từ những xưởng máy và phòng thí nghiệm như thế.", "ev": ["am-wright-1903", "eu-curie-1898"], "ref": "https://www.nasa.gov/history/120-years-ago-the-first-powered-flight-at-kitty-hawk/"});
+
+TL_SLICES.push({"id": "sl-1923", "y": 1923, "t": "Năm 1923: Tokyo rung chuyển, thơ Ireland được vinh danh", "d": "Ngày 1/9/1923, động đất lớn xảy ra ở vùng Kanto của Nhật Bản. Thảm họa đặt việc xây dựng và bảo vệ đô thị trước những câu hỏi cấp bách. Cùng năm ấy, giải Nobel Văn học được trao cho William Butler Yeats. Hội đồng ghi nhận thơ ông diễn đạt tinh thần của một dân tộc trong một hình thức nghệ thuật tinh tế. Hai câu chuyện không có quan hệ nhân quả, nhưng khi đọc cùng nhau, chúng nhắc ta rằng một năm không chỉ thuộc về một loại lịch sử. Trong khi một xã hội phải dựng lại cuộc sống sau thiên tai, ở nơi khác người ta đang kể lại bản sắc và ký ức bằng thơ.", "ev": ["ea-dong-dat-kanto-1923", "lit-event-593"], "ref": "https://www.data.jma.go.jp/eqev/data/1923_09_01_kantoujishin/gaiyo.html"});
+
+TL_SLICES.push({"id": "sl-1947", "y": 1947, "t": "Năm 1947: Viết lại những nguyên tắc chung sống", "d": "Ngày 3/5/1947, Hiến pháp Nhật Bản có hiệu lực. Cần phân biệt mốc này với việc công bố hiến pháp vào tháng 11/1946. Sau chiến tranh, việc viết một văn bản mới chỉ là bước đầu; đưa những nguyên tắc ấy vào đời sống là một quá trình dài hơn. Ở Nam Á, Ấn Độ và Pakistan giành độc lập trong cùng năm. Còn ở Việt Nam, cuộc kháng chiến chống Pháp bước vào chiến dịch Việt Bắc thu – đông. Những con đường hậu chiến ở châu Á vì thế không giống nhau: cải tổ thể chế, hình thành quốc gia mới và chiến tranh tiếp tục diễn ra song song.", "ev": ["ea-hien-phap-hoa-binh-1947", "sa-an-do-pakistan-doc-lap-1947", "vn-viet-bac-1947"], "ref": "https://www.ndl.go.jp/constitution/e/outline/05outline.html"});
+
+TL_SLICES.push({"id": "sl-1963", "y": 1963, "t": "Năm 1963: Những tiếng nói vang lên từ nhiều phía", "d": "Ngày 28/8/1963, khoảng 250.000 người tập trung tại Washington trong cuộc tuần hành vì việc làm và tự do. Martin Luther King Jr. đọc bài diễn văn về giấc mơ bình đẳng. Đằng sau một bài phát biểu được nhớ rất lâu là công sức tổ chức của nhiều nhóm và nhiều người. Cũng năm ấy, khán giả Nhật Bản gặp Astro Boy trên truyền hình, còn nhạc của The Beatles thu hút đông đảo người nghe ở Anh. Quyền công dân, màn hình gia đình và âm nhạc đại chúng cùng cho thấy những cách khác nhau mà một tiếng nói có thể đến với số đông.", "ev": ["am-mlk-1963", "ea-astro-boy-anime-1963", "eu-beatles-1963"], "ref": "https://www.archives.gov/legislative/features/march-on-washington"});
+
+TL_SLICES.push({"id": "sl-1993", "y": 1993, "t": "Năm 1993: Di sản, liên minh và những câu chuyện được lắng nghe", "d": "Năm 1993, quần thể di tích Cố đô Huế được ghi tên vào Danh sách Di sản Thế giới. Một kinh đô cũ bước vào một mạng lưới bảo tồn quốc tế. Ở châu Âu, Hiệp ước Maastricht có hiệu lực ngày 1/11, đưa Liên minh châu Âu vào tồn tại. Cùng năm ấy, Toni Morrison nhận Nobel Văn học với những tiểu thuyết đưa trải nghiệm của người Mỹ da đen vào trung tâm câu chuyện. Đặt các mốc cạnh nhau, ta có thể đọc năm 1993 qua ba câu hỏi: giữ lại điều gì từ quá khứ, cùng nhau xây dựng thể chế nào, và những ai được quyền kể lịch sử của mình?", "ev": ["vn-hue-1993", "eu-eu-1993", "lit-event-670"], "ref": "https://whc.unesco.org/en/list/678"});
+
+TL_SLICES.push({"id": "sl-2023", "y": 2023, "t": "Năm 2023: Một cuộc hạ cánh ở phía nam Mặt Trăng", "d": "Ngày 23/8/2023, tàu đổ bộ Vikram của sứ mệnh Chandrayaan-3 hạ cánh mềm xuống Mặt Trăng. Điểm đáp nằm ở khoảng 69,37 độ vĩ nam, thuộc vùng vĩ độ cao phía nam. Cách nói này giúp hình dung chính xác hơn so với việc tưởng tượng tàu đã đáp ngay tại cực nam. Thành tựu của Ấn Độ tiếp nối một lịch sử khám phá vũ trụ có cả những lần thất bại lẫn những lần thử lại. Khi nhìn một mốc công nghệ trên dòng thời gian, ta thấy rõ kết quả ở ngày hạ cánh; những năm thiết kế, kiểm tra và điều chỉnh lại thường nằm phía sau nó.", "ev": ["sa-chandrayaan-3-mat-trang-2023", "am-apollo-11-1969"], "ref": "https://www.isro.gov.in/media_isro/pdf/APXS_CH3.pdf"});

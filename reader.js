@@ -92,14 +92,34 @@ function sliceNotes(item) {
       paragraphs(entry.source[field])+'<a class="note-source" href="'+href(entry)+'">'+escapeHTML(entry.title)+' →</a></section>';
   }).join('');
 }
+function peopleAt(item) {
+  const year = item.source.k ?? item.year;
+  const named = [item.title,item.source.who,item.source.d].filter(Boolean).join(' ');
+  return all.filter(e => e.kind === 'np' && e !== item && e.year <= year && (e.source.d ?? Infinity) >= year)
+    .sort((a,b) => Number(named.includes(b.title))-Number(named.includes(a.title)) || Math.abs(a.source.k-year)-Math.abs(b.source.k-year));
+}
+function lifeScene(entry, year) {
+  const p=entry.source;
+  const age=year-p.b-(p.b<0&&year>0?1:0);
+  const uncertain=p.cb || p.cd;
+  const difference=p.k-year;
+  const action = difference===0 ? 'Ngay năm này, ' : difference>0 ? difference+' năm sau, ' : -difference+' năm trước, ';
+  return '<a class="person-scene" href="'+href(entry)+'"><span class="scene-age">'+(uncertain?'Khoảng ':'')+age+' tuổi · '+escapeHTML(regions.get(entry.lane))+'</span>'+
+    '<strong>'+escapeHTML(entry.title)+'</strong><span>'+escapeHTML(p.role)+'</span>'+
+    '<p>'+escapeHTML(action+p.n+' '+p.act+'.')+'</p><small>'+yearText(p.b)+' — '+(p.d==null?'nay':yearText(p.d))+' · Đọc cuộc đời →</small></a>';
+}
+function storyPeople(item) {
+  if(item.kind==='np')return '';
+  const people=peopleAt(item).slice(0,3);
+  const year=item.source.k??item.year;
+  return people.length ? '<section class="people-in-story"><h2>Những cuộc đời ở năm '+yearText(year)+'</h2>'+people.map(e=>lifeScene(e,year)).join('')+'</section>' : '';
+}
 function showPeople() {
-  const year = current.source.k ?? current.year;
-  const alive = all.filter(e => e.kind === 'np' && e !== current && e.year <= year && (e.source.d ?? Infinity) >= year)
-    .sort((a,b) => Math.abs(a.source.k-year) - Math.abs(b.source.k-year));
-  $('portraits').innerHTML = '<h2>Ai đang sống vào năm '+yearText(year)+'?</h2>'+
-    (alive.length ? alive.map(e => '<a class="person-link" href="'+href(e)+'"><strong>'+escapeHTML(e.title)+'</strong><span>'+escapeHTML(e.source.role)+' · '+escapeHTML(regions.get(e.lane))+'</span></a>').join('') : '<p>Thư viện chưa có tiểu sử nào ghi nhận người sống vào mốc này.</p>')+
+  const year=current.source.k??current.year, alive=peopleAt(current);
+  $('portraits').innerHTML='<h2>Đang sống vào năm '+yearText(year)+'</h2>'+
+    (alive.length?alive.map(e=>lifeScene(e,year)).join(''):'<p>Thư viện chưa có tiểu sử ở mốc này.</p>')+
     '<button class="secondary-path" id="all-people">Tra cứu mọi nhân vật →</button>';
-  $('all-people').onclick = () => { openLibrary('search'); $('kind').value = 'np'; results(); };
+  $('all-people').onclick=()=>{openLibrary('search');$('kind').value='np';results();};
 }
 function newQuestion() {
   const year = current.source.k ?? current.year;
@@ -207,7 +227,7 @@ function article(item) {
   const meta = [o.date, o.place, o.role, item.kind === 'np' ? yearText(o.b)+' – '+(o.d == null ? 'nay' : yearText(o.d)) : '', ['pd','gb'].includes(item.kind) ? yearText(o.s)+' – '+yearText(o.e) : ''].filter(Boolean);
   const notes = [[noteTitle(item.id,'why'),o.why],[noteTitle(item.id,'alt'),o.alt],['Liên hệ Việt Nam',o.vn],['Dấu mốc trong đời',o.act ? 'Năm '+yearText(o.k)+', '+o.n+' '+o.act+'.' : ''],['Cùng thời',o.same],['Bạn có biết?',o.fun]];
   return (meta.length ? '<p class="meta">'+escapeHTML(meta.join(' · '))+'</p>' : '')+
-    '<div class="prose">'+paragraphs(body)+(item.kind==='sl' ? sliceNotes(item) : '')+notes.filter(([,v])=>v).map(([h,v])=>'<h2>'+h+'</h2>'+paragraphs(v)).join('')+'</div>'+(o.ref ? '<a class="note-source" href="'+escapeHTML(o.ref)+'" target="_blank" rel="noopener">Nguồn tham khảo ↗</a>' : '');
+    '<div class="prose">'+paragraphs(body)+storyPeople(item)+(item.kind==='sl' ? sliceNotes(item) : '')+notes.filter(([,v])=>v).map(([h,v])=>'<h2>'+h+'</h2>'+paragraphs(v)).join('')+'</div>'+(o.ref ? '<a class="note-source" href="'+escapeHTML(o.ref)+'" target="_blank" rel="noopener">Nguồn tham khảo ↗</a>' : '');
 }
 function comparisonItems(item) {
   if (item.kind === 'sl') return (item.source.ev || []).map(id=>catalog.get(id)).filter(Boolean);
