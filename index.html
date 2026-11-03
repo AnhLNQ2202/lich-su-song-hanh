@@ -6,9 +6,10 @@
   <meta name="theme-color" content="#fbf8f1">
   <meta name="description" content="Đọc lịch sử Việt Nam và thế giới qua những lát cắt cùng thời.">
   <title>Lịch Sử Song Hành</title>
-  <link rel="stylesheet" href="reader.css">
-  <script src="history-data.js" defer></script>
-  <script src="reader.js" defer></script>
+  <link rel="stylesheet" href="reader.css?v=visuals-1">
+  <script src="history-data.js?v=visuals-1" defer></script>
+  <script src="visuals.js?v=visuals-1" defer></script>
+  <script src="reader.js?v=visuals-1" defer></script>
 </head>
 <body>
 <svg class="symbols" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -84,6 +85,12 @@
   <button id="contents"><svg aria-hidden="true"><use href="#book"/></svg>Mục lục</button>
   <a id="next" aria-label="Đọc mốc tiếp"><b>Mốc tiếp</b><span>→</span></a>
 </div></nav>
+<dialog id="art-dialog" aria-labelledby="art-dialog-title">
+  <header class="art-dialog-head"><strong id="art-dialog-title"></strong><button id="art-close" aria-label="Đóng ảnh">Đóng ×</button></header>
+  <label class="art-zoom">Phóng to <input type="range" id="art-zoom" min="100" max="250" step="25" value="100"><output id="art-scale">100%</output></label>
+  <div id="art-viewport"><img id="art-full" alt=""></div>
+  <p id="art-description"></p><a id="art-source" target="_blank" rel="noopener">Xem hiện vật tại bảo tàng ↗</a>
+</dialog>
 <dialog id="library" aria-labelledby="dialog-title">
   <div class="dialog-head"><h2 id="dialog-title"></h2><button id="close" aria-label="Đóng">×</button></div>
   <div class="filters"><label for="search" class="sr">Tìm trong thư viện</label><input id="search" type="search" autocomplete="off" placeholder="Tìm tên, nhân vật hoặc năm…">

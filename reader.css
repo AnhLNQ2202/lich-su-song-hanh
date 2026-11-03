@@ -115,3 +115,40 @@ dialog{color:var(--ink);background:var(--paper);border:1px solid var(--line);bor
 #compare, #people, #catalog-slices { display:none; }
 #world { border-top:1px solid var(--line); margin-top:24px; }
 #world h2 { font:600 25px/1.4 var(--serif); }
+
+.event-highlight { margin:24px 0; padding:16px; border:1px solid #c6b396; border-left:3px solid var(--rust); border-radius:6px; background:#f3ecde; }
+.event-highlight summary { cursor:pointer; list-style:none; }
+.event-highlight summary::-webkit-details-marker { display:none; }
+.event-highlight summary strong { display:block; font:600 25px/1.3 var(--serif); margin:8px 0; }
+.expand-hint { display:block; font:600 13px/1.5 var(--ui); color:var(--rust); }
+.event-highlight[open] .expand-hint { display:none; }
+.highlight-copy { padding-top:14px; }
+.highlight-events { display:grid; gap:4px; }
+.highlight-events a { font:600 14px/1.5 var(--ui); min-height:44px; display:flex; align-items:center; text-decoration:underline; }
+
+.art-figure { margin:22px 0; }
+.art-open { display:block; width:100%; padding:0; background:#e8e1d3; border-radius:6px; overflow:hidden; position:relative; }
+.art-open img { display:block; width:100%; max-height:420px; object-fit:contain; }
+.art-open > span { position:absolute; right:8px; bottom:8px; background:var(--paper); padding:6px 10px; border-radius:5px; font:600 13px/1.4 var(--ui); }
+.art-figure figcaption { padding-top:10px; font:14px/1.5 var(--ui); }
+.art-figure figcaption strong,.art-figure figcaption span { display:block; }
+.art-figure figcaption span { color:var(--muted); }
+.art-figure figcaption p { margin:7px 0; font:15px/1.5 var(--ui); }
+.art-figure figcaption a { font-size:12px; text-decoration:underline; }
+.art-compare { border-block:1px solid var(--line); padding-block:8px; }
+.art-compare summary,.art-observation summary { min-height:44px; cursor:pointer; font:600 15px/1.5 var(--ui); padding-block:10px; }
+.art-pair { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:16px; }
+.art-pair img { height:150px; }
+.art-pair figcaption p { display:none; }
+.art-pair .art-open>span { font-size:11px; padding:4px; }
+.art-observation p { font:18px/1.6 var(--serif); }
+#art-dialog { width:min(1000px,96vw); max-height:94dvh; padding:12px 16px; }
+.art-dialog-head { display:flex; justify-content:space-between; align-items:center; gap:10px; }
+.art-dialog-head button { min-height:44px; flex:none; }
+.art-zoom { display:flex; gap:12px; align-items:center; min-height:44px; font-size:14px; }
+.art-zoom input { flex:1; min-width:0; }
+#art-viewport { min-height:0; overflow:auto; max-height:62dvh; flex-shrink:0; }
+#art-full { display:block; width:100%; max-width:none; height:auto; }
+#art-description { font-size:13px; margin:10px 0; }
+#art-source { font-size:13px; text-decoration:underline; min-height:44px; display:flex; align-items:center; }
+@media(max-width:400px){ .art-pair { gap:10px; } .art-pair img { height:110px; } }
