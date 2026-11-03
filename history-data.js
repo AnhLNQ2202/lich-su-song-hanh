@@ -986,9 +986,9 @@ TL_DATA.push({
       why: 'Mỹ dần trở thành một trong những thị trường xuất khẩu lớn nhất của Việt Nam, nhất là dệt may, giày dép, đồ gỗ.',
       alt: 'Chỉ 25 năm sau khi chiến tranh kết thúc, hai nước đã ngồi lại bàn chuyện… quần áo, giày dép và tôm cá. Từ chiến trường đến thị trường là một hành trình dài nhưng đã thành hiện thực.' },
 
-    { id: 'vn-nha-nhac-2003', y: 2003, date: '7/11/2003', t: 'Nhã nhạc cung đình Huế thành di sản', c: 'cul', imp: 1,
+    { id: 'vn-nha-nhac-2003', ref: 'https://ich.unesco.org/en/RL/nha-nhac-vietnamese-court-music-00074', y: 2003, date: '7/11/2003', t: 'Nhã nhạc cung đình Huế thành di sản', c: 'cul', imp: 1,
       place: 'Huế',
-      d: 'Nhã nhạc, dòng âm nhạc trang trọng dùng trong các nghi lễ của triều đình nhà Nguyễn, được UNESCO công nhận là kiệt tác di sản văn hóa phi vật thể của nhân loại, di sản phi vật thể đầu tiên của Việt Nam. Sau đó đến lượt Cồng chiêng Tây Nguyên, Ca trù, Quan họ, Đờn ca tài tử, Hát xoan và nhiều di sản khác.',
+      d: 'Năm 2003, UNESCO tuyên xưng Nhã nhạc là Kiệt tác di sản truyền khẩu và phi vật thể của nhân loại. Năm 2008, Nhã nhạc được ghi vào Danh sách Di sản văn hóa phi vật thể đại diện của nhân loại. Dòng âm nhạc nghi lễ này phát triển qua nhiều triều đại và được tổ chức chặt chẽ dưới triều Nguyễn.',
       why: 'Giúp hồi sinh những loại hình nghệ thuật truyền thống từng có nguy cơ mai một sau chiến tranh.',
       alt: 'Thứ âm nhạc xưa chỉ dành cho vua chúa nay được biểu diễn cho du khách bình thường ở Huế. Có thể nói nhã nhạc cũng đã đi một hành trình dài: từ cung đình ra phố.' },
 
@@ -3194,7 +3194,7 @@ TL_DATA.push({
       who: 'Johannes Gutenberg', place: 'Mainz',
       d: 'Gutenberg chế tạo máy in dùng con chữ kim loại rời có thể sắp xếp lại, kết hợp mực dầu và bàn ép. Cuốn Kinh Thánh in khoảng năm 1455 là cuốn sách lớn đầu tiên ở châu Âu được in theo cách này.',
       why: 'Sách trở nên rẻ và phổ biến, tri thức lan nhanh, góp phần thúc đẩy Phục Hưng, Cải cách tôn giáo và cách mạng khoa học.',
-      alt: 'Trước Gutenberg, chép tay một cuốn Kinh Thánh mất cả năm trời. Máy in của ông giống “nút sao chép” đầu tiên của nhân loại, và châu Âu bắt đầu bị “quá tải thông tin” từ đó.',
+      alt: 'Trước Gutenberg, chép tay một cuốn Kinh Thánh mất cả năm trời. Hệ thống của Gutenberg giúp tăng quy mô in sách ở châu Âu; kỹ thuật in đã có lịch sử lâu đời ở Đông Á trước đó.',
       vn: 'Ở Việt Nam, nghề in mộc bản (khắc chữ trên ván gỗ) phát triển mạnh từ thời Lê sơ; Mộc bản triều Nguyễn nay là Di sản tư liệu thế giới.' },
     { id: 'eu-ugra-1480', y: 1480, r: 'Nga', t: 'Nước Nga thoát ách Mông Cổ', c: 'pol', imp: 1, who: 'Đại công Ivan III',
       d: 'Đại công Ivan III của Moskva ngừng nộp cống cho hãn Mông Cổ. Hai đạo quân đối mặt nhau bên hai bờ sông Ugra suốt nhiều tuần nhưng không giao chiến lớn, rồi quân của hãn rút lui. Ách thống trị kéo dài khoảng 240 năm chấm dứt.',
@@ -7492,3 +7492,372 @@ TL_PEOPLE.push({
     }
   ]
 });
+
+TL_DATA.push({
+  "lane": "eu",
+  "periods": [],
+  "events": [
+    {
+      "id": "culture-first-folio-1623",
+      "y": 1623,
+      "t": "Shakespeare được lưu giữ trong First Folio",
+      "c": "cul",
+      "imp": 1,
+      "topic": "Văn học",
+      "d": "First Folio được xuất bản năm 1623, tập hợp các vở kịch của Shakespeare sau khi ông qua đời. Việc đưa kịch lên trang in giúp tác phẩm vượt ra ngoài một buổi biểu diễn và được đọc, dựng lại qua nhiều thế hệ. Đây là mốc xuất bản tuyển tập, không phải năm Shakespeare viết tất cả các vở trong sách.",
+      "why": "Một vở kịch có đời sống trên sân khấu, nhưng bản in giúp người đến sau tiếp cận văn bản để tạo ra những cách diễn mới.",
+      "ref": "https://www.folger.edu/explore/shakespeare-in-print/first-folio/"
+    },
+    {
+      "id": "culture-louvre-1793",
+      "date": "10/8/1793",
+      "y": 1793,
+      "t": "Louvre mở cửa thành bảo tàng công cộng",
+      "c": "cul",
+      "imp": 1,
+      "topic": "Mỹ thuật",
+      "d": "Ngày 10/8/1793, bảo tàng tại Louvre mở cửa công chúng dưới tên Muséum central des arts. Công trình vốn gắn với quyền lực hoàng gia bước vào một vai trò mới: nơi công chúng có thể tiếp cận các bộ sưu tập nghệ thuật.",
+      "why": "Lịch sử một tác phẩm không chỉ nằm ở lúc nó được làm ra mà còn ở việc ai có thể đến xem nó.",
+      "ref": "https://musee.louvre.fr/decouvrir/le-palais/la-peinture-italienne-en-perspective"
+    },
+    {
+      "id": "culture-niepce-1827",
+      "y": 1827,
+      "t": "Niépce giữ lại một cảnh nhìn qua cửa sổ",
+      "c": "cul",
+      "imp": 1,
+      "topic": "Văn minh",
+      "d": "Khoảng năm 1826–1827, Joseph Nicéphore Niépce tạo ra hình ảnh nhìn từ cửa sổ ở Le Gras bằng quy trình héliographie. Hiện vật hiện do Harry Ransom Center lưu giữ. Niên đại đã có những cách xác định khác nhau, nên mốc 1827 ở đây là mốc tham chiếu cho giai đoạn ấy.",
+      "why": "Nhiếp ảnh biến một cảnh nhìn qua ống kính thành dấu vết có thể giữ lại trên vật liệu.",
+      "ref": "https://www.hrc.utexas.edu/niepce-heliograph/",
+      "ca": true,
+      "date": "Khoảng 1826–1827"
+    },
+    {
+      "id": "culture-impressionism-1874",
+      "date": "15/4/1874",
+      "y": 1874,
+      "t": "Các họa sĩ tổ chức triển lãm Ấn tượng đầu tiên",
+      "c": "cul",
+      "imp": 1,
+      "topic": "Mỹ thuật",
+      "d": "Ngày 15/4/1874, một nhóm nghệ sĩ mở triển lãm tại xưởng cũ của nhiếp ảnh gia Nadar ở Paris. Sự kiện về sau được biết đến là triển lãm Ấn tượng đầu tiên. Thay vì chỉ tìm chỗ trong hệ thống triển lãm chính thống, các nghệ sĩ cùng đứng ra giới thiệu tác phẩm của mình.",
+      "why": "Cách tổ chức triển lãm cũng có thể thay đổi con đường một phong trào nghệ thuật đến với người xem.",
+      "ref": "https://www.musee-orsay.fr/en/program/whats-on/exhibitions/paris-1874-inventing-impressionism"
+    },
+    {
+      "id": "culture-starry-night-1889",
+      "date": "Tháng 6/1889",
+      "y": 1889,
+      "t": "Van Gogh vẽ Đêm đầy sao",
+      "c": "cul",
+      "imp": 1,
+      "topic": "Mỹ thuật",
+      "d": "Theo hồ sơ tác phẩm của MoMA, Vincent van Gogh vẽ Đêm đầy sao ở Saint-Rémy vào tháng 6/1889. Bầu trời với các nét cọ cuộn xoáy và ngôi làng phía dưới tạo thành một cảnh vừa gợi thiên nhiên, vừa bộc lộ cảm xúc của người vẽ.",
+      "why": "Bức tranh cho thấy phong cảnh có thể là nơi người họa sĩ diễn đạt cảm nhận nội tâm.",
+      "ref": "https://www.moma.org/collection/works/79802"
+    },
+    {
+      "id": "culture-lascaux-discovery-1940",
+      "date": "12/9/1940",
+      "y": 1940,
+      "t": "Những bức vẽ tiền sử ở Lascaux được phát hiện",
+      "c": "cul",
+      "imp": 1,
+      "topic": "Văn minh",
+      "d": "Ngày 12/9/1940, bốn thiếu niên khám phá hang Lascaux ở vùng Dordogne, Pháp. Những hình động vật trên vách mở ra một cuộc gặp với nghệ thuật thời tiền sử. Năm 1940 là thời điểm phát hiện hiện đại, không phải niên đại các bức vẽ.",
+      "why": "Di sản của một nền văn minh có thể xuất hiện trở lại rất lâu sau khi những người tạo ra nó đã biến mất.",
+      "ref": "https://lascaux.fr/fr/histoire-de-la-decouverte/"
+    },
+    {
+      "id": "culture-sgt-pepper-1967",
+      "y": 1967,
+      "t": "The Beatles phát hành Sgt. Pepper",
+      "c": "cul",
+      "imp": 1,
+      "topic": "Âm nhạc",
+      "d": "Năm 1967, The Beatles phát hành album Sgt. Pepper’s Lonely Hearts Club Band. Trang chính thức của nhóm ghi ngày phát hành là 1/6/1967. Album gắn những bài hát với một ý tưởng trình diễn và hình ảnh chung, đưa trải nghiệm nghe nhạc đến gần một tác phẩm được tổ chức như một tổng thể.",
+      "why": "Album có thể được nhớ không chỉ qua một đĩa đơn mà qua âm thanh, thứ tự bài và thiết kế hình ảnh.",
+      "ref": "https://www.thebeatles.com/albums/sgt-peppers-lonely-hearts-club-band"
+    },
+    {
+      "id": "culture-tetris-1984",
+      "y": 1984,
+      "t": "Tetris biến những khối hình thành trò chơi",
+      "c": "cul",
+      "imp": 1,
+      "topic": "Trò chơi",
+      "d": "Alexey Pajitnov tạo ra Tetris năm 1984 khi làm việc tại một trung tâm nghiên cứu ở Liên Xô. Người chơi xoay và xếp các khối để lấp đầy hàng ngang. MoMA đưa trò chơi vào bộ sưu tập thiết kế, cho thấy trò chơi điện tử cũng được nghiên cứu như một hình thức thiết kế tương tác.",
+      "why": "Vài quy tắc đơn giản có thể tạo ra vô số tình huống buộc người chơi quan sát, lựa chọn và phản ứng.",
+      "ref": "https://www.moma.org/collection/works/152403"
+    },
+    {
+      "id": "culture-harry-potter-1997",
+      "y": 1997,
+      "t": "Tập Harry Potter đầu tiên được xuất bản",
+      "c": "cul",
+      "imp": 1,
+      "topic": "Văn học",
+      "d": "Tháng 6/1997, Bloomsbury xuất bản Harry Potter and the Philosopher’s Stone của J.K. Rowling tại Anh. Đây là khởi đầu bằng sách của câu chuyện về Harry Potter. Những phiên bản dịch và chuyển thể điện ảnh thuộc các giai đoạn tiếp theo.",
+      "why": "Một thế giới tưởng tượng có thể đi từ trải nghiệm đọc cá nhân đến những cuộc trao đổi và sáng tạo chung của độc giả.",
+      "ref": "https://www.jkrowling.com/about/",
+      "date": "Tháng 6/1997"
+    }
+  ]
+});
+
+TL_DATA.push({
+  "lane": "am",
+  "periods": [],
+  "events": [
+    {
+      "id": "culture-steamboat-1928",
+      "date": "18/11/1928",
+      "y": 1928,
+      "t": "Steamboat Willie đưa Mickey ra mắt khán giả",
+      "c": "cul",
+      "imp": 1,
+      "topic": "Điện ảnh",
+      "d": "Ngày 18/11/1928, Steamboat Willie được chiếu tại Colony Theatre ở New York. Disney dùng ngày này làm sinh nhật Mickey Mouse. Phim kết hợp hình vẽ chuyển động với âm thanh đồng bộ; đây là mốc ra mắt công chúng của bộ phim, không phải lần đầu nhân vật được phác thảo.",
+      "why": "Nhân vật hoạt hình có thể được nhận ra không chỉ bằng hình dáng mà còn qua nhịp điệu, âm thanh và cách chuyển động.",
+      "ref": "https://d23.com/a-to-z/steamboat-willie-film/"
+    },
+    {
+      "id": "culture-snow-white-1937",
+      "date": "21/12/1937",
+      "y": 1937,
+      "t": "Bạch Tuyết và bảy chú lùn ra mắt",
+      "c": "cul",
+      "imp": 1,
+      "topic": "Điện ảnh",
+      "d": "Bộ phim hoạt hình dài Bạch Tuyết và bảy chú lùn công chiếu tại Carthay Circle Theatre ở Los Angeles ngày 21/12/1937. Đây là phim hoạt hình dài đầu tiên của hãng Disney. Mốc này gắn với lịch sử xưởng phim, không đồng nghĩa hoạt hình dài trên thế giới chỉ bắt đầu từ đây.",
+      "why": "Một câu chuyện dài đòi hỏi nhân vật, diễn xuất và nhịp kể vượt khỏi cấu trúc của phim hoạt hình ngắn.",
+      "ref": "https://d23.com/disney-history/"
+    },
+    {
+      "id": "culture-star-wars-1977",
+      "date": "25/5/1977",
+      "y": 1977,
+      "t": "Star Wars bắt đầu hành trình trên màn ảnh",
+      "c": "cul",
+      "imp": 1,
+      "topic": "Điện ảnh",
+      "d": "Star Wars ra rạp tại Hoa Kỳ ngày 25/5/1977. Bộ phim về sau được biết đến với tên Episode IV – A New Hope, kể hành trình Luke Skywalker bước vào cuộc chiến giữa những thế lực trong thiên hà. Cần phân biệt năm ra mắt với thứ tự các tập trong thế giới hư cấu của loạt phim.",
+      "why": "Một thế giới hư cấu có thể tiếp tục được kể qua nhiều phim, nhân vật và góc nhìn khác nhau.",
+      "ref": "https://www.starwars.com/films/star-wars-episode-iv-a-new-hope"
+    },
+    {
+      "id": "culture-thriller-1982",
+      "y": 1982,
+      "t": "Michael Jackson phát hành Thriller",
+      "c": "cul",
+      "imp": 1,
+      "topic": "Âm nhạc",
+      "d": "Album Thriller của Michael Jackson ra đời năm 1982, với Quincy Jones đảm nhiệm vai trò sản xuất. Hồ sơ của Thư viện Quốc hội Hoa Kỳ ghi nhận album trong lịch sử thu âm và mối hợp tác giữa ca sĩ với nhà sản xuất. Mốc này là năm album xuất hiện, khác với thời điểm từng video âm nhạc được phát hành.",
+      "why": "Một album là kết quả của nhiều công việc, từ sáng tác, biểu diễn đến hòa âm và sản xuất trong phòng thu.",
+      "ref": "https://blogs.loc.gov/now-see-hear/2024/11/the-library-of-congress-remembers-quincy-jones/"
+    },
+    {
+      "id": "culture-toy-story-1995",
+      "date": "22/11/1995",
+      "y": 1995,
+      "t": "Toy Story mở một chương mới cho hoạt hình máy tính",
+      "c": "cul",
+      "imp": 1,
+      "topic": "Điện ảnh",
+      "d": "Toy Story ra rạp tại Hoa Kỳ ngày 22/11/1995. Theo hồ sơ Pixar, đây là phim truyện dài đầu tiên được thực hiện hoàn toàn bằng hoạt hình máy tính. Câu chuyện theo chân Woody và Buzz Lightyear kết hợp công nghệ dựng hình với diễn xuất của những nhân vật đồ chơi.",
+      "why": "Kỹ thuật mới trở thành trải nghiệm điện ảnh khi nó phục vụ được nhân vật và câu chuyện.",
+      "ref": "https://www.pixar.com/our-story"
+    },
+    {
+      "id": "culture-endgame-2019",
+      "date": "26/4/2019",
+      "y": 2019,
+      "t": "Avengers: Endgame khép lại một chặng kể chuyện dài",
+      "c": "cul",
+      "imp": 1,
+      "topic": "Điện ảnh",
+      "d": "Avengers: Endgame ra rạp tại Hoa Kỳ ngày 26/4/2019. Trang Disney mô tả bộ phim là chặng kết của mạch truyện qua 22 phim Marvel Studios. Đây là một ví dụ về việc nhiều bộ phim và tuyến nhân vật được nối vào cùng một thế giới hư cấu.",
+      "why": "Trải nghiệm xem một phim có thể gắn với ký ức về những phim trước và việc khán giả cùng chờ đợi lời giải cho các tuyến truyện.",
+      "ref": "https://movies.disney.com/avengers-endgame"
+    }
+  ]
+});
+
+TL_DATA.push({
+  "lane": "ea",
+  "periods": [],
+  "events": [
+    {
+      "id": "culture-mario-1985",
+      "date": "13/9/1985",
+      "y": 1985,
+      "t": "Super Mario Bros. ra mắt tại Nhật Bản",
+      "c": "cul",
+      "imp": 1,
+      "topic": "Trò chơi",
+      "d": "Super Mario Bros. được phát hành tại Nhật Bản ngày 13/9/1985. Người chơi điều khiển Mario đi qua các màn chơi cuộn ngang, nhảy qua chướng ngại và khám phá đường đi. Mốc trong hồ sơ Nintendo là ngày phát hành tại Nhật Bản, không phải ngày đồng loạt có mặt ở mọi quốc gia.",
+      "why": "Thiết kế màn chơi có thể hướng dẫn người chơi bằng chính tình huống họ gặp trên đường.",
+      "ref": "https://www.nintendo.com/us/explore/characters/mario/history/"
+    },
+    {
+      "id": "culture-pokemon-1996",
+      "date": "27/2/1996",
+      "y": 1996,
+      "t": "Pokémon Red và Green xuất hiện trên Game Boy",
+      "c": "cul",
+      "imp": 1,
+      "topic": "Trò chơi",
+      "d": "Ngày 27/2/1996, Pokémon Red và Green được phát hành tại Nhật Bản cho Game Boy. Đây là hai phiên bản mở đầu của loạt trò chơi. Tên Red và Blue quen thuộc tại một số thị trường quốc tế thuộc đợt phát hành sau, nên không nên dùng chúng thay cho tên hai bản Nhật năm 1996.",
+      "why": "Các phiên bản khác nhau và việc trao đổi sinh vật tạo thêm lý do để người chơi gặp gỡ và tương tác với nhau.",
+      "ref": "https://www.pokemon.co.jp/game/other/gb-rg/"
+    },
+    {
+      "id": "culture-spirited-away-2001",
+      "date": "20/7/2001",
+      "y": 2001,
+      "t": "Vùng đất linh hồn ra rạp ở Nhật Bản",
+      "c": "cul",
+      "imp": 1,
+      "topic": "Điện ảnh",
+      "d": "Studio Ghibli ghi ngày công chiếu Vùng đất linh hồn tại Nhật Bản là 20/7/2001. Hayao Miyazaki viết kịch bản và đạo diễn câu chuyện về Chihiro bước vào một thế giới xa lạ. Năm ra mắt phim cần được tách khỏi năm phim nhận những giải thưởng quốc tế về sau.",
+      "why": "Một bộ phim hoạt hình có thể kể về lao động, lòng tham và việc trưởng thành thông qua những hình ảnh kỳ ảo.",
+      "ref": "https://www.ghibli.jp/works/chihiro/"
+    },
+    {
+      "id": "culture-gangnam-2012",
+      "date": "21/12/2012",
+      "y": 2012,
+      "t": "Gangnam Style vượt một tỷ lượt xem",
+      "c": "cul",
+      "imp": 1,
+      "topic": "Âm nhạc",
+      "d": "Ngày 21/12/2012, Gangnam Style của PSY trở thành video đầu tiên trên YouTube đạt một tỷ lượt xem. Video đã được đăng từ tháng 7 năm ấy. Vì vậy ngày ra mắt và ngày đạt cột mốc lượt xem là hai sự kiện khác nhau.",
+      "why": "Một ca khúc có thể vượt biên giới ngôn ngữ nhờ vũ đạo, chia sẻ và các phiên bản do khán giả tự tạo.",
+      "ref": "https://blog.youtube/creator-and-artist-stories/10-years-of-youtubes-billion-views-club-psy-gangnam-style/"
+    },
+    {
+      "id": "culture-pokemon-go-2016",
+      "date": "6/7/2016",
+      "y": 2016,
+      "t": "Pokémon GO đưa cuộc chơi ra không gian đời thực",
+      "c": "cul",
+      "imp": 1,
+      "topic": "Trò chơi",
+      "d": "Ngày 6/7/2016, Pokémon GO chính thức có mặt tại Australia, New Zealand và Hoa Kỳ theo thông báo của nhà phát hành. Những đợt ra mắt tại các thị trường khác diễn ra sau đó. Trò chơi kết hợp vị trí thực của người chơi với một thế giới sinh vật ảo trên điện thoại.",
+      "why": "Không gian chơi có thể kéo dài ra đường phố và địa điểm đời thực, thay vì chỉ nằm trong một màn hình cố định.",
+      "ref": "https://pokemongo.com/news/launch"
+    },
+    {
+      "id": "culture-parasite-oscar-2020",
+      "y": 2020,
+      "t": "Ký sinh trùng giành Oscar Phim hay nhất",
+      "c": "cul",
+      "imp": 1,
+      "topic": "Điện ảnh",
+      "d": "Tại lễ Oscar năm 2020, Ký sinh trùng của Bong Joon-ho thắng hạng mục Phim hay nhất. Bộ phim ra mắt năm 2019, vì vậy năm 2020 trên dòng thời gian này là năm nhận giải. Câu chuyện về khoảng cách giàu nghèo ở Hàn Quốc được đưa đến với nhiều khán giả qua hành trình chiếu phim và giải thưởng.",
+      "why": "Một câu chuyện gắn với bối cảnh địa phương có thể tìm được khán giả ở nhiều nơi khác nhau.",
+      "ref": "https://www.oscars.org/oscars/ceremonies/2020/R"
+    },
+    {
+      "id": "culture-bts-dynamite-2020",
+      "y": 2020,
+      "t": "Dynamite đưa BTS lên đầu Billboard Hot 100",
+      "c": "cul",
+      "imp": 1,
+      "topic": "Âm nhạc",
+      "d": "Năm 2020, Dynamite của BTS ra mắt ở vị trí số một Billboard Hot 100, theo bản tin của chính Billboard. Hot 100 là bảng xếp hạng bài hát tại Hoa Kỳ; thành tích này cần phân biệt với bảng xếp hạng album Billboard 200.",
+      "why": "Nêu rõ tên bảng xếp hạng giúp hiểu đúng một thành tích âm nhạc, thay vì gộp các loại bảng vào cùng một kỷ lục.",
+      "ref": "https://www.youtube.com/watch?v=ZfPFAZaiZvs"
+    }
+  ]
+});
+
+TL_DATA.push({
+  "lane": "vn",
+  "periods": [],
+  "events": [
+    {
+      "id": "culture-quan-ho-2009",
+      "y": 2009,
+      "t": "Quan họ Bắc Ninh được UNESCO ghi danh",
+      "c": "cul",
+      "imp": 1,
+      "topic": "Di sản",
+      "d": "Năm 2009, dân ca Quan họ Bắc Ninh được ghi danh vào Danh sách Di sản văn hóa phi vật thể đại diện của nhân loại. Hồ sơ mô tả hình thức hát đối đáp gắn với quan hệ cộng đồng giữa các làng. Đây là năm ghi danh, không phải năm làn điệu bắt đầu tồn tại.",
+      "why": "Một di sản sống được duy trì qua người hát, người nghe, sinh hoạt cộng đồng và việc truyền dạy.",
+      "ref": "https://ich.unesco.org/en/Decisions/4.COM/13.76"
+    },
+    {
+      "id": "culture-ca-tru-2009",
+      "y": 2009,
+      "t": "Ca trù vào danh sách cần bảo vệ khẩn cấp",
+      "c": "cul",
+      "imp": 1,
+      "topic": "Di sản",
+      "d": "Năm 2009, UNESCO ghi danh ca trù vào Danh sách Di sản văn hóa phi vật thể cần bảo vệ khẩn cấp. Đây là hình thức thơ ca được hát với kỹ thuật thanh nhạc đặc trưng, kết hợp phách, đàn đáy và trống chầu. Danh sách này nhấn mạnh nhu cầu bảo vệ và truyền nghề, khác với Danh sách đại diện.",
+      "why": "Ghi danh còn là lời nhắc về sức sống của nghệ thuật và điều kiện để người trẻ có thể học tiếp từ nghệ nhân.",
+      "ref": "https://ich.unesco.org/en/USL/ca-tru-singing-00309?USL=00309"
+    },
+    {
+      "id": "culture-don-ca-2013",
+      "y": 2013,
+      "t": "Đờn ca tài tử Nam Bộ được ghi danh",
+      "c": "cul",
+      "imp": 1,
+      "topic": "Di sản",
+      "d": "Năm 2013, nghệ thuật Đờn ca tài tử Nam Bộ được ghi danh vào Danh sách Di sản văn hóa phi vật thể đại diện của nhân loại. Hồ sơ đề cử của Việt Nam ghi nhận đây là một thực hành âm nhạc được cộng đồng gìn giữ và truyền dạy. Mốc ghi danh không phải niên đại ra đời của nghệ thuật.",
+      "why": "Di sản âm nhạc tồn tại qua những lần cùng đàn, cùng hát và sự truyền đạt kỹ năng giữa các thế hệ.",
+      "ref": "https://ich.unesco.org/en/RL/art-of-n-ca-tai-t-music-and-song-in-southern-viet-nam-00733?RL=00733"
+    }
+  ]
+});
+
+TL_DATA.push({
+  "lane": "eu",
+  "periods": [],
+  "events": [
+    {
+      "id": "culture-metric-1795",
+      "date": "7/4/1795",
+      "y": 1795,
+      "t": "Pháp thông qua hệ đo lường thập phân",
+      "c": "cul",
+      "imp": 1,
+      "topic": "Văn minh",
+      "d": "Ngày 7/4/1795, Quốc ước Pháp quy định các đơn vị đo lường mới theo hệ thập phân. Đây là một bước pháp lý trong quá trình phát triển hệ mét; việc xây dựng chuẩn đo, tổ chức áp dụng và đạt đồng thuận quốc tế còn tiếp diễn sau đó.",
+      "why": "Một hệ đo chung giúp những người ở xa nhau có thể trao đổi số liệu và kiểm tra công việc của nhau.",
+      "ref": "https://usma.org/decimal-nature-of-the-metric-system"
+    },
+    {
+      "id": "culture-unesco-constitution-1945",
+      "date": "16/11/1945",
+      "y": 1945,
+      "t": "Hiến chương UNESCO được thông qua",
+      "c": "cul",
+      "imp": 1,
+      "topic": "Văn minh",
+      "d": "Ngày 16/11/1945, Hiến chương UNESCO được thông qua tại London. Tổ chức đặt giáo dục, khoa học và văn hóa vào một chương trình hợp tác quốc tế sau chiến tranh. Mốc thông qua hiến chương khác với ngày văn bản có hiệu lực.",
+      "why": "Bảo vệ hòa bình còn liên quan đến cách các xã hội học hỏi, trao đổi tri thức và nhìn nhận văn hóa của nhau.",
+      "ref": "https://www.unesco.org/en/legal-affairs/constitution"
+    },
+    {
+      "id": "culture-heritage-convention-1972",
+      "date": "16/11/1972",
+      "y": 1972,
+      "t": "Công ước Di sản Thế giới được thông qua",
+      "c": "cul",
+      "imp": 1,
+      "topic": "Di sản",
+      "d": "Ngày 16/11/1972, Đại hội đồng UNESCO thông qua Công ước về bảo vệ di sản văn hóa và thiên nhiên thế giới. Văn bản tạo khuôn khổ hợp tác quốc tế để gìn giữ các di sản; đây là năm thông qua công ước, không phải năm mọi địa điểm trong Danh sách Di sản Thế giới được ghi danh.",
+      "why": "Một công trình hoặc cảnh quan có thể gắn với cộng đồng địa phương, đồng thời đặt ra trách nhiệm gìn giữ rộng hơn giữa các quốc gia.",
+      "ref": "https://whc.unesco.org/en/convention"
+    }
+  ]
+});
+
+TL_SLICES.push({"id": "sl-1984", "y": 1984, "t": "1984–1985: Khi màn hình trở thành sân chơi", "d": "Năm 1984, Alexey Pajitnov tạo ra Tetris tại Liên Xô. Trên màn hình, các khối hình rơi xuống và người chơi phải tìm chỗ cho chúng. Một năm sau, Super Mario Bros. ra mắt ở Nhật Bản ngày 13/9/1985. Thay cho việc xếp khối, người chơi điều khiển nhân vật vượt qua những chướng ngại trong một thế giới cuộn ngang. Hai trò chơi cho thấy những cách khác nhau để tạo tương tác: một bên sắp xếp trong không gian giới hạn, một bên khám phá con đường phía trước. Chúng cùng nhắc rằng lịch sử máy tính còn là lịch sử của luật chơi, thiết kế và trải nghiệm con người.", "ev": ["culture-tetris-1984", "culture-mario-1985"], "ref": "https://www.moma.org/collection/works/152403"});
+
+TL_SLICES.push({"id": "sl-1995", "y": 1995, "t": "1995–1996: Đồ chơi lên màn ảnh, sinh vật bước vào máy chơi game", "d": "Toy Story ra rạp tại Hoa Kỳ ngày 22/11/1995, đưa Woody và Buzz Lightyear vào một phim truyện dài hoàn toàn bằng hoạt hình máy tính. Đến tháng 2/1996, Pokémon Red và Green được phát hành ở Nhật Bản trên Game Boy. Một bên là câu chuyện được khán giả theo dõi, một bên là thế giới người chơi trực tiếp tham gia. Đặt hai mốc gần nhau, ta thấy công nghệ số đi vào văn hóa qua nhiều cửa: dựng hình, kể chuyện, thiết kế luật chơi và tạo ra các nhân vật mà khán giả muốn gặp lại.", "ev": ["culture-toy-story-1995", "culture-pokemon-1996"], "ref": "https://www.pixar.com/our-story"});
+
+TL_SLICES.push({"id": "sl-2020", "y": 2020, "t": "Năm 2020: Điện ảnh và âm nhạc Hàn Quốc trên những sân khấu quốc tế", "d": "Tại Oscar năm 2020, Ký sinh trùng giành giải Phim hay nhất. Trong cùng năm, Dynamite của BTS ra mắt ở vị trí số một Billboard Hot 100. Hai mốc thuộc hai hệ thống ghi nhận khác nhau: một giải thưởng điện ảnh và một bảng xếp hạng bài hát ở Hoa Kỳ. Chúng cũng không cùng đánh dấu thời điểm sáng tác: bộ phim đã ra mắt năm 2019, còn ca khúc được phát hành năm 2020. Khi đọc văn hóa đại chúng trên dòng thời gian, phân biệt ra mắt, lan truyền và nhận giải giúp ta nhìn rõ hơn hành trình của từng tác phẩm.", "ev": ["culture-parasite-oscar-2020", "culture-bts-dynamite-2020"], "ref": "https://www.oscars.org/oscars/ceremonies/2020/R"});

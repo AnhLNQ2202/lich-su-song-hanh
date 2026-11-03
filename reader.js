@@ -10,7 +10,7 @@ function register(source, kind, lane) {
   const year = source.y ?? source.b ?? source.s;
   const title = kind === 'sl' ? source.t.replace(/^[^:]+:\s*/, '').replace(/^./u,c=>c.toLocaleUpperCase('vi')) : source.full || source.t || source.n;
   const entry = {source, kind, lane, year, title, id:source.id};
-  entry.search = fold([title, yearText(year), source.who, source.role, regions.get(lane)].filter(Boolean).join(' '));
+  entry.search = fold([title, yearText(year), source.who, source.role, source.topic, regions.get(lane)].filter(Boolean).join(' '));
   catalog.set(entry.id, entry);
   return entry;
 }
@@ -129,7 +129,7 @@ function shuffled(items) {
 }
 function newQuestion() {
   const eligible=all.filter(e=>(e.kind==='ev'||e.kind==='np') &&
-    (quizTopic==='all' || quizTopic===e.kind || e.source.c===quizTopic));
+    (quizTopic==='all' || quizTopic===e.kind || e.source.c===quizTopic || e.source.topic===quizTopic));
   const near=eligible.filter(e=>e.id!==lastQuizId).sort((a,b)=>
     Math.abs((a.source.k??a.year)-(current.source.k??current.year))-Math.abs((b.source.k??b.year)-(current.source.k??current.year))).slice(0,35);
   const entry=shuffled(near)[0]||eligible[0];
@@ -172,7 +172,7 @@ function newQuestion() {
   }
   const choices=shuffled([right,...shuffled([...new Set(alternatives)].filter(v=>v!==right)).slice(0,2)]);
   $('challenge').innerHTML='<label class="quiz-topic">Chủ đề <select id="quiz-topic">'+
-    [['all','Tổng hợp'],['ev','Sự kiện'],['np','Nhân vật'],['sci','Khoa học'],['cul','Văn hóa']].map(([key,label])=>'<option value="'+key+'">'+label+'</option>').join('')+
+    [['all','Tổng hợp'],['ev','Sự kiện'],['np','Nhân vật'],['sci','Khoa học'],['cul','Văn hóa'],['Âm nhạc','Âm nhạc'],['Điện ảnh','Điện ảnh'],['Trò chơi','Trò chơi']].map(([key,label])=>'<option value="'+key+'">'+label+'</option>').join('')+
     '</select></label><h2>'+escapeHTML(ask)+'</h2>'+
     '<p class="quiz-prompt">'+escapeHTML(entry.kind==='np'&&mode%2===0?o.role:mode===0&&entry.kind==='ev'?'Chọn một đáp án.':entry.title)+'</p>'+
     choices.map((choice,i)=>'<button class="answer" data-answer="'+i+'">'+escapeHTML(choice)+'</button>').join('')+
@@ -270,7 +270,7 @@ function paragraphs(text) {
 function article(item) {
   const o = item.source;
   const body = item.kind === 'np' ? o.bio : o.d;
-  const meta = [o.date, o.place, o.role, item.kind === 'np' ? yearText(o.b)+' – '+(o.d == null ? 'nay' : yearText(o.d)) : '', ['pd','gb'].includes(item.kind) ? yearText(o.s)+' – '+yearText(o.e) : ''].filter(Boolean);
+  const meta = [o.topic, o.date, o.place, o.role, item.kind === 'np' ? yearText(o.b)+' – '+(o.d == null ? 'nay' : yearText(o.d)) : '', ['pd','gb'].includes(item.kind) ? yearText(o.s)+' – '+yearText(o.e) : ''].filter(Boolean);
   const notes = [[noteTitle(item.id,'why'),o.why],[noteTitle(item.id,'alt'),o.alt],['Liên hệ Việt Nam',o.vn],['Dấu mốc trong đời',o.act ? 'Năm '+yearText(o.k)+', '+o.n+' '+o.act+'.' : ''],['Cùng thời',o.same],['Bạn có biết?',o.fun]];
   return (meta.length ? '<p class="meta">'+escapeHTML(meta.join(' · '))+'</p>' : '')+
     '<div class="prose">'+paragraphs(body)+storyPeople(item)+(item.kind==='sl' ? sliceNotes(item) : '')+notes.filter(([,v])=>v).map(([h,v])=>'<h2>'+h+'</h2>'+paragraphs(v)).join('')+'</div>'+(o.ref ? '<a class="note-source" href="'+escapeHTML(o.ref)+'" target="_blank" rel="noopener">Nguồn tham khảo ↗</a>' : '');
@@ -346,7 +346,8 @@ function results() {
   const kind=$('kind').value;
   const source = catalogMode === "events" ? timeline : all;
   const bounds = $('era-range').value.split(',').map(Number);
-  const matches=source.filter(entry=>(bounds.length!==2 || (entry.year>=bounds[0] && entry.year<=bounds[1])) && (!unreadOnly || !finished.has(entry.id)) && (!kind || entry.kind===kind || (kind==='ev' && entry.kind==='gb')) && tokens.every(t=>entry.search.includes(t)));
+  const topic=$('topic-filter').value;
+  const matches=source.filter(entry=>(!topic || entry.source.topic===topic || (topic==='cul' && entry.source.c==='cul')) && (bounds.length!==2 || (entry.year>=bounds[0] && entry.year<=bounds[1])) && (!unreadOnly || !finished.has(entry.id)) && (!kind || entry.kind===kind || (kind==='ev' && entry.kind==='gb')) && tokens.every(t=>entry.search.includes(t)));
   const visible=matches.slice(0,limit);
   $('status').textContent=matches.length ? matches.length+' mục' : 'Chưa tìm thấy. Thử tên ngắn hơn hoặc một năm.';
   $('results').innerHTML=visible.map(entry=>'<a class="result" href="'+href(entry)+'" '+(entry===current?'aria-current="page"':'')+'><time>'+escapeHTML(yearText(entry.year))+'</time><div><strong>'+escapeHTML(entry.title)+'</strong><small>'+escapeHTML([labels[entry.kind],regions.get(entry.lane),finished.has(entry.id)?'✓ Đã đọc':''].filter(Boolean).join(' · '))+'</small></div><span aria-hidden="true">›</span></a>').join('')+(visible.length<matches.length?'<button class="more" id="more">Xem thêm kết quả ↓</button>':'');
@@ -361,6 +362,8 @@ function openLibrary(mode) {
   $('search').placeholder=contents?'Tìm lát cắt hoặc năm…':'Tìm tên hoặc năm…';
   $('era-field').hidden=!isEvents;
   $('era-range').value='';
+  $('topic-filter').value='';
+  $('topic-field').hidden=contents;
   $('only-unread').hidden=!isEvents;
   $('only-unread').setAttribute('aria-pressed','false');
   $('catalog-events').setAttribute('aria-pressed',String(isEvents));
@@ -372,6 +375,11 @@ function openLibrary(mode) {
   else { $('close').focus(); $('results').querySelector('[aria-current]')?.scrollIntoView({block:'nearest'}); }
 }
 $('lookup').onclick=()=>openLibrary('search');
+$('discover-culture').onclick=()=>{
+  openLibrary('events');
+  $('topic-filter').value='cul';
+  results();
+};
 $('contents').onclick=()=>openLibrary(eventIds.has(current?.id)?'events':'slices');
 $('contents-side').onclick=$('catalog-slices').onclick=()=>openLibrary('slices');
 $('events-side').onclick=$('catalog-events').onclick=()=>openLibrary('events');
@@ -387,6 +395,6 @@ $('results').onclick=e=>{
   if(e.target.closest('.result')) {library.close(); if(e.target.closest('.result').hash===location.hash)render(true);}
   if(e.target.closest('#more')) {const count=limit;limit+=50;results();$('results').children[count]?.focus();}
 };
-$('era-range').onchange=$('search').oninput=$('kind').onchange=()=>{limit=50;results();$('results').scrollTop=0};
+$('topic-filter').onchange=$('era-range').onchange=$('search').oninput=$('kind').onchange=()=>{limit=50;results();$('results').scrollTop=0};
 window.addEventListener('hashchange',()=>render(true));
 render();

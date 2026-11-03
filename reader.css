@@ -108,3 +108,6 @@ dialog{color:var(--ink);background:var(--paper);border:1px solid var(--line);bor
 .quiz-prompt { font:22px/1.5 var(--serif); }
 .answer.correct { border:2px solid var(--ink); background:#e1ece5; color:var(--ink); }
 .answer:disabled { opacity:1; cursor:default; }
+
+#topic-field { display:flex; gap:10px; align-items:center; margin:2px 20px 8px; font-size:14px; }
+#topic-filter { flex:1; min-width:0; min-height:44px; padding:4px 8px; border:1px solid var(--line); border-radius:6px; background:var(--paper); }
