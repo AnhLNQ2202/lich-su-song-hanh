@@ -1,0 +1,1869 @@
+<!doctype html><html lang="vi"><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Lịch Sử Song Hành</title>
+<meta name="description" content="Dòng thời gian song song: lịch sử Việt Nam đặt cạnh Trung Quốc, Nhật – Hàn, Ấn Độ – Đông Nam Á, Tây Á – Ai Cập, châu Âu và châu Mỹ, từ thời cổ đại đến nay.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,600&display=swap">
+<style>
+:root {
+  /* Layout: one-screen app. Header + Vietnam chapter chips on top; a 7-lane horizontal timeline (Vietnam first) with a fixed gold "lát cắt" playhead in the middle; a side panel (bottom sheet on phones) shows the whole world at the playhead year; minimap at the bottom. */
+  --bg: oklch(0.973 0.005 225);
+  --bg-2: oklch(0.948 0.008 225);
+  --surface: oklch(0.996 0.002 225);
+  --ink: oklch(0.24 0.03 255);
+  --ink-2: oklch(0.4 0.025 255);
+  --muted: oklch(0.54 0.02 255);
+  --line: oklch(0.86 0.012 240);
+  --line-2: oklch(0.915 0.01 240);
+  --gold: oklch(0.72 0.14 78);
+  --gold-soft: oklch(0.95 0.045 88);
+  --gold-ink: oklch(0.47 0.1 70);
+  --ok: oklch(0.56 0.14 150);
+  --bad: oklch(0.56 0.19 27);
+  --on-c: oklch(0.99 0.005 90);
+  --vn: oklch(0.53 0.19 27);
+  --cn: oklch(0.52 0.11 162);
+  --ea: oklch(0.52 0.15 295);
+  --sa: oklch(0.6 0.14 62);
+  --wa: oklch(0.54 0.1 210);
+  --eu: oklch(0.5 0.15 258);
+  --am: oklch(0.54 0.17 345);
+  --shadow: 0 1px 2px oklch(0.25 0.03 255 / 0.1), 0 6px 18px oklch(0.25 0.03 255 / 0.1);
+  --scrim: oklch(0.2 0.03 255 / 0.45);
+  --f-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --f-ui: "Be Vietnam Pro", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --r: 10px;
+  --grip-h: 58px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: oklch(0.19 0.017 258);
+    --bg-2: oklch(0.215 0.02 258);
+    --surface: oklch(0.245 0.022 258);
+    --ink: oklch(0.945 0.008 250);
+    --ink-2: oklch(0.82 0.012 250);
+    --muted: oklch(0.68 0.015 250);
+    --line: oklch(0.36 0.02 258);
+    --line-2: oklch(0.29 0.02 258);
+    --gold: oklch(0.8 0.13 82);
+    --gold-soft: oklch(0.3 0.05 80);
+    --gold-ink: oklch(0.86 0.1 85);
+    --ok: oklch(0.74 0.14 150);
+    --bad: oklch(0.72 0.16 27);
+    --on-c: oklch(0.17 0.02 258);
+    --vn: oklch(0.7 0.16 27);
+    --cn: oklch(0.73 0.11 162);
+    --ea: oklch(0.73 0.12 295);
+    --sa: oklch(0.79 0.13 72);
+    --wa: oklch(0.75 0.09 210);
+    --eu: oklch(0.73 0.12 258);
+    --am: oklch(0.73 0.14 345);
+    --shadow: 0 1px 2px oklch(0 0 0 / 0.35), 0 8px 24px oklch(0 0 0 / 0.35);
+    --scrim: oklch(0.05 0.01 258 / 0.6);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: oklch(0.19 0.017 258);
+  --bg-2: oklch(0.215 0.02 258);
+  --surface: oklch(0.245 0.022 258);
+  --ink: oklch(0.945 0.008 250);
+  --ink-2: oklch(0.82 0.012 250);
+  --muted: oklch(0.68 0.015 250);
+  --line: oklch(0.36 0.02 258);
+  --line-2: oklch(0.29 0.02 258);
+  --gold: oklch(0.8 0.13 82);
+  --gold-soft: oklch(0.3 0.05 80);
+  --gold-ink: oklch(0.86 0.1 85);
+  --ok: oklch(0.74 0.14 150);
+  --bad: oklch(0.72 0.16 27);
+  --on-c: oklch(0.17 0.02 258);
+  --vn: oklch(0.7 0.16 27);
+  --cn: oklch(0.73 0.11 162);
+  --ea: oklch(0.73 0.12 295);
+  --sa: oklch(0.79 0.13 72);
+  --wa: oklch(0.75 0.09 210);
+  --eu: oklch(0.73 0.12 258);
+  --am: oklch(0.73 0.14 345);
+  --shadow: 0 1px 2px oklch(0 0 0 / 0.35), 0 8px 24px oklch(0 0 0 / 0.35);
+  --scrim: oklch(0.05 0.01 258 / 0.6);
+  color-scheme: dark;
+}
+
+[data-l="vn"] { --c: var(--vn); }
+[data-l="cn"] { --c: var(--cn); }
+[data-l="ea"] { --c: var(--ea); }
+[data-l="sa"] { --c: var(--sa); }
+[data-l="wa"] { --c: var(--wa); }
+[data-l="eu"] { --c: var(--eu); }
+[data-l="am"] { --c: var(--am); }
+
+[hidden] { display: none !important; }
+html { height: 100%; box-sizing: border-box; }
+*, *::before, *::after { box-sizing: inherit; }
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: var(--bg);
+  color: var(--ink);
+  font: 400 14px/1.5 var(--f-ui);
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+button { font: inherit; color: inherit; }
+button:focus-visible, [tabindex]:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+.ico { width: 16px; height: 16px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+
+.app { height: 100%; display: flex; flex-direction: column; }
+
+/* ---------- header ---------- */
+.top {
+  flex: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  padding-block: 10px 9px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  background: var(--bg);
+  border-bottom: 1px solid var(--line-2);
+}
+.brand { display: flex; align-items: center; gap: 11px; min-width: 0; margin-right: auto; }
+.logo { width: 36px; height: 36px; flex: none; }
+.lg-a { fill: var(--vn); }
+.lg-b { fill: none; stroke: var(--gold); stroke-width: 1.1; stroke-dasharray: 1.3 1.5; }
+.lg-c { fill: none; stroke: color-mix(in oklch, var(--gold) 70%, transparent); stroke-width: 0.8; }
+.lg-s { fill: var(--gold); }
+.brand h1 { margin: 0; font: 700 22px/1.05 var(--f-display); letter-spacing: -0.015em; white-space: nowrap; }
+.brand h1 em { font-style: italic; font-weight: 600; color: var(--vn); }
+.brand p { margin: 3px 0 0; font-size: 12px; color: var(--muted); white-space: nowrap; }
+.seg { display: inline-flex; padding: 3px; border-radius: 999px; background: var(--bg-2); border: 1px solid var(--line); }
+.seg button { border: 0; background: transparent; padding: 6px 14px; border-radius: 999px; font-size: 13px; font-weight: 600; color: var(--ink-2); cursor: pointer; }
+.seg button.on { background: var(--surface); color: var(--ink); box-shadow: var(--shadow); }
+.acts { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 7px;
+  height: 34px; padding: 0 13px; border-radius: 999px;
+  border: 1px solid var(--line); background: var(--surface); color: var(--ink);
+  font-size: 13px; font-weight: 600; cursor: pointer; white-space: nowrap;
+}
+.btn:hover { border-color: color-mix(in oklch, var(--vn) 50%, var(--line)); }
+.btn.on { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.btn:disabled { opacity: .4; cursor: default; }
+.btn.icon { width: 34px; padding: 0; }
+.zoom { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; background: var(--surface); }
+.zoom button { width: 34px; height: 32px; border: 0; background: transparent; cursor: pointer; display: grid; place-items: center; color: var(--ink); }
+.zoom button + button { border-left: 1px solid var(--line-2); }
+.zoom button:hover { background: var(--bg-2); }
+
+/* ---------- chapters ---------- */
+.chapters {
+  flex: none;
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding-block: 8px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  background: var(--bg);
+  border-bottom: 1px solid var(--line-2);
+}
+.chapters::-webkit-scrollbar { display: none; }
+.chap {
+  flex: none; display: inline-flex; align-items: baseline; gap: 6px;
+  border: 1px solid var(--line); background: var(--surface); border-radius: 999px;
+  padding: 5px 12px; font-size: 12.5px; font-weight: 600; color: var(--ink-2); cursor: pointer; white-space: nowrap;
+}
+.chap small { font-size: 11px; font-weight: 500; color: var(--muted); font-variant-numeric: tabular-nums; }
+.chap:hover { border-color: color-mix(in oklch, var(--vn) 50%, var(--line)); color: var(--ink); }
+.chap.on { background: var(--vn); border-color: var(--vn); color: var(--on-c); }
+.chap.on small { color: color-mix(in oklch, var(--on-c) 80%, transparent); }
+.chap.all { background: var(--bg-2); }
+.t-sm { display: none; }
+
+/* ---------- stage / timeline ---------- */
+.stage { position: relative; flex: 1; min-height: 0; display: flex; }
+.vp {
+  position: relative; flex: 1; min-width: 0;
+  overflow: auto; overscroll-behavior: contain;
+  touch-action: pan-x pan-y;
+  scrollbar-width: thin; scrollbar-color: var(--line) transparent;
+  cursor: grab;
+}
+.vp.dragging { cursor: grabbing; user-select: none; }
+.cv { position: relative; }
+.ruler { position: sticky; top: 0; z-index: 8; height: var(--rh); background: var(--bg-2); border-bottom: 1px solid var(--line); }
+.corner {
+  position: sticky; left: 0; z-index: 3;
+  width: var(--lw); height: 100%;
+  display: grid; grid-template-columns: 1fr 1fr; align-content: center; gap: 3px 6px;
+  padding: 6px 8px 6px 14px;
+  background: var(--bg-2); border-right: 1px solid var(--line);
+  font-size: 10.5px; color: var(--ink-2);
+}
+.corner span { display: flex; align-items: center; gap: 4px; white-space: nowrap; }
+.corner .ico { width: 12px; height: 12px; }
+.corner .wide { grid-column: 1 / -1; white-space: normal; line-height: 1.3; }
+.r-era, .r-glob, .r-tick { position: absolute; left: 0; right: 0; }
+.r-era { top: 0; height: 17px; }
+.r-glob { top: 17px; height: 15px; }
+.r-tick { top: 32px; bottom: 0; }
+.era { position: absolute; top: 3px; height: 13px; border-left: 1px solid var(--line); font: 700 9.5px/13px var(--f-ui); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); white-space: nowrap; overflow: clip; }
+.era span { position: sticky; left: calc(var(--lw) + 6px); display: inline-block; padding-left: 6px; }
+.gpill { position: absolute; top: 1px; height: 13px; padding: 0; border: 0; border-radius: 3px; background: color-mix(in oklch, var(--ink) 13%, transparent); color: var(--ink); font: 700 9.5px/13px var(--f-ui); text-align: left; white-space: nowrap; overflow: clip; cursor: pointer; }
+.gpill span { position: sticky; left: calc(var(--lw) + 4px); display: inline-block; padding: 0 5px; }
+.gpill:hover { background: color-mix(in oklch, var(--gold) 45%, transparent); }
+.tick { position: absolute; bottom: 0; height: 7px; border-left: 1px solid color-mix(in oklch, var(--ink) 35%, transparent); }
+.tick span { position: absolute; left: 4px; bottom: 5px; font: 600 10.5px/1 var(--f-ui); font-variant-numeric: tabular-nums; color: var(--ink-2); white-space: nowrap; }
+.tick.cn { border-color: var(--vn); height: 100%; }
+.tick.cn span { color: var(--vn); font-weight: 700; }
+
+.lanes { position: relative; }
+.lanes.m-ev .chip.np, .lanes.m-np .chip.ev { display: none; }
+.lane { position: absolute; left: 0; right: 0; border-bottom: 1px solid var(--line-2); background: color-mix(in oklch, var(--c) 3.5%, var(--bg)); }
+.lane[data-l="vn"] { background: color-mix(in oklch, var(--vn) 6.5%, var(--bg)); border-bottom: 2px solid color-mix(in oklch, var(--gold) 75%, transparent); }
+.lab {
+  position: sticky; left: 0; z-index: 6;
+  width: var(--lw); height: 100%;
+  display: flex; flex-direction: column; justify-content: center; gap: 2px;
+  padding: 6px 8px 6px 16px; overflow: hidden;
+  background: color-mix(in oklch, var(--c) 8%, var(--bg-2));
+  border-right: 1px solid var(--line);
+}
+.lab::before { content: ""; position: absolute; left: 0; top: 7px; bottom: 7px; width: 4px; border-radius: 0 3px 3px 0; background: var(--c); }
+.lab .nm { font: 700 13.5px/1.15 var(--f-ui); color: var(--ink); }
+.lab .short { display: none; }
+.lab .sub { font-size: 9.5px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--gold-ink); }
+.lab .cur { font-size: 11.5px; line-height: 1.25; font-weight: 600; color: color-mix(in oklch, var(--c) 72%, var(--ink)); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+
+.pd {
+  position: absolute; z-index: 2;
+  height: var(--ph); padding: 0; text-align: left;
+  border-radius: 4px; border: 1px solid color-mix(in oklch, var(--c) 35%, transparent);
+  background: color-mix(in oklch, var(--c) 21%, var(--bg));
+  color: color-mix(in oklch, var(--c) 58%, var(--ink));
+  font: 600 10.5px/1 var(--f-ui);
+  white-space: nowrap; overflow: clip; cursor: pointer;
+}
+.pd.alt { background: color-mix(in oklch, var(--c) 11%, var(--bg)); }
+.pd.gb { border-style: dashed; }
+.pd span { position: sticky; left: calc(var(--lw) + 4px); display: inline-block; padding: 0 6px; line-height: calc(var(--ph) - 2px); }
+.pd.nl span { display: none; }
+.pd:hover { background: color-mix(in oklch, var(--c) 32%, var(--bg)); }
+.pd.sel { outline: 2px solid var(--gold); outline-offset: 1px; z-index: 3; }
+
+.chip {
+  position: absolute; left: 0; top: 0; z-index: 3;
+  height: var(--chh);
+  display: flex; align-items: center; gap: 5px;
+  padding: 0 9px 0 3px;
+  border-radius: 999px; border: 1px solid transparent; background: none;
+  font: 500 var(--fs)/1 var(--f-ui); color: var(--ink-2);
+  white-space: nowrap; cursor: pointer;
+}
+.chip .ic { flex: none; width: 15px; height: 15px; border-radius: 50%; background: var(--c); display: grid; place-items: center; }
+.chip .ic svg { width: 10px; height: 10px; fill: none; stroke: var(--on-c); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.chip b { font-weight: 700; color: var(--ink); font-variant-numeric: tabular-nums; }
+.chip span { overflow: hidden; text-overflow: ellipsis; max-width: var(--tmax); }
+.chip.i3 { background: var(--c); color: var(--on-c); font-weight: 600; }
+.chip.i3 b { color: var(--on-c); }
+.chip.i3 .ic { background: color-mix(in oklch, var(--on-c) 24%, transparent); }
+.chip.i2 { background: var(--surface); border-color: color-mix(in oklch, var(--c) 40%, var(--line)); color: var(--ink); }
+.chip.i1 .ic { background: var(--surface); box-shadow: inset 0 0 0 1.5px var(--c); }
+.chip.i1 .ic svg { stroke: var(--c); }
+.chip:hover, .chip:focus-visible { z-index: 7; box-shadow: var(--shadow); }
+.chip:hover span { max-width: 460px; }
+.chip.i1:hover { background: var(--surface); border-color: var(--line); }
+.chip.np small { font-size: .86em; color: var(--muted); font-variant-numeric: tabular-nums; }
+.chip.np.i3 small { color: color-mix(in oklch, var(--on-c) 78%, transparent); }
+.chip .life { position: absolute; left: 10px; bottom: -4px; height: 3px; width: var(--life, 0px); border-radius: 2px; background: var(--c); opacity: .5; pointer-events: none; }
+.chip.is-dot { width: 9px; height: 9px; padding: 0; border: 0; border-radius: 50%; background: var(--c); opacity: .72; box-shadow: 0 0 0 1.5px var(--bg); }
+.chip.is-dot > * { display: none; }
+.chip.is-dot::after { content: ""; position: absolute; inset: -7px; }
+.chip.is-dot:hover { opacity: 1; }
+.chip.sel { outline: 2.5px solid var(--gold); outline-offset: 1.5px; opacity: 1; z-index: 8; }
+.chip.hl { outline: 2px dashed var(--gold); outline-offset: 1px; opacity: 1; z-index: 6; }
+
+.gband {
+  position: absolute; top: 0; z-index: 1; pointer-events: none;
+  background: repeating-linear-gradient(135deg, color-mix(in oklch, var(--ink) 6%, transparent) 0 5px, transparent 5px 11px);
+  border-inline: 1px dashed color-mix(in oklch, var(--ink) 20%, transparent);
+}
+.win { position: absolute; top: 0; z-index: 1; pointer-events: none; background: color-mix(in oklch, var(--gold) 10%, transparent); border-inline: 1px dashed color-mix(in oklch, var(--gold) 60%, transparent); }
+.links { position: absolute; left: 0; top: 0; z-index: 4; pointer-events: none; overflow: visible; }
+.links path { fill: none; stroke: var(--gold); stroke-width: 2; stroke-dasharray: 5 5; opacity: .95; }
+@media (prefers-reduced-motion: no-preference) {
+  .links path { animation: lk-dash 1s linear infinite; }
+  @keyframes lk-dash { to { stroke-dashoffset: -10; } }
+}
+
+.ph { position: absolute; top: 0; left: 0; width: 0; z-index: 9; pointer-events: none; }
+.ph::before { content: ""; position: absolute; top: 0; bottom: 0; left: -1px; width: 2px; background: var(--gold); box-shadow: 0 0 0 1px color-mix(in oklch, var(--bg) 55%, transparent); }
+.ph-badge {
+  position: absolute; top: 3px; left: 0; transform: translateX(-50%);
+  padding: 5px 10px; border-radius: 999px;
+  background: var(--ink); color: var(--bg);
+  font: 700 12.5px/1 var(--f-ui); font-variant-numeric: tabular-nums; white-space: nowrap;
+  box-shadow: var(--shadow);
+}
+
+/* ---------- panel ---------- */
+.panel { position: relative; flex: none; width: 400px; display: flex; flex-direction: column; min-height: 0; background: var(--surface); border-left: 1px solid var(--line); }
+.app.p-off .panel { display: none; }
+.p-grip { display: none; }
+.p-body { flex: 1; min-height: 0; overflow: auto; overscroll-behavior: contain; padding: 18px 20px 30px; }
+.eyebrow { font-size: 10.5px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.sv-year { margin-top: 2px; font: 700 54px/1 var(--f-display); letter-spacing: -0.02em; color: var(--ink); font-variant-numeric: lining-nums; }
+.sv-year small { margin-left: 8px; font-size: .36em; letter-spacing: .04em; color: var(--muted); }
+.sv-sub { margin-top: 6px; font-size: 13px; color: var(--ink-2); }
+.sv-sub b { color: var(--vn); }
+.sv-note { margin: 14px 0 0; font-size: 12px; line-height: 1.5; color: var(--muted); }
+.sl-card { margin-top: 14px; padding: 14px 16px; border-radius: 14px; background: var(--gold-soft); border: 1px solid color-mix(in oklch, var(--gold) 45%, transparent); }
+.sl-card .eyebrow { color: var(--gold-ink); }
+.sl-card h3 { margin: 4px 0 6px; font: 700 18px/1.25 var(--f-display); text-wrap: balance; }
+.sl-card p { margin: 0; font-size: 13.5px; line-height: 1.62; }
+.sl-ev { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 10px; }
+.mini { display: inline-flex; align-items: center; gap: 5px; max-width: 100%; padding: 3px 9px 3px 6px; border-radius: 999px; border: 1px solid color-mix(in oklch, var(--c) 35%, var(--line)); background: var(--surface); font-size: 11.5px; cursor: pointer; text-align: left; }
+.mini i { width: 8px; height: 8px; border-radius: 50%; background: var(--c); flex: none; }
+.mini span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.xs { display: flex; flex-direction: column; gap: 9px; margin-top: 12px; }
+.xs-lane { padding: 10px 12px; border-radius: var(--r); background: color-mix(in oklch, var(--c) 6%, var(--surface)); border: 1px solid color-mix(in oklch, var(--c) 22%, var(--line-2)); }
+.xs-h { display: flex; align-items: baseline; flex-wrap: wrap; gap: 3px 8px; }
+.xs-h .sw { width: 9px; height: 9px; border-radius: 3px; background: var(--c); flex: none; align-self: center; }
+.xs-h b { font-size: 13px; }
+.xs-pd { font-size: 12px; font-weight: 600; color: color-mix(in oklch, var(--c) 70%, var(--ink)); }
+.xs ul, .rel, .cont, .plist { list-style: none; margin: 6px 0 0; padding: 0; display: flex; flex-direction: column; gap: 1px; }
+.ref {
+  display: flex; align-items: baseline; gap: 8px; width: 100%;
+  padding: 4px 6px; margin: 0 -6px; width: calc(100% + 12px);
+  border: 0; border-radius: 6px; background: none; text-align: left;
+  font-size: 13px; line-height: 1.38; color: var(--ink); cursor: pointer;
+}
+.ref:hover { background: color-mix(in oklch, var(--c, var(--ink)) 11%, transparent); }
+.ref .yr { flex: none; min-width: 62px; font-weight: 700; font-variant-numeric: tabular-nums; color: color-mix(in oklch, var(--c, var(--ink)) 72%, var(--ink)); }
+.ref > span:last-child { min-width: 0; }
+.ref small { display: block; font-size: 11.5px; color: var(--muted); margin-top: 1px; }
+.xs-pp { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 7px; }
+.pp { padding: 3px 9px; border-radius: 999px; border: 1px solid color-mix(in oklch, var(--c) 32%, var(--line)); background: var(--surface); font-size: 12px; cursor: pointer; text-align: left; }
+.pp small { margin-left: 3px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.pp:hover, .mini:hover { border-color: var(--c); }
+.muted { margin: 6px 0 0; font-size: 12.5px; color: var(--muted); }
+.sv-nav, .d-nav { display: flex; justify-content: space-between; gap: 8px; margin-top: 18px; }
+.sv-nav .btn, .d-nav .btn { max-width: 48%; font-size: 12.5px; }
+.sv-nav .btn span, .d-nav .btn span { overflow: hidden; text-overflow: ellipsis; }
+
+.d-back { display: inline-flex; align-items: center; gap: 6px; padding: 4px 0; border: 0; background: none; color: var(--ink-2); font-size: 12.5px; font-weight: 600; cursor: pointer; }
+.d-back:hover { color: var(--ink); }
+.d-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.tag { display: inline-flex; align-items: center; gap: 5px; padding: 3px 9px; border-radius: 999px; background: var(--bg-2); color: var(--ink-2); font-size: 11.5px; font-weight: 600; }
+.tag.tl { background: var(--c); color: var(--on-c); }
+.tag .ico { width: 12px; height: 12px; }
+.d-date { margin-top: 12px; font: italic 600 17px/1.25 var(--f-display); color: color-mix(in oklch, var(--c) 72%, var(--ink)); }
+.d-title { margin: 4px 0 0; font: 700 27px/1.14 var(--f-display); letter-spacing: -0.012em; text-wrap: balance; }
+.d-meta { display: flex; flex-wrap: wrap; gap: 4px 14px; margin-top: 9px; font-size: 12.5px; color: var(--ink-2); }
+.d-meta span { display: inline-flex; align-items: center; gap: 5px; }
+.d-meta .ico { width: 14px; height: 14px; }
+.d-text { margin: 14px 0 0; font-size: 14.5px; line-height: 1.66; }
+.box { margin-top: 11px; padding: 11px 14px; border-radius: var(--r); background: var(--bg-2); }
+.box h4 { margin: 0 0 3px; font-size: 10.5px; letter-spacing: .11em; text-transform: uppercase; color: var(--muted); }
+.box p { margin: 0; font-size: 13.5px; line-height: 1.6; }
+.box.why { background: color-mix(in oklch, var(--c) 9%, var(--surface)); }
+.box.why h4 { color: color-mix(in oklch, var(--c) 75%, var(--ink)); }
+.box.alt { background: color-mix(in oklch, var(--ea) 9%, var(--surface)); }
+.box.alt h4 { color: color-mix(in oklch, var(--ea) 75%, var(--ink)); }
+.box.fun, .box.same { background: var(--gold-soft); }
+.box.fun h4, .box.same h4 { color: var(--gold-ink); }
+.box.vnl, .box.key { background: color-mix(in oklch, var(--vn) 8%, var(--surface)); }
+.box.vnl h4, .box.key h4 { color: var(--vn); }
+.sec { margin-top: 22px; }
+.sec h3 { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 8px; margin: 0 0 6px; font: 700 16px/1.3 var(--f-display); }
+.sec h3 small { font: 500 11.5px/1.3 var(--f-ui); color: var(--muted); }
+.rel li, .cont li, .plist li { --c: var(--ink); }
+.rel li[data-l], .cont li[data-l], .plist li[data-l] { --c: inherit; }
+.pdx { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
+
+.tourbar { position: sticky; top: -18px; z-index: 2; display: flex; align-items: center; gap: 6px; margin: -18px -20px 14px; padding: 9px 12px; background: var(--ink); color: var(--bg); }
+.tourbar .tt { flex: 1; min-width: 0; font-size: 12.5px; font-weight: 700; }
+.tourbar .tt small { display: block; font-weight: 500; opacity: .75; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.tourbar button { display: grid; place-items: center; width: 32px; height: 32px; border: 1px solid color-mix(in oklch, var(--bg) 30%, transparent); border-radius: 999px; background: transparent; color: var(--bg); cursor: pointer; }
+.tourbar button:disabled { opacity: .35; cursor: default; }
+.tourbar .go { width: auto; padding: 0 12px; background: var(--gold); border-color: var(--gold); color: oklch(0.2 0.03 70); font-size: 12.5px; font-weight: 700; display: inline-flex; gap: 4px; }
+
+/* ---------- footer / minimap ---------- */
+.foot {
+  flex: none; display: flex; align-items: center; gap: 16px;
+  padding-block: 6px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  background: var(--bg); border-top: 1px solid var(--line-2);
+}
+.mm { position: relative; flex: 1; min-width: 0; height: 42px; cursor: pointer; touch-action: none; }
+.mm canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
+.mm-win { position: absolute; top: 0; height: 31px; border: 1.5px solid var(--ink); border-radius: 4px; background: color-mix(in oklch, var(--ink) 7%, transparent); pointer-events: none; }
+.hint { flex: none; max-width: 340px; margin: 0; font-size: 11.5px; line-height: 1.4; color: var(--muted); }
+
+/* ---------- tooltip, popover, quiz ---------- */
+.tip { position: fixed; z-index: 50; max-width: 290px; padding: 7px 10px; border-radius: 8px; background: var(--ink); color: var(--bg); font-size: 12px; line-height: 1.4; pointer-events: none; box-shadow: var(--shadow); }
+.tip b { font-variant-numeric: tabular-nums; }
+.tip small { display: block; opacity: .75; }
+.pop { position: fixed; z-index: 40; width: min(440px, calc(100vw - 24px)); max-height: min(72vh, 600px); overflow: auto; padding: 12px 14px 14px; background: var(--surface); border: 1px solid var(--line); border-radius: 16px; box-shadow: var(--shadow); }
+.pop-h { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; margin-bottom: 6px; }
+.pop-h b { font: 700 17px/1.2 var(--f-display); }
+.pop-h small { font-size: 11.5px; color: var(--muted); }
+.pop .ref .yr { min-width: 70px; color: var(--gold-ink); }
+
+.modal { position: fixed; inset: 0; z-index: 60; display: grid; place-items: center; padding: 16px; background: var(--scrim); }
+.q { width: min(740px, 100%); max-height: 100%; overflow: auto; padding: 20px 22px; border-radius: 18px; background: var(--surface); box-shadow: var(--shadow); }
+.q-head { display: flex; align-items: center; gap: 12px; }
+.q-title { flex: 1; margin: 0; font: 700 23px/1.2 var(--f-display); }
+.q-score { font-size: 12.5px; color: var(--ink-2); font-variant-numeric: tabular-nums; text-align: right; }
+.q-x { display: grid; place-items: center; width: 34px; height: 34px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); cursor: pointer; }
+.q-ask { margin: 14px 0 12px; font-size: 15px; font-weight: 600; }
+.q-cards { display: grid; grid-template-columns: 1fr auto 1fr; gap: 12px; align-items: stretch; }
+.q-or { align-self: center; font: italic 700 18px var(--f-display); color: var(--muted); }
+.q-card { display: flex; flex-direction: column; gap: 7px; min-height: 150px; padding: 14px; text-align: left; border-radius: 14px; border: 1.5px solid color-mix(in oklch, var(--c) 35%, var(--line)); background: color-mix(in oklch, var(--c) 6%, var(--surface)); cursor: pointer; }
+.q-card:hover { border-color: var(--c); box-shadow: var(--shadow); }
+.q-card h4 { margin: 0; font: 700 18px/1.25 var(--f-display); text-wrap: balance; }
+.q-card .q-sub { font-size: 12.5px; color: var(--ink-2); }
+.q-card .q-yr { margin-top: auto; font: 700 26px/1 var(--f-display); color: color-mix(in oklch, var(--c) 80%, var(--ink)); visibility: hidden; }
+.q.revealed .q-card { cursor: default; }
+.q.revealed .q-yr { visibility: visible; }
+.q-card.right { border-color: var(--ok); box-shadow: 0 0 0 3px color-mix(in oklch, var(--ok) 28%, transparent); }
+.q-card.wrong { border-color: var(--bad); }
+.q-msg { margin-top: 14px; padding: 12px 14px; border-radius: 12px; background: var(--bg-2); font-size: 14px; line-height: 1.55; }
+.q-msg b.ok { color: var(--ok); }
+.q-msg b.bad { color: var(--bad); }
+.q-foot { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px; margin-top: 14px; }
+
+/* ---------- phones ---------- */
+@media (max-width: 760px) {
+  .top { padding-block: 8px 7px; gap: 7px 8px; }
+  .brand { flex: 1 1 auto; margin-right: 0; gap: 8px; }
+  .logo { width: 28px; height: 28px; }
+  .brand h1 { font-size: 17px; }
+  .brand p { display: none; }
+  .seg button { padding: 5px 10px; font-size: 12.5px; }
+  .acts { width: 100%; gap: 6px; }
+  .acts .btn { height: 32px; padding: 0 11px; font-size: 12.5px; gap: 6px; }
+  .t-lg { display: none; }
+  .t-sm { display: inline; }
+  #b-panel { display: none; }
+  .zoom {
+    position: fixed; z-index: 20;
+    right: max(12px, env(safe-area-inset-right, 0px));
+    bottom: calc(var(--grip-h) + 62px + env(safe-area-inset-bottom, 0px));
+    flex-direction: column; border-radius: 12px; box-shadow: var(--shadow);
+  }
+  .zoom button { width: 38px; height: 36px; }
+  .zoom button + button { border-left: 0; border-top: 1px solid var(--line-2); }
+  .chapters { padding-block: 6px; }
+  .hint { display: none; }
+  .lab { padding: 4px 4px 4px 9px; }
+  .lab::before { width: 3px; }
+  .lab .full, .lab .sub, .lab .cur { display: none; }
+  .lab .short { display: inline; }
+  .lab .nm { font-size: 11px; line-height: 1.2; }
+  .corner { display: block; padding: 0; }
+  .corner span { display: none; }
+  .panel {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 30;
+    width: auto; height: min(74vh, 640px);
+    border-left: 0; border-top: 1px solid var(--line);
+    border-radius: 18px 18px 0 0;
+    box-shadow: 0 -10px 30px oklch(0 0 0 / .18);
+    transform: translateY(calc(100% - var(--grip-h) - env(safe-area-inset-bottom, 0px)));
+    transition: transform .28s ease;
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  .app.p-off .panel { display: flex; }
+  .app.sheet-open .panel { transform: none; }
+  .p-grip {
+    position: relative; flex: none; display: flex; align-items: center; gap: 10px;
+    height: var(--grip-h); padding: 6px 16px 0; border: 0; border-bottom: 1px solid var(--line-2);
+    background: none; text-align: left; cursor: pointer; width: 100%;
+  }
+  .p-grip::before { content: ""; position: absolute; top: 6px; left: 50%; width: 38px; height: 4px; margin-left: -19px; border-radius: 2px; background: var(--line); }
+  .p-grip b { font: 700 20px/1 var(--f-display); font-variant-numeric: lining-nums; white-space: nowrap; }
+  .p-grip span { flex: 1; min-width: 0; font-size: 12.5px; color: var(--ink-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .p-grip .ico { transition: transform .25s; }
+  .app.sheet-open .p-grip .ico { transform: rotate(180deg); }
+  .p-body { padding: 14px 16px 26px; }
+  .tourbar { top: -14px; margin: -14px -16px 12px; }
+  .foot { padding-bottom: calc(var(--grip-h) + 6px + env(safe-area-inset-bottom, 0px)); }
+  .mm { height: 36px; }
+  .mm-win { height: 26px; }
+  .sv-year { font-size: 44px; }
+  .d-title { font-size: 23px; }
+  .q { padding: 16px; }
+  .q-title { font-size: 19px; }
+  .q-cards { grid-template-columns: 1fr; }
+  .q-or { justify-self: center; }
+  .q-card { min-height: 0; }
+}
+@media (max-width: 380px) {
+  .seg button { padding: 5px 9px; }
+  .brand h1 { font-size: 17px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .panel { transition: none !important; }
+}
+
+
+details.xs-lane { padding-block: 0; }
+summary.xs-h { cursor: pointer; min-height: 44px; align-items: center; }
+summary.xs-h::after { content: "+"; margin-left: auto; color: var(--ink-2); font-size: 18px; }
+details[open] > summary.xs-h::after { content: "−"; }
+details.xs-lane[open] { padding-bottom: 10px; }
+summary.xs-h:focus-visible { outline: 2px solid var(--gold); }
+.tools-toggle, .period-bar { display: none; }
+.chap.on { box-shadow: inset 0 -2px var(--vn); }
+@media (max-width: 760px) {
+  .top { display: grid; grid-template-columns: 1fr auto; gap: 4px 10px; padding: 6px 12px; }
+  .brand h1 { font-size: clamp(17px, 5vw, 22px); }
+  .tools-toggle { display: inline-flex; min-height: 44px; grid-column: 2; grid-row: 1; }
+  .tools-toggle[aria-expanded="true"] { background: var(--bg-2); }
+  .seg { grid-column: 1 / -1; border-radius: 12px; padding: 2px; }
+  .seg button { flex: 1; min-height: 44px; border-radius: 9px; }
+  .acts { display: none; grid-column: 1 / -1; gap: 4px; }
+  .tools-toggle[aria-expanded="true"] + .acts { display: flex; }
+  .acts .btn { flex: 1; min-height: 44px; padding: 0 8px; }
+  .zoom { position: static; flex-direction: row; box-shadow: none; }
+  .zoom button { width: 44px; height: 44px; }
+  .zoom button + button { border-top: 0; border-left: 1px solid var(--line-2); }
+  .chapters { display: none; }
+  .period-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 0 9px; padding: 4px 12px; background: var(--surface); border-bottom: 1px solid var(--line); }
+  .period-bar label { font-weight: 600; }
+  .period-bar select { flex: 1; min-width: 0; max-width: 100%; min-height: 44px; font: inherit; font-weight: 600; color: var(--ink); background: var(--surface); border: 0; }
+  .period-bar span { flex-basis: 100%; font-size: 12px; color: var(--ink-2); }
+  .p-body .ref, .p-body .btn, .pop .ref { min-height: 44px; }
+  .pop { max-height: 48dvh; overflow: auto; }
+  .q { max-height: 90dvh; overflow: auto; }
+  .p-grip::after { content: "Mở"; color: var(--gold-ink); font-weight: 600; }
+  .sheet-open .p-grip::after { content: "Thu gọn"; }
+}
+
+.in-reader {
+  --bg: #fbf8f1; --surface: #fffcf6; --bg-2: #eee8dc;
+  --ink: #203d38; --ink-2: #344e46; --muted: #58675e;
+  --line: #cfcabe; --line-2: #e4ddd1; --vn: #98442d;
+  --gold: #ad702e; --gold-ink: #76451b; --gold-soft: #f2e6cd; --on-c: white;
+  --f-display: Cambria, "Times New Roman", serif; --f-ui: system-ui, sans-serif;
+  color-scheme: light;
+}
+.in-reader .brand, .in-reader .panel, .in-reader .tools-toggle, .in-reader .acts, .in-reader .hint { display:none!important; }
+.in-reader .foot { padding:4px 8px; }
+.in-reader .seg { margin:0; }
+.in-reader .top { padding:4px 8px; }
+.in-reader .chapters { padding-block:3px; }
+.in-reader .period-bar span { display:none; }
+</style>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-pol" viewBox="0 0 16 16"><path d="M2.5 13h11M3.2 11 2.4 4.6l3.4 2.9L8 3l2.2 4.5 3.4-2.9-.8 6.4z"/></symbol>
+    <symbol id="i-war" viewBox="0 0 16 16"><path d="M3 3l8.2 8.2M13 3 4.8 11.2M10 12.6l2.6-2.6M3.4 10l2.6 2.6M2.6 13.4l1.6-1.6M13.4 13.4l-1.6-1.6"/></symbol>
+    <symbol id="i-cul" viewBox="0 0 16 16"><path d="M2.5 3.6c2-.8 4-.6 5.5.9 1.5-1.5 3.5-1.7 5.5-.9v9c-2-.8-4-.6-5.5.9-1.5-1.5-3.5-1.7-5.5-.9zM8 4.5v9"/></symbol>
+    <symbol id="i-sci" viewBox="0 0 16 16"><path d="M6.1 12.4h3.8M6.6 14.4h2.8M5.3 9.7a4.2 4.2 0 1 1 5.4 0c-.6.5-.8 1-.8 1.7H6.1c0-.7-.2-1.2-.8-1.7z"/></symbol>
+    <symbol id="i-person" viewBox="0 0 16 16"><circle cx="8" cy="5.4" r="2.7"/><path d="M2.8 14c.6-2.9 2.7-4.4 5.2-4.4s4.6 1.5 5.2 4.4"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 16 16"><path d="M8 14.5s4.5-4.2 4.5-7.7a4.5 4.5 0 0 0-9 0C3.5 10.3 8 14.5 8 14.5z"/><circle cx="8" cy="6.8" r="1.6"/></symbol>
+    <symbol id="i-close" viewBox="0 0 16 16"><path d="M4 4l8 8M12 4l-8 8"/></symbol>
+    <symbol id="i-left" viewBox="0 0 16 16"><path d="M10 3 5 8l5 5"/></symbol>
+    <symbol id="i-right" viewBox="0 0 16 16"><path d="M6 3l5 5-5 5"/></symbol>
+    <symbol id="i-up" viewBox="0 0 16 16"><path d="M3 10l5-5 5 5"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 16 16"><path d="M8 3v10M3 8h10"/></symbol>
+    <symbol id="i-minus" viewBox="0 0 16 16"><path d="M3 8h10"/></symbol>
+    <symbol id="i-fit" viewBox="0 0 16 16"><path d="M2.5 6V2.5H6M10 2.5h3.5V6M13.5 10v3.5H10M6 13.5H2.5V10"/></symbol>
+    <symbol id="i-tour" viewBox="0 0 16 16"><circle cx="4" cy="12.2" r="1.7"/><circle cx="12" cy="3.8" r="1.7"/><path d="M5.7 12.2H10a2 2 0 0 0 0-4H6a2 2 0 0 1 0-4h4.3"/></symbol>
+    <symbol id="i-quiz" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6.2"/><path d="M6.2 6.2a1.9 1.9 0 1 1 2.6 1.8c-.5.2-.8.6-.8 1.1v.5M8 11.7v.1"/></symbol>
+    <symbol id="i-slice" viewBox="0 0 16 16"><path d="M8 1.5v13M2.5 5h3.2M10.3 5h3.2M2.5 11h3.2M10.3 11h3.2"/><circle cx="8" cy="5" r="1.7"/><circle cx="8" cy="11" r="1.7"/></symbol>
+    <symbol id="i-link" viewBox="0 0 16 16"><path d="M6.5 9.5l3-3M7 4.6l1-1a2.8 2.8 0 0 1 4 4l-1 1M9 11.4l-1 1a2.8 2.8 0 0 1-4-4l1-1"/></symbol>
+    <symbol id="i-panel" viewBox="0 0 16 16"><rect x="2" y="3" width="12" height="10" rx="1.6"/><path d="M10 3v10"/></symbol>
+  </defs>
+</svg>
+
+<div class="app" id="app">
+  <header class="top">
+    <a class="brand" style="color:inherit;text-decoration:none" href="./" id="return-reader" aria-label="Quay lại bài đọc">
+      <svg class="logo" id="logo" viewBox="0 0 32 32" aria-hidden="true"></svg>
+      <div>
+        <h1>← Về bài đọc</h1>
+        <p>Lịch Sử Song Hành</p>
+      </div>
+    </a>
+    <div class="seg" role="group" aria-label="Hiển thị trên dòng thời gian">
+      <button type="button" id="m-ev" class="on" aria-pressed="true">Sự kiện</button>
+      <button type="button" id="m-np" aria-pressed="false">Nhân vật</button>
+    </div>
+    <button class="btn tools-toggle" id="tools-toggle" aria-controls="tools" aria-expanded="false">Công cụ <span aria-hidden="true">⌄</span></button>
+    <div class="acts" id="tools">
+      <button type="button" class="btn" id="b-slices" aria-haspopup="true" aria-expanded="false"><svg class="ico"><use href="#i-slice"/></svg><span class="t-lg">Lát cắt nổi bật</span><span class="t-sm">Lát cắt</span></button>
+      <button type="button" class="btn" id="b-tour"><svg class="ico"><use href="#i-tour"/></svg><span>Hành trình</span></button>
+      <button type="button" class="btn" id="b-quiz"><svg class="ico"><use href="#i-quiz"/></svg><span>Đố vui</span></button>
+      <div class="zoom">
+        <button type="button" id="z-out" aria-label="Thu nhỏ"><svg class="ico"><use href="#i-minus"/></svg></button>
+        <button type="button" id="z-in" aria-label="Phóng to"><svg class="ico"><use href="#i-plus"/></svg></button>
+        <button type="button" id="z-fit" aria-label="Xem toàn cảnh 5500 năm"><svg class="ico"><use href="#i-fit"/></svg></button>
+      </div>
+      <button type="button" class="btn icon" id="b-panel" aria-label="Ẩn bảng lát cắt" aria-pressed="true"><svg class="ico"><use href="#i-panel"/></svg></button>
+    </div>
+  </header>
+
+  <nav class="chapters" id="chapters" aria-label="Các thời kỳ lịch sử Việt Nam"></nav>
+
+  <div class="period-bar">
+    <label for="period-picker">Thời kỳ</label>
+    <select id="period-picker"></select>
+    <span>Vuốt để đổi năm · Chạm để đọc</span>
+  </div>
+
+  <div class="stage" id="stage">
+    <div class="vp" id="vp" tabindex="0" aria-label="Dòng thời gian song song: Việt Nam và 6 khu vực khác">
+      <div class="cv" id="cv">
+        <div class="ruler" id="ruler">
+          <div class="corner" id="corner"></div>
+          <div class="r-era" id="r-era"></div>
+          <div class="r-glob" id="r-glob"></div>
+          <div class="r-tick" id="r-tick"></div>
+        </div>
+        <div class="lanes m-ev" id="lanes">
+          <div class="win" id="win"></div>
+          <svg class="links" id="links" aria-hidden="true"></svg>
+        </div>
+      </div>
+    </div>
+    <div class="ph" id="ph" aria-hidden="true"><div class="ph-badge" id="ph-badge"></div></div>
+    <aside class="panel" id="panel" aria-label="Thế giới tại năm đang xem">
+      <button type="button" class="p-grip" id="p-grip" aria-expanded="false"></button>
+      <div class="p-body" id="p-body" aria-live="polite"></div>
+    </aside>
+  </div>
+
+  <footer class="foot">
+    <div class="mm" id="mm" role="slider" aria-label="Bản đồ thu nhỏ 5500 năm, bấm để nhảy tới" tabindex="0"><canvas id="mm-c"></canvas><div class="mm-win" id="mm-win"></div></div>
+    <p class="hint">Kéo hoặc cuộn để du hành thời gian · Ctrl + cuộn (hoặc chụm hai ngón) để phóng to · Bấm vào bất cứ mục nào để đọc</p>
+  </footer>
+</div>
+
+<div class="tip" id="tip" hidden></div>
+<div class="pop" id="pop" hidden></div>
+<div class="modal" id="quiz" hidden></div>
+<script src="history-data.js"></script>
+
+<script>
+/* Lịch Sử Song Hành — dòng thời gian song song Việt Nam & thế giới */
+(function () {
+  'use strict';
+
+  /* ================= helpers ================= */
+  const $ = (s, r) => (r || document).querySelector(s);
+  const esc = (s) => String(s == null ? '' : s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
+  const fy = (y) => (y < 0 ? `${-y} TCN` : `${y}`);
+  const fr = (a, b) => {
+    if (b == null || b === a) return fy(a);
+    if (a < 0 && b < 0) return `${-a}–${-b} TCN`;
+    if (a < 0) return `${-a} TCN – ${b}`;
+    return `${a}–${b}`;
+  };
+  const gap = (a, b) => b - a - (a < 0 && b > 0 ? 1 : 0); // số năm giữa hai mốc (không có năm 0)
+  const pick = (arr) => arr[Math.floor(Math.random() * arr.length)];
+  const trunc = (s, n) => (s.length > n ? s.slice(0, n - 1).trimEnd() + '…' : s);
+  const ico = (id) => `<svg class="ico" aria-hidden="true"><use href="#i-${id}"/></svg>`;
+  const REDUCED = !!(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches);
+  const YNOW = 2026;
+  const AP = '≈';
+  const FONT = '"Be Vietnam Pro", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif';
+
+  /* ================= config ================= */
+  const LANE = {};
+  LANES.forEach((L) => { LANE[L.id] = L; });
+  const CATS = { pol: 'Chính trị', war: 'Chiến tranh', cul: 'Văn hóa', sci: 'Khoa học' };
+  const ERAS = [
+    { t: 'Cổ đại', s: -3500, e: 476 },
+    { t: 'Trung đại', s: 476, e: 1640 },
+    { t: 'Cận đại', s: 1640, e: 1917 },
+    { t: 'Hiện đại', s: 1917, e: 2030 },
+  ];
+  const CHAPTERS = [
+    { id: 'binh-minh', t: 'Bình minh', s: -3500, e: -700 },
+    { id: 'dung-nuoc', t: 'Dựng nước', s: -700, e: -179 },
+    { id: 'bac-thuoc', t: 'Bắc thuộc', s: -179, e: 938 },
+    { id: 'ngo-dinh-le', t: 'Ngô – Đinh – Tiền Lê', s: 938, e: 1009 },
+    { id: 'ly-tran', t: 'Lý – Trần – Hồ', s: 1009, e: 1407 },
+    { id: 'le-so', t: 'Kháng Minh – Lê sơ', s: 1407, e: 1527 },
+    { id: 'phan-tranh', t: 'Mạc – Trịnh – Nguyễn', s: 1527, e: 1771 },
+    { id: 'tay-son', t: 'Tây Sơn', s: 1771, e: 1802 },
+    { id: 'nha-nguyen', t: 'Nhà Nguyễn', s: 1802, e: 1858 },
+    { id: 'phap-thuoc', t: 'Pháp thuộc', s: 1858, e: 1945 },
+    { id: 'khang-chien', t: 'Hai cuộc kháng chiến', s: 1945, e: 1975 },
+    { id: 'doi-moi', t: 'Thống nhất & Đổi Mới', s: 1975, e: 2026 },
+  ];
+  // thang thời gian co giãn: [từ năm, đến năm, px mỗi năm khi zoom = 1]
+  const SEG = [
+    [-3500, -2000, 0.16], [-2000, -1000, 0.26], [-1000, -500, 0.6], [-500, 0, 1.0],
+    [0, 600, 0.8], [600, 1000, 1.1], [1000, 1400, 1.5], [1400, 1600, 2.8],
+    [1600, 1800, 3.0], [1800, 1900, 7.5], [1900, 1945, 16], [1945, 1975, 20], [1975, 2030, 12],
+  ];
+  const PRAISE = ['Chuẩn không cần chỉnh!', 'Chính xác! Bạn có cỗ máy thời gian riêng à?', 'Đúng rồi! Sử gia tương lai là đây.', 'Quá đỉnh, nhớ còn kỹ hơn cả sử sách.', 'Chuẩn! Thầy cô dạy sử mà biết chắc tự hào lắm.'];
+  const OOPS = ['Hụt mất rồi!', 'Ối, nhầm một chút thôi!', 'Chưa đúng, nhưng từ giờ bạn sẽ nhớ mãi.', 'Lịch sử đôi khi cũng biết lừa người ta.'];
+
+  /* ================= data ================= */
+  const EV = [], PD = [], PP = [], SL = [];
+  const BYID = new Map(), LINKS = new Map();
+  const EVL = {}, PDL = {}, PPL = {}, GROUPS = {};
+  LANES.forEach((L) => { EVL[L.id] = []; PDL[L.id] = []; PPL[L.id] = []; });
+  (window.TL_DATA || []).forEach((blk) => {
+    if (!EVL[blk.lane]) return;
+    blk.events.forEach((e) => { const o = Object.assign({}, e, { lane: blk.lane, kind: 'ev' }); EV.push(o); EVL[blk.lane].push(o); BYID.set(o.id, o); });
+    blk.periods.forEach((p) => { const o = Object.assign({}, p, { lane: blk.lane, kind: 'pd', y: p.s }); PD.push(o); PDL[blk.lane].push(o); BYID.set(o.id, o); });
+  });
+  (window.TL_PEOPLE || []).forEach((blk) => {
+    if (!PPL[blk.lane]) return;
+    blk.people.forEach((p) => {
+      const o = Object.assign({}, p, { lane: blk.lane, kind: 'np', death: p.d, y: p.b });
+      delete o.d;
+      o.life = lifeStr(o);
+      PP.push(o); PPL[blk.lane].push(o); BYID.set(o.id, o);
+    });
+  });
+  (window.TL_SLICES || []).forEach((s) => { const o = Object.assign({}, s, { kind: 'sl' }); SL.push(o); BYID.set(o.id, o); });
+  GLOBAL.forEach((g) => { g.kind = 'gb'; g.y = g.s; BYID.set(g.id, g); });
+  (window.TL_LINKS || []).forEach((l) => {
+    const a = l[0], b = l[1], note = l[2];
+    if (!BYID.has(a) || !BYID.has(b)) return;
+    addLink(a, b, note); addLink(b, a, note);
+  });
+  function addLink(a, b, note) { if (!LINKS.has(a)) LINKS.set(a, []); LINKS.get(a).push({ id: b, note }); }
+  const byY = (a, b) => a.y - b.y;
+  EV.sort(byY); SL.sort(byY); PP.sort((a, b) => a.b - b.b);
+  LANES.forEach((L) => {
+    EVL[L.id].sort(byY);
+    PDL[L.id].sort((a, b) => a.s - b.s);
+    PPL[L.id].sort((a, b) => a.b - b.b);
+    GROUPS[L.id] = Array.from(new Set(PDL[L.id].map((p) => p.g))).sort();
+  });
+  const ORDER_EV = {}, ORDER_PP = {};
+  LANES.forEach((L) => {
+    ORDER_EV[L.id] = EVL[L.id].slice().sort((a, b) => b.imp - a.imp || a.y - b.y);
+    ORDER_PP[L.id] = PPL[L.id].slice().sort((a, b) => b.imp - a.imp || a.b - b.b);
+  });
+
+  function lifeStr(p) {
+    const ap = p.cb || p.cd ? AP : '', d = p.death;
+    if (d == null) return `${ap}${fy(p.b)} – nay`;
+    if (p.b < 0 && d < 0) return `${ap}${-p.b}–${-d} TCN`;
+    if (p.b < 0) return `${ap}${-p.b} TCN – ${d}`;
+    return `${ap}${p.b}–${d}`;
+  }
+  const endOf = (p) => (p.death == null ? YNOW : p.death);
+  const ageStr = (p, y) => { const a = gap(p.b, y); return a <= 0 ? 'vừa chào đời' : `${p.cb ? AP : ''}${a} tuổi`; };
+  const periodsAt = (lane, y) => PDL[lane].filter((p) => p.s <= y && (y < p.e || (p.e >= YNOW && y <= 2030))).sort((a, b) => (a.g < b.g ? -1 : a.g > b.g ? 1 : a.s - b.s));
+  const chapterAt = (y) => CHAPTERS.find((c) => y >= c.s && y < c.e) || (y < CHAPTERS[0].s ? CHAPTERS[0] : CHAPTERS[CHAPTERS.length - 1]);
+  const eraAt = (y) => ERAS.find((e) => y >= e.s && y < e.e) || ERAS[ERAS.length - 1];
+  function winYears(y) {
+    if (y < -1000) return 100;
+    if (y < 0) return 50;
+    if (y < 1000) return 30;
+    if (y < 1500) return 15;
+    if (y < 1800) return 10;
+    if (y < 1900) return 5;
+    return 2;
+  }
+  function roundYear(v) { let r = Math.round(v); if (r === 0) r = v < 0 ? -1 : 1; return r; }
+
+  /* ================= scale ================= */
+  const SEGX = [];
+  let BASE_W = 0;
+  SEG.forEach((s) => { SEGX.push(BASE_W); BASE_W += (s[1] - s[0]) * s[2]; });
+  function base(y) {
+    if (y <= SEG[0][0]) return 0;
+    for (let i = 0; i < SEG.length; i++) { const s = SEG[i]; if (y <= s[1]) return SEGX[i] + (y - s[0]) * s[2]; }
+    return BASE_W;
+  }
+  function invBase(px) {
+    if (px <= 0) return SEG[0][0];
+    for (let i = 0; i < SEG.length; i++) { const s = SEG[i]; if (px <= SEGX[i] + (s[1] - s[0]) * s[2]) return s[0] + (px - SEGX[i]) / s[2]; }
+    return SEG[SEG.length - 1][1];
+  }
+
+  /* ================= state ================= */
+  const S = {
+    z: 1, zMin: 0.1, zMax: 9, mode: 'ev', mobile: false, measured: false,
+    LW: 172, RH: 58, PH: 15, PG: 3, TH: 26, CHH: 21, PAD: 6, RAIL: 12, fs: 12,
+    padL: 0, vpW: 0, vpH: 0, lanes: {}, lanesH: 0,
+    play: 1789, playExact: 1789, sel: null, view: 'slice', tour: null, sheet: false,
+    flying: false, anim: 0, chap: null, lastW: 0, lastH: 0,
+  };
+  const X = (y) => S.LW + S.padL + base(y) * S.z;
+  const yearAtX = (x) => invBase((x - S.LW - S.padL) / S.z);
+  const centerOffset = () => S.LW + (S.vpW - S.LW) / 2;
+  const centerYearExact = () => yearAtX(vp.scrollLeft + centerOffset());
+
+  /* ================= DOM refs ================= */
+  const app = $('#app'), vp = $('#vp'), cv = $('#cv'), lanesEl = $('#lanes');
+  const rEra = $('#r-era'), rGlob = $('#r-glob'), rTick = $('#r-tick'), corner = $('#corner');
+  const ph = $('#ph'), phBadge = $('#ph-badge'), win = $('#win'), linksSvg = $('#links');
+  const pBody = $('#p-body'), pGrip = $('#p-grip'), tip = $('#tip'), pop = $('#pop'), quizEl = $('#quiz');
+  const mmBox = $('#mm'), mmC = $('#mm-c'), mmWin = $('#mm-win'), chaptersEl = $('#chapters');
+  const laneEls = {}, labCur = {};
+
+  /* ================= build ================= */
+  function buildLogo() {
+    const pts = [];
+    for (let i = 0; i < 28; i++) {
+      const a = -Math.PI / 2 + (i * Math.PI) / 14;
+      const r = i % 2 === 0 ? 8.8 : 3.3;
+      pts.push((16 + r * Math.cos(a)).toFixed(2) + ',' + (16 + r * Math.sin(a)).toFixed(2));
+    }
+    $('#logo').innerHTML = `<circle cx="16" cy="16" r="15.5" class="lg-a"/><circle cx="16" cy="16" r="12.6" class="lg-b"/><circle cx="16" cy="16" r="10.4" class="lg-c"/><polygon class="lg-s" points="${pts.join(' ')}"/>`;
+  }
+  function buildChapters() {
+    chaptersEl.innerHTML = `<button type="button" class="chap all" data-chap="all">Toàn cảnh <small>5500 năm</small></button>` +
+      CHAPTERS.map((c) => `<button type="button" class="chap" data-chap="${c.id}">${esc(c.t)}<small>${esc(fr(c.s, c.e === 2026 ? null : c.e))}${c.e === 2026 ? ' – nay' : ''}</small></button>`).join('');
+  }
+  function buildLanes() {
+    LANES.forEach((L) => {
+      const el = document.createElement('div');
+      el.className = 'lane';
+      el.dataset.l = L.id;
+      el.innerHTML = `<div class="lab"><span class="nm"><span class="full">${esc(L.name)}</span><span class="short">${esc(L.short)}</span></span>${L.sub ? `<span class="sub">${esc(L.sub)}</span>` : ''}<span class="cur"></span></div>`;
+      labCur[L.id] = el.querySelector('.cur');
+      const counters = {};
+      PDL[L.id].forEach((p) => {
+        const b = document.createElement('button');
+        b.type = 'button';
+        counters[p.g] = (counters[p.g] || 0) + 1;
+        b.className = 'pd' + (counters[p.g] % 2 === 0 ? ' alt' : '') + (p.g === GROUPS[L.id][1] ? ' gb' : '');
+        b.dataset.id = p.id;
+        b.setAttribute('aria-label', `${p.t}, ${fr(p.s, p.e)}`);
+        b.innerHTML = `<span>${esc(p.t)}</span>`;
+        p.el = b; el.appendChild(b);
+      });
+      EVL[L.id].forEach((o) => {
+        const b = document.createElement('button');
+        b.type = 'button';
+        b.className = `chip ev i${o.imp}`;
+        b.dataset.id = o.id;
+        b.setAttribute('aria-label', `${fy(o.y)}: ${o.t}`);
+        b.innerHTML = `<i class="ic"><svg aria-hidden="true"><use href="#i-${o.c}"/></svg></i><b>${o.ca ? AP : ''}${esc(fy(o.y))}</b><span>${esc(o.t)}</span>`;
+        o.el = b; el.appendChild(b);
+      });
+      PPL[L.id].forEach((o) => {
+        const b = document.createElement('button');
+        b.type = 'button';
+        b.className = `chip np i${o.imp}`;
+        b.dataset.id = o.id;
+        b.setAttribute('aria-label', `${o.n}, ${o.life}, ${o.role}`);
+        b.innerHTML = `<i class="ic"><svg aria-hidden="true"><use href="#i-person"/></svg></i><span>${esc(o.n)}</span><small>${esc(o.life)}</small><i class="life"></i>`;
+        o.el = b; el.appendChild(b);
+      });
+      laneEls[L.id] = el;
+      lanesEl.appendChild(el);
+    });
+    GLOBAL.forEach((g) => {
+      const band = document.createElement('div');
+      band.className = 'gband';
+      g.band = band;
+      lanesEl.appendChild(band);
+    });
+  }
+  function setCorner() {
+    corner.innerHTML = S.mode === 'ev'
+      ? ['pol', 'war', 'cul', 'sci'].map((c) => `<span>${ico(c)}${CATS[c]}</span>`).join('')
+      : `<span class="wide">${ico('person')} Mỗi vạch màu là một cuộc đời, từ năm sinh tới năm mất</span>`;
+  }
+
+  /* ================= measure ================= */
+  const mctx = document.createElement('canvas').getContext('2d');
+  function measureAll() {
+    const fs = S.fs, tmax = S.mobile ? 170 : 210;
+    EV.forEach((o) => {
+      mctx.font = `700 ${fs}px ${FONT}`;
+      const yw = mctx.measureText((o.ca ? AP : '') + fy(o.y)).width;
+      mctx.font = `${o.imp === 3 ? 600 : 500} ${fs}px ${FONT}`;
+      const tw = Math.min(mctx.measureText(o.t).width, tmax);
+      o.w = Math.ceil(39 + yw + tw);
+    });
+    PP.forEach((o) => {
+      mctx.font = `${o.imp === 3 ? 600 : 500} ${fs}px ${FONT}`;
+      const nw = Math.min(mctx.measureText(o.n).width, tmax);
+      mctx.font = `500 ${(fs * 0.86).toFixed(2)}px ${FONT}`;
+      const lw = mctx.measureText(o.life).width;
+      o.w = Math.ceil(39 + nw + lw);
+    });
+    S.measured = true;
+  }
+
+  /* ================= layout ================= */
+  function metrics() {
+    S.mobile = window.matchMedia('(max-width: 760px)').matches;
+    S.LW = S.mobile ? 70 : 172;
+    S.RH = S.mobile ? 52 : 58;
+    S.TH = S.mobile ? 22 : 23;
+    S.CHH = S.mobile ? 19 : 20;
+    S.PH = S.mobile ? 12 : 13;
+    S.PG = 2; S.PAD = 4; S.RAIL = 10;
+    S.fs = S.mobile ? 11.5 : 12;
+    S.vpW = vp.clientWidth;
+    S.vpH = vp.clientHeight;
+    S.padL = Math.max(40, (S.vpW - S.LW) / 2);
+    const st = cv.style;
+    st.setProperty('--lw', S.LW + 'px');
+    st.setProperty('--rh', S.RH + 'px');
+    st.setProperty('--ph', S.PH + 'px');
+    st.setProperty('--chh', S.CHH + 'px');
+    st.setProperty('--fs', S.fs + 'px');
+    st.setProperty('--tmax', (S.mobile ? 170 : 210) + 'px');
+  }
+  function laneLayout() {
+    const avail = Math.max(240, S.vpH - S.RH - 1);
+    const baseH = LANES.map((L) => S.PAD * 2 + GROUPS[L.id].length * (S.PH + S.PG) + S.RAIL);
+    const sumBase = baseH.reduce((a, b) => a + b, 0);
+    const sumW = LANES.reduce((a, L) => a + L.w, 0);
+    const total = Math.max(0, Math.floor((avail - sumBase) / S.TH));
+    const T = LANES.map((L) => Math.max(L.id === 'vn' ? 2 : 1, Math.floor((total * L.w) / sumW)));
+    let used = T.reduce((a, b) => a + b, 0), i = 0;
+    while (used < total && i < 60) { T[i % LANES.length]++; used++; i++; }
+    let top = 0;
+    LANES.forEach((L, li) => {
+      const g = GROUPS[L.id].length;
+      const h = baseH[li] + T[li] * S.TH;
+      const lay = { top, h, T: T[li], prow: {}, trackRel: S.PAD + g * (S.PH + S.PG) };
+      GROUPS[L.id].forEach((gid, gi) => { lay.prow[gid] = S.PAD + gi * (S.PH + S.PG); });
+      lay.railRel = lay.trackRel + T[li] * S.TH + 1;
+      S.lanes[L.id] = lay;
+      laneEls[L.id].style.top = top + 'px';
+      laneEls[L.id].style.height = h + 'px';
+      top += h;
+    });
+    S.lanesH = top;
+  }
+  const NICE = [1, 2, 5, 10, 20, 25, 50, 100, 200, 250, 500, 1000];
+  function layoutRuler() {
+    rEra.innerHTML = ERAS.map((e) => `<div class="era" style="left:${X(e.s)}px;width:${X(e.e) - X(e.s)}px"><span>${e.t}</span></div>`).join('');
+    const minPx = S.mobile ? 60 : 68;
+    let html = '', lastX = -1e9;
+    SEG.forEach((s, si) => {
+      const ppx = s[2] * S.z;
+      const step = NICE.find((n) => n * ppx >= minPx) || 2000;
+      const last = si === SEG.length - 1;
+      for (let t = Math.ceil(s[0] / step) * step; t < s[1] || (last && t <= YNOW); t += step) {
+        if (t < -3500 || t > YNOW) continue;
+        const x = X(t);
+        if (x - lastX < minPx * 0.85) continue;
+        lastX = x;
+        html += `<div class="tick${t === 0 ? ' cn' : ''}" style="left:${x.toFixed(1)}px"><span>${t === 0 ? 'Công nguyên' : fy(t)}</span></div>`;
+      }
+    });
+    rTick.innerHTML = html;
+    rGlob.innerHTML = GLOBAL.map((g) => `<button type="button" class="gpill" data-id="${g.id}" style="left:${X(g.s)}px;width:${Math.max(8, X(g.e) - X(g.s))}px"><span>${esc(g.t)}</span></button>`).join('');
+  }
+  function layoutGlobal() {
+    GLOBAL.forEach((g) => {
+      g.band.style.left = X(g.s) + 'px';
+      g.band.style.width = Math.max(2, X(g.e) - X(g.s)) + 'px';
+      g.band.style.height = S.lanesH + 'px';
+    });
+  }
+  function layoutPeriods() {
+    PD.forEach((p) => {
+      const lay = S.lanes[p.lane];
+      const x0 = X(p.s), x1 = X(p.e);
+      p.el.style.left = x0 + 'px';
+      p.el.style.top = lay.prow[p.g] + 'px';
+      const w = Math.max(3, x1 - x0 - 1);
+      p.el.style.width = w + 'px';
+      p.el.classList.toggle('nl', w < 30);
+    });
+  }
+  function fits(arr, a, b) {
+    for (let i = 0; i < arr.length; i += 2) if (a < arr[i + 1] && b > arr[i]) return false;
+    return true;
+  }
+  function layoutItems() {
+    const isEv = S.mode === 'ev';
+    const yOff = (S.TH - S.CHH) / 2;
+    LANES.forEach((L) => {
+      const lay = S.lanes[L.id];
+      const items = isEv ? ORDER_EV[L.id] : ORDER_PP[L.id];
+      const tracks = [];
+      for (let k = 0; k < lay.T; k++) tracks.push([]);
+      items.forEach((o) => {
+        const xs = X(o.y);
+        const x0 = xs - 11;
+        let w = o.w, lifeW = 0;
+        if (!isEv) { lifeW = Math.max(0, X(endOf(o)) - xs); w = Math.max(w, lifeW + 14); }
+        const x1 = x0 + w + 6;
+        let t = -1;
+        for (let k = 0; k < tracks.length; k++) { if (fits(tracks[k], x0, x1)) { t = k; break; } }
+        if (t >= 0) {
+          tracks[t].push(x0, x1);
+          o.placed = true;
+          const yRel = lay.trackRel + t * S.TH + yOff;
+          o.px = x0; o.py = lay.top + yRel;
+          o.el.classList.remove('is-dot');
+          o.el.style.transform = `translate(${x0.toFixed(1)}px,${yRel.toFixed(1)}px)`;
+          if (!isEv) o.el.style.setProperty('--life', Math.max(0, lifeW - 10).toFixed(1) + 'px');
+        } else {
+          o.placed = false;
+          o.px = xs - 4.5; o.py = lay.top + lay.railRel;
+          o.el.classList.add('is-dot');
+          o.el.style.transform = `translate(${(xs - 4.5).toFixed(1)}px,${lay.railRel}px)`;
+        }
+      });
+    });
+  }
+  function applyZoom() {
+    cv.style.width = Math.ceil(S.LW + 2 * S.padL + BASE_W * S.z) + 'px';
+    cv.style.height = (S.RH + S.lanesH) + 'px';
+    lanesEl.style.height = S.lanesH + 'px';
+    layoutRuler(); layoutGlobal(); layoutPeriods(); layoutItems(); drawLinks();
+  }
+  function layout(y) {
+    const wasMobile = S.mobile;
+    metrics();
+    if (!S.measured || wasMobile !== S.mobile) measureAll();
+    S.zMin = ((S.vpW - S.LW) / BASE_W) * 0.92;
+    S.z = clamp(S.z, S.zMin, S.zMax);
+    S.lastW = S.vpW; S.lastH = S.vpH;
+    laneLayout();
+    applyZoom();
+    ph.style.left = centerOffset() + 'px';
+    ph.style.height = S.vpH + 'px';
+    vp.scrollLeft = X(y) - centerOffset();
+    updatePlay(true);
+  }
+
+  /* ================= playhead ================= */
+  function updatePlay(force) {
+    const yv = centerYearExact();
+    S.playExact = yv;
+    mmWinUpdate();
+    const y = roundYear(yv);
+    if (y === S.play && !force) return;
+    S.play = y;
+    phBadge.textContent = fy(y);
+    const W = winYears(y);
+    const a = X(Math.max(-3500, y - W)), b = X(Math.min(2030, y + W));
+    win.style.left = a + 'px';
+    win.style.width = Math.max(2, b - a) + 'px';
+    win.style.height = S.lanesH + 'px';
+    LANES.forEach((L) => {
+      const t = periodsAt(L.id, y).map((p) => p.t).join(' · ');
+      if (labCur[L.id].textContent !== t) labCur[L.id].textContent = t;
+    });
+    chapterActive(y);
+    updateGrip();
+    if (S.view === 'slice') refreshSoon();
+  }
+  function refreshSoon() {
+    clearTimeout(S.rt);
+    S.rt = setTimeout(() => { if (!S.flying && S.view === 'slice') renderSlice(S.play); }, 90);
+  }
+  function chapterActive(y) {
+    const c = chapterAt(y);
+    if (S.chap === c) return;
+    S.chap = c;
+    picker.value = c.id;
+    chaptersEl.querySelectorAll('.chap').forEach((b) => b.classList.toggle('on', b.dataset.chap === c.id));
+    const el = chaptersEl.querySelector('.chap.on');
+    if (el) {
+      const l = el.offsetLeft, r = l + el.offsetWidth;
+      if (l < chaptersEl.scrollLeft + 20 || r > chaptersEl.scrollLeft + chaptersEl.clientWidth - 20) {
+        chaptersEl.scrollTo({ left: Math.max(0, l - 60), behavior: REDUCED ? 'auto' : 'smooth' });
+      }
+    }
+  }
+
+  /* ================= movement ================= */
+  function zoomTo(z, clientX) {
+    z = clamp(z, S.zMin, S.zMax);
+    if (Math.abs(z - S.z) < 1e-5) return;
+    const rect = vp.getBoundingClientRect();
+    const ax = clientX == null ? centerOffset() : clientX - rect.left;
+    const ya = yearAtX(vp.scrollLeft + ax);
+    S.z = z;
+    applyZoom();
+    vp.scrollLeft = X(ya) - ax;
+    updatePlay();
+  }
+  function flyTo(year, z2, opts) {
+    opts = opts || {};
+    z2 = clamp(z2 == null ? S.z : z2, S.zMin, S.zMax);
+    const dur = opts.instant || REDUCED ? 0 : (opts.dur || 560);
+    const z1 = S.z, b1 = base(centerYearExact()), b2 = base(year);
+    cancelAnimationFrame(S.anim);
+    const finish = () => {
+      S.flying = false;
+      updatePlay(true);
+      drawLinks();
+      if (S.view === 'slice') renderSlice(S.play, opts.slice);
+    };
+    if (!dur) {
+      if (Math.abs(z2 - S.z) > 1e-6) { S.z = z2; applyZoom(); }
+      vp.scrollLeft = S.LW + S.padL + b2 * S.z - centerOffset();
+      finish();
+      return;
+    }
+    S.flying = true;
+    const t0 = performance.now();
+    const step = (now) => {
+      const t = Math.min(1, (now - t0) / dur);
+      const k = t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+      const z = Math.exp(Math.log(z1) + (Math.log(z2) - Math.log(z1)) * k);
+      if (Math.abs(z - S.z) > 1e-6) { S.z = z; applyZoom(); }
+      vp.scrollLeft = S.LW + S.padL + (b1 + (b2 - b1) * k) * S.z - centerOffset();
+      if (t < 1) S.anim = requestAnimationFrame(step);
+      else finish();
+    };
+    S.anim = requestAnimationFrame(step);
+  }
+  const visW = () => S.vpW - S.LW;
+  function fitSpan(s, e, frac) { return clamp((frac * visW()) / Math.max(1, base(e) - base(s)), S.zMin, 5); }
+  function midYear(s, e) { return invBase((base(s) + base(e)) / 2); }
+  function focusYear(o) {
+    if (o.kind === 'ev') return o.y;
+    if (o.kind === 'np') return o.k;
+    if (o.kind === 'pd' || o.kind === 'gb') return midYear(o.s, o.e);
+    return o.y;
+  }
+  function zoomFor(o) {
+    if (o.kind === 'pd' || o.kind === 'gb') return fitSpan(o.s, o.e, 0.8);
+    return Math.max(S.z, S.mobile ? 0.95 : 1.15);
+  }
+
+  /* ================= selection & links ================= */
+  function setHash(id) {
+    try { history.replaceState(null, '', id ? '#' + id : location.pathname + location.search); } catch (e) { /* ignore */ }
+  }
+  function clearSel() {
+    if (S.sel) {
+      if (S.sel.el) S.sel.el.classList.remove('sel');
+      (LINKS.get(S.sel.id) || []).forEach((l) => { const t = BYID.get(l.id); if (t && t.el) t.el.classList.remove('hl'); });
+    }
+    S.sel = null;
+    linksSvg.innerHTML = '';
+  }
+  function anchorPos(o) {
+    if (!o) return null;
+    if (o.kind === 'ev' || o.kind === 'np') {
+      if ((o.kind === 'ev') !== (S.mode === 'ev') || o.px == null) return null;
+      return o.placed ? { x: o.px + 11, y: o.py + S.CHH / 2 } : { x: o.px + 4.5, y: o.py + 4.5 };
+    }
+    if (o.kind === 'pd') {
+      const lay = S.lanes[o.lane];
+      return { x: Math.min(X(o.e) - 4, X(o.s) + 40), y: lay.top + lay.prow[o.g] + S.PH / 2 };
+    }
+    return null;
+  }
+  function drawLinks() {
+    const o = S.sel;
+    if (!o) { linksSvg.innerHTML = ''; return; }
+    const ls = LINKS.get(o.id) || [];
+    const p0 = anchorPos(o);
+    if (!p0 || !ls.length) { linksSvg.innerHTML = ''; return; }
+    let d = '';
+    ls.forEach((l) => {
+      const p1 = anchorPos(BYID.get(l.id));
+      if (!p1) return;
+      const my = (p0.y + p1.y) / 2;
+      d += `<path d="M${p0.x.toFixed(1)},${p0.y.toFixed(1)} C${p0.x.toFixed(1)},${my.toFixed(1)} ${p1.x.toFixed(1)},${my.toFixed(1)} ${p1.x.toFixed(1)},${p1.y.toFixed(1)}"/>`;
+    });
+    linksSvg.setAttribute('width', cv.style.width.replace('px', ''));
+    linksSvg.setAttribute('height', S.lanesH);
+    linksSvg.innerHTML = d;
+  }
+  const embeddedReader = window.parent !== window && new URLSearchParams(location.search).has('reader');
+  function openItem(o, opts) {
+    opts = opts || {};
+    if (!o) return;
+    hideTip();
+    if (embeddedReader && !opts.noSheet) {
+      parent.postMessage({type:'read-item',id:o.id}, location.origin==='null'?'*':location.origin);
+      opts.noSheet=true;
+    }
+    if (o.kind === 'sl') {
+      clearSel();
+      S.view = 'slice';
+      setHash(o.id);
+      flyTo(o.y, Math.max(S.z, S.mobile ? 0.95 : 1.15), { slice: o, instant: opts.instant });
+      if (S.mobile && !opts.noSheet) openSheet(true);
+      updateGrip();
+      return;
+    }
+    clearSel();
+    S.sel = o;
+    S.view = 'detail';
+    if (o.el) o.el.classList.add('sel');
+    (LINKS.get(o.id) || []).forEach((l) => { const t = BYID.get(l.id); if (t && t.el) t.el.classList.add('hl'); });
+    renderDetail(o);
+    setHash(o.id);
+    if (opts.center === false) drawLinks();
+    else flyTo(focusYear(o), zoomFor(o), { instant: opts.instant });
+    if (S.mobile && !opts.noSheet) openSheet(true);
+    updateGrip();
+  }
+  function closeDetail() {
+    clearSel();
+    S.view = 'slice';
+    renderSlice(S.play);
+    setHash('');
+    updateGrip();
+  }
+
+  /* ================= cross-section ("chiều ngang") ================= */
+  function crossSection(y, opt) {
+    const W = opt.W, maxEv = opt.maxEv, maxPp = opt.maxPp;
+    return LANES.map((L) => {
+      const pds = periodsAt(L.id, y);
+      const dist = (e) => {
+        if (e.y2 != null && e.y <= y && y <= e.y2) return 0;
+        return Math.min(Math.abs(e.y - y), e.y2 != null ? Math.abs(e.y2 - y) : 1e9);
+      };
+      const evs = maxEv ? EVL[L.id].filter((e) => dist(e) <= W).sort((a, b) => dist(a) - dist(b) || b.imp - a.imp).slice(0, maxEv).sort(byY) : [];
+      const ppl = maxPp ? PPL[L.id].filter((p) => p.b <= y && y <= endOf(p))
+        .map((p) => ({ p, s: p.imp * 100 - Math.min(90, Math.abs(p.k - y)) }))
+        .sort((a, b) => b.s - a.s).slice(0, maxPp).map((x) => x.p) : [];
+      return { L, pds, evs, ppl };
+    });
+  }
+  function evRef(e) {
+    return `<li><button type="button" class="ref" data-open="${e.id}"><span class="yr">${e.ca ? AP : ''}${esc(fy(e.y))}</span><span>${esc(e.t)}</span></button></li>`;
+  }
+  const expandedRegions = new Map();
+  pBody.addEventListener('toggle', event => {
+    if (event.target.matches('details.xs-lane')) expandedRegions.set(event.target.dataset.l, event.target.open);
+  }, true);
+  function xsLaneHTML(r, y) {
+    const pd = r.pds.map((p) => p.t).join(' · ');
+    const evs = r.evs.map(evRef).join('');
+    const pps = r.ppl.map((p) => `<button type="button" class="pp" data-open="${p.id}">${esc(p.n)}<small>${esc(ageStr(p, y))}</small></button>`).join('');
+    const empty = !evs && !pps ? '<p class="muted">Chưa có ghi chép nổi bật quanh thời điểm này.</p>' : '';
+    const expanded = expandedRegions.get(r.L.id) ?? (r.L.id === 'vn');
+    return `<details class="xs-lane" data-l="${r.L.id}" ${expanded ? 'open' : ''}><summary class="xs-h"><i class="sw"></i><b>${esc(r.L.name)}</b>${pd ? `<span class="xs-pd">${esc(pd)}</span>` : ''}</summary>${evs ? `<ul>${evs}</ul>` : ''}${pps ? `<div class="xs-pp">${pps}</div>` : ''}${empty}</details>`;
+  }
+  function nearestSlice(y) {
+    let best = null;
+    SL.forEach((s) => {
+      const d = Math.abs(s.y - y);
+      const tol = Math.max(1, Math.round(winYears(s.y) / 2));
+      if (d <= tol && (!best || d < Math.abs(best.y - y))) best = s;
+    });
+    return best;
+  }
+  const stripYear = (t) => { const s = t.replace(/^[^:]*\d[^:]*:\s*/, ''); return s.charAt(0).toUpperCase() + s.slice(1); };
+  function sliceCard(sl) {
+    const evs = (sl.ev || []).map((id) => BYID.get(id)).filter(Boolean)
+      .map((e) => `<button type="button" class="mini" data-open="${e.id}" data-l="${e.lane}"><i></i><span>${esc(fy(e.y))} · ${esc(e.t)}</span></button>`).join('');
+    return `<article class="sl-card"><div class="eyebrow">Lát cắt nổi bật</div><h3>${esc(sl.t)}</h3><p>${esc(sl.d)}</p>${evs ? `<div class="sl-ev">${evs}</div>` : ''}</article>`;
+  }
+  function bigYear(y) { return y < 0 ? `${-y}<small>TCN</small>` : `${y}`; }
+  function sliceNav(y) {
+    const cur = nearestSlice(y);
+    let prev, next;
+    if (cur) { const i = SL.indexOf(cur); prev = SL[i - 1]; next = SL[i + 1]; }
+    else { prev = SL.filter((s) => s.y < y).pop(); next = SL.find((s) => s.y > y); }
+    return `<nav class="sv-nav">${prev ? `<button type="button" class="btn" data-open="${prev.id}">${ico('left')}<span>Lát cắt ${esc(fy(prev.y))}</span></button>` : '<span></span>'}${next ? `<button type="button" class="btn" data-open="${next.id}"><span>Lát cắt ${esc(fy(next.y))}</span>${ico('right')}</button>` : ''}</nav>`;
+  }
+  function renderSlice(y, forced) {
+    S.view = 'slice';
+    const W = winYears(y);
+    const sl = forced || nearestSlice(y);
+    const vnP = periodsAt('vn', y).map((p) => p.t).join(' · ');
+    const rows = crossSection(y, { W, maxEv: 3, maxPp: 6 });
+    pBody.innerHTML = tourBarHTML() +
+      `<div class="eyebrow">Lát cắt thời gian · thế giới năm</div>
+      <div class="sv-year">${bigYear(y)}</div>
+      <div class="sv-sub">Thời ${esc(eraAt(y).t.toLowerCase())}${vnP ? ` · Việt Nam: <b>${esc(vnP)}</b>` : ''}</div>
+      ${sl ? sliceCard(sl) : ''}
+      <p class="sv-note">Mỗi khu vực: thời kỳ đang diễn ra, sự kiện trong khoảng ±${W} năm và những người đang sống vào năm ${esc(fy(y))}.</p>
+      <div class="xs">${rows.map((r) => xsLaneHTML(r, y)).join('')}</div>
+      ${sliceNav(y)}`;
+    updateGrip();
+  }
+
+  /* ================= detail views ================= */
+  const box = (cls, title, text) => (text ? `<div class="box ${cls}"><h4>${title}</h4><p>${esc(text)}</p></div>` : '');
+  function tags(o, extra) {
+    const L = LANE[o.lane];
+    return `<div class="d-tags"><span class="tag tl">${esc(L.name)}</span>${o.r ? `<span class="tag">${esc(o.r)}</span>` : ''}${extra || ''}</div>`;
+  }
+  function sameTimeHTML(y, lane, maxPp) {
+    const W = winYears(y);
+    const rows = crossSection(y, { W, maxEv: 2, maxPp }).filter((r) => r.L.id !== lane);
+    return `<section class="sec"><h3>Cùng thời đó trên thế giới<small>±${W} năm quanh ${esc(fy(y))}</small></h3><div class="xs">${rows.map((r) => xsLaneHTML(r, y)).join('')}</div></section>`;
+  }
+  function relHTML(o) {
+    const ls = LINKS.get(o.id);
+    if (!ls || !ls.length) return '';
+    return `<section class="sec"><h3>${ico('link')}Liên quan<small>đường nối vàng trên dòng thời gian</small></h3><ul class="rel">${ls.map((l) => {
+      const t = BYID.get(l.id);
+      return `<li data-l="${t.lane}"><button type="button" class="ref" data-open="${t.id}"><span class="yr">${esc(fy(t.kind === 'pd' ? t.s : t.y))}</span><span><b>${esc(t.t || t.n)}</b><small>${esc(LANE[t.lane].name)} · ${esc(l.note)}</small></span></button></li>`;
+    }).join('')}</ul></section>`;
+  }
+  function navHTML(o) {
+    const arr = o.kind === 'ev' ? EVL[o.lane] : o.kind === 'np' ? PPL[o.lane] : o.kind === 'pd' ? PDL[o.lane] : null;
+    if (!arr) return '';
+    const i = arr.indexOf(o), p = arr[i - 1], n = arr[i + 1];
+    const lab = (x) => esc(trunc(x.t || x.n, 24));
+    return `<nav class="d-nav">${p ? `<button type="button" class="btn" data-open="${p.id}">${ico('left')}<span>${lab(p)}</span></button>` : '<span></span>'}${n ? `<button type="button" class="btn" data-open="${n.id}"><span>${lab(n)}</span>${ico('right')}</button>` : ''}</nav>`;
+  }
+  function evDetail(o) {
+    const date = o.date || (o.y2 ? fr(o.y, o.y2) : fy(o.y));
+    const meta = (o.who ? `<span>${ico('person')}${esc(o.who)}</span>` : '') + (o.place ? `<span>${ico('pin')}${esc(o.place)}</span>` : '');
+    return `<article class="dt" data-l="${o.lane}">
+      ${tags(o, `<span class="tag">${ico(o.c)}${CATS[o.c]}</span>`)}
+      <div class="d-date">${o.ca && !o.date ? 'Khoảng ' : ''}${esc(date)}</div>
+      <h2 class="d-title">${esc(o.t)}</h2>
+      ${meta ? `<div class="d-meta">${meta}</div>` : ''}
+      <p class="d-text">${esc(o.d)}</p>
+      ${box('why', noteTitle(o.id, 'why'), o.why)}${box('alt', noteTitle(o.id, 'alt'), o.alt)}${box('fun', 'Bạn có biết?', o.fun)}${box('vnl', 'Liên hệ Việt Nam', o.vn)}
+      ${relHTML(o)}
+      ${sameTimeHTML(o.y, o.lane, 4)}
+      ${o.ref ? `<a class="btn" href="${esc(o.ref)}" target="_blank" rel="noopener">Nguồn tham khảo ↗</a>` : ""}
+      ${navHTML(o)}
+    </article>`;
+  }
+  function ppDetail(o) {
+    const living = o.death == null;
+    const age = gap(o.b, endOf(o));
+    const ageTxt = living ? `năm nay khoảng ${age} tuổi` : `thọ ${o.cb || o.cd ? 'khoảng ' : ''}${age} tuổi`;
+    const others = PP.filter((p) => p !== o && p.b <= o.k && o.k <= endOf(p))
+      .map((p) => ({ p, s: p.imp * 100 - Math.min(90, Math.abs(p.k - o.k)) + (p.lane !== o.lane ? 40 : 0) }))
+      .sort((a, b) => b.s - a.s).slice(0, 14).map((x) => x.p);
+    const cont = others.length ? `<section class="sec"><h3>Những người cùng thời<small>vào năm ${esc(fy(o.k))}</small></h3><p class="muted">Khi ${esc(o.n)} ${esc(o.act)}, thì…</p><ul class="cont">${others.map((p) => `<li data-l="${p.lane}"><button type="button" class="ref" data-open="${p.id}"><span class="yr">${esc(ageStr(p, o.k))}</span><span><b>${esc(p.n)}</b><small>${esc(p.role)} · ${esc(p.r || LANE[p.lane].name)}</small></span></button></li>`).join('')}</ul></section>` : '';
+    return `<article class="dt" data-l="${o.lane}">
+      ${tags(o, `<span class="tag">${ico('person')}${esc(o.role)}</span>`)}
+      <div class="d-date">${esc(o.life)} · ${esc(ageTxt)}</div>
+      <h2 class="d-title">${esc(o.n)}</h2>
+      <p class="d-text">${esc(o.bio)}</p>
+      ${box('key', 'Khoảnh khắc làm nên tên tuổi', `Năm ${fy(o.k)}, ${o.n} ${o.act}.`)}${box('same', 'Cùng thời thú vị', o.same)}${box('fun', 'Bạn có biết?', o.fun)}
+      ${cont}
+      ${sameTimeHTML(o.k, o.lane, 0)}
+      ${o.ref ? `<a class="btn" href="${esc(o.ref)}" target="_blank" rel="noopener">Nguồn tham khảo ↗</a>` : ""}
+      ${navHTML(o)}
+    </article>`;
+  }
+  function pdDetail(o) {
+    const evs = EVL[o.lane].filter((e) => e.y >= o.s && e.y < o.e);
+    const top = evs.slice().sort((a, b) => b.imp - a.imp || a.y - b.y).slice(0, 10).sort(byY);
+    const ppl = PPL[o.lane].filter((p) => p.b < o.e && endOf(p) > o.s).sort((a, b) => b.imp - a.imp || a.b - b.b).slice(0, 12);
+    const others = LANES.filter((l) => l.id !== o.lane)
+      .map((l) => ({ l, ps: PDL[l.id].filter((p) => p.s < o.e && p.e > o.s) }))
+      .filter((x) => x.ps.length);
+    const span = gap(o.s, o.e);
+    return `<article class="dt" data-l="${o.lane}">
+      ${tags(o, '<span class="tag">Thời kỳ</span>')}
+      <div class="d-date">${esc(fr(o.s, o.e))} · khoảng ${span} năm</div>
+      <h2 class="d-title">${esc(o.t)}</h2>
+      <p class="d-text">${esc(o.d)}</p>
+      ${top.length ? `<section class="sec"><h3>Các mốc trong thời kỳ<small>${evs.length} sự kiện</small></h3><ul class="rel">${top.map(evRef).join('')}</ul></section>` : ''}
+      ${ppl.length ? `<section class="sec"><h3>Nhân vật của thời kỳ</h3><div class="xs-pp" data-l="${o.lane}">${ppl.map((p) => `<button type="button" class="pp" data-open="${p.id}">${esc(p.n)}<small>${esc(p.life)}</small></button>`).join('')}</div></section>` : ''}
+      <section class="sec"><h3>Cùng thời ở nơi khác<small>${esc(fr(o.s, o.e))}</small></h3><div class="xs">${others.map((x) => `<section class="xs-lane" data-l="${x.l.id}"><div class="xs-h"><i class="sw"></i><b>${esc(x.l.name)}</b></div><div class="pdx">${x.ps.map((p) => `<button type="button" class="pp" data-open="${p.id}">${esc(p.t)}<small>${esc(fr(p.s, p.e))}</small></button>`).join('')}</div></section>`).join('')}</div></section>
+      ${o.ref ? `<a class="btn" href="${esc(o.ref)}" target="_blank" rel="noopener">Nguồn tham khảo ↗</a>` : ""}
+      ${navHTML(o)}
+    </article>`;
+  }
+  function gbDetail(g) {
+    const rows = LANES.map((L) => ({ L, evs: EVL[L.id].filter((e) => e.y >= g.s && e.y <= g.e).sort((a, b) => b.imp - a.imp || a.y - b.y).slice(0, 3).sort(byY) })).filter((r) => r.evs.length);
+    return `<article class="dt">
+      <div class="d-tags"><span class="tag">Sự kiện toàn cầu</span></div>
+      <div class="d-date">${esc(fr(g.s, g.e))}</div>
+      <h2 class="d-title">${esc(g.full)}</h2>
+      <p class="d-text">${esc(g.d)}</p>
+      ${box('vnl', 'Liên hệ Việt Nam', g.vn)}
+      <section class="sec"><h3>Mỗi nơi một câu chuyện<small>${esc(fr(g.s, g.e))}</small></h3><div class="xs">${rows.map((r) => `<section class="xs-lane" data-l="${r.L.id}"><div class="xs-h"><i class="sw"></i><b>${esc(r.L.name)}</b></div><ul>${r.evs.map(evRef).join('')}</ul></section>`).join('')}</div></section>
+    </article>`;
+  }
+  function renderDetail(o) {
+    let html = tourBarHTML() + `<button type="button" class="d-back" data-act="back">${ico('left')}Về lát cắt thế giới</button>`;
+    if (o.kind === 'ev') html += evDetail(o);
+    else if (o.kind === 'np') html += ppDetail(o);
+    else if (o.kind === 'pd') html += pdDetail(o);
+    else if (o.kind === 'gb') html += gbDetail(o);
+    pBody.innerHTML = html;
+    pBody.scrollTop = 0;
+  }
+  function rerender() {
+    if (S.view === 'detail' && S.sel) { const st = pBody.scrollTop; renderDetail(S.sel); pBody.scrollTop = st; }
+    else renderSlice(S.play);
+  }
+
+  /* ================= tour ================= */
+  function buildTour() {
+    const steps = EV.filter((e) => e.lane === 'vn' && e.imp === 3).concat(SL);
+    steps.sort((a, b) => (a.y - b.y) || (a.kind === 'sl' ? 1 : -1));
+    return steps;
+  }
+  function tourBarHTML() {
+    if (!S.tour) return '';
+    const t = S.tour, st = t.steps[t.i], ch = chapterAt(st.y);
+    const here = st.kind === 'sl' ? (S.view === 'slice' && nearestSlice(S.play) === st) : (S.view === 'detail' && S.sel === st);
+    return `<div class="tourbar"><button type="button" data-act="t-prev" aria-label="Chặng trước" ${t.i === 0 ? 'disabled' : ''}>${ico('left')}</button><div class="tt">Hành trình · chặng ${t.i + 1}/${t.steps.length}<small>${esc(ch.t)} · ${esc(st.kind === 'sl' ? 'Lát cắt thế giới' : st.t)}</small></div>${here ? '' : '<button type="button" class="go" data-act="t-cur">Về chặng này</button>'}<button type="button" data-act="t-next" aria-label="Chặng tiếp" ${t.i === t.steps.length - 1 ? 'disabled' : ''}>${ico('right')}</button><button type="button" data-act="t-end" aria-label="Kết thúc hành trình">${ico('close')}</button></div>`;
+  }
+  function goStep(i) {
+    const t = S.tour;
+    if (!t) return;
+    t.i = clamp(i, 0, t.steps.length - 1);
+    openItem(t.steps[t.i]);
+    if (t.steps[t.i].kind === 'sl') renderSlice(t.steps[t.i].y, t.steps[t.i]);
+  }
+  function startTour() { S.tour = { steps: buildTour(), i: 0 }; $('#b-tour').classList.add('on'); goStep(0); }
+  function endTour() { S.tour = null; $('#b-tour').classList.remove('on'); rerender(); }
+
+  /* ================= quiz ================= */
+  const QZ = { n: 0, ok: 0, streak: 0, best: 0, cur: null };
+  try { QZ.best = parseInt(localStorage.getItem('lsh-best') || '0', 10) || 0; } catch (e) { /* ignore */ }
+  function quizNew() {
+    const type = Math.random() < 0.62 || PP.length < 4 ? 'ev' : 'np';
+    const pool = type === 'ev' ? EV.filter((e) => e.imp >= 2) : PP.filter((p) => p.imp >= 2);
+    const yr = (o) => (type === 'ev' ? o.y : o.b);
+    let a, b;
+    for (let tries = 0; tries < 500; tries++) {
+      a = pick(pool); b = pick(pool);
+      if (a.lane === b.lane || yr(a) === yr(b)) continue;
+      const d = Math.abs(yr(a) - yr(b));
+      if (d > (Math.min(yr(a), yr(b)) < 0 ? 700 : 240)) continue;
+      if (type === 'ev' && tries < 250 && a.lane !== 'vn' && b.lane !== 'vn' && Math.random() < 0.55) continue;
+      break;
+    }
+    QZ.cur = { type, a, b, done: false };
+    quizRender();
+  }
+  function qCard(o, key, type) {
+    const L = LANE[o.lane];
+    const title = type === 'ev' ? o.t : o.n;
+    const sub = type === 'ev' ? `${o.r || L.name} · ${CATS[o.c]}` : `${o.role} · ${o.r || L.name}`;
+    const yr = type === 'ev' ? (o.ca ? AP : '') + fy(o.y) : 'Sinh ' + (o.cb ? AP : '') + fy(o.b);
+    return `<button type="button" class="q-card" data-q="${key}" data-l="${o.lane}"><span><span class="tag tl">${esc(L.name)}</span></span><h4>${esc(title)}</h4><span class="q-sub">${esc(sub)}</span><span class="q-yr">${esc(yr)}</span></button>`;
+  }
+  function quizRender() {
+    const q = QZ.cur;
+    const nm = (o) => esc(trunc(q.type === 'ev' ? o.t : o.n, 26));
+    quizEl.innerHTML = `<div class="q${q.done ? ' revealed' : ''}" role="dialog" aria-modal="true" aria-labelledby="q-title">
+      <div class="q-head"><h2 class="q-title" id="q-title">Đố vui: cái nào trước?</h2><div class="q-score">Đúng ${QZ.ok}/${QZ.n} · chuỗi ${QZ.streak}<br>Kỷ lục ${QZ.best}</div><button type="button" class="q-x" data-q="close" aria-label="Đóng đố vui">${ico('close')}</button></div>
+      <p class="q-ask">${q.type === 'ev' ? 'Chuyện nào xảy ra trước?' : 'Ai ra đời trước?'}</p>
+      <div class="q-cards">${qCard(q.a, 'a', q.type)}<span class="q-or">hay</span>${qCard(q.b, 'b', q.type)}</div>
+      ${q.done ? `<div class="q-msg">${q.msg}</div>` : ''}
+      <div class="q-foot">${q.done ? `<button type="button" class="btn" data-q="see-a">Đọc: ${nm(q.a)}</button><button type="button" class="btn" data-q="see-b">Đọc: ${nm(q.b)}</button>` : ''}<button type="button" class="btn on" data-q="next">${q.done ? 'Câu tiếp theo' : 'Bỏ qua câu này'}</button></div>
+    </div>`;
+    if (q.done) {
+      quizEl.querySelector(`.q-card[data-q="${q.first}"]`).classList.add('right');
+      if (q.pick !== q.first) quizEl.querySelector(`.q-card[data-q="${q.pick}"]`).classList.add('wrong');
+    }
+  }
+  function quizExplain(q, ok) {
+    const A = q.first === 'a' ? q.a : q.b, B = q.first === 'a' ? q.b : q.a;
+    const head = ok ? `<b class="ok">${pick(PRAISE)}</b>` : `<b class="bad">${pick(OOPS)}</b>`;
+    if (q.type === 'ev') {
+      const d = gap(A.y, B.y);
+      let s = `${head} “${esc(A.t)}” (${esc(fy(A.y))}) diễn ra trước “${esc(B.t)}” (${esc(fy(B.y))}) khoảng ${d} năm.`;
+      const vnA = periodsAt('vn', A.y)[0];
+      if (A.lane !== 'vn' && vnA) s += ` Lúc đó ở Việt Nam: ${esc(vnA.t)}.`;
+      return s;
+    }
+    const d = gap(A.b, B.b);
+    let s = `${head} ${esc(A.n)} (sinh ${esc(fy(A.b))}) ra đời trước ${esc(B.n)} (sinh ${esc(fy(B.b))}) khoảng ${d} năm.`;
+    const ov0 = Math.max(A.b, B.b), ov1 = Math.min(endOf(A), endOf(B));
+    if (ov1 >= ov0) s += ` Hai người từng cùng sống trên đời khoảng ${Math.max(1, gap(ov0, ov1))} năm (${esc(fr(ov0, ov1))}).`;
+    else s += ` Họ chưa từng sống cùng thời: ${esc(B.n)} ra đời ${gap(endOf(A), B.b)} năm sau khi ${esc(A.n)} qua đời.`;
+    return s;
+  }
+  function quizAnswer(key) {
+    const q = QZ.cur;
+    if (!q || q.done) return;
+    const ya = q.type === 'ev' ? q.a.y : q.a.b, yb = q.type === 'ev' ? q.b.y : q.b.b;
+    q.first = ya < yb ? 'a' : 'b';
+    q.pick = key;
+    const ok = key === q.first;
+    QZ.n++;
+    if (ok) {
+      QZ.ok++; QZ.streak++;
+      if (QZ.streak > QZ.best) { QZ.best = QZ.streak; try { localStorage.setItem('lsh-best', String(QZ.best)); } catch (e) { /* ignore */ } }
+    } else QZ.streak = 0;
+    q.done = true;
+    q.msg = quizExplain(q, ok);
+    quizRender();
+  }
+  function quizOpen() { popClose(); quizEl.hidden = false; quizNew(); const c = quizEl.querySelector('.q-card'); if (c) c.focus(); }
+  function quizClose() { quizEl.hidden = true; quizEl.innerHTML = ''; }
+  quizEl.addEventListener('click', (e) => {
+    if (e.target === quizEl) { quizClose(); return; }
+    const b = e.target.closest('[data-q]');
+    if (!b) return;
+    const k = b.dataset.q;
+    if (k === 'a' || k === 'b') quizAnswer(k);
+    else if (k === 'next') quizNew();
+    else if (k === 'close') quizClose();
+    else if (k === 'see-a' || k === 'see-b') { const o = k === 'see-a' ? QZ.cur.a : QZ.cur.b; quizClose(); if (S.mode !== (o.kind === 'np' ? 'np' : 'ev')) setMode(o.kind === 'np' ? 'np' : 'ev'); openItem(o); }
+  });
+
+  /* ================= popover: featured slices ================= */
+  function popOpen() {
+    pop.innerHTML = `<div class="pop-h"><b>Lát cắt nổi bật</b><small>${SL.length} khoảnh khắc cả thế giới</small></div><ul class="plist">${SL.map((s) => `<li><button type="button" class="ref" data-open="${s.id}"><span class="yr">${esc(fy(s.y))}</span><span>${esc(stripYear(s.t))}</span></button></li>`).join('')}</ul>`;
+    pop.hidden = false;
+    const r = $('#b-slices').getBoundingClientRect();
+    const w = pop.offsetWidth;
+    pop.style.left = clamp(r.left, 12, window.innerWidth - w - 12) + 'px';
+    pop.style.top = (r.bottom + 8) + 'px';
+    $('#b-slices').setAttribute('aria-expanded', 'true');
+  }
+  function popClose() { if (pop.hidden) return; pop.hidden = true; $('#b-slices').setAttribute('aria-expanded', 'false'); }
+
+  /* ================= mobile sheet ================= */
+  function openSheet(v) {
+    S.sheet = !!v;
+    app.classList.toggle('sheet-open', S.sheet);
+    pGrip.setAttribute('aria-expanded', String(S.sheet));
+  }
+  function updateGrip() {
+    const readerLink = $('#return-reader');
+    const item = S.sel || nearestSlice(S.play);
+    readerLink.href = item ? 'index.html#' + item.id : 'index.html';
+    if (!S.mobile) return;
+    let h;
+    if (S.view === 'detail' && S.sel) {
+      const o = S.sel;
+      const y = o.kind === 'np' ? o.life : o.kind === 'pd' || o.kind === 'gb' ? fr(o.s, o.e) : fy(o.y);
+      h = `<b>${esc(o.kind === 'np' ? fy(o.b) : fy(o.kind === 'ev' ? o.y : o.s))}</b><span>${esc(o.t || o.n || o.full)} · ${esc(y)}</span>`;
+    } else {
+      const vnP = periodsAt('vn', S.play).map((p) => p.t).join(' · ');
+      h = `<b>${esc(fy(S.play))}</b><span>Thế giới năm ${esc(fy(S.play))}${vnP ? ' · ' + esc(vnP) : ''}</span>`;
+    }
+    pGrip.innerHTML = h + ico('up');
+  }
+  pGrip.addEventListener('click', () => openSheet(!S.sheet));
+
+  /* ================= mode ================= */
+  function setMode(m) {
+    if (S.mode === m) return;
+    S.mode = m;
+    lanesEl.classList.toggle('m-ev', m === 'ev');
+    lanesEl.classList.toggle('m-np', m === 'np');
+    $('#m-ev').classList.toggle('on', m === 'ev');
+    $('#m-np').classList.toggle('on', m === 'np');
+    $('#m-ev').setAttribute('aria-pressed', String(m === 'ev'));
+    $('#m-np').setAttribute('aria-pressed', String(m === 'np'));
+    setCorner();
+    layoutItems();
+    drawLinks();
+  }
+
+  /* ================= minimap ================= */
+  function cssColor(name) {
+    const probe = document.createElement('i');
+    probe.style.color = `var(--${name})`;
+    probe.style.display = 'none';
+    document.body.appendChild(probe);
+    const c = getComputedStyle(probe).color;
+    probe.remove();
+    return c;
+  }
+  function mmLayout() {
+    const r = mmBox.getBoundingClientRect();
+    const dpr = window.devicePixelRatio || 1;
+    S.mmW = r.width; S.mmH = r.height;
+    mmC.width = Math.round(r.width * dpr);
+    mmC.height = Math.round(r.height * dpr);
+    mmDraw();
+    mmWinUpdate();
+  }
+  function mmDraw() {
+    if (!S.mmW) return;
+    const ctx = mmC.getContext('2d');
+    const dpr = window.devicePixelRatio || 1;
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    ctx.clearRect(0, 0, S.mmW, S.mmH);
+    const stripH = S.mobile ? 26 : 31;
+    const rowH = (stripH - 2 - (LANES.length - 1) * 0.8) / LANES.length;
+    LANES.forEach((L, i) => {
+      const y = 1 + i * (rowH + 0.8);
+      ctx.fillStyle = cssColor(L.id);
+      const g0 = GROUPS[L.id][0];
+      let j = 0;
+      PDL[L.id].forEach((p) => {
+        if (p.g !== g0) return;
+        ctx.globalAlpha = j++ % 2 ? 0.5 : 0.9;
+        const x0 = (base(p.s) / BASE_W) * S.mmW, x1 = (base(p.e) / BASE_W) * S.mmW;
+        ctx.fillRect(x0, y, Math.max(1, x1 - x0 - 0.6), rowH);
+      });
+    });
+    ctx.globalAlpha = 1;
+    ctx.fillStyle = cssColor('muted');
+    ctx.font = `600 9px ${FONT}`;
+    ctx.textBaseline = 'top';
+    let lastEnd = -1e9;
+    [-3000, -2000, -1000, -500, 1, 500, 1000, 1500, 1800, 1900, 1945, 2000].forEach((yy) => {
+      const x = (base(yy) / BASE_W) * S.mmW;
+      const label = yy === 1 ? 'CN' : fy(yy);
+      const w = ctx.measureText(label).width;
+      if (x < lastEnd + 6) return;
+      ctx.fillText(label, Math.min(x + 2, S.mmW - w), stripH + 1);
+      lastEnd = x + 2 + w;
+    });
+  }
+  function mmWinUpdate() {
+    if (!S.mmW) return;
+    const yL = yearAtX(vp.scrollLeft + S.LW), yR = yearAtX(vp.scrollLeft + S.vpW);
+    const x0 = (base(yL) / BASE_W) * S.mmW, x1 = (base(yR) / BASE_W) * S.mmW;
+    mmWin.style.left = x0 + 'px';
+    mmWin.style.width = Math.max(4, x1 - x0) + 'px';
+  }
+  function mmSeek(clientX) {
+    const r = mmBox.getBoundingClientRect();
+    const f = clamp((clientX - r.left) / r.width, 0, 1);
+    vp.scrollLeft = X(invBase(f * BASE_W)) - centerOffset();
+  }
+  mmBox.addEventListener('pointerdown', (e) => {
+    e.preventDefault();
+    try { mmBox.setPointerCapture(e.pointerId); } catch (err) { /* ignore */ }
+    mmSeek(e.clientX);
+    const mv = (ev) => mmSeek(ev.clientX);
+    const up = () => { mmBox.removeEventListener('pointermove', mv); mmBox.removeEventListener('pointerup', up); mmBox.removeEventListener('pointercancel', up); };
+    mmBox.addEventListener('pointermove', mv);
+    mmBox.addEventListener('pointerup', up);
+    mmBox.addEventListener('pointercancel', up);
+  });
+  mmBox.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowRight') { vp.scrollLeft += S.vpW * 0.6; e.preventDefault(); }
+    if (e.key === 'ArrowLeft') { vp.scrollLeft -= S.vpW * 0.6; e.preventDefault(); }
+  });
+
+  /* ================= tooltip ================= */
+  let tipFor = null;
+  function tipHTML(o) {
+    if (o.kind === 'ev') return `<b>${o.ca ? AP : ''}${esc(fy(o.y))}</b> · ${esc(o.t)}<small>${esc(o.r || LANE[o.lane].name)} · ${CATS[o.c]}</small>`;
+    if (o.kind === 'np') return `<b>${esc(o.n)}</b> (${esc(o.life)})<small>${esc(o.role)}</small>`;
+    if (o.kind === 'pd') return `<b>${esc(o.t)}</b><small>${esc(fr(o.s, o.e))} · bấm để xem cùng thời ở nơi khác</small>`;
+    if (o.kind === 'gb') return `<b>${esc(o.full)}</b><small>${esc(fr(o.s, o.e))}</small>`;
+    return '';
+  }
+  function posTip(x, y) {
+    const w = tip.offsetWidth, h = tip.offsetHeight;
+    let L = x + 14, T = y + 16;
+    if (L + w > window.innerWidth - 8) L = x - w - 12;
+    if (T + h > window.innerHeight - 8) T = y - h - 12;
+    tip.style.left = Math.max(8, L) + 'px';
+    tip.style.top = Math.max(8, T) + 'px';
+  }
+  function hideTip() { if (!tip.hidden) tip.hidden = true; tipFor = null; }
+
+  /* ================= input ================= */
+  let drag = null, suppressClick = false;
+  vp.addEventListener('pointerdown', (e) => {
+    if (e.pointerType !== 'mouse' || e.button !== 0) return;
+    drag = { x: e.clientX, y: e.clientY, sl: vp.scrollLeft, st: vp.scrollTop, moved: false };
+  });
+  window.addEventListener('pointermove', (e) => {
+    if (drag) {
+      const dx = e.clientX - drag.x, dy = e.clientY - drag.y;
+      if (!drag.moved && Math.hypot(dx, dy) > 4) { drag.moved = true; vp.classList.add('dragging'); hideTip(); }
+      if (drag.moved) { vp.scrollLeft = drag.sl - dx; vp.scrollTop = drag.st - dy; return; }
+    }
+    if (e.pointerType !== 'mouse' || !vp.contains(e.target)) { if (tipFor) hideTip(); return; }
+    const el = e.target.closest('.is-dot, .pd, .gpill, .chip.np');
+    if (!el) { if (tipFor) hideTip(); return; }
+    const o = BYID.get(el.dataset.id);
+    if (!o) return;
+    if (o !== tipFor) { tip.innerHTML = tipHTML(o); tip.hidden = false; tipFor = o; }
+    posTip(e.clientX, e.clientY);
+  });
+  window.addEventListener('pointerup', () => {
+    if (drag && drag.moved) { suppressClick = true; setTimeout(() => { suppressClick = false; }, 0); }
+    drag = null;
+    vp.classList.remove('dragging');
+  });
+  vp.addEventListener('pointerleave', () => { if (!drag) hideTip(); });
+  vp.addEventListener('click', (e) => {
+    if (suppressClick) { e.preventDefault(); return; }
+    const el = e.target.closest('[data-id]');
+    if (!el) { if (S.mobile && S.sheet) openSheet(false); return; }
+    const o = BYID.get(el.dataset.id);
+    if (o) openItem(o);
+  });
+  vp.addEventListener('wheel', (e) => {
+    if (e.ctrlKey || e.metaKey) {
+      e.preventDefault();
+      zoomTo(S.z * Math.exp(-e.deltaY * 0.0028), e.clientX);
+      return;
+    }
+    const vOver = vp.scrollHeight > vp.clientHeight + 2;
+    if (!vOver && Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
+      e.preventDefault();
+      vp.scrollLeft += e.deltaY * (e.deltaMode === 1 ? 32 : e.deltaMode === 2 ? S.vpW : 1);
+    }
+  }, { passive: false });
+  let scrollRaf = 0;
+  vp.addEventListener('scroll', () => {
+    if (scrollRaf) return;
+    scrollRaf = requestAnimationFrame(() => { scrollRaf = 0; updatePlay(); });
+  }, { passive: true });
+  // chụm hai ngón để phóng to trên điện thoại
+  let pinch = null, pinchRaf = 0;
+  vp.addEventListener('touchstart', (e) => {
+    if (e.touches.length === 2) {
+      const a = e.touches[0], b = e.touches[1];
+      pinch = { d: Math.hypot(a.clientX - b.clientX, a.clientY - b.clientY) || 1, z: S.z, cx: (a.clientX + b.clientX) / 2 };
+    }
+  }, { passive: true });
+  vp.addEventListener('touchmove', (e) => {
+    if (!pinch || e.touches.length !== 2) return;
+    e.preventDefault();
+    const a = e.touches[0], b = e.touches[1];
+    const d = Math.hypot(a.clientX - b.clientX, a.clientY - b.clientY);
+    pinch.target = pinch.z * (d / pinch.d);
+    pinch.cx = (a.clientX + b.clientX) / 2;
+    if (!pinchRaf) pinchRaf = requestAnimationFrame(() => { pinchRaf = 0; if (pinch) zoomTo(pinch.target, pinch.cx); });
+  }, { passive: false });
+  vp.addEventListener('touchend', (e) => { if (e.touches.length < 2) pinch = null; });
+
+  const actions = {
+    back: closeDetail,
+    't-prev': () => goStep(S.tour.i - 1),
+    't-next': () => goStep(S.tour.i + 1),
+    't-cur': () => goStep(S.tour.i),
+    't-end': endTour,
+  };
+  document.addEventListener('click', (e) => {
+    const t = e.target.closest('[data-open],[data-act],[data-chap]');
+    if (!t || t.closest('#vp') || t.closest('#quiz')) return;
+    if (t.dataset.open) {
+      const o = BYID.get(t.dataset.open);
+      if (!o) return;
+      popClose();
+      openItem(o);
+      return;
+    }
+    if (t.dataset.chap) {
+      if (S.view === 'detail') { clearSel(); S.view = 'slice'; setHash(''); }
+      if (t.dataset.chap === 'all') flyTo(midYear(-3500, 2030), S.zMin / 0.92);
+      else { const c = CHAPTERS.find((x) => x.id === t.dataset.chap); flyTo(midYear(c.s, c.e), fitSpan(c.s, c.e, 0.9)); }
+      return;
+    }
+    if (t.dataset.act && actions[t.dataset.act]) actions[t.dataset.act]();
+  });
+  document.addEventListener('pointerdown', (e) => {
+    if (!pop.hidden && !pop.contains(e.target) && !e.target.closest('#b-slices')) popClose();
+  });
+  $('#m-ev').addEventListener('click', () => setMode('ev'));
+  $('#m-np').addEventListener('click', () => setMode('np'));
+  $('#b-slices').addEventListener('click', () => { if (pop.hidden) popOpen(); else popClose(); });
+  $('#b-tour').addEventListener('click', () => { if (S.tour) endTour(); else startTour(); });
+  $('#b-quiz').addEventListener('click', quizOpen);
+  $('#z-in').addEventListener('click', () => flyTo(centerYearExact(), S.z * 1.7, { dur: 320 }));
+  $('#z-out').addEventListener('click', () => flyTo(centerYearExact(), S.z / 1.7, { dur: 320 }));
+  $('#z-fit').addEventListener('click', () => flyTo(midYear(-3500, 2030), S.zMin / 0.92));
+  $('#b-panel').addEventListener('click', () => {
+    const off = !app.classList.contains('p-off');
+    app.classList.toggle('p-off', off);
+    $('#b-panel').setAttribute('aria-pressed', String(!off));
+    $('#b-panel').setAttribute('aria-label', off ? 'Hiện bảng lát cắt' : 'Ẩn bảng lát cắt');
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.target.closest && e.target.closest('input, textarea, select')) return;
+    if (!quizEl.hidden) {
+      if (e.key === 'Escape') quizClose();
+      return;
+    }
+    if (e.key === 'Escape') {
+      if (!pop.hidden) popClose();
+      else if (S.view === 'detail') closeDetail();
+      else if (S.tour) endTour();
+      else if (S.sheet) openSheet(false);
+      return;
+    }
+    const inPanel = e.target.closest && e.target.closest('.p-body, .pop');
+    if (S.tour && (e.key === 'ArrowRight' || e.key === 'ArrowLeft') && !inPanel) {
+      goStep(S.tour.i + (e.key === 'ArrowRight' ? 1 : -1));
+      e.preventDefault();
+      return;
+    }
+    if (inPanel) return;
+    if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
+      vp.scrollLeft += (e.key === 'ArrowRight' ? 1 : -1) * S.vpW * 0.25;
+      e.preventDefault();
+    } else if (e.key === '+' || e.key === '=') zoomTo(S.z * 1.4);
+    else if (e.key === '-' || e.key === '_') zoomTo(S.z / 1.4);
+  });
+  window.addEventListener('hashchange', () => {
+    const o = BYID.get(decodeURIComponent(location.hash.slice(1)));
+    if (o && o !== S.sel) openItem(o);
+  });
+
+  /* ================= resize & theme ================= */
+  let roRaf = 0;
+  const ro = new ResizeObserver(() => {
+    cancelAnimationFrame(roRaf);
+    roRaf = requestAnimationFrame(() => {
+      const w = vp.clientWidth, h = vp.clientHeight;
+      if (w !== S.lastW || h !== S.lastH) { const y = S.playExact; layout(y); rerender(); }
+      mmLayout();
+    });
+  });
+  const onTheme = () => requestAnimationFrame(mmDraw);
+  if (window.matchMedia) {
+    const mq = matchMedia('(prefers-color-scheme: dark)');
+    if (mq.addEventListener) mq.addEventListener('change', onTheme);
+  }
+  new MutationObserver(onTheme).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+
+  /* ================= init ================= */
+  buildLogo();
+  buildChapters();
+  const picker = $('#period-picker');
+  chaptersEl.querySelectorAll('[data-chap]').forEach(button => {
+    picker.add(new Option(button.firstChild.textContent.trim() + ' · ' + button.querySelector('small').textContent, button.dataset.chap));
+  });
+  picker.addEventListener('change', () => {
+    const choice = picker.value;
+    chaptersEl.querySelector('[data-chap="' + choice + '"]').click();
+    if (S.chap) picker.value = S.chap.id;
+    openSheet(false);
+  });
+  const toolsToggle = $('#tools-toggle');
+  toolsToggle.addEventListener('click', () => {
+    popClose();
+    toolsToggle.setAttribute('aria-expanded', String(toolsToggle.getAttribute('aria-expanded') !== 'true'));
+  });
+  buildLanes();
+  setCorner();
+  S.mobile = window.matchMedia('(max-width: 760px)').matches;
+  S.z = S.mobile ? 1.0 : 1.3;
+  const startId = decodeURIComponent((location.hash || '').slice(1));
+  const start = BYID.get(startId);
+  const firstSlice = BYID.get('sl-1789') || SL[Math.floor(SL.length / 2)];
+  layout(start ? focusYear(start) : firstSlice ? firstSlice.y : 1789);
+  mmLayout();
+  if (start) {
+    if (start.kind === 'np') setMode('np');
+    openItem(start, { instant: true, noSheet: true });
+  } else if (firstSlice) {
+    renderSlice(firstSlice.y, firstSlice);
+  } else renderSlice(S.play);
+  if (embeddedReader) {
+    app.classList.add('in-reader');
+    window.addEventListener('message', event => {
+      if (event.source!==parent || event.origin!==location.origin || event.data?.type!=='show-item') return;
+      const item=BYID.get(event.data.id);
+      if (!item || item===S.sel) return;
+      setMode(item.kind==='np'?'np':'ev');
+      openItem(item,{instant:true,noSheet:true});
+    });
+    parent.postMessage({type:'atlas-ready'}, location.origin==='null'?'*':location.origin);
+  }
+  ro.observe(vp);
+  ro.observe(mmBox);
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(() => {
+      measureAll();
+      applyZoom();
+      mmDraw();
+    });
+  }
+})();
+
+</script>
+
+</body></html>
