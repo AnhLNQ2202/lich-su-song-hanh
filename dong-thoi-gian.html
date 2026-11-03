@@ -649,7 +649,7 @@ summary.xs-h:focus-visible { outline: 2px solid var(--gold); }
 <div class="tip" id="tip" hidden></div>
 <div class="pop" id="pop" hidden></div>
 <div class="modal" id="quiz" hidden></div>
-<script src="history-data.js"></script>
+<script src="history-data.js?v=stories-1"></script>
 
 <script>
 /* Lịch Sử Song Hành — dòng thời gian song song Việt Nam & thế giới */
@@ -1285,7 +1285,7 @@ summary.xs-h:focus-visible { outline: 2px solid var(--gold); }
   }
 
   /* ================= detail views ================= */
-  const box = (cls, title, text) => (text ? `<div class="box ${cls}"><h4>${title}</h4><p>${esc(text)}</p></div>` : '');
+  const box = (cls, title, text) => (text ? `<div class="box ${cls}">${title ? `<h4>${esc(title)}</h4>` : ''}<p>${esc(text)}</p></div>` : '');
   function tags(o, extra) {
     const L = LANE[o.lane];
     return `<div class="d-tags"><span class="tag tl">${esc(L.name)}</span>${o.r ? `<span class="tag">${esc(o.r)}</span>` : ''}${extra || ''}</div>`;
@@ -1318,11 +1318,15 @@ summary.xs-h:focus-visible { outline: 2px solid var(--gold); }
       <div class="d-date">${o.ca && !o.date ? 'Khoảng ' : ''}${esc(date)}</div>
       <h2 class="d-title">${esc(o.t)}</h2>
       ${meta ? `<div class="d-meta">${meta}</div>` : ''}
-      <p class="d-text">${esc(o.d)}</p>
-      ${box('why', noteTitle(o.id, 'why'), o.why)}${box('alt', noteTitle(o.id, 'alt'), o.alt)}${box('fun', 'Bạn có biết?', o.fun)}${box('vnl', 'Liên hệ Việt Nam', o.vn)}
+      ${o.context ? `<p class="d-text">${esc(o.context)}</p>` : ''}<p class="d-text">${esc(o.d)}</p>
+      ${box('why', o.consequencesTitle || noteTitle(o.id, 'why'), o.consequences || o.why)}${box('alt', o.altTitle || noteTitle(o.id, 'alt'), o.alt)}${box('fun', 'Bạn có biết?', o.fun)}${box('vnl', 'Liên hệ Việt Nam', o.vn)}
+      ${o.related?.length ? `<section class="sec"><h3>Đọc thêm trong dòng thời gian</h3><ul class="rel">${o.related.map(link => {
+        const target = BYID.get(link.id);
+        return target ? `<li><button type="button" class="ref" data-open="${esc(target.id)}"><span class="yr">${esc(fy(target.y ?? target.s ?? target.b))}</span><span><b>${esc(target.t || target.n)}</b><small>${esc(RELATION_NAMES[link.kind])} · ${esc(link.text)}</small></span></button></li>` : '';
+      }).join('')}</ul></section>` : ''}
       ${relHTML(o)}
       ${sameTimeHTML(o.y, o.lane, 4)}
-      ${o.ref ? `<a class="btn" href="${esc(o.ref)}" target="_blank" rel="noopener">Nguồn tham khảo ↗</a>` : ""}
+      ${o.refs?.length ? `<details class="sec"><summary>Nguồn đối chiếu</summary><ul>${o.refs.map(ref => `<li><a href="${esc(ref.url)}" target="_blank" rel="noopener">${esc(ref.title)} ↗</a><p>${esc(ref.scope)}</p></li>`).join('')}</ul></details>` : o.ref ? `<a class="btn" href="${esc(o.ref)}" target="_blank" rel="noopener">Nguồn tham khảo ↗</a>` : ''}
       ${navHTML(o)}
     </article>`;
   }

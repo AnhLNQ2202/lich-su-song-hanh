@@ -205,3 +205,14 @@ dialog{color:var(--ink);background:var(--paper);border:1px solid var(--line);bor
 
 .quiz-next-actions { display:flex; align-items:center; justify-content:space-between; gap:20px; flex-wrap:wrap; margin-top:10px; }
 .quiz-next-actions .secondary-path { min-height:44px; padding-inline:0; }
+
+.story-connections { margin-block:24px; }
+.story-connection { padding:12px 0; border-bottom:1px solid var(--line); }
+.story-connection>span { display:block; font:650 12px/1.5 var(--ui); color:var(--rust); }
+.story-connection p { margin:0; font:15px/1.6 var(--ui); }
+.story-connection>a { display:inline-flex; align-items:center; min-height:44px; font:600 14px/1.6 var(--ui); text-decoration:underline; text-underline-offset:3px; }
+.article-sources { border-block:1px solid var(--line); margin-block:12px; }
+.article-sources summary { min-height:44px; cursor:pointer; padding-block:10px; font:600 14px/1.5 var(--ui); }
+.article-sources ul { padding-left:20px; }
+.article-sources li { margin-block:12px; font:14px/1.6 var(--ui); }
+.article-sources li p { color:var(--muted); font-size:12px; margin:3px 0; }

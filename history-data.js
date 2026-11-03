@@ -1,4 +1,5 @@
 var TL_DATA = [], TL_PEOPLE = [], TL_SLICES = [], TL_LINKS = [];
+const RELATION_NAMES = {background:'Bối cảnh', consequence:'Hệ quả', connection:'Liên hệ'};
 // Việt Nam: từ thời tiền sử đến năm 1857 (lane vn, phần A)
 TL_DATA.push({
   lane: 'vn',
@@ -119,11 +120,39 @@ TL_DATA.push({
       d: 'Dưới ách cai trị của nhà Ngô thời Tam Quốc, cô gái Triệu Thị Trinh cùng anh là Triệu Quốc Đạt khởi nghĩa ở núi Nưa. Nghĩa quân khiến quân Ngô khiếp sợ suốt nhiều tháng trước khi bị đàn áp; Bà Triệu hy sinh khi mới 23 tuổi.',
       why: 'Tiếp nối tinh thần Hai Bà Trưng, cho thấy ý chí độc lập không bị dập tắt dù đã hơn hai thế kỷ bị đô hộ.',
       fun: 'Lời nói được truyền tụng của bà: “Tôi muốn cưỡi cơn gió mạnh, đạp luồng sóng dữ, chém cá kình ở biển Đông…, chứ không chịu khom lưng làm tì thiếp cho người!”' },
-    { id: 'vn-my-son-400', y: 400, y2: 1250, ca: true, date: 'Thế kỷ IV – XIII', t: 'Thánh địa Mỹ Sơn của người Chăm', c: 'cul', imp: 2, r: 'Chăm Pa',
-      place: 'Duy Xuyên (Quảng Nam)',
-      d: 'Từ khoảng thế kỷ IV, các vua Chăm bắt đầu xây đền thờ thần Shiva trong một thung lũng kín ở Quảng Nam. Qua gần một nghìn năm, nơi đây có hơn 70 đền tháp bằng gạch nung xếp khít nhau, kỹ thuật kết dính đến nay vẫn chưa được giải thích trọn vẹn.',
-      why: 'Là trung tâm tôn giáo lớn nhất của Chăm Pa, được UNESCO công nhận là Di sản văn hoá thế giới năm 1999.',
-      fun: 'Nhiều tháp Mỹ Sơn bị bom đạn tàn phá trong chiến tranh; các chuyên gia Ba Lan, Ý, Ấn Độ đã cùng Việt Nam trùng tu khu di tích.' },
+    {
+      "id": "vn-my-son-400",
+      "y": 400,
+      "y2": 1250,
+      "ca": true,
+      "date": "Thế kỷ IV–XIII",
+      "t": "Thánh địa Mỹ Sơn của người Chăm",
+      "c": "cul",
+      "imp": 2,
+      "r": "Chăm Pa",
+      "place": "Thung lũng Mỹ Sơn, miền Trung Việt Nam",
+      "d": "Từ thế kỷ IV đến XIII, nhiều đền tháp được dựng tại Mỹ Sơn, gắn với Hindu giáo, đặc biệt là thờ Shiva, và quyền lực vương triều Chăm. Năm 400 trên dòng thời gian là mốc đại diện cho giai đoạn khởi đầu.",
+      "why": "Mỹ Sơn cho thấy một ảnh hưởng tôn giáo có thể được tiếp nhận thành một truyền thống kiến trúc mang đặc điểm địa phương.",
+      "context": "Trong nhiều thế kỷ, các cộng đồng và vương triều Chăm phát triển dọc miền Trung, tiếp nhận và biến đổi những ảnh hưởng tôn giáo từ Ấn Độ.",
+      "consequences": "Những công trình qua nhiều lần xây dựng để lại dấu vết về kỹ thuật, tôn giáo và vương quyền Chăm. Quần thể còn lại được UNESCO ghi danh năm 1999.",
+      "refs": [
+        {
+          "url": "https://whc.unesco.org/en/list/949/",
+          "title": "UNESCO — My Son Sanctuary",
+          "scope": "Thế kỷ IV–XIII, ảnh hưởng Hindu, chức năng tôn giáo/chính trị và ghi danh 1999."
+        }
+      ],
+      "related": [
+        {
+          "id": "vn-my-son-unesco-1999",
+          "kind": "connection",
+          "text": "Giá trị của những đền tháp còn lại được ghi nhận ở cấp quốc tế.",
+          "ref": "https://whc.unesco.org/en/list/949/"
+        }
+      ],
+      "ref": "https://whc.unesco.org/en/list/949/",
+      "consequencesTitle": "Những ngôi tháp kể gì về người Chăm?"
+    },
     { id: 'vn-ly-bi-542', y: 542, t: 'Lý Bí khởi nghĩa chống nhà Lương', c: 'war', imp: 2, who: 'Lý Bí (Lý Bôn)',
       d: 'Nhà Lương cai trị hà khắc, chỉ cho người trong hoàng tộc và quý tộc giữ chức vụ cao. Năm 542, Lý Bí liên kết hào kiệt nhiều nơi khởi nghĩa; chưa đầy ba tháng, nghĩa quân đã chiếm thành Long Biên, rồi đánh tan các đợt phản công của quân Lương.',
       why: 'Lần đầu sau năm trăm năm, người Việt giành lại quyền làm chủ đất nước.' },
@@ -183,11 +212,48 @@ TL_DATA.push({
       d: 'Vua Lê Long Đĩnh tàn bạo, mất lòng người. Khi ông mất năm 1009, triều thần, với sự ủng hộ của thiền sư Vạn Hạnh, tôn Điện tiền chỉ huy sứ Lý Công Uẩn lên ngôi. Một triều đại kéo dài hơn 200 năm bắt đầu.',
       why: 'Nhà Lý mở ra thời kỳ phát triển rực rỡ của văn hoá, giáo dục và kinh tế Đại Việt.',
       fun: 'Lý Công Uẩn được nuôi dạy từ nhỏ trong chùa; cuộc chuyển giao quyền lực năm 1009 diễn ra êm thấm, điều khá hiếm trong lịch sử các triều đại.' },
-    { id: 'vn-doi-do-thang-long-1010', y: 1010, date: 'Mùa thu năm 1010', t: 'Chiếu dời đô, kinh thành Thăng Long', c: 'pol', imp: 3,
-      who: 'Lý Thái Tổ', place: 'Thành Đại La, nay là Hà Nội',
-      d: 'Lý Thái Tổ ban Chiếu dời đô, nhận xét Hoa Lư chật hẹp, còn thành Đại La ở giữa trời đất, có thế “rồng cuộn hổ ngồi”, đất rộng mà bằng phẳng. Theo sử cũ, khi thuyền vua cập bến có rồng vàng bay lên, nên kinh đô mới được đặt tên là Thăng Long (rồng bay lên).',
-      why: 'Thăng Long – Hà Nội trở thành trung tâm chính trị, văn hoá của đất nước suốt hơn một nghìn năm.',
-      alt: 'Dời đô từ vùng núi Hoa Lư ra đồng bằng là tín hiệu tự tin: đất nước không còn phải nép mình trong núi để phòng thủ, mà sẵn sàng mở mang, buôn bán.' },
+    {
+      "id": "vn-doi-do-thang-long-1010",
+      "y": 1010,
+      "date": "Mùa thu năm 1010",
+      "t": "Chiếu dời đô, kinh thành Thăng Long",
+      "c": "pol",
+      "imp": 3,
+      "who": "Lý Thái Tổ",
+      "place": "Thành Đại La, nay là Hà Nội",
+      "d": "Năm 1010, Lý Thái Tổ dời đô từ Hoa Lư đến Đại La và đổi tên thành Thăng Long. Kinh thành được xây dựng trên địa điểm đã có lịch sử cư trú và quản lý.",
+      "why": "Từ quyết định dời đô, có thể theo dõi sự hình thành kinh thành, phố phường và các lớp lịch sử của Hà Nội.",
+      "context": "Nhà Lý vừa được thành lập. Chọn nơi đặt triều đình là một phần của việc tổ chức trung tâm quyền lực.",
+      "consequences": "Các triều đại sau tiếp tục xây dựng tại Thăng Long. Khi khai quật khu Hoàng thành, nhà khảo cổ gặp dấu tích của nhiều thời kỳ ngay tại cùng một địa điểm. Những lớp đất ấy giúp lần lại lịch sử kinh đô ngay giữa Hà Nội ngày nay.",
+      "refs": [
+        {
+          "url": "https://thanglong.chinhphu.vn/english/historical-stages-of-thang-long-ha-noi-110136.htm",
+          "title": "Cổng Chính phủ — Historical stages of Thăng Long-Hà Nội",
+          "scope": "Lý Thái Tổ dời đô năm 1010, từ Hoa Lư đến Đại La và đổi tên Thăng Long; bối cảnh triều Lý."
+        },
+        {
+          "url": "https://whc.unesco.org/en/list/1328",
+          "title": "UNESCO — Central Sector of the Imperial Citadel of Thang Long",
+          "scope": "Mốc xây dựng thời Lý năm 1010, các lớp di tích và vai trò trung tâm chính trị."
+        }
+      ],
+      "related": [
+        {
+          "id": "vn-ly-cong-uan-1009",
+          "kind": "background",
+          "text": "Việc dời đô diễn ra sau khi Lý Công Uẩn lên ngôi.",
+          "ref": "https://thanglong.chinhphu.vn/english/historical-stages-of-thang-long-ha-noi-110136.htm"
+        },
+        {
+          "id": "vn-thang-long-unesco-2010",
+          "kind": "connection",
+          "text": "Các lớp di tích của kinh thành về sau trở thành cơ sở ghi danh di sản.",
+          "ref": "https://whc.unesco.org/en/list/1328"
+        }
+      ],
+      "ref": "https://thanglong.chinhphu.vn/english/historical-stages-of-thang-long-ha-noi-110136.htm",
+      "consequencesTitle": "Dấu tích của những kinh thành chồng lên nhau"
+    },
     { id: 'vn-chua-mot-cot-1049', y: 1049, t: 'Chùa Một Cột ra đời', c: 'cul', imp: 1, who: 'Lý Thái Tông', place: 'Thăng Long (Hà Nội)',
       d: 'Tương truyền vua Lý Thái Tông nằm mộng thấy Phật Bà Quan Âm ngồi trên toà sen dắt vua lên đài. Tỉnh dậy, vua cho dựng một ngôi chùa đặt trên một cột đá giữa hồ, mô phỏng bông sen nở trên mặt nước, gọi là chùa Diên Hựu.',
       why: 'Trở thành một biểu tượng kiến trúc độc đáo của Hà Nội và của Phật giáo thời Lý.',
@@ -199,10 +265,47 @@ TL_DATA.push({
       d: 'Năm 1069, vua Lý Thánh Tông đem quân đánh Chăm Pa, giao việc nước cho Nguyên phi Ỷ Lan. Bà xuất thân là cô gái hái dâu nhưng điều hành triều chính khéo léo, chăm lo đời sống dân. Sau trận ấy, vua Chăm Chế Củ dâng ba châu Bố Chính, Địa Lý, Ma Linh (vùng Quảng Bình, Quảng Trị).',
       why: 'Một nữ chính khách tài giỏi hiếm có, về sau còn nhiếp chính khi vua Lý Nhân Tông còn nhỏ.',
       fun: 'Tương truyền khi vua đi ngang, bà đang đứng tựa gốc cây lan, vì thế được gọi là Ỷ Lan, nghĩa là “tựa cây lan”.' },
-    { id: 'vn-van-mieu-1070', y: 1070, t: 'Xây dựng Văn Miếu', c: 'cul', imp: 3, who: 'Lý Thánh Tông', place: 'Thăng Long (Hà Nội)',
-      d: 'Năm 1070, vua Lý Thánh Tông cho lập Văn Miếu ở kinh thành Thăng Long để thờ Khổng Tử và các bậc hiền triết, đồng thời làm nơi học tập của thái tử. Đây là dấu mốc Nho học chính thức được nhà nước coi trọng.',
-      why: 'Văn Miếu là biểu tượng của truyền thống hiếu học và nền giáo dục khoa cử Việt Nam suốt gần một nghìn năm.',
-      fun: 'Hình Khuê Văn Các trong Văn Miếu xuất hiện trên tờ tiền 100.000 đồng và được chọn làm biểu tượng của Thủ đô Hà Nội.' },
+    {
+      "id": "vn-van-mieu-1070",
+      "y": 1070,
+      "t": "Xây dựng Văn Miếu",
+      "c": "cul",
+      "imp": 3,
+      "who": "Lý Thánh Tông",
+      "place": "Thăng Long (Hà Nội)",
+      "d": "Năm 1070, vua Lý Thánh Tông cho dựng Văn Miếu. Đây là một mốc riêng với việc tổ chức khoa thi Nho học năm 1075 và lập Quốc Tử Giám năm 1076.",
+      "why": "Một nơi thờ tự, một trường học và một hệ thống thi cử cùng góp phần định hình vị trí của Nho học trong nhà nước.",
+      "context": "Thăng Long đã là nơi đặt triều đình nhà Lý. Nhu cầu xây dựng thiết chế văn hóa và học tập đi cùng việc củng cố kinh đô.",
+      "consequences": "Các thiết chế thờ tự, thi cử và đào tạo được xây dựng trong những năm kế tiếp, tạo thành những phần liên quan của nền giáo dục Nho học. Chúng không xuất hiện đồng thời chỉ bằng một quyết định.",
+      "refs": [
+        {
+          "url": "https://dsvh.gov.vn/di-tich-lich-su-va-kien-truc-nghe-thuat-van-mieu-quoc-tu-giam-2953",
+          "title": "Cục Di sản văn hóa — Văn Miếu – Quốc Tử Giám",
+          "scope": "Lịch sử xây dựng và chức năng của di tích Văn Miếu – Quốc Tử Giám."
+        },
+        {
+          "url": "https://www.vanmieu.gov.vn/vi/introduction/site-history",
+          "title": "Trung tâm Văn Miếu — Lịch sử di tích",
+          "scope": "Lập năm 1076, tu sửa 1243, mở rộng 1483; các mốc trước đó."
+        }
+      ],
+      "related": [
+        {
+          "id": "vn-khoa-thi-dau-tien-1075",
+          "kind": "connection",
+          "text": "Khoa thi Nho học là bước tiếp theo trong quá trình thiết lập cơ chế chọn người học.",
+          "ref": "https://www.vanmieu.gov.vn/vi/introduction/site-history"
+        },
+        {
+          "id": "vn-quoc-tu-giam-1076",
+          "kind": "connection",
+          "text": "Quốc Tử Giám được thành lập sáu năm sau Văn Miếu.",
+          "ref": "https://www.vanmieu.gov.vn/vi/introduction/site-history"
+        }
+      ],
+      "ref": "https://dsvh.gov.vn/di-tich-lich-su-va-kien-truc-nghe-thuat-van-mieu-quoc-tu-giam-2953",
+      "consequencesTitle": "Sau Văn Miếu, Thăng Long có khoa thi và trường học"
+    },
     { id: 'vn-khang-chien-chong-tong-1075', y: 1075, y2: 1077, date: '1075–1077', t: 'Lý Thường Kiệt đánh bại quân Tống', c: 'war', imp: 3,
       who: 'Lý Thường Kiệt', place: 'Ung Châu, Khâm Châu, Liêm Châu; sông Như Nguyệt (Bắc Ninh)',
       d: 'Biết nhà Tống chuẩn bị xâm lược, Lý Thường Kiệt chủ động “tiên phát chế nhân”: cuối năm 1075 đem quân đánh vào các căn cứ tập kết ở Ung Châu, Khâm Châu, Liêm Châu rồi rút về. Năm 1077, ông lập phòng tuyến sông Như Nguyệt, đánh bại khoảng 10 vạn quân Tống, rồi chủ động đề nghị giảng hoà.',
@@ -213,10 +316,41 @@ TL_DATA.push({
       d: 'Năm 1075, nhà Lý mở khoa thi Minh kinh bác học và Nho học tam trường, lần đầu tiên tuyển chọn quan lại qua thi cử. Lê Văn Thịnh đỗ đầu, về sau làm đến chức Thái sư.',
       why: 'Mở đầu chế độ khoa cử kéo dài hơn 840 năm, giúp người có học, dù không phải quý tộc, có cơ hội làm quan.',
       fun: 'Khoa thi Nho học cuối cùng ở Việt Nam diễn ra năm 1919 dưới triều Khải Định, tức hệ thống này tồn tại tròn 844 năm.' },
-    { id: 'vn-quoc-tu-giam-1076', y: 1076, t: 'Quốc Tử Giám, trường đại học đầu tiên', c: 'cul', imp: 2, place: 'Thăng Long (Hà Nội)',
-      d: 'Năm 1076, nhà Lý lập Quốc Tử Giám bên cạnh Văn Miếu. Lúc đầu đây là nơi học của con vua và con các quan; về sau, con em thường dân học giỏi cũng được tuyển vào học.',
-      why: 'Được coi là trường đại học đầu tiên của Việt Nam, đặt nền móng cho giáo dục bậc cao.',
-      alt: 'Quốc Tử Giám ra đời trước Đại học Bologna (1088), trường thường được gọi là đại học lâu đời nhất châu Âu, 12 năm, dù hai mô hình rất khác nhau.' },
+    {
+      "id": "vn-quoc-tu-giam-1076",
+      "y": 1076,
+      "t": "Quốc Tử Giám và việc đào tạo theo Nho học",
+      "c": "cul",
+      "imp": 2,
+      "place": "Thăng Long (Hà Nội)",
+      "d": "Năm 1076, vua Lý Nhân Tông cho lập Quốc Tử Giám. Trường được tu sửa và mở rộng dưới những triều đại sau, nên lịch sử của nó là một quá trình phát triển kéo dài.",
+      "why": "Nhìn vào trường học và khoa cử giúp thấy nhà nước quân chủ đào tạo và đề cao tầng lớp có học như thế nào.",
+      "context": "Trước khi Quốc Tử Giám được lập, nhà Lý đã dựng Văn Miếu và tổ chức khoa thi Nho học.",
+      "consequences": "Quốc Tử Giám trở thành một thiết chế gắn với đào tạo trong nhà nước quân chủ. Về sau, việc dựng bia tiến sĩ làm cho thành tích khoa cử còn được ghi lại bằng văn bản trên đá.",
+      "refs": [
+        {
+          "url": "https://www.vanmieu.gov.vn/vi/introduction/site-history",
+          "title": "Trung tâm Văn Miếu — Lịch sử di tích",
+          "scope": "Lập năm 1076, tu sửa 1243, mở rộng 1483; các mốc trước đó."
+        }
+      ],
+      "related": [
+        {
+          "id": "vn-van-mieu-1070",
+          "kind": "background",
+          "text": "Văn Miếu được dựng trước Quốc Tử Giám.",
+          "ref": "https://www.vanmieu.gov.vn/vi/introduction/site-history"
+        },
+        {
+          "id": "vn-bia-tien-si-1484",
+          "kind": "connection",
+          "text": "Bia tiến sĩ thuộc một bước phát triển về sau của văn hóa khoa cử.",
+          "ref": "https://www.vanmieu.gov.vn/vi/introduction/site-history"
+        }
+      ],
+      "ref": "https://www.vanmieu.gov.vn/vi/introduction/site-history",
+      "consequencesTitle": "Từ trường học đến con đường làm quan"
+    },
     { id: 'vn-nam-quoc-son-ha-1077', y: 1077, t: '“Nam quốc sơn hà” vang trên sông Như Nguyệt', c: 'cul', imp: 2,
       d: 'Trong trận chiến bên sông Như Nguyệt, tương truyền bài thơ “Nam quốc sơn hà” được ngâm vang trong đền thờ Trương Hống, Trương Hát, khẳng định sông núi nước Nam là của vua Nam, sách trời đã định rõ. Quân Tống nghe thấy thì hoảng sợ, quân ta càng thêm hăng hái.',
       why: 'Được nhiều người coi là bản tuyên ngôn độc lập đầu tiên của Việt Nam.',
@@ -280,10 +414,42 @@ TL_DATA.push({
     { id: 'vn-che-bong-nga-1371', y: 1371, t: 'Chế Bồng Nga đánh vào Thăng Long', c: 'war', imp: 1, r: 'Chăm Pa', who: 'Chế Bồng Nga',
       d: 'Dưới thời vua Chế Bồng Nga, Chăm Pa mạnh trở lại và nhiều lần tiến quân ra Bắc. Năm 1371, quân Chăm theo đường biển vào cửa Đại An, đánh chiếm và đốt phá kinh thành Thăng Long khi nhà Trần đang suy yếu. Năm 1390, Chế Bồng Nga tử trận trên sông Hải Triều.',
       why: 'Cho thấy nhà Trần cuối thời đã suy yếu nghiêm trọng, còn Chăm Pa là một cường quốc quân sự trong khu vực.' },
-    { id: 'vn-thanh-nha-ho-1397', y: 1397, t: 'Xây thành Tây Đô (thành nhà Hồ)', c: 'cul', imp: 1, who: 'Hồ Quý Ly', place: 'Vĩnh Lộc (Thanh Hoá)',
-      d: 'Năm 1397, Hồ Quý Ly cho xây thành Tây Đô bằng những khối đá xanh lớn, có khối nặng hơn 10 tấn, ghép khít với nhau mà không cần vữa. Toà thành được hoàn thành chỉ trong khoảng ba tháng, rồi ông ép vua Trần dời đô về đây.',
-      why: 'Là công trình kiến trúc đá độc đáo, được UNESCO công nhận là Di sản văn hoá thế giới năm 2011.',
-      fun: 'Hơn sáu trăm năm trôi qua, các bức tường đá vẫn đứng vững dù không có chút vữa nào: các khối đá được đẽo để tự “khoá” vào nhau.' },
+    {
+      "id": "vn-thanh-nha-ho-1397",
+      "y": 1397,
+      "t": "Xây thành Tây Đô (thành nhà Hồ)",
+      "c": "cul",
+      "imp": 1,
+      "who": "Hồ Quý Ly",
+      "place": "Vĩnh Lộc (Thanh Hoá)",
+      "d": "Thành Tây Đô được xây năm 1397, trước khi nhà Hồ chính thức ra đời năm 1400. Thành nội sử dụng các khối đá lớn, kết hợp với thành đất và không gian nghi lễ trong một quy hoạch rộng.",
+      "why": "Tuổi đời ngắn của một vương triều không đồng nghĩa di sản vật chất của nó cũng ngắn ngủi.",
+      "context": "Cuối thế kỷ XIV, trung tâm quyền lực triều Trần đang thay đổi. Hồ Quý Ly thúc đẩy việc xây dựng một kinh thành mới ở Thanh Hóa.",
+      "consequences": "Khu vực trở thành kinh đô trong giai đoạn cuối Trần và đầu Hồ. Quy mô thành đá và cách tổ chức cảnh quan để lại chứng cứ về kỹ thuật xây dựng, tư tưởng và quản lý nhà nước thời ấy.",
+      "refs": [
+        {
+          "url": "https://whc.unesco.org/en/list/1358/",
+          "title": "UNESCO — Citadel of the Ho Dynasty",
+          "scope": "Xây dựng 1397, kinh đô 1398–1407, cấu trúc thành đá và ghi danh 2011."
+        }
+      ],
+      "related": [
+        {
+          "id": "vn-ho-quy-ly-1400",
+          "kind": "connection",
+          "text": "Thành được xây trước khi Hồ Quý Ly lập triều đại mới.",
+          "ref": "https://whc.unesco.org/en/list/1358/"
+        },
+        {
+          "id": "vn-ho-unesco-2011",
+          "kind": "connection",
+          "text": "Thành đá còn lại là đối tượng được ghi danh năm 2011.",
+          "ref": "https://whc.unesco.org/en/list/1358/"
+        }
+      ],
+      "ref": "https://whc.unesco.org/en/list/1358/",
+      "consequencesTitle": "Thành đá còn lại sau hai triều đại"
+    },
     { id: 'vn-ho-quy-ly-1400', y: 1400, t: 'Hồ Quý Ly lập nhà Hồ và cải cách', c: 'pol', imp: 2, who: 'Hồ Quý Ly',
       d: 'Năm 1400, Hồ Quý Ly phế vua Trần, lập nhà Hồ, đổi quốc hiệu là Đại Ngu. Ông cải cách mạnh tay: phát hành tiền giấy, hạn chế số ruộng đất và nô tì của quý tộc, đề cao chữ Nôm, mở rộng thi cử và trường học.',
       why: 'Một trong những cuộc cải cách táo bạo nhất thời phong kiến, nhưng quá vội vàng, không được lòng dân nên thất bại khi quân Minh xâm lược.',
@@ -332,10 +498,36 @@ TL_DATA.push({
       d: 'Bộ Quốc triều hình luật, thường gọi là Luật Hồng Đức, có hơn 700 điều, quy định về hình sự, đất đai, hôn nhân, gia đình, thừa kế. Điểm đặc biệt là nhiều điều luật bảo vệ quyền lợi phụ nữ, như con gái được chia thừa kế và người vợ có quyền đối với tài sản chung.',
       why: 'Là bộ luật tiến bộ bậc nhất thời phong kiến ở khu vực, cho thấy trình độ quản lý nhà nước cao của Đại Việt.',
       alt: 'Ở nhiều nơi trên thế giới cùng thời, phụ nữ hầu như không có quyền tài sản; xét theo chuẩn thế kỷ XV, Luật Hồng Đức khá “hiện đại”.' },
-    { id: 'vn-bia-tien-si-1484', y: 1484, t: 'Dựng bia tiến sĩ ở Văn Miếu', c: 'cul', imp: 1, who: 'Lê Thánh Tông', place: 'Văn Miếu – Quốc Tử Giám (Hà Nội)',
-      d: 'Năm 1484, vua Lê Thánh Tông cho dựng bia đá khắc tên những người đỗ tiến sĩ, bắt đầu từ khoa thi năm 1442. Việc dựng bia được tiếp tục đến thế kỷ XVIII, để lại 82 tấm bia đặt trên lưng rùa đá.',
-      why: 'Tôn vinh người hiền tài, khuyến khích việc học; 82 bia tiến sĩ nay là Di sản tư liệu thế giới.',
-      fun: 'Nhiều sĩ tử ngày nay vẫn đến xoa đầu rùa đá để “cầu may” trước kỳ thi, đến mức khu bia phải được rào lại để bảo vệ.' },
+    {
+      "id": "vn-bia-tien-si-1484",
+      "y": 1484,
+      "t": "Dựng bia tiến sĩ ở Văn Miếu",
+      "c": "cul",
+      "imp": 1,
+      "who": "Lê Thánh Tông",
+      "place": "Văn Miếu – Quốc Tử Giám (Hà Nội)",
+      "d": "Từ năm 1484, các bia tiến sĩ được dựng để ghi danh người đỗ. Hệ thống 82 bia còn lại được dựng trong khoảng 1484–1780 và ghi các khoa thi từ 1442 đến 1779.",
+      "why": "Bia vừa tôn vinh người học, vừa cho thấy nhà nước muốn truyền đi thông điệp nào về học vấn và quan lại.",
+      "context": "Một người đỗ khoa thi năm 1442 vẫn có tên trên tấm bia được dựng hàng chục năm sau. Ở Văn Miếu, năm thi và năm dựng bia là hai mốc khác nhau.",
+      "consequences": "Ngoài tên người đỗ, văn bia còn ghi người soạn, người viết chữ và người khắc. Nhờ vậy, một tấm bia cho biết cả người được vinh danh lẫn những người đã làm nên tấm bia ấy.",
+      "refs": [
+        {
+          "url": "https://www.unesco.org/en/memory-world/stone-stele-records-royal-examinations-le-and-mac-dynasties-1442-1779?hub=1081",
+          "title": "UNESCO — Stone Stele Records of Royal Examinations",
+          "scope": "Phân biệt niên đại thi 1442–1779 với dựng bia 1484–1780, giá trị sử liệu."
+        }
+      ],
+      "related": [
+        {
+          "id": "vn-quoc-tu-giam-1076",
+          "kind": "connection",
+          "text": "Các bia được lưu giữ tại khu Văn Miếu – Quốc Tử Giám.",
+          "ref": "https://www.unesco.org/en/memory-world/stone-stele-records-royal-examinations-le-and-mac-dynasties-1442-1779?hub=1081"
+        }
+      ],
+      "ref": "https://www.unesco.org/en/memory-world/stone-stele-records-royal-examinations-le-and-mac-dynasties-1442-1779?hub=1081",
+      "consequencesTitle": "Bia đá lưu lại những gì ngoài tên người đỗ?"
+    },
     { id: 'vn-mac-dang-dung-1527', y: 1527, t: 'Mạc Đăng Dung lập nhà Mạc', c: 'pol', imp: 2, who: 'Mạc Đăng Dung',
       d: 'Đầu thế kỷ XVI, triều Lê suy yếu, vua ăn chơi, các phe phái tranh giành quyền lực. Mạc Đăng Dung, một võ quan có tài, dần nắm hết binh quyền và năm 1527 ép vua Lê nhường ngôi, lập ra nhà Mạc.',
       why: 'Mở đầu thời kỳ chia cắt kéo dài: Nam – Bắc triều, rồi Trịnh – Nguyễn phân tranh.',
@@ -351,11 +543,37 @@ TL_DATA.push({
       d: 'Lo sợ bị anh rể Trịnh Kiểm hãm hại, Nguyễn Hoàng xin vào trấn thủ vùng Thuận Hoá còn hoang vu. Ông khéo chiêu dân, khai khẩn đất đai, giảm thuế, dần xây dựng một vùng đất riêng ở phía Nam.',
       why: 'Đặt nền móng cho sự nghiệp của các chúa Nguyễn và quá trình mở đất phương Nam mạnh mẽ sau đó.',
       alt: 'Một chuyến “xin chuyển công tác” để tránh hoạ đã thay đổi hẳn bản đồ Việt Nam: từ đó, đất nước dần vươn tới mũi Cà Mau.' },
-    { id: 'vn-hoi-an-pho-hien-1620', y: 1620, ca: true, date: 'Thế kỷ XVII', t: 'Thương cảng Hội An, Phố Hiến sầm uất', c: 'sci', imp: 2,
-      place: 'Hội An (Quảng Nam), Phố Hiến (Hưng Yên)',
-      d: 'Thế kỷ XVII, Hội An ở Đàng Trong và Phố Hiến ở Đàng Ngoài trở thành thương cảng quốc tế. Thương nhân Nhật Bản, Trung Hoa, Bồ Đào Nha, Hà Lan, Anh đến buôn tơ lụa, đường, trầm hương, gốm sứ; người Nhật và người Hoa lập khu phố riêng ở Hội An.',
-      why: 'Đại Việt tham gia vào mạng lưới thương mại toàn cầu thời kỳ đầu, kinh tế hàng hoá và đô thị phát triển.',
-      fun: 'Dân gian có câu “Thứ nhất kinh kỳ, thứ nhì phố Hiến”; còn Chùa Cầu ở Hội An tương truyền do thương nhân Nhật Bản dựng nên.' },
+    {
+      "id": "vn-hoi-an-pho-hien-1620",
+      "y": 1620,
+      "ca": true,
+      "date": "Thế kỷ XV–XIX",
+      "t": "Hội An trong mạng lưới thương mại quốc tế",
+      "c": "sci",
+      "imp": 2,
+      "place": "Hội An (Quảng Nam)",
+      "d": "Từ thế kỷ XV đến XIX, Hội An phát triển như một thương cảng. Nhà buôn và cư dân để lại phố xá, nhà ở, hội quán và công trình tín ngưỡng kết hợp truyền thống địa phương với ảnh hưởng ngoại lai. Năm 1620 là mốc tham chiếu của giai đoạn, không phải năm thành lập cảng.",
+      "why": "Giao lưu kinh tế có thể tạo ra những không gian văn hóa mới, tồn tại lâu hơn một thời thịnh vượng thương mại.",
+      "context": "Nằm gần cửa sông Thu Bồn, Hội An tham gia mạng lưới giao thương nối Đông Nam Á với các khu vực khác.",
+      "consequences": "Hoạt động thương mại để lại dấu ấn trong hình thái đô thị. Việc vai trò thương mại suy giảm về sau cũng góp phần giúp nhiều cấu trúc phố cổ được giữ lại.",
+      "refs": [
+        {
+          "url": "https://whc.unesco.org/en/list/948",
+          "title": "UNESCO — Hoi An Ancient Town",
+          "scope": "Thương cảng thế kỷ XV–XIX, giao lưu văn hóa và sự bảo tồn hình thái đô thị."
+        }
+      ],
+      "related": [
+        {
+          "id": "vn-hoi-an-unesco-1999",
+          "kind": "connection",
+          "text": "Đô thị thương cảng còn lại được ghi danh năm 1999.",
+          "ref": "https://whc.unesco.org/en/list/948"
+        }
+      ],
+      "ref": "https://whc.unesco.org/en/list/948",
+      "consequencesTitle": "Dấu thương cảng còn trong những con phố"
+    },
     { id: 'vn-trinh-nguyen-phan-tranh-1627', y: 1627, y2: 1672, date: '1627–1672', t: 'Trịnh – Nguyễn phân tranh', c: 'war', imp: 2, place: 'Sông Gianh (Quảng Bình)',
       d: 'Từ năm 1627 đến 1672, chúa Trịnh ở Đàng Ngoài và chúa Nguyễn ở Đàng Trong đánh nhau bảy lần lớn mà không bên nào thắng hẳn. Cuối cùng hai bên lấy sông Gianh làm ranh giới, đất nước bị chia cắt hơn một trăm năm.',
       why: 'Sự chia cắt lâu dài khiến hai miền phát triển theo những hướng khác nhau, để lại dấu ấn trong giọng nói, phong tục.',
@@ -891,11 +1109,29 @@ TL_DATA.push({
       fun: 'Người ta xếp hàng mua hàng từ tờ mờ sáng, có khi đặt cả viên gạch thay người để giữ chỗ. Chiếc xe đạp, cái đài, cái quạt tai voi từng là “tài sản lớn” của nhiều gia đình.',
       alt: 'Với nhiều người lớn tuổi, thời bao cấp vừa là ký ức khốn khó vừa là ký ức ấm áp về tình hàng xóm. Ngày nay, không ít quán cà phê còn dựng lại không gian bao cấp như một món ăn tinh thần đầy hoài niệm.' },
 
-    { id: 'vn-lhq-1977', y: 1977, date: '20/9/1977', t: 'Việt Nam gia nhập Liên Hợp Quốc', c: 'pol', imp: 2,
-      place: 'New York (Hoa Kỳ)',
-      d: 'Đại hội đồng Liên Hợp Quốc kết nạp Việt Nam, trở thành thành viên thứ 149 của tổ chức. Trước đó, việc Việt Nam gia nhập từng bị Mỹ dùng quyền phủ quyết ngăn cản tại Hội đồng Bảo an.',
-      why: 'Khẳng định vị thế quốc tế của nước Việt Nam thống nhất, mở ra cơ hội hợp tác với cộng đồng quốc tế.',
-      alt: 'Chỉ hai năm sau khi chiến tranh kết thúc, lá cờ Việt Nam được kéo lên tại trụ sở Liên Hợp Quốc ở New York, ngay trên đất nước từng là đối thủ trong chiến tranh.' },
+    {
+      "id": "vn-lhq-1977",
+      "y": 1977,
+      "date": "20/9/1977",
+      "t": "Việt Nam gia nhập Liên Hợp Quốc",
+      "c": "pol",
+      "imp": 2,
+      "place": "New York (Hoa Kỳ)",
+      "d": "Ngày 20/9/1977, Việt Nam gia nhập Liên Hợp Quốc. Trang lịch sử của Liên Hợp Quốc tại Việt Nam cho biết giai đoạn hỗ trợ ban đầu tập trung vào tái thiết sau chiến tranh và trợ giúp nhân đạo.",
+      "why": "Qua hợp tác với Liên Hợp Quốc, nhu cầu tái thiết sau chiến tranh được nối với những chương trình phát triển trong các giai đoạn tiếp theo.",
+      "context": "Sau chiến tranh, Việt Nam có nhu cầu tái thiết và mở rộng hợp tác quốc tế.",
+      "consequences": "Tư cách thành viên đặt Việt Nam vào các diễn đàn và khuôn khổ hợp tác của tổ chức. Hợp tác phát triển mở rộng về sau theo nhu cầu và điều kiện từng giai đoạn.",
+      "refs": [
+        {
+          "url": "https://vietnam.un.org/en/about/about-the-un",
+          "title": "United Nations in Viet Nam — About the UN",
+          "scope": "Ngày gia nhập và trọng tâm hỗ trợ ban đầu."
+        }
+      ],
+      "related": [],
+      "ref": "https://vietnam.un.org/en/about/about-the-un",
+      "consequencesTitle": "Hợp tác tái thiết sau chiến tranh"
+    },
 
     { id: 'vn-tay-nam-1979', y: 1979, date: '1978 – 7/1/1979', t: 'Chiến tranh bảo vệ biên giới Tây Nam', c: 'war', imp: 2,
       place: 'Biên giới Tây Nam; Campuchia',
@@ -916,21 +1152,88 @@ TL_DATA.push({
       fun: 'Trước đó, Phạm Tuân đã nổi tiếng vì được xem là phi công đầu tiên bắn rơi máy bay B-52 bằng tiêm kích MiG-21, trong trận Điện Biên Phủ trên không năm 1972.',
       alt: 'Thời bao cấp, nhà nhà còn xếp hàng mua gạo bằng tem phiếu, vậy mà một người Việt đã ngắm Trái Đất từ quỹ đạo. Hai hình ảnh tưởng đối lập ấy cùng thuộc về một thời kỳ.' },
 
-    { id: 'vn-doi-moi-1986', y: 1986, date: '15–18/12/1986', t: 'Đại hội VI khởi xướng Đổi Mới', c: 'pol', imp: 3,
-      who: 'Nguyễn Văn Linh, Trường Chinh', place: 'Hà Nội',
-      d: 'Giữa lúc khủng hoảng kinh tế – xã hội trầm trọng, lạm phát lên tới hàng trăm phần trăm, Đại hội Đảng lần thứ VI thẳng thắn nhìn nhận sai lầm và đề ra đường lối Đổi Mới: xóa bỏ cơ chế quan liêu bao cấp, phát triển kinh tế hàng hóa nhiều thành phần vận hành theo cơ chế thị trường, mở cửa hợp tác với thế giới.',
-      why: 'Bước ngoặt lớn nhất của Việt Nam sau năm 1975, mở đường cho gần bốn thập kỷ tăng trưởng nhanh và hội nhập sâu rộng.',
-      alt: 'Khẩu hiệu nổi tiếng của Đại hội là “nhìn thẳng vào sự thật, đánh giá đúng sự thật, nói rõ sự thật”. Đổi Mới bắt đầu từ chính việc dám thừa nhận cái sai.' },
+    {
+      "id": "vn-doi-moi-1986",
+      "y": 1986,
+      "date": "15–18/12/1986",
+      "t": "Đại hội VI khởi xướng Đổi Mới",
+      "c": "pol",
+      "imp": 3,
+      "who": "Nguyễn Văn Linh, Trường Chinh",
+      "place": "Hà Nội",
+      "d": "Năm 1986, Đại hội VI khởi xướng Đổi Mới. Quá trình này chuyển dần từ cơ chế kế hoạch hóa tập trung sang việc sử dụng nhiều hơn các cơ chế thị trường, đồng thời mở rộng vai trò của kinh tế tư nhân và đầu tư.",
+      "why": "Từ chủ trương năm 1986, câu chuyện tiếp tục qua các bước thay đổi cụ thể trong sản xuất, lưu thông và đầu tư.",
+      "context": "Những khó khăn của cơ chế quản lý kinh tế và đời sống đặt ra nhu cầu thay đổi. Cải cách cũng dựa trên các thử nghiệm đã xuất hiện trước đó.",
+      "consequences": "Các cải cách về nông nghiệp, giá cả và thương mại được triển khai qua nhiều năm. Chính sách mở thêm không gian cho hoạt động kinh tế tư nhân và hội nhập, tạo điều kiện cho quá trình tăng trưởng về sau.",
+      "refs": [
+        {
+          "url": "https://www.imf.org/en/countries/vnm/vietnam-raising-millions-out-of-poverty",
+          "title": "IMF — Working Together: Vietnam and the IMF",
+          "scope": "Đổi Mới từ 1986, thay đổi chính sách và khuyến khích kinh tế tư nhân/đầu tư."
+        },
+        {
+          "url": "https://www.fao.org/4/ag089e/AG089E08.htm",
+          "title": "FAO — Rapid growth of selected Asian economies",
+          "scope": "Nghị quyết 10 và cải cách giá 1989 trong quá trình đổi mới nông nghiệp."
+        }
+      ],
+      "related": [
+        {
+          "id": "vn-khoan-10-1988",
+          "kind": "consequence",
+          "text": "Khoán 10 là một bước cụ thể trong đổi mới quản lý nông nghiệp.",
+          "ref": "https://www.fao.org/4/ag089e/AG089E08.htm"
+        }
+      ],
+      "ref": "https://www.imf.org/en/countries/vnm/vietnam-raising-millions-out-of-poverty",
+      "consequencesTitle": "Đổi Mới đến với ruộng đồng và chợ như thế nào?"
+    },
 
     { id: 'vn-dau-tu-1987', y: 1987, date: '29/12/1987', t: 'Luật Đầu tư nước ngoài', c: 'sci', imp: 1,
       d: 'Quốc hội thông qua Luật Đầu tư nước ngoài, cho phép doanh nghiệp nước ngoài vào làm ăn dưới hình thức liên doanh hoặc doanh nghiệp 100% vốn nước ngoài, được bảo hộ tài sản và được chuyển lợi nhuận về nước.',
       why: 'Mở cánh cửa đón dòng vốn đầu tư nước ngoài, về sau trở thành một động lực tăng trưởng và xuất khẩu quan trọng của Việt Nam.',
       alt: 'Ít ai ngờ một bộ luật ra đời giữa thời tem phiếu lại là bước khởi đầu cho những khu công nghiệp và nhà máy điện thoại, ô tô hiện đại ngày nay.' },
 
-    { id: 'vn-khoan-10-1988', y: 1988, date: '5/4/1988', t: 'Khoán 10 – ruộng về tay nông dân', c: 'sci', imp: 2,
-      d: 'Nghị quyết 10 của Bộ Chính trị về đổi mới quản lý nông nghiệp, thường gọi là “Khoán 10”, giao ruộng đất cho hộ nông dân sử dụng lâu dài. Hộ gia đình trở thành đơn vị kinh tế tự chủ, được tự quyết định việc sản xuất và hưởng thành quả lao động của mình.',
-      why: 'Giải phóng sức sản xuất ở nông thôn, giúp Việt Nam nhanh chóng thoát khỏi tình trạng thiếu lương thực.',
-      fun: 'Từ những năm 1960, Bí thư tỉnh ủy Vĩnh Phúc Kim Ngọc đã thí điểm “khoán hộ” và từng bị phê phán. Mấy chục năm sau, ý tưởng ấy được thừa nhận là đi trước thời đại.' },
+    {
+      "id": "vn-khoan-10-1988",
+      "y": 1988,
+      "date": "5/4/1988",
+      "t": "Khoán 10 mở rộng quyền tự chủ của hộ nông dân",
+      "c": "sci",
+      "imp": 2,
+      "d": "Nghị quyết 10 ngày 5/4/1988 xác định hộ gia đình xã viên là đơn vị kinh tế tự chủ và mở rộng quyền sử dụng ruộng đất. Chính sách thường được gọi là Khoán 10.",
+      "why": "Năng suất tăng không chỉ do một văn bản. Chính sách, kỹ thuật và nguồn lực thực hiện cùng tác động tới kết quả.",
+      "context": "Nông nghiệp đã trải qua các hình thức khoán và thử nghiệm quản lý trước đó. Những kinh nghiệm ấy góp phần đặt ra yêu cầu tăng quyền chủ động cho người sản xuất.",
+      "consequences": "Hộ nông dân có thêm quyền quyết định cách tổ chức sản xuất và hưởng thành quả từ ruộng mình canh tác. Thay đổi ấy, cùng với cải cách giá cả, đầu tư thủy lợi và cải tiến giống, góp phần làm sản lượng lúa tăng.",
+      "refs": [
+        {
+          "url": "https://baochinhphu.vn/giai-quyet-van-de-nong-nghiep-nong-dan-nong-thon-la-nhiem-vu-cua-ca-he-thong-chinh-tri-va-toan-xa-hoi-102829.htm",
+          "title": "Cổng Chính phủ — Nông nghiệp, nông dân, nông thôn",
+          "scope": "Ngày Nghị quyết 10, vai trò hộ tự chủ; tác dụng cùng thủy lợi, giống và thâm canh."
+        },
+        {
+          "url": "https://www.fao.org/4/ag089e/AG089E08.htm",
+          "title": "FAO — Rapid growth of selected Asian economies",
+          "scope": "Nghị quyết 10 và cải cách giá 1989 trong quá trình đổi mới nông nghiệp."
+        }
+      ],
+      "related": [
+        {
+          "id": "vn-doi-moi-1986",
+          "kind": "background",
+          "text": "Khoán 10 nằm trong tiến trình đổi mới quản lý kinh tế.",
+          "ref": "https://www.fao.org/4/ag089e/AG089E08.htm"
+        },
+        {
+          "id": "vn-xuat-khau-gao-1989",
+          "kind": "consequence",
+          "text": "Quyền tự chủ của hộ nông dân góp phần tăng sản lượng lúa. Những thay đổi trong lưu thông và giá cả cũng giúp gạo đến được thị trường xuất khẩu.",
+          "ref": "https://www.fao.org/4/ag089e/AG089E08.htm"
+        }
+      ],
+      "ref": "https://baochinhphu.vn/giai-quyet-van-de-nong-nghiep-nong-dan-nong-thon-la-nhiem-vu-cua-ca-he-thong-chinh-tri-va-toan-xa-hoi-102829.htm",
+      "consequencesTitle": "Khi hộ nông dân có thêm quyền quyết định"
+    },
 
     { id: 'vn-gac-ma-1988', y: 1988, date: '14/3/1988', t: 'Bảo vệ đảo Gạc Ma', c: 'war', imp: 1,
       place: 'Quần đảo Trường Sa',
@@ -938,21 +1241,75 @@ TL_DATA.push({
       why: 'Là một mốc đau thương trong cuộc đấu tranh bảo vệ chủ quyền biển đảo, nhắc nhở thế hệ sau về giá trị của từng tấc đất, tấc biển.',
       alt: 'Hình ảnh những người lính nắm tay nhau thành vòng tròn quanh lá cờ trên bãi đá giữa biển khơi đã trở thành biểu tượng của lòng yêu nước, được gọi là “vòng tròn bất tử”.' },
 
-    { id: 'vn-xuat-khau-gao-1989', y: 1989, t: 'Từ thiếu ăn thành nước xuất khẩu gạo', c: 'sci', imp: 2,
-      d: 'Chỉ một năm sau Khoán 10, sản lượng lúa tăng vọt. Năm 1989, Việt Nam không những đủ ăn mà còn xuất khẩu khoảng 1,4 triệu tấn gạo, đứng thứ ba thế giới về xuất khẩu gạo.',
-      why: 'Là bằng chứng rõ ràng nhất cho hiệu quả của Đổi Mới; hạt gạo trở thành mặt hàng xuất khẩu chủ lực của Việt Nam suốt nhiều thập kỷ.',
-      alt: 'Vẫn những thửa ruộng ấy, vẫn những người nông dân ấy, chỉ thay đổi cách quản lý mà từ thiếu đói chuyển sang dư thừa. Đôi khi thứ thay đổi số phận một đất nước không phải đất đai mà là chính sách.' },
+    {
+      "id": "vn-xuat-khau-gao-1989",
+      "y": 1989,
+      "t": "Việt Nam trở lại xuất khẩu gạo với quy mô lớn",
+      "c": "sci",
+      "imp": 2,
+      "d": "Năm 1989, sau nhiều năm thiếu lương thực, Việt Nam trở lại xuất khẩu gạo với quy mô lớn. Kết quả ấy gắn với những thay đổi cả trên đồng ruộng lẫn trong việc mua bán lúa gạo.",
+      "why": "Hạt gạo giúp nhìn thấy sự liên hệ giữa chính sách và đời sống: quyền chủ động của người sản xuất cần đi cùng điều kiện đưa sản phẩm ra thị trường.",
+      "context": "Trong thập niên 1980, Việt Nam còn phải nhập khẩu gạo. Sản xuất và lưu thông lương thực là trọng tâm của nhiều thử nghiệm cải cách.",
+      "consequences": "Gạo trở thành một mặt hàng xuất khẩu quan trọng. Thay đổi trên đồng ruộng đi cùng thay đổi ngoài chợ. Hộ nông dân có thêm động lực sản xuất, còn cải cách lưu thông giúp đưa phần lúa dư đến người mua.",
+      "refs": [
+        {
+          "url": "https://documents1.worldbank.org/curated/en/405921532667062948/pdf/19628-WP-P068000-PUBLIC-ACS.pdf",
+          "title": "World Bank — Rice liberalization and reform in Viet Nam",
+          "scope": "Từ nhập khẩu trong thập niên 1980 sang xuất khẩu gạo năm 1989, gắn với các cải cách dần dần."
+        },
+        {
+          "url": "https://www.fao.org/4/ag089e/AG089E08.htm",
+          "title": "FAO — Rapid growth of selected Asian economies",
+          "scope": "Nghị quyết 10 và cải cách giá 1989 trong quá trình đổi mới nông nghiệp."
+        }
+      ],
+      "related": [
+        {
+          "id": "vn-khoan-10-1988",
+          "kind": "background",
+          "text": "Quyền chủ động sản xuất của hộ là một phần bối cảnh cải cách.",
+          "ref": "https://www.fao.org/4/ag089e/AG089E08.htm"
+        }
+      ],
+      "ref": "https://documents1.worldbank.org/curated/en/405921532667062948/pdf/19628-WP-P068000-PUBLIC-ACS.pdf",
+      "consequencesTitle": "Vì sao hạt gạo Việt Nam ra được thị trường thế giới?"
+    },
 
     { id: 'vn-trung-quoc-1991', y: 1991, date: 'Tháng 11/1991', t: 'Bình thường hóa quan hệ Việt – Trung', c: 'pol', imp: 1,
       d: 'Sau hơn một thập kỷ căng thẳng, lãnh đạo cấp cao hai nước gặp nhau tại Bắc Kinh và tuyên bố bình thường hóa quan hệ. Biên giới được mở lại, thương mại giữa hai nước phát triển nhanh chóng.',
       why: 'Tạo môi trường hòa bình ở biên giới phía Bắc để Việt Nam tập trung phát triển kinh tế, mở đầu chính sách đối ngoại đa phương hóa, đa dạng hóa.',
       alt: 'Năm 1991 cũng là năm Liên Xô tan rã. Mất đi chỗ dựa lớn nhất, Việt Nam buộc phải tự tìm bạn mới khắp bốn phương, và chính điều đó đẩy nhanh quá trình hội nhập.' },
 
-    { id: 'vn-hue-1993', ref: 'https://whc.unesco.org/en/list/678', y: 1993, date: '11/12/1993', t: 'Cố đô Huế – di sản thế giới đầu tiên', c: 'cul', imp: 2,
-      place: 'Huế',
-      d: 'UNESCO công nhận Quần thể di tích Cố đô Huế là Di sản văn hóa thế giới, di sản đầu tiên của Việt Nam. Một năm sau, vịnh Hạ Long trở thành Di sản thiên nhiên thế giới; tiếp theo là phố cổ Hội An, thánh địa Mỹ Sơn (1999) và nhiều di sản khác.',
-      why: 'Đưa di sản Việt Nam ra thế giới, mở đường cho du lịch phát triển và nâng cao ý thức gìn giữ di sản.',
-      fun: 'Vịnh Hạ Long được UNESCO vinh danh hai lần: năm 1994 vì giá trị thẩm mỹ và năm 2000 vì giá trị địa chất, địa mạo.' },
+    {
+      "id": "vn-hue-1993",
+      "ref": "https://whc.unesco.org/en/decisions/3361/",
+      "y": 1993,
+      "date": "Năm 1993",
+      "t": "Quần thể di tích Cố đô Huế được ghi danh Di sản Thế giới",
+      "c": "cul",
+      "imp": 2,
+      "place": "Huế",
+      "d": "Năm 1993, quần thể di tích Cố đô Huế được ghi vào Danh sách Di sản Thế giới. Quyết định UNESCO ghi nhận giá trị kiến trúc và cảnh quan của quần thể.",
+      "why": "Huế đặt ra câu chuyện giữ dấu tích kinh đô ngay trong đời sống một thành phố hiện đại.",
+      "context": "Quần thể kiến trúc kinh đô Huế hình thành qua thời nhà Nguyễn và trải qua chiến tranh, hư hại cùng nhiều nỗ lực bảo tồn.",
+      "consequences": "Ghi danh tạo thêm khuôn khổ hợp tác và trách nhiệm bảo tồn. Công việc tiếp tục qua nghiên cứu, tu bổ và quản lý quần thể trong một đô thị vẫn đang sinh sống.",
+      "refs": [
+        {
+          "url": "https://whc.unesco.org/en/decisions/3361/",
+          "title": "UNESCO — Decision 17 COM XI",
+          "scope": "Quyết định ghi danh năm 1993 theo tiêu chí (iv)."
+        }
+      ],
+      "related": [
+        {
+          "id": "vn-kinh-thanh-hue-1805",
+          "kind": "background",
+          "text": "Các công trình kinh đô thời Nguyễn là cơ sở vật chất của quần thể được bảo tồn.",
+          "ref": "https://whc.unesco.org/en/decisions/3361/"
+        }
+      ],
+      "consequencesTitle": "Giữ dấu kinh đô trong lòng thành phố Huế"
+    },
 
     { id: 'vn-500kv-1994', y: 1994, date: '27/5/1994', t: 'Đường dây 500 kV Bắc – Nam', c: 'sci', imp: 1,
       d: 'Đường dây tải điện siêu cao áp dài gần 1.500 km nối từ Hòa Bình vào Phú Lâm (TP. Hồ Chí Minh) chính thức đóng điện, sau khoảng hai năm thi công xuyên qua núi rừng, sông suối hiểm trở.',
@@ -965,32 +1322,121 @@ TL_DATA.push({
       why: 'Gỡ bỏ rào cản lớn để Việt Nam hội nhập kinh tế thế giới và mở rộng quan hệ với các nước phương Tây.',
       alt: 'Từng là đối thủ trên chiến trường, hai nước chọn cách “khép lại quá khứ, hướng tới tương lai”. Hòa giải không xóa đi ký ức, nhưng mở ra một con đường khác cho cả hai dân tộc.' },
 
-    { id: 'vn-asean-1995', y: 1995, date: '28/7/1995', t: 'Việt Nam gia nhập ASEAN', c: 'pol', imp: 3,
-      place: 'Bandar Seri Begawan (Brunei)',
-      d: 'Tại hội nghị ở Brunei, Việt Nam chính thức trở thành thành viên thứ bảy của Hiệp hội các quốc gia Đông Nam Á (ASEAN). Chỉ hơn mười năm trước, hai bên còn nghi kỵ nhau vì vấn đề Campuchia.',
-      why: 'Mở đầu quá trình hội nhập khu vực và quốc tế sâu rộng; ASEAN trở thành một đối tác thương mại và chính trị quan trọng của Việt Nam.',
-      alt: 'ASEAN ra đời năm 1967 khi Việt Nam đang ở giữa chiến tranh, và từng bị xem là một khối đứng ở phía bên kia. Gần 30 năm sau, Việt Nam lại trở thành thành viên tích cực của chính tổ chức ấy.' },
+    {
+      "id": "vn-asean-1995",
+      "y": 1995,
+      "date": "28/7/1995",
+      "t": "Việt Nam gia nhập ASEAN",
+      "c": "pol",
+      "imp": 3,
+      "place": "Bandar Seri Begawan (Brunei)",
+      "d": "Ngày 28/7/1995, Việt Nam gia nhập ASEAN tại Brunei, trở thành thành viên thứ bảy. Tư cách thành viên khác với giai đoạn quan sát viên trước đó.",
+      "why": "Mốc này đánh dấu thay đổi về vị trí của Việt Nam trong cơ chế hợp tác khu vực Đông Nam Á.",
+      "context": "Việt Nam đã tham gia quá trình tiếp xúc và hợp tác với ASEAN trước khi trở thành thành viên đầy đủ.",
+      "consequences": "Việt Nam tham gia đầy đủ hơn vào các cuộc họp, cam kết và chương trình hợp tác khu vực. Mức độ và kết quả hội nhập được hình thành qua nhiều năm, không dừng ở lễ kết nạp.",
+      "refs": [
+        {
+          "url": "https://mofa.gov.vn/tin-chi-tiet/chi-tiet/thong-tin-co-ban-ve-asean-va-quan-he-viet-nam-asean-589.html",
+          "title": "Bộ Ngoại giao — Thông tin cơ bản về ASEAN và quan hệ Việt Nam–ASEAN",
+          "scope": "Gia nhập 28/7/1995, thành viên thứ bảy, quá trình quan hệ trước và sau."
+        }
+      ],
+      "related": [
+        {
+          "id": "vn-asean-observer-1992",
+          "kind": "background",
+          "text": "Giai đoạn quan sát viên là một bước trước khi gia nhập đầy đủ.",
+          "ref": "https://mofa.gov.vn/tin-chi-tiet/chi-tiet/thong-tin-co-ban-ve-asean-va-quan-he-viet-nam-asean-589.html"
+        }
+      ],
+      "ref": "https://mofa.gov.vn/tin-chi-tiet/chi-tiet/thong-tin-co-ban-ve-asean-va-quan-he-viet-nam-asean-589.html",
+      "consequencesTitle": "Từ quan sát viên đến thành viên ASEAN"
+    },
 
-    { id: 'vn-internet-1997', y: 1997, date: '19/11/1997', t: 'Việt Nam chính thức kết nối Internet', c: 'sci', imp: 2,
-      d: 'Việt Nam chính thức hòa mạng Internet toàn cầu. Những năm đầu, số người dùng còn ít, truy cập chủ yếu bằng modem quay số qua đường điện thoại, tốc độ chậm và giá cao. Hơn hai thập kỷ sau, phần lớn người Việt đã dùng Internet hằng ngày, nhất là qua điện thoại thông minh.',
-      why: 'Mở ra kỷ nguyên số, làm thay đổi cách người Việt học tập, làm việc, kinh doanh và kết nối với thế giới.',
-      fun: 'Thời ấy, muốn lên mạng phải nghe một tràng âm thanh “tít tít, rè rè” của modem, và mỗi phút truy cập đều tính tiền nên ai cũng lướt web… rất vội vàng.' },
+    {
+      "id": "vn-internet-1997",
+      "y": 1997,
+      "date": "19/11/1997",
+      "t": "Việt Nam chính thức kết nối Internet",
+      "c": "sci",
+      "imp": 2,
+      "d": "Ngày 19/11/1997, Việt Nam chính thức kết nối với Internet toàn cầu, đánh dấu việc mở dịch vụ sau giai đoạn chuẩn bị về kỹ thuật và quản lý.",
+      "why": "Một cột mốc kỹ thuật chỉ trở thành thay đổi xã hội rộng lớn thông qua quá trình mở rộng khả năng tiếp cận.",
+      "context": "Việc kết nối Internet cần cả hạ tầng kỹ thuật, thử nghiệm và quy định quản lý. Các khâu chuẩn bị đã diễn ra trước ngày mở kết nối chính thức.",
+      "consequences": "Internet tạo thêm hạ tầng cho trao đổi thông tin và các dịch vụ trực tuyến. Sự phổ biến tới người dùng phụ thuộc vào mạng lưới, thiết bị, chi phí và kỹ năng được phát triển về sau.",
+      "refs": [
+        {
+          "url": "https://baochinhphu.vn/15-nam-ket-noi-internet-va-nghi-quyet-49-cp-mo-duong-102135278.htm",
+          "title": "Cổng Chính phủ — 15 năm kết nối Internet",
+          "scope": "Chuẩn bị hạ tầng, chính sách và mở cổng quốc gia ngày 19/11/1997."
+        },
+        {
+          "url": "https://mst.gov.vn/sau-20-nam-internet-vao-viet-nam-64-trieu-nguoi-dung-197136067.htm",
+          "title": "Bộ Khoa học và Công nghệ — Sau 20 năm Internet",
+          "scope": "Quá trình Internet phổ cập và vai trò của hạ tầng kết nối."
+        }
+      ],
+      "related": [],
+      "ref": "https://baochinhphu.vn/15-nam-ket-noi-internet-va-nghi-quyet-49-cp-mo-duong-102135278.htm",
+      "consequencesTitle": "Từ kết nối quốc tế đến đường truyền trong mỗi nhà"
+    },
 
     { id: 'vn-luat-doanh-nghiep-2000', y: 2000, date: '1/1/2000', t: 'Luật Doanh nghiệp mở đường cho tư nhân', c: 'sci', imp: 1,
       d: 'Luật Doanh nghiệp năm 1999 có hiệu lực từ đầu năm 2000, bãi bỏ hàng trăm loại giấy phép con, cho phép người dân tự do kinh doanh những ngành nghề pháp luật không cấm. Hàng chục nghìn doanh nghiệp tư nhân mới ra đời chỉ trong vài năm.',
       why: 'Khu vực kinh tế tư nhân bùng nổ, trở thành động lực quan trọng tạo việc làm và tăng trưởng.',
       alt: 'Tinh thần cốt lõi của luật rất đơn giản: người dân được làm những gì luật không cấm. Một câu nghe có vẻ hiển nhiên, nhưng là cả một cuộc thay đổi tư duy quản lý.' },
 
-    { id: 'vn-bta-2000', y: 2000, date: '13/7/2000', t: 'Hiệp định Thương mại Việt – Mỹ', c: 'sci', imp: 1,
-      d: 'Việt Nam và Hoa Kỳ ký Hiệp định Thương mại song phương, có hiệu lực cuối năm 2001, giúp hàng hóa Việt Nam được hưởng mức thuế thấp khi vào thị trường Mỹ. Tháng 11/2000, Tổng thống Bill Clinton thăm Việt Nam, chuyến thăm đầu tiên của một tổng thống Mỹ kể từ sau chiến tranh.',
-      why: 'Mỹ dần trở thành một trong những thị trường xuất khẩu lớn nhất của Việt Nam, nhất là dệt may, giày dép, đồ gỗ.',
-      alt: 'Chỉ 25 năm sau khi chiến tranh kết thúc, hai nước đã ngồi lại bàn chuyện… quần áo, giày dép và tôm cá. Từ chiến trường đến thị trường là một hành trình dài nhưng đã thành hiện thực.' },
+    {
+      "id": "vn-bta-2000",
+      "y": 2000,
+      "date": "13/7/2000",
+      "t": "Hiệp định Thương mại Việt – Mỹ",
+      "c": "sci",
+      "imp": 1,
+      "d": "Hai nước ký Hiệp định Thương mại song phương ngày 13/7/2000. Sau các thủ tục phê chuẩn, hiệp định có hiệu lực ngày 10/12/2001. Ngày ký và ngày thực hiện vì thế phải được phân biệt.",
+      "why": "Từ lễ ký đến lúc có hiệu lực là một quá trình phê chuẩn: chính các cam kết được thực thi mới thay đổi điều kiện giao thương.",
+      "context": "Quan hệ thương mại Việt Nam–Hoa Kỳ được đàm phán để chuyển thành những cam kết cụ thể về thị trường và quy tắc kinh doanh.",
+      "consequences": "Hiệp định mở rộng quan hệ thương mại bình thường và quy định thay đổi trong tiếp cận thị trường, dịch vụ và bảo hộ quyền sở hữu trí tuệ. Việc triển khai diễn ra qua các nghĩa vụ và lộ trình cam kết.",
+      "refs": [
+        {
+          "url": "https://ustr.gov/sites/default/files/US-VietNam-BilateralTradeAgreement.pdf",
+          "title": "Văn bản Hiệp định thương mại Việt Nam–Hoa Kỳ",
+          "scope": "Ngày ký 13/7/2000."
+        },
+        {
+          "url": "https://ustr.gov/archive/Document_Library/Press_Releases/2001/December/United_States_Vietnam_Trade_Agreement_Takes_Effect_Today.html",
+          "title": "USTR — United States and Vietnam Trade Agreement Takes Effect Today",
+          "scope": "Có hiệu lực 10/12/2001, các nhóm tác động pháp lý và tiếp cận thị trường."
+        }
+      ],
+      "related": [],
+      "ref": "https://ustr.gov/sites/default/files/US-VietNam-BilateralTradeAgreement.pdf",
+      "consequencesTitle": "Từ ngày ký đến ngày hiệp định có hiệu lực"
+    },
 
-    { id: 'vn-nha-nhac-2003', ref: 'https://ich.unesco.org/en/RL/nha-nhac-vietnamese-court-music-00074', y: 2003, date: '7/11/2003', t: 'Nhã nhạc cung đình Huế thành di sản', c: 'cul', imp: 1,
-      place: 'Huế',
-      d: 'Năm 2003, UNESCO tuyên xưng Nhã nhạc là Kiệt tác di sản truyền khẩu và phi vật thể của nhân loại. Năm 2008, Nhã nhạc được ghi vào Danh sách Di sản văn hóa phi vật thể đại diện của nhân loại. Dòng âm nhạc nghi lễ này phát triển qua nhiều triều đại và được tổ chức chặt chẽ dưới triều Nguyễn.',
-      why: 'Giúp hồi sinh những loại hình nghệ thuật truyền thống từng có nguy cơ mai một sau chiến tranh.',
-      alt: 'Thứ âm nhạc xưa chỉ dành cho vua chúa nay được biểu diễn cho du khách bình thường ở Huế. Có thể nói nhã nhạc cũng đã đi một hành trình dài: từ cung đình ra phố.' },
+    {
+      "id": "vn-nha-nhac-2003",
+      "ref": "https://ich.unesco.org/en/RL/nha-nhac-vietnamese-court-music-00074",
+      "y": 2003,
+      "date": "Năm 2003",
+      "t": "UNESCO tuyên dương Nhã nhạc cung đình Huế",
+      "c": "cul",
+      "imp": 1,
+      "place": "Huế",
+      "d": "Năm 2003, Nhã nhạc được UNESCO tuyên xưng trong chương trình Kiệt tác di sản truyền khẩu và phi vật thể. Năm 2008, di sản được ghi vào Danh sách đại diện theo cơ chế công ước sau đó.",
+      "why": "Nhã nhạc đi từ môi trường nghi lễ cung đình tới câu chuyện truyền dạy và bảo vệ di sản trong xã hội hiện đại.",
+      "context": "Nhã nhạc gắn với nghi lễ cung đình qua nhiều triều đại và được quy định chặt chẽ dưới thời Nguyễn. Sau khi chế độ quân chủ kết thúc, môi trường thực hành của nó thay đổi.",
+      "consequences": "Việc ghi nhận hướng sự chú ý đến nhu cầu gìn giữ kỹ năng, tiết mục và người thực hành. Giá trị của di sản vẫn cần được truyền qua nghệ nhân và hoạt động thực hành.",
+      "refs": [
+        {
+          "url": "https://ich.unesco.org/en/RL/nha-nhac-vietnamese-court-music-00074",
+          "title": "UNESCO ICH — Nha Nhac, Vietnamese court music",
+          "scope": "Nguồn gốc thực hành cung đình, tuyên xưng 2003 và ghi danh 2008."
+        }
+      ],
+      "related": [],
+      "consequencesTitle": "Ai sẽ chơi Nhã nhạc cho thế hệ kế tiếp?"
+    },
 
     { id: 'vn-sea-games-2003', y: 2003, date: 'Tháng 12/2003', t: 'Việt Nam lần đầu đăng cai SEA Games', c: 'cul', imp: 1,
       place: 'Hà Nội, TP. Hồ Chí Minh',
@@ -998,11 +1444,28 @@ TL_DATA.push({
       why: 'Khẳng định khả năng tổ chức sự kiện quốc tế lớn, quảng bá hình ảnh một Việt Nam năng động, hòa bình.',
       alt: 'Với nhiều người, SEA Games 22 là lần đầu được cổ vũ các đoàn vận động viên quốc tế ngay trên sân nhà, một trải nghiệm hội nhập rất đời thường sau những năm dài khép kín.' },
 
-    { id: 'vn-wto-2007', ref: 'https://www.wto.org/english/theWTO_e/countries_e/vietnam_e.htm', y: 2007, date: '11/1/2007', t: 'Việt Nam gia nhập WTO', c: 'pol', imp: 3,
-      place: 'Giơ-ne-vơ (Thụy Sĩ)',
-      d: 'Sau hơn 11 năm đàm phán, Việt Nam chính thức trở thành thành viên thứ 150 của Tổ chức Thương mại Thế giới (WTO). Việt Nam cam kết mở cửa thị trường, giảm thuế, minh bạch hóa luật lệ để buôn bán bình đẳng với các nước.',
-      why: 'Đánh dấu sự hội nhập đầy đủ vào kinh tế toàn cầu, thúc đẩy xuất khẩu và thu hút đầu tư nước ngoài mạnh mẽ.',
-      alt: 'Gia nhập WTO giống như được vào một câu lạc bộ có luật chơi chung: cơ hội lớn hơn, nhưng cũng phải cạnh tranh sòng phẳng với những đối thủ mạnh nhất thế giới.' },
+    {
+      "id": "vn-wto-2007",
+      "ref": "https://www.wto.org/english/thewto_e/countries_e/vietnam_e.htm",
+      "y": 2007,
+      "date": "11/1/2007",
+      "t": "Việt Nam gia nhập WTO",
+      "c": "pol",
+      "imp": 3,
+      "d": "Từ ngày 11/1/2007, Việt Nam là thành viên WTO. Tư cách này đi cùng các biểu cam kết hàng hóa, dịch vụ và những quy định thương mại của tổ chức.",
+      "why": "Mốc gia nhập nối các quyết định cải cách trong nước với một hệ thống quy tắc thương mại chung mà doanh nghiệp phải học cách vận dụng.",
+      "context": "Trước khi gia nhập WTO, Việt Nam đã theo đuổi các bước cải cách và mở rộng quan hệ thương mại. Gia nhập đòi hỏi đàm phán cùng các cam kết cụ thể.",
+      "consequences": "Thương mại được đặt trong một khuôn khổ nhiều bên có cơ chế thông báo và giải quyết tranh chấp. Cơ hội tiếp cận thị trường đi cùng nghĩa vụ thực hiện cam kết và sức ép cạnh tranh.",
+      "refs": [
+        {
+          "url": "https://www.wto.org/english/thewto_e/countries_e/vietnam_e.htm",
+          "title": "WTO — Viet Nam and the WTO",
+          "scope": "Ngày thành viên, biểu cam kết và tham gia khuôn khổ WTO."
+        }
+      ],
+      "related": [],
+      "consequencesTitle": "Quyền tiếp cận thị trường đi cùng cam kết nào?"
+    },
 
     { id: 'vn-vinasat-2008', y: 2008, date: '19/4/2008', t: 'Vệ tinh VINASAT-1 lên quỹ đạo', c: 'sci', imp: 1,
       place: 'Bãi phóng Kourou (Guiana thuộc Pháp)',
@@ -1217,12 +1680,38 @@ TL_DATA.push({
       fun: 'Câu “Vạn Lý Trường Thành nhìn thấy được từ Mặt Trăng” chỉ là chuyện tưởng tượng. Tường quá hẹp, đến phi hành gia bay quanh Trái Đất cũng rất khó nhận ra bằng mắt thường.',
       alt: 'Nếu cộng mọi đoạn tường qua các thời kỳ, tổng chiều dài lên tới hơn 21.000 km, dài hơn nửa vòng Trái Đất.' },
 
-    { id: 'cn-binh-ma-dung-210tcn', y: -210, date: '210 TCN (phát hiện năm 1974)', r: 'Trung Quốc',
-      t: 'Đội quân đất nung canh lăng Tần Thủy Hoàng', c: 'cul', imp: 2, place: 'Lâm Đồng, Tây An',
-      d: 'Tần Thủy Hoàng mất năm 210 TCN, được chôn trong khu lăng mộ khổng lồ, có khoảng 8.000 tượng lính, ngựa và chiến xa bằng đất nung bảo vệ; mỗi tượng lính có khuôn mặt riêng. Năm 1974, nông dân đào giếng gần Tây An tình cờ phát hiện ra đội quân này.',
-      why: 'Một “kho tư liệu sống” về quân đội, trang phục và kỹ thuật thời Tần; nay là di sản thế giới UNESCO.',
-      fun: 'Ban đầu các tượng được sơn màu rực rỡ, nhưng lớp sơn bong tróc chỉ sau vài phút tiếp xúc với không khí khi khai quật. Đó là một lý do khiến phần lớn lăng chính đến nay vẫn chưa được mở.',
-      alt: 'Ông vua cả đời đi tìm thuốc trường sinh; cuối cùng thứ “bất tử” lại là đội quân bằng đất sét của ông.' },
+    {
+      "id": "cn-binh-ma-dung-210tcn",
+      "y": -210,
+      "date": "210 TCN (phát hiện năm 1974)",
+      "r": "Trung Quốc",
+      "t": "Đội quân đất nung canh lăng Tần Thủy Hoàng",
+      "c": "cul",
+      "imp": 2,
+      "place": "Gần Tây An, Trung Quốc",
+      "d": "Khi hoàng đế mất năm 210 TCN, một thế giới thu nhỏ đã được chuẩn bị quanh lăng gần Tây An: binh sĩ đất nung, ngựa, chiến xa cùng vũ khí. Những hố tượng được phát hiện năm 1974 giúp khảo cổ học nhìn rõ hơn tổ chức quân đội, kỹ thuật chế tác và quan niệm mai táng của nhà Tần.",
+      "why": "Đội quân đất nung lưu giữ dấu vết của cả một hệ thống lao động và quyền lực, không chỉ chân dung một vị vua.",
+      "context": "Tần Thủy Hoàng thống nhất các nước đối địch năm 221 TCN. Quần thể lăng của ông được xây dựng qua nhiều năm, chứ không bắt đầu chỉ sau ngày thống nhất.",
+      "consequences": "Di tích trở thành nguồn tư liệu vật chất quan trọng để kiểm tra hình dung về đế chế đầu tiên, bên cạnh các ghi chép thành văn.",
+      "refs": [
+        {
+          "url": "https://whc.unesco.org/en/list/441/",
+          "title": "UNESCO — Mausoleum of the First Qin Emperor",
+          "scope": "Niên đại, cấu trúc quần thể lăng và ý nghĩa khảo cổ của đội quân đất nung."
+        }
+      ],
+      "related": [
+        {
+          "id": "cn-tan-thong-nhat-221tcn",
+          "kind": "background",
+          "text": "Quyền lực của hoàng đế thống nhất là bối cảnh để đọc quy mô và cách tổ chức quần thể lăng.",
+          "ref": "https://whc.unesco.org/en/list/441/"
+        }
+      ],
+      "who": "Tần Thủy Hoàng",
+      "consequencesTitle": "Một nguồn sử liệu dưới lòng đất",
+      "ref": "https://whc.unesco.org/en/list/441/"
+    },
 
     { id: 'cn-luu-bang-lap-han-206tcn', y: -206, date: '206–202 TCN', r: 'Trung Quốc',
       t: 'Lưu Bang lập nhà Hán', c: 'pol', imp: 3, who: 'Lưu Bang (Hán Cao Tổ)',
@@ -1883,17 +2372,73 @@ TL_DATA.push({
       d: 'Thời Edo, tranh khắc gỗ ukiyo-e (“tranh phù thế”) vẽ diễn viên kịch, mỹ nhân và phong cảnh được in hàng loạt và bán rẻ cho dân thành thị. Khoảng năm 1831, Katsushika Hokusai cho ra loạt tranh “36 cảnh núi Phú Sĩ”, trong đó có bức con sóng khổng lồ nổi tiếng toàn cầu.',
       why: 'Ukiyo-e ảnh hưởng mạnh tới các họa sĩ châu Âu như Van Gogh, Monet; con sóng của Hokusai trở thành biểu tượng của nghệ thuật Nhật Bản.',
       fun: 'Ngày nay con sóng ấy xuất hiện khắp nơi, từ áo phông, cốc uống nước cho tới biểu tượng cảm xúc hình sóng biển trên điện thoại của bạn.' },
-    { id: 'ea-tau-den-perry-1853', y: 1853, date: '1853 – 1854', r: 'Nhật Bản', t: 'Hạm đội “tàu đen” của Perry đến Nhật', c: 'pol', imp: 2, who: 'Đô đốc Matthew Perry (Mỹ)', place: 'Vịnh Edo',
-      d: 'Tháng 7/1853, đô đốc Mỹ Matthew Perry dẫn bốn chiến hạm vỏ sơn đen, hai chiếc chạy bằng hơi nước, tiến vào vịnh Edo và đòi Nhật Bản mở cửa giao thương. Năm sau ông quay lại với hạm đội lớn hơn; Mạc phủ buộc phải ký Hiệp ước Kanagawa, chấm dứt hơn 200 năm tỏa quốc.',
-      why: 'Cú sốc trước sức mạnh phương Tây làm Mạc phủ mất uy tín, dẫn thẳng tới cuộc Minh Trị Duy Tân 15 năm sau.',
-      alt: 'Một bài thơ trào phúng thời ấy chơi chữ rằng chỉ cần “bốn chén trà” (đồng âm với bốn con tàu hơi nước) là đủ khiến cả nước mất ngủ.',
-      vn: 'Cũng trong thập niên này, năm 1858, liên quân Pháp – Tây Ban Nha nổ súng tấn công Đà Nẵng. Nhật Bản chọn cải cách để tự cường, còn triều Nguyễn không kịp đổi mới và dần mất nước.' },
-    { id: 'ea-minh-tri-duy-tan-1868', y: 1868, r: 'Nhật Bản', t: 'Minh Trị Duy Tân', c: 'pol', imp: 3, who: 'Thiên hoàng Minh Trị (Meiji)',
-      d: 'Năm 1868, phe ủng hộ Thiên hoàng lật đổ Mạc phủ Tokugawa và trao lại quyền lực cho Thiên hoàng Minh Trị. Chính quyền mới xóa bỏ chế độ lãnh chúa và đặc quyền samurai, mở trường học bắt buộc, xây đường sắt, nhà máy và lập quân đội theo kiểu phương Tây.',
-      why: 'Chỉ trong vài chục năm, Nhật Bản từ một nước phong kiến khép kín trở thành cường quốc công nghiệp đầu tiên ở châu Á và tránh được số phận thuộc địa.',
-      alt: 'Khẩu hiệu thời ấy là “phú quốc cường binh” và “văn minh khai hóa”. Người Nhật cắt búi tóc samurai, mặc âu phục, ăn thịt bò, nhưng vẫn giữ nhiều truyền thống riêng.',
-      fun: 'Nhà tư tưởng Fukuzawa Yukichi, người cổ vũ mạnh mẽ việc học phương Tây, từng xuất hiện trên tờ tiền 10.000 yên suốt 40 năm (1984–2024).',
-      vn: 'Thành công của Nhật Bản truyền cảm hứng cho các nhà yêu nước Việt Nam đầu thế kỷ XX: Phan Bội Châu khởi xướng phong trào Đông Du, đưa thanh niên sang Nhật học tập.' },
+    {
+      "id": "ea-tau-den-perry-1853",
+      "y": 1853,
+      "date": "1853 – 1854",
+      "r": "Nhật Bản",
+      "t": "Hạm đội “tàu đen” của Perry đến Nhật",
+      "c": "pol",
+      "imp": 2,
+      "who": "Matthew Perry",
+      "place": "Vịnh Edo",
+      "d": "Tháng 7/1853, Matthew Perry đưa bốn tàu đến vịnh Edo. Ông trở lại năm sau; Hiệp ước Kanagawa được ký ngày 31/3/1854, mở một số cảng cho tiếp tế và quy định việc đối xử với thủy thủ Mỹ. Đây chưa phải một hiệp định tự do thương mại toàn diện.",
+      "why": "Mở cửa là một chuỗi thương lượng và khủng hoảng, không phải một công tắc bật trong ngày.",
+      "context": "Giữa thế kỷ XIX, Hoa Kỳ muốn có nơi tiếp tế và bảo vệ thủy thủ trên các tuyến Thái Bình Dương. Nhật Bản kiểm soát chặt quan hệ với bên ngoài, nhưng vẫn có những kênh giao thương hạn chế.",
+      "consequences": "Sức ép đối ngoại góp phần thúc đẩy tranh luận về hướng đi và chính quyền của Nhật. Quá trình dẫn tới Minh Trị còn có nhiều xung đột và lựa chọn trong nước.",
+      "refs": [
+        {
+          "url": "https://history.state.gov/milestones/1830-1860/opening-to-japan",
+          "title": "Office of the Historian — The United States and the Opening to Japan",
+          "scope": "Hạm đội 1853, Hiệp ước Kanagawa 1854 và giới hạn của thỏa thuận ban đầu."
+        },
+        {
+          "url": "https://www.ndl.go.jp/modern/e/cha1/index.html",
+          "title": "National Diet Library — Initial Steps toward a Constitutional State",
+          "scope": "Tranh luận sau mở cửa, hoàn trả quyền lực 1867, Ngũ điều thệ ước 1868 và cải tổ thể chế lâu dài."
+        }
+      ],
+      "related": [
+        {
+          "id": "ea-minh-tri-duy-tan-1868",
+          "kind": "connection",
+          "text": "Sức ép mở cửa góp phần làm sâu sắc tranh luận chính trị; không thể xem Perry là nguyên nhân duy nhất của Minh Trị.",
+          "ref": "https://www.ndl.go.jp/modern/e/cha1/index.html"
+        }
+      ],
+      "consequencesTitle": "Mở cửa làm sâu sắc tranh luận chính trị",
+      "ref": "https://history.state.gov/milestones/1830-1860/opening-to-japan"
+    },
+    {
+      "id": "ea-minh-tri-duy-tan-1868",
+      "y": 1868,
+      "r": "Nhật Bản",
+      "t": "Minh Trị Duy Tân",
+      "c": "pol",
+      "imp": 3,
+      "who": "Thiên hoàng Minh Trị",
+      "d": "Năm 1868, chính quyền Minh Trị ban hành Ngũ điều thệ ước, nêu chủ trương bàn bạc việc nước và tìm kiếm tri thức. Bộ máy mới tiếp tục được điều chỉnh trong những năm sau; đây không phải một gói cải cách hoàn tất ngay khi niên hiệu đổi.",
+      "why": "Minh Trị là một quá trình tranh luận, xây dựng và tập trung quyền lực kéo dài.",
+      "context": "Sau khi Nhật mở cửa, câu hỏi tổ chức nhà nước được tranh luận mạnh mẽ. Việc hoàn trả quyền lực chính trị cho triều đình năm 1867 là một bước trong cuộc chuyển đổi ấy.",
+      "consequences": "Những bất đồng về ai được tham gia quyết định tiếp tục nuôi dưỡng các kiến nghị đòi nghị viện và hiến pháp. Cải tổ từ chính quyền và sức ép chính trị trong xã hội cùng định hình thể chế mới.",
+      "refs": [
+        {
+          "url": "https://www.ndl.go.jp/modern/e/cha1/index.html",
+          "title": "National Diet Library — Initial Steps toward a Constitutional State",
+          "scope": "Tranh luận sau mở cửa, hoàn trả quyền lực 1867, Ngũ điều thệ ước 1868 và cải tổ thể chế lâu dài."
+        }
+      ],
+      "related": [
+        {
+          "id": "ea-tau-den-perry-1853",
+          "kind": "background",
+          "text": "Mở cửa là một bối cảnh quan trọng của tranh luận về hình thức chính quyền mới.",
+          "ref": "https://www.ndl.go.jp/modern/e/cha1/index.html"
+        }
+      ],
+      "consequencesTitle": "Cải cách tiếp tục qua tranh luận",
+      "ref": "https://www.ndl.go.jp/modern/e/cha1/index.html"
+    },
     { id: 'ea-hiep-uoc-giang-hoa-1876', y: 1876, r: 'Triều Tiên', t: 'Hiệp ước Giang Hoa mở cửa Triều Tiên', c: 'pol', imp: 1,
       d: 'Thế kỷ XIX, Triều Tiên đóng cửa chặt đến mức người phương Tây gọi là “vương quốc ẩn sĩ”. Năm 1876, Nhật Bản đưa chiến hạm tới ép Triều Tiên ký Hiệp ước Giang Hoa (Ganghwa), mở ba cảng cho thương nhân Nhật và cho người Nhật được xét xử theo luật Nhật trên đất Triều Tiên.',
       why: 'Hiệp ước bất bình đẳng mở đầu cho cuộc tranh giành ảnh hưởng của các cường quốc trên bán đảo, kết thúc bằng việc Nhật thôn tính Triều Tiên.',
@@ -2387,12 +2932,29 @@ TL_DATA.push({
       d: 'Sau Thế chiến II, các thuộc địa ở Đông Nam Á lần lượt giành độc lập: Philippines (1946, từ Mỹ), Miến Điện (1948, từ Anh), Indonesia (Hà Lan công nhận năm 1949), Lào và Campuchia (1953, từ Pháp), Malaya (1957, từ Anh). Có nơi đạt được qua đàm phán, có nơi phải trải qua chiến tranh.',
       why: 'Bản đồ chính trị của Đông Nam Á hiện đại được định hình chỉ trong khoảng một thập kỷ.',
       vn: 'Việt Nam tuyên bố độc lập năm 1945 nhưng phải kháng chiến chín năm chống Pháp; chiến thắng Điện Biên Phủ năm 1954 cổ vũ phong trào giải phóng ở nhiều nước.' },
-    { id: 'sa-an-do-pakistan-doc-lap-1947', y: 1947, date: '14–15/8/1947', r: 'Ấn Độ – Pakistan', t: 'Ấn Độ và Pakistan độc lập', c: 'pol', imp: 3,
-      who: 'Jawaharlal Nehru, Muhammad Ali Jinnah',
-      d: 'Kiệt quệ sau Thế chiến II, nước Anh phải trao trả độc lập cho Ấn Độ. Lãnh thổ bị chia làm hai: Ấn Độ đa số theo đạo Hindu và Pakistan đa số theo đạo Hồi. Cuộc chia cắt vội vã khiến khoảng 10–20 triệu người phải rời bỏ nhà cửa; hàng trăm nghìn người, có thể đến hàng triệu, thiệt mạng trong bạo lực tôn giáo.',
-      why: 'Hai quốc gia đông dân bậc nhất thế giới ra đời, khép lại gần 200 năm người Anh thống trị Nam Á.',
-      alt: 'Đường biên giới chia cắt được một luật sư người Anh vạch ra chỉ trong khoảng 5 tuần, dù ông chưa từng đặt chân đến Ấn Độ trước đó: số phận hàng triệu người được quyết định trên một tấm bản đồ.',
-      vn: 'Ấn Độ sớm ủng hộ cuộc kháng chiến của Việt Nam; Thủ tướng Nehru thăm Hà Nội tháng 10/1954, chỉ ít ngày sau khi thủ đô được giải phóng.' },
+    {
+      "id": "sa-an-do-pakistan-doc-lap-1947",
+      "y": 1947,
+      "date": "14–15/8/1947",
+      "r": "Ấn Độ – Pakistan",
+      "t": "Ấn Độ và Pakistan độc lập",
+      "c": "pol",
+      "imp": 3,
+      "d": "Tháng 8/1947, Ấn Độ và Pakistan trở thành hai quốc gia độc lập. Pakistan khi đó gồm hai phần cách xa nhau. Biên giới mới cắt qua những vùng dân cư đan xen; nhiều người phải rời nhà, trong khi bạo lực cộng đồng khiến cuộc chuyển giao trở thành một thảm kịch với vô số gia đình.",
+      "why": "Không nên kể năm 1947 chỉ như một lễ trao trả quyền lực êm thấm.",
+      "context": "Cuộc đấu tranh chống thuộc địa tại Nam Á đi cùng bất đồng về đại diện chính trị và tương lai các cộng đồng tôn giáo. Khi Anh rút đi, độc lập được thực hiện đồng thời với việc phân chia lãnh thổ.",
+      "consequences": "Vì thế, độc lập và chia cắt là hai mặt của cùng bước ngoặt: chủ quyền mới được hình thành cùng những vấn đề biên giới và ký ức mất mát.",
+      "refs": [
+        {
+          "url": "https://www.nationalarchives.gov.uk/education/teaching-resources/partition-of-british-india/",
+          "title": "The National Archives UK — Partition of British India",
+          "scope": "Độc lập và phân chia năm 1947, di cư và bạo lực; không dùng con số tử vong ước tính."
+        }
+      ],
+      "related": [],
+      "consequencesTitle": "Chủ quyền mới, mất mát lớn",
+      "ref": "https://www.nationalarchives.gov.uk/education/teaching-resources/partition-of-british-india/"
+    },
     { id: 'sa-gandhi-bi-am-sat-1948', y: 1948, date: '30/1/1948', r: 'Ấn Độ', t: 'Mahatma Gandhi bị ám sát', c: 'pol', imp: 1,
       who: 'Mahatma Gandhi', place: 'New Delhi',
       d: 'Chưa đầy nửa năm sau ngày độc lập, Gandhi, người cả đời kêu gọi hòa giải giữa người Hindu và người Hồi giáo, bị một phần tử Hindu cực đoan bắn chết ở New Delhi. Kẻ ám sát cho rằng ông quá nhân nhượng với Pakistan và người Hồi giáo.',
@@ -2418,13 +2980,35 @@ TL_DATA.push({
       d: 'Giữa thập niên 1960, Ấn Độ đứng trước nguy cơ thiếu lương thực trầm trọng, phải nhập khẩu lúa mì. Nhờ các giống lúa mì, lúa nước năng suất cao, cùng phân bón và thủy lợi, sản lượng lương thực tăng vọt, đặc biệt ở bang Punjab, giúp Ấn Độ dần tự túc lương thực.',
       why: 'Giúp hàng trăm triệu người thoát khỏi nguy cơ đói ăn, dù cũng để lại hậu quả về đất bạc màu và cạn kiệt nước ngầm.',
       vn: 'Giống lúa IR8 do Viện Nghiên cứu Lúa Quốc tế ở Philippines lai tạo, ở miền Nam Việt Nam gọi là “lúa Thần Nông”, được đưa vào trồng từ cuối thập niên 1960.' },
-    { id: 'sa-thanh-lap-asean-1967', y: 1967, date: '8/8/1967', r: 'Đông Nam Á', t: 'Thành lập ASEAN', c: 'pol', imp: 3,
-      place: 'Bangkok',
-      d: 'Ngày 8/8/1967, ngoại trưởng năm nước Indonesia, Malaysia, Philippines, Singapore và Thái Lan ký Tuyên bố Bangkok, lập Hiệp hội các quốc gia Đông Nam Á (ASEAN) nhằm hợp tác kinh tế, văn hóa và giữ gìn hòa bình trong khu vực.',
-      why: 'ASEAN dần mở rộng thành tổ chức của gần như toàn bộ Đông Nam Á, một trong những khối hợp tác khu vực bền bỉ nhất thế giới.',
-      fun: 'Văn kiện khai sinh ASEAN, Tuyên bố Bangkok, chỉ dài khoảng hai trang giấy.',
-      alt: 'Năm nước sáng lập có ngôn ngữ, tôn giáo, chế độ chính trị rất khác nhau; vì vậy “phong cách ASEAN” đề cao đồng thuận, bàn bạc từ tốn và không can thiệp vào việc nội bộ của nhau.',
-      vn: 'Việt Nam gia nhập ASEAN ngày 28/7/1995, là thành viên thứ bảy; tiếp theo là Lào, Myanmar (1997) và Campuchia (1999).' },
+    {
+      "id": "sa-thanh-lap-asean-1967",
+      "y": 1967,
+      "date": "8/8/1967",
+      "r": "Đông Nam Á",
+      "t": "Thành lập ASEAN",
+      "c": "pol",
+      "imp": 3,
+      "place": "Bangkok, Thái Lan",
+      "d": "Ngày 8/8/1967 tại Bangkok, đại diện Indonesia, Malaysia, Philippines, Singapore và Thái Lan ký tuyên bố thành lập ASEAN. Văn kiện đặt ra mục tiêu thúc đẩy tăng trưởng kinh tế, tiến bộ xã hội, phát triển văn hóa và hòa bình, ổn định khu vực.",
+      "why": "Giá trị ban đầu nằm ở việc biến mong muốn hợp tác thành một khuôn khổ chung.",
+      "context": "Các quốc gia Đông Nam Á mới độc lập đứng trước nhu cầu phát triển và những bất đồng an ninh trong khu vực. Hợp tác đòi hỏi một khuôn khổ để các chính phủ tiếp tục đối thoại.",
+      "consequences": "Tổ chức mới cung cấp một cơ chế hợp tác thường xuyên. Các mục tiêu trong tuyên bố là chương trình cần theo đuổi, không có nghĩa mọi xung đột đã biến mất hoặc một thị trường chung lập tức hình thành.",
+      "refs": [
+        {
+          "url": "https://asean.org/the-founding-of-asean/",
+          "title": "ASEAN — The Founding of ASEAN",
+          "scope": "Năm thành viên sáng lập, Bangkok 8/8/1967 và mục tiêu hợp tác."
+        },
+        {
+          "url": "https://asean.mfa.go.th/en/page/62206-the-birth-of-asean?menu=5d68abb115e39c1b9c05d33d",
+          "title": "Thailand Ministry of Foreign Affairs — The Birth of ASEAN",
+          "scope": "Bối cảnh thương lượng và mục tiêu hợp tác trong Tuyên bố Bangkok."
+        }
+      ],
+      "related": [],
+      "consequencesTitle": "Hợp tác có một khuôn khổ chung",
+      "ref": "https://asean.org/the-founding-of-asean/"
+    },
     { id: 'sa-bangladesh-ra-doi-1971', y: 1971, r: 'Bangladesh', t: 'Nước Bangladesh ra đời', c: 'pol', imp: 1,
       d: 'Khi mới độc lập, Pakistan gồm hai phần cách nhau khoảng 1600 km lãnh thổ Ấn Độ. Người Đông Pakistan nói tiếng Bengal, bất bình vì bị phía Tây chèn ép về chính trị, kinh tế và cả ngôn ngữ. Năm 1971, sau cuộc chiến tranh giải phóng đau thương có Ấn Độ can thiệp, Đông Pakistan tách ra thành nước Bangladesh.',
       why: 'Cho thấy ngôn ngữ và bản sắc văn hóa có thể mạnh hơn sợi dây tôn giáo trong việc định hình một quốc gia.',
@@ -3015,11 +3599,58 @@ TL_DATA.push({
       why: 'Athens là nơi đầu tiên thử nghiệm việc để người dân tự quyết định vận mệnh thành bang, ý tưởng còn sống đến ngày nay.',
       fun: 'Mỗi năm, công dân Athens có thể bỏ phiếu trục xuất một chính khách bị coi là nguy hiểm bằng cách viết tên người đó lên mảnh gốm vỡ. Ai bị nhiều phiếu nhất phải rời thành bang 10 năm.',
       alt: 'Phụ nữ, nô lệ và người nước ngoài không được bỏ phiếu, nên “nhân dân” ở Athens thực ra chỉ chiếm khoảng 10–20% số người sống trong thành bang.' },
-    { id: 'eu-marathon-490tcn', y: -490, r: 'Hy Lạp', t: 'Trận Marathon', c: 'war', imp: 2, place: 'Đồng bằng Marathon, gần Athens',
-      d: 'Vua Ba Tư Darius I đưa quân đổ bộ lên Hy Lạp để trừng phạt Athens. Dù ít quân hơn, quân Athens và đồng minh Plataea bất ngờ tấn công và đánh bại người Ba Tư trên đồng bằng Marathon, buộc họ rút về.',
-      why: 'Chiến thắng cho các thành bang Hy Lạp niềm tin rằng có thể đứng vững trước đế quốc lớn nhất thế giới thời đó.',
-      fun: 'Truyền thuyết kể một người lính chạy một mạch từ Marathon về Athens báo tin thắng trận. Cự ly marathon 42,195 km ngày nay có từ Thế vận hội London 1908, để đường chạy kết thúc ngay trước khán đài hoàng gia.',
-      alt: 'Với người Ba Tư, Marathon chỉ là một thất bại nhỏ ở rìa đế quốc; với người Hy Lạp, đó là câu chuyện truyền đời. Cùng một trận đánh, hai cách nhớ rất khác nhau.' },
+    {
+      "id": "eu-marathon-490tcn",
+      "y": -490,
+      "r": "Hy Lạp",
+      "t": "Trận Marathon",
+      "c": "war",
+      "imp": 2,
+      "place": "Đồng bằng Marathon, gần Athens",
+      "d": "Năm 490 TCN, quân Ba Tư đổ bộ lên đồng bằng Marathon, gần Athens. Tại đây, quân Athens và đồng minh từ Plataea đánh bại lực lượng đổ bộ.",
+      "alt": "Những binh sĩ Athens tử trận được chôn gần nơi họ chiến đấu. Gò đất phủ lên ngôi mộ chung vẫn còn ở Marathon. Người Athens cũng dựng một đài bằng đá cẩm thạch để ghi nhớ chiến thắng. Những mảnh đá gốc hiện được giữ tại bảo tàng khảo cổ địa phương.",
+      "context": "Khi các thành bang Hy Lạp ở Ionia nổi dậy chống quyền cai trị của Ba Tư, Athens đã gửi quân giúp họ. Sau khi dẹp cuộc nổi dậy, vua Darius I đưa quân sang biển Aegea để trừng phạt những thành bang từng tiếp viện.",
+      "consequences": "Athens giữ được thành trong cuộc tiến công năm 490 TCN. Đến năm 480 TCN, vua Xerxes mở một chiến dịch mới. Lần này quân Ba Tư vượt qua Thermopylae và tiến vào Athens, còn hạm đội Hy Lạp đón đánh ở eo biển Salamis.",
+      "consequencesTitle": "Mười năm sau Marathon, quân Ba Tư trở lại",
+      "refs": [
+        {
+          "url": "https://2500years.culture.gov.gr/en/chapters/persiki-polemi",
+          "title": "Bộ Văn hóa Hy Lạp — Các cuộc chiến với Ba Tư",
+          "scope": "Athens giúp cuộc nổi dậy ở Ionia, trận Marathon và cuộc tiến công của Xerxes."
+        },
+        {
+          "url": "https://www.hh.gr/en/destinations/marathon/",
+          "title": "Hellenic Heritage — Di tích Marathon",
+          "scope": "Gò mộ gần chiến trường và những mảnh còn lại của đài kỷ niệm chiến thắng."
+        },
+        {
+          "url": "https://www.metmuseum.org/de/essays/the-achaemenid-persian-empire-550-330-b-c",
+          "title": "The Met — The Achaemenid Persian Empire",
+          "scope": "Bối cảnh Ionia, Marathon năm 490 và cuộc tiến công của Xerxes năm 480 TCN."
+        },
+        {
+          "url": "https://worldathletics.org/news/feature/1896-olympic-marathon-spiridon-louis-125-anniversary-breal-cup",
+          "title": "World Athletics — Cuộc marathon Olympic đầu tiên",
+          "scope": "Đề xuất của Michel Bréal, truyền thuyết người đưa tin, đường chạy và kết quả năm 1896."
+        }
+      ],
+      "related": [
+        {
+          "id": "eu-thermopylae-salamis-480tcn",
+          "kind": "connection",
+          "text": "Mười năm sau Marathon, cuộc tiến công của Xerxes đưa chiến tranh sang những trận đánh mới.",
+          "ref": "https://www.metmuseum.org/de/essays/the-achaemenid-persian-empire-550-330-b-c"
+        },
+        {
+          "id": "eu-marathon-olympic-1896",
+          "kind": "connection",
+          "text": "Truyền thuyết người đưa tin truyền cảm hứng cho đường chạy từ Marathon về Athens hơn hai nghìn năm sau.",
+          "ref": "https://worldathletics.org/news/feature/1896-olympic-marathon-spiridon-louis-125-anniversary-breal-cup"
+        }
+      ],
+      "altTitle": "Gò đất bên chiến trường Marathon",
+      "ref": "https://2500years.culture.gov.gr/en/chapters/persiki-polemi"
+    },
     { id: 'eu-thermopylae-salamis-480tcn', y: -480, r: 'Hy Lạp', t: 'Thermopylae và hải chiến Salamis', c: 'war', imp: 2, who: 'Vua Leonidas, Themistocles',
       d: 'Vua Ba Tư Xerxes đem đại quân xâm lược Hy Lạp. Vua Sparta Leonidas cùng vài nghìn quân chặn đèo Thermopylae nhiều ngày rồi hy sinh. Khoảng một tháng sau, hạm đội Athens do Themistocles chỉ huy nhử thuyền Ba Tư vào eo biển hẹp Salamis và đánh tan chúng.',
       why: 'Thắng lợi giữ được nền độc lập của các thành bang, mở ra “thời kỳ hoàng kim” của văn hóa Hy Lạp.',
@@ -3190,12 +3821,44 @@ TL_DATA.push({
       why: 'Năm 1453 thường được coi là mốc kết thúc thời Trung cổ; nhiều học giả Hy Lạp chạy sang Ý mang theo sách cổ, tiếp sức cho Phục Hưng.',
       fun: 'Để vượt sợi xích lớn chắn cửa vịnh Sừng Vàng, quân Ottoman đã kéo cả đoàn thuyền đi đường bộ qua đồi, trên những súc gỗ bôi mỡ.',
       alt: 'Khi con đường buôn bán qua phía đông bị đế quốc Ottoman kiểm soát, các nước Tây Âu càng có động lực tìm đường biển sang châu Á — tiền đề của thời đại phát kiến địa lý.' },
-    { id: 'eu-gutenberg-1455', y: 1455, ca: true, date: 'Khoảng 1450–1455', r: 'Đức', t: 'Gutenberg in sách bằng chữ rời kim loại', c: 'sci', imp: 3,
-      who: 'Johannes Gutenberg', place: 'Mainz',
-      d: 'Gutenberg chế tạo máy in dùng con chữ kim loại rời có thể sắp xếp lại, kết hợp mực dầu và bàn ép. Cuốn Kinh Thánh in khoảng năm 1455 là cuốn sách lớn đầu tiên ở châu Âu được in theo cách này.',
-      why: 'Sách trở nên rẻ và phổ biến, tri thức lan nhanh, góp phần thúc đẩy Phục Hưng, Cải cách tôn giáo và cách mạng khoa học.',
-      alt: 'Trước Gutenberg, chép tay một cuốn Kinh Thánh mất cả năm trời. Hệ thống của Gutenberg giúp tăng quy mô in sách ở châu Âu; kỹ thuật in đã có lịch sử lâu đời ở Đông Á trước đó.',
-      vn: 'Ở Việt Nam, nghề in mộc bản (khắc chữ trên ván gỗ) phát triển mạnh từ thời Lê sơ; Mộc bản triều Nguyễn nay là Di sản tư liệu thế giới.' },
+    {
+      "id": "eu-gutenberg-1455",
+      "y": 1455,
+      "ca": true,
+      "date": "Khoảng 1450–1455",
+      "r": "Đức",
+      "t": "Gutenberg in sách bằng chữ rời kim loại",
+      "c": "sci",
+      "imp": 3,
+      "who": "Johannes Gutenberg",
+      "place": "Mainz",
+      "d": "Khoảng năm 1455 tại Mainz, xưởng của ông hoàn thành bản Kinh Thánh nổi tiếng. Điểm quan trọng không phải phát minh ra mọi hình thức in trên thế giới, mà là khả năng sản xuất nhiều bản chữ in có chất lượng và sắp xếp lại con chữ cho trang tiếp theo.",
+      "why": "Một thay đổi trong cách làm sách cũng làm đổi tốc độ lưu thông ý tưởng.",
+      "context": "Ở châu Âu, việc nhân bản sách lâu nay phụ thuộc nhiều vào chép tay. Gutenberg phát triển một hệ thống in kết hợp các con chữ kim loại có thể tái sử dụng với quy trình ép in.",
+      "consequences": "Khi nghề in lan rộng, những cuộc tranh luận có thể tiếp cận người đọc qua nhiều bản sao. Các luận đề của Luther sau này là một trường hợp rõ rệt.",
+      "refs": [
+        {
+          "url": "https://wwws.loc.gov/exhibits/bibles/the-gutenberg-bible.html",
+          "title": "Library of Congress — The Gutenberg Bible",
+          "scope": "Bản Kinh Thánh Mainz, kỹ thuật chữ rời và niên đại khoảng 1455."
+        },
+        {
+          "url": "https://www.loc.gov/resource/gdcwdl.wdl_07497/?st=pdf",
+          "title": "Library of Congress — Ninety-five Theses",
+          "scope": "Luận đề năm 1517, mục đích tranh luận ban đầu và vai trò của in ấn trong phổ biến văn bản."
+        }
+      ],
+      "related": [
+        {
+          "id": "eu-luther-1517",
+          "kind": "connection",
+          "text": "In ấn góp phần phổ biến luận đề của Luther; đây là một điều kiện truyền thông, không phải nguyên nhân duy nhất của Cải cách.",
+          "ref": "https://www.loc.gov/resource/gdcwdl.wdl_07497/?st=pdf"
+        }
+      ],
+      "consequencesTitle": "Ý tưởng đi xa nhờ bản in",
+      "ref": "https://wwws.loc.gov/exhibits/bibles/the-gutenberg-bible.html"
+    },
     { id: 'eu-ugra-1480', y: 1480, r: 'Nga', t: 'Nước Nga thoát ách Mông Cổ', c: 'pol', imp: 1, who: 'Đại công Ivan III',
       d: 'Đại công Ivan III của Moskva ngừng nộp cống cho hãn Mông Cổ. Hai đạo quân đối mặt nhau bên hai bờ sông Ugra suốt nhiều tuần nhưng không giao chiến lớn, rồi quân của hãn rút lui. Ách thống trị kéo dài khoảng 240 năm chấm dứt.',
       why: 'Moskva trở thành trung tâm thống nhất các vùng đất Nga, đặt nền móng cho nhà nước Nga sau này.',
@@ -3217,10 +3880,36 @@ TL_DATA.push({
       d: 'Theo lệnh Giáo hoàng Julius II, Michelangelo dành bốn năm vẽ hơn 300 nhân vật trên trần nhà nguyện Sistine, trong đó có bức “Sáng tạo Adam” nổi tiếng. Trước đó, ông đã tạc tượng David cao hơn 5 mét bằng đá cẩm thạch.',
       why: 'Tác phẩm là một đỉnh cao của nghệ thuật Phục Hưng, thu hút hàng triệu du khách mỗi năm.',
       fun: 'Ông vẽ trong tư thế đứng ngửa cổ chứ không nằm như lời đồn, và còn làm cả một bài thơ than phiền về cái cổ đau. Michelangelo vốn tự coi mình là nhà điêu khắc, không phải họa sĩ.' },
-    { id: 'eu-luther-1517', y: 1517, r: 'Đức', t: 'Luther khởi xướng Cải cách tôn giáo', c: 'cul', imp: 3, who: 'Martin Luther',
-      d: 'Linh mục Martin Luther công bố 95 luận điểm phản đối việc giáo hội bán “giấy xá tội” lấy tiền. Nhờ máy in, các bài viết của ông lan khắp nước Đức chỉ trong vài tuần. Luther còn dịch Kinh Thánh sang tiếng Đức để người dân tự đọc được.',
-      why: 'Cải cách tôn giáo chia châu Âu thành Công giáo và Tin Lành, dẫn tới nhiều cuộc chiến nhưng cũng thúc đẩy giáo dục và tư tưởng tự do.',
-      fun: 'Chuyện Luther đóng đinh 95 luận điểm lên cửa nhà thờ vẫn còn bị tranh cãi. Chắc chắn hơn là ông trở thành “tác giả bán chạy” đầu tiên của thời đại máy in.' },
+    {
+      "id": "eu-luther-1517",
+      "y": 1517,
+      "r": "Đức",
+      "t": "Luther khởi xướng Cải cách tôn giáo",
+      "c": "cul",
+      "imp": 3,
+      "who": "Martin Luther",
+      "d": "Năm 1517, ông đưa ra 95 luận đề, ban đầu nhằm mở một cuộc tranh biện học thuật. Những bản in đưa văn bản vượt khỏi phạm vi đại học. Các cuộc đối đầu tôn giáo và chính trị sau đó biến tranh luận này thành một phần quan trọng của phong trào Cải cách.",
+      "why": "Điều đáng chú ý là con đường từ tranh luận chuyên môn đến biến động xã hội.",
+      "context": "Việc rao bán ân xá trong Giáo hội Công giáo gây tranh cãi về tiền bạc, thẩm quyền và sự cứu rỗi. Luther tham gia cuộc tranh luận ấy với tư cách một nhà thần học.",
+      "consequences": "Không thể quy toàn bộ sự phân chia tôn giáo ở châu Âu cho một văn bản. Nhưng trường hợp này cho thấy công nghệ truyền thông có thể mở rộng mạnh mẽ phạm vi một ý tưởng.",
+      "refs": [
+        {
+          "url": "https://www.loc.gov/resource/gdcwdl.wdl_07497/?st=pdf",
+          "title": "Library of Congress — Ninety-five Theses",
+          "scope": "Luận đề năm 1517, mục đích tranh luận ban đầu và vai trò của in ấn trong phổ biến văn bản."
+        }
+      ],
+      "related": [
+        {
+          "id": "eu-gutenberg-1455",
+          "kind": "background",
+          "text": "Sự phổ biến của kỹ thuật in tạo điều kiện nhân bản và lưu hành các bài viết cải cách.",
+          "ref": "https://www.loc.gov/resource/gdcwdl.wdl_07497/?st=pdf"
+        }
+      ],
+      "consequencesTitle": "Tranh luận vượt khỏi giảng đường",
+      "ref": "https://www.loc.gov/resource/gdcwdl.wdl_07497/?st=pdf"
+    },
     { id: 'eu-magellan-1519', y: 1519, y2: 1522, r: 'Tây Ban Nha', t: 'Chuyến đi vòng quanh Trái Đất đầu tiên', c: 'sci', imp: 3, who: 'Ferdinand Magellan, Juan Sebastián Elcano',
       d: 'Năm 1519, Magellan dẫn 5 thuyền với khoảng 270 người rời Tây Ban Nha, vượt eo biển ở cực nam châu Mỹ và băng qua đại dương mà ông đặt tên là Thái Bình Dương. Magellan tử trận ở Philippines; năm 1522, chỉ một con thuyền với 18 người về được tới nơi xuất phát.',
       why: 'Chuyến đi chứng minh Trái Đất hình cầu và các đại dương thông nhau, đồng thời cho thấy thế giới rộng lớn hơn nhiều so với hình dung.',
@@ -3285,16 +3974,61 @@ TL_DATA.push({
       d: 'Ở Anh, máy kéo sợi, máy dệt và động cơ hơi nước lần lượt ra đời, thay sức người bằng sức máy. Nhà máy mọc lên, nông dân kéo ra thành phố làm công nhân, than đá và sắt thép trở thành “máu” của nền kinh tế.',
       why: 'Đây là bước ngoặt lớn nhất trong đời sống loài người kể từ khi biết làm nông: sản xuất tăng vọt, thế giới bước vào thời hiện đại.',
       alt: 'Mặt trái cũng rất lớn: trẻ em làm việc nhiều giờ trong nhà máy, thành phố đầy khói bụi. Từ đây nảy sinh phong trào công nhân và các tư tưởng xã hội chủ nghĩa.' },
-    { id: 'eu-watt-1769', y: 1769, r: 'Anh (Scotland)', t: 'James Watt cải tiến máy hơi nước', c: 'sci', imp: 2, who: 'James Watt',
-      d: 'Kỹ sư người Scotland James Watt thêm bộ ngưng tụ riêng vào máy hơi nước, giúp máy chạy khỏe hơn mà tốn ít than hơn nhiều. Máy của ông được dùng để bơm nước ở mỏ, chạy máy dệt, sau này kéo cả tàu hỏa và tàu thủy.',
-      why: 'Động cơ hơi nước hiệu quả trở thành “trái tim” của cách mạng công nghiệp.',
-      fun: 'Để dễ bán máy, Watt so sánh sức máy với sức ngựa và đặt ra đơn vị “mã lực”. Còn đơn vị công suất oát (watt) in trên mọi bóng đèn được đặt theo tên ông.' },
-    { id: 'eu-cach-mang-phap-1789', y: 1789, date: '14/7/1789', r: 'Pháp', t: 'Cách mạng Pháp bùng nổ', c: 'pol', imp: 3, place: 'Paris',
-      d: 'Nhà nước phá sản, giá bánh mì tăng vọt, người dân Paris nổi dậy phá ngục Bastille, biểu tượng của chế độ chuyên chế. Quốc hội ra Tuyên ngôn Nhân quyền và Dân quyền, khẳng định con người sinh ra tự do và bình đẳng về quyền. Năm 1793, vua Louis XVI bị xử tử.',
-      why: 'Cách mạng Pháp lan truyền khẩu hiệu “Tự do – Bình đẳng – Bác ái” khắp thế giới, làm lung lay mọi ngai vàng chuyên chế.',
-      fun: 'Câu “Không có bánh mì thì ăn bánh ngọt” gán cho hoàng hậu Marie Antoinette rất có thể chưa từng được bà nói ra.',
-      alt: 'Cùng năm 1789, ở Đại Việt, vua Quang Trung đại phá quân Thanh ở Ngọc Hồi – Đống Đa. Hai biến cố lớn xảy ra cùng lúc ở hai đầu lục địa Á – Âu.',
-      vn: 'Năm 1945, Tuyên ngôn Độc lập của Việt Nam trích ý của bản tuyên ngôn này: “Người ta sinh ra tự do và bình đẳng về quyền lợi”. Hệ mét mà ta dùng hằng ngày cũng ra đời từ cuộc cách mạng này.' },
+    {
+      "id": "eu-watt-1769",
+      "y": 1769,
+      "r": "Anh (Scotland)",
+      "t": "James Watt cải tiến máy hơi nước",
+      "c": "sci",
+      "imp": 2,
+      "who": "James Watt",
+      "d": "Năm 1769, James Watt được cấp bằng sáng chế cho thiết kế có bộ ngưng tụ riêng. Tách quá trình ngưng tụ khỏi xi-lanh giúp giảm hao phí nhiên liệu. Đây là kết quả của nhiều năm thử nghiệm; từ một ý tưởng hiệu quả đến chiếc máy đáng tin cậy dùng trong sản xuất vẫn cần thêm thời gian và hợp tác kỹ thuật.",
+      "why": "Watt cải thiện một công nghệ đang phát triển, thay vì một mình khởi động toàn bộ cách mạng công nghiệp.",
+      "context": "Máy hơi nước đã tồn tại trước Watt. Một vấn đề lớn là năng lượng bị mất khi cùng một bộ phận phải liên tục nóng lên rồi nguội đi.",
+      "consequences": "Những cải tiến ấy giúp mở rộng khả năng sử dụng động lực hơi nước. Tuy nhiên, công nghiệp hóa còn dựa vào vốn, lao động, nhiên liệu, thị trường và nhiều sáng kiến khác.",
+      "refs": [
+        {
+          "url": "https://blog.sciencemuseum.org.uk/james-watt-and-the-separate-condenser/",
+          "title": "Science Museum — James Watt and the separate condenser",
+          "scope": "Bằng sáng chế 1769, vấn đề thất thoát nhiệt, hiệu suất và quá trình đưa máy vào sử dụng."
+        }
+      ],
+      "related": [
+        {
+          "id": "eu-cach-mang-cong-nghiep-1760",
+          "kind": "connection",
+          "text": "Cải tiến của Watt nằm trong tiến trình công nghiệp hóa đã khởi đầu trước bằng sáng chế 1769.",
+          "ref": "https://blog.sciencemuseum.org.uk/james-watt-and-the-separate-condenser/"
+        }
+      ],
+      "consequencesTitle": "Hơi nước được dùng hiệu quả hơn",
+      "ref": "https://blog.sciencemuseum.org.uk/james-watt-and-the-separate-condenser/"
+    },
+    {
+      "id": "eu-cach-mang-phap-1789",
+      "y": 1789,
+      "date": "1789",
+      "r": "Pháp",
+      "t": "Cách mạng Pháp bùng nổ",
+      "c": "pol",
+      "imp": 3,
+      "place": "Versailles và Pháp",
+      "d": "Tháng 6, đại biểu Đẳng cấp thứ ba cùng một số đại biểu khác tuyên bố thành lập Quốc hội. Những diễn biến ở Versailles cho thấy cách mạng không chỉ là một ngày nổi dậy: quyền quyết định công việc quốc gia đang được đòi chuyển khỏi khuôn khổ quân chủ cũ.",
+      "why": "Năm 1789 đánh dấu việc chủ quyền quốc gia trở thành một vấn đề được tranh đấu công khai.",
+      "context": "Khó khăn tài chính và khủng hoảng chính trị khiến Louis XVI triệu tập Hội nghị Ba đẳng cấp tại Versailles tháng 5/1789. Tranh chấp nhanh chóng chuyển sang câu hỏi ai có quyền đại diện cho quốc gia.",
+      "consequences": "Cuộc khủng hoảng mở ra quá trình thay đổi thể chế đầy xung đột. Các nhóm tham gia có mục tiêu khác nhau, nên những bước ngoặt về sau không phải kết cục được định sẵn từ đầu.",
+      "refs": [
+        {
+          "url": "https://en.chateauversailles.fr/discover/history/key-dates/versailles-heart-french-revolution",
+          "title": "Palace of Versailles — Versailles at the heart of the French Revolution",
+          "scope": "Khủng hoảng, Hội nghị Ba đẳng cấp và Quốc hội năm 1789."
+        }
+      ],
+      "related": [],
+      "who": "Louis XVI",
+      "consequencesTitle": "Ai đại diện cho quốc gia?",
+      "ref": "https://en.chateauversailles.fr/discover/history/key-dates/versailles-heart-french-revolution"
+    },
     { id: 'eu-jenner-1796', y: 1796, r: 'Anh', t: 'Jenner và vắc-xin đậu mùa', c: 'sci', imp: 2, who: 'Edward Jenner',
       d: 'Bác sĩ Jenner để ý rằng các cô vắt sữa từng mắc bệnh đậu bò (một bệnh nhẹ) thì không bị đậu mùa. Ông lấy dịch từ vết đậu bò cấy cho một cậu bé 8 tuổi, rồi chứng minh cậu đã miễn dịch với đậu mùa.',
       why: 'Đây là vắc-xin đầu tiên trong lịch sử; nhờ tiêm chủng, đến năm 1980 bệnh đậu mùa đã bị xóa sổ hoàn toàn trên Trái Đất.',
@@ -3326,10 +4060,29 @@ TL_DATA.push({
       d: 'Năm 1848, cách mạng nổ ra liên tiếp ở Pháp, các bang Đức, Áo, Hungary, Ý, đòi hiến pháp, quyền bầu cử và độc lập dân tộc. Cũng năm đó, Marx và Engels công bố “Tuyên ngôn của Đảng Cộng sản” ở London. Phần lớn các cuộc cách mạng bị dập tắt sau một năm.',
       why: 'Dù thất bại, làn sóng 1848 gieo mầm cho dân chủ, chủ nghĩa dân tộc và phong trào công nhân khắp châu Âu.',
       vn: 'Chủ nghĩa Mác về sau được Nguyễn Ái Quốc tiếp thu và truyền bá vào Việt Nam trong những năm 1920.' },
-    { id: 'eu-darwin-1859', y: 1859, r: 'Anh', t: 'Darwin công bố thuyết tiến hóa', c: 'sci', imp: 3, who: 'Charles Darwin',
-      d: 'Sau chuyến đi vòng quanh thế giới trên tàu Beagle và hơn 20 năm nghiên cứu, Darwin xuất bản cuốn “Nguồn gốc các loài”. Ông giải thích các loài biến đổi dần qua chọn lọc tự nhiên: cá thể nào thích nghi tốt hơn thì sống sót và sinh sản nhiều hơn.',
-      why: 'Thuyết tiến hóa trở thành nền tảng của sinh học hiện đại, thay đổi cách con người hiểu về chính mình.',
-      fun: 'Darwin ấp ủ ý tưởng suốt hai thập kỷ và chỉ vội cho in khi nhận thư của Alfred Wallace trình bày một ý tưởng gần như giống hệt. Bản in đầu tiên bán hết ngay trong ngày.' },
+    {
+      "id": "eu-darwin-1859",
+      "y": 1859,
+      "r": "Anh",
+      "t": "Darwin xuất bản Nguồn gốc các loài",
+      "c": "sci",
+      "imp": 3,
+      "who": "Charles Darwin, Alfred Russel Wallace",
+      "d": "Các công trình của Darwin và Wallace được giới thiệu chung tại Hội Linnean tháng 7/1858. Sự việc thúc đẩy Darwin viết bản trình bày ngắn hơn công trình lớn ông dự tính. Tháng 11/1859, Nguồn gốc các loài được xuất bản, đưa lập luận cùng nhiều bằng chứng đến độc giả rộng hơn.",
+      "why": "Darwin không đơn độc có ý tưởng tiến hóa; đóng góp nổi bật là hệ thống lập luận về chọn lọc tự nhiên.",
+      "context": "Darwin đã thu thập bằng chứng và suy nghĩ về sự biến đổi của các loài trong nhiều năm. Năm 1858, một bản thảo của Alfred Russel Wallace trình bày ý tưởng chọn lọc tự nhiên tương tự đến tay ông.",
+      "consequences": "Câu chuyện cho thấy một lý thuyết lớn có thể được nhiều người phát triển độc lập, rồi định hình qua trao đổi và công bố.",
+      "refs": [
+        {
+          "url": "https://www.darwinproject.ac.uk/origin-species",
+          "title": "University of Cambridge — On the Origin of Species",
+          "scope": "Thư Wallace, công bố chung 1858 và sách của Darwin năm 1859."
+        }
+      ],
+      "related": [],
+      "consequencesTitle": "Lý thuyết hình thành qua trao đổi",
+      "ref": "https://www.darwinproject.ac.uk/origin-species"
+    },
     { id: 'eu-mendeleev-1869', ref: 'https://periodic-table.rsc.org/about', y: 1869, r: 'Nga', t: 'Mendeleev lập bảng tuần hoàn', c: 'sci', imp: 1, who: 'Dmitri Mendeleev',
       d: 'Nhà hóa học Nga Mendeleev sắp xếp các nguyên tố đã biết theo khối lượng và tính chất, phát hiện chúng lặp lại theo chu kỳ. Ông mạnh dạn để trống vài ô và dự đoán tính chất của những nguyên tố chưa ai tìm ra.',
       why: 'Bảng tuần hoàn trở thành “tấm bản đồ” của hóa học; các nguyên tố ông dự đoán như gali, gecmani lần lượt được tìm thấy đúng như mô tả.',
@@ -3356,11 +4109,36 @@ TL_DATA.push({
       why: 'Từ một công trình tạm thời, tháp Eiffel trở thành biểu tượng của Paris và của kỹ thuật kết cấu thép.',
       fun: 'Tháp chỉ được cấp phép đứng 20 năm rồi tháo dỡ; nó được giữ lại vì rất tiện để đặt ăng-ten vô tuyến điện.',
       vn: 'Nhiều người tin cầu Long Biên ở Hà Nội do Eiffel thiết kế, nhưng thực ra cầu do một hãng khác của Pháp là Daydé & Pillé xây dựng (1898–1902).' },
-    { id: 'eu-lumiere-1895', y: 1895, date: '28/12/1895', r: 'Pháp', t: 'Anh em Lumière chiếu phim lần đầu', c: 'cul', imp: 2, who: 'Auguste và Louis Lumière', place: 'Paris',
-      d: 'Anh em nhà Lumière dùng chiếc máy vừa quay vừa chiếu do mình chế tạo, tổ chức buổi chiếu phim bán vé đầu tiên trong tầng hầm một quán cà phê ở Paris. Khán giả xem mười đoạn phim ngắn về cảnh đời thường, như công nhân tan ca hay em bé ăn sáng.',
-      why: 'Buổi chiếu được coi là ngày ra đời của điện ảnh, loại hình nghệ thuật và giải trí lớn nhất thế kỷ XX.',
-      fun: 'Giai thoại kể khán giả hoảng hốt bỏ chạy khi thấy đoàn tàu trên màn ảnh lao tới — nhiều khả năng đã được thổi phồng, nhưng nghe thì rất “điện ảnh”.',
-      vn: 'Những thước phim đầu tiên quay tại Việt Nam do các nhà quay phim của hãng Lumière ghi lại vào khoảng năm 1899–1900.' },
+    {
+      "id": "eu-lumiere-1895",
+      "y": 1895,
+      "date": "28/12/1895",
+      "r": "Pháp",
+      "t": "Khán giả Paris mua vé xem phim của anh em Lumière",
+      "c": "cul",
+      "imp": 2,
+      "who": "Auguste và Louis Lumière",
+      "place": "Paris",
+      "d": "Ngày 28/12/1895, anh em Lumière tổ chức buổi chiếu phim bán vé tại Grand Café ở Paris. Cinématographe cho phép ghi và chiếu hình ảnh chuyển động, đưa những cảnh đời thường lên màn ảnh trước một nhóm khán giả. Đây là một cột mốc nổi bật của lịch sử điện ảnh, nhưng không nên gọi là buổi chiếu bán vé đầu tiên trên thế giới một cách tuyệt đối.",
+      "why": "Điểm quan trọng không chỉ là máy quay, mà còn là mối quan hệ giữa phim, người tổ chức buổi chiếu và khán giả.",
+      "context": "Cuối thế kỷ XIX, nhiều nhà phát minh thử ghi và trình chiếu hình chuyển động. Các thiết bị và buổi trình diễn khác nhau cùng góp phần hình thành điện ảnh.",
+      "consequences": "Những buổi chiếu như vậy giúp hình chuyển động đi từ thiết bị thử nghiệm sang một trải nghiệm xem chung. Điện ảnh tiếp tục phát triển qua nhiều người làm phim, kỹ thuật và mô hình kinh doanh khác nhau.",
+      "refs": [
+        {
+          "url": "https://www.bfi.org.uk/sight-and-sound/features/origins-cinema-early-inventors-pioneers",
+          "title": "BFI — Cinema’s murky origin story",
+          "scope": "Bối cảnh nhiều nhà phát minh và các buổi chiếu bán vé trước Lumière."
+        },
+        {
+          "url": "https://catalogue-lumiere.com/faq-movies/",
+          "title": "Catalogue Lumière — FAQ",
+          "scope": "Ngày và địa điểm buổi chiếu ở Paris."
+        }
+      ],
+      "related": [],
+      "consequencesTitle": "Khi khán giả mua vé xem những hình ảnh chuyển động",
+      "ref": "https://www.bfi.org.uk/sight-and-sound/features/origins-cinema-early-inventors-pioneers"
+    },
     { id: 'eu-tia-x-1895', y: 1895, r: 'Đức', t: 'Röntgen phát hiện tia X', c: 'sci', imp: 1, who: 'Wilhelm Röntgen',
       d: 'Khi thí nghiệm với ống phóng điện, nhà vật lý Röntgen phát hiện một loại tia vô hình xuyên qua được da thịt nhưng bị xương chặn lại. Vì chưa biết bản chất của nó, ông gọi là tia X.',
       why: 'Tia X mở ra kỷ nguyên chẩn đoán hình ảnh trong y học, và Röntgen nhận giải Nobel Vật lý đầu tiên năm 1901.',
@@ -3443,11 +4221,41 @@ TL_DATA.push({
       why: 'Khám phá giải thích cách thông tin di truyền được lưu giữ và sao chép, mở đường cho y học, công nghệ sinh học và giải mã bộ gen người.',
       fun: 'Hôm tìm ra mô hình, Crick bước vào quán rượu quen gần trường và tuyên bố họ vừa tìm ra “bí mật của sự sống”.',
       alt: 'Franklin qua đời năm 1958 nên không được cùng nhận giải Nobel năm 1962; ngày nay vai trò của bà mới được ghi nhận đầy đủ hơn.' },
-    { id: 'eu-sputnik-1957', y: 1957, date: '4/10/1957', r: 'Liên Xô', t: 'Sputnik – vệ tinh nhân tạo đầu tiên', c: 'sci', imp: 3,
-      d: 'Liên Xô phóng Sputnik 1, quả cầu kim loại đường kính 58 cm, nặng 83,6 kg, bay quanh Trái Đất và phát tín hiệu “bíp bíp” mà ai có máy thu thanh cũng nghe được. Nước Mỹ giật mình, vội thành lập cơ quan NASA năm 1958.',
-      why: 'Sputnik mở đầu kỷ nguyên vũ trụ và cuộc chạy đua vào không gian giữa hai siêu cường.',
-      alt: 'Hôm nay có hàng nghìn vệ tinh trên quỹ đạo phục vụ dự báo thời tiết, định vị, truyền hình và Internet — tất cả bắt đầu từ một quả cầu nhỏ biết kêu “bíp”.',
-      vn: 'Việt Nam có vệ tinh viễn thông đầu tiên VINASAT-1 năm 2008, và năm 2013 đưa lên quỹ đạo vệ tinh nhỏ PicoDragon do người Việt tự chế tạo.' },
+    {
+      "id": "eu-sputnik-1957",
+      "y": 1957,
+      "date": "4/10/1957",
+      "r": "Liên Xô",
+      "t": "Sputnik – vệ tinh nhân tạo đầu tiên",
+      "c": "sci",
+      "imp": 3,
+      "d": "Ngày 4/10/1957, Liên Xô đưa Sputnik 1 vào quỹ đạo, trở thành nước đầu tiên phóng thành công vệ tinh nhân tạo quanh Trái Đất. Thành công gây chấn động tại Mỹ và làm cuộc cạnh tranh không gian được chú ý mạnh hơn trong chính trị lẫn công chúng.",
+      "why": "Một vật thể trên quỹ đạo đã tác động tới cách các chính phủ tổ chức đầu tư khoa học.",
+      "context": "Trong Chiến tranh Lạnh, năng lực tên lửa và nghiên cứu không gian cũng là cách hai siêu cường thể hiện sức mạnh khoa học, công nghiệp và tổ chức.",
+      "consequences": "Các cuộc điều trần ở Quốc hội Mỹ sau vụ phóng Sputnik thúc đẩy quyết định giao chương trình không gian dân sự cho một cơ quan chung. Tháng 7/1958, Tổng thống Eisenhower ký đạo luật thành lập NASA.",
+      "refs": [
+        {
+          "url": "https://www.nasa.gov/history/65-years-ago-sputnik-ushers-in-the-space-age/",
+          "title": "NASA — Sputnik Ushers in the Space Age",
+          "scope": "Sputnik 4/10/1957 và tác động chính trị, tổ chức dẫn tới thành lập NASA 1958."
+        },
+        {
+          "url": "https://www.nasa.gov/history/sputnik/sputorig.html",
+          "title": "NASA History — Sputnik and the Origins of the Space Age",
+          "scope": "Vai trò của Sputnik trong cuộc tranh luận ở Mỹ, NACA và hai mốc thành lập, hoạt động của NASA."
+        }
+      ],
+      "related": [
+        {
+          "id": "am-nasa-1958",
+          "kind": "consequence",
+          "text": "Quốc hội Mỹ thảo luận cách tổ chức chương trình không gian, mở đường cho việc thành lập NASA.",
+          "ref": "https://www.nasa.gov/history/sputnik/sputorig.html"
+        }
+      ],
+      "consequencesTitle": "Mỹ tổ chức lại chương trình không gian",
+      "ref": "https://www.nasa.gov/history/65-years-ago-sputnik-ushers-in-the-space-age/"
+    },
     { id: 'eu-gagarin-1961', y: 1961, date: '12/4/1961', r: 'Liên Xô', t: 'Gagarin bay vào vũ trụ', c: 'sci', imp: 3, who: 'Yuri Gagarin',
       d: 'Phi công 27 tuổi Yuri Gagarin bay trên tàu Vostok 1, vòng quanh Trái Đất một lần trong 108 phút rồi trở về an toàn. Ông trở thành người đầu tiên bay vào vũ trụ và là người hùng của cả thế giới.',
       why: 'Chuyến bay chứng minh con người có thể sống và làm việc ngoài không gian, mở đường cho các chuyến bay lên Mặt Trăng.',
@@ -3473,11 +4281,38 @@ TL_DATA.push({
       d: 'Làn sóng biểu tình lan khắp Đông Âu. Tối 9/11/1989, một quan chức Đông Đức tuyên bố nhầm trong buổi họp báo rằng người dân được qua biên giới “ngay lập tức”. Hàng vạn người đổ ra các trạm kiểm soát và lính gác buộc phải mở cổng. Ngày 3/10/1990, nước Đức thống nhất.',
       why: 'Sự kiện là biểu tượng cho sự kết thúc Chiến tranh Lạnh và sự sụp đổ của các chế độ xã hội chủ nghĩa ở Đông Âu.',
       fun: 'Cánh cổng lịch sử mở ra phần nào nhờ... một câu trả lời họp báo chưa đọc kỹ văn bản. Đêm đó, người Berlin hai phía trèo lên tường, ôm nhau và đập từng mảnh tường làm kỷ niệm.' },
-    { id: 'eu-www-1989', y: 1989, y2: 1991, r: 'Thụy Sĩ (CERN)', t: 'World Wide Web ra đời', c: 'sci', imp: 3, who: 'Tim Berners-Lee',
-      d: 'Tại phòng thí nghiệm CERN, Tim Berners-Lee đề xuất cách liên kết các tài liệu trên mạng bằng siêu liên kết, rồi viết trình duyệt và trang web đầu tiên. Năm 1993, CERN cho phép mọi người dùng công nghệ này miễn phí.',
-      why: 'Web biến Internet từ công cụ của giới khoa học thành không gian chung của hàng tỷ người, thay đổi cách học tập, làm việc và giải trí.',
-      fun: 'Sếp của Berners-Lee đã ghi bên lề bản đề xuất: “Mơ hồ nhưng thú vị”.',
-      vn: 'Việt Nam chính thức kết nối Internet toàn cầu ngày 19/11/1997.' },
+    {
+      "id": "eu-www-1989",
+      "y": 1989,
+      "y2": 1991,
+      "r": "Thụy Sĩ (CERN)",
+      "t": "Tim Berners-Lee đề xuất World Wide Web",
+      "c": "sci",
+      "imp": 3,
+      "who": "Tim Berners-Lee, Robert Cailliau",
+      "d": "Tháng 3/1989, Tim Berners-Lee đề xuất một hệ thống siêu văn bản hoạt động qua Internet. Năm 1990, ông cùng Robert Cailliau trình bày đề xuất cụ thể hơn; đến cuối năm, những thành phần thiết yếu như trình duyệt, máy chủ và các quy ước liên kết đã được triển khai.",
+      "why": "Web không tạo ra Internet; nó làm việc truy cập thông tin trên Internet thuận tiện theo một cách mới.",
+      "context": "CERN có nhiều nhà nghiên cứu làm việc trên những máy tính và hệ thống thông tin khác nhau. Nhu cầu liên kết tài liệu là động lực trực tiếp của đề xuất Web.",
+      "consequences": "Web giúp truy cập tài liệu qua liên kết trên một hạ tầng mạng đã tồn tại. Quyết định của CERN công bố phần mềm năm 1993 tiếp tục tạo điều kiện để người khác sử dụng và phát triển.",
+      "refs": [
+        {
+          "url": "https://home.cern/world-wide-web-35/",
+          "title": "CERN — World Wide Web at 35",
+          "scope": "Đề xuất tháng 3/1989, hợp tác Cailliau, các thành phần năm 1990 và phát hành 1993."
+        }
+      ],
+      "related": [
+        {
+          "id": "eu-web-public-domain-1993",
+          "kind": "connection",
+          "text": "CERN công bố phần mềm, giúp các nhóm khác sử dụng và cải tiến công nghệ Web.",
+          "ref": "https://home.cern/world-wide-web-35/"
+        }
+      ],
+      "place": "CERN",
+      "consequencesTitle": "Mở đường cho Web phổ biến",
+      "ref": "https://home.cern/world-wide-web-35/"
+    },
     { id: 'eu-lien-xo-tan-ra-1991', y: 1991, date: '25–26/12/1991', r: 'Nga', t: 'Liên Xô tan rã', c: 'pol', imp: 3,
       d: 'Sau cuộc chính biến bất thành tháng 8/1991, các nước cộng hòa lần lượt tuyên bố độc lập. Ngày 25/12/1991, Tổng thống Gorbachev từ chức, lá cờ đỏ trên điện Kremlin được hạ xuống. Liên Xô chia thành 15 quốc gia độc lập.',
       why: 'Sự kiện khép lại Chiến tranh Lạnh và thay đổi hoàn toàn bản đồ chính trị thế giới.',
@@ -3755,11 +4590,42 @@ TL_DATA.push({
       why: 'Anh thắng nhưng nợ nần chồng chất, bèn đánh thuế nặng lên 13 thuộc địa, châm ngòi cho Cách mạng Mỹ chỉ hơn mười năm sau.',
       fun: 'Một trong những sĩ quan trẻ đánh trận mở màn năm 1754 là George Washington, khi ấy mới 22 tuổi và còn chiến đấu cho… vua Anh.' },
 
-    { id: 'am-tiec-tra-boston-1773', y: 1773, date: '16/12/1773', r: 'Hoa Kỳ', t: 'Tiệc trà Boston', c: 'pol', imp: 2,
-      place: 'Cảng Boston',
-      d: 'Phản đối thuế của Anh với khẩu hiệu “không có đại diện thì không đóng thuế”, một nhóm người dân Boston cải trang thành người bản địa, leo lên tàu và đổ 342 thùng trà của Công ty Đông Ấn xuống biển. Anh đáp trả bằng các đạo luật trừng phạt, đẩy căng thẳng lên đỉnh điểm.',
-      why: 'Là tia lửa trực tiếp dẫn tới cuộc chiến giành độc lập của 13 thuộc địa.',
-      fun: 'Có lẽ đây là “ấm trà” lớn nhất lịch sử: cả bến cảng Boston được “pha” với khoảng 45 tấn trà, mà chẳng ai được uống ngụm nào.' },
+    {
+      "id": "am-tiec-tra-boston-1773",
+      "y": 1773,
+      "date": "16/12/1773",
+      "r": "Hoa Kỳ",
+      "t": "Tiệc trà Boston",
+      "c": "pol",
+      "imp": 2,
+      "place": "Cảng Boston",
+      "d": "Tháng 12/1773 tại Boston, người phản đối phá hủy số trà trên các tàu của Công ty Đông Ấn. Hành động không chỉ nhắm vào một loại đồ uống, mà thách thức quyền áp đặt chính sách của chính quyền đế quốc. Anh đáp lại bằng các biện pháp trừng phạt Massachusetts trong năm 1774.",
+      "why": "Một vụ phá hàng hóa đã trở thành bước ngoặt trong quan hệ chính trị.",
+      "context": "Tranh chấp giữa Anh và các thuộc địa Bắc Mỹ đã kéo dài quanh thuế, thương mại và quyền đại diện. Trà trở thành một điểm nóng cụ thể trong cuộc đối đầu ấy.",
+      "consequences": "Sự trừng phạt làm tranh chấp Boston trở thành vấn đề của nhiều thuộc địa. Xung đột tiếp tục leo thang qua tổ chức, thương lượng và đối đầu, thay vì tự động biến thành chiến tranh ngay sau một đêm.",
+      "refs": [
+        {
+          "url": "https://www.nationalarchives.gov.uk/education/teaching-resources/boston-tea-party/",
+          "title": "The National Archives UK — Boston Tea Party",
+          "scope": "Tranh chấp trà ở Boston và phản ứng trừng phạt của Quốc hội Anh."
+        },
+        {
+          "url": "https://www.loc.gov/collections/continental-congress-and-constitutional-convention-from-1774-to-1789/articles-and-essays/timeline/1773-to-1774/",
+          "title": "Library of Congress — Timeline 1773 to 1774",
+          "scope": "Tea Party, Coercive Acts và phản ứng phối hợp của các thuộc địa."
+        }
+      ],
+      "related": [
+        {
+          "id": "am-coercive-acts-1774",
+          "kind": "consequence",
+          "text": "Quốc hội Anh ban hành các biện pháp trừng phạt Massachusetts để đáp trả vụ phá trà.",
+          "ref": "https://www.loc.gov/collections/continental-congress-and-constitutional-convention-from-1774-to-1789/articles-and-essays/timeline/1773-to-1774/"
+        }
+      ],
+      "consequencesTitle": "Trừng phạt Boston, căng thẳng lan rộng",
+      "ref": "https://www.nationalarchives.gov.uk/education/teaching-resources/boston-tea-party/"
+    },
 
     { id: 'am-chien-tranh-doc-lap-1775', y: 1775, y2: 1783, r: 'Hoa Kỳ', t: 'Chiến tranh giành độc lập Mỹ', c: 'war', imp: 2,
       who: 'George Washington',
@@ -3767,18 +4633,67 @@ TL_DATA.push({
       why: 'Lần đầu tiên một thuộc địa ở châu Mỹ đánh thắng chính quốc và lập ra một nước cộng hòa, cổ vũ các cuộc cách mạng ở Pháp và Mỹ Latinh.',
       alt: 'Nước Pháp quân chủ giúp Mỹ để trả thù Anh vụ năm 1763, nhưng chi phí chiến tranh khổng lồ lại làm ngân khố Pháp cạn kiệt, góp phần dẫn tới Cách mạng Pháp 1789. Giúp người làm cách mạng, rồi chính mình gặp cách mạng.' },
 
-    { id: 'am-tuyen-ngon-doc-lap-1776', ref: 'https://www.archives.gov/historical-docs/declaration', y: 1776, date: '4/7/1776', r: 'Hoa Kỳ', t: 'Tuyên ngôn Độc lập của Hoa Kỳ', c: 'pol', imp: 3,
-      who: 'Thomas Jefferson', place: 'Philadelphia',
-      d: 'Ngày 4/7/1776, Quốc hội Lục địa thông qua bản Tuyên ngôn Độc lập do Thomas Jefferson chấp bút, tuyên bố 13 thuộc địa tách khỏi nước Anh. Văn bản khẳng định mọi người sinh ra đều bình đẳng, có những quyền không ai xâm phạm được như quyền sống, quyền tự do và quyền mưu cầu hạnh phúc.',
-      why: 'Là một trong những văn kiện chính trị có ảnh hưởng nhất thế giới; ngày 4/7 trở thành Quốc khánh Hoa Kỳ.',
-      alt: 'Bản tuyên ngôn viết “mọi người sinh ra đều bình đẳng” nhưng chính Jefferson sở hữu hàng trăm nô lệ. Nước Mỹ mất gần 200 năm để thu hẹp khoảng cách giữa lý tưởng ấy và thực tế.',
-      vn: 'Mở đầu bản Tuyên ngôn Độc lập ngày 2/9/1945, Chủ tịch Hồ Chí Minh đã trích dẫn chính câu “Tất cả mọi người đều sinh ra có quyền bình đẳng…” của bản tuyên ngôn này.' },
+    {
+      "id": "am-tuyen-ngon-doc-lap-1776",
+      "ref": "https://www.archives.gov/milestone-documents/declaration-of-independence",
+      "y": 1776,
+      "date": "4/7/1776",
+      "r": "Hoa Kỳ",
+      "t": "Tuyên ngôn Độc lập của Hoa Kỳ",
+      "c": "pol",
+      "imp": 3,
+      "who": "Thomas Jefferson và Quốc hội Lục địa",
+      "place": "Philadelphia",
+      "d": "Quốc hội Lục địa biểu quyết độc lập ngày 2/7/1776 và thông qua bản Tuyên ngôn ngày 4/7. Thomas Jefferson là người soạn thảo chính trong một ủy ban năm người; văn bản còn được các đại biểu sửa đổi. Việc ký bản giấy da bắt đầu ngày 2/8, không phải tất cả chữ ký đều xuất hiện ngày 4/7.",
+      "why": "Cần phân biệt quyết định độc lập, thông qua văn bản, ký tên và được đối phương công nhận.",
+      "context": "Khi chiến tranh với Anh đã diễn ra, các đại biểu thuộc địa phải quyết định liệu có tiếp tục tìm hòa giải hay tuyên bố trở thành những quốc gia độc lập.",
+      "consequences": "Tuyên bố độc lập xác lập lập trường chính trị, nhưng chiến tranh còn tiếp tục. Anh chỉ chính thức công nhận nền độc lập trong hòa ước năm 1783.",
+      "refs": [
+        {
+          "url": "https://www.archives.gov/milestone-documents/declaration-of-independence",
+          "title": "National Archives — Declaration of Independence",
+          "scope": "Quá trình soạn thảo, biểu quyết độc lập 2/7 và thông qua văn bản 4/7/1776; ký từ 2/8."
+        },
+        {
+          "url": "https://www.archives.gov/milestone-documents/treaty-of-paris",
+          "title": "National Archives — Treaty of Paris 1783",
+          "scope": "Ngày ký 3/9/1783, Anh công nhận độc lập, kết thúc chiến tranh và xác lập biên giới."
+        }
+      ],
+      "related": [
+        {
+          "id": "am-treaty-paris-1783",
+          "kind": "connection",
+          "text": "Sau chiến tranh, Hòa ước Paris đem lại sự công nhận độc lập chính thức của Anh.",
+          "ref": "https://www.archives.gov/milestone-documents/treaty-of-paris"
+        }
+      ],
+      "consequencesTitle": "Tuyên bố chưa phải kết thúc chiến tranh"
+    },
 
-    { id: 'am-hien-phap-1787', y: 1787, r: 'Hoa Kỳ', t: 'Hiến pháp Hoa Kỳ ra đời', c: 'pol', imp: 2,
-      place: 'Philadelphia',
-      d: 'Mùa hè năm 1787, đại biểu các bang họp kín ở Philadelphia và soạn bản Hiến pháp mới, chia quyền lực thành ba nhánh lập pháp, hành pháp, tư pháp để kiềm chế lẫn nhau. Năm 1789, George Washington trở thành tổng thống đầu tiên; năm 1791, 10 tu chính án đầu tiên về quyền công dân được bổ sung.',
-      why: 'Là hiến pháp thành văn của một quốc gia còn hiệu lực lâu đời nhất thế giới, làm mẫu cho hiến pháp của nhiều nước.',
-      fun: 'Bản gốc Hiến pháp chỉ dài 4 trang giấy da, hơn 4.000 chữ, ngắn hơn khá nhiều so với… phần điều khoản sử dụng của một ứng dụng điện thoại ngày nay.' },
+    {
+      "id": "am-hien-phap-1787",
+      "y": 1787,
+      "r": "Hoa Kỳ",
+      "t": "Hiến pháp Hoa Kỳ ra đời",
+      "c": "pol",
+      "imp": 2,
+      "place": "Philadelphia",
+      "d": "Các đại biểu cuối cùng chọn soạn một cấu trúc chính quyền mới. Họ tranh luận về quyền lực trung ương, đại diện của các bang và cách lựa chọn người nắm quyền. Bản Hiến pháp được ký ngày 17/9/1787; chữ ký tại hội nghị chưa đồng nghĩa toàn bộ quá trình phê chuẩn đã hoàn tất.",
+      "why": "Giành độc lập và thống nhất cách quản trị đất nước là hai công việc khác nhau.",
+      "context": "Sau độc lập, các bang Mỹ đã có một liên minh theo Articles of Confederation. Hội nghị Philadelphia năm 1787 ban đầu được triệu tập để sửa đổi khuôn khổ đang có.",
+      "consequences": "Văn bản đặt ra một khuôn khổ liên bang với những thiết chế phân chia và kiểm soát quyền lực. Đây là kết quả của thương lượng giữa nhiều lợi ích, không phải bản thiết kế được mọi người nhất trí ngay từ đầu.",
+      "refs": [
+        {
+          "url": "https://www.archives.gov/milestone-documents/constitution",
+          "title": "National Archives — Constitution of the United States",
+          "scope": "Mục tiêu sửa Articles of Confederation, lựa chọn khung chính quyền mới và ký 17/9/1787."
+        }
+      ],
+      "related": [],
+      "consequencesTitle": "Từ thương lượng đến thể chế liên bang",
+      "ref": "https://www.archives.gov/milestone-documents/constitution"
+    },
 
     { id: 'am-haiti-1791', y: 1791, y2: 1804, r: 'Haiti', t: 'Cách mạng Haiti', c: 'war', imp: 2,
       who: 'Toussaint Louverture, Jean-Jacques Dessalines',
@@ -3838,11 +4753,42 @@ TL_DATA.push({
       why: 'Giữ được nước Mỹ thống nhất và xóa bỏ chế độ nô lệ, nhưng khoảng 620.000 đến 750.000 binh lính đã thiệt mạng, nhiều hơn bất kỳ cuộc chiến nào khác của Mỹ.',
       alt: 'Đây là một trong những cuộc chiến đầu tiên dùng đường sắt, điện tín và ảnh chụp chiến trường. Những bức ảnh tử sĩ lần đầu đưa sự tàn khốc của chiến tranh tới tận phòng khách người dân.' },
 
-    { id: 'am-giai-phong-no-le-1863', y: 1863, date: '1/1/1863', r: 'Hoa Kỳ', t: 'Lincoln ra Tuyên ngôn Giải phóng nô lệ', c: 'pol', imp: 2,
-      who: 'Abraham Lincoln',
-      d: 'Giữa cuộc nội chiến, Tổng thống Lincoln tuyên bố trả tự do cho nô lệ ở các vùng đang nổi loạn và cho phép người da đen gia nhập quân đội miền Bắc; khoảng 180.000 người đã cầm súng. Năm 1865, Tu chính án thứ 13 chính thức xóa bỏ chế độ nô lệ trên toàn nước Mỹ.',
-      why: 'Biến cuộc nội chiến thành cuộc chiến vì tự do, chấm dứt chế độ nô lệ ở Mỹ sau gần 250 năm.',
-      fun: 'Bài diễn văn Gettysburg nổi tiếng của Lincoln cuối năm 1863 chỉ dài khoảng 270 chữ, đọc hết chừng 2 phút, nhưng được học sinh Mỹ học thuộc suốt hơn 150 năm.' },
+    {
+      "id": "am-giai-phong-no-le-1863",
+      "y": 1863,
+      "date": "1/1/1863",
+      "r": "Hoa Kỳ",
+      "t": "Lincoln ra Tuyên ngôn Giải phóng nô lệ",
+      "c": "pol",
+      "imp": 2,
+      "who": "Abraham Lincoln",
+      "d": "Tuyên ngôn của Lincoln có hiệu lực ngày 1/1/1863, tuyên bố tự do cho người bị nô lệ tại các vùng đang nổi dậy. Văn kiện không áp dụng đồng đều cho mọi nơi ở Mỹ và không khiến mọi người lập tức thoát khỏi sự kiểm soát của chủ nô. Nó cũng mở đường cho việc tuyển người da đen vào lực lượng Liên bang.",
+      "why": "Ý nghĩa lớn của văn kiện đi cùng giới hạn pháp lý và điều kiện thực thi thời chiến.",
+      "context": "Nội chiến Mỹ bắt đầu năm 1861; bảo toàn Liên bang là mục tiêu được chính quyền miền Bắc công bố ban đầu. Trong chiến tranh, vấn đề giải phóng người bị nô lệ ngày càng gắn với mục tiêu ấy.",
+      "consequences": "Để bãi bỏ chế độ nô lệ trên toàn quốc bằng Hiến pháp, cần thêm Tu chính án thứ 13 năm 1865.",
+      "refs": [
+        {
+          "url": "https://www.archives.gov/milestone-documents/emancipation-proclamation",
+          "title": "National Archives — Emancipation Proclamation",
+          "scope": "Hiệu lực 1/1/1863, phạm vi vùng nổi dậy, mục tiêu chiến tranh và tuyển quân người da đen."
+        },
+        {
+          "url": "https://www.archives.gov/milestone-documents/13th-amendment",
+          "title": "National Archives — Thirteenth Amendment",
+          "scope": "Quốc hội thông qua 31/1, phê chuẩn 6/12/1865; phạm vi xóa bỏ chế độ nô lệ và ngoại lệ hình phạt."
+        }
+      ],
+      "related": [
+        {
+          "id": "am-thirteenth-amendment-1865",
+          "kind": "connection",
+          "text": "Tu chính án thứ 13 đưa việc xóa bỏ chế độ nô lệ thành quy định hiến pháp trên toàn quốc.",
+          "ref": "https://www.archives.gov/milestone-documents/13th-amendment"
+        }
+      ],
+      "consequencesTitle": "Từ tuyên ngôn đến sửa đổi Hiến pháp",
+      "ref": "https://www.archives.gov/milestone-documents/emancipation-proclamation"
+    },
 
     { id: 'am-canada-1867', y: 1867, date: '1/7/1867', r: 'Canada', t: 'Canada trở thành liên bang tự trị', c: 'pol', imp: 1,
       d: 'Các thuộc địa Ontario, Québec, Nova Scotia và New Brunswick hợp nhất thành Liên bang Canada, tự quản lý việc trong nước nhưng vẫn thuộc Đế quốc Anh. Canada dần mở rộng tới bờ Thái Bình Dương nhờ tuyến đường sắt xuyên lục địa hoàn thành năm 1885.',
@@ -3895,11 +4841,31 @@ TL_DATA.push({
       why: 'Đánh dấu Mỹ bước ra thế giới như một cường quốc có thuộc địa ở cả vùng Caribe và châu Á.',
       vn: 'Từ đây Philippines, nước láng giềng bên kia Biển Đông của Việt Nam, trở thành thuộc địa của Mỹ cho tới năm 1946.' },
 
-    { id: 'am-wright-1903', ref: 'https://www.nasa.gov/history/120-years-ago-the-first-powered-flight-at-kitty-hawk/', y: 1903, date: '17/12/1903', r: 'Hoa Kỳ', t: 'Anh em Wright bay lên trời', c: 'sci', imp: 3,
-      who: 'Orville và Wilbur Wright', place: 'Kitty Hawk (Bắc Carolina)',
-      d: 'Hai anh em thợ sửa xe đạp Orville và Wilbur Wright tự chế tạo chiếc Flyer có động cơ và cánh điều khiển được. Ngày 17/12/1903, Orville bay được 12 giây, xa khoảng 37 m; chuyến bay thứ tư trong ngày của Wilbur kéo dài 59 giây.',
-      why: 'Là chuyến bay có động cơ, có điều khiển đầu tiên của loài người; chỉ 66 năm sau, con người đã đặt chân lên Mặt Trăng.',
-      fun: 'Cả chuyến bay đầu tiên còn ngắn hơn sải cánh của một chiếc Boeing 747 ngày nay.' },
+    {
+      "id": "am-wright-1903",
+      "ref": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/wright-brothers-aircraft/",
+      "y": 1903,
+      "date": "17/12/1903",
+      "r": "Hoa Kỳ",
+      "t": "Anh em Wright bay lên trời",
+      "c": "sci",
+      "imp": 3,
+      "who": "Orville và Wilbur Wright",
+      "place": "Bắc Carolina, Hoa Kỳ",
+      "d": "Anh em Wright tiến hành thử nghiệm với diều và tàu lượn trước khi hoàn thiện máy bay có động cơ. Ngày 17/12/1903, họ thực hiện các chuyến bay tại Bắc Carolina. Đóng góp then chốt gồm hệ thống điều khiển, giúp người lái chủ động giữ và thay đổi tư thế máy bay.",
+      "why": "Đột phá nằm ở việc kết hợp lực nâng, động lực và khả năng điều khiển thành một hệ thống.",
+      "context": "Bay bằng động cơ không chỉ là lắp máy vào cánh. Người thử nghiệm còn phải tìm cách giữ thăng bằng, điều khiển hướng và tạo đủ lực nâng cho một phương tiện nặng hơn không khí.",
+      "consequences": "Thành tựu ấy trở thành một mốc quan trọng của hàng không có động cơ. Tuy vậy, từ chuyến bay thử ngắn đến máy bay vận tải còn cần nhiều bước phát triển khác.",
+      "refs": [
+        {
+          "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/wright-brothers-aircraft/",
+          "title": "NASA Glenn — Wright Brothers Aircraft",
+          "scope": "Thí nghiệm điều khiển, máy bay có động cơ và chuyến bay 17/12/1903."
+        }
+      ],
+      "related": [],
+      "consequencesTitle": "Một mốc mở đường cho hàng không"
+    },
 
     { id: 'am-cach-mang-mexico-1910', y: 1910, y2: 1920, r: 'Mexico', t: 'Cách mạng Mexico', c: 'war', imp: 1,
       who: 'Emiliano Zapata, Pancho Villa',
@@ -3967,11 +4933,31 @@ TL_DATA.push({
       fun: 'Liên Hợp Quốc có cả bưu chính riêng: thư gửi từ trụ sở ở New York phải dán tem Liên Hợp Quốc, món đồ khiến giới sưu tầm tem rất mê.',
       vn: 'Việt Nam trở thành thành viên Liên Hợp Quốc ngày 20/9/1977 và đã hai lần làm ủy viên không thường trực Hội đồng Bảo an (2008–2009, 2020–2021).' },
 
-    { id: 'am-dan-quyen-1955', y: 1955, y2: 1968, r: 'Hoa Kỳ', t: 'Phong trào dân quyền ở Mỹ', c: 'pol', imp: 2,
-      who: 'Rosa Parks, Martin Luther King', place: 'Montgomery (Alabama)',
-      d: 'Ngày 1/12/1955, bà Rosa Parks ở Montgomery bị bắt vì không chịu nhường ghế xe buýt cho một người da trắng. Cuộc tẩy chay xe buýt kéo dài 381 ngày mở đầu phong trào đấu tranh bất bạo động đòi xóa bỏ phân biệt chủng tộc, dẫn tới Đạo luật Dân quyền 1964 và Đạo luật Quyền bầu cử 1965.',
-      why: 'Chấm dứt chế độ phân biệt chủng tộc hợp pháp ở miền Nam nước Mỹ, truyền cảm hứng cho các phong trào đòi bình đẳng khắp thế giới.',
-      alt: 'Phong trào học cách đấu tranh bất bạo động từ Mahatma Gandhi ở Ấn Độ: một ý tưởng đi nửa vòng Trái Đất để thay đổi nước Mỹ.' },
+    {
+      "id": "am-dan-quyen-1955",
+      "y": 1955,
+      "y2": 1968,
+      "r": "Hoa Kỳ",
+      "t": "Người dân Montgomery tẩy chay xe buýt phân biệt chủng tộc",
+      "c": "pol",
+      "imp": 2,
+      "who": "Rosa Parks, Jo Ann Robinson, Martin Luther King Jr.",
+      "place": "Montgomery, Alabama",
+      "d": "Sau vụ bắt Parks ngày 1/12/1955, lời kêu gọi tẩy chay được phổ biến. Từ ngày 5/12, người tham gia duy trì chiến dịch hơn một năm với sự điều phối của Montgomery Improvement Association do Martin Luther King Jr. lãnh đạo. Đấu tranh tập thể diễn ra cùng tiến trình kiện tụng chống phân biệt chỗ ngồi.",
+      "why": "Một hành động nổi tiếng có sức mạnh nhờ mạng lưới tổ chức và sự bền bỉ của cộng đồng.",
+      "context": "Trước khi Rosa Parks bị bắt, các tổ chức người da đen ở Montgomery đã phản đối cách đối xử trên xe buýt. Cuộc vận động có nền tảng tổ chức cộng đồng từ nhiều năm trước.",
+      "consequences": "Chiến dịch kết thúc tháng 12/1956 sau phán quyết buộc xóa phân biệt trên xe buýt. Thành công trở thành ví dụ cho nhiều chiến dịch tiếp theo, nhưng không tự nó kết thúc bất bình đẳng.",
+      "refs": [
+        {
+          "url": "https://kinginstitute.stanford.edu/montgomery-bus-boycott",
+          "title": "Stanford King Institute — Montgomery Bus Boycott",
+          "scope": "Tổ chức cộng đồng trước Parks, cuộc tẩy chay 1955–1956 và tác động đến các chiến dịch sau."
+        }
+      ],
+      "related": [],
+      "consequencesTitle": "Montgomery trở thành một ví dụ",
+      "ref": "https://kinginstitute.stanford.edu/montgomery-bus-boycott"
+    },
 
     { id: 'am-pele-1958', y: 1958, r: 'Brazil', t: 'Pelé và Brazil vô địch World Cup', c: 'cul', imp: 1,
       who: 'Pelé',
@@ -4010,18 +4996,60 @@ TL_DATA.push({
       alt: 'Âm nhạc trở thành tiếng nói của phong trào: những ca khúc phản chiến của Bob Dylan, Joan Baez hay bài “Give Peace a Chance” vang lên trong các cuộc tuần hành.',
       vn: 'Đây được gọi là “cuộc chiến tranh truyền hình đầu tiên”: những hình ảnh từ Việt Nam đã làm thay đổi cách người Mỹ nhìn về cuộc chiến.' },
 
-    { id: 'am-apollo-11-1969', ref: 'https://nasa.gov/wp-content/uploads/static/history/alsj/a11/a11ov.html', y: 1969, date: '20/7/1969', r: 'Hoa Kỳ', t: 'Con người đặt chân lên Mặt Trăng', c: 'sci', imp: 3,
-      who: 'Neil Armstrong, Buzz Aldrin, Michael Collins',
-      d: 'Tàu Apollo 11 đưa ba phi hành gia tới Mặt Trăng. Ngày 20/7/1969, mô-đun Đại Bàng hạ cánh xuống Biển Yên Tĩnh; Neil Armstrong bước ra và nói: “Đây là một bước nhỏ của một con người, nhưng là bước nhảy vọt của nhân loại”. Khoảng 600 triệu người khắp thế giới xem trực tiếp qua truyền hình.',
-      why: 'Là đỉnh cao của cuộc chạy đua vũ trụ Mỹ – Liên Xô và một trong những thành tựu kỹ thuật lớn nhất của loài người.',
-      fun: 'Máy tính dẫn đường của tàu Apollo chỉ có bộ nhớ làm việc khoảng 4 KB, ít hơn cả một chiếc máy tính bỏ túi ngày nay.',
-      alt: 'Bức ảnh “Trái Đất mọc” chụp từ quỹ đạo Mặt Trăng (Apollo 8, 1968) khiến nhiều người lần đầu thấy hành tinh của mình nhỏ bé và mong manh, góp phần khơi dậy phong trào bảo vệ môi trường.' },
+    {
+      "id": "am-apollo-11-1969",
+      "ref": "https://nasa.gov/wp-content/uploads/static/history/alsj/a11/a11ov.html",
+      "y": 1969,
+      "date": "20/7/1969",
+      "r": "Hoa Kỳ",
+      "t": "Con người đặt chân lên Mặt Trăng",
+      "c": "sci",
+      "imp": 3,
+      "who": "Neil Armstrong, Buzz Aldrin, Michael Collins",
+      "d": "Ngày 20/7/1969, mô-đun Eagle đưa Neil Armstrong và Buzz Aldrin hạ xuống Mặt Trăng. Michael Collins tiếp tục bay trên quỹ đạo trong mô-đun chỉ huy. Hai người trên bề mặt thực hiện quan sát, thu mẫu rồi cất cánh để hội ngộ; cả ba trở về Trái Đất.",
+      "why": "Đặt chân xuống chỉ là một nửa thử thách: trở về an toàn cũng thuộc mục tiêu ngay từ đầu.",
+      "context": "Năm 1961, Tổng thống Kennedy đặt mục tiêu đưa người Mỹ lên Mặt Trăng và trở về an toàn trước khi thập niên kết thúc. Apollo 11 là kết quả của cả một chương trình thử nghiệm để đạt mục tiêu đó.",
+      "consequences": "Nhiệm vụ chứng minh con người có thể hoàn thành một chuyến đi khứ hồi tới thiên thể khác. Thành công phụ thuộc cả vào các nhiệm vụ trước và hệ thống hỗ trợ dưới mặt đất.",
+      "refs": [
+        {
+          "url": "https://nasa.gov/wp-content/uploads/static/history/alsj/a11/a11ov.html",
+          "title": "NASA — Apollo 11 Mission Overview",
+          "scope": "Phi hành đoàn, hạ cánh 20/7/1969, hoạt động bề mặt và trở về Trái Đất."
+        },
+        {
+          "url": "https://www.archives.gov/exhibits/featured-documents/apollo-11-flight-plan",
+          "title": "National Archives — Apollo 11 Flight Plan",
+          "scope": "Liên hệ mục tiêu Kennedy 1961 với nhiệm vụ Apollo 11 năm 1969."
+        }
+      ],
+      "related": [],
+      "place": "Mặt Trăng",
+      "consequencesTitle": "Hoàn thành chuyến đi khứ hồi"
+    },
 
-    { id: 'am-arpanet-1969', y: 1969, date: '29/10/1969', r: 'Hoa Kỳ', t: 'ARPANET, tổ tiên của Internet', c: 'sci', imp: 3,
-      d: 'Dự án của Bộ Quốc phòng Mỹ kết nối máy tính ở các trường đại học thành một mạng chia dữ liệu thành từng “gói” để gửi đi. Tin nhắn đầu tiên đi từ Đại học UCLA tới Viện nghiên cứu Stanford ngày 29/10/1969. Năm 1983, ARPANET chuyển sang bộ giao thức TCP/IP, nền tảng của Internet ngày nay.',
-      why: 'Là tổ tiên trực tiếp của Internet, công nghệ đã thay đổi gần như mọi mặt đời sống con người.',
-      fun: 'Người ta định gõ chữ “LOGIN”, nhưng hệ thống bị treo sau hai chữ cái đầu. Vậy là tin nhắn đầu tiên của Internet là “LO”, nghe như một lời chào.',
-      vn: 'Việt Nam chính thức kết nối Internet toàn cầu ngày 19/11/1997; ngày nay hơn ba phần tư dân số Việt Nam dùng Internet.' },
+    {
+      "id": "am-arpanet-1969",
+      "y": 1969,
+      "date": "29/10/1969",
+      "r": "Hoa Kỳ",
+      "t": "ARPANET, tổ tiên của Internet",
+      "c": "sci",
+      "imp": 3,
+      "d": "Tối 29/10/1969, Charley Kline tại UCLA thử đăng nhập vào máy ở Stanford Research Institute, phối hợp với Bill Duvall ở đầu bên kia. Lần thử đầu chỉ truyền được hai chữ đầu của LOGIN trước khi hệ thống gặp sự cố. Nhật ký kỹ thuật lưu lại mốc kết nối này.",
+      "why": "Đằng sau mốc đáng nhớ là quá trình thử nghiệm, lỗi và phối hợp giữa nhiều nhóm kỹ thuật.",
+      "context": "Khi máy tính còn hiếm và đắt, kết nối từ xa giúp các nhóm nghiên cứu chia sẻ tài nguyên. ARPANET là một thử nghiệm quan trọng trong lịch sử mạng máy tính.",
+      "consequences": "Các nhóm nghiên cứu có thể thử cách nối những máy tính ở xa nhau qua một mạng dùng chung. ARPANET trở thành một trong những tiền thân của Internet. Hai mươi năm sau, Berners-Lee mới đề xuất Web để liên kết các tài liệu trên mạng.",
+      "refs": [
+        {
+          "url": "https://www.lk.cs.ucla.edu/internet_first_words.html",
+          "title": "UCLA — The First Words on the Internet",
+          "scope": "Nhật ký kết nối UCLA–SRI 29/10/1969 và lần thử LOGIN."
+        }
+      ],
+      "related": [],
+      "consequencesTitle": "Một tiền thân của Internet",
+      "ref": "https://www.lk.cs.ucla.edu/internet_first_words.html"
+    },
 
     { id: 'am-chile-1973', y: 1973, date: '11/9/1973', r: 'Chile', t: 'Đảo chính quân sự ở Chile', c: 'pol', imp: 1,
       who: 'Augusto Pinochet, Salvador Allende',
@@ -6171,7 +7199,7 @@ const NOTE_TITLES = {
 };
 function noteTitle(id, field) {
   const index = field === 'why' ? 0 : 1;
-  return NOTE_TITLES[id]?.[index] || (index === 0 ? 'Điều còn lại sau đó' : 'Nhìn kỹ hơn một chút');
+  return NOTE_TITLES[id]?.[index] || (index === 0 ? 'Ý nghĩa lịch sử' : '');
 }
 
 TL_DATA.push({
@@ -7527,11 +8555,34 @@ TL_DATA.push({
       "c": "cul",
       "imp": 1,
       "topic": "Văn minh",
-      "d": "Khoảng năm 1826–1827, Joseph Nicéphore Niépce tạo ra hình ảnh nhìn từ cửa sổ ở Le Gras bằng quy trình héliographie. Hiện vật hiện do Harry Ransom Center lưu giữ. Niên đại đã có những cách xác định khác nhau, nên mốc 1827 ở đây là mốc tham chiếu cho giai đoạn ấy.",
-      "why": "Nhiếp ảnh biến một cảnh nhìn qua ống kính thành dấu vết có thể giữ lại trên vật liệu.",
+      "d": "Khoảng năm 1826–1827, Joseph Nicéphore Niépce tạo hình nhìn từ cửa sổ ở Le Gras bằng quy trình héliographie. Hiện vật được lưu giữ tại Harry Ransom Center. Các hồ sơ có cách xác định niên đại khác nhau, nên mốc này nên đọc như một khoảng thời gian, không phải một ngày chụp đã biết chắc.",
+      "why": "Hình ảnh quang học bắt đầu có thể trở thành dấu vết vật chất để người khác xem lại.",
       "ref": "https://www.hrc.utexas.edu/niepce-heliograph/",
       "ca": true,
-      "date": "Khoảng 1826–1827"
+      "date": "Khoảng 1826–1827",
+      "context": "Từ lâu, hộp tối có thể tạo ảnh quang học nhưng ảnh chưa tự lưu lại trên một vật liệu. Niépce thử cách giữ lại hình do ánh sáng tạo ra.",
+      "consequences": "Thí nghiệm của Niépce trở thành một phần nền tảng cho công việc Daguerre tiếp tục phát triển. Sự ra đời của nhiếp ảnh vì thế là một quá trình thử nghiệm nhiều phương pháp, không phải một phát minh xuất hiện trọn vẹn trong một ngày.",
+      "refs": [
+        {
+          "url": "https://www.hrc.utexas.edu/niepce-heliograph/",
+          "title": "Harry Ransom Center — The Niépce Heliograph",
+          "scope": "Hiện vật, quy trình và niên đại tham chiếu."
+        },
+        {
+          "url": "https://gallica.bnf.fr/selections/fr/html/photographies-acces-par-procede",
+          "title": "BnF — Các quy trình nhiếp ảnh",
+          "scope": "Daguerre tiếp nối công việc của Niépce và đặc điểm quy trình daguerreotype."
+        }
+      ],
+      "related": [
+        {
+          "id": "culture-daguerre-1839",
+          "kind": "connection",
+          "text": "Daguerre tiếp tục phát triển kỹ thuật ghi ảnh từ các nghiên cứu trước đó.",
+          "ref": "https://gallica.bnf.fr/selections/fr/html/photographies-acces-par-procede"
+        }
+      ],
+      "consequencesTitle": "Từ ô cửa sổ của Niépce đến những tấm ảnh của Daguerre"
     },
     {
       "id": "culture-impressionism-1874",
@@ -7541,9 +8592,20 @@ TL_DATA.push({
       "c": "cul",
       "imp": 1,
       "topic": "Mỹ thuật",
-      "d": "Ngày 15/4/1874, một nhóm nghệ sĩ mở triển lãm tại xưởng cũ của nhiếp ảnh gia Nadar ở Paris. Sự kiện về sau được biết đến là triển lãm Ấn tượng đầu tiên. Thay vì chỉ tìm chỗ trong hệ thống triển lãm chính thống, các nghệ sĩ cùng đứng ra giới thiệu tác phẩm của mình.",
-      "why": "Cách tổ chức triển lãm cũng có thể thay đổi con đường một phong trào nghệ thuật đến với người xem.",
-      "ref": "https://www.musee-orsay.fr/en/program/whats-on/exhibitions/paris-1874-inventing-impressionism"
+      "d": "Ngày 15/4/1874, triển lãm của nhóm mở tại xưởng cũ của nhiếp ảnh gia Nadar trên đại lộ Capucines. Sự kiện về sau được biết đến là triển lãm Ấn tượng đầu tiên. Các nghệ sĩ không hoàn toàn giống nhau về phong cách; việc đứng ra triển lãm chung là một điểm gắn kết quan trọng.",
+      "why": "Nghệ thuật thay đổi cả qua cách tổ chức, trưng bày và đưa tác phẩm đến người xem.",
+      "ref": "https://www.musee-orsay.fr/en/program/whats-on/exhibitions/paris-1874-inventing-impressionism",
+      "context": "Tại Paris, Salon giữ vai trò lớn trong việc giới thiệu nghệ thuật. Một nhóm nghệ sĩ tìm cách cùng trưng bày tác phẩm ngoài khuôn khổ lựa chọn ấy.",
+      "consequences": "Nhóm tiếp tục tổ chức các triển lãm trong những năm sau. Kênh giới thiệu tác phẩm độc lập giúp tạo thêm không gian cho những cách vẽ và quan hệ với công chúng ngoài Salon. Triển lãm là một bước trong quá trình hình thành phong trào, không phải ngày mọi đặc điểm của hội họa Ấn tượng cùng xuất hiện.",
+      "refs": [
+        {
+          "url": "https://www.musee-orsay.fr/en/program/whats-on/exhibitions/paris-1874-inventing-impressionism",
+          "title": "Musée d’Orsay — Paris 1874",
+          "scope": "Ngày khai mạc, bối cảnh triển lãm và sự đa dạng của nhóm."
+        }
+      ],
+      "related": [],
+      "consequencesTitle": "Các họa sĩ tự tìm đường đến công chúng"
     },
     {
       "id": "culture-starry-night-1889",
@@ -7587,9 +8649,32 @@ TL_DATA.push({
       "c": "cul",
       "imp": 1,
       "topic": "Trò chơi",
-      "d": "Alexey Pajitnov tạo ra Tetris năm 1984 khi làm việc tại một trung tâm nghiên cứu ở Liên Xô. Người chơi xoay và xếp các khối để lấp đầy hàng ngang. MoMA đưa trò chơi vào bộ sưu tập thiết kế, cho thấy trò chơi điện tử cũng được nghiên cứu như một hình thức thiết kế tương tác.",
-      "why": "Vài quy tắc đơn giản có thể tạo ra vô số tình huống buộc người chơi quan sát, lựa chọn và phản ứng.",
-      "ref": "https://www.moma.org/collection/works/152403"
+      "d": "Alexey Pajitnov tạo Tetris năm 1984 khi làm việc tại một trung tâm nghiên cứu ở Liên Xô. Các khối hình rơi xuống, còn người chơi phải xoay và xếp chúng để lấp đầy hàng ngang. Bộ sưu tập MoMA ghi nhận trò chơi như một tác phẩm thiết kế tương tác.",
+      "why": "Một luật chơi gọn có thể tồn tại qua nhiều phần cứng, dù hình thức điều khiển và hoàn cảnh chơi thay đổi.",
+      "ref": "https://www.moma.org/collection/works/152403",
+      "context": "Đầu thập niên 1980, trò chơi có thể được tạo ra không chỉ ở hãng giải trí mà cả trong môi trường nghiên cứu máy tính.",
+      "consequences": "Tetris được chuyển sang nhiều hệ máy. Phiên bản Game Boy năm 1989 là một bước đưa luật chơi xếp khối vào trải nghiệm cầm tay. Lịch sử của trò chơi không dừng ở lúc viết mã ban đầu mà còn gồm chuyển thể, phân phối và cách người chơi tiếp cận nó.",
+      "refs": [
+        {
+          "url": "https://www.moma.org/collection/works/152403",
+          "title": "MoMA — Tetris, 1984",
+          "scope": "Người tạo, năm và bối cảnh máy tính."
+        },
+        {
+          "url": "https://www.nintendo.com/us/whatsnew/two-classic-tetris-games-are-dropping-onto-the-nes-and-game-boy-libraries/",
+          "title": "Nintendo — Classic Tetris games",
+          "scope": "Phiên bản Game Boy phát hành tại Bắc Mỹ năm 1989."
+        }
+      ],
+      "related": [
+        {
+          "id": "culture-gameboy-1989",
+          "kind": "connection",
+          "text": "Phiên bản trên Game Boy đưa Tetris vào một hình thức chơi cầm tay.",
+          "ref": "https://www.nintendo.com/us/whatsnew/two-classic-tetris-games-are-dropping-onto-the-nes-and-game-boy-libraries/"
+        }
+      ],
+      "consequencesTitle": "Từ máy tính đến chiếc Game Boy bỏ túi"
     },
     {
       "id": "culture-harry-potter-1997",
@@ -7642,9 +8727,32 @@ TL_DATA.push({
       "c": "cul",
       "imp": 1,
       "topic": "Điện ảnh",
-      "d": "Star Wars ra rạp tại Hoa Kỳ ngày 25/5/1977. Bộ phim về sau được biết đến với tên Episode IV – A New Hope, kể hành trình Luke Skywalker bước vào cuộc chiến giữa những thế lực trong thiên hà. Cần phân biệt năm ra mắt với thứ tự các tập trong thế giới hư cấu của loạt phim.",
-      "why": "Một thế giới hư cấu có thể tiếp tục được kể qua nhiều phim, nhân vật và góc nhìn khác nhau.",
-      "ref": "https://www.starwars.com/films/star-wars-episode-iv-a-new-hope"
+      "d": "Star Wars ra rạp tại Hoa Kỳ ngày 25/5/1977, kể hành trình Luke Skywalker bước vào cuộc chiến trong thiên hà. Bộ phim sau này được biết đến với tên Episode IV – A New Hope. Năm phát hành của phim khác với thứ tự diễn biến trong thế giới hư cấu của nó.",
+      "why": "Một ý tưởng kể chuyện có thể tạo nhu cầu về công cụ, tổ chức sản xuất và tay nghề mới.",
+      "ref": "https://www.starwars.com/films/star-wars-episode-iv-a-new-hope",
+      "context": "Để thực hiện những cảnh không gian trong dự án Star Wars, George Lucas cần một nhóm chuyên làm kỹ xảo. Ông lập Industrial Light & Magic năm 1975, trước khi phim hoàn thành.",
+      "consequences": "Sau bộ ba Star Wars đầu tiên, ILM nhận làm kỹ xảo cho các đạo diễn khác. Năng lực được xây dựng để giải quyết nhu cầu của một dự án vì thế phát triển thành nguồn lực phục vụ nhiều bộ phim.",
+      "refs": [
+        {
+          "url": "https://www.starwars.com/films/star-wars-episode-iv-a-new-hope",
+          "title": "StarWars.com — A New Hope",
+          "scope": "Ngày phát hành và nội dung phim."
+        },
+        {
+          "url": "https://www.ilm.com/about/",
+          "title": "ILM — About",
+          "scope": "Lý do thành lập năm 1975 và việc mở rộng làm phim cho bên ngoài."
+        }
+      ],
+      "related": [
+        {
+          "id": "culture-ilm-1975",
+          "kind": "background",
+          "text": "ILM được lập để thực hiện kỹ xảo cho dự án Star Wars, hai năm trước ngày phim ra rạp.",
+          "ref": "https://www.ilm.com/about/"
+        }
+      ],
+      "consequencesTitle": "Từ Star Wars đến kỹ xảo cho những bộ phim khác"
     },
     {
       "id": "culture-thriller-1982",
@@ -7773,9 +8881,25 @@ TL_DATA.push({
       "c": "cul",
       "imp": 1,
       "topic": "Di sản",
-      "d": "Năm 2009, dân ca Quan họ Bắc Ninh được ghi danh vào Danh sách Di sản văn hóa phi vật thể đại diện của nhân loại. Hồ sơ mô tả hình thức hát đối đáp gắn với quan hệ cộng đồng giữa các làng. Đây là năm ghi danh, không phải năm làn điệu bắt đầu tồn tại.",
-      "why": "Một di sản sống được duy trì qua người hát, người nghe, sinh hoạt cộng đồng và việc truyền dạy.",
-      "ref": "https://ich.unesco.org/en/Decisions/4.COM/13.76"
+      "d": "Năm 2009, dân ca Quan họ Bắc Ninh được UNESCO ghi vào Danh sách Di sản văn hóa phi vật thể đại diện của nhân loại. Đây là mốc ghi nhận quốc tế của một thực hành đã có từ trước.",
+      "why": "Quan họ là cả một cách giao tiếp văn hóa, không chỉ một tập hợp bài hát.",
+      "ref": "https://ich.unesco.org/en/Decisions/4.COM/13.76",
+      "context": "Trong một canh hát Quan họ truyền thống, bạn hát từ hai làng gặp nhau. Một bên cất câu hát, bên kia đáp lại bằng lời khác trên làn điệu tương ứng.",
+      "consequences": "Muốn truyền lại lối hát ấy, người học cần có bạn để nghe và đối giọng. Giữ những dịp các làng gặp nhau cũng là giữ cho Quan họ một nơi để tiếp tục sống.",
+      "refs": [
+        {
+          "url": "https://ich.unesco.org/en/Decisions/4.COM/13.76",
+          "title": "UNESCO — Decision 4.COM 13.76",
+          "scope": "Ghi danh 2009, quan hệ kết nghĩa làng và thực hành hát giao duyên."
+        },
+        {
+          "url": "https://ich.unesco.org/en/RL/quan-ho-bac-ninh-folk-songs-00183",
+          "title": "UNESCO — Dân ca Quan họ Bắc Ninh",
+          "scope": "Cách hát đối giữa các nhóm bạn hát và quan hệ giữa các làng."
+        }
+      ],
+      "related": [],
+      "consequencesTitle": "Giữ câu hát, giữ cả cuộc gặp giữa hai làng"
     },
     {
       "id": "culture-ca-tru-2009",
@@ -7784,9 +8908,27 @@ TL_DATA.push({
       "c": "cul",
       "imp": 1,
       "topic": "Di sản",
-      "d": "Năm 2009, UNESCO ghi danh ca trù vào Danh sách Di sản văn hóa phi vật thể cần bảo vệ khẩn cấp. Đây là hình thức thơ ca được hát với kỹ thuật thanh nhạc đặc trưng, kết hợp phách, đàn đáy và trống chầu. Danh sách này nhấn mạnh nhu cầu bảo vệ và truyền nghề, khác với Danh sách đại diện.",
-      "why": "Ghi danh còn là lời nhắc về sức sống của nghệ thuật và điều kiện để người trẻ có thể học tiếp từ nghệ nhân.",
-      "ref": "https://ich.unesco.org/en/USL/ca-tru-singing-00309?USL=00309"
+      "d": "Năm 2009, UNESCO ghi ca trù vào Danh sách Di sản văn hóa phi vật thể cần bảo vệ khẩn cấp. Hình thức thơ ca được hát này kết hợp giọng hát với phách, đàn đáy và trống chầu.",
+      "why": "Tình trạng của cộng đồng thực hành là một phần cốt lõi khi nhìn nhận một di sản sống.",
+      "ref": "https://ich.unesco.org/en/USL/ca-tru-singing-00309?USL=00309",
+      "context": "Số người nắm giữ kỹ năng và sự thu hẹp môi trường thực hành đặt ca trù trước nguy cơ mai một.",
+      "consequences": "Danh sách này nhấn mạnh nhu cầu truyền dạy kỹ năng và hỗ trợ người thực hành. Chuyện bảo vệ ca trù vì vậy gắn trực tiếp với khả năng trao truyền vốn nghề cho thế hệ sau.",
+      "refs": [
+        {
+          "url": "https://ich.unesco.org/en/USL/ca-tru-singing-00309?USL=00309",
+          "title": "UNESCO ICH — Ca trù singing",
+          "scope": "Đặc điểm thực hành, nguy cơ mai một và danh sách cần bảo vệ khẩn cấp 2009."
+        }
+      ],
+      "related": [
+        {
+          "id": "culture-quan-ho-2009",
+          "kind": "connection",
+          "text": "Cùng được ghi danh năm 2009, nhưng Quan họ và ca trù thuộc hai danh sách khác nhau.",
+          "ref": "https://ich.unesco.org/en/USL/ca-tru-singing-00309?USL=00309"
+        }
+      ],
+      "consequencesTitle": "Vì sao ca trù cần được bảo vệ khẩn cấp?"
     },
     {
       "id": "culture-don-ca-2013",
@@ -7795,9 +8937,20 @@ TL_DATA.push({
       "c": "cul",
       "imp": 1,
       "topic": "Di sản",
-      "d": "Năm 2013, nghệ thuật Đờn ca tài tử Nam Bộ được ghi danh vào Danh sách Di sản văn hóa phi vật thể đại diện của nhân loại. Hồ sơ đề cử của Việt Nam ghi nhận đây là một thực hành âm nhạc được cộng đồng gìn giữ và truyền dạy. Mốc ghi danh không phải niên đại ra đời của nghệ thuật.",
-      "why": "Di sản âm nhạc tồn tại qua những lần cùng đàn, cùng hát và sự truyền đạt kỹ năng giữa các thế hệ.",
-      "ref": "https://ich.unesco.org/en/RL/art-of-n-ca-tai-t-music-and-song-in-southern-viet-nam-00733?RL=00733"
+      "d": "Năm 2013, UNESCO ghi nghệ thuật Đờn ca tài tử Nam Bộ vào Danh sách Di sản văn hóa phi vật thể đại diện của nhân loại. Hồ sơ nhấn mạnh sự kết hợp giữa nền tảng âm nhạc có quy tắc với khả năng trang trí và biến tấu khi trình diễn.",
+      "why": "Một truyền thống có thể tiếp nối qua sự sáng tạo có hiểu biết của người biểu diễn, không chỉ bằng việc lặp nguyên xi.",
+      "ref": "https://ich.unesco.org/en/RL/art-of-n-ca-tai-t-music-and-song-in-southern-viet-nam-00733?RL=00733",
+      "context": "Đờn ca tài tử phát triển trong đời sống cộng đồng Nam Bộ, nơi người đàn và người hát trao truyền kỹ năng qua việc học trực tiếp.",
+      "consequences": "Bảo tồn vì thế cần quan tâm đến người thực hành và cách truyền nghề, thay vì chỉ ghi lại một bản trình diễn cố định.",
+      "refs": [
+        {
+          "url": "https://ich.unesco.org/en/RL/art-of-n-ca-tai-t-music-and-song-in-southern-viet-nam-00733?RL=00733",
+          "title": "UNESCO ICH — Art of Đờn ca tài tử",
+          "scope": "Ghi danh 2013, truyền nghề trực tiếp, biến tấu trong khuôn mẫu âm nhạc."
+        }
+      ],
+      "related": [],
+      "consequencesTitle": "Người chơi biến tấu trên lòng bản ra sao?"
     }
   ]
 });
@@ -7909,3 +9062,650 @@ TL_DATA.push({"lane": "ea", "periods": [], "events": [{"id": "culture-nintendo-1
 TL_DATA.push({"lane": "eu", "periods": [], "events": [{"id": "culture-oxford-1096", "y": 1096, "t": "Đã có hoạt động giảng dạy ở Oxford", "c": "cul", "topic": "Văn minh", "imp": 1, "ca": true, "d": "Đại học Oxford cho biết không có ngày thành lập rõ ràng, nhưng hoạt động giảng dạy đã tồn tại ở đây dưới một hình thức nào đó vào năm 1096. Không nên biến mốc chứng cứ giảng dạy này thành một ngày khai sinh chính xác của trường.", "why": "Một thiết chế học thuật có thể hình thành dần dần, khác với việc một tổ chức được thành lập bằng một văn bản vào ngày xác định.", "ref": "https://www.ox.ac.uk/about/the-university/history"}]});
 
 TL_DATA.push({"lane": "am", "periods": [], "events": [{"id": "am-langley-computers-1935", "y": 1935, "t": "Những người làm công việc “computer” ở Langley", "c": "sci", "imp": 1, "topic": "Văn minh", "d": "Năm 1935, Langley lập nhóm phụ nữ làm công việc tính toán phục vụ nghiên cứu hàng không. Khi đó trung tâm thuộc NACA, cơ quan tiền thân của NASA. Họ xử lý số liệu và thực hiện phép tính; từ “computer” ở đây chỉ con người làm tính, không chỉ máy tính điện tử như cách dùng quen thuộc ngày nay.", "why": "Lịch sử công nghệ có cả những công việc chuyên môn của con người đứng sau kết quả thí nghiệm và nghiên cứu.", "ref": "https://www.nasa.gov/history/langleys-computers-1935-1970/"}]});
+
+TL_DATA.push({
+  "lane": "am",
+  "periods": [],
+  "events": [
+    {
+      "id": "am-stamp-act-1765",
+      "y": 1765,
+      "t": "Đạo luật Tem làm bùng lên tranh chấp quyền đánh thuế",
+      "c": "pol",
+      "imp": 2,
+      "context": "Sau chiến tranh, chính quyền Anh tìm nguồn thu để trang trải chi phí duy trì quân đội tại Bắc Mỹ.",
+      "d": "Đạo luật Tem năm 1765 đánh thuế nhiều loại giấy tờ và ấn phẩm tại các thuộc địa. Phản đối tập trung vào quyền của Quốc hội Anh đặt thuế khi người thuộc địa không có đại biểu trong cơ quan ấy. Biểu tình và tẩy chay hàng hóa làm căng thẳng lan rộng.",
+      "consequences": "Quốc hội Anh bãi bỏ đạo luật năm 1766, nhưng tranh chấp về thẩm quyền vẫn còn. Việc rút một sắc thuế không giải quyết được bất đồng chính trị nền tảng.",
+      "why": "Đây là một bước trong quá trình xung đột leo thang, không phải nguyên nhân duy nhất khiến chiến tranh xảy ra.",
+      "refs": [
+        {
+          "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/parliament-and-empire/parliament-and-the-american-colonies-before-1765/the-stamp-act-and-the-american-colonies-1763-67/",
+          "title": "UK Parliament — The Stamp Act and the American colonies",
+          "scope": "Chi phí quân đội, Đạo luật Tem 1765, phản đối và bãi bỏ 1766."
+        },
+        {
+          "url": "https://www.nationalarchives.gov.uk/education/teaching-resources/boston-tea-party/",
+          "title": "The National Archives UK — Boston Tea Party",
+          "scope": "Tranh chấp trà ở Boston và phản ứng trừng phạt của Quốc hội Anh."
+        }
+      ],
+      "related": [
+        {
+          "id": "am-tiec-tra-boston-1773",
+          "kind": "connection",
+          "text": "Tranh chấp quyền đánh thuế tiếp tục xuất hiện trong đối đầu quanh trà; không phải một đường nhân quả duy nhất.",
+          "ref": "https://www.nationalarchives.gov.uk/education/teaching-resources/boston-tea-party/"
+        }
+      ],
+      "consequencesTitle": "Bỏ sắc thuế, bất đồng vẫn còn",
+      "ref": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/parliament-and-empire/parliament-and-the-american-colonies-before-1765/the-stamp-act-and-the-american-colonies-1763-67/"
+    },
+    {
+      "id": "am-coercive-acts-1774",
+      "y": 1774,
+      "t": "Anh trừng phạt Massachusetts sau vụ phá trà",
+      "c": "pol",
+      "imp": 2,
+      "context": "Vụ phá trà ở Boston khiến chính quyền Anh quyết định trừng phạt Massachusetts và tái khẳng định thẩm quyền cai trị.",
+      "d": "Năm 1774, Quốc hội Anh thông qua các Coercive Acts, bị người thuộc địa gọi là Intolerable Acts. Những biện pháp này bao gồm đóng cảng Boston cho đến khi trà bị phá được bồi thường và thay đổi cách quản trị thuộc địa.",
+      "consequences": "Thay vì cô lập Boston hoàn toàn, chính sách trừng phạt góp phần thúc đẩy các thuộc địa phối hợp phản ứng. Đại hội Lục địa thứ nhất tập hợp đại biểu trong năm ấy để bàn cách ứng phó.",
+      "why": "Một biện pháp nhằm củng cố quyền lực có thể tạo thêm động lực liên kết cho phía phản đối.",
+      "refs": [
+        {
+          "url": "https://www.loc.gov/collections/continental-congress-and-constitutional-convention-from-1774-to-1789/articles-and-essays/timeline/1773-to-1774/",
+          "title": "Library of Congress — Timeline 1773 to 1774",
+          "scope": "Tea Party, Coercive Acts và phản ứng phối hợp của các thuộc địa."
+        },
+        {
+          "url": "https://www.nationalarchives.gov.uk/education/teaching-resources/boston-tea-party/",
+          "title": "The National Archives UK — Boston Tea Party",
+          "scope": "Tranh chấp trà ở Boston và phản ứng trừng phạt của Quốc hội Anh."
+        }
+      ],
+      "related": [
+        {
+          "id": "am-tiec-tra-boston-1773",
+          "kind": "background",
+          "text": "Các đạo luật là phản ứng của Quốc hội Anh đối với việc phá trà tại Boston.",
+          "ref": "https://www.loc.gov/collections/continental-congress-and-constitutional-convention-from-1774-to-1789/articles-and-essays/timeline/1773-to-1774/"
+        }
+      ],
+      "consequencesTitle": "Trừng phạt thúc đẩy sự phối hợp",
+      "ref": "https://www.loc.gov/collections/continental-congress-and-constitutional-convention-from-1774-to-1789/articles-and-essays/timeline/1773-to-1774/"
+    },
+    {
+      "id": "am-treaty-paris-1783",
+      "y": 1783,
+      "t": "Hòa ước Paris: Anh công nhận nền độc lập Mỹ",
+      "c": "pol",
+      "imp": 2,
+      "context": "Tuyên bố độc lập năm 1776 chưa chấm dứt chiến tranh. Cuộc xung đột còn gắn với sự tham gia và lợi ích của nhiều cường quốc ngoài Bắc Mỹ.",
+      "d": "Ngày 3/9/1783, đại diện Anh và Hoa Kỳ ký Hòa ước Paris. Anh chính thức công nhận Hoa Kỳ độc lập; các điều khoản cũng xác định biên giới và xử lý một số vấn đề hậu chiến.",
+      "consequences": "Văn kiện đưa sự tách khỏi đế quốc từ một tuyên bố đang được bảo vệ bằng chiến tranh thành thỏa thuận được bên Anh công nhận. Nó không giải quyết mọi bất đồng xã hội và lãnh thổ trong không gian Bắc Mỹ.",
+      "why": "Độc lập có cả mặt quân sự, chính trị và ngoại giao; các mốc ấy không trùng nhau.",
+      "refs": [
+        {
+          "url": "https://www.archives.gov/milestone-documents/treaty-of-paris",
+          "title": "National Archives — Treaty of Paris 1783",
+          "scope": "Ngày ký 3/9/1783, Anh công nhận độc lập, kết thúc chiến tranh và xác lập biên giới."
+        }
+      ],
+      "related": [
+        {
+          "id": "am-tuyen-ngon-doc-lap-1776",
+          "kind": "background",
+          "text": "Tuyên ngôn nêu lập trường độc lập; hòa ước là sự công nhận chính thức của Anh sau chiến tranh.",
+          "ref": "https://www.archives.gov/milestone-documents/treaty-of-paris"
+        }
+      ],
+      "consequencesTitle": "Độc lập được Anh công nhận",
+      "ref": "https://www.archives.gov/milestone-documents/treaty-of-paris"
+    },
+    {
+      "id": "am-thirteenth-amendment-1865",
+      "y": 1865,
+      "t": "Tu chính án thứ 13 xóa bỏ chế độ nô lệ",
+      "c": "pol",
+      "imp": 2,
+      "context": "Tuyên ngôn Giải phóng năm 1863 chỉ áp dụng cho những vùng nổi dậy được chỉ định, nên chưa bãi bỏ chế độ nô lệ trên toàn nước Mỹ.",
+      "d": "Quốc hội thông qua Tu chính án thứ 13 ngày 31/1/1865; văn bản được phê chuẩn ngày 6/12. Hiến pháp từ đó cấm chế độ nô lệ và lao dịch cưỡng bức, với ngoại lệ được ghi trong văn bản là hình phạt cho tội phạm đã bị kết án hợp lệ.",
+      "consequences": "Sự thay đổi đưa việc bãi bỏ chế độ nô lệ vượt khỏi giới hạn của một biện pháp thời chiến. Tuy nhiên, tự do pháp lý chưa đồng nghĩa mọi quyền công dân đã được bảo đảm trong đời sống.",
+      "why": "Bãi bỏ chế độ nô lệ và đạt bình đẳng thực tế là những chặng đường có liên quan nhưng khác nhau.",
+      "refs": [
+        {
+          "url": "https://www.archives.gov/milestone-documents/13th-amendment",
+          "title": "National Archives — Thirteenth Amendment",
+          "scope": "Quốc hội thông qua 31/1, phê chuẩn 6/12/1865; phạm vi xóa bỏ chế độ nô lệ và ngoại lệ hình phạt."
+        }
+      ],
+      "related": [
+        {
+          "id": "am-giai-phong-no-le-1863",
+          "kind": "background",
+          "text": "Giới hạn địa lý và pháp lý của tuyên ngôn 1863 khiến một giải pháp hiến pháp toàn quốc trở nên cần thiết.",
+          "ref": "https://www.archives.gov/milestone-documents/13th-amendment"
+        }
+      ],
+      "consequencesTitle": "Bãi bỏ chế độ nô lệ trên toàn quốc",
+      "ref": "https://www.archives.gov/milestone-documents/13th-amendment"
+    },
+    {
+      "id": "am-brown-v-board-1954",
+      "y": 1954,
+      "t": "Brown: phân biệt chủng tộc trong trường công bị bác bỏ",
+      "c": "pol",
+      "imp": 2,
+      "context": "Ở nhiều nơi tại Mỹ, trẻ em bị phân vào trường học khác nhau theo chủng tộc dưới nguyên tắc được gọi là tách biệt nhưng bình đẳng.",
+      "d": "Ngày 17/5/1954, Tòa án Tối cao nhất trí rằng phân biệt chủng tộc trong trường công vi phạm Hiến pháp. Vụ Brown v. Board of Education bác bỏ tính hợp hiến của hệ thống ấy trong giáo dục công lập.",
+      "consequences": "Phán quyết tạo cơ sở pháp lý quan trọng cho đấu tranh chống phân biệt, nhưng việc thực hiện gặp chống đối. Brown II năm 1955 mới đưa ra chỉ dẫn thi hành; các trường không lập tức hòa nhập chỉ sau ngày tuyên án.",
+      "why": "Một thắng lợi tại tòa có thể mở đường, còn biến quyền đã được thừa nhận thành thực tế vẫn cần đấu tranh tiếp.",
+      "refs": [
+        {
+          "url": "https://www.archives.gov/milestone-documents/brown-v-board-of-education",
+          "title": "National Archives — Brown v. Board of Education",
+          "scope": "Phán quyết 17/5/1954 về trường công, Brown II và khoảng cách giữa phán quyết với thi hành."
+        }
+      ],
+      "related": [],
+      "consequencesTitle": "Thắng kiện chưa có nghĩa thi hành ngay",
+      "ref": "https://www.archives.gov/milestone-documents/brown-v-board-of-education"
+    },
+    {
+      "id": "am-civil-rights-act-1964",
+      "y": 1964,
+      "t": "Đạo luật Dân quyền 1964 mở rộng bảo vệ bình đẳng",
+      "c": "pol",
+      "imp": 2,
+      "context": "Các chiến dịch dân quyền làm nổi rõ khoảng cách giữa quyền được hứa hẹn và việc bị từ chối phục vụ, học tập hay cơ hội việc làm vì chủng tộc.",
+      "d": "Ngày 2/7/1964, Tổng thống Lyndon Johnson ký Đạo luật Dân quyền sau một quá trình tranh luận và đấu tranh lập pháp gay gắt. Văn bản cấm phân biệt trong nhiều nơi phục vụ công cộng, thúc đẩy hòa nhập trường học và đặt ra bảo vệ chống phân biệt trong việc làm.",
+      "consequences": "Đạo luật cung cấp thêm công cụ pháp lý và cơ chế thực thi. Nó không đồng nghĩa mọi hình thức bất bình đẳng biến mất; đặc biệt quyền bỏ phiếu vẫn cần những biện pháp mạnh hơn sau đó.",
+      "why": "Sức ép xã hội có thể chuyển thành luật, nhưng hiệu quả của luật còn phụ thuộc thực thi.",
+      "refs": [
+        {
+          "url": "https://www.archives.gov/milestone-documents/civil-rights-act",
+          "title": "National Archives — Civil Rights Act 1964",
+          "scope": "Ngày ký, tiếp cận nơi công cộng, trường học, việc làm và quá trình thông qua."
+        },
+        {
+          "url": "https://www.archives.gov/milestone-documents/voting-rights-act",
+          "title": "National Archives — Voting Rights Act 1965",
+          "scope": "Đạo luật nguyên thủy 6/8/1965, bài kiểm tra đọc viết và các rào cản quyền bầu cử."
+        }
+      ],
+      "related": [
+        {
+          "id": "am-voting-rights-act-1965",
+          "kind": "connection",
+          "text": "Đạo luật 1965 tập trung vào các rào cản bầu cử mà công cuộc bảo vệ dân quyền vẫn phải giải quyết.",
+          "ref": "https://www.archives.gov/milestone-documents/voting-rights-act"
+        }
+      ],
+      "consequencesTitle": "Có luật, còn cần thực thi",
+      "ref": "https://www.archives.gov/milestone-documents/civil-rights-act"
+    },
+    {
+      "id": "am-voting-rights-act-1965",
+      "y": 1965,
+      "t": "Đạo luật Quyền bầu cử đánh vào rào cản lá phiếu",
+      "c": "pol",
+      "imp": 2,
+      "context": "Dù quyền bầu cử không được phép bị từ chối vì chủng tộc theo Tu chính án thứ 15, nhiều người Mỹ da đen vẫn bị ngăn đăng ký bằng thủ tục phân biệt, đe dọa và bạo lực.",
+      "d": "Ngày 6/8/1965, Tổng thống Johnson ký Đạo luật Quyền bầu cử. Đạo luật nguyên thủy nhắm vào các cách ngăn cản quyền bỏ phiếu, trong đó có bài kiểm tra đọc viết được sử dụng để loại cử tri.",
+      "consequences": "Luật tạo thêm khả năng can thiệp của liên bang đối với những rào cản mà lời bảo đảm hiến pháp trước đó chưa loại bỏ được. Đây là nội dung lịch sử của đạo luật năm 1965, không phải mô tả mọi quy định hiện hành.",
+      "why": "Quyền được ghi nhận và khả năng thực sự sử dụng quyền ấy có thể cách nhau rất xa.",
+      "refs": [
+        {
+          "url": "https://www.archives.gov/milestone-documents/voting-rights-act",
+          "title": "National Archives — Voting Rights Act 1965",
+          "scope": "Đạo luật nguyên thủy 6/8/1965, bài kiểm tra đọc viết và các rào cản quyền bầu cử."
+        }
+      ],
+      "related": [],
+      "consequencesTitle": "Liên bang có thêm công cụ bảo vệ lá phiếu",
+      "ref": "https://www.archives.gov/milestone-documents/voting-rights-act"
+    },
+    {
+      "id": "culture-ilm-1975",
+      "y": 1975,
+      "t": "George Lucas lập Industrial Light & Magic",
+      "c": "cul",
+      "imp": 1,
+      "topic": "Điện ảnh",
+      "context": "Dự án Star Wars đòi hỏi những hình ảnh mà ê-kíp cần xây dựng năng lực kỹ xảo để thực hiện.",
+      "d": "George Lucas thành lập ILM năm 1975 để làm kỹ xảo cho bộ phim về sau ra mắt với tên Star Wars: A New Hope. Nhóm tập hợp các nghệ sĩ và kỹ thuật viên để giải quyết những yêu cầu hình ảnh của dự án.",
+      "consequences": "Sau bộ ba Star Wars đầu, công ty mở rộng hợp tác với các nhà làm phim bên ngoài. Một nhóm được lập cho một nhu cầu cụ thể trở thành cơ sở làm kỹ xảo cho nhiều dự án khác.",
+      "why": "Hạ tầng sáng tạo và kỹ thuật có thể tiếp tục tồn tại, phát triển sau dự án đã tạo nhu cầu ban đầu.",
+      "refs": [
+        {
+          "url": "https://www.ilm.com/ilms-audacious-start-in-an-empty-warehouse-began-50-years-ago/",
+          "title": "ILM — Audacious start in an empty warehouse",
+          "scope": "Thành lập để thực hiện kỹ xảo cho Star Wars."
+        },
+        {
+          "url": "https://www.ilm.com/about/",
+          "title": "Industrial Light & Magic — About",
+          "scope": "Thành lập năm 1975, mục tiêu làm Star Wars và mở rộng khách hàng."
+        }
+      ],
+      "related": [
+        {
+          "id": "culture-star-wars-1977",
+          "kind": "consequence",
+          "text": "Công việc của ILM được đưa lên màn ảnh trong Star Wars năm 1977.",
+          "ref": "https://www.ilm.com/about/"
+        }
+      ],
+      "consequencesTitle": "Một xưởng kỹ xảo cho những chuyến bay trên màn ảnh",
+      "ref": "https://www.ilm.com/ilms-audacious-start-in-an-empty-warehouse-began-50-years-ago/"
+    },
+    {
+      "id": "am-nasa-1958",
+      "y": 1958,
+      "t": "NASA bắt đầu hoạt động",
+      "c": "sci",
+      "imp": 1,
+      "context": "Sau khi Liên Xô phóng Sputnik, Quốc hội Mỹ tranh luận về cách tổ chức chương trình không gian. Mỹ đã có các nhóm nghiên cứu tên lửa và một cơ quan nghiên cứu hàng không mang tên NACA.",
+      "d": "Tổng thống Dwight D. Eisenhower ký đạo luật thành lập NASA ngày 29/7/1958. Đến ngày 1/10, cơ quan mới bắt đầu hoạt động trên nền tảng NACA.",
+      "consequencesTitle": "Chương trình không gian có một đầu mối dân sự",
+      "consequences": "NASA đảm nhận việc tổ chức các hoạt động hàng không và vũ trụ dân sự. Một trong những nhiệm vụ đầu tiên của cơ quan là xây dựng chương trình đưa người vào không gian.",
+      "refs": [
+        {
+          "url": "https://www.nasa.gov/history/sputnik/sputorig.html",
+          "title": "NASA History — Sputnik and the Origins of the Space Age",
+          "scope": "Vai trò của Sputnik trong cuộc tranh luận ở Mỹ, NACA và hai mốc thành lập, hoạt động của NASA."
+        }
+      ],
+      "date": "1/10/1958",
+      "related": [
+        {
+          "id": "eu-sputnik-1957",
+          "kind": "background",
+          "text": "Vụ phóng Sputnik làm cuộc tranh luận về chính sách không gian ở Mỹ trở nên cấp bách.",
+          "ref": "https://www.nasa.gov/history/sputnik/sputorig.html"
+        }
+      ],
+      "ref": "https://www.nasa.gov/history/sputnik/sputorig.html"
+    },
+    {
+      "id": "am-apollo-8-earthrise-1968",
+      "y": 1968,
+      "t": "Từ Apollo 8, Trái Đất hiện lên trên chân trời Mặt Trăng",
+      "c": "sci",
+      "imp": 1,
+      "context": "Tháng 12/1968, phi hành đoàn Apollo 8 bay quanh Mặt Trăng. Từ cửa sổ con tàu, họ có thể nhìn ngược về nơi mình vừa rời đi.",
+      "d": "Ngày 24/12, William Anders chụp được Trái Đất xanh trắng phía trên bề mặt Mặt Trăng màu xám. Bức ảnh màu về sau mang tên Earthrise.",
+      "consequencesTitle": "Vì sao Trái Đất trông như đang mọc?",
+      "consequences": "Apollo 8 đang di chuyển trên quỹ đạo. Từ góc nhìn thay đổi ấy, đĩa Trái Đất hiện ra sau đường chân trời Mặt Trăng. Người chụp bức ảnh vẫn ở trong tàu.",
+      "refs": [
+        {
+          "url": "https://science.nasa.gov/resource/apollo-8s-iconic-earthrise/",
+          "title": "NASA — Bức ảnh Earthrise của Apollo 8",
+          "scope": "Tác giả William Anders, ngày chụp và vị trí trên quỹ đạo Mặt Trăng."
+        }
+      ],
+      "date": "24/12/1968",
+      "who": "William Anders",
+      "ref": "https://science.nasa.gov/resource/apollo-8s-iconic-earthrise/"
+    }
+  ]
+});
+
+TL_DATA.push({
+  "lane": "eu",
+  "periods": [],
+  "events": [
+    {
+      "id": "eu-web-public-domain-1993",
+      "y": 1993,
+      "t": "CERN công bố phần mềm Web cho mọi người sử dụng",
+      "c": "sci",
+      "imp": 2,
+      "context": "Web được xây dựng để các nhà nghiên cứu chia sẻ thông tin. Để công nghệ vượt khỏi một phòng thí nghiệm, những người khác cần có thể tiếp cận và triển khai nó.",
+      "d": "Ngày 30/4/1993, CERN đưa phần mềm World Wide Web vào phạm vi công cộng. Quyết định cho phép người khác sử dụng và phát triển phần mềm, giảm một rào cản quan trọng đối với việc phổ biến hệ thống mới.",
+      "consequences": "Việc mở công nghệ tạo điều kiện cho Web phát triển ở nhiều nơi. Sự lan rộng còn gắn với trình duyệt, hạ tầng Internet và công sức của nhiều nhóm, nên không thể quy tất cả cho riêng một văn bản phát hành.",
+      "why": "Đôi khi lựa chọn cách chia sẻ một phát minh có ý nghĩa lớn không kém lúc tạo ra nó.",
+      "refs": [
+        {
+          "url": "https://home.web.cern.ch/30-years-free-and-open-web/",
+          "title": "CERN — 30 years of a free and open Web",
+          "scope": "Quyết định 30/4/1993 công bố phần mềm và mục tiêu chia sẻ thông tin."
+        }
+      ],
+      "related": [
+        {
+          "id": "eu-www-1989",
+          "kind": "background",
+          "text": "Quyết định năm 1993 mở phần mềm phát triển từ đề xuất Web của Berners-Lee tại CERN.",
+          "ref": "https://home.web.cern.ch/30-years-free-and-open-web/"
+        }
+      ],
+      "consequencesTitle": "Giảm rào cản phát triển Web",
+      "ref": "https://home.web.cern.ch/30-years-free-and-open-web/"
+    },
+    {
+      "id": "culture-daguerre-1839",
+      "y": 1839,
+      "date": "19/8/1839",
+      "t": "Quy trình daguerreotype được công bố công khai",
+      "c": "sci",
+      "imp": 1,
+      "topic": "Văn minh",
+      "context": "Daguerre phát triển phương pháp ghi ảnh sau những thử nghiệm và sự cộng tác với Niépce.",
+      "d": "Ngày 19/8/1839, François Arago trình bày công khai quy trình daguerreotype tại Paris. Phương pháp tạo hình trực tiếp trên một tấm kim loại phủ bạc. Một ảnh daguerreotype không phải âm bản có thể dùng để in hàng loạt bản giấy.",
+      "consequences": "Việc công bố giúp kỹ thuật được nhiều người học và áp dụng. Các phương pháp khác tiếp tục phát triển song song; nhiếp ảnh không chỉ có một con đường kỹ thuật duy nhất.",
+      "why": "Công bố một quy trình làm cho kiến thức có thể được truyền đi ngoài xưởng của người phát minh.",
+      "refs": [
+        {
+          "url": "https://www.culture.gouv.fr/actualites/pour-ses-200-ans-la-photographie-voit-en-grand",
+          "title": "Bộ Văn hóa Pháp — 200 năm nhiếp ảnh",
+          "scope": "Ngày 19/8/1839 và công bố của Arago."
+        },
+        {
+          "url": "https://gallica.bnf.fr/selections/fr/html/photographies-acces-par-procede",
+          "title": "BnF — Các quy trình nhiếp ảnh",
+          "scope": "Vật liệu, ảnh dương trực tiếp và sự tiếp nối Niépce–Daguerre."
+        }
+      ],
+      "related": [
+        {
+          "id": "culture-niepce-1827",
+          "kind": "background",
+          "text": "Các thử nghiệm của Niépce là một phần công việc mà Daguerre tiếp nối.",
+          "ref": "https://gallica.bnf.fr/selections/fr/html/photographies-acces-par-procede"
+        }
+      ],
+      "consequencesTitle": "Kỹ thuật ghi ảnh bước ra khỏi xưởng",
+      "ref": "https://www.culture.gouv.fr/actualites/pour-ses-200-ans-la-photographie-voit-en-grand"
+    },
+    {
+      "id": "eu-marathon-olympic-1896",
+      "y": 1896,
+      "t": "Từ truyền thuyết Marathon đến đường chạy Olympic",
+      "c": "cul",
+      "imp": 1,
+      "context": "Khi người ta chuẩn bị cho kỳ Olympic hiện đại đầu tiên ở Athens, học giả Michel Bréal đề xuất một cuộc đua lấy cảm hứng từ truyền thuyết người lính chạy về báo tin thắng trận.",
+      "d": "Ngày 10/4/1896, các vận động viên chạy từ Marathon về Athens trên quãng đường khoảng 40 km. Người về nhất là Spiridon Louis của Hy Lạp.",
+      "consequencesTitle": "Một môn thi mới mang tên một chiến trường cổ",
+      "consequences": "Địa danh Marathon từ đó còn gắn với một môn điền kinh. Các kỳ Olympic cổ đại cũng có chạy đường dài, nhưng cuộc đua theo dấu người đưa tin chỉ xuất hiện ở Olympic thời hiện đại.",
+      "refs": [
+        {
+          "url": "https://worldathletics.org/news/feature/1896-olympic-marathon-spiridon-louis-125-anniversary-breal-cup",
+          "title": "World Athletics — Cuộc marathon Olympic đầu tiên",
+          "scope": "Đề xuất của Michel Bréal, truyền thuyết người đưa tin, đường chạy và kết quả năm 1896."
+        }
+      ],
+      "date": "10/4/1896",
+      "related": [
+        {
+          "id": "eu-marathon-490tcn",
+          "kind": "background",
+          "text": "Truyền thuyết về trận đánh này đã gợi ý cho Bréal chọn đường chạy.",
+          "ref": "https://worldathletics.org/news/feature/1896-olympic-marathon-spiridon-louis-125-anniversary-breal-cup"
+        }
+      ],
+      "ref": "https://worldathletics.org/news/feature/1896-olympic-marathon-spiridon-louis-125-anniversary-breal-cup"
+    },
+    {
+      "id": "eu-soho-broad-street-1854",
+      "y": 1854,
+      "t": "John Snow lần theo nguồn nước giữa dịch tả London",
+      "c": "sci",
+      "imp": 1,
+      "context": "Ở London thế kỷ XIX, nhiều người cho rằng dịch tả lây qua không khí ô nhiễm. Bác sĩ John Snow nghi ngờ nước uống sau khi tìm hiểu các đợt dịch trước.",
+      "d": "Khi dịch bùng lên ở khu Soho năm 1854, Snow đối chiếu địa chỉ người tử vong với vị trí lấy nước. Nhiều ca tập trung quanh máy bơm ở phố Broad, nơi người dân hằng ngày đến lấy nước về nhà.",
+      "consequencesTitle": "Vì sao nhà chức trách tháo tay bơm?",
+      "consequences": "Snow mang bằng chứng đến nhà chức trách địa phương. Họ cho tháo tay bơm để người dân ngừng sử dụng nguồn nước đáng ngờ. Bản đồ giúp biến địa chỉ của từng gia đình thành manh mối để điều tra cả một ổ dịch.",
+      "refs": [
+        {
+          "url": "https://www.londonmuseum.org.uk/collections/london-stories/john-snow-cholera-broad-street-pump/",
+          "title": "London Museum — John Snow và máy bơm phố Broad",
+          "scope": "Nguồn nước của khu Soho, bản đồ các ca tử vong và quyết định tháo tay bơm."
+        }
+      ],
+      "who": "John Snow",
+      "place": "Soho, London",
+      "ref": "https://www.londonmuseum.org.uk/collections/london-stories/john-snow-cholera-broad-street-pump/"
+    },
+    {
+      "id": "eu-champollion-1822",
+      "y": 1822,
+      "t": "Champollion tìm ra cách đọc chữ tượng hình Ai Cập",
+      "c": "sci",
+      "imp": 1,
+      "context": "Làm thế nào để đọc một cái tên khi chưa biết từng dấu trên đá phát âm ra sao? Những tên vua xuất hiện trong nhiều bản khắc cho Champollion một điểm để bắt đầu đối chiếu.",
+      "d": "Năm 1822, Jean-François Champollion công bố kết quả trong thư gửi học giả Bon-Joseph Dacier. Ông đã so sánh các bản khắc, trong đó có đá Rosetta, đài tưởng niệm ở Philae và đền Abu Simbel.",
+      "consequencesTitle": "Một hình vẽ cũng có thể ghi âm",
+      "consequences": "Trong hệ chữ này, có dấu gợi nghĩa và có dấu ghi âm. Nhận ra cách chúng kết hợp cho phép người nghiên cứu thử đọc những từ trên các văn bản khác, kể cả khi bên cạnh không có bản tiếng Hy Lạp.",
+      "refs": [
+        {
+          "url": "https://www.bnf.fr/fr/mediatheque/comment-champollion-dechiffre-les-hieroglyphes",
+          "title": "BnF — Champollion giải mã chữ tượng hình như thế nào?",
+          "scope": "Việc đối chiếu chữ khắc từ Rosetta, Philae và Abu Simbel, cùng vai trò của ký hiệu ghi âm."
+        },
+        {
+          "url": "https://www.bnf.fr/sites/default/files/2022-02/dp_aventure_Champollion.pdf",
+          "title": "BnF — L’aventure Champollion",
+          "scope": "Bức thư công bố kết quả giải mã năm 1822."
+        }
+      ],
+      "who": "Jean-François Champollion",
+      "related": [
+        {
+          "id": "wa-da-rosetta-1799",
+          "kind": "background",
+          "text": "Cùng một nội dung được ghi bằng nhiều hệ chữ trên đá Rosetta đã cho các học giả một văn bản để đối chiếu.",
+          "ref": "https://www.bnf.fr/fr/mediatheque/comment-champollion-dechiffre-les-hieroglyphes"
+        }
+      ],
+      "ref": "https://www.bnf.fr/fr/mediatheque/comment-champollion-dechiffre-les-hieroglyphes"
+    }
+  ]
+});
+
+TL_DATA.push({
+  "lane": "vn",
+  "periods": [],
+  "events": [
+    {
+      "id": "vn-hoi-an-unesco-1999",
+      "y": 1999,
+      "t": "Phố cổ Hội An được ghi danh Di sản Thế giới",
+      "c": "cul",
+      "imp": 1,
+      "context": "Cấu trúc đô thị thương cảng Hội An còn được giữ lại.",
+      "d": "Năm 1999, UNESCO ghi Phố cổ Hội An vào Danh sách Di sản Thế giới.",
+      "consequences": "Quản lý di sản cần quan tâm đến kiến trúc, cảnh quan và các giá trị văn hóa của đô thị.",
+      "why": "Năm ghi danh mở một chương mới trong lịch sử bảo tồn phố cổ.",
+      "refs": [
+        {
+          "url": "https://whc.unesco.org/en/decisions/2637/",
+          "title": "UNESCO — Decision 23 COM VIII.C.1",
+          "scope": "Quyết định ghi danh Hội An năm 1999."
+        },
+        {
+          "url": "https://whc.unesco.org/en/list/948",
+          "title": "UNESCO — Hoi An Ancient Town",
+          "scope": "Thương cảng thế kỷ XV–XIX, giao lưu văn hóa và sự bảo tồn hình thái đô thị."
+        }
+      ],
+      "related": [
+        {
+          "id": "vn-hoi-an-pho-hien-1620",
+          "kind": "background",
+          "text": "Phố cảng trong giai đoạn giao thương là bối cảnh hình thành di sản.",
+          "ref": "https://whc.unesco.org/en/list/948"
+        }
+      ],
+      "ref": "https://whc.unesco.org/en/decisions/2637/",
+      "consequencesTitle": "Giữ gìn cả một phố cảng"
+    },
+    {
+      "id": "vn-my-son-unesco-1999",
+      "y": 1999,
+      "t": "Mỹ Sơn được ghi danh Di sản Thế giới",
+      "c": "cul",
+      "imp": 1,
+      "context": "Mỹ Sơn lưu giữ dấu tích nhiều thế kỷ kiến trúc Chăm.",
+      "d": "Năm 1999, Mỹ Sơn được UNESCO ghi danh Di sản Thế giới.",
+      "consequences": "Bảo tồn gắn việc giữ công trình với nghiên cứu lịch sử và cảnh quan.",
+      "why": "Từ đền tháp, có thể tìm hiểu một truyền thống văn hóa Chăm.",
+      "refs": [
+        {
+          "url": "https://whc.unesco.org/en/list/949/",
+          "title": "UNESCO — My Son Sanctuary",
+          "scope": "Ghi danh 1999 và các giá trị được ghi nhận."
+        }
+      ],
+      "related": [
+        {
+          "id": "vn-my-son-400",
+          "kind": "background",
+          "text": "Di sản được hình thành qua nhiều thế kỷ trước khi được ghi danh.",
+          "ref": "https://whc.unesco.org/en/list/949/"
+        }
+      ],
+      "ref": "https://whc.unesco.org/en/list/949/",
+      "consequencesTitle": "Đọc lịch sử Chăm qua những đền tháp"
+    },
+    {
+      "id": "vn-thang-long-unesco-2010",
+      "y": 2010,
+      "t": "Trung tâm Hoàng thành Thăng Long được ghi danh",
+      "c": "cul",
+      "imp": 1,
+      "context": "Di tích kiến trúc và khảo cổ giúp nhận diện nhiều lớp lịch sử tại trung tâm Hà Nội.",
+      "d": "Năm 2010, Khu trung tâm Hoàng thành Thăng Long – Hà Nội được UNESCO ghi danh Di sản Thế giới.",
+      "consequences": "Bảo vệ di sản bao gồm cả công trình đang thấy và những lớp khảo cổ dưới đất.",
+      "why": "Các dấu tích kết nối lịch sử đô thị qua nhiều triều đại.",
+      "refs": [
+        {
+          "url": "https://whc.unesco.org/en/list/1328",
+          "title": "UNESCO — Central Sector of the Imperial Citadel of Thang Long",
+          "scope": "Năm ghi danh 2010, giá trị các lớp di tích."
+        }
+      ],
+      "related": [
+        {
+          "id": "vn-doi-do-thang-long-1010",
+          "kind": "background",
+          "text": "Việc đặt kinh đô ở Thăng Long là một bước quan trọng trong lịch sử của khu di tích.",
+          "ref": "https://whc.unesco.org/en/list/1328"
+        }
+      ],
+      "ref": "https://whc.unesco.org/en/list/1328",
+      "consequencesTitle": "Hoàng thành còn cả dưới lòng đất"
+    },
+    {
+      "id": "vn-ho-unesco-2011",
+      "y": 2011,
+      "t": "Thành nhà Hồ được ghi danh Di sản Thế giới",
+      "c": "cul",
+      "imp": 1,
+      "context": "Dù triều Hồ tồn tại ngắn, thành đá và cảnh quan liên quan vẫn là chứng cứ lịch sử quan trọng.",
+      "d": "Năm 2011, UNESCO ghi Thành nhà Hồ vào Danh sách Di sản Thế giới, ghi nhận quy hoạch và kỹ thuật kiến trúc của khu thành.",
+      "consequences": "Việc ghi danh hướng sự quan tâm tới bảo vệ toàn bộ cảnh quan và những thành phần liên quan, không chỉ những cổng đá nổi tiếng.",
+      "why": "Giá trị một công trình có thể vượt qua thời gian tồn tại của chế độ từng xây dựng nó.",
+      "refs": [
+        {
+          "url": "https://en.baochinhphu.vn/citadel-of-ho-dynasty-11110169.htm",
+          "title": "Cổng Chính phủ — Citadel of Hồ Dynasty",
+          "scope": "Bài ngày 29/6/2011 ghi nhận UNESCO mới công nhận di sản."
+        },
+        {
+          "url": "https://whc.unesco.org/en/list/1358/",
+          "title": "UNESCO — Citadel of the Ho Dynasty",
+          "scope": "Xây dựng 1397, kinh đô 1398–1407, cấu trúc thành đá và ghi danh 2011."
+        }
+      ],
+      "related": [
+        {
+          "id": "vn-thanh-nha-ho-1397",
+          "kind": "background",
+          "text": "Khu thành được xây từ năm 1397, trước mốc ghi danh hơn sáu thế kỷ.",
+          "ref": "https://whc.unesco.org/en/list/1358/"
+        }
+      ],
+      "ref": "https://en.baochinhphu.vn/citadel-of-ho-dynasty-11110169.htm",
+      "consequencesTitle": "Di sản rộng hơn bốn cổng thành"
+    },
+    {
+      "id": "vn-asean-observer-1992",
+      "y": 1992,
+      "t": "Việt Nam trở thành quan sát viên ASEAN",
+      "c": "pol",
+      "imp": 1,
+      "context": "Quan hệ giữa Việt Nam và ASEAN phát triển qua nhiều bước tiếp xúc trước khi gia nhập.",
+      "d": "Năm 1992, Việt Nam tham gia Hiệp ước Thân thiện và Hợp tác ở Đông Nam Á và trở thành quan sát viên ASEAN.",
+      "consequences": "Tư cách quan sát viên mở một cấp độ tham gia vào hoạt động khu vực. Quá trình gia nhập đầy đủ tiếp tục qua những cuộc tiếp xúc và quyết định sau đó.",
+      "why": "Hội nhập thường đi qua những cấp độ tham gia khác nhau.",
+      "refs": [
+        {
+          "url": "https://asean.org/wp-content/uploads/2021/08/ANNUAL-REPORT-1992-1993-reduced.pdf",
+          "title": "ASEAN — Annual Report 1992–1993",
+          "scope": "TAC và quy chế quan sát viên được trao tại Hội nghị Bộ trưởng Ngoại giao ASEAN tháng 7/1992."
+        },
+        {
+          "url": "https://mofa.gov.vn/tin-chi-tiet/chi-tiet/thong-tin-co-ban-ve-asean-va-quan-he-viet-nam-asean-589.html",
+          "title": "Bộ Ngoại giao — Thông tin cơ bản về ASEAN và quan hệ Việt Nam–ASEAN",
+          "scope": "Gia nhập 28/7/1995, thành viên thứ bảy, quá trình quan hệ trước và sau."
+        }
+      ],
+      "related": [
+        {
+          "id": "vn-asean-1995",
+          "kind": "connection",
+          "text": "Sau giai đoạn quan sát viên, Việt Nam trở thành thành viên đầy đủ năm 1995.",
+          "ref": "https://mofa.gov.vn/tin-chi-tiet/chi-tiet/thong-tin-co-ban-ve-asean-va-quan-he-viet-nam-asean-589.html"
+        }
+      ],
+      "ref": "https://asean.org/wp-content/uploads/2021/08/ANNUAL-REPORT-1992-1993-reduced.pdf",
+      "consequencesTitle": "Ba năm trước khi trở thành thành viên ASEAN"
+    }
+  ]
+});
+
+TL_DATA.push({
+  "lane": "ea",
+  "periods": [],
+  "events": [
+    {
+      "id": "culture-gameboy-1989",
+      "y": 1989,
+      "t": "Game Boy và Tetris đưa trò chơi vào thiết bị cầm tay",
+      "c": "cul",
+      "imp": 1,
+      "topic": "Trò chơi",
+      "context": "Tetris đã có từ năm 1984, còn Nintendo tiếp tục phát triển những thiết bị giải trí điện tử.",
+      "d": "Năm 1989, Nintendo đưa Game Boy ra thị trường. Tetris cũng có phiên bản dành cho hệ máy này; hồ sơ Nintendo ghi nhận bản phát hành ở Bắc Mỹ trong năm đó. Đây là một bước phân phối và chuyển thể trò chơi, khác với mốc tạo ra Tetris ban đầu.",
+      "consequences": "Người chơi có thêm cách mang trải nghiệm xếp khối theo mình trên thiết bị cầm tay. Mốc này cho thấy phần cứng, phần mềm và phân phối cùng định hình cách công chúng tiếp cận trò chơi.",
+      "why": "Một trò chơi có thể có nhiều mốc lịch sử: được tạo ra, chuyển sang hệ máy mới và đến thị trường khác.",
+      "refs": [
+        {
+          "url": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html",
+          "title": "Nintendo — History",
+          "scope": "Game Boy ra thị trường năm 1989."
+        },
+        {
+          "url": "https://www.nintendo.com/us/whatsnew/two-classic-tetris-games-are-dropping-onto-the-nes-and-game-boy-libraries/",
+          "title": "Nintendo — Classic Tetris games",
+          "scope": "Phiên bản Game Boy ở Bắc Mỹ năm 1989."
+        },
+        {
+          "url": "https://www.moma.org/collection/works/152403",
+          "title": "MoMA — Tetris, 1984",
+          "scope": "Người tạo, năm và bối cảnh máy tính."
+        }
+      ],
+      "related": [
+        {
+          "id": "culture-tetris-1984",
+          "kind": "background",
+          "text": "Tetris xuất hiện năm 1984 trước khi có phiên bản cho Game Boy.",
+          "ref": "https://www.moma.org/collection/works/152403"
+        }
+      ],
+      "consequencesTitle": "Khi Tetris có thể đi theo người chơi",
+      "ref": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html"
+    }
+  ]
+});

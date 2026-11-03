@@ -103,7 +103,8 @@ function sliceNotes(item) {
   return ['why','alt'].map(field => {
     const entry = related.find(e => e.source[field]);
     if (!entry) return '';
-    return '<section class="story-note"><h2>'+escapeHTML(noteTitle(entry.id,field))+'</h2>'+
+    const title=(field==='why'?entry.source.consequencesTitle:entry.source.altTitle)||noteTitle(entry.id,field);
+    return '<section class="story-note">'+(title?'<h2>'+escapeHTML(title)+'</h2>':'')+
       paragraphs(entry.source[field])+'<a class="note-source" href="'+href(entry)+'">'+escapeHTML(entry.title)+' →</a></section>';
   }).join('');
 }
@@ -286,6 +287,454 @@ const surpriseQuestions = [
     "correct": 0,
     "why": "Tên gọi chung “Benin Bronzes” có thể gây nhầm: nhiều tấm phù điêu cung đình được đúc bằng đồng thau. Hồ sơ hiện vật của British Museum ghi rõ chất liệu này.",
     "ref": "https://www.britishmuseum.org/collection/object/E_Af1898-0115-27"
+  },
+  {
+    "key": "rosetta-parallel-decree",
+    "theme": "language",
+    "ask": "Điều gì khiến chữ Hy Lạp trên đá Rosetta trở thành chiếc chìa khóa đọc chữ Ai Cập cổ?",
+    "choices": [
+      "Cùng một sắc lệnh được ghi bằng nhiều hệ chữ",
+      "Phần Hy Lạp là một bảng từ điển Ai Cập–Hy Lạp",
+      "Mỗi hình tượng Ai Cập đều có một chữ Hy Lạp ngay bên cạnh"
+    ],
+    "correct": 0,
+    "why": "Cùng một sắc lệnh xuất hiện bằng hai ngôn ngữ và ba hệ chữ. Học giả đọc được phần tiếng Hy Lạp, nhờ vậy họ có một văn bản đã hiểu nghĩa để lần sang phần chữ Ai Cập.",
+    "ref": "https://heritage.bnf.fr/bibliothequesorient/jean-francois-champollion-1790-1832-0",
+    "id": "wa-da-rosetta-1799"
+  },
+  {
+    "key": "silk-roads-network",
+    "theme": "trade",
+    "ask": "Hình dung nào gần với Con đường Tơ lụa trong lịch sử nhất?",
+    "choices": [
+      "Một con đường lát đá liền mạch giữa hai kinh đô",
+      "Một mạng tuyến đường nối các chợ, ốc đảo và thành phố",
+      "Một lộ trình cố định mà mỗi đoàn buôn phải đi hết"
+    ],
+    "correct": 1,
+    "why": "Một kiện hàng có thể qua tay nhiều thương nhân, đi từng chặng giữa các ốc đảo và thành phố. Chỉ riêng hành lang Trường An – Thiên Sơn đã có nhiều tuyến nối nhau.",
+    "ref": "https://whc.unesco.org/en/list/1442/"
+  },
+  {
+    "key": "earthrise-lunar-orbit",
+    "theme": "space",
+    "ask": "Bức Earthrise nổi tiếng, với Trái Đất nhô lên trên đường chân trời Mặt Trăng, được chụp từ đâu?",
+    "choices": [
+      "Một trạm tự động đứng trên bề mặt Mặt Trăng",
+      "Một kính thiên văn bay quanh Trái Đất",
+      "Tàu Apollo 8 đang bay quanh Mặt Trăng"
+    ],
+    "correct": 2,
+    "why": "William Anders chụp bức ảnh từ cửa sổ Apollo 8 vào đêm Giáng sinh 1968. Trái Đất như đang mọc vì chính con tàu đang vòng qua Mặt Trăng.",
+    "ref": "https://science.nasa.gov/resource/apollo-8s-iconic-earthrise/",
+    "id": "am-apollo-8-earthrise-1968"
+  },
+  {
+    "key": "apollo13-lunar-module-lifeboat",
+    "theme": "space",
+    "ask": "Vì sao bộ phận vốn dành để đáp xuống Mặt Trăng lại cứu sống phi hành đoàn Apollo 13?",
+    "choices": [
+      "Cả ba chuyển sang đó để dùng điện và dưỡng khí",
+      "Nó mang theo bồn oxy dự phòng để thay bồn đã hỏng",
+      "Tấm chắn nhiệt của nó được dùng để trở về Trái Đất"
+    ],
+    "correct": 0,
+    "why": "Sau sự cố bồn oxy, phi hành đoàn cần giữ điện cho mô-đun chỉ huy để còn trở về Trái Đất. Mô-đun đổ bộ Aquarius trở thành nơi ở tạm, cung cấp điện và hỗ trợ sự sống.",
+    "ref": "https://www.nasa.gov/news-release/nasa-commemorates-50th-anniversary-of-apollo-13-a-successful-failure/"
+  },
+  {
+    "key": "longitude-time-difference",
+    "theme": "navigation",
+    "ask": "Một chiếc đồng hồ chạy chính xác giúp thủy thủ biết tàu ở phía đông hay phía tây bằng cách nào?",
+    "choices": [
+      "Đo thời gian từ lúc Mặt Trời mọc đến khi lặn",
+      "So giờ địa phương với giờ ở kinh tuyến chuẩn",
+      "Đo khoảng cách thời gian giữa hai lần thủy triều lên"
+    ],
+    "correct": 1,
+    "why": "Khi Mặt Trời đứng cao nhất ở chỗ con tàu, thủy thủ đối chiếu giờ địa phương với đồng hồ vẫn giữ giờ ở kinh tuyến chuẩn. Trái Đất quay khoảng 15 độ mỗi giờ, nên chênh lệch một giờ tương ứng với khoảng 15 độ kinh độ.",
+    "ref": "https://www.rmg.co.uk/stories/time/what-longitude"
+  },
+  {
+    "key": "penicillin-bacterial-clear-zone",
+    "theme": "medicine",
+    "ask": "Điều gì trên một đĩa nuôi vi khuẩn đã khiến Alexander Fleming chú ý năm 1928?",
+    "choices": [
+      "Vi khuẩn tập trung thành vòng dày quanh một đám nấm",
+      "Môi trường nuôi cấy đổi màu đều khắp đĩa",
+      "Vi khuẩn không phát triển ở vùng quanh đám nấm mốc"
+    ],
+    "correct": 2,
+    "why": "Đĩa nuôi tụ cầu bị lẫn nấm mốc. Ngay sát đám nấm có một vòng trống, trong khi xa hơn vi khuẩn vẫn mọc. Vòng trống ấy dẫn Fleming đến chất ông đặt tên là penicillin.",
+    "ref": "https://www.nobelprize.org/prizes/medicine/1945/fleming/biographical/",
+    "id": "eu-penicillin-1928"
+  },
+  {
+    "key": "jenner-milkmaids-cowpox",
+    "theme": "medicine",
+    "ask": "Quan sát nào ở những người vắt sữa đã gợi hướng nghiên cứu đậu mùa cho Edward Jenner?",
+    "choices": [
+      "Người đã mắc đậu bò dường như ít mắc đậu mùa",
+      "Người mắc đậu mùa thường nổi nốt đầu tiên ở bàn tay",
+      "Người trong cùng trại bò thường phát bệnh cùng một ngày"
+    ],
+    "correct": 0,
+    "why": "Từ lâu người ta đã nhận thấy một số người từng mắc đậu bò dường như tránh được đậu mùa. Năm 1796, Jenner dùng vật liệu lấy từ một tổn thương đậu bò để thử ý tưởng về khả năng bảo vệ chéo ấy.",
+    "ref": "https://www.cdc.gov/smallpox/about/history.html",
+    "id": "eu-jenner-1796"
+  },
+  {
+    "key": "snow-cholera-shared-water",
+    "theme": "medicine",
+    "ask": "Trong đợt dịch tả ở London năm 1854, John Snow lần theo mối liên hệ nào giữa nhiều người bệnh?",
+    "choices": [
+      "Họ cùng làm việc trong các xưởng thuộc da",
+      "Họ lấy nước uống từ cùng một máy bơm",
+      "Họ mua thực phẩm ở cùng một quầy chợ"
+    ],
+    "correct": 1,
+    "why": "Địa chỉ người tử vong tập trung quanh máy bơm ở phố Broad. Hỏi người dân lấy nước ở đâu giúp Snow nối những chấm trên bản đồ với một nguồn phơi nhiễm cụ thể.",
+    "ref": "https://www.londonmuseum.org.uk/collections/london-stories/john-snow-cholera-broad-street-pump/",
+    "id": "eu-soho-broad-street-1854"
+  },
+  {
+    "key": "abu-simbel-block-relocation",
+    "theme": "heritage",
+    "ask": "Người ta đã cứu các đền Abu Simbel khỏi vùng nước dâng do đập Aswan bằng cách nào?",
+    "choices": [
+      "Dựng đê bao rồi bơm nước khỏi khu đền",
+      "Nâng nguyên khối từng ngôi đền bằng hệ kích",
+      "Cắt đền thành khối rồi lắp lại ở vị trí cao hơn"
+    ],
+    "correct": 2,
+    "why": "Hai ngôi đền đá được cắt ra thành hơn một nghìn khối rồi dựng lại ở vị trí cao hơn. Bởi vậy khách tham quan vẫn thấy cả mặt tiền lẫn các gian thờ, dù địa điểm ban đầu đã chìm dưới nước.",
+    "ref": "https://whc.unesco.org/en/story-abu-simbel/",
+    "id": "wa-di-doi-abu-simbel-1964"
+  },
+  {
+    "key": "star-wars-hidden-fortress-viewpoint",
+    "theme": "cinema",
+    "ask": "Cặp robot hay cãi nhau C-3PO và R2-D2 gợi nhớ đến bộ đôi nào trong phim The Hidden Fortress của Kurosawa?",
+    "choices": [
+      "Hai nông dân đi cùng một công chúa và một tướng quân",
+      "Hai vệ binh được cử áp giải một tù nhân qua biên giới",
+      "Hai samurai tranh nhau phần thưởng của một lãnh chúa"
+    ],
+    "correct": 0,
+    "why": "Trong phim của Kurosawa, hai nông dân hay cãi nhau bị cuốn vào chuyện của một công chúa và một tướng quân. Đầu phim Star Wars, người xem cũng bước vào cuộc phiêu lưu qua hai bạn đồng hành luôn cãi cọ.",
+    "ref": "https://www.starwars.com/news/akira-kurosawa-star-wars-influence",
+    "id": "culture-star-wars-1977"
+  },
+  {
+    "key": "donkey-kong-popeye-concept",
+    "theme": "games",
+    "ask": "Trong ý tưởng ban đầu dẫn đến Donkey Kong, Shigeru Miyamoto từng muốn dùng nhân vật hoạt hình nào?",
+    "choices": [
+      "Pinocchio",
+      "Popeye",
+      "Peter Pan"
+    ],
+    "correct": 1,
+    "why": "Miyamoto kể rằng ông từng hình dung trò chơi với Popeye và những nhân vật cùng bộ truyện. Donkey Kong cuối cùng có dàn nhân vật riêng, còn Nintendo về sau mới làm một trò chơi mang tên Popeye.",
+    "ref": "https://iwataasks.nintendo.com/interviews/wii/nsmb/0/0/"
+  },
+  {
+    "key": "olympic-art-medals",
+    "theme": "sport",
+    "ask": "Ở Olympic đầu thế kỷ XX, một người có thể giành huy chương nhờ thành tích nào sau đây?",
+    "choices": [
+      "Viết một công trình nghiên cứu khảo cổ",
+      "Phát minh một thiết bị y tế",
+      "Thiết kế một công trình kiến trúc về thể thao"
+    ],
+    "correct": 2,
+    "why": "Tại Stockholm năm 1912, một đồ án sân vận động đã đoạt huy chương vàng. Kiến trúc khi ấy là một trong các nội dung thi nghệ thuật Olympic, cùng với văn học, âm nhạc, hội họa và điêu khắc.",
+    "ref": "https://www.olympics.com/ioc/news/a-meeting-of-muscles-and-minds"
+  },
+  {
+    "key": "newcomen-mine-drainage",
+    "theme": "industry",
+    "ask": "Trước khi hơi nước gắn với hình ảnh tàu hỏa, động cơ Newcomen được phát triển để giải quyết việc gì?",
+    "choices": [
+      "Bơm nước ra khỏi các hầm mỏ",
+      "Kéo toa hành khách giữa hai thành phố",
+      "Vận hành máy dệt trong xưởng vải"
+    ],
+    "correct": 0,
+    "why": "Càng đào sâu, thợ mỏ càng phải đối phó với nước ngập. Động cơ của Newcomen kéo bơm đưa nước lên mặt đất từ đầu thế kỷ XVIII, trước khi hình ảnh đầu máy xe lửa trở nên quen thuộc.",
+    "ref": "https://www.nms.ac.uk/discover-catalogue/the-newcomen-engine-and-its-role-in-britains-industrial-revolution",
+    "id": "eu-watt-1769"
+  },
+  {
+    "key": "lloyds-coffee-house-network",
+    "theme": "trade",
+    "ask": "Nguồn gốc thị trường bảo hiểm Lloyd’s ở London gắn với địa điểm nào?",
+    "choices": [
+      "Một xưởng đóng tàu thuộc hải quân",
+      "Một quán cà phê nơi giới hàng hải trao đổi tin tức",
+      "Một cơ quan thu thuế đặt ngay trong hoàng cung"
+    ],
+    "correct": 1,
+    "why": "Chủ tàu, người buôn hàng và người nhận bảo hiểm gặp nhau ở quán cà phê của Edward Lloyd để trao đổi tin tàu đi, tàu đến. Muốn định giá rủi ro cho một chuyến biển, thứ họ cần trước hết là tin tức đáng tin cậy.",
+    "ref": "https://www.lloyds.com/about-lloyds/history/coffee-and-commerce"
+  },
+  {
+    "key": "liberty-copper-green-patina",
+    "theme": "architecture",
+    "ask": "Màu xanh quen thuộc của tượng Nữ thần Tự do hình thành chủ yếu từ đâu?",
+    "choices": [
+      "Sơn chống nước được quét lên tượng sau khi lắp ráp",
+      "Men màu được nung trên các tấm đồng ngay tại xưởng",
+      "Lớp patina hình thành trên vỏ đồng ngoài không khí"
+    ],
+    "correct": 2,
+    "why": "Vỏ tượng được ghép từ những tấm đồng. Ban đầu đồng có màu nâu đỏ. Qua nhiều năm ngoài trời, bề mặt đồng hình thành lớp patina xanh mà nay người ta nhận ra từ xa.",
+    "ref": "https://www.nps.gov/stli/planyourvisit/frequently-asked-questions-statue-of-liberty.htm"
+  },
+  {
+    "key": "metre-earth-meridian",
+    "theme": "measurement",
+    "ask": "Khi xây dựng hệ mét ở Pháp, người ta ban đầu muốn gắn một mét với điều gì?",
+    "choices": [
+      "Một phần cung kinh tuyến từ xích đạo tới Bắc Cực",
+      "Chiều dài con lắc đếm một nhịp mỗi giây ở Paris",
+      "Một phần khoảng cách trung bình từ Trái Đất đến Mặt Trăng"
+    ],
+    "correct": 0,
+    "why": "Một mét được chọn bằng một phần mười triệu cung kinh tuyến nối xích đạo với Bắc Cực. Để tính chiều dài ấy, các nhà đo đạc khảo sát một đoạn giữa Dunkirk và Barcelona.",
+    "ref": "https://www.nist.gov/si-redefinition/meter",
+    "id": "culture-metric-1795"
+  },
+  {
+    "key": "republican-calendar-ten-day-cycle",
+    "theme": "daily-life",
+    "ask": "Trong lịch Cộng hòa Pháp, nhịp tuần bảy ngày được thay bằng chu kỳ nào?",
+    "choices": [
+      "Sáu ngày",
+      "Mười ngày",
+      "Tám ngày"
+    ],
+    "correct": 1,
+    "why": "Trong lịch Cộng hòa Pháp, tháng có 30 ngày chia thành ba décade, mỗi décade gồm mười ngày. Người xem lịch phải học cả nhịp đếm ngày mới, ngoài tên gọi mới của các tháng.",
+    "ref": "https://anlux.public.lu/fr/rechercher/outils-pratiques/calendrier-republicain.html"
+  },
+  {
+    "key": "papyrus-crossed-strips",
+    "theme": "writing",
+    "ask": "Một tấm papyrus Ai Cập thường được tạo thành theo cách nào?",
+    "choices": [
+      "Nghiền vỏ cây thành bột rồi vớt bằng khuôn lưới",
+      "Cạo mỏng da động vật rồi căng khô",
+      "Xếp các dải ruột cây thành lớp giao nhau rồi ép khô"
+    ],
+    "correct": 2,
+    "why": "Thợ cắt ruột thân cây thành những dải dài rồi xếp hai lớp vuông góc và ép lại. Trên một tấm papyrus, bạn vẫn có thể nhìn thấy hướng các dải cây chạy ngang hoặc dọc.",
+    "ref": "https://www.metmuseum.org/pt/essays/papyrus-making-in-egypt"
+  },
+  {
+    "key": "marathon-modern-olympic-invention",
+    "theme": "sport",
+    "ask": "Môn marathon ở Olympic hiện đại có mối quan hệ thế nào với Olympic cổ đại?",
+    "choices": [
+      "Một môn mới lấy cảm hứng từ truyền thuyết Hy Lạp",
+      "Một môn cổ được phục dựng theo đúng lộ trình xưa",
+      "Tên mới của cuộc chạy nhiều vòng sân ở Olympia"
+    ],
+    "correct": 0,
+    "why": "Michel Bréal đề xuất cuộc đua lấy cảm hứng từ truyền thuyết người đưa tin. Khi Spiridon Louis thắng ở Athens năm 1896, đó là lần đầu cả lịch sử Olympic có môn marathon.",
+    "ref": "https://worldathletics.org/heritage/news/1896-olympic-marathon-spiridon-louis-125-anniversary-breal-cup",
+    "id": "eu-marathon-olympic-1896"
+  },
+  {
+    "key": "web-cern-information-sharing",
+    "theme": "computing",
+    "ask": "Nhu cầu ban đầu thúc đẩy Tim Berners-Lee đề xuất World Wide Web ở CERN là gì?",
+    "choices": [
+      "Chia thời gian xử lý của một máy tính lớn cho các phòng thí nghiệm",
+      "Nối tài liệu để các nhà khoa học ở nhiều nơi chia sẻ thông tin",
+      "Đồng bộ đồng hồ cho các máy dò hạt trong phòng thí nghiệm"
+    ],
+    "correct": 1,
+    "why": "Ở CERN, thông tin nghiên cứu nằm rải rác trên nhiều máy và trong nhiều nhóm. Đề xuất năm 1989 của Berners-Lee dùng các liên kết để người đọc có thể đi từ tài liệu này sang tài liệu khác.",
+    "ref": "https://home.cern/science/computing/the-birth-of-the-web",
+    "id": "eu-www-1989"
+  },
+  {
+    "key": "velcro-burr-hooks",
+    "theme": "invention",
+    "ask": "Thứ gì trong tự nhiên đã gợi ý cho George de Mestral tạo ra khóa dán Velcro?",
+    "choices": [
+      "Các vảy quả thông khép lại khi ướt",
+      "Nhựa cây bám dính vào sợi vải",
+      "Những quả gai móc vào lông chó"
+    ],
+    "correct": 2,
+    "why": "De Mestral xem kỹ những quả gai mắc vào lông chó và quần áo. Các móc nhỏ bám vào sợi vải gợi cho ông hai bề mặt có thể ép dính rồi bóc ra nhiều lần.",
+    "ref": "https://lemelson.mit.edu/resources/george-de-mestral"
+  },
+  {
+    "key": "great-wave-printers-collaboration",
+    "theme": "art",
+    "ask": "Ai đã biến bản vẽ Sóng lừng ngoài khơi Kanagawa của Hokusai thành những bản in nhiều sắc xanh?",
+    "choices": [
+      "Thợ khắc ván và thợ in từng lớp màu",
+      "Thợ vẽ tay tô riêng từng tờ sau khi in nét",
+      "Thợ dệt tạo sẵn hoa văn trên nền lụa"
+    ],
+    "correct": 0,
+    "why": "Sóng lừng là tranh in khắc gỗ. Từ bản vẽ của Hokusai, thợ khắc chuẩn bị ván, rồi thợ in lần lượt đặt các lớp màu lên giấy. Sắc xanh trên bản in vì thế mang cả dấu tay của người in.",
+    "ref": "https://www.metmuseum.org/ja/essays/hokusai-great-wave",
+    "id": "ea-hokusai-1831"
+  },
+  {
+    "key": "boston-tea-chinese-origin",
+    "theme": "trade",
+    "ask": "Dù do Công ty Đông Ấn của Anh vận chuyển, trà bị đổ xuống biển trong Boston Tea Party có nguồn gốc ở đâu?",
+    "choices": [
+      "Ấn Độ",
+      "Trung Quốc",
+      "Đảo Java"
+    ],
+    "correct": 1,
+    "why": "Tên Công ty Đông Ấn dễ khiến ta nghĩ tới Ấn Độ. Nhưng trà trên những chiếc tàu ở Boston năm 1773 đến từ Trung Quốc. Nơi trồng trà, công ty vận chuyển và nơi phản đối thuế nằm ở ba phía khác nhau của mạng lưới buôn bán.",
+    "ref": "https://www.osmh.org/history/boston-tea-party/frequently-asked-questions-about-boston-tea-party_destination-node_36",
+    "id": "am-tiec-tra-boston-1773"
+  },
+  {
+    "key": "mendeleev-predictive-gaps",
+    "theme": "science",
+    "ask": "Vì sao việc Mendeleev để ô trống trong bảng tuần hoàn lại trở thành một điểm mạnh?",
+    "choices": [
+      "Để dành chỗ cho những nguyên tố chỉ tồn tại ở dạng hợp chất",
+      "Để tách các kim loại hiếm khỏi các kim loại thông thường",
+      "Để dự đoán tính chất của những nguyên tố chưa biết"
+    ],
+    "correct": 2,
+    "why": "Nếu các nguyên tố cùng nhóm có tính chất lặp lại, một khoảng trống cũng mang thông tin. Mendeleev dùng vị trí trống để dự đoán tính chất của những nguyên tố người ta chưa tìm thấy.",
+    "ref": "https://periodic-table.rsc.org/about",
+    "id": "eu-mendeleev-1869"
+  },
+  {
+    "key": "mona-lisa-poplar-panel",
+    "theme": "conservation",
+    "ask": "Khác với hình dung về tranh vẽ trên vải, Mona Lisa được Leonardo vẽ trên bề mặt nào?",
+    "choices": [
+      "Một tấm gỗ dương",
+      "Một tấm lụa căng trên khung",
+      "Một tấm đồng đánh nhẵn"
+    ],
+    "correct": 0,
+    "why": "Leonardo dùng sơn dầu trên một tấm gỗ dương. Khách xem thường nhớ lớp màu và nụ cười, nhưng tấm gỗ bên dưới cũng là một phần của hiện vật mà Louvre phải bảo quản.",
+    "ref": "https://www.louvre.fr/en/explore/the-palace/from-the-mona-lisa-to-the-wedding-feast-at-cana",
+    "id": "eu-mona-lisa-1503"
+  },
+  {
+    "key": "voyager-record-earth-portrait",
+    "theme": "space",
+    "ask": "Chiếc đĩa vàng trên Voyager được tạo ra chủ yếu để làm gì?",
+    "choices": [
+      "Lưu bản dự phòng chương trình điều khiển tàu",
+      "Giới thiệu Trái Đất với bất kỳ ai có thể tìm thấy tàu",
+      "Ghi lại các tín hiệu vô tuyến thu được trên hành trình"
+    ],
+    "correct": 1,
+    "why": "Mỗi tàu Voyager mang theo một đĩa chứa âm nhạc, lời chào, âm thanh và hình ảnh về Trái Đất. Người nhận được hình dung là bất cứ ai có thể tìm thấy con tàu rất lâu sau khi nó rời xa chúng ta.",
+    "ref": "https://science.nasa.gov/mission/voyager/voyager-golden-record-overview/"
+  },
+  {
+    "key": "bayeux-embroidery-technique",
+    "theme": "craft",
+    "ask": "Tên gọi “thảm Bayeux” dễ gây nhầm ở điểm nào về cách tác phẩm được làm?",
+    "choices": [
+      "Hình được in từ ván khắc lên từng tấm vải",
+      "Hình được ghép từ những mảnh vải nhuộm màu",
+      "Hình được thêu bằng chỉ lên nền vải đã dệt"
+    ],
+    "correct": 2,
+    "why": "Hình người, ngựa và thuyền được thêu bằng chỉ len trên nền vải lanh đã dệt sẵn. Ở một tấm thảm dệt hình, hoa văn hình thành ngay khi người thợ dệt nên tấm vải.",
+    "ref": "https://www.bayeuxmuseum.com/en/the-bayeux-tapestry/discover-the-bayeux-tapestry/tapestry-or-embroidery/"
+  },
+  {
+    "key": "impressionism-critical-label",
+    "theme": "art",
+    "ask": "Tên gọi “Ấn tượng” của phong trào hội họa gắn với phản ứng nào khi tranh Monet được trưng bày năm 1874?",
+    "choices": [
+      "Một nhà phê bình dùng tên bức tranh để đặt lời chế giễu",
+      "Viện hàn lâm trao giải rồi chính thức đặt tên cho nhóm",
+      "Monet mở trường dạy vẽ mang tên Ấn tượng"
+    ],
+    "correct": 0,
+    "why": "Nhà phê bình Louis Leroy mượn tên bức Ấn tượng, mặt trời mọc của Monet để châm biếm cuộc triển lãm năm 1874. Cái tên từng mang ý giễu cợt rồi lại gắn với cả phong trào.",
+    "ref": "https://www.marmottan.fr/en/the-museum/the-museum-and-its-history/",
+    "id": "culture-impressionism-1874"
+  },
+  {
+    "key": "orsay-railway-station-reuse",
+    "theme": "architecture",
+    "ask": "Trước khi thành bảo tàng nghệ thuật, tòa nhà chính của Musée d’Orsay ở Paris phục vụ công việc gì?",
+    "choices": [
+      "Một nhà hát opera",
+      "Một ga đường sắt",
+      "Một nhà máy điện"
+    ],
+    "correct": 1,
+    "why": "Tòa nhà bên sông Seine ban đầu là ga Orsay. Không gian từng đón các đoàn tàu nay là sảnh trưng bày, và những chiếc đồng hồ lớn vẫn gợi lại công dụng cũ.",
+    "ref": "https://www.musee-orsay.fr/fr/articles/histoire-du-musee-60"
+  },
+  {
+    "key": "nylon-stockings-parachutes",
+    "theme": "industry",
+    "ask": "Loại vật liệu nào đi từ những đôi tất được săn đón sang vai trò thay thế lụa làm dù trong Thế chiến II?",
+    "choices": [
+      "Rayon",
+      "Sợi axetat",
+      "Nylon"
+    ],
+    "correct": 2,
+    "why": "Năm 1940, phần lớn nylon của DuPont được dùng làm tất. Khi nhu cầu quân sự tăng lên, hãng chuyển sản lượng sang các mặt hàng như dù và sợi gia cường lốp, khiến tất nylon trở nên khó mua.",
+    "ref": "https://www.sciencehistory.org/stories/magazine/nylon-a-revolution-in-textiles/"
+  },
+  {
+    "key": "vn-bia-thi-1442",
+    "theme": "education",
+    "ask": "Vì sao bia tiến sĩ ở Văn Miếu ghi cả khoa thi năm 1442, dù đến năm 1484 mới bắt đầu dựng bia?",
+    "choices": [
+      "Khoa thi năm 1442 kéo dài đến khi dựng bia",
+      "Có bia được dựng để ghi danh người đỗ các khoa trước",
+      "1442 là năm khắc đá, 1484 là năm chuyển bia về Hà Nội"
+    ],
+    "correct": 1,
+    "why": "Có hai dòng thời gian trên cùng một tấm bia. 82 bia còn lại ghi các khoa thi từ 1442 đến 1779, còn việc dựng những bia ấy diễn ra trong khoảng 1484–1780.",
+    "id": "vn-bia-tien-si-1484",
+    "ref": "https://www.unesco.org/en/memory-world/stone-stele-records-royal-examinations-le-and-mac-dynasties-1442-1779?hub=1081"
+  },
+  {
+    "key": "vn-quanho-response",
+    "theme": "music",
+    "ask": "Trong một canh hát Quan họ, bên kia đã hát một câu. Bên mình thường đối lại thế nào?",
+    "choices": [
+      "Giữ nguyên lời nhưng đổi hẳn làn điệu",
+      "Nhắc lại nguyên cả lời lẫn điệu để mời hát tiếp",
+      "Đối bằng lời khác trên làn điệu tương ứng"
+    ],
+    "correct": 2,
+    "why": "Người hát phải nghe cả lời lẫn giọng của bạn hát. Trong lối đối đáp truyền thống, hai bên hát những lời khác nhau trên làn điệu tương ứng. Cuộc gặp vì thế giống một cuộc trò chuyện bằng âm nhạc.",
+    "id": "culture-quan-ho-2009",
+    "ref": "https://ich.unesco.org/en/RL/quan-ho-bac-ninh-folk-songs-00183"
+  },
+  {
+    "key": "vn-ho-citadel-tran",
+    "theme": "architecture",
+    "ask": "Khi những khối đá đầu tiên của Thành nhà Hồ được xếp lên ở Thanh Hóa năm 1397, triều đại nào đang trị vì?",
+    "choices": [
+      "Nhà Trần",
+      "Nhà Hồ",
+      "Nhà Lê sơ"
+    ],
+    "correct": 0,
+    "why": "Hồ Quý Ly cho dựng thành khi ông còn làm quan nhà Trần. Ba năm sau ông mới lập nhà Hồ. Tên di tích quen thuộc ngày nay dễ khiến ta đặt nhầm năm xây thành sang triều đại kế tiếp.",
+    "id": "vn-thanh-nha-ho-1397",
+    "ref": "https://whc.unesco.org/en/list/1358/"
   }
 ];
 const quizHistoryKey='lsh.quiz.seen';
@@ -457,13 +906,32 @@ document.addEventListener('click',event=>{
   displayAtlas(true);
   atlas.scrollIntoView({block:'start'});
 });
+function eventEffects(item) {
+  const o=item.source;
+  const effect=o.consequences||o.why;
+  if(!effect)return '';
+  return '<section class="story-effects"><h2>'+escapeHTML(o.consequencesTitle||noteTitle(item.id,'why'))+'</h2>'+paragraphs(effect)+'</section>';
+}
+function relatedStory(item) {
+  const links=(item.source.related||[]).filter(link=>catalog.has(link.id));
+  if(!links.length)return '';
+  return '<section class="story-connections"><h2>Đọc thêm trong dòng thời gian</h2>'+links.map(link=>{
+    const target=catalog.get(link.id);
+    return '<div class="story-connection"><span>'+escapeHTML(RELATION_NAMES[link.kind])+' · '+yearText(target.year)+'</span><a href="'+href(target)+'">'+escapeHTML(target.title)+' →</a>'+paragraphs(link.text)+'</div>';
+  }).join('')+'</section>';
+}
+function articleSources(o) {
+  const refs=o.refs?.length?o.refs:o.ref?[{url:o.ref,title:'Nguồn tham khảo'}]:[];
+  if(!refs.length)return '';
+  return '<details class="article-sources"><summary>Nguồn đối chiếu</summary><ul>'+refs.map(ref=>'<li><a href="'+escapeHTML(ref.url)+'" target="_blank" rel="noopener">'+escapeHTML(ref.title)+' ↗</a>'+(ref.scope?'<p>'+escapeHTML(ref.scope)+'</p>':'')+'</li>').join('')+'</ul></details>';
+}
 function article(item) {
   const o = item.source;
   const body = item.kind === 'np' ? o.bio : o.d;
   const meta = [o.topic, o.date, o.place, o.role, item.kind === 'np' ? yearText(o.b)+' – '+(o.d == null ? 'nay' : yearText(o.d)) : '', ['pd','gb'].includes(item.kind) ? yearText(o.s)+' – '+yearText(o.e) : ''].filter(Boolean);
-  const notes = [[noteTitle(item.id,'why'),o.why],[noteTitle(item.id,'alt'),o.alt],['Liên hệ Việt Nam',o.vn],['Một dấu mốc đáng nhớ',o.act ? 'Năm '+yearText(o.k)+', '+o.n+' '+o.act+'.' : ''],['Cùng thời',o.same],['Bạn có biết?',o.fun]];
+  const notes = [[o.altTitle||noteTitle(item.id,'alt'),o.alt],['Liên hệ Việt Nam',o.vn],['Một dấu mốc đáng nhớ',o.act ? 'Năm '+yearText(o.k)+', '+o.n+' '+o.act+'.' : ''],['Cùng thời',o.same],['Bạn có biết?',o.fun]];
   return (meta.length ? '<p class="meta">'+escapeHTML(meta.join(' · '))+'</p>' : '')+
-    '<div class="prose">'+paragraphs(body)+articleVisuals(item)+notes.filter(([,v])=>v).map(([h,v])=>'<h2>'+h+'</h2>'+paragraphs(v)).join('')+(item.kind==='sl' ? sliceNotes(item) : '')+highlightHTML(item)+storyPeople(item)+'</div>'+exploreHTML(item)+(o.ref ? '<a class="note-source" href="'+escapeHTML(o.ref)+'" target="_blank" rel="noopener">Nguồn tham khảo ↗</a>' : '')+'<details id="comparison-details" class="comparison-end"><summary>Cùng thời ở những nơi khác <span>Mở đối chiếu +</span></summary><div id="world" aria-label="Đối chiếu cuối bài"></div></details>';
+    '<div class="prose">'+paragraphs(o.context)+paragraphs(body)+articleVisuals(item)+eventEffects(item)+notes.filter(([,v])=>v).map(([h,v])=>(h?'<h2>'+escapeHTML(h)+'</h2>':'')+paragraphs(v)).join('')+(item.kind==='sl' ? sliceNotes(item) : '')+relatedStory(item)+highlightHTML(item)+storyPeople(item)+'</div>'+exploreHTML(item)+articleSources(o)+'<details id="comparison-details" class="comparison-end"><summary>Cùng thời ở những nơi khác <span>Mở đối chiếu +</span></summary><div id="world" aria-label="Đối chiếu cuối bài"></div></details>';
 }
 function comparisonItems(item) {
   if (item.kind === 'sl') return (item.source.ev || []).map(id=>catalog.get(id)).filter(Boolean);
