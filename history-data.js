@@ -1538,10 +1538,26 @@ TL_DATA.push({
       why: 'Một dịp nhìn lại chặng đường 50 năm, từ một đất nước bị chiến tranh tàn phá đến một nền kinh tế năng động, hội nhập sâu rộng.',
       alt: 'Điều thú vị của dịp này là nhiều bạn trẻ thế hệ Z xếp hàng từ khuya để giữ chỗ xem diễu binh, áo cờ đỏ sao vàng rực khắp phố. Lịch sử không chỉ nằm trong sách mà trở thành một trải nghiệm chung của nhiều thế hệ.' },
 
-    { id: 'vn-34-tinh-2025', y: 2025, date: '1/7/2025', t: 'Sắp xếp lại còn 34 tỉnh, thành phố', c: 'pol', imp: 3,
-      d: 'Sau đợt tinh gọn bộ máy từ đầu năm 2025, Việt Nam sắp xếp lại đơn vị hành chính: từ 63 tỉnh, thành phố hợp nhất còn 34 (6 thành phố trực thuộc trung ương và 28 tỉnh). Cấp huyện được bỏ, chính quyền địa phương chỉ còn hai cấp là tỉnh và xã, với hơn 3.300 xã, phường, đặc khu.',
-      why: 'Cuộc sắp xếp hành chính lớn nhất kể từ khi thống nhất, nhằm tinh gọn bộ máy, giảm chi phí và mở không gian phát triển mới cho các địa phương.',
-      alt: 'Trước đây, một bộ hồ sơ có thể phải đi qua xã, huyện rồi mới lên tỉnh; nay bớt hẳn một tầng trung gian. Còn với học sinh, bài học thuộc lòng 63 tỉnh thành cũng phải… học lại từ đầu.' }
+    {
+  "id": "vn-34-tinh-2025",
+  "y": 2025,
+  "date": "12/6/2025; chính quyền mới hoạt động 1/7/2025",
+  "t": "Việt Nam sắp xếp còn 34 đơn vị hành chính cấp tỉnh",
+  "c": "pol",
+  "imp": 3,
+  "d": "Ngày 12/6/2025, Nghị quyết 202/2025/QH15 có hiệu lực, xác lập 34 đơn vị cấp tỉnh gồm 28 tỉnh và 6 thành phố. Chính quyền tại các đơn vị hình thành sau sắp xếp chính thức hoạt động từ ngày 1/7/2025.",
+  "consequencesTitle": "Từ hiệu lực văn bản đến vận hành chính quyền",
+  "consequences": "Giai đoạn giữa hai mốc dành cho chuẩn bị để chính quyền mới hoạt động. Các cơ quan và bản đồ hành chính cần cập nhật theo đơn vị sau sắp xếp.",
+  "fun": "Có 11 tỉnh, thành phố không thực hiện sắp xếp trong nghị quyết này. Con số 34 bao gồm cả các đơn vị giữ nguyên và các đơn vị mới hình thành.",
+  "ref": "https://xaydungchinhsach.chinhphu.vn/chi-tiet-34-don-vi-hanh-chinh-cap-tinh-tu-12-6-2025-119250612141845533.htm",
+  "refs": [
+    {
+      "url": "https://xaydungchinhsach.chinhphu.vn/chi-tiet-34-don-vi-hanh-chinh-cap-tinh-tu-12-6-2025-119250612141845533.htm",
+      "title": "Cổng Chính phủ — 34 đơn vị cấp tỉnh",
+      "scope": "Niên đại và những nhận định trong bài được biên tập lại theo tài liệu này."
+    }
+  ]
+}
   ]
 });
 
@@ -3163,10 +3179,28 @@ TL_DATA.push({
       fun: 'Từ “paper” (giấy) trong tiếng Anh bắt nguồn từ “papyrus”, tên loại cây người Ai Cập dùng làm giấy cói.',
       alt: 'Chữ tượng hình không đọc bằng cách “nhìn hình đoán nghĩa” như nhiều người tưởng: phần lớn ký hiệu dùng để ghi âm, giống trò chơi đố chữ bằng hình.' },
 
-    { id: 'wa-ai-cap-thong-nhat-3100tcn', y: -3100, ca: true, date: 'Khoảng 3100 TCN', r: 'Ai Cập', who: 'Vua Narmer (thường được đồng nhất với Menes)', t: 'Vua Narmer thống nhất Ai Cập', c: 'pol', imp: 3,
-      d: 'Dọc sông Nile có hai vùng: Thượng Ai Cập ở phía nam và Hạ Ai Cập ở vùng châu thổ phía bắc. Khoảng năm 3100 TCN, vua Narmer hợp nhất hai vùng, mở đầu thời các pharaoh. Phiến đá Narmer nổi tiếng khắc hình nhà vua đội vương miện trắng của phương nam ở mặt này và vương miện đỏ của phương bắc ở mặt kia.',
-      why: 'Ai Cập trở thành một trong những nhà nước thống nhất sớm nhất thế giới, tồn tại hơn 3000 năm bên dòng sông Nile.',
-      fun: 'Về sau các pharaoh đội “vương miện kép”, lồng chiếc mũ trắng của Thượng Ai Cập vào trong chiếc mũ đỏ của Hạ Ai Cập: một kiểu “logo sáp nhập” của thời cổ đại.' },
+    {
+  "id": "wa-ai-cap-thong-nhat-3100tcn",
+  "y": -3100,
+  "ca": true,
+  "date": "Khoảng 3100 TCN",
+  "r": "Ai Cập",
+  "t": "Ai Cập hợp nhất vào thời những pharaoh đầu tiên",
+  "c": "pol",
+  "imp": 3,
+  "d": "Khoảng năm 3100 TCN, Ai Cập bước vào giai đoạn thống nhất dưới quyền một pharaoh. Tài liệu lịch sử liên hệ giai đoạn đầu vương triều với Narmer và Aha; tên Menes xuất hiện trong truyền thống về người sáng lập.",
+  "fun": "Tài liệu về Ai Cập cổ có thể chênh nhau hàng chục năm ở một số niên đại. Con số 3100 TCN biểu thị khoảng thời gian, không phải một năm thống nhất được ghi nhận chính xác.",
+  "consequencesTitle": "Từ nhiều vùng cư trú đến nhà nước vương triều",
+  "consequences": "Quá trình thống nhất mở đầu một giai đoạn tổ chức quyền lực và văn hóa vật chất có thể được khảo sát qua hiện vật và di tích.",
+  "ref": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Art_of_Ancient_Egypt_A_Resource_for_Educators.pdf",
+  "refs": [
+    {
+      "url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Art_of_Ancient_Egypt_A_Resource_for_Educators.pdf",
+      "title": "The Met — Nghệ thuật Ai Cập cổ",
+      "scope": "Niên đại và những nhận định trong bài được biên tập lại theo tài liệu này."
+    }
+  ]
+},
 
     { id: 'wa-lich-365-ngay-2700tcn', y: -2700, ca: true, date: 'Khoảng thiên niên kỷ III TCN', r: 'Ai Cập', t: 'Lịch 365 ngày của người Ai Cập', c: 'sci', imp: 2,
       d: 'Cả nền nông nghiệp Ai Cập sống nhờ mùa lũ sông Nile, nên biết trước ngày lũ về là chuyện sống còn. Người Ai Cập để ý thấy lũ thường đến khi sao Thiên Lang (Sirius) mọc lúc rạng đông. Họ làm ra lịch gồm 12 tháng, mỗi tháng 30 ngày, cộng thêm 5 ngày lễ cuối năm, tổng cộng 365 ngày.',
@@ -3612,11 +3646,28 @@ TL_DATA.push({
       why: 'Bảng chữ cái Hy Lạp là “ông tổ” của chữ Latinh và chữ Kirin, hai hệ chữ được hàng tỷ người dùng ngày nay.',
       fun: 'Từ “alphabet” (bảng chữ cái) ghép từ tên hai chữ cái đầu tiên của tiếng Hy Lạp: alpha và beta.',
       vn: 'Chữ Quốc ngữ dùng bảng chữ cái Latinh — hậu duệ của chữ Hy Lạp qua người Etrusca và La Mã. Vì thế “a, b, c” của ta có họ hàng xa với “alpha, beta”.' },
-    { id: 'eu-olympic-776tcn', y: -776, r: 'Hy Lạp', t: 'Thế vận hội Olympic đầu tiên', c: 'cul', imp: 3, place: 'Olympia',
-      d: 'Các thành bang Hy Lạp tổ chức đại hội thể thao ở Olympia để tôn vinh thần Zeus, bốn năm một lần. Kỳ đầu tiên được ghi chép chỉ có một môn: chạy nước rút khoảng 192 mét. Trong thời gian thi đấu, các thành bang đang đánh nhau phải tạm đình chiến để vận động viên đi lại an toàn.',
-      why: 'Truyền thống này kéo dài hơn một nghìn năm và được hồi sinh thành Thế vận hội hiện đại từ năm 1896 tại Athens.',
-      fun: 'Nhà vô địch đầu tiên có tên trong sử sách là Koroibos, một đầu bếp. Phần thưởng chỉ là một vòng lá ô liu — không tiền thưởng, không hợp đồng quảng cáo.',
-      vn: 'Phải tới năm 2016, Việt Nam mới có tấm huy chương vàng Olympic đầu tiên, do xạ thủ Hoàng Xuân Vinh giành được tại Rio de Janeiro.' },
+    {
+  "id": "eu-olympic-776tcn",
+  "y": -776,
+  "r": "Hy Lạp",
+  "t": "Mốc 776 TCN trong truyền thống Olympic cổ đại",
+  "c": "cul",
+  "imp": 3,
+  "place": "Olympia",
+  "d": "Các cuộc thi ở Olympia được tổ chức theo chu kỳ bốn năm. Nguồn thành văn thường nhắc mốc 776 TCN, nhưng thời điểm bắt đầu thực tế chưa được xác định chắc chắn.",
+  "fun": "Một năm thường được trích dẫn trong sử liệu không nhất thiết là năm một truyền thống thực sự ra đời.",
+  "consequencesTitle": "Một chu kỳ thi đấu trở thành cách tính thời gian",
+  "consequences": "Khoảng bốn năm giữa hai kỳ được gọi là một Olympiad và từng được dùng để ghi niên đại.",
+  "ref": "https://www.olympics.com/ioc/faq/history-and-origin-of-the-games/what-is-the-origin-of-the-olympic-games",
+  "refs": [
+    {
+      "url": "https://www.olympics.com/ioc/faq/history-and-origin-of-the-games/what-is-the-origin-of-the-olympic-games",
+      "title": "IOC — Nguồn gốc Olympic",
+      "scope": "Niên đại và những nhận định trong bài được biên tập lại theo tài liệu này."
+    }
+  ],
+  "date": "776 TCN, mốc thường được dẫn trong sử liệu"
+},
     { id: 'eu-rome-753tcn', y: -753, ca: true, date: '753 TCN (theo truyền thuyết)', r: 'La Mã (Ý)', t: 'Thành Rome ra đời', c: 'pol', imp: 2, who: 'Romulus (truyền thuyết)',
       d: 'Truyền thuyết kể rằng hai anh em sinh đôi Romulus và Remus bị bỏ rơi bên sông Tiber và được một con sói cái nuôi lớn. Năm 753 TCN, Romulus lập ra thành Rome trên những ngọn đồi bên sông. Khảo cổ học cho thấy nơi đây vốn đã có những làng nhỏ từ trước đó.',
       why: 'Từ một làng nhỏ bên sông, Rome sẽ trở thành trung tâm của một trong những đế chế lớn nhất lịch sử.',
@@ -3770,10 +3821,28 @@ TL_DATA.push({
       why: 'Colosseum là kiệt tác kỹ thuật xây dựng cổ đại và là biểu tượng nổi tiếng nhất của Rome đến ngày nay.',
       fun: 'Đấu trường có cả mái che bằng vải khổng lồ để che nắng cho khán giả, do các thủy thủ chuyên kéo buồm vận hành.',
       alt: 'Nhà thơ Juvenal mỉa mai rằng dân Rome chỉ cần “bánh mì và rạp xiếc”, miễn được ăn no và giải trí thì chẳng quan tâm chính sự — câu nói nay vẫn dùng để phê phán kiểu chính trị mua lòng dân.' },
-    { id: 'eu-kito-giao-313', y: 313, y2: 380, r: 'Đế chế La Mã', t: 'Kitô giáo thành tôn giáo của La Mã', c: 'cul', imp: 3, who: 'Hoàng đế Constantine, Theodosius I',
-      d: 'Từng bị đàn áp suốt gần ba thế kỷ, Kitô giáo được hoàng đế Constantine cho phép tự do hoạt động bằng Sắc lệnh Milan năm 313. Đến năm 380, hoàng đế Theodosius I tuyên bố đây là quốc giáo của đế chế.',
-      why: 'Từ đây, Kitô giáo lan khắp châu Âu và định hình văn hóa, nghệ thuật, luật pháp, cả lịch nghỉ lễ của phương Tây.',
-      fun: 'Lễ Giáng sinh ngày 25 tháng 12 được ghi nhận lần đầu ở Rome vào năm 336, dưới thời Constantine.' },
+    {
+  "id": "eu-kito-giao-313",
+  "y": 313,
+  "y2": 380,
+  "r": "Đế chế La Mã",
+  "t": "Kitô giáo được công nhận hợp pháp trong Đế quốc La Mã",
+  "c": "cul",
+  "imp": 3,
+  "who": "Hoàng đế Constantine, Theodosius I",
+  "d": "Năm 313, Sắc lệnh Milan gắn với Constantine cho phép tự do thờ phụng và tạo điều kiện để Kitô giáo lan rộng. Mốc này liên quan đến vị thế pháp lý của tôn giáo.",
+  "fun": "Được phép thực hành một tôn giáo và trở thành tôn giáo chính thức của nhà nước là hai thay đổi pháp lý khác nhau.",
+  "consequencesTitle": "Kiến trúc và hình ảnh tôn giáo phát triển",
+  "consequences": "Sự thay đổi chính sách giúp hình ảnh Kitô giáo xuất hiện rộng hơn trên các loại hiện vật và công trình.",
+  "ref": "https://resources.metmuseum.org/resources/metpublications/pdf/Medieval_Art_A_Resource_for_Educators.pdf",
+  "refs": [
+    {
+      "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Medieval_Art_A_Resource_for_Educators.pdf",
+      "title": "The Met — Nghệ thuật Trung cổ",
+      "scope": "Niên đại và những nhận định trong bài được biên tập lại theo tài liệu này."
+    }
+  ]
+},
     { id: 'eu-constantinople-330', y: 330, r: 'Byzantium (Istanbul)', t: 'Constantine lập kinh đô Constantinople', c: 'pol', imp: 2, who: 'Hoàng đế Constantine',
       d: 'Constantine chọn thành Byzantium nằm trên eo biển Bosphorus, nơi châu Âu gặp châu Á, xây dựng lại thành kinh đô mới mang tên mình. Vị trí này vừa dễ phòng thủ vừa kiểm soát con đường buôn bán giữa hai châu lục.',
       why: 'Constantinople là kinh đô của Đông La Mã hơn 1.100 năm và nay là Istanbul, thành phố lớn nhất Thổ Nhĩ Kỳ.',
@@ -3812,11 +3881,28 @@ TL_DATA.push({
       why: 'Cuộc chinh phục gắn chặt nước Anh với châu Âu lục địa và làm thay đổi sâu sắc tiếng Anh.',
       fun: 'Vì thế tiếng Anh gọi con bò là “cow” (gốc Anh cổ) nhưng thịt bò lại là “beef” (gốc Pháp): người Anh chăn bò, còn quý tộc Norman thì ăn thịt.',
       alt: 'Câu chuyện được kể lại trên tấm thảm Bayeux dài gần 70 mét — một kiểu “truyện tranh” thời Trung cổ, dù thực ra nó là tranh thêu chứ không phải thảm dệt.' },
-    { id: 'eu-bologna-1088', y: 1088, r: 'Ý (Bologna)', t: 'Đại học Bologna – đại học đầu tiên', c: 'cul', imp: 2,
-      d: 'Ở Bologna, sinh viên từ khắp châu Âu tụ hội để học luật, tự lập thành hội và thuê thầy giỏi về dạy. Năm 1088 thường được coi là năm thành lập trường đại học lâu đời nhất còn hoạt động liên tục đến nay.',
-      why: 'Mô hình đại học với khoa, bằng cấp và quyền tự chủ học thuật từ đây lan ra Paris, Oxford và khắp thế giới.',
-      fun: 'Sinh viên Bologna nắm quyền khá lớn: họ có thể phạt tiền giáo sư nếu vào lớp muộn hoặc bỏ qua phần khó của bài giảng.',
-      vn: 'Việt Nam có Quốc Tử Giám từ năm 1076, sớm hơn Bologna 12 năm, được coi là trường đại học đầu tiên của nước ta.' },
+    {
+  "id": "eu-bologna-1088",
+  "y": 1088,
+  "r": "Ý (Bologna)",
+  "t": "Bologna và sự hình thành đại học thời Trung cổ",
+  "c": "cul",
+  "imp": 2,
+  "d": "Các nhóm người học tụ họp tại Bologna, hình thành tổ chức và trực tiếp trả công cho thầy. Năm 1088 là mốc thành lập được chọn theo truyền thống cho một quá trình phát triển dần.",
+  "fun": "Irnerius thường được nhớ như người sáng lập Bologna, nhưng chính lịch sử của trường lưu ý rằng sự hình thành này không gói trong công việc của một người.",
+  "consequencesTitle": "Người học cùng tổ chức việc học",
+  "consequences": "Lịch sử của Bologna cho thấy vai trò chủ động của những hội người học trong việc hình thành thiết chế đại học.",
+  "ref": "https://www.unibo.it/en/university/who-we-are/our-history/nine-centuries-of-history/the-birth-of-the-studium-and-the-commune",
+  "refs": [
+    {
+      "url": "https://www.unibo.it/en/university/who-we-are/our-history/nine-centuries-of-history/the-birth-of-the-studium-and-the-commune",
+      "title": "Đại học Bologna — Sự hình thành Studium",
+      "scope": "Niên đại và những nhận định trong bài được biên tập lại theo tài liệu này."
+    }
+  ],
+  "date": "Khoảng 1088",
+  "ca": true
+},
     { id: 'eu-thap-tu-chinh-1096', y: 1096, y2: 1099, r: 'Tây Âu', t: 'Cuộc Thập tự chinh thứ nhất', c: 'war', imp: 3, who: 'Giáo hoàng Urban II',
       d: 'Giáo hoàng Urban II kêu gọi các hiệp sĩ Tây Âu lên đường giành Jerusalem, thành phố thiêng liêng của Kitô giáo, từ tay người Hồi giáo. Năm 1099, đạo quân Thập tự chinh chiếm được Jerusalem. Gần 200 năm sau đó còn nhiều cuộc Thập tự chinh khác.',
       why: 'Các cuộc Thập tự chinh để lại nhiều đau thương nhưng cũng mở rộng giao lưu buôn bán, đưa tri thức và hàng hóa phương Đông vào châu Âu.',
@@ -4123,11 +4209,28 @@ TL_DATA.push({
       d: 'Khi đã bị điếc gần như hoàn toàn, Beethoven vẫn sáng tác bản Giao hưởng số 9, một trong những bản giao hưởng đầu tiên có dàn hợp xướng, với đoạn kết “Khúc hoan ca” vang dội.',
       why: 'Tác phẩm là đỉnh cao của âm nhạc cổ điển; giai điệu “Khúc hoan ca” nay là bài ca chính thức của Liên minh châu Âu.',
       fun: 'Trong buổi ra mắt, Beethoven không nghe thấy tiếng vỗ tay; một nữ ca sĩ phải xoay ông lại để ông thấy cả khán phòng đang đứng dậy hoan hô.' },
-    { id: 'eu-duong-sat-1825', y: 1825, r: 'Anh', t: 'Tuyến đường sắt công cộng đầu tiên', c: 'sci', imp: 2, who: 'George Stephenson',
-      d: 'Tuyến Stockton – Darlington ở Anh khai trương, dùng đầu máy hơi nước của George Stephenson kéo các toa than và hành khách. Năm 1830, tuyến Liverpool – Manchester ra đời, chuyên chở hành khách giữa hai thành phố lớn.',
-      why: 'Đường sắt rút ngắn khoảng cách, thay đổi cách con người đi lại, buôn bán và cả cách tính giờ giấc.',
-      fun: 'Thời ấy có người lo rằng đi tàu ở tốc độ 50 km/h sẽ khiến cơ thể con người không chịu nổi — bây giờ nghe như chuyện cười.',
-      vn: 'Ở Việt Nam, tuyến đường sắt đầu tiên Sài Gòn – Mỹ Tho khánh thành năm 1885; tuyến Hà Nội – Sài Gòn hoàn thành năm 1936.' },
+    {
+  "id": "eu-duong-sat-1825",
+  "y": 1825,
+  "r": "Anh",
+  "t": "Stockton–Darlington mở chuyến tàu công cộng kéo bằng hơi nước",
+  "c": "sci",
+  "imp": 2,
+  "who": "George Stephenson",
+  "d": "Ngày 27/9/1825, Locomotion No. 1 kéo đoàn toa chở hàng và hành khách trên đường sắt Stockton–Darlington. Tuyến được xây để nối vùng mỏ với bến cảng.",
+  "fun": "Điểm đặc biệt của mốc 1825 nằm ở sự kết hợp đường sắt công cộng, chở khách và sức kéo hơi nước. Gọi đơn giản là “đường sắt đầu tiên” sẽ làm mất các điều kiện ấy.",
+  "consequencesTitle": "Một tuyến vận tải hàng hóa cũng chở người",
+  "consequences": "Sự kiện là mốc quan trọng của tàu chở khách trên đường sắt công cộng dùng đầu máy hơi nước.",
+  "ref": "https://blog.railwaymuseum.org.uk/shildon-the-cradle-of-the-railways-and-locomotion-no-1/",
+  "refs": [
+    {
+      "url": "https://blog.railwaymuseum.org.uk/shildon-the-cradle-of-the-railways-and-locomotion-no-1/",
+      "title": "National Railway Museum — Locomotion No. 1",
+      "scope": "Niên đại và những nhận định trong bài được biên tập lại theo tài liệu này."
+    }
+  ],
+  "date": "27/9/1825"
+},
     { id: 'eu-1848', y: 1848, r: 'Nhiều nước châu Âu', t: 'Mùa xuân các dân tộc và Tuyên ngôn Cộng sản', c: 'pol', imp: 2, who: 'Karl Marx, Friedrich Engels',
       d: 'Năm 1848, cách mạng nổ ra liên tiếp ở Pháp, các bang Đức, Áo, Hungary, Ý, đòi hiến pháp, quyền bầu cử và độc lập dân tộc. Cũng năm đó, Marx và Engels công bố “Tuyên ngôn của Đảng Cộng sản” ở London. Phần lớn các cuộc cách mạng bị dập tắt sau một năm.',
       why: 'Dù thất bại, làn sóng 1848 gieo mầm cho dân chủ, chủ nghĩa dân tộc và phong trào công nhân khắp châu Âu.',
@@ -4422,10 +4525,27 @@ TL_DATA.push({
       why: 'Từ những kẻ thù trong hai cuộc thế chiến, các nước châu Âu trở thành một khối liên kết kinh tế – chính trị chặt chẽ bậc nhất thế giới.',
       fun: 'Năm 2012, cả Liên minh châu Âu được trao giải Nobel Hòa bình — có lẽ là “người” nhận giải đông dân nhất lịch sử.',
       vn: 'Hiệp định thương mại tự do giữa Việt Nam và EU (EVFTA) có hiệu lực từ ngày 1/8/2020.' },
-    { id: 'eu-dolly-1996', y: 1996, r: 'Anh (Scotland)', t: 'Cừu Dolly – động vật nhân bản đầu tiên', c: 'sci', imp: 1,
-      d: 'Các nhà khoa học ở Viện Roslin (Scotland) tạo ra cừu Dolly từ một tế bào của cừu trưởng thành — lần đầu một động vật có vú được nhân bản từ tế bào cơ thể trưởng thành.',
-      why: 'Dolly mở ra những cuộc tranh luận lớn về đạo đức sinh học và thúc đẩy nghiên cứu tế bào gốc.',
-      fun: 'Dolly được đặt theo tên nữ ca sĩ nhạc đồng quê Dolly Parton, vì nó được nhân bản từ một tế bào tuyến vú.' },
+    {
+  "id": "eu-dolly-1996",
+  "y": 1996,
+  "r": "Anh (Scotland)",
+  "t": "Dolly ra đời bằng nhân bản từ tế bào trưởng thành",
+  "c": "sci",
+  "imp": 1,
+  "d": "Dolly sinh ngày 5/7/1996. Nhân của một tế bào tuyến vú từ cừu trưởng thành được chuyển vào tế bào trứng đã bỏ nhân, rồi phôi được đưa vào cừu mang thai hộ.",
+  "fun": "Trước Dolly đã có cừu được nhân bản từ tế bào phôi. Dolly là động vật có vú đầu tiên được nhân bản từ tế bào trưởng thành. Công bố ra thế giới diễn ra ngày 22/2/1997.",
+  "consequencesTitle": "Một tế bào đã chuyên hóa có thể tham gia tạo cơ thể mới",
+  "consequences": "Thí nghiệm góp phần nghiên cứu khả năng phát triển của tế bào và làm dấy lên thảo luận về nhân bản.",
+  "ref": "https://vet.ed.ac.uk/roslin/about/history/dolly/facts/life-of-dolly",
+  "refs": [
+    {
+      "url": "https://vet.ed.ac.uk/roslin/about/history/dolly/facts/life-of-dolly",
+      "title": "Roslin Institute — Cuộc đời Dolly",
+      "scope": "Niên đại và những nhận định trong bài được biên tập lại theo tài liệu này."
+    }
+  ],
+  "date": "5/7/1996"
+},
     { id: 'eu-euro-2002', y: 2002, date: '1/1/2002', r: 'Liên minh châu Âu', t: 'Đồng euro đến tay người dân', c: 'sci', imp: 1,
       d: 'Sau ba năm chỉ dùng trong giao dịch điện tử, tiền giấy và tiền xu euro chính thức lưu hành ở 12 nước, thay thế đồng franc, mác, lia... Ngày nay đồng euro là tiền chung của hơn 20 quốc gia.',
       why: 'Euro là đồng tiền quan trọng thứ hai thế giới, giúp buôn bán và đi lại trong châu Âu thuận tiện hơn nhiều.',
@@ -4491,12 +4611,29 @@ TL_DATA.push({
       d: 'Sau Chiến tranh Lạnh, Mỹ dẫn đầu cuộc cách mạng số từ Internet, điện thoại thông minh tới trí tuệ nhân tạo, trong một thế giới ngày càng nhiều trung tâm quyền lực.' }
   ],
   events: [
-    { id: 'am-caral-2600tcn', y: -2600, ca: true, date: 'Khoảng 2600 TCN', r: 'Peru', t: 'Caral, thành phố cổ nhất châu Mỹ', c: 'cul', imp: 2,
-      place: 'Thung lũng sông Supe, Peru',
-      d: 'Ở thung lũng sông Supe, cách bờ biển Peru chừng 20 km, người Norte Chico dựng thành Caral với các kim tự tháp đất đá, quảng trường tròn trũng và khu nhà cho hàng nghìn người. Họ trồng bông, bí, đậu rồi đổi bông lấy cá của các làng chài ven biển.',
-      why: 'Cho thấy châu Mỹ đã có đô thị và nhà nước sơ khai từ rất sớm, ngang tuổi kim tự tháp Ai Cập, chẳng hề “mới” như cái tên “Tân thế giới”.',
-      fun: 'Các nhà khảo cổ gần như không tìm thấy tường thành hay vũ khí ở Caral, nên có người gọi đây là một nền văn minh sống bằng buôn bán hơn là chinh chiến.',
-      alt: 'Khi người Ai Cập xây kim tự tháp Giza, ở bên kia địa cầu người Caral cũng đang đắp kim tự tháp, hai bên chẳng hề biết nhau. Có vẻ “xây kim tự tháp” là ý tưởng loài người nghĩ ra nhiều lần.' },
+    {
+  "id": "am-caral-2600tcn",
+  "y": -2600,
+  "ca": true,
+  "date": "Khoảng thiên niên kỷ III TCN",
+  "r": "Peru",
+  "t": "Caral-Supe, một trung tâm đô thị sớm ở châu Mỹ",
+  "c": "cul",
+  "imp": 2,
+  "place": "Thung lũng sông Supe, Peru",
+  "d": "Caral-Supe ở Peru là một di tích khoảng 5.000 năm tuổi, với các công trình đắp nền, không gian nghi lễ và quảng trường tròn lõm. Di tích nằm trong thung lũng Supe. Năm 2600 TCN là mốc tham chiếu cho giai đoạn phát triển của đô thị.",
+  "fun": "UNESCO mô tả Caral là ví dụ phát triển phức tạp của nền văn minh sớm ở thung lũng Supe. Cụm “thành phố cổ nhất châu Mỹ” cần đi kèm phạm vi và bằng chứng khảo cổ cụ thể.",
+  "consequencesTitle": "Đô thị có thể hình thành qua những không gian chung",
+  "consequences": "Quy mô kiến trúc và bố cục cho phép tìm hiểu tổ chức xã hội thời kỳ đầu của văn minh trong thung lũng.",
+  "ref": "https://whc.unesco.org/en/list/1269/",
+  "refs": [
+    {
+      "url": "https://whc.unesco.org/en/list/1269/",
+      "title": "UNESCO — Caral-Supe",
+      "scope": "Niên đại và những nhận định trong bài được biên tập lại theo tài liệu này."
+    }
+  ]
+},
 
     { id: 'am-olmec-1200tcn', y: -1200, ca: true, date: 'Khoảng 1200–400 TCN', r: 'Mexico', t: 'Người Olmec, “văn minh mẹ” Trung Mỹ', c: 'cul', imp: 2,
       place: 'Ven vịnh Mexico (Veracruz, Tabasco)',
@@ -4906,11 +5043,27 @@ TL_DATA.push({
       why: 'Thời gian đi từ bờ Đông sang bờ Tây giảm từ nhiều tháng xuống còn khoảng một tuần, thúc đẩy miền Tây phát triển bùng nổ.',
       alt: 'Với người bản địa vùng đồng bằng, đường sắt là dấu chấm hết cho đời sống du mục: những đàn bò rừng bison hàng chục triệu con bị săn gần tuyệt chủng chỉ trong vài chục năm.' },
 
-    { id: 'am-bell-1876', y: 1876, r: 'Hoa Kỳ', t: 'Bell phát minh điện thoại', c: 'sci', imp: 2,
-      who: 'Alexander Graham Bell',
-      d: 'Alexander Graham Bell, một giáo viên dạy người khiếm thính gốc Scotland, được cấp bằng sáng chế điện thoại tháng 3/1876. Vài ngày sau, ông gọi trợ lý ở phòng bên: “Ông Watson, lại đây, tôi cần gặp ông”, cuộc gọi điện thoại đầu tiên trong lịch sử.',
-      why: 'Con người lần đầu nói chuyện trực tiếp với nhau qua khoảng cách xa, mở đầu ngành viễn thông hiện đại.',
-      fun: 'Bell nộp hồ sơ sáng chế đúng cùng ngày với một nhà phát minh khác là Elisha Gray, chỉ sớm hơn vài giờ: cuộc đua công nghệ kịch tính chẳng kém các hãng điện thoại ngày nay.' },
+    {
+  "id": "am-bell-1876",
+  "y": 1876,
+  "r": "Hoa Kỳ",
+  "t": "Bell nhận bằng sáng chế và thử truyền lời nói qua điện thoại",
+  "c": "sci",
+  "imp": 2,
+  "who": "Alexander Graham Bell",
+  "d": "Bell nộp hồ sơ sáng chế tháng 2/1876 và được cấp bằng trong tháng 3. Ngày 10/3, ông truyền lời nói rõ nghĩa tới Thomas Watson trong một cuộc thử nghiệm.",
+  "fun": "Bell nộp hồ sơ trước cuộc thử nghiệm lời nói nổi tiếng ngày 10/3. Bằng sáng chế không phải bản ghi của chính cuộc gọi ấy.",
+  "consequencesTitle": "Từ thử nghiệm đến phát triển một phương tiện liên lạc",
+  "consequences": "Quá trình còn cần tiếp tục hoàn thiện thiết bị và tổ chức sử dụng. Hồ sơ sáng chế và kết quả thử nghiệm đánh dấu hai bước riêng.",
+  "ref": "https://siarchives.si.edu/sites/default/files/pdfs/jhpp/JHP_Joseph_Henry_and_the_Telephone.pdf",
+  "refs": [
+    {
+      "url": "https://siarchives.si.edu/sites/default/files/pdfs/jhpp/JHP_Joseph_Henry_and_the_Telephone.pdf",
+      "title": "Smithsonian Archives — Joseph Henry và điện thoại",
+      "scope": "Niên đại và những nhận định trong bài được biên tập lại theo tài liệu này."
+    }
+  ]
+},
 
     { id: 'am-edison-1879', y: 1879, r: 'Hoa Kỳ', t: 'Edison và bóng đèn điện', c: 'sci', imp: 2,
       who: 'Thomas Edison', place: 'Menlo Park (New Jersey)',
@@ -11024,6 +11177,222 @@ TL_DATA.push({
           "ref": "https://www.ghibli.jp/works/chihiro/"
         }
       ]
+    }
+  ]
+});
+
+TL_DATA.push({
+  "lane": "vn",
+  "periods": [],
+  "events": [
+    {
+      "id": "vn-de-cuong-van-hoa-1943",
+      "y": 1943,
+      "t": "Đề cương về văn hóa Việt Nam được thông qua",
+      "d": "Tháng 2/1943, Hội nghị Ban Thường vụ Trung ương Đảng thông qua Đề cương về văn hóa Việt Nam do Trường Chinh khởi thảo. Văn bản đặt vấn đề văn hóa trong chương trình vận động cách mạng.",
+      "consequencesTitle": "Một văn bản định hướng hoạt động văn hóa",
+      "consequences": "Những quan điểm trong đề cương tiếp tục được thảo luận và phát triển trong hoạt động văn hóa, văn nghệ về sau.",
+      "fun": "Bản đề cương gồm năm phần, có cả phần về lịch sử, tính chất và nhiệm vụ văn hóa. Nó đặt ra một chương trình hành động trong bối cảnh cụ thể của năm 1943.",
+      "c": "cul",
+      "imp": 1,
+      "ref": "https://baotanglichsu.vn/DataFiles/2023/09/News/Tieng%20Viet/20.9.2023/Thong%20bao%20khoa%20h%E1%BB%8Dc%20s%C3%B3%201%20nam%202023/001.pdf",
+      "refs": [
+        {
+          "url": "https://baotanglichsu.vn/DataFiles/2023/09/News/Tieng%20Viet/20.9.2023/Thong%20bao%20khoa%20h%E1%BB%8Dc%20s%C3%B3%201%20nam%202023/001.pdf",
+          "title": "Bảo tàng Lịch sử Quốc gia — 80 năm Đề cương",
+          "scope": "Niên đại, diễn biến và chi tiết trong bài."
+        }
+      ],
+      "date": "Tháng 2/1943",
+      "who": "Trường Chinh"
+    }
+  ]
+});
+
+TL_DATA.push({
+  "lane": "vn",
+  "periods": [],
+  "events": [
+    {
+      "id": "vn-giay-bac-1946",
+      "y": 1946,
+      "t": "Sắc lệnh cho phép phát hành giấy bạc Việt Nam",
+      "d": "Ngày 31/1/1946, Sắc lệnh 18b/SL cho phép phát hành giấy bạc Việt Nam tại các địa phương từ nam vĩ tuyến 16 trở vào.",
+      "consequencesTitle": "Tài chính là một phần của xây dựng nhà nước",
+      "consequences": "Việc phát hành và tổ chức lưu hành tiền riêng gắn với nhu cầu tài chính và củng cố chủ quyền của nhà nước mới.",
+      "fun": "Phạm vi áp dụng của sắc lệnh tháng 1 cần được đọc cùng các bước mở rộng lưu hành về sau. Một quyết định phát hành chưa đồng nghĩa tiền đã được sử dụng khắp cả nước ngay trong ngày ấy.",
+      "c": "pol",
+      "imp": 1,
+      "ref": "https://baotanglichsu.vn/vi/Articles/2001/66753/giay-bac-cu-ho-djong-tien-djau-tien-cua-nuoc-viet-nam-djoc-lap.html",
+      "refs": [
+        {
+          "url": "https://baotanglichsu.vn/vi/Articles/2001/66753/giay-bac-cu-ho-djong-tien-djau-tien-cua-nuoc-viet-nam-djoc-lap.html",
+          "title": "Bảo tàng Lịch sử Quốc gia — Giấy bạc Cụ Hồ",
+          "scope": "Niên đại, diễn biến và chi tiết trong bài."
+        }
+      ],
+      "date": "31/1/1946"
+    }
+  ]
+});
+
+TL_DATA.push({
+  "lane": "vn",
+  "periods": [],
+  "events": [
+    {
+      "id": "vn-khoan-100-1981",
+      "y": 1981,
+      "t": "Khoán 100 mở rộng khoán sản phẩm trong hợp tác xã",
+      "d": "Ngày 13/1/1981, Chỉ thị 100 của Ban Bí thư mở rộng khoán sản phẩm tới nhóm lao động và người lao động trong hợp tác xã nông nghiệp.",
+      "consequencesTitle": "Những bước cải cách có phạm vi khác nhau",
+      "consequences": "Khoán 100 là một bước thay đổi cơ chế quản lý nông nghiệp trước Khoán 10 năm 1988.",
+      "fun": "Cụm từ trong Chỉ thị 100 là khoán tới nhóm lao động và người lao động. Cần phân biệt cơ chế này với quyền tự chủ của hộ nông dân được mở rộng ở bước cải cách sau.",
+      "c": "pol",
+      "imp": 1,
+      "ref": "https://xaydungchinhsach.chinhphu.vn/chinh-phu-duoi-su-lanh-dao-cua-dang-80-nam-hanh-trinh-vi-nuoc-vi-dan-119250828100946942.htm",
+      "refs": [
+        {
+          "url": "https://xaydungchinhsach.chinhphu.vn/chinh-phu-duoi-su-lanh-dao-cua-dang-80-nam-hanh-trinh-vi-nuoc-vi-dan-119250828100946942.htm",
+          "title": "Cổng Chính phủ — Các bước đổi mới quản lý",
+          "scope": "Niên đại, diễn biến và chi tiết trong bài."
+        }
+      ],
+      "date": "13/1/1981"
+    }
+  ]
+});
+
+TL_DATA.push({
+  "lane": "vn",
+  "periods": [],
+  "events": [
+    {
+      "id": "vn-luu-chieu-1922",
+      "y": 1922,
+      "t": "Cơ chế lưu chiểu thu nhận xuất bản phẩm ở Đông Dương",
+      "d": "Năm 1922, chế độ lưu chiểu được thiết lập tại Đông Dương. Bộ phận lưu chiểu có nhiệm vụ thu nhận sách, báo, tạp chí và bản đồ xuất bản trong khu vực.",
+      "consequencesTitle": "Những ấn phẩm thường ngày trở thành nguồn lịch sử",
+      "consequences": "Việc thu nhận theo quy định tạo thêm điều kiện gìn giữ dấu vết của đời sống xuất bản và phục vụ tra cứu.",
+      "fun": "Lưu chiểu bao gồm cả báo và bản đồ. Một kho tư liệu lịch sử được hình thành từ nhiều loại xuất bản phẩm, vượt ra ngoài những cuốn sách nổi tiếng.",
+      "c": "cul",
+      "imp": 1,
+      "ref": "https://nlv.gov.vn/ef/key-milestones.html",
+      "refs": [
+        {
+          "url": "https://nlv.gov.vn/ef/key-milestones.html",
+          "title": "Thư viện Quốc gia — Các dấu mốc",
+          "scope": "Niên đại, diễn biến và chi tiết trong bài."
+        }
+      ]
+    }
+  ]
+});
+
+TL_DATA.push({
+  "lane": "am",
+  "periods": [],
+  "events": [
+    {
+      "id": "am-telstar-1962",
+      "y": 1962,
+      "t": "Telstar nối truyền hình qua Đại Tây Dương",
+      "d": "Telstar 1 được phóng ngày 10/7/1962. Ngày 23/7, vệ tinh chuyển tiếp một buổi truyền hình xuyên Đại Tây Dương tới công chúng.",
+      "consequencesTitle": "Một tín hiệu có thể vượt đại dương qua vệ tinh",
+      "consequences": "Hệ thống cần phối hợp vệ tinh, trạm mặt đất và chương trình phát sóng để khán giả ở hai bờ nhận được hình ảnh.",
+      "fun": "Vệ tinh do AT&T chế tạo và vận hành, còn NASA thực hiện vụ phóng. Một thành tựu có thể có chủ sở hữu và đơn vị đưa lên không gian khác nhau.",
+      "c": "sci",
+      "imp": 1,
+      "ref": "https://www3.nasa.gov/specials/timeline/topics.html",
+      "refs": [
+        {
+          "url": "https://www3.nasa.gov/specials/timeline/topics.html",
+          "title": "NASA — Những dấu mốc công nghệ",
+          "scope": "Niên đại, diễn biến và chi tiết trong bài."
+        }
+      ],
+      "date": "10/7/1962; truyền hình công chúng 23/7/1962"
+    }
+  ]
+});
+
+TL_DATA.push({
+  "lane": "am",
+  "periods": [],
+  "events": [
+    {
+      "id": "am-mariner-4-1965",
+      "y": 1965,
+      "t": "Mariner 4 gửi ảnh chụp gần Sao Hỏa",
+      "d": "Tháng 7/1965, Mariner 4 bay qua Sao Hỏa và ghi những ảnh cận cảnh đầu tiên của hành tinh. Tín hiệu được chuyển về để xử lý thành hình ảnh.",
+      "consequencesTitle": "Từ đốm sáng trên trời đến cảnh quan có thể khảo sát",
+      "consequences": "Ảnh chụp cung cấp dữ liệu để nghiên cứu bề mặt. Các nhiệm vụ sau tiếp tục cải tiến camera và góc quan sát.",
+      "fun": "Trong lúc chờ xử lý ảnh, thành viên nhóm đã tô màu lên các dải giấy mang số liệu để phác hình bằng dữ liệu. Bức “tô theo số” ấy còn được trưng bày tại JPL.",
+      "c": "sci",
+      "imp": 1,
+      "ref": "https://www.jpl.nasa.gov/news/advances-in-nasa-imaging-changed-how-world-sees-mars/",
+      "refs": [
+        {
+          "url": "https://www.jpl.nasa.gov/news/advances-in-nasa-imaging-changed-how-world-sees-mars/",
+          "title": "NASA/JPL — Lịch sử hình ảnh Sao Hỏa",
+          "scope": "Niên đại, diễn biến và chi tiết trong bài."
+        }
+      ],
+      "date": "Tháng 7/1965"
+    }
+  ]
+});
+
+TL_DATA.push({
+  "lane": "am",
+  "periods": [],
+  "events": [
+    {
+      "id": "am-viking-1-1976",
+      "y": 1976,
+      "t": "Viking 1 hoạt động trên bề mặt Sao Hỏa",
+      "d": "Ngày 20/7/1976, Viking 1 hạ cánh an toàn và bắt đầu truyền ảnh từ bề mặt Sao Hỏa. Nhiệm vụ kết hợp thiết bị bay quỹ đạo với thiết bị đổ bộ.",
+      "consequencesTitle": "Quan sát từ trên cao và đo đạc tại chỗ",
+      "consequences": "Hai phần của nhiệm vụ cung cấp những góc nhìn khác nhau về hành tinh, từ địa hình rộng đến cảnh vật ngay cạnh thiết bị.",
+      "fun": "Mars 3 của Liên Xô đã hạ xuống năm 1971 nhưng mất liên lạc chỉ sau vài giây. Vì vậy Viking 1 cần được mô tả rõ là mốc hạ cánh và hoạt động thành công, tránh gộp các tiêu chí “đầu tiên”.",
+      "c": "sci",
+      "imp": 1,
+      "ref": "https://science.nasa.gov/mission/viking-1/",
+      "refs": [
+        {
+          "url": "https://science.nasa.gov/mission/viking-1/",
+          "title": "NASA — Viking 1",
+          "scope": "Niên đại, diễn biến và chi tiết trong bài."
+        }
+      ],
+      "date": "20/7/1976"
+    }
+  ]
+});
+
+TL_DATA.push({
+  "lane": "am",
+  "periods": [],
+  "events": [
+    {
+      "id": "am-pearl-street-1882",
+      "y": 1882,
+      "t": "Trạm Pearl Street cung cấp điện chiếu sáng ở New York",
+      "d": "Ngày 4/9/1882, trạm điện Pearl Street của Edison bắt đầu hoạt động ở New York, cấp điện cho hệ thống chiếu sáng thương mại.",
+      "consequencesTitle": "Bóng đèn cần cả mạng lưới hỗ trợ",
+      "consequences": "Máy phát, dây dẫn, thiết bị bảo vệ và vận hành nguồn điện là những phần cần phối hợp để ánh sáng đến được nơi sử dụng.",
+      "fun": "Edison và cộng sự làm cả máy phát, dây dẫn, công tắc và cầu chì khi phát triển đèn. Bóng đèn là một phần trong hệ thống chiếu sáng.",
+      "c": "sci",
+      "imp": 1,
+      "ref": "https://www.nps.gov/edis/learn/kidsyouth/timeline-of-edison-and-his-inventions.htm",
+      "refs": [
+        {
+          "url": "https://www.nps.gov/edis/learn/kidsyouth/timeline-of-edison-and-his-inventions.htm",
+          "title": "National Park Service — Các dấu mốc Edison",
+          "scope": "Niên đại, diễn biến và chi tiết trong bài."
+        }
+      ],
+      "date": "4/9/1882"
     }
   ]
 });
