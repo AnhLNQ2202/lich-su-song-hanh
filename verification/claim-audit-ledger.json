@@ -4,9 +4,10 @@
     {
       "id": "eu-otzi-3300tcn",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-1",
+      "batch": "narrative-audit-2",
       "decisions": [
-        "Giữ niên đại xấp xỉ; phân biệt chứng cứ vết thương với giả thuyết về động cơ và hình xăm."
+        "Giữ niên đại xấp xỉ; phân biệt chứng cứ vết thương với giả thuyết về động cơ và hình xăm.",
+        "Biên tập giọng kể gần gũi, giải thích từ sự việc cụ thể; giữ niên đại và giới hạn bằng chứng đã đối chiếu."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -33,14 +34,15 @@
           "scope": "Tuổi thi thể, mũi tên phát hiện năm 2001, 61 hình xăm và giới hạn giả thuyết trị liệu."
         }
       ],
-      "snapshotSHA256": "e51c6153db8572f4ed56497beea63ec2f8958729ed48d69192d41a66f09d93e5"
+      "snapshotSHA256": "8a56da7e19dc6a3d3d2ab6838136f35ee7d6354c357c7ac0e29f7021d29a54e1"
     },
     {
       "id": "wa-p-sumer",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-1",
+      "batch": "narrative-audit-2",
       "decisions": [
-        "Bỏ cách mô tả mọi thành bang có tổ chức hoàn toàn giống nhau."
+        "Bỏ cách mô tả mọi thành bang có tổ chức hoàn toàn giống nhau.",
+        "Biên tập giọng kể gần gũi, giải thích từ sự việc cụ thể; giữ niên đại và giới hạn bằng chứng đã đối chiếu."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -58,14 +60,15 @@
           "scope": "Các thành bang, quyền lực Sargon và giới hạn của niên đại tuyệt đối."
         }
       ],
-      "snapshotSHA256": "611ef547e4f3cd83ca231233abb66e8e8498725c98ff9014daf11a9ee9560202"
+      "snapshotSHA256": "57f6fda0af9ea58a5c09ee14ca7712a2ae169405686e17a4643440891fc990a0"
     },
     {
       "id": "eu-p-tien-su",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-1",
+      "batch": "narrative-audit-2",
       "decisions": [
-        "Bỏ chuỗi nhân quả khái quát đồng thau → vũ khí tốt hơn → giao thương toàn châu Âu."
+        "Bỏ chuỗi nhân quả khái quát đồng thau → vũ khí tốt hơn → giao thương toàn châu Âu.",
+        "Biên tập giọng kể gần gũi, giải thích từ sự việc cụ thể; giữ niên đại và giới hạn bằng chứng đã đối chiếu."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -82,14 +85,15 @@
           "scope": "Các giai đoạn của ví dụ Stonehenge; khung hiển thị được nói rõ là một phần tiền sử."
         }
       ],
-      "snapshotSHA256": "6d6ab86345a3a5065beb9db57e9ae48a70e3ec233e0a403cbf0f39d89b80b975"
+      "snapshotSHA256": "d62922d922c572488874350c4ff55904e8c4926f2161586cde3e936d9cdc23e6"
     },
     {
       "id": "wa-p-ai-cap-so-ky",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-1",
+      "batch": "narrative-audit-2",
       "decisions": [
-        "Giữ khoảng xấp xỉ và tránh kể hợp nhất như một hành động đơn lẻ."
+        "Giữ khoảng xấp xỉ và tránh kể hợp nhất như một hành động đơn lẻ.",
+        "Biên tập giọng kể gần gũi, giải thích từ sự việc cụ thể; giữ niên đại và giới hạn bằng chứng đã đối chiếu."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -107,14 +111,15 @@
           "scope": "Khoảng niên đại, hai vương triều, hợp nhất dần và Memphis."
         }
       ],
-      "snapshotSHA256": "dcc8a6b8da503b862d5733df1cac6fc3019b3b2a73e4fa0a8d928112947f2bde"
+      "snapshotSHA256": "2e0ea105343d632de4d0bed2d1253889a54b8fdd2dbab59ca3066bd49138b4c5"
     },
     {
       "id": "wa-p-co-vuong-quoc",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-1",
+      "batch": "narrative-audit-2",
       "decisions": [
-        "Thay mô tả thịnh vượng đồng nhất bằng diễn biến thay đổi theo thời gian."
+        "Thay mô tả thịnh vượng đồng nhất bằng diễn biến thay đổi theo thời gian.",
+        "Biên tập giọng kể gần gũi, giải thích từ sự việc cụ thể; giữ niên đại và giới hạn bằng chứng đã đối chiếu."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -132,15 +137,16 @@
           "scope": "Niên đại, vương triều III–VI, Djoser, Giza và thay đổi quyền lực."
         }
       ],
-      "snapshotSHA256": "8d62d28fca6ce719860ab2b47197dc08d325eee63b61edb1e1fe172fa7e1d8ec"
+      "snapshotSHA256": "382b4ef8aca20a991bbfeae62f6c12cb14e6afff13e0f811c403a69c48c2f64e"
     },
     {
       "id": "wa-np-khufu",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-1",
+      "batch": "narrative-audit-2",
       "decisions": [
         "Bỏ năm sinh 2610 TCN không có chứng cứ; hiển thị thời trị vì thay vì suy ra tuổi.",
-        "Bỏ số khối đá, thứ hạng và câu voi ma mút chưa được đối chiếu riêng trong tiểu sử này."
+        "Bỏ số khối đá, thứ hạng và câu voi ma mút chưa được đối chiếu riêng trong tiểu sử này.",
+        "Biên tập giọng kể gần gũi, giải thích từ sự việc cụ thể; giữ niên đại và giới hạn bằng chứng đã đối chiếu."
       ],
       "uncertainties": [
         "Niên đại trị vì có nhiều hệ thống."
@@ -167,14 +173,15 @@
           "scope": "Nhân vật, công trình, niên đại trị vì tham khảo, chất liệu, kích thước và tìm lại đầu tượng."
         }
       ],
-      "snapshotSHA256": "b76d678d75e226d902863607c73f93e3fb758495dcb619fa6c6c7156953ce8f7"
+      "snapshotSHA256": "04b722c568c93d80c24a2bc8cd44a796fb63a0cb6b52e6ebcc7faa247b72cd51"
     },
     {
       "id": "wa-kim-tu-thap-giza-2560tcn",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-1",
+      "batch": "narrative-audit-2",
       "decisions": [
-        "Chọn điểm tham chiếu trong khoảng trị vì đang dùng ở tiểu sử Khufu; giữ rõ quần thể thuộc nhiều đời vua."
+        "Chọn điểm tham chiếu trong khoảng trị vì đang dùng ở tiểu sử Khufu; giữ rõ quần thể thuộc nhiều đời vua.",
+        "Biên tập giọng kể gần gũi, giải thích từ sự việc cụ thể; giữ niên đại và giới hạn bằng chứng đã đối chiếu."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -202,15 +209,16 @@
           "scope": "Khoảng trị vì 2589–2566 TCN; 2580 là mốc hiển thị trong khoảng này, không phải năm hoàn thành."
         }
       ],
-      "snapshotSHA256": "b8fa2ec7e8150a6bb93b65d754527bae4625d57bcd0677367341d4cdb82e90fb"
+      "snapshotSHA256": "ad6a07df72b287503a61a82c09c7e48db32b1ea07eed6787ea0404b80ece5058"
     },
     {
       "id": "sa-van-minh-song-an-2600tcn",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-1",
+      "batch": "narrative-audit-2",
       "decisions": [
         "Bỏ giả thuyết khí hậu như một lời giải duy nhất cho suy thoái.",
-        "Bỏ so sánh tiện nghi với toàn châu Âu trung cổ và suy đoán người làm cống thay cho vua."
+        "Bỏ so sánh tiện nghi với toàn châu Âu trung cổ và suy đoán người làm cống thay cho vua.",
+        "Biên tập giọng kể gần gũi, giải thích từ sự việc cụ thể; giữ niên đại và giới hạn bằng chứng đã đối chiếu."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -243,14 +251,15 @@
           "scope": "Chức năng Đại bể tắm và các công trình từng gọi kho thóc còn là diễn giải."
         }
       ],
-      "snapshotSHA256": "646c8470aa04c03e3ee905f147158c91848aeb50f7808c3950ce02ab02a50c01"
+      "snapshotSHA256": "6d9293c466a3cf8153d6d829c99b67f9b68b8d472f42a3170c6d543c83f4d078"
     },
     {
       "id": "sa-p-van-minh-song-an",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-1",
+      "batch": "narrative-audit-2",
       "decisions": [
-        "Đồng bộ khung thời kỳ với bài đọc; bỏ chức năng kho thóc như một sự thật chắc chắn."
+        "Đồng bộ khung thời kỳ với bài đọc; bỏ chức năng kho thóc như một sự thật chắc chắn.",
+        "Biên tập giọng kể gần gũi, giải thích từ sự việc cụ thể; giữ niên đại và giới hạn bằng chứng đã đối chiếu."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -278,15 +287,16 @@
           "scope": "Chức năng Đại bể tắm và các công trình từng gọi kho thóc còn là diễn giải."
         }
       ],
-      "snapshotSHA256": "3989df6c3ff583e3853115d2b44a15dc70439fa1d1bee7145f6447e1e7b47ead"
+      "snapshotSHA256": "764f734f7188ae2ba8538ec7aa059855c633c5561c6be53ae6edc418092422c2"
     },
     {
       "id": "wa-np-sargon",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-1",
+      "batch": "narrative-audit-2",
       "decisions": [
         "Bỏ năm sinh 2360 TCN suy đoán và các chi tiết bộ máy, ngôn ngữ chưa có nguồn.",
-        "Chỉ dùng khung trị vì để tránh tính tuổi giả."
+        "Chỉ dùng khung trị vì để tránh tính tuổi giả.",
+        "Biên tập giọng kể gần gũi, giải thích từ sự việc cụ thể; giữ niên đại và giới hạn bằng chứng đã đối chiếu."
       ],
       "uncertainties": [
         "Có chênh lệch giữa các hệ niên đại."
@@ -323,14 +333,15 @@
           "scope": "Bảng niên đại dùng khoảng 2334–2279 TCN."
         }
       ],
-      "snapshotSHA256": "4e8b227ee1f6772c46b807c4e9ff18fcb4f529f0243fe396b774c66aed26d1ae"
+      "snapshotSHA256": "947cd84575375bb95cfe359c82fa7160c784f4ead8d732fb4f1c5a1211e69dfc"
     },
     {
       "id": "wa-p-ur-3",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-1",
+      "batch": "narrative-audit-2",
       "decisions": [
-        "Bỏ cách đánh giá phục hưng cuối cùng như một sự kiện có ranh giới rõ."
+        "Bỏ cách đánh giá phục hưng cuối cùng như một sự kiện có ranh giới rõ.",
+        "Biên tập giọng kể gần gũi, giải thích từ sự việc cụ thể; giữ niên đại và giới hạn bằng chứng đã đối chiếu."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -353,14 +364,15 @@
           "scope": "Củng cố nhà nước, xây dựng và hoạt động chính trị thời Ur III."
         }
       ],
-      "snapshotSHA256": "1f21e44cc7112b86c616f0dc27a29b236278d8f9e560a1655e6d9e82a5a1c5bb"
+      "snapshotSHA256": "8e40b2f6488fbd669a0a074a8196774aa595097e686b12b902de5e484c24c144"
     },
     {
       "id": "wa-p-trung-vuong-quoc",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-1",
+      "batch": "narrative-audit-2",
       "decisions": [
-        "Giữ các nét đã có nguồn; làm rõ diễn biến thuộc nhiều đời vua."
+        "Giữ các nét đã có nguồn; làm rõ diễn biến thuộc nhiều đời vua.",
+        "Biên tập giọng kể gần gũi, giải thích từ sự việc cụ thể; giữ niên đại và giới hạn bằng chứng đã đối chiếu."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -378,14 +390,15 @@
           "scope": "Niên đại, Mentuhotep, chính quyền trung ương, Fayum, Nubia và văn học."
         }
       ],
-      "snapshotSHA256": "05b39fbd27a167422a9f745743478c35c1e0730dd4688b13fb2a2b50696df6f6"
+      "snapshotSHA256": "caca7d59e9b360704281dfdd0b98fe492a39a508925ff210874512819d316ac4"
     },
     {
       "id": "wa-p-babylon-co",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-1",
+      "batch": "narrative-audit-2",
       "decisions": [
-        "Nêu rõ đây là khung một vương triều; các niên đại cổ đại là tham khảo."
+        "Nêu rõ đây là khung một vương triều; các niên đại cổ đại là tham khảo.",
+        "Biên tập giọng kể gần gũi, giải thích từ sự việc cụ thể; giữ niên đại và giới hạn bằng chứng đã đối chiếu."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -408,15 +421,16 @@
           "scope": "Hammurabi, những người kế vị và cuộc tiến công Hittite năm 1595 TCN."
         }
       ],
-      "snapshotSHA256": "0e4332dfb62a5a18e9ca295291f5444665a5f18f86e1854b4dcc9d5b8e757858"
+      "snapshotSHA256": "2d3e3e78469ba1b3458f4f0fd907c2ef6378942adc232c2256a7ea5411242b9b"
     },
     {
       "id": "wa-np-hammurabi",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-1",
+      "batch": "narrative-audit-2",
       "decisions": [
         "Bỏ năm sinh 1810 TCN thiếu chứng cứ; không tính tuổi từ khung trị vì.",
-        "Bỏ lời trích chưa đối chiếu và cách mô tả mọi điều luật đều theo báo oán."
+        "Bỏ lời trích chưa đối chiếu và cách mô tả mọi điều luật đều theo báo oán.",
+        "Biên tập giọng kể gần gũi, giải thích từ sự việc cụ thể; giữ niên đại và giới hạn bằng chứng đã đối chiếu."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -446,15 +460,16 @@
           "scope": "Khoảng 1750 TCN, 282 phán quyết, cấu trúc nếu–thì, đá basalt, tìm thấy tại Susa năm 1902 và trưng bày từ 1904."
         }
       ],
-      "snapshotSHA256": "7406098961445ffbc99c9a9c31b88dec7ea8ec4655570314b907306523c058fc"
+      "snapshotSHA256": "3a00ac9c6b3448bee72b13c267ac35f1906ed9b841bf8311995c897d172d49c8"
     },
     {
       "id": "wa-luat-hammurabi-1754tcn",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-1",
+      "batch": "narrative-audit-2",
       "decisions": [
         "Điều chỉnh năm theo nguồn Louvre; phân biệt án lệ với luật hiện đại.",
-        "Bỏ năm 1901 và khẳng định mọi người đều được đọc bia."
+        "Bỏ năm 1901 và khẳng định mọi người đều được đọc bia.",
+        "Biên tập giọng kể gần gũi, giải thích từ sự việc cụ thể; giữ niên đại và giới hạn bằng chứng đã đối chiếu."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -476,14 +491,15 @@
           "scope": "Khoảng 1750 TCN, 282 phán quyết, cấu trúc nếu–thì, đá basalt, tìm thấy tại Susa năm 1902 và trưng bày từ 1904."
         }
       ],
-      "snapshotSHA256": "b2e1d608669e3a18198d5d4890c6529f7d4ae6f70bcc57cb5c12b5385ca06f2c"
+      "snapshotSHA256": "58bc7008fdfab2490b9d0cfc434aee6c65757eb7e147bfbbc4aa1445184b63c6"
     },
     {
       "id": "wa-p-hyksos",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-1",
+      "batch": "narrative-audit-2",
       "decisions": [
-        "Bỏ cách kể một đoàn người đem công nghệ đến rồi công nghệ tự làm Ai Cập hùng mạnh."
+        "Bỏ cách kể một đoàn người đem công nghệ đến rồi công nghệ tự làm Ai Cập hùng mạnh.",
+        "Biên tập giọng kể gần gũi, giải thích từ sự việc cụ thể; giữ niên đại và giới hạn bằng chứng đã đối chiếu."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -501,14 +517,15 @@
           "scope": "Niên đại, phân chia quyền lực, Avaris, Thebes, Ahmose và giới hạn bằng chứng về việc Hyksos lên nắm quyền."
         }
       ],
-      "snapshotSHA256": "5dd318a50a65a7e429f273601d07cf8fdc460ee495b1dad175cf4369242137d8"
+      "snapshotSHA256": "1dc7a9a603bd87450975da087bc18e945cdd0022cb8358906acb7e9d5a4d768c"
     },
     {
       "id": "wa-p-tan-vuong-quoc",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-1",
+      "batch": "narrative-audit-2",
       "decisions": [
-        "Thay nhãn đỉnh cao đồng nhất bằng diễn biến có thay đổi."
+        "Thay nhãn đỉnh cao đồng nhất bằng diễn biến có thay đổi.",
+        "Biên tập giọng kể gần gũi, giải thích từ sự việc cụ thể; giữ niên đại và giới hạn bằng chứng đã đối chiếu."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -526,14 +543,15 @@
           "scope": "Khung niên đại, các vương triều, phạm vi quyền lực và công trình."
         }
       ],
-      "snapshotSHA256": "ffbbcc42e4919afbd3ed52b12e08f87e66acb7c669e728897095f5e6016db66a"
+      "snapshotSHA256": "506c52ae10c4f06063af7dbbdcf8ad8503e5c42e55cc943c5c5257dbe4476b1f"
     },
     {
       "id": "wa-giay-coi-y-hoc-1600tcn",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-1",
+      "batch": "narrative-audit-2",
       "decisions": [
-        "Bỏ khẳng định sao chép từ bản cổ hơn khi chưa đối chiếu riêng; giữ rõ quan sát và bùa chú cùng xuất hiện."
+        "Bỏ khẳng định sao chép từ bản cổ hơn khi chưa đối chiếu riêng; giữ rõ quan sát và bùa chú cùng xuất hiện.",
+        "Biên tập giọng kể gần gũi, giải thích từ sự việc cụ thể; giữ niên đại và giới hạn bằng chứng đã đối chiếu."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -554,15 +572,16 @@
           "scope": "Niên đại, 48 ca, cấu trúc lâm sàng, bùa chú mặt sau và việc mua năm 1862."
         }
       ],
-      "snapshotSHA256": "180a0cc3e55bb3be689d8b0dfa1afd6f0d26ddf558bbbd3031fc4107ab4ed1cb"
+      "snapshotSHA256": "9e252c08eabd89f48f1d50d579c385fa0a354220227dfa1b7868d3b5c1732b83"
     },
     {
       "id": "wa-np-hatshepsut",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-1",
+      "batch": "narrative-audit-2",
       "decisions": [
         "Không dùng năm sinh 1507 TCN suy đoán; phân biệt nhiếp chính và mang danh hiệu vua.",
-        "Thay giải nghĩa tên và lối kể báo trước số phận bằng chi tiết ngôn ngữ trên hiện vật."
+        "Thay giải nghĩa tên và lối kể báo trước số phận bằng chi tiết ngôn ngữ trên hiện vật.",
+        "Biên tập giọng kể gần gũi, giải thích từ sự việc cụ thể; giữ niên đại và giới hạn bằng chứng đã đối chiếu."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -597,14 +616,15 @@
           "scope": "Niên đại tượng và danh hiệu với đuôi giống cái."
         }
       ],
-      "snapshotSHA256": "66977ef403fe5c9a6d0214171843c9ea72c6f7ebba94d5142c803bbed201f4d5"
+      "snapshotSHA256": "30f91c962247da8d8ccdfda7b5badda7cfeac6f4cb6a7403dc895fc79d6372f0"
     },
     {
       "id": "vn-dong-dau-go-mun-1500tcn",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-1",
+      "batch": "narrative-audit-2",
       "decisions": [
-        "Điều chỉnh khoảng cuối theo niên đại giới thiệu; bỏ so sánh điện thoại và chuỗi nhân quả chưa có bằng chứng."
+        "Điều chỉnh khoảng cuối theo niên đại giới thiệu; bỏ so sánh điện thoại và chuỗi nhân quả chưa có bằng chứng.",
+        "Biên tập giọng kể gần gũi, giải thích từ sự việc cụ thể; giữ niên đại và giới hạn bằng chứng đã đối chiếu."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -625,15 +645,16 @@
           "scope": "Chuỗi Phùng Nguyên, Đồng Đậu, Gò Mun và hiện vật; Đồng Đậu khoảng 3500–3000 năm, Gò Mun khoảng 3000–2500 năm."
         }
       ],
-      "snapshotSHA256": "db5b36f97e3c564a56f0799121f2e95b2501571bc8cf2cfac1fcf6b7c12ae907"
+      "snapshotSHA256": "c9ef6865ffdf3d889affc7d373de8157e3e2f7d4962062b5569db6b3e966054d"
     },
     {
       "id": "wa-banh-xe-3500tcn",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-2",
+      "batch": "narrative-audit-3",
       "decisions": [
         "Bỏ câu khẳng định phát minh tại Lưỡng Hà năm 3500 TCN và chuỗi bàn xoay → mọi máy quay.",
-        "Không thay giả thuyết cũ bằng giả thuyết thợ mỏ Carpathian như kết luận đã chứng minh."
+        "Không thay giả thuyết cũ bằng giả thuyết thợ mỏ Carpathian như kết luận đã chứng minh.",
+        "Viết lại theo mạch kể, thêm góc nhìn từ hiện vật và người sử dụng; giữ phân biệt sự kiện, truyền thống và giả thuyết."
       ],
       "uncertainties": [
         "Nơi và thời điểm phát minh vẫn chưa có đồng thuận."
@@ -661,14 +682,15 @@
           "scope": "Bánh xe gỗ có trục, tuổi xấp xỉ và nơi tìm thấy tại Slovenia."
         }
       ],
-      "snapshotSHA256": "9e40b06c1bb8814efc6163342d9ba18fc6141e7c2d2a79ca7355ab0cc80c941f"
+      "snapshotSHA256": "6f5689fad1137d81af6323e0d111ebed26a6da5a2d390b5643b92f282bf44b59"
     },
     {
       "id": "ea-p-co-trieu-tien",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-2",
+      "batch": "narrative-audit-3",
       "decisions": [
-        "Giữ rõ hai mức độ chứng cứ của mốc khởi đầu truyền thuyết và mốc cuối lịch sử."
+        "Giữ rõ hai mức độ chứng cứ của mốc khởi đầu truyền thuyết và mốc cuối lịch sử.",
+        "Viết lại theo mạch kể, thêm góc nhìn từ hiện vật và người sử dụng; giữ phân biệt sự kiện, truyền thống và giả thuyết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -691,14 +713,15 @@
           "scope": "Chiến tranh 109–108 TCN và kết thúc Gojoseon."
         }
       ],
-      "snapshotSHA256": "453b060654d8de625fd2f02489263e3fcb8beee90aadf42aa31775ca7cd3d1c7"
+      "snapshotSHA256": "79516628608476438c5dcfa37b65916cd5de76235260800c7204c935ea4281fc"
     },
     {
       "id": "cn-p-thuong",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-2",
+      "batch": "narrative-audit-3",
       "decisions": [
-        "Bỏ thứ hạng tuyệt đối; phân biệt khung toàn triều với bằng chứng cuối triều tại Ân Khư."
+        "Bỏ thứ hạng tuyệt đối; phân biệt khung toàn triều với bằng chứng cuối triều tại Ân Khư.",
+        "Viết lại theo mạch kể, thêm góc nhìn từ hiện vật và người sử dụng; giữ phân biệt sự kiện, truyền thống và giả thuyết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -721,14 +744,15 @@
           "scope": "Kinh đô cuối thời Thương, giáp cốt, cung điện, mộ táng và mộ Phụ Hảo."
         }
       ],
-      "snapshotSHA256": "6588af8f2475439152efb0ec0fe6c8045f1942a0cda78dfb6422eb00489a4d9f"
+      "snapshotSHA256": "aefdba4b377fc35712dbbea4b500e7ce473cce4d138edc8ec2097c0d6ebaa307"
     },
     {
       "id": "wa-p-kassite-hittite",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-2",
+      "batch": "narrative-audit-3",
       "decisions": [
-        "Không coi mọi năm của khung Trung Babylon là thời gian một chính quyền Kassite thống nhất đã tồn tại."
+        "Không coi mọi năm của khung Trung Babylon là thời gian một chính quyền Kassite thống nhất đã tồn tại.",
+        "Viết lại theo mạch kể, thêm góc nhìn từ hiện vật và người sử dụng; giữ phân biệt sự kiện, truyền thống và giả thuyết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -745,15 +769,16 @@
           "scope": "Khung niên đại, tiến trình nắm quyền, quan hệ ngoại giao và kết thúc năm 1155 TCN."
         }
       ],
-      "snapshotSHA256": "55ef7e6141125768d518e899a8f28790009ad8e6d581761a6d1ca23c4b1b2100"
+      "snapshotSHA256": "e18edd9b08d985cfa9171c5423f792ad03299a7736d194edfe597c28755a512a"
     },
     {
       "id": "sa-nguoi-arya-kinh-veda-1500tcn",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-2",
+      "batch": "narrative-audit-3",
       "decisions": [
         "Bỏ cách giải thích chế độ đẳng cấp như hệ quả tự động của một cuộc di cư.",
-        "Bỏ liên hệ từ nguyên tiếng Việt và so sánh ngôn ngữ chưa đối chiếu riêng."
+        "Bỏ liên hệ từ nguyên tiếng Việt và so sánh ngôn ngữ chưa đối chiếu riêng.",
+        "Viết lại theo mạch kể, thêm góc nhìn từ hiện vật và người sử dụng; giữ phân biệt sự kiện, truyền thống và giả thuyết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -779,14 +804,15 @@
           "scope": "Học truyền miệng, trọng âm, phát âm và các kỹ thuật bảo tồn lời tụng."
         }
       ],
-      "snapshotSHA256": "468bacd61bce10763b32e04a089d709e45a7d211e15a2a4b6723f81e321e5a5f"
+      "snapshotSHA256": "6c4bb617934ab9eb6326b366dd2318de75962bd4f41e6710792c7a0fa41f19e9"
     },
     {
       "id": "sa-p-thoi-veda",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-2",
+      "batch": "narrative-audit-3",
       "decisions": [
-        "Thay đoạn quy mọi đặc điểm về một nhóm người và một địa điểm duy nhất."
+        "Thay đoạn quy mọi đặc điểm về một nhóm người và một địa điểm duy nhất.",
+        "Viết lại theo mạch kể, thêm góc nhìn từ hiện vật và người sử dụng; giữ phân biệt sự kiện, truyền thống và giả thuyết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -809,15 +835,16 @@
           "scope": "Học truyền miệng, trọng âm, phát âm và các kỹ thuật bảo tồn lời tụng."
         }
       ],
-      "snapshotSHA256": "6959b7dadb3b079b21daf0c04e7a4eb3dad3667907770873057d5332d7ca6b97"
+      "snapshotSHA256": "7c2135d834ffe3560bf35fc4c2aba9b0f82cb982c9db45d182cbbc0ec177f804"
     },
     {
       "id": "wa-hatshepsut-1479tcn",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-2",
+      "batch": "narrative-audit-3",
       "decisions": [
         "Bỏ mô tả râu giả là đồng phục bắt buộc ở mọi tượng pharaoh.",
-        "Phân biệt nhiếp chính và địa vị vua."
+        "Phân biệt nhiếp chính và địa vị vua.",
+        "Viết lại theo mạch kể, thêm góc nhìn từ hiện vật và người sử dụng; giữ phân biệt sự kiện, truyền thống và giả thuyết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -850,15 +877,16 @@
           "scope": "Tượng và danh hiệu có đuôi giống cái, bối cảnh thể hiện nữ quân vương."
         }
       ],
-      "snapshotSHA256": "15196c8c847b70b1ee45e309623f5630da64ee9abd6ebe733ca94e874696fac2"
+      "snapshotSHA256": "a39fe60fb0b7df09cb40c14074e0b7200c84cf3dede3b7a0e45c18586086d99c"
     },
     {
       "id": "wa-np-akhenaten",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-2",
+      "batch": "narrative-audit-3",
       "decisions": [
         "Bỏ năm sinh suy đoán và quan hệ cha con với Tutankhamun khi chưa đối chiếu nghiên cứu riêng.",
-        "Thay giai thoại thư ngoại giao bằng thông tin nghệ thuật có nguồn tác giả."
+        "Thay giai thoại thư ngoại giao bằng thông tin nghệ thuật có nguồn tác giả.",
+        "Viết lại theo mạch kể, thêm góc nhìn từ hiện vật và người sử dụng; giữ phân biệt sự kiện, truyền thống và giả thuyết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -893,14 +921,15 @@
           "scope": "Tác giả và ngày công diễn đầu tiên 24/3/1984."
         }
       ],
-      "snapshotSHA256": "bc9dc964a125e199bd781f9bc354fbf4b51b9b62f91396fdbec4bf783c0d3edf"
+      "snapshotSHA256": "1bd11dde24031e8a3a3cb5963ad1937db6e57e9f5730afad926db3fc8a935c25"
     },
     {
       "id": "wa-akhenaten-1353tcn",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-2",
+      "batch": "narrative-audit-3",
       "decisions": [
-        "Bỏ thứ hạng thử nghiệm độc thần và mô tả nghệ thuật tự nhiên hơn như một đánh giá khách quan."
+        "Bỏ thứ hạng thử nghiệm độc thần và mô tả nghệ thuật tự nhiên hơn như một đánh giá khách quan.",
+        "Viết lại theo mạch kể, thêm góc nhìn từ hiện vật và người sử dụng; giữ phân biệt sự kiện, truyền thống và giả thuyết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -927,15 +956,16 @@
           "scope": "Đổi tên, tôn giáo, kinh đô và thể hiện gia đình hoàng gia."
         }
       ],
-      "snapshotSHA256": "6d2da3bee4aefa90eb9eba4771654e262a0489750b9f85224f7484c8ee0ac074"
+      "snapshotSHA256": "82fc1d67606d85105d7f3ae8e60857a3ad504311d6ca3b02e6a4081915a8ae09"
     },
     {
       "id": "wa-np-tutankhamun",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-2",
+      "batch": "narrative-audit-3",
       "decisions": [
         "Bỏ số tuổi và năm sinh suy đoán; không gọi mộ hoàn toàn chưa bị động đến.",
-        "Bỏ khối lượng vàng và xếp hạng nổi tiếng khi chưa đối chiếu từng hiện vật."
+        "Bỏ khối lượng vàng và xếp hạng nổi tiếng khi chưa đối chiếu từng hiện vật.",
+        "Viết lại theo mạch kể, thêm góc nhìn từ hiện vật và người sử dụng; giữ phân biệt sự kiện, truyền thống và giả thuyết."
       ],
       "uncertainties": [
         "Khung trị vì và ước lượng tuổi mất khác nhau giữa các nguồn."
@@ -972,15 +1002,16 @@
           "scope": "Nhật ký và hồ sơ khai quật; phát hiện và nghiên cứu kéo dài nhiều năm."
         }
       ],
-      "snapshotSHA256": "5a53a789de1239622686669a465fba82b4faf94e59f1da38198c122dd07a065a"
+      "snapshotSHA256": "222e02fc049b6df2fa4cb4b157923415fd766c90feb7a2601a179d68d9146d33"
     },
     {
       "id": "wa-tutankhamun-1332tcn",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-2",
+      "batch": "narrative-audit-3",
       "decisions": [
         "Thay lối đánh giá vua ít thành tích; phân biệt mộ còn tương đối nguyên vẹn với chưa từng bị trộm.",
-        "Đồng bộ khung trị vì với tiểu sử."
+        "Đồng bộ khung trị vì với tiểu sử.",
+        "Viết lại theo mạch kể, thêm góc nhìn từ hiện vật và người sử dụng; giữ phân biệt sự kiện, truyền thống và giả thuyết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -1013,15 +1044,16 @@
           "scope": "Nhật ký và hồ sơ khai quật; phát hiện và nghiên cứu kéo dài nhiều năm."
         }
       ],
-      "snapshotSHA256": "db7b8548b85bfd11ca56f85c0020d74e0d089e8b9dd9abad4bb6ae56cf8d5a49"
+      "snapshotSHA256": "024e164497f5626679c53f7ce1283a840250b16c867cc93e6332eeee8c3e7973"
     },
     {
       "id": "wa-np-ramses-ii",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-2",
+      "batch": "narrative-audit-3",
       "decisions": [
         "Không dùng năm sinh 1303 TCN suy đoán; thay tuổi thọ tính từ số quy ước bằng khung trị vì.",
-        "Bỏ giai thoại đón xác ướp tại sân bay chưa đối chiếu trực tiếp."
+        "Bỏ giai thoại đón xác ướp tại sân bay chưa đối chiếu trực tiếp.",
+        "Viết lại theo mạch kể, thêm góc nhìn từ hiện vật và người sử dụng; giữ phân biệt sự kiện, truyền thống và giả thuyết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -1056,15 +1088,16 @@
           "scope": "Chiến dịch phát động năm 1960, ghi chép và di chuyển đền, trong đó có Abu Simbel."
         }
       ],
-      "snapshotSHA256": "05c54810d7b68e9814be35548ad76817ad8d497d2b60be4c6339f57c16985cf2"
+      "snapshotSHA256": "dc7082d50851b1f031bdc9f1f865ef9dcbc46cec78773220adfb186c41028598"
     },
     {
       "id": "wa-tran-kadesh-1274tcn",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-2",
+      "batch": "narrative-audit-3",
       "decisions": [
         "Bỏ số xe chiến, xếp hạng trận đánh, chiến thắng và hòa ước cổ nhất chưa được chứng minh.",
-        "Nêu rõ thời gian và nhân vật khác nhau của trận đánh với hòa ước."
+        "Nêu rõ thời gian và nhân vật khác nhau của trận đánh với hòa ước.",
+        "Viết lại theo mạch kể, thêm góc nhìn từ hiện vật và người sử dụng; giữ phân biệt sự kiện, truyền thống và giả thuyết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -1090,16 +1123,22 @@
           "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesii.html",
           "title": "UCL — Ramesses II",
           "scope": "Trị vì khoảng 1279–1213 TCN, các công trình, văn bản Kadesh và hòa ước năm trị vì thứ 21 với Hattusili III."
+        },
+        {
+          "url": "https://www.un.org/ungifts/fr/r%C3%A9plique-du-trait%C3%A9-de-paix-entre-hattusilis-et-rams%C3%A8s-ii",
+          "title": "Liên Hợp Quốc — Bản sao hòa ước Hittite–Ai Cập",
+          "scope": "Bản sao do Thổ Nhĩ Kỳ tặng năm 1970. Chỉ dùng thông tin hiện vật hiện đại; năm tuyệt đối của hòa ước trong hồ sơ này khác hệ dùng trong bài."
         }
       ],
-      "snapshotSHA256": "a0b134fcb0ac14428a2a32e2957a5e9d13ad2265d856f1d4134ef2de041af9a9"
+      "snapshotSHA256": "d8b7b310d8d2f416939a18fdad78c66084203b56733870992d8d616cc1090495"
     },
     {
       "id": "cn-chu-giap-cot-1250tcn",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-2",
+      "batch": "narrative-audit-3",
       "decisions": [
-        "Bỏ giai thoại long cốt năm 1899 và khái quát lịch sử chữ Hán ở Việt Nam khi chưa đối chiếu riêng."
+        "Bỏ giai thoại long cốt năm 1899 và khái quát lịch sử chữ Hán ở Việt Nam khi chưa đối chiếu riêng.",
+        "Viết lại theo mạch kể, thêm góc nhìn từ hiện vật và người sử dụng; giữ phân biệt sự kiện, truyền thống và giả thuyết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -1126,15 +1165,16 @@
           "scope": "Chất liệu xương, niên đại Thương và kích thước hiện vật."
         }
       ],
-      "snapshotSHA256": "62141c63b0e32e2db4d350b5b2f0adeda5469283fa7c700ed321b52778d5f79d"
+      "snapshotSHA256": "feb9c224d75d68340c1c995d5f71c7abe8f33e90a002c3ff0c195a1cfdcaf75a"
     },
     {
       "id": "cn-dong-thau-nha-thuong-1200tcn",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-2",
+      "batch": "narrative-audit-3",
       "decisions": [
         "Sửa thuật ngữ đồng thau và giới hạn khẳng định nặng nhất.",
-        "Bỏ câu Phụ Hảo chỉ huy hơn một vạn quân khi chưa kiểm tra văn bản gốc."
+        "Bỏ câu Phụ Hảo chỉ huy hơn một vạn quân khi chưa kiểm tra văn bản gốc.",
+        "Viết lại theo mạch kể, thêm góc nhìn từ hiện vật và người sử dụng; giữ phân biệt sự kiện, truyền thống và giả thuyết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -1160,15 +1200,16 @@
           "scope": "Khối lượng 832,84 kg và phạm vi thứ hạng trong Trung Quốc cổ đại."
         }
       ],
-      "snapshotSHA256": "a536556b1af4950cebe652424ef7384b069e164d6cee90eea58df067c29ead43"
+      "snapshotSHA256": "c078db66abecee053ae6f5c50a176c2793956da5eb3c8b9a9ddade6c7205d12c"
     },
     {
       "id": "eu-troy-1200tcn",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-2",
+      "batch": "narrative-audit-3",
       "decisions": [
         "Bỏ năm phá hủy chính xác 1180 TCN như chứng minh cuộc chiến trong thần thoại.",
-        "Giữ địa lý di tích ở Anatolia, không đồng nhất nó với nhà nước Hy Lạp hiện đại."
+        "Giữ địa lý di tích ở Anatolia, không đồng nhất nó với nhà nước Hy Lạp hiện đại.",
+        "Viết lại theo mạch kể, thêm góc nhìn từ hiện vật và người sử dụng; giữ phân biệt sự kiện, truyền thống và giả thuyết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -1195,14 +1236,15 @@
           "scope": "Phân biệt câu chuyện con ngựa trong Odyssey với nội dung Iliad."
         }
       ],
-      "snapshotSHA256": "9f98556a994581d95fe2bc989827fda6cc61f2a72b6e9c7a7edea4f24f1d356f"
+      "snapshotSHA256": "bb59fff2da0a1b730bfd923425e6521349d3627e78f1bb66ed0d347a221cfcf0"
     },
     {
       "id": "am-olmec-1200tcn",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-2",
+      "batch": "narrative-audit-3",
       "decisions": [
-        "Bỏ nhãn văn minh mẹ như quan hệ nguồn gốc một chiều và giả thuyết vận chuyển tượng chưa chứng minh."
+        "Bỏ nhãn văn minh mẹ như quan hệ nguồn gốc một chiều và giả thuyết vận chuyển tượng chưa chứng minh.",
+        "Viết lại theo mạch kể, thêm góc nhìn từ hiện vật và người sử dụng; giữ phân biệt sự kiện, truyền thống và giả thuyết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -1224,14 +1266,15 @@
           "scope": "Giai đoạn 1200–400 TCN, vùng vịnh Mexico, San Lorenzo, La Venta, đầu tượng, vật liệu và đời sống tiếp tục ở các trung tâm khác."
         }
       ],
-      "snapshotSHA256": "065d125f0245de1934ad2ffbc46dcc637234a0587eed33961633341bd6050f9c"
+      "snapshotSHA256": "25fb5e8f90b6466229ee5a57b88fcd6c5ddc46c12b4034ad8dceca8b5db8a299"
     },
     {
       "id": "am-p-olmec",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-2",
+      "batch": "narrative-audit-3",
       "decisions": [
-        "Bỏ thứ hạng nền văn minh đầu tiên và giữ rõ giới hạn của khung phân kỳ."
+        "Bỏ thứ hạng nền văn minh đầu tiên và giữ rõ giới hạn của khung phân kỳ.",
+        "Viết lại theo mạch kể, thêm góc nhìn từ hiện vật và người sử dụng; giữ phân biệt sự kiện, truyền thống và giả thuyết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -1249,14 +1292,15 @@
           "scope": "Giai đoạn 1200–400 TCN, vùng vịnh Mexico, San Lorenzo, La Venta, đầu tượng, vật liệu và đời sống tiếp tục ở các trung tâm khác."
         }
       ],
-      "snapshotSHA256": "a5290a38aafb8ad2ea0a32c4899279376ce94b7612c4b374fc854b9fcf5afba5"
+      "snapshotSHA256": "3137235e96ae5950910ae34bcf03d5ccaea6381c8321236cf4594fb8bfbd49dc"
     },
     {
       "id": "am-chavin-900tcn",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-2",
+      "batch": "narrative-audit-3",
       "decisions": [
-        "Bỏ thứ hạng lần đầu liên kết toàn Andes; phân biệt phép đo với diễn giải tâm linh."
+        "Bỏ thứ hạng lần đầu liên kết toàn Andes; phân biệt phép đo với diễn giải tâm linh.",
+        "Viết lại theo mạch kể, thêm góc nhìn từ hiện vật và người sử dụng; giữ phân biệt sự kiện, truyền thống và giả thuyết."
       ],
       "uncertainties": [
         "Niên đại tùy đối tượng và cách phân kỳ của từng nguồn."
@@ -1289,14 +1333,15 @@
           "scope": "19 pututu tìm thấy năm 2001, đo âm học và giới hạn diễn giải nghi lễ."
         }
       ],
-      "snapshotSHA256": "59bfddb0f8a0a16cbbc9248862c6465f0e7af17b4b433205675a476b5a320231"
+      "snapshotSHA256": "0f24076e69031ae2ea35ba9a2ba91b57758631537cbc43fa4a6015395690b464"
     },
     {
       "id": "am-p-chavin",
       "reviewedAt": "2026-11-04",
-      "batch": "bronze-audit-2",
+      "batch": "narrative-audit-3",
       "decisions": [
-        "Nêu rõ khung phân kỳ, không gọi nền văn hóa đầu tiên lan khắp Andes."
+        "Nêu rõ khung phân kỳ, không gọi nền văn hóa đầu tiên lan khắp Andes.",
+        "Viết lại theo mạch kể, thêm góc nhìn từ hiện vật và người sử dụng; giữ phân biệt sự kiện, truyền thống và giả thuyết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -1319,14 +1364,15 @@
           "scope": "Trung tâm nghi lễ, hành hương, kiến trúc, hành lang, quảng trường và giao lưu văn hóa."
         }
       ],
-      "snapshotSHA256": "299db0cd8b1d66ff815ace7eed5243570c66e39b7139d44308c460e454571398"
+      "snapshotSHA256": "5eebaf1de8bf30f22153aceb35c6580341a622458b252f029f7eedb4731d96a3"
     },
     {
       "id": "wa-p-phoenicia-israel",
       "reviewedAt": "2026-11-04",
-      "batch": "iron-audit-1",
+      "batch": "narrative-audit-1",
       "decisions": [
-        "Thu hẹp tiêu đề và nội dung về các cảng thị có nguồn đối chiếu; không gom các tiểu quốc khác nhau thành một chính quyền."
+        "Thu hẹp tiêu đề và nội dung về các cảng thị có nguồn đối chiếu; không gom các tiểu quốc khác nhau thành một chính quyền.",
+        "Biên tập lại giọng kể: nối sự việc với ý nghĩa cụ thể, giảm lời hướng dẫn kiểm chứng trong phần đọc; giữ bất định cần thiết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -1343,14 +1389,15 @@
           "scope": "Các cảng thị độc lập ở ven Levant, niên đại rộng và thương mại Địa Trung Hải."
         }
       ],
-      "snapshotSHA256": "782bdaee6a2413148d3fc9dc421f6fa7e3d1bc6ea2b49f9e989bda57106c5e4f"
+      "snapshotSHA256": "83453a3f1bfc263bd0fb2be226a8b7999e4f2260deab62d5cfa32fc7cf9d3f4b"
     },
     {
       "id": "wa-p-ai-cap-hau-ky",
       "reviewedAt": "2026-11-04",
-      "batch": "iron-audit-1",
+      "batch": "narrative-audit-1",
       "decisions": [
-        "Đổi tên để khung 1069–332 không bị nhầm là toàn bộ thuộc phân kỳ Late Period."
+        "Đổi tên để khung 1069–332 không bị nhầm là toàn bộ thuộc phân kỳ Late Period.",
+        "Biên tập lại giọng kể: nối sự việc với ý nghĩa cụ thể, giảm lời hướng dẫn kiểm chứng trong phần đọc; giữ bất định cần thiết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -1373,14 +1420,15 @@
           "scope": "Khung 664–332 TCN, triều 26, các giai đoạn Ba Tư cai trị và các triều đại Ai Cập xen giữa."
         }
       ],
-      "snapshotSHA256": "e979eb34dbd3820f0843a76eb5f517efb299a116827b57ced751cf8c482e8f33"
+      "snapshotSHA256": "87774f64f211d00006010cbc5eefea6bae9f62ecc5a6d93768b1987065e48035"
     },
     {
       "id": "wa-phoenicia-chu-cai-1050tcn",
       "reviewedAt": "2026-11-04",
-      "batch": "iron-audit-1",
+      "batch": "narrative-audit-1",
       "decisions": [
-        "Bỏ thứ hạng thương nhân giỏi nhất, câu chuyện phát minh để ghi buôn bán cho nhanh và suy luận chữ viết lập tức hết là đặc quyền."
+        "Bỏ thứ hạng thương nhân giỏi nhất, câu chuyện phát minh để ghi buôn bán cho nhanh và suy luận chữ viết lập tức hết là đặc quyền.",
+        "Biên tập lại giọng kể: nối sự việc với ý nghĩa cụ thể, giảm lời hướng dẫn kiểm chứng trong phần đọc; giữ bất định cần thiết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -1406,14 +1454,15 @@
           "scope": "Chữ cái xuất hiện trước Phoenicia; truyền sang Hy Lạp, Etrusca và La Mã; tên alpha, beta."
         }
       ],
-      "snapshotSHA256": "022d4901a385eefab2a3d3af702f06dd20e230f4be225ee3121542d7ef3765b7"
+      "snapshotSHA256": "0a4d4e247ff2985311bdf6478797e7b0d38afec84ea402392c4511849f59ae59"
     },
     {
       "id": "cn-chu-diet-thuong-1046tcn",
       "reviewedAt": "2026-11-04",
-      "batch": "iron-audit-1",
+      "batch": "narrative-audit-1",
       "decisions": [
-        "Bỏ phán xét tính cách Trụ Vương, suy đoán bị bôi đen và khoảng cách niên đại tiểu thuyết chưa đối chiếu."
+        "Bỏ phán xét tính cách Trụ Vương, suy đoán bị bôi đen và khoảng cách niên đại tiểu thuyết chưa đối chiếu.",
+        "Biên tập lại giọng kể: nối sự việc với ý nghĩa cụ thể, giảm lời hướng dẫn kiểm chứng trong phần đọc; giữ bất định cần thiết."
       ],
       "uncertainties": [
         "1046 TCN là lựa chọn trong hệ niên đại tham khảo."
@@ -1447,14 +1496,15 @@
           "scope": "Minh văn Lợi quỹ ghi cuộc chinh phạt Thương của Chu Vũ Vương; phát hiện năm 1976 tại Lâm Đồng."
         }
       ],
-      "snapshotSHA256": "340ddb4d55064974c591f4998af5a332ecf7ccde2ade56f4a4416a561228b46a"
+      "snapshotSHA256": "2d6ce294b337e25f4ab7eb6c0eee5ba90430aff51676171288743295df51765c"
     },
     {
       "id": "cn-p-tay-chu",
       "reviewedAt": "2026-11-04",
-      "batch": "iron-audit-1",
+      "batch": "narrative-audit-1",
       "decisions": [
-        "Giữ khung tham khảo và bỏ định nghĩa phong kiến quá gọn."
+        "Giữ khung tham khảo và bỏ định nghĩa phong kiến quá gọn.",
+        "Biên tập lại giọng kể: nối sự việc với ý nghĩa cụ thể, giảm lời hướng dẫn kiểm chứng trong phần đọc; giữ bất định cần thiết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -1477,14 +1527,15 @@
           "scope": "Nguồn gốc nhà Chu và Thiên mệnh trong việc giải thích thay thế nhà Thương."
         }
       ],
-      "snapshotSHA256": "8c2088c3d6b06ce5b93ff4d9253e3d1e3c64940779a757b0980244e5f95cb2ef"
+      "snapshotSHA256": "1948f963b026690d7f3d8a49bd6c586002845ff9906bd1911c8b7ee70fc225a8"
     },
     {
       "id": "vn-sa-huynh-1000tcn",
       "reviewedAt": "2026-11-04",
-      "batch": "iron-audit-1",
+      "batch": "narrative-audit-1",
       "decisions": [
-        "Thay mốc khởi đầu tuyệt đối bằng giai đoạn tiêu biểu có nguồn; không khẳng định quan hệ trực tiếp đơn tuyến Sa Huỳnh → Chăm Pa."
+        "Thay mốc khởi đầu tuyệt đối bằng giai đoạn tiêu biểu có nguồn; không khẳng định quan hệ trực tiếp đơn tuyến Sa Huỳnh → Chăm Pa.",
+        "Biên tập lại giọng kể: nối sự việc với ý nghĩa cụ thể, giảm lời hướng dẫn kiểm chứng trong phần đọc; giữ bất định cần thiết."
       ],
       "uncertainties": [
         "Phân kỳ và phạm vi Sa Huỳnh thay đổi theo địa điểm và công trình nghiên cứu."
@@ -1514,14 +1565,15 @@
           "scope": "Đồ trang sức khoảng 2500–2000 năm trước; phân bố Sa Huỳnh và Đồng Nai, cặp khuyên tại Giồng Cá Vồ."
         }
       ],
-      "snapshotSHA256": "fe75e9238ee2b46406050de5c5906dad3be808a51772d102dfbf49d14d99b156"
+      "snapshotSHA256": "3b7cf57910d5fd4eb6b1dae1191a45dd96143d6dc810bfa87b65d5199e0310e7"
     },
     {
       "id": "wa-vuong-quoc-israel-1000tcn",
       "reviewedAt": "2026-11-04",
-      "batch": "iron-audit-1",
+      "batch": "narrative-audit-1",
       "decisions": [
-        "Bỏ mệnh đề Jerusalem từ đó lập tức thành thánh địa của cả ba tôn giáo và suy luận nền móng tôn giáo từ một mốc lập quốc."
+        "Bỏ mệnh đề Jerusalem từ đó lập tức thành thánh địa của cả ba tôn giáo và suy luận nền móng tôn giáo từ một mốc lập quốc.",
+        "Biên tập lại giọng kể: nối sự việc với ý nghĩa cụ thể, giảm lời hướng dẫn kiểm chứng trong phần đọc; giữ bất định cần thiết."
       ],
       "uncertainties": [
         "Niên đại và quy mô vương quốc sớm còn tranh luận."
@@ -1555,14 +1607,15 @@
           "scope": "Bia tiếng Aram thế kỷ IX TCN có cụm nhà David; các mảnh tìm thấy năm 1993 và 1994."
         }
       ],
-      "snapshotSHA256": "927a1273d160dca80acd4098ca8c66e6752e858aaa59d9f6ae2480b8696e1c33"
+      "snapshotSHA256": "6de5663381408a48a1a276da1558b33311f92137d1744fd116bcc7c0f6dfa541"
     },
     {
       "id": "wa-hoa-giao-1000tcn",
       "reviewedAt": "2026-11-04",
-      "batch": "iron-audit-1",
+      "batch": "narrative-audit-1",
       "decisions": [
-        "Bỏ liên hệ Magi và magic chưa đủ đối chiếu; không đặt toàn bộ truyền thống vào một năm sáng lập chắc chắn."
+        "Bỏ liên hệ Magi và magic chưa đủ đối chiếu; không đặt toàn bộ truyền thống vào một năm sáng lập chắc chắn.",
+        "Biên tập lại giọng kể: nối sự việc với ý nghĩa cụ thể, giảm lời hướng dẫn kiểm chứng trong phần đọc; giữ bất định cần thiết."
       ],
       "uncertainties": [
         "Niên đại Zoroaster chưa có đồng thuận; cách thực hành khác nhau giữa cộng đồng."
@@ -1591,14 +1644,15 @@
           "scope": "Cách cộng đồng này giải thích Gatha, các lớp kinh văn, đạo đức và ý nghĩa của lửa."
         }
       ],
-      "snapshotSHA256": "4b2bda05c3600361a637320b22fcbd878908afc293583722e084373288b006f8"
+      "snapshotSHA256": "d5a4492d294df6dbb72a510e67f8d9125150a8e2ebd0f3d01d10a104ff5ad4b8"
     },
     {
       "id": "wa-p-assyria",
       "reviewedAt": "2026-11-04",
-      "batch": "iron-audit-1",
+      "batch": "narrative-audit-1",
       "decisions": [
-        "Phân biệt mốc kết thúc thời kỳ với kết thúc toàn bộ lực lượng và cư dân."
+        "Phân biệt mốc kết thúc thời kỳ với kết thúc toàn bộ lực lượng và cư dân.",
+        "Biên tập lại giọng kể: nối sự việc với ý nghĩa cụ thể, giảm lời hướng dẫn kiểm chứng trong phần đọc; giữ bất định cần thiết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -1621,14 +1675,15 @@
           "scope": "Kinh đô, thất thủ năm 612 TCN và sự tồn tại ngắn của chính quyền còn lại."
         }
       ],
-      "snapshotSHA256": "1ae906e454973ff1f60e361f74d37379636a38d0c4d3710116b9f809f54fc413"
+      "snapshotSHA256": "170315e6f6abcc0d3ca36c19daa0c3590401ff39f955131199dceb9a09623502"
     },
     {
       "id": "sa-upanishad-800tcn",
       "reviewedAt": "2026-11-04",
-      "batch": "iron-audit-1",
+      "batch": "narrative-audit-1",
       "decisions": [
-        "Sửa khung của những bản sớm theo nguồn; bỏ gán nguồn gốc câu tục ngữ Việt vào một văn bản."
+        "Sửa khung của những bản sớm theo nguồn; bỏ gán nguồn gốc câu tục ngữ Việt vào một văn bản.",
+        "Biên tập lại giọng kể: nối sự việc với ý nghĩa cụ thể, giảm lời hướng dẫn kiểm chứng trong phần đọc; giữ bất định cần thiết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -1649,14 +1704,15 @@
           "scope": "Niên đại các lớp văn bản, chủ đề và các nhân vật nữ trong đối thoại."
         }
       ],
-      "snapshotSHA256": "2e86e193b1850877b03d7999a67e6d2b06e96b546255c9f4b97938d463a52c85"
+      "snapshotSHA256": "c230434b588943bf2881d3b549191066b6ce095a67fd183c0fbe3b4157b1a3da"
     },
     {
       "id": "eu-chu-hy-lap-800tcn",
       "reviewedAt": "2026-11-04",
-      "batch": "iron-audit-1",
+      "batch": "narrative-audit-1",
       "decisions": [
-        "Bỏ so sánh dễ học hơn hẳn mọi chữ tượng hình; thay fun fact trùng với bài Phoenicia."
+        "Bỏ so sánh dễ học hơn hẳn mọi chữ tượng hình; thay fun fact trùng với bài Phoenicia.",
+        "Biên tập lại giọng kể: nối sự việc với ý nghĩa cụ thể, giảm lời hướng dẫn kiểm chứng trong phần đọc; giữ bất định cần thiết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -1682,14 +1738,15 @@
           "scope": "Chữ cái xuất hiện trước Phoenicia; truyền sang Hy Lạp, Etrusca và La Mã; tên alpha, beta."
         }
       ],
-      "snapshotSHA256": "9815940039e741b4f3163da21c871acc007577c9baf84d9d5f7b1f9cfee767c5"
+      "snapshotSHA256": "701bf619a30bf1d2c75500b2e9325bbed3086d7db91bba1b73088308f450ebc7"
     },
     {
       "id": "eu-p-hy-lap",
       "reviewedAt": "2026-11-04",
-      "batch": "iron-audit-1",
+      "batch": "narrative-audit-1",
       "decisions": [
-        "Đổi khung để bao gồm giai đoạn Hellenistic; không coi đây là thời gian của một quốc gia Hy Lạp thống nhất."
+        "Đổi khung để bao gồm giai đoạn Hellenistic; không coi đây là thời gian của một quốc gia Hy Lạp thống nhất.",
+        "Biên tập lại giọng kể: nối sự việc với ý nghĩa cụ thể, giảm lời hướng dẫn kiểm chứng trong phần đọc; giữ bất định cần thiết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -1712,14 +1769,15 @@
           "scope": "Khung 323–31 TCN, các vương quốc và sự tiếp tục nghệ thuật Hy Lạp dưới La Mã."
         }
       ],
-      "snapshotSHA256": "632098791a03c9de6d2a47ba54122003135378355fed367087f31ff75f2afb17"
+      "snapshotSHA256": "b444e8815650dc4e1247903379b927d419b49550da04234148180cce2f473dee"
     },
     {
       "id": "cn-dong-chu-xuan-thu-770tcn",
       "reviewedAt": "2026-11-04",
-      "batch": "iron-audit-1",
+      "batch": "narrative-audit-1",
       "decisions": [
-        "Bỏ chuyện Bao Tự như lời giải thích lịch sử đã chứng minh; không đặt Lão Tử và Tôn Tử vào niên đại chắc chắn."
+        "Bỏ chuyện Bao Tự như lời giải thích lịch sử đã chứng minh; không đặt Lão Tử và Tôn Tử vào niên đại chắc chắn.",
+        "Biên tập lại giọng kể: nối sự việc với ý nghĩa cụ thể, giảm lời hướng dẫn kiểm chứng trong phần đọc; giữ bất định cần thiết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -1739,14 +1797,15 @@
           "scope": "Khung Tây Chu 1046–771 TCN, Đông Chu từ 770 TCN; chuyển đô và cạnh tranh giữa các nước."
         }
       ],
-      "snapshotSHA256": "3fdff9854079a0d0b85b6aab9ef497dd48580ac8ff56fc1a6c26245a492f00b2"
+      "snapshotSHA256": "53cd1791b0d77e21ab78a67549c8db33b3c6fe709c1a148991e93c578136a55f"
     },
     {
       "id": "cn-p-xuan-thu",
       "reviewedAt": "2026-11-04",
-      "batch": "iron-audit-1",
+      "batch": "narrative-audit-1",
       "decisions": [
-        "Bỏ danh sách nhân vật có niên đại chưa chắc chắn và số lượng nước chưa đối chiếu."
+        "Bỏ danh sách nhân vật có niên đại chưa chắc chắn và số lượng nước chưa đối chiếu.",
+        "Biên tập lại giọng kể: nối sự việc với ý nghĩa cụ thể, giảm lời hướng dẫn kiểm chứng trong phần đọc; giữ bất định cần thiết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -1764,14 +1823,15 @@
           "scope": "Khung Tây Chu 1046–771 TCN, Đông Chu từ 770 TCN; chuyển đô và cạnh tranh giữa các nước."
         }
       ],
-      "snapshotSHA256": "17e0cac99ee7c336e85d5d2310eb530f11d84d47b61facd9885dec7e97d754dc"
+      "snapshotSHA256": "2ea387d314c8802646a6477d50037ba5af6512f8aac7bd37682a47d31d0c42b2"
     },
     {
       "id": "eu-rome-753tcn",
       "reviewedAt": "2026-11-04",
-      "batch": "iron-audit-1",
+      "batch": "narrative-audit-1",
       "decisions": [
-        "Bỏ so sánh song song với một năm lập Văn Lang và chi tiết khảo cổ chưa có nguồn ngay trong bài."
+        "Bỏ so sánh song song với một năm lập Văn Lang và chi tiết khảo cổ chưa có nguồn ngay trong bài.",
+        "Biên tập lại giọng kể: nối sự việc với ý nghĩa cụ thể, giảm lời hướng dẫn kiểm chứng trong phần đọc; giữ bất định cần thiết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -1793,14 +1853,15 @@
           "scope": "Ngày lập thành 21/4/753 TCN theo truyền thống; thành phố và lịch sử lâu dài."
         }
       ],
-      "snapshotSHA256": "1a1a31be076170c22c99a52eba92b0324df5535e214a5d2c12a5c2b04d4b5073"
+      "snapshotSHA256": "097291c977fc6206c7becdd66a5d00908a40e87ac5b86b2f8d90f9d796edfa14"
     },
     {
       "id": "eu-homer-750tcn",
       "reviewedAt": "2026-11-04",
-      "batch": "iron-audit-1",
+      "batch": "narrative-audit-1",
       "decisions": [
-        "Bỏ nhãn cổ nhất châu Âu và mô tả sai Iliad bao gồm những ngày kết thúc chiến tranh."
+        "Bỏ nhãn cổ nhất châu Âu và mô tả sai Iliad bao gồm những ngày kết thúc chiến tranh.",
+        "Biên tập lại giọng kể: nối sự việc với ý nghĩa cụ thể, giảm lời hướng dẫn kiểm chứng trong phần đọc; giữ bất định cần thiết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -1821,14 +1882,15 @@
           "scope": "Truyền miệng, khung thế kỷ VIII–VII TCN, ghi chép và những mảnh giấy cói còn lại."
         }
       ],
-      "snapshotSHA256": "31387e6ed34f70051710eaf363d2849b1f0f3dfda684f37686d6dd52f3b4a6e7"
+      "snapshotSHA256": "ec27e43d22973707a2c6dc25e6c0679fa523caf2077cd67d716abb9138d33715"
     },
     {
       "id": "vn-dong-son-700tcn",
       "reviewedAt": "2026-11-04",
-      "batch": "iron-audit-1",
+      "batch": "narrative-audit-1",
       "decisions": [
-        "Bỏ nhãn đỉnh cao thời dựng nước như kết luận bao trùm; không định danh loài chim từ tên gọi biểu tượng chim Lạc."
+        "Bỏ nhãn đỉnh cao thời dựng nước như kết luận bao trùm; không định danh loài chim từ tên gọi biểu tượng chim Lạc.",
+        "Biên tập lại giọng kể: nối sự việc với ý nghĩa cụ thể, giảm lời hướng dẫn kiểm chứng trong phần đọc; giữ bất định cần thiết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -1855,14 +1917,15 @@
           "scope": "Trống Ngọc Lũ: trang trí 14 tia, cảnh sinh hoạt; phát hiện khoảng 1893–1894 rồi được giữ ở đình làng."
         }
       ],
-      "snapshotSHA256": "dc231ad39a742dd8cf4188d9d11b1f77630a5af56266941a8527e2146403a40a"
+      "snapshotSHA256": "0281d448f3f81f55ee1273a6354493b25c5954a159d1380719ed86aa389cb8b2"
     },
     {
       "id": "wa-thu-vien-ashurbanipal-669tcn",
       "reviewedAt": "2026-11-04",
-      "batch": "iron-audit-1",
+      "batch": "narrative-audit-1",
       "decisions": [
-        "Bỏ câu lửa bảo quản mọi bảng đất sét và danh hiệu thư viện đầu tiên; phân biệt bảng với mảnh."
+        "Bỏ câu lửa bảo quản mọi bảng đất sét và danh hiệu thư viện đầu tiên; phân biệt bảng với mảnh.",
+        "Biên tập lại giọng kể: nối sự việc với ý nghĩa cụ thể, giảm lời hướng dẫn kiểm chứng trong phần đọc; giữ bất định cần thiết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -1895,14 +1958,15 @@
           "scope": "Mốc bắt đầu trị vì Ashurbanipal khoảng 668 TCN, dùng để đặt bài."
         }
       ],
-      "snapshotSHA256": "759384c504d3da84af99b26e3c36db09f64aa31fe660f279adfca8b9db740e8e"
+      "snapshotSHA256": "a05caaf4928869e2921ba83ba6e141de399065cde205ac513f4eeb4841195663"
     },
     {
       "id": "wa-p-tan-babylon",
       "reviewedAt": "2026-11-04",
-      "batch": "iron-audit-1",
+      "batch": "narrative-audit-1",
       "decisions": [
-        "Sửa năm khởi đầu từ 612 sang 626 TCN."
+        "Sửa năm khởi đầu từ 612 sang 626 TCN.",
+        "Biên tập lại giọng kể: nối sự việc với ý nghĩa cụ thể, giảm lời hướng dẫn kiểm chứng trong phần đọc; giữ bất định cần thiết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -1920,14 +1984,15 @@
           "scope": "Khung Tân Babylon 626–539 TCN, di tích và nhiều lớp lịch sử đô thị."
         }
       ],
-      "snapshotSHA256": "08b5bffa3330c7a08d0f83d5759bb57588d66785ee4338cc709fd12d2ba44ada"
+      "snapshotSHA256": "03d9312371f759791e96b187601fcf79ab1828d28f3f2280acbd6d4448a218d0"
     },
     {
       "id": "wa-np-nebuchadnezzar-ii",
       "reviewedAt": "2026-11-04",
-      "batch": "iron-audit-1",
+      "batch": "narrative-audit-1",
       "decisions": [
-        "Bỏ năm sinh 642 TCN chưa được xác minh và mốc xây cổng 575 TCN; không suy tuổi từ thời trị vì."
+        "Bỏ năm sinh 642 TCN chưa được xác minh và mốc xây cổng 575 TCN; không suy tuổi từ thời trị vì.",
+        "Biên tập lại giọng kể: nối sự việc với ý nghĩa cụ thể, giảm lời hướng dẫn kiểm chứng trong phần đọc; giữ bất định cần thiết."
       ],
       "uncertainties": [
         "Khung trị vì có cách ghi 605 hoặc 604 TCN giữa các nguồn; chọn rõ hệ dùng cho hiện vật, không coi năm sinh."
@@ -1959,14 +2024,15 @@
           "scope": "Khung 604–562 TCN; văn bản xây thành, trụ đặt trong nền và dấu trên gạch."
         }
       ],
-      "snapshotSHA256": "7b98052f1d922937e6f745cb674917de39d5af465c7d91c7a327fd2f63322188"
+      "snapshotSHA256": "0ef4c57f9ef8ca9aeb9a314ee57184ae78bf5165b82407f77fda5ad2ae61b10b"
     },
     {
       "id": "wa-babylon-nebuchadnezzar-605tcn",
       "reviewedAt": "2026-11-04",
-      "batch": "iron-audit-1",
+      "batch": "narrative-audit-1",
       "decisions": [
-        "Bỏ thứ hạng đô thị lớn nhất, niên đại hủy Jerusalem và giả thuyết vườn treo chưa đối chiếu trong mục này."
+        "Bỏ thứ hạng đô thị lớn nhất, niên đại hủy Jerusalem và giả thuyết vườn treo chưa đối chiếu trong mục này.",
+        "Biên tập lại giọng kể: nối sự việc với ý nghĩa cụ thể, giảm lời hướng dẫn kiểm chứng trong phần đọc; giữ bất định cần thiết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -1994,14 +2060,15 @@
           "scope": "Khung Tân Babylon 626–539 TCN, di tích và nhiều lớp lịch sử đô thị."
         }
       ],
-      "snapshotSHA256": "44aae5af0ea66f44b8a31eef9cd6a94585b28ea2ede2678ae0c49d443320ac92"
+      "snapshotSHA256": "bb8ecadaf7fc033cc2f4a6f8737fd130e79fc84b90b2c095d5e6888376bec171"
     },
     {
       "id": "sa-p-muoi-sau-tieu-quoc",
       "reviewedAt": "2026-11-04",
-      "batch": "classical-audit-1",
+      "batch": "narrative-audit-1",
       "decisions": [
-        "Không xem danh sách văn bản là một bản đồ cố định tồn tại suốt ba thế kỷ."
+        "Không xem danh sách văn bản là một bản đồ cố định tồn tại suốt ba thế kỷ.",
+        "Biên tập lại giọng kể: nối sự việc với ý nghĩa cụ thể, giảm lời hướng dẫn kiểm chứng trong phần đọc; giữ bất định cần thiết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -2019,14 +2086,15 @@
           "scope": "Danh sách trong văn bản Phật giáo, Jain; các nhà nước khoảng thế kỷ VI TCN và sự lớn mạnh của Magadha."
         }
       ],
-      "snapshotSHA256": "f1eaef0f4a6054120d728a42f98d2ef484e4c6ba17f7508701cc7619f523ed54"
+      "snapshotSHA256": "eb931c6502effcb1ac29580516ac35c97ff3fed3d02ab4f8ac064d07dee71755"
     },
     {
       "id": "wa-tien-xu-lydia-600tcn",
       "reviewedAt": "2026-11-04",
-      "batch": "classical-audit-1",
+      "batch": "narrative-audit-1",
       "decisions": [
-        "Bỏ mô hình trước tiền xu chỉ có đổi hàng, dấu tiền khiến không bao giờ cần cân và so sánh tiền đầu tiên Việt Nam chưa đối chiếu tại mục."
+        "Bỏ mô hình trước tiền xu chỉ có đổi hàng, dấu tiền khiến không bao giờ cần cân và so sánh tiền đầu tiên Việt Nam chưa đối chiếu tại mục.",
+        "Biên tập lại giọng kể: nối sự việc với ý nghĩa cụ thể, giảm lời hướng dẫn kiểm chứng trong phần đọc; giữ bất định cần thiết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -2052,14 +2120,15 @@
           "scope": "Nguồn gốc và niên đại tiền sớm còn nhiều điểm chưa rõ; không phải mọi xưởng đều được xác định."
         }
       ],
-      "snapshotSHA256": "68d9efa6156511b184b610bf93394d790dd748d8f621629b61df682b21003c6c"
+      "snapshotSHA256": "8a127e9d6fa70345a81cee6f2cc64e714fb2cb7cbf8c86345ad21ea896e59e59"
     },
     {
       "id": "eu-np-pythagoras",
       "reviewedAt": "2026-11-04",
-      "batch": "classical-audit-1",
+      "batch": "narrative-audit-1",
       "decisions": [
-        "Sửa mốc mất 495 thành khoảng 490 TCN theo nguồn; không trình bày mọi phát hiện của trường phái là thành tựu cá nhân."
+        "Sửa mốc mất 495 thành khoảng 490 TCN theo nguồn; không trình bày mọi phát hiện của trường phái là thành tựu cá nhân.",
+        "Biên tập lại giọng kể: nối sự việc với ý nghĩa cụ thể, giảm lời hướng dẫn kiểm chứng trong phần đọc; giữ bất định cần thiết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -2083,14 +2152,15 @@
           "scope": "Khoảng 570–490 TCN; Croton khoảng 530; tư liệu muộn, sách gán tên và giới hạn quy định lý cho cá nhân ông."
         }
       ],
-      "snapshotSHA256": "bc0b2bcc127a0ab6107de88e91a89d787fb7f5eb7b6fd2d3ac030ed79d139759"
+      "snapshotSHA256": "c054b3aff4084a91361ca52805ffaa9ccd4af1b3894d2dfe2e5e5c2838fdb919"
     },
     {
       "id": "eu-pythagoras-530tcn",
       "reviewedAt": "2026-11-04",
-      "batch": "classical-audit-1",
+      "batch": "narrative-audit-1",
       "decisions": [
-        "Bỏ câu người Trung Quốc đã biết từ trước Pythagoras khi chưa đối chiếu niên đại; không coi chuyện cấm đậu là trọng tâm trường phái."
+        "Bỏ câu người Trung Quốc đã biết từ trước Pythagoras khi chưa đối chiếu niên đại; không coi chuyện cấm đậu là trọng tâm trường phái.",
+        "Biên tập lại giọng kể: nối sự việc với ý nghĩa cụ thể, giảm lời hướng dẫn kiểm chứng trong phần đọc; giữ bất định cần thiết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -2113,14 +2183,15 @@
           "scope": "Khoảng 570–490 TCN; Croton khoảng 530; tư liệu muộn, sách gán tên và giới hạn quy định lý cho cá nhân ông."
         }
       ],
-      "snapshotSHA256": "d60e8a94d405682dbb6de5e7c0e81ed6756774edd688e5bf4ebc2ae45f2cca16"
+      "snapshotSHA256": "605708bfca1b4fb0ac2362617bab5408a7a59cc26a1d378113f69c6a876f112d"
     },
     {
       "id": "cn-np-khong-tu",
       "reviewedAt": "2026-11-04",
-      "batch": "classical-audit-1",
+      "batch": "narrative-audit-1",
       "decisions": [
-        "Bỏ mốc chu du chính xác và số học trò chưa phân biệt nguồn; ghi rõ tính truyền thống của năm sinh, mất."
+        "Bỏ mốc chu du chính xác và số học trò chưa phân biệt nguồn; ghi rõ tính truyền thống của năm sinh, mất.",
+        "Biên tập lại giọng kể: nối sự việc với ý nghĩa cụ thể, giảm lời hướng dẫn kiểm chứng trong phần đọc; giữ bất định cần thiết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -2145,14 +2216,15 @@
           "scope": "Niên đại truyền thống, các lớp tiểu sử và văn bản, nội dung lễ, nhân, giáo dục và nguyên tắc ứng xử."
         }
       ],
-      "snapshotSHA256": "8bfc9fa2e986aaa695ef7adc5e3b105e3b934b43c589d65a4dd37edb53a05277"
+      "snapshotSHA256": "edecf77e6274b7a5d339426a5089a93bc0289a94e4789f5eee03dfb06c70ff82"
     },
     {
       "id": "cn-khong-tu-551tcn",
       "reviewedAt": "2026-11-04",
-      "batch": "classical-audit-1",
+      "batch": "narrative-audit-1",
       "decisions": [
-        "Bỏ khẳng định Nho giáo chính thống đồng nhất ở bốn nước suốt hai nghìn năm và xếp hạng ảnh hưởng cá nhân."
+        "Bỏ khẳng định Nho giáo chính thống đồng nhất ở bốn nước suốt hai nghìn năm và xếp hạng ảnh hưởng cá nhân.",
+        "Biên tập lại giọng kể: nối sự việc với ý nghĩa cụ thể, giảm lời hướng dẫn kiểm chứng trong phần đọc; giữ bất định cần thiết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -2175,14 +2247,15 @@
           "scope": "Niên đại truyền thống, các lớp tiểu sử và văn bản, nội dung lễ, nhân, giáo dục và nguyên tắc ứng xử."
         }
       ],
-      "snapshotSHA256": "5170152a1f0098e2a4f7e136d17abda1c14152513e6beb1dec2da8d79720970f"
+      "snapshotSHA256": "6eb7d2e4920bdd7309b9c39c9ba6faff2aa55819ec42b851c5597b44deaebf2a"
     },
     {
       "id": "sa-np-duc-phat",
       "reviewedAt": "2026-11-04",
-      "batch": "classical-audit-1",
+      "batch": "narrative-audit-1",
       "decisions": [
-        "Bỏ so tuổi với Khổng Tử và tính tuổi tự động từ một hệ niên đại; giữ nhãn minh bạch cho khoảng tham chiếu."
+        "Bỏ so tuổi với Khổng Tử và tính tuổi tự động từ một hệ niên đại; giữ nhãn minh bạch cho khoảng tham chiếu.",
+        "Biên tập lại giọng kể: nối sự việc với ý nghĩa cụ thể, giảm lời hướng dẫn kiểm chứng trong phần đọc; giữ bất định cần thiết."
       ],
       "uncertainties": [
         "Các truyền thống và công trình nghiên cứu dùng những hệ niên đại khác nhau."
@@ -2218,16 +2291,22 @@
           "url": "https://www.un.org/en/observances/vesak-day",
           "title": "Liên Hợp Quốc — Ngày Vesak",
           "scope": "Vesak và nghị quyết 54/115 năm 1999."
+        },
+        {
+          "url": "https://www.columbia.edu/cu/weai/exeas/resources/foundations-text-1.html",
+          "title": "John M. Koller, Columbia ExEAS — Phật giáo: hình thành và chuyển biến",
+          "scope": "Hệ niên đại 563–483 TCN, mốc thành đạo 528 TCN và lời giảng ở Sarnath; tài liệu cũng nêu bất đồng niên đại."
         }
       ],
-      "snapshotSHA256": "10fff3ad1d9d91b766886157ecf4aa56afc0561d1d000e596e01672dcd57fb87"
+      "snapshotSHA256": "bf00f01d8099e45e1efe665e380c2e8eae07ec96732774aec56c5c8e09f9badb"
     },
     {
       "id": "sa-duc-phat-563tcn",
       "reviewedAt": "2026-11-04",
-      "batch": "classical-audit-1",
+      "batch": "narrative-audit-1",
       "decisions": [
-        "Bỏ cách kể rời ngai vàng như sự kiện đã chứng minh và khẳng định niên đại truyền bá Phật giáo Việt Nam chưa đối chiếu riêng."
+        "Bỏ cách kể rời ngai vàng như sự kiện đã chứng minh và khẳng định niên đại truyền bá Phật giáo Việt Nam chưa đối chiếu riêng.",
+        "Biên tập lại giọng kể: nối sự việc với ý nghĩa cụ thể, giảm lời hướng dẫn kiểm chứng trong phần đọc; giữ bất định cần thiết."
       ],
       "uncertainties": [
         "Giữ năm tham chiếu để bảo toàn đường dẫn, nhưng nêu rõ không có đồng thuận về niên đại."
@@ -2255,16 +2334,32 @@
           "url": "https://www.open.edu/openlearn/history-the-arts/culture/religious-studies/the-dates-the-buddha",
           "title": "Open University — Các hệ niên đại Đức Phật",
           "scope": "Nhiều niên đại truyền thống và những cách tính lại; không có một cặp năm được mọi giới chấp nhận."
+        },
+        {
+          "url": "https://www.columbia.edu/cu/weai/exeas/resources/foundations-text-1.html",
+          "title": "John M. Koller, Columbia ExEAS — Phật giáo: hình thành và chuyển biến",
+          "scope": "Hệ niên đại 563–483 TCN, mốc thành đạo 528 TCN và lời giảng ở Sarnath; tài liệu cũng nêu bất đồng niên đại."
+        },
+        {
+          "url": "https://whc.unesco.org/en/list/666/",
+          "title": "UNESCO — Lumbini",
+          "scope": "Địa điểm Lumbini gắn với nơi sinh; không dùng năm sinh 623 TCN của hồ sơ như đồng thuận lịch sử."
+        },
+        {
+          "url": "https://whc.unesco.org/en/list/1056/",
+          "title": "UNESCO — Mahabodhi, Bodh Gaya",
+          "scope": "Địa điểm gắn với truyền thống thành đạo."
         }
       ],
-      "snapshotSHA256": "d91aa2424c209c2e142ede476ff5e13020495da4b5a811fdd5d0b07d7a1fd18d"
+      "snapshotSHA256": "7a0366e70ba4b365d7e7ff170fe56260c9b8c37b90a689bf88af5ccee98e5469"
     },
     {
       "id": "sa-mahavira-dao-jain-540tcn",
       "reviewedAt": "2026-11-04",
-      "batch": "classical-audit-1",
+      "batch": "narrative-audit-1",
       "decisions": [
-        "Bỏ mô tả mọi tín đồ đều thực hành giống nhau và chuỗi ảnh hưởng đến Gandhi chưa đối chiếu ở mục này."
+        "Bỏ mô tả mọi tín đồ đều thực hành giống nhau và chuỗi ảnh hưởng đến Gandhi chưa đối chiếu ở mục này.",
+        "Biên tập lại giọng kể: nối sự việc với ý nghĩa cụ thể, giảm lời hướng dẫn kiểm chứng trong phần đọc; giữ bất định cần thiết."
       ],
       "uncertainties": [
         "Niên đại tiểu sử khác nhau giữa truyền thống và nghiên cứu."
@@ -2293,14 +2388,15 @@
           "scope": "Phân biệt niên đại truyền thống Shvetambara 599–527 TCN với các cách đặt niên đại khác."
         }
       ],
-      "snapshotSHA256": "f2650173aa787fc030ce7d5ee080c129058e88d4f813603c67e43f6d9c03da3e"
+      "snapshotSHA256": "fba7f9852ed28301307709799fc87e802b8cbc606a4de8dc4070abef8f4322b0"
     },
     {
       "id": "wa-np-cyrus",
       "reviewedAt": "2026-11-04",
-      "batch": "classical-audit-1",
+      "batch": "narrative-audit-1",
       "decisions": [
-        "Thay năm sinh ước đoán bằng khung trị vì; bỏ khẳng định khoan dung đồng đều mọi nơi, số tuổi Khổng Tử và giai thoại Alexander chưa đối chiếu riêng."
+        "Thay năm sinh ước đoán bằng khung trị vì; bỏ khẳng định khoan dung đồng đều mọi nơi, số tuổi Khổng Tử và giai thoại Alexander chưa đối chiếu riêng.",
+        "Biên tập lại giọng kể: nối sự việc với ý nghĩa cụ thể, giảm lời hướng dẫn kiểm chứng trong phần đọc; giữ bất định cần thiết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -2330,14 +2426,15 @@
           "scope": "Trụ Cyrus, tự trình bày quyền vua, sự tiếp nhận trong Xenophon và giới hạn gọi là hiến chương nhân quyền."
         }
       ],
-      "snapshotSHA256": "c4defcb82d578160e6445df0d3fba34abb897e30fa9bbf5bc2b944d4b62d7926"
+      "snapshotSHA256": "e26e4d04f64ed725ec18c6ee8c6e648d4425a047228cf5acbcefb7b703943744"
     },
     {
       "id": "wa-cyrus-lap-ba-tu-550tcn",
       "reviewedAt": "2026-11-04",
-      "batch": "classical-audit-1",
+      "batch": "narrative-audit-1",
       "decisions": [
-        "Bỏ nhãn nhân quyền đầu tiên như sự thật và không coi văn bản tự ca ngợi là đánh giá trung lập mọi hành động của Cyrus."
+        "Bỏ nhãn nhân quyền đầu tiên như sự thật và không coi văn bản tự ca ngợi là đánh giá trung lập mọi hành động của Cyrus.",
+        "Biên tập lại giọng kể: nối sự việc với ý nghĩa cụ thể, giảm lời hướng dẫn kiểm chứng trong phần đọc; giữ bất định cần thiết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -2362,14 +2459,15 @@
           "scope": "Trụ Cyrus, tự trình bày quyền vua, sự tiếp nhận trong Xenophon và giới hạn gọi là hiến chương nhân quyền."
         }
       ],
-      "snapshotSHA256": "fb2089b738552f45a51e10682b8870dd5eff1d91a1217d83bef0b283df3b1e21"
+      "snapshotSHA256": "25c7371b512779d102eba062e0115aa57e372c987266b6927c0111a0155af400"
     },
     {
       "id": "wa-p-achaemenes",
       "reviewedAt": "2026-11-04",
-      "batch": "classical-audit-1",
+      "batch": "narrative-audit-1",
       "decisions": [
-        "Sửa mốc đầu 539 sang 550 TCN để thống nhất với bài Cyrus."
+        "Sửa mốc đầu 539 sang 550 TCN để thống nhất với bài Cyrus.",
+        "Biên tập lại giọng kể: nối sự việc với ý nghĩa cụ thể, giảm lời hướng dẫn kiểm chứng trong phần đọc; giữ bất định cần thiết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -2387,14 +2485,15 @@
           "scope": "Cyrus 559–530, thắng Media năm 550, Babylon 539; Darius 522–486, cơ cấu và xây dựng."
         }
       ],
-      "snapshotSHA256": "7a8edef06488ce40ee1d8c0e43ec63f47b1581402cbd7710f47d5df93ea98c77"
+      "snapshotSHA256": "cdd4bd973aa16c6663d9ade04d9fdd2a4ae97a9054c135aa25d8491810e08c0d"
     },
     {
       "id": "wa-np-darius-i",
       "reviewedAt": "2026-11-04",
-      "batch": "classical-audit-1",
+      "batch": "narrative-audit-1",
       "decisions": [
-        "Bỏ năm sinh khoảng 550 chưa được nguồn hiện tại xác minh; dùng thời trị vì và không suy tuổi."
+        "Bỏ năm sinh khoảng 550 chưa được nguồn hiện tại xác minh; dùng thời trị vì và không suy tuổi.",
+        "Biên tập lại giọng kể: nối sự việc với ý nghĩa cụ thể, giảm lời hướng dẫn kiểm chứng trong phần đọc; giữ bất định cần thiết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -2429,14 +2528,15 @@
           "scope": "Phù điêu, văn khắc ba ngôn ngữ của Darius và vai trò trong giải mã chữ hình nêm."
         }
       ],
-      "snapshotSHA256": "1da2dacc5e8a89aa30909fc48ffb479af0860ce04b217655be0db5724c369f62"
+      "snapshotSHA256": "2eed32438a941c24f707274fe4388d4e2d0cdbaba538cb30129208cfc609d1c6"
     },
     {
       "id": "wa-darius-con-duong-hoang-gia-522tcn",
       "reviewedAt": "2026-11-04",
-      "batch": "classical-audit-1",
+      "batch": "narrative-audit-1",
       "decisions": [
-        "Bỏ khẳng định thư đi đúng một tuần, đường do Darius tạo hoàn toàn và tiền tệ thống nhất mọi vùng."
+        "Bỏ khẳng định thư đi đúng một tuần, đường do Darius tạo hoàn toàn và tiền tệ thống nhất mọi vùng.",
+        "Biên tập lại giọng kể: nối sự việc với ý nghĩa cụ thể, giảm lời hướng dẫn kiểm chứng trong phần đọc; giữ bất định cần thiết."
       ],
       "uncertainties": [],
       "fieldsReviewed": [
@@ -2464,7 +2564,7 @@
           "scope": "Chữ trên bưu điện Farley, nguồn Herodotus và việc USPS không có khẩu hiệu chính thức."
         }
       ],
-      "snapshotSHA256": "126f49e2b9d06eb64e8fefd389faf58024cc44b8e0c04308f8b5b4028997a6f9"
+      "snapshotSHA256": "270490811158c8b9ea04ad2fb8d3b4fc47bd13ee26120e1c762aa196cf9fccc9"
     }
   ],
   "updatedAt": "2026-11-04"
