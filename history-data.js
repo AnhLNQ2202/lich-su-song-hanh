@@ -4,8 +4,28 @@ const RELATION_NAMES = {background:'Bối cảnh', consequence:'Hệ quả', con
 TL_DATA.push({
   lane: 'vn',
   periods: [
-    { id: 'vn-p-van-lang', s: -700, e: -208, g: 'a', t: 'Nước Văn Lang',
-      d: 'Nhà nước đầu tiên của người Việt do các vua Hùng đứng đầu, kinh đô ở Phong Châu (Phú Thọ). Cư dân trồng lúa nước, đúc trống đồng, cả nước chia làm 15 bộ.' },
+    {
+  "id": "vn-p-van-lang",
+  "s": -700,
+  "e": -208,
+  "g": "a",
+  "t": "Nước Văn Lang",
+  "d": "Nhà nước gắn với thời Hùng Vương trong truyền thống sử Việt. Khoảng thế kỷ VII TCN là mốc tham chiếu cho quá trình hình thành; các mốc đầu và cuối trên timeline là xấp xỉ. Cần phân biệt chứng cứ khảo cổ Đông Sơn với những mô tả về tổ chức nhà nước được thư tịch ghi chép muộn hơn.",
+  "ref": "https://baotanglichsu.vn/vi/Articles/3096/10144/ve-cac-nha-nuoc-so-khai-o-mien-bac-viet-nam.html",
+  "refs": [
+    {
+      "url": "https://baotanglichsu.vn/vi/Articles/3096/10144/ve-cac-nha-nuoc-so-khai-o-mien-bac-viet-nam.html",
+      "title": "Bảo tàng Lịch sử Quốc gia — Các nhà nước sơ khai ở miền Bắc",
+      "scope": "Bằng chứng khảo cổ, truyền thống văn bản và quá trình nhà nước sơ khai."
+    },
+    {
+      "url": "https://baotanglichsu.vn/vi/Articles/2001/65120/co-bao-nhieu-djoi-vua-hung.html",
+      "title": "Bảo tàng Lịch sử Quốc gia — Có bao nhiêu đời vua Hùng?",
+      "scope": "Mốc khoảng thế kỷ VII TCN và giới hạn diễn giải niên đại truyền thống."
+    }
+  ],
+  "ca": true
+},
     { id: 'vn-p-au-lac', s: -208, e: -179, g: 'a', t: 'Nước Âu Lạc',
       d: 'Thục Phán (An Dương Vương) hợp nhất người Lạc Việt và Âu Việt, đóng đô ở Cổ Loa, xây thành nhiều vòng và chế nỏ bắn được nhiều mũi tên một lúc.' },
     { id: 'vn-p-bac-thuoc-1', s: -179, e: 40, g: 'a', t: 'Bắc thuộc lần thứ nhất',
@@ -50,19 +70,87 @@ TL_DATA.push({
       d: 'Vương quốc của người Chăm ở miền Trung, ra đời từ nước Lâm Ấp. Người Chăm giỏi đi biển, theo Ấn Độ giáo và Phật giáo, để lại những ngọn tháp gạch tuyệt đẹp như ở Mỹ Sơn.' }
   ],
   events: [
-    { id: 'vn-tien-su-3500tcn', y: -3500, ca: true, date: 'Hàng chục vạn năm trước', t: 'Người xưa trên đất Việt Nam', c: 'cul', imp: 2,
-      place: 'Núi Đọ (Thanh Hoá), Sơn Vi (Phú Thọ), Hoà Bình, Bắc Sơn (Lạng Sơn)',
-      d: 'Từ hàng chục vạn năm trước, người tối cổ đã sống ở núi Đọ (Thanh Hoá) và nhiều hang động miền Bắc, ghè đẽo đá làm công cụ. Qua các văn hoá Sơn Vi, Hoà Bình, Bắc Sơn, con người dần biết mài rìu đá, làm đồ gốm và trồng trọt sơ khai. Mốc 3500 TCN trên trục này chỉ là điểm bắt đầu quy ước của trang.',
-      why: 'Cho thấy đất Việt Nam là một trong những cái nôi của loài người ở Đông Nam Á, có người sinh sống liên tục từ rất sớm.',
-      fun: 'Văn hoá Hoà Bình nổi tiếng đến mức giới khảo cổ thế giới dùng luôn tên “Hoabinhian” để gọi cả một nền văn hoá trải rộng khắp Đông Nam Á.' },
-    { id: 'vn-hong-bang-2879tcn', y: -2879, ca: true, date: 'Năm 2879 TCN (theo truyền thuyết)', t: 'Lạc Long Quân, Âu Cơ và bọc trăm trứng', c: 'cul', imp: 2,
-      d: 'Theo truyền thuyết, Kinh Dương Vương lập nước Xích Quỷ năm 2879 TCN. Con ông là Lạc Long Quân (giống Rồng) lấy Âu Cơ (giống Tiên), sinh ra một bọc trăm trứng nở thành trăm người con: năm mươi người theo cha xuống biển, năm mươi người theo mẹ lên núi; người con trưởng lên làm vua Hùng.',
-      why: 'Câu chuyện “con Rồng cháu Tiên” và hai tiếng “đồng bào” (cùng một bọc) thể hiện ý thức chung một cội nguồn của người Việt.',
-      alt: 'Đây là truyền thuyết chứ không phải niên đại khảo cổ, nhưng chuyện chia con “nửa lên núi, nửa xuống biển” lại tả khá đúng địa lý Việt Nam: một bên rừng núi, một bên bờ biển dài.' },
-    { id: 'vn-phung-nguyen-2000tcn', y: -2000, y2: -1500, ca: true, date: 'Khoảng 2000–1500 TCN', t: 'Văn hoá Phùng Nguyên', c: 'cul', imp: 1,
-      place: 'Trung du và đồng bằng Bắc Bộ',
-      d: 'Ở vùng trung du và đồng bằng Bắc Bộ (tiêu biểu là di chỉ Phùng Nguyên, Phú Thọ), cư dân đã làm gốm có hoa văn đẹp, mài vòng trang sức bằng đá rất khéo và bắt đầu biết đến kim loại đồng. Họ trồng lúa nước, sống thành làng ven sông.',
-      why: 'Mở đầu thời đại kim khí ở miền Bắc, là gốc rễ trực tiếp của văn hoá Đông Sơn và nhà nước Văn Lang sau này.' },
+    {
+  "id": "vn-tien-su-3500tcn",
+  "y": -3500,
+  "ca": true,
+  "date": "Tiền sử; mốc 3500 TCN chỉ để mở timeline",
+  "t": "Dấu tích người tiền sử trên đất Việt Nam",
+  "c": "cul",
+  "imp": 2,
+  "place": "Tràng An, Ninh Bình",
+  "d": "Tại Tràng An, Ninh Bình, các lớp khảo cổ lưu giữ dấu vết con người sử dụng cảnh quan qua hơn 30.000 năm. Cư dân săn bắt, hái lượm đã thích nghi với những đợt thay đổi môi trường, trong đó có biển tiến. Mốc 3500 TCN chỉ là điểm đặt bài mở đầu trên timeline của trang, không phải năm con người bắt đầu sống ở Việt Nam.",
+  "fun": "Một địa điểm có dấu tích qua nhiều thời kỳ không có nghĩa một cộng đồng đã ở nguyên trong cùng một hang suốt hàng chục nghìn năm. Các lớp khảo cổ cần được đọc theo từng giai đoạn.",
+  "consequencesTitle": "Môi trường thay đổi, cách sống cũng thay đổi",
+  "consequences": "Chuỗi di tích cho phép theo dõi cách con người sử dụng hang động và nguồn thức ăn khi cảnh quan chuyển từ đất liền sang ven biển rồi lại thay đổi.",
+  "refs": [
+    {
+      "url": "https://whc.unesco.org/en/list/1438/",
+      "title": "UNESCO — Quần thể danh thắng Tràng An",
+      "scope": "Chuỗi khảo cổ hơn 30.000 năm, hoạt động săn bắt hái lượm và thích nghi với biến đổi môi trường."
+    }
+  ],
+  "ref": "https://whc.unesco.org/en/list/1438/"
+},
+    {
+  "id": "vn-hong-bang-2879tcn",
+  "y": -2879,
+  "ca": true,
+  "date": "2879 TCN trong niên đại truyền thống, không phải mốc khảo cổ",
+  "t": "Lạc Long Quân, Âu Cơ trong truyền thuyết nguồn cội",
+  "c": "cul",
+  "imp": 2,
+  "d": "Truyền thuyết kể Lạc Long Quân và Âu Cơ sinh bọc trăm trứng; những người con chia nhau lên núi và xuống biển. Các bản ghi chép có những khác biệt. Mốc 2879 TCN thuộc hệ niên đại truyền thống về thời Hồng Bàng, không phải năm lập nước được xác nhận bằng khảo cổ.",
+  "consequencesTitle": "Một câu chuyện về nguồn cội được truyền lại",
+  "consequences": "Câu chuyện cần được đọc như truyền thuyết và ký ức văn hóa. Giá trị của nó không phụ thuộc vào việc coi từng chi tiết là sự kiện có niên đại chính xác.",
+  "fun": "Niên đại mà sách kể cho một câu chuyện và thời điểm sách ấy được biên soạn là hai điều khác nhau. Văn bản ghi chép muộn không tự trở thành chứng cứ đương thời.",
+  "refs": [
+    {
+      "url": "https://baotanglichsu.vn/vi/Articles/2001/65123/huyen-thoai-boc-tram-trung-trong-cac-sach-su.html",
+      "title": "Bảo tàng Lịch sử Quốc gia — Huyền thoại bọc trăm trứng",
+      "scope": "Truyền thuyết và các dị bản trong sách sử."
+    },
+    {
+      "url": "https://baotanglichsu.vn/vi/Articles/2001/65120/co-bao-nhieu-djoi-vua-hung.html",
+      "title": "Bảo tàng Lịch sử Quốc gia — Có bao nhiêu đời vua Hùng?",
+      "scope": "Niên đại truyền thống Hồng Bàng và giới hạn khi diễn giải thời Hùng Vương."
+    }
+  ],
+  "ref": "https://baotanglichsu.vn/vi/Articles/2001/65123/huyen-thoai-boc-tram-trung-trong-cac-sach-su.html"
+},
+    {
+  "id": "vn-phung-nguyen-2000tcn",
+  "y": -2000,
+  "y2": -1500,
+  "ca": true,
+  "date": "Khoảng 2000–1500 TCN",
+  "t": "Đồ gốm và kỹ nghệ đá thời Phùng Nguyên",
+  "c": "cul",
+  "imp": 1,
+  "place": "Trung du và đồng bằng Bắc Bộ",
+  "d": "Văn hóa Phùng Nguyên ở miền Bắc Việt Nam thường được đặt vào khoảng 4.000–3.500 năm trước. Đồ gốm và công cụ, đồ trang sức bằng đá cho thấy kỹ năng chế tác của cư dân. Mốc 2000 TCN là mốc xấp xỉ cho bài, không phải năm một nền văn hóa đột ngột xuất hiện.",
+  "consequencesTitle": "Theo dõi biến đổi qua hiện vật",
+  "consequences": "Khi đặt cạnh Đồng Đậu và Gò Mun, hiện vật Phùng Nguyên giúp nghiên cứu những thay đổi kỹ thuật trước văn hóa Đông Sơn. Quan hệ giữa các giai đoạn không tự chứng minh một nhà nước đã ra đời từ đầu chuỗi.",
+  "fun": "Tên văn hóa lấy theo di chỉ Phùng Nguyên ở Phú Thọ, được phát hiện năm 1959. Tên dùng trong khảo cổ bắt nguồn từ nơi tìm thấy hiện vật, không phải tên cư dân xưa tự gọi mình.",
+  "refs": [
+    {
+      "url": "https://baotanglichsu.vn/vi/Articles/4016/cac-van-hoa-tien-djong-son-phung-nguyen-djong-djau-go-mun-khoang-4-000-2-500-nam-cach-ngay-nay",
+      "title": "Bảo tàng Lịch sử Quốc gia — Các văn hóa tiền Đông Sơn",
+      "scope": "Khoảng niên đại, hiện vật đá và chuỗi Phùng Nguyên, Đồng Đậu, Gò Mun."
+    },
+    {
+      "url": "https://baotanglichsu.vn/vi/Articles/3096/7991/cac-nen-van-hoa-thuoc-thoi-djai-hung-vuong.html",
+      "title": "Bảo tàng Lịch sử Quốc gia — Các nền văn hóa thuộc thời đại Hùng Vương",
+      "scope": "Tên di chỉ và phát hiện năm 1959."
+    },
+    {
+      "url": "https://baotanglichsu.vn/vi/Articles/2001/65061/ve-thoi-djiem-lap-quoc-viet-nam.html",
+      "title": "Bảo tàng Lịch sử Quốc gia — Về thời điểm lập quốc Việt Nam",
+      "scope": "Giới hạn khi đồng nhất văn hóa khảo cổ với niên đại ra đời nhà nước."
+    }
+  ],
+  "ref": "https://baotanglichsu.vn/vi/Articles/4016/cac-van-hoa-tien-djong-son-phung-nguyen-djong-djau-go-mun-khoang-4-000-2-500-nam-cach-ngay-nay"
+},
     { id: 'vn-dong-dau-go-mun-1500tcn', y: -1500, y2: -700, ca: true, date: 'Khoảng 1500–700 TCN', t: 'Đồng Đậu, Gò Mun: thời đồ đồng', c: 'sci', imp: 1,
       d: 'Tiếp nối Phùng Nguyên là văn hoá Đồng Đậu rồi Gò Mun. Đồ đồng ngày càng nhiều và đa dạng: mũi tên, mũi giáo, rìu, lưỡi câu, dùi. Công cụ kim loại giúp khai hoang, làm ruộng hiệu quả hơn, dân số tăng và làng xóm đông đúc dần.',
       why: 'Kỹ thuật đúc đồng tích luỹ qua gần một nghìn năm là tiền đề để người Việt cổ làm ra những chiếc trống đồng tuyệt đẹp thời Đông Sơn.',
@@ -72,12 +160,38 @@ TL_DATA.push({
       d: 'Dọc dải đất ven biển miền Trung, cư dân Sa Huỳnh sống bằng trồng trọt, đánh cá, làm đồ sắt và buôn bán bằng thuyền. Họ có tục chôn người chết trong những chiếc chum gốm lớn, kèm đồ trang sức bằng đá quý, thuỷ tinh và mã não.',
       why: 'Là cội nguồn văn hoá của vương quốc Chăm Pa, cho thấy miền Trung từ rất sớm đã giao lưu buôn bán khắp Biển Đông.',
       fun: 'Khuyên tai hình hai đầu thú kiểu Sa Huỳnh còn được tìm thấy ở Philippines và Thái Lan, dấu vết của một mạng lưới buôn bán trên biển từ hơn hai nghìn năm trước.' },
-    { id: 'vn-van-lang-700tcn', y: -700, ca: true, date: 'Khoảng thế kỷ VII TCN', t: 'Các vua Hùng dựng nước Văn Lang', c: 'pol', imp: 3,
-      who: 'Các vua Hùng', place: 'Phong Châu (Phú Thọ)',
-      d: 'Để cùng nhau đắp đê trị thuỷ, chống giặc và trao đổi sản vật, các bộ lạc Lạc Việt ven sông Hồng, sông Mã, sông Cả liên kết lại thành nước Văn Lang, kinh đô ở Phong Châu. Đứng đầu là Hùng Vương, giúp việc có Lạc hầu, Lạc tướng; cả nước chia làm 15 bộ, dưới là các chiềng, chạ (làng).',
-      why: 'Là nhà nước đầu tiên của người Việt, mở đầu thời kỳ dựng nước.',
-      fun: 'Ngày Giỗ Tổ Hùng Vương mùng 10 tháng 3 âm lịch là ngày nghỉ lễ chính thức, và tín ngưỡng thờ cúng Hùng Vương ở Phú Thọ được UNESCO ghi danh năm 2012.',
-      alt: 'Nhà nước ra đời không phải vì ai đó thích làm vua, mà vì cả vùng cần chung tay chống lũ: nói vui thì “dự án thuỷ lợi” chính là động lực lập quốc.' },
+    {
+  "id": "vn-van-lang-700tcn",
+  "y": -700,
+  "ca": true,
+  "date": "Khoảng thế kỷ VII TCN; mốc tham chiếu",
+  "t": "Văn Lang và thời đại Hùng Vương",
+  "c": "pol",
+  "imp": 3,
+  "who": "Các vua Hùng",
+  "d": "Văn Lang là tên nhà nước gắn với thời Hùng Vương trong truyền thống sử Việt. Khoảng thế kỷ VII TCN thường được dùng làm mốc tham chiếu cho quá trình hình thành nhà nước sơ khai. Khảo cổ văn hóa Đông Sơn cung cấp một lớp bằng chứng; các câu chuyện và mô tả tổ chức trong thư tịch là lớp tư liệu khác, được ghi chép muộn hơn.",
+  "fun": "UNESCO ghi danh tín ngưỡng thờ cúng Hùng Vương ở Phú Thọ năm 2012. Mốc ghi danh di sản nói về truyền thống văn hóa đang được gìn giữ, không phải xác nhận năm thành lập Văn Lang.",
+  "consequencesTitle": "Nhiều loại tư liệu giúp tìm hiểu buổi đầu dựng nước",
+  "consequences": "Cần đặt truyền thống sử học cạnh hiện vật và di tích, thay vì coi mọi chi tiết đều được xác nhận như nhau. Không có cơ sở để quy toàn bộ quá trình lập quốc về một nguyên nhân duy nhất như đắp đê.",
+  "refs": [
+    {
+      "url": "https://baotanglichsu.vn/vi/Articles/3096/10144/ve-cac-nha-nuoc-so-khai-o-mien-bac-viet-nam.html",
+      "title": "Bảo tàng Lịch sử Quốc gia — Các nhà nước sơ khai ở miền Bắc",
+      "scope": "Bằng chứng khảo cổ, truyền thống văn bản và quá trình nhà nước sơ khai."
+    },
+    {
+      "url": "https://baotanglichsu.vn/vi/Articles/2001/65120/co-bao-nhieu-djoi-vua-hung.html",
+      "title": "Bảo tàng Lịch sử Quốc gia — Có bao nhiêu đời vua Hùng?",
+      "scope": "Mốc khoảng thế kỷ VII TCN và giới hạn diễn giải niên đại truyền thống."
+    },
+    {
+      "url": "https://ich.unesco.org/en/RL/worship-of-hng-kings-in-ph-th-00735",
+      "title": "UNESCO — Tín ngưỡng thờ cúng Hùng Vương ở Phú Thọ",
+      "scope": "Ghi danh năm 2012 và ý nghĩa sinh hoạt tín ngưỡng."
+    }
+  ],
+  "ref": "https://baotanglichsu.vn/vi/Articles/3096/10144/ve-cac-nha-nuoc-so-khai-o-mien-bac-viet-nam.html"
+},
     { id: 'vn-dong-son-700tcn', y: -700, y2: 100, ca: true, date: 'Thế kỷ VII TCN – thế kỷ I', t: 'Văn hoá Đông Sơn và trống đồng', c: 'cul', imp: 3,
       place: 'Đông Sơn (Thanh Hoá), lưu vực sông Hồng, sông Mã, sông Cả',
       d: 'Đây là đỉnh cao văn hoá thời dựng nước. Người Đông Sơn đúc trống đồng, thạp đồng, lưỡi cày, vũ khí rất tinh xảo. Hoa văn trên trống khắc cảnh giã gạo, đua thuyền, nhảy múa, nhà sàn, cho thấy một đời sống lúa nước phong phú và giàu lễ hội.',
@@ -1564,8 +1678,24 @@ TL_DATA.push({
 TL_DATA.push({
   lane: 'cn',
   periods: [
-    { id: 'cn-p-ha', s: -2070, e: -1600, g: 'a', t: 'Nhà Hạ (bán truyền thuyết)', r: 'Trung Quốc',
-      d: 'Theo sử sách, vua Vũ có công trị thủy rồi lập nhà Hạ, mở đầu lối truyền ngôi cha truyền con nối. Khảo cổ học vẫn đang tìm bằng chứng chắc chắn; di chỉ Nhị Lý Đầu (Hà Nam) được nhiều người xem là dấu vết của thời kỳ này.' },
+    {
+  "id": "cn-p-ha",
+  "s": -2100,
+  "e": -1600,
+  "g": "a",
+  "t": "Nhà Hạ (chưa được xác nhận)",
+  "r": "Trung Quốc",
+  "d": "Khoảng 2100–1600 TCN trong bảng niên đại tham khảo. Liên hệ giữa nhà Hạ trong sử sách và di tích Nhị Lý Đầu vẫn là giả thuyết.",
+  "ca": true,
+  "ref": "https://www.metmuseum.org/ja/toah/ht/03/eac.html",
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/ja/toah/ht/03/eac.html",
+      "title": "The Met — Trung Quốc, 2000–1000 TCN",
+      "scope": "Nhà Hạ được ghi là chưa xác nhận; Nhị Lý Đầu là trung tâm có thể liên hệ, không phải đồng nhất chắc chắn."
+    }
+  ]
+},
     { id: 'cn-p-thuong', s: -1600, e: -1046, g: 'a', t: 'Nhà Thương', r: 'Trung Quốc',
       d: 'Triều đại đầu tiên có chữ viết được khảo cổ chứng minh: chữ giáp cốt khắc trên mai rùa, xương thú. Người Thương đúc đồ đồng tinh xảo và rất coi trọng bói toán, cúng tế tổ tiên.' },
     { id: 'cn-p-tay-chu', s: -1046, e: -771, g: 'a', t: 'Nhà Tây Chu', r: 'Trung Quốc',
@@ -1610,18 +1740,53 @@ TL_DATA.push({
       d: 'Đế quốc Mông Cổ do Thành Cát Tư Hãn lập năm 1206 diệt nhà Kim năm 1234, làm chủ miền Bắc Trung Hoa rồi dồn sức đánh Nam Tống, Đại Lý và cả Đại Việt.' }
   ],
   events: [
-    { id: 'cn-lang-nong-nghiep-dau-tien', y: -3500, y2: -2000, ca: true, date: 'Khoảng 5000–2000 TCN', r: 'Trung Quốc',
-      t: 'Những làng nông nghiệp đầu tiên', c: 'cul', imp: 1, place: 'Lưu vực Hoàng Hà và Trường Giang',
-      d: 'Từ hàng nghìn năm trước khi có nhà nước, cư dân ven Hoàng Hà đã trồng kê, nuôi lợn, làm gốm vẽ hoa văn màu (văn hóa Ngưỡng Thiều); vùng hạ lưu Trường Giang trồng lúa nước từ rất sớm (di chỉ Hà Mỗ Độ). Sau đó, văn hóa Long Sơn nổi tiếng với loại gốm đen mỏng như vỏ trứng.',
-      why: 'Nông nghiệp định cư ở hai lưu vực sông lớn là nền móng để văn minh Trung Hoa hình thành.',
-      alt: 'Trung Hoa cổ có “hai trái tim”: kê ở phương bắc khô lạnh, lúa nước ở phương nam ẩm ấm. Nhiều nhà nghiên cứu cho rằng cư dân trồng lúa phương nam có họ hàng xa với các tộc Bách Việt.' },
+    {
+  "id": "cn-lang-nong-nghiep-dau-tien",
+  "y": -3500,
+  "y2": -2000,
+  "ca": true,
+  "date": "Các giai đoạn thời đá mới; mốc tham chiếu 3500 TCN",
+  "r": "Trung Quốc",
+  "t": "Những cộng đồng thời đá mới ở lưu vực sông lớn",
+  "c": "cul",
+  "imp": 1,
+  "place": "Lưu vực Hoàng Hà và Trường Giang",
+  "d": "Tại các lưu vực Hoàng Hà và Trường Giang, nhiều cộng đồng thời đá mới phát triển đời sống định cư dựa vào trồng trọt và vật nuôi. Ngưỡng Thiều nổi bật với gốm vẽ màu; các văn hóa ở phía đông và hạ lưu Trường Giang để lại những truyền thống gốm và chế tác ngọc khác nhau. Mốc 3500 TCN là điểm tham chiếu trong một quá trình dài.",
+  "consequencesTitle": "Nhiều truyền thống cùng góp vào văn hóa về sau",
+  "consequences": "Các cộng đồng phát triển đặc điểm riêng và có trao đổi với nhau. Những hình dáng đồ đựng, kỹ thuật trang trí và đồ ngọc tiếp tục xuất hiện trong nghệ thuật các giai đoạn sau.",
+  "fun": "Ngọc không được đẽo dễ dàng bằng dao: nghệ nhân phải dùng chất mài như cát thô để tạo hình và đánh bóng. Độ tinh xảo của hiện vật phản ánh nhiều công sức và kỹ năng.",
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/de/essays/neolithic-period-in-china",
+      "title": "The Met — Thời đá mới ở Trung Quốc",
+      "scope": "Định cư, nông nghiệp, các truyền thống gốm và ngọc, trao đổi văn hóa và kỹ thuật mài ngọc."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/de/essays/neolithic-period-in-china"
+},
 
-    { id: 'cn-vua-vu-nha-ha-2070tcn', y: -2070, ca: true, date: 'Khoảng 2070 TCN', r: 'Trung Quốc',
-      t: 'Vua Vũ trị thủy, lập nhà Hạ', c: 'pol', imp: 2, who: 'Vua Vũ (Đại Vũ)',
-      d: 'Theo sử sách Trung Hoa, lưu vực Hoàng Hà từng bị lũ lụt tàn phá. Vua Vũ không đắp đê chặn nước như cha mình mà khơi thông dòng chảy cho nước thoát ra biển, nhờ đó trị được lũ. Ông được tôn làm vua và truyền ngôi cho con, lập ra nhà Hạ. Các nhà khảo cổ vẫn đang tìm bằng chứng chắc chắn về triều đại này.',
-      why: 'Mở đầu truyền thống “cha truyền con nối”, kéo dài gần 4.000 năm trong lịch sử các triều đại Trung Hoa.',
-      fun: 'Tương truyền vua Vũ mải trị thủy suốt 13 năm, ba lần đi qua cửa nhà mà không ghé vào. Một tấm gương “tăng ca” huyền thoại.',
-      alt: 'Ở các nền văn minh sông lớn, ai chế ngự được nước thì người đó có quyền lực. Người Việt cũng có truyền thuyết Sơn Tinh – Thủy Tinh về cuộc chiến với lũ lụt.' },
+    {
+  "id": "cn-vua-vu-nha-ha-2070tcn",
+  "y": -2100,
+  "ca": true,
+  "date": "Khoảng 2100–1600 TCN theo bảng niên đại; nhà Hạ chưa được xác nhận",
+  "r": "Trung Quốc",
+  "t": "Nhà Hạ giữa sử sách và khảo cổ",
+  "c": "pol",
+  "imp": 2,
+  "d": "Sử sách Trung Hoa kể về nhà Hạ. Tuy nhiên, việc nhận diện triều đại này trong bằng chứng khảo cổ chưa được xác nhận chắc chắn. Trung tâm Nhị Lý Đầu ở Hà Nam, có các kiến trúc lớn và đồ đồng, được đề xuất là một trung tâm của nhà Hạ; đó vẫn là một cách diễn giải.",
+  "fun": "Bảng niên đại của The Met ghi nhà Hạ khoảng 2100–1600 TCN kèm chú thích “chưa được xác nhận”. Chú thích này quan trọng ngang với các con số.",
+  "consequencesTitle": "Di tích có thật chưa tự xác nhận mọi chi tiết trong sách",
+  "consequences": "Có thể khảo sát kiến trúc và hiện vật của Nhị Lý Đầu mà vẫn để ngỏ tên gọi chính trị của cộng đồng tạo ra chúng. Không nên suy từ truyền thống về nhà Hạ ra năm lập triều chính xác.",
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/ja/toah/ht/03/eac.html",
+      "title": "The Met — Trung Quốc, 2000–1000 TCN",
+      "scope": "Nhà Hạ được ghi là chưa xác nhận; Nhị Lý Đầu là trung tâm có thể liên hệ, không phải đồng nhất chắc chắn."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/ja/toah/ht/03/eac.html"
+},
 
     { id: 'cn-chu-giap-cot-1250tcn', y: -1250, ca: true, date: 'Khoảng thế kỷ XIII TCN', r: 'Trung Quốc',
       t: 'Chữ giáp cốt trên mai rùa, xương thú', c: 'cul', imp: 3, place: 'Ân Khư (An Dương, Hà Nam)',
@@ -2183,8 +2348,24 @@ TL_DATA.push({
   lane: 'ea',
   periods: [
     // Nhóm a: Nhật Bản
-    { id: 'ea-p-jomon', s: -3500, e: -300, t: 'Thời Jomon', g: 'a', r: 'Nhật Bản',
-      d: 'Cư dân săn bắt, hái lượm, đánh cá, làm đồ gốm vằn thừng và sống định cư trong những làng nhỏ suốt hàng nghìn năm.' },
+    {
+  "id": "ea-p-jomon",
+  "s": -3500,
+  "e": -300,
+  "t": "Thời Jomon",
+  "g": "a",
+  "r": "Nhật Bản",
+  "d": "Khung hiển thị này chỉ bao quát một phần thời Jōmon. Nhóm di chỉ UNESCO ở miền bắc có bằng chứng định cư, săn bắt, hái lượm và đánh cá sớm hơn nhiều.",
+  "ca": true,
+  "ref": "https://whc.unesco.org/en/decisions/7956/",
+  "refs": [
+    {
+      "url": "https://whc.unesco.org/en/decisions/7956/",
+      "title": "UNESCO — Các di chỉ Jōmon ở miền bắc Nhật Bản",
+      "scope": "17 di chỉ, khoảng 13.000–400 TCN, định cư trước nông nghiệp thâm canh và di vật nghi lễ."
+    }
+  ]
+},
     { id: 'ea-p-yayoi', s: -300, e: 250, t: 'Thời Yayoi', g: 'a', r: 'Nhật Bản',
       d: 'Kỹ thuật trồng lúa nước, đồ đồng, đồ sắt từ lục địa tới quần đảo; làng mạc lớn dần và các tiểu quốc xuất hiện.' },
     { id: 'ea-p-kofun', s: 250, e: 538, t: 'Thời Kofun', g: 'a', r: 'Nhật Bản',
@@ -2230,14 +2411,57 @@ TL_DATA.push({
       d: 'Bán đảo bị chia cắt ở vĩ tuyến 38, hai nhà nước ra đời năm 1948; sau chiến tranh 1950–1953, Hàn Quốc phát triển thành nền kinh tế lớn, còn Triều Tiên đi theo con đường riêng.' }
   ],
   events: [
-    { id: 'ea-gom-jomon-3500tcn', y: -3500, ca: true, date: 'Khoảng 14.000 – 300 TCN', r: 'Nhật Bản', t: 'Người Jomon và đồ gốm vằn thừng', c: 'cul', imp: 2,
-      d: 'Từ khoảng 16.000 năm trước, cư dân quần đảo Nhật Bản đã sống bằng săn bắt, hái lượm, đánh cá và làm đồ gốm in hoa văn bằng dây thừng (jōmon nghĩa là “vằn thừng”). Họ ở trong những ngôi nhà nửa chìm dưới đất và sống định cư khá lâu dài dù chưa biết trồng lúa.',
-      why: 'Đồ gốm Jomon thuộc loại cổ nhất thế giới, cho thấy con người có thể định cư lâu dài ngay cả trước khi làm nông nghiệp.',
-      fun: 'Một số bình gốm Jomon có miệng uốn lượn như ngọn lửa, được gọi là “gốm hình lửa”. Nhìn chúng giống tác phẩm điêu khắc hơn là nồi nấu canh.' },
-    { id: 'ea-dan-quan-2333tcn', y: -2333, ca: true, date: '2333 TCN (truyền thuyết)', r: 'Triều Tiên', t: 'Truyền thuyết Đàn Quân lập nước', c: 'pol', imp: 2, who: 'Đàn Quân (Dangun)',
-      d: 'Theo truyền thuyết chép trong sách Tam quốc di sự (thế kỷ XIII), Hoàn Hùng, con trai của Trời (Hoàn Nhân), xuống trần và kết duyên với một con gấu đã hóa thành người. Con của họ là Đàn Quân (Dangun), người lập nên nước Cổ Triều Tiên (Gojoseon) năm 2333 TCN.',
-      why: 'Truyền thuyết trở thành biểu tượng về cội nguồn chung của người Triều Tiên; Hàn Quốc lấy ngày 3/10 hằng năm làm ngày Lập quốc (Khai Thiên tiết).',
-      alt: 'Người Việt có Lạc Long Quân, Âu Cơ và bọc trăm trứng; người Triều Tiên có nàng gấu kiên nhẫn ăn ngải cứu với tỏi trong hang tối để được hóa thành người. Dân tộc nào cũng thích kể mình là con cháu thần linh.' },
+    {
+  "id": "ea-gom-jomon-3500tcn",
+  "y": -3500,
+  "ca": true,
+  "date": "Khoảng 13.000–400 TCN tại nhóm di chỉ miền bắc",
+  "r": "Nhật Bản",
+  "t": "Jōmon: định cư trước nền nông nghiệp thâm canh",
+  "c": "cul",
+  "imp": 2,
+  "d": "Nhóm 17 di chỉ Jōmon ở miền bắc Nhật Bản được UNESCO ghi danh lưu giữ bằng chứng về các cộng đồng định cư, săn bắt, đánh cá và hái lượm trong khoảng 13.000–400 TCN. Đây là phạm vi niên đại của nhóm di chỉ ấy; không phải một khung duy nhất áp dụng cho mọi vùng Nhật Bản. Mốc 3500 TCN dùng để đặt bài trên timeline.",
+  "fun": "Ngoài đồ gốm, nhóm di chỉ còn có tượng đất sét dogū, mộ táng và các vòng đá. Dấu tích Jōmon vì thế kể cả chuyện sinh hoạt lẫn nghi lễ.",
+  "consequencesTitle": "Có nhiều con đường dẫn tới đời sống định cư",
+  "consequences": "Nguồn thức ăn từ rừng, sông và biển có thể hỗ trợ những cộng đồng ở lâu dài. Các di tích này giúp xem xét định cư mà không mặc định phải đi kèm nông nghiệp thâm canh.",
+  "refs": [
+    {
+      "url": "https://whc.unesco.org/en/decisions/7956/",
+      "title": "UNESCO — Các di chỉ Jōmon ở miền bắc Nhật Bản",
+      "scope": "17 di chỉ, khoảng 13.000–400 TCN, định cư trước nông nghiệp thâm canh và di vật nghi lễ."
+    }
+  ],
+  "ref": "https://whc.unesco.org/en/decisions/7956/",
+  "place": "Hokkaidō và phía bắc đảo Honshū"
+},
+    {
+  "id": "ea-dan-quan-2333tcn",
+  "y": -2333,
+  "ca": true,
+  "date": "2333 TCN theo truyền thuyết; được ghi chép nhiều thế kỷ sau",
+  "r": "Triều Tiên",
+  "t": "Đàn Quân trong truyền thuyết lập quốc",
+  "c": "pol",
+  "imp": 2,
+  "who": "Đàn Quân (Dangun)",
+  "d": "Truyền thuyết Triều Tiên kể Hoàn Hùng xuống trần, kết duyên với một con gấu hóa thành người và sinh Đàn Quân. Ông được gắn với sự thành lập Cổ Triều Tiên vào năm 2333 TCN. Câu chuyện được ghi trong Tam quốc di sự ở thế kỷ XIII, cách rất xa thời điểm được kể.",
+  "consequencesTitle": "Truyền thống lập quốc và niên đại khảo cổ cần được phân biệt",
+  "consequences": "Mốc 2333 TCN thuộc câu chuyện nguồn cội được lưu truyền. Việc một văn bản chép lại mốc ấy không tự xác nhận được năm thành lập một nhà nước bằng bằng chứng đương thời.",
+  "fun": "Cùng một câu chuyện có thể được nghiên cứu ở hai góc: nó nói gì về nguồn cội trong truyền thống, và văn bản ghi lại nó ra đời vào thời nào.",
+  "refs": [
+    {
+      "url": "https://www.korea.net/NewsFocus/Culture/view?articleId=121092",
+      "title": "Korea.net — Truyền thuyết Đàn Quân",
+      "scope": "Nội dung truyện và mốc lập quốc truyền thống 2333 TCN."
+    },
+    {
+      "url": "https://german.korea.net/Events/Overseas/view?articleId=20466",
+      "title": "Korea.net — Ghi chép truyền thuyết Đàn Quân",
+      "scope": "Tam quốc di sự thế kỷ XIII và truyền thống lập quốc."
+    }
+  ],
+  "ref": "https://www.korea.net/NewsFocus/Culture/view?articleId=121092"
+},
     { id: 'ea-yayoi-lua-nuoc-300tcn', y: -300, ca: true, date: 'Khoảng thế kỷ III TCN', r: 'Nhật Bản', t: 'Lúa nước và đồ sắt đến Nhật Bản', c: 'sci', imp: 3,
       d: 'Những nhóm người từ lục địa và bán đảo Triều Tiên mang kỹ thuật trồng lúa nước, đồ đồng và đồ sắt tới miền tây Nhật Bản (có nghiên cứu cho rằng lúa nước đến sớm hơn nhiều). Ruộng lúa giúp dân số tăng nhanh, làng mạc lớn dần, kéo theo tranh chấp đất đai và sự xuất hiện của các thủ lĩnh, tiểu quốc.',
       why: 'Cây lúa thay đổi hoàn toàn xã hội Nhật Bản, đặt nền móng cho làng xã, giai cấp và nhà nước sau này.',
@@ -2684,12 +2908,44 @@ TL_DATA.push({
       why: 'Là một trong những nền văn minh đô thị sớm nhất thế giới, cùng thời với Ai Cập và Lưỡng Hà, đặt nền móng đầu tiên cho lịch sử Nam Á.',
       fun: 'Mohenjo-daro có một “Đại bể tắm” lát gạch chống thấm, và nhiều nhà có phòng tắm nối với cống ngầm: tiện nghi mà không ít thành phố châu Âu thời trung cổ còn phải mơ ước.',
       alt: 'Lạ là các nhà khảo cổ chưa tìm thấy cung điện nguy nga hay lăng mộ vua nào. Có lẽ ở những thành phố này, người làm cống thoát nước mới là “ngôi sao” chứ không phải nhà vua.' },
-    { id: 'sa-ban-chiang-2000tcn', y: -2000, ca: true, date: 'Từ khoảng 2000 TCN', r: 'Thái Lan', t: 'Làng cổ Ban Chiang và đồ đồng', c: 'cul', imp: 1,
-      place: 'Ban Chiang, đông bắc Thái Lan',
-      d: 'Năm 1966, một sinh viên Mỹ vấp ngã ở làng Ban Chiang và phát hiện những mảnh gốm cổ lộ ra trên mặt đất. Khai quật sau đó cho thấy một cộng đồng trồng lúa đã sống ở đây liên tục từ khoảng thiên niên kỷ II TCN, biết đúc đồ đồng rồi làm đồ sắt, nổi tiếng với gốm vẽ hoa văn xoắn màu đỏ.',
-      why: 'Cho thấy cư dân Đông Nam Á đã trồng lúa, đúc đồng và tạo nên bản sắc riêng từ rất sớm, trước khi chịu ảnh hưởng mạnh của Ấn Độ và Trung Hoa.',
-      alt: 'Một cú vấp chân của cậu sinh viên đã “mở cửa” cho cả một chương tiền sử của Đông Nam Á: khảo cổ học đôi khi bắt đầu từ những tình cờ rất đời thường.',
-      vn: 'Cùng thời, trên đất Việt Nam phát triển các văn hóa Phùng Nguyên, Đồng Đậu rồi Đông Sơn, cũng gắn với nghề trồng lúa nước và đúc đồng.' },
+    {
+  "id": "sa-ban-chiang-2000tcn",
+  "y": -2100,
+  "ca": true,
+  "date": "Khoảng 2100 TCN theo ISEAA; có hệ niên đại khác",
+  "r": "Thái Lan",
+  "t": "Ban Chiang: làng cổ và câu hỏi về niên đại",
+  "c": "cul",
+  "imp": 1,
+  "place": "Ban Chiang, đông bắc Thái Lan",
+  "d": "Ban Chiang ở đông bắc Thái Lan có dấu vết cư trú, mộ táng, đồ gốm và kỹ thuật kim loại. Niên đại vẫn có các cách xác lập khác nhau: bảng làm việc của ISEAA đặt giai đoạn sớm từ khoảng 2100 TCN, còn nghiên cứu của Higham đặt cư trú thời đá mới khoảng 1500 TCN. Timeline dùng mốc tham chiếu theo bảng ISEAA.",
+  "consequencesTitle": "Cách định tuổi ảnh hưởng đến cách kể lịch sử",
+  "consequences": "Nếu thời điểm xuất hiện đồ đồng thay đổi, cách giải thích sự lan truyền kỹ thuật cũng thay đổi. Vì vậy không nên khẳng định một mốc duy nhất là kết luận chung của mọi nhóm nghiên cứu.",
+  "fun": "Những bình vẽ đỏ nổi tiếng thuộc giai đoạn muộn trong hệ phân kỳ của dự án Ban Chiang. Chúng không đại diện cho mọi loại gốm ở di chỉ suốt toàn bộ lịch sử.",
+  "refs": [
+    {
+      "url": "https://db.iseaarchaeology.org/metals-database/",
+      "title": "ISEAA — Cơ sở dữ liệu kim loại và niên đại Ban Chiang",
+      "scope": "Bảng niên đại làm việc, giai đoạn sớm khoảng 2100–1500 TCN."
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/oa.3174",
+      "title": "Higham — Zooarchaeology of Ban Chiang (2022)",
+      "scope": "Hệ niên đại đặt cư trú thời đá mới khoảng 1500 TCN."
+    },
+    {
+      "url": "https://iseaarchaeology.org/ban-chiang-project/Current-Work/",
+      "title": "Dự án Ban Chiang — Nghiên cứu gốm",
+      "scope": "Các kiểu gốm khác nhau và gốm vẽ đỏ giai đoạn muộn."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4575132/",
+      "title": "Higham và cộng sự — A New Chronology (2015)",
+      "scope": "Tranh luận giữa các mô hình niên đại và ý nghĩa với cách giải thích luyện kim."
+    }
+  ],
+  "ref": "https://db.iseaarchaeology.org/metals-database/"
+},
     { id: 'sa-nguoi-arya-kinh-veda-1500tcn', y: -1500, ca: true, date: 'Khoảng 1500 TCN', r: 'Ấn Độ', t: 'Người Arya và kinh Veda', c: 'cul', imp: 2,
       d: 'Khoảng năm 1500 TCN, các nhóm người nói tiếng Ấn – Arya di cư từ Trung Á vào tây bắc Ấn Độ, chăn nuôi bò ngựa rồi dần định cư ở đồng bằng sông Hằng. Họ sáng tác kinh Veda bằng tiếng Phạn, ban đầu chỉ học thuộc và truyền miệng. Xã hội dần chia thành các đẳng cấp, mầm mống của chế độ đẳng cấp khắt khe về sau.',
       why: 'Kinh Veda, tiếng Phạn và đạo Bà La Môn hình thành từ đây, là nền tảng của đạo Hindu và văn hóa Ấn Độ suốt hơn 3000 năm.',
@@ -3169,8 +3425,34 @@ TL_DATA.push({
   periods: [
     { id: 'wa-p-sumer', s: -3500, e: -2334, t: 'Các thành bang Sumer', g: 'a', r: 'Lưỡng Hà',
       d: 'Người Sumer dựng nên một số thành phố sớm nhất thế giới như Uruk, Ur, Lagash ở miền nam Lưỡng Hà; mỗi thành là một “quốc gia nhỏ” có đền tháp, vua và vị thần bảo hộ riêng.' },
-    { id: 'wa-p-akkad', s: -2334, e: -2154, t: 'Đế quốc Akkad', g: 'a', r: 'Lưỡng Hà',
-      d: 'Sargon và con cháu thống nhất Lưỡng Hà thành một đế quốc đa dân tộc; tiếng Akkad dần thay tiếng Sumer trong đời sống, dù chữ hình nêm vẫn được giữ.' },
+    {
+  "id": "wa-p-akkad",
+  "s": -2334,
+  "e": -2154,
+  "t": "Đế quốc Akkad",
+  "g": "a",
+  "r": "Lưỡng Hà",
+  "d": "Khoảng niên đại quy ước. Sargon và những người kế vị mở rộng quyền cai trị qua nhiều vùng Lưỡng Hà. Vị trí thành Akkad chưa được xác định chắc chắn.",
+  "ca": true,
+  "ref": "https://www.metmuseum.org/fr/toah/ht/02/wam",
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/fr/toah/ht/02/wam",
+      "title": "The Met — Lưỡng Hà, 8000–2000 TCN",
+      "scope": "Các cuộc chinh phục của Sargon và vị trí thành Akkad chưa xác định."
+    },
+    {
+      "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Assyrian_Origins_Discoveries_at_Ashur_on_the_Tigris_Antiquities_in_the_Vorderasiatisches_Museum_Be.pdf",
+      "title": "The Met — Assyrian Origins",
+      "scope": "Bảng niên đại dùng 2334–2279 TCN cho Sargon."
+    },
+    {
+      "url": "https://www.metmuseum.org/it/toah/hd/meru/hd_meru.htm",
+      "title": "The Met — Danh sách vua Lưỡng Hà",
+      "scope": "Ví dụ hệ niên đại khác cho thời Sargon."
+    }
+  ]
+},
     { id: 'wa-p-ur-3', s: -2112, e: -2004, t: 'Vương triều Ur III', g: 'a', r: 'Lưỡng Hà',
       d: 'Thời phục hưng cuối cùng của người Sumer, với tháp đền đồ sộ ở Ur, bộ máy quan lại ghi chép rất tỉ mỉ và bộ luật Ur-Nammu.' },
     { id: 'wa-p-babylon-co', s: -1894, e: -1595, t: 'Babylon cổ', g: 'a', r: 'Lưỡng Hà',
@@ -3240,17 +3522,57 @@ TL_DATA.push({
       fun: 'Con người biết dùng thuyền từ hàng vạn năm trước, rất lâu trước khi nghĩ ra bánh xe. Bánh xe trông đơn giản mà khó: trục và lỗ trục phải khớp gần như hoàn hảo thì xe mới chạy được.',
       alt: 'Ở Trung Mỹ thời cổ, người ta từng làm tượng con vật có gắn bánh xe nhưng hầu như không dùng bánh xe để chở hàng, vì không có ngựa hay bò để kéo. Một phát minh chỉ hữu ích khi có đủ “hệ sinh thái” đi kèm.' },
 
-    { id: 'wa-chu-hinh-nem-3200tcn', y: -3200, ca: true, date: 'Khoảng 3400–3200 TCN', r: 'Lưỡng Hà', place: 'Thành Uruk (miền nam Iraq)', t: 'Người Sumer sáng tạo chữ hình nêm', c: 'cul', imp: 3,
-      d: 'Ở thành Uruk, các viên chức đền thờ cần ghi lại lúa mạch, cừu, bia nhận vào và phát ra. Ban đầu họ vẽ hình con vật, đồ vật lên đất sét ướt; dần dần các hình được đơn giản hóa thành những nét ấn bằng cây sậy vạt nhọn, trông như cái nêm. Từ chỗ chỉ để đếm và ghi sổ, chữ hình nêm ghi được cả luật lệ, thư từ, thơ ca.',
-      why: 'Là một trong những hệ chữ viết sớm nhất của loài người, đánh dấu bước chuyển từ thời tiền sử sang thời có sử.',
-      fun: 'Phần lớn văn bản cổ nhất thế giới không phải thơ hay kinh sách mà là… sổ sách kế toán. Có thể nói nghề ghi sổ chính là nghề “có chữ” đầu tiên.',
-      alt: 'Chữ viết ra đời không phải vì cảm hứng nghệ thuật mà vì nhu cầu quản lý: khi một thành phố đông tới hàng vạn người, trí nhớ không còn đủ để biết ai nợ ai bao nhiêu.' },
+    {
+  "id": "wa-chu-hinh-nem-3200tcn",
+  "y": -3200,
+  "ca": true,
+  "date": "Khoảng 3200 TCN và quá trình phát triển về sau",
+  "r": "Lưỡng Hà",
+  "place": "Thành Uruk (miền nam Iraq)",
+  "t": "Chữ viết phát triển ở miền nam Lưỡng Hà",
+  "c": "cul",
+  "imp": 3,
+  "d": "Khoảng 3200 TCN, chữ viết xuất hiện ở miền nam Lưỡng Hà. Qua thời gian, người viết dùng đầu bút ấn các nét hình nêm lên đất sét; hệ chữ này được sử dụng cho nhiều ngôn ngữ và nhiều loại văn bản. Cần phân biệt giai đoạn ký hiệu sớm với những dạng chữ hình nêm phát triển về sau.",
+  "fun": "Một dấu chữ hình nêm có thể mang giá trị cả từ hoặc âm tiết. Hình dáng giống nhau của các nét không có nghĩa hệ chữ chỉ là một bộ chữ cái.",
+  "consequencesTitle": "Thông tin có thể được lưu ngoài trí nhớ",
+  "consequences": "Văn bản giúp lưu sổ sách, thư từ và những nội dung dài. Những bảng đất sét còn lại cho phép nghiên cứu cả việc quản lý lẫn đời sống tinh thần.",
+  "refs": [
+    {
+      "url": "https://www.britishmuseum.org/sites/default/files/2019-09/Visit_Mesopotamia_KS2b.pdf",
+      "title": "British Museum — Mesopotamia",
+      "scope": "Mốc xuất hiện chữ viết khoảng 3200 TCN tại miền nam Lưỡng Hà."
+    },
+    {
+      "url": "https://www.britishmuseum.org/sites/default/files/2019-10/Babylon_Teachers_Resource.pdf",
+      "title": "British Museum — Babylon: tài liệu giáo dục",
+      "scope": "Bảng đất sét, cách tạo dấu, giá trị từ và âm tiết, các loại văn bản."
+    }
+  ],
+  "ref": "https://www.britishmuseum.org/sites/default/files/2019-09/Visit_Mesopotamia_KS2b.pdf"
+},
 
-    { id: 'wa-chu-tuong-hinh-3200tcn', y: -3200, ca: true, date: 'Khoảng 3200 TCN', r: 'Ai Cập', t: 'Chữ tượng hình Ai Cập ra đời', c: 'cul', imp: 2,
-      d: 'Gần như cùng thời với chữ hình nêm, người Ai Cập phát triển chữ tượng hình: những ký hiệu hình con chim, con mắt, bàn chân, con rắn… vừa có thể chỉ sự vật, vừa có thể chỉ âm thanh. Chữ được khắc trên đền đài, lăng mộ và viết bằng mực lên giấy cói, làm từ cây sậy papyrus mọc ven sông Nile.',
-      why: 'Giúp người Ai Cập ghi lại lịch sử, tôn giáo, y học và toán học suốt hơn 3000 năm.',
-      fun: 'Từ “paper” (giấy) trong tiếng Anh bắt nguồn từ “papyrus”, tên loại cây người Ai Cập dùng làm giấy cói.',
-      alt: 'Chữ tượng hình không đọc bằng cách “nhìn hình đoán nghĩa” như nhiều người tưởng: phần lớn ký hiệu dùng để ghi âm, giống trò chơi đố chữ bằng hình.' },
+    {
+  "id": "wa-chu-tuong-hinh-3200tcn",
+  "y": -3200,
+  "ca": true,
+  "date": "Cuối thiên niên kỷ IV TCN; mốc tham chiếu 3200 TCN",
+  "r": "Ai Cập",
+  "t": "Chữ tượng hình trong buổi đầu Ai Cập cổ đại",
+  "c": "cul",
+  "imp": 2,
+  "d": "Chữ viết Ai Cập hình thành vào cuối thiên niên kỷ IV TCN; hệ chữ tượng hình đã có những quy tắc ổn định trước khoảng 3000 TCN. Các dấu có thể ghi nghĩa, ghi âm hoặc giúp xác định nhóm nghĩa. Vì vậy, đọc văn bản không chỉ là nhìn hình rồi đoán tên đồ vật.",
+  "fun": "Chữ tượng hình có các dấu ghi phụ âm. Một hình vẽ có thể tham gia ghi âm của một từ, chứ không nhất thiết nói về chính con vật hay đồ vật được vẽ.",
+  "consequencesTitle": "Chữ viết gắn hình ảnh với ngôn ngữ",
+  "consequences": "Hệ chữ cho phép thể hiện tên người, thông điệp và nội dung nghi lễ bằng sự phối hợp của nhiều loại dấu.",
+  "refs": [
+    {
+      "url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Art_of_Ancient_Egypt_A_Resource_for_Educators.pdf",
+      "title": "The Met — Nghệ thuật Ai Cập cổ: tài liệu giáo dục",
+      "scope": "Sự hình thành và ổn định của chữ viết, dấu ghi âm, ghi nghĩa và định tố."
+    }
+  ],
+  "ref": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Art_of_Ancient_Egypt_A_Resource_for_Educators.pdf"
+},
 
     {
   "id": "wa-ai-cap-thong-nhat-3100tcn",
@@ -3275,33 +3597,145 @@ TL_DATA.push({
   ]
 },
 
-    { id: 'wa-lich-365-ngay-2700tcn', y: -2700, ca: true, date: 'Khoảng thiên niên kỷ III TCN', r: 'Ai Cập', t: 'Lịch 365 ngày của người Ai Cập', c: 'sci', imp: 2,
-      d: 'Cả nền nông nghiệp Ai Cập sống nhờ mùa lũ sông Nile, nên biết trước ngày lũ về là chuyện sống còn. Người Ai Cập để ý thấy lũ thường đến khi sao Thiên Lang (Sirius) mọc lúc rạng đông. Họ làm ra lịch gồm 12 tháng, mỗi tháng 30 ngày, cộng thêm 5 ngày lễ cuối năm, tổng cộng 365 ngày.',
-      why: 'Là tổ tiên xa của dương lịch cả thế giới dùng ngày nay, qua cuộc cải cách lịch của Julius Caesar năm 46 TCN.',
-      fun: 'Năm của họ thiếu khoảng 1/4 ngày so với thực tế nên lịch cứ trôi dần: phải khoảng 1460 năm, ngày đầu năm mới “đi” hết một vòng các mùa rồi quay về chỗ cũ.',
-      vn: 'Người Việt ngày nay dùng song song hai loại lịch: dương lịch để đi học, đi làm, còn âm lịch để ăn Tết, làm giỗ và xem ngày.' },
+    {
+  "id": "wa-lich-365-ngay-2700tcn",
+  "y": -2450,
+  "ca": true,
+  "date": "Đã có khoảng 2450 TCN, có thể sớm hơn",
+  "r": "Ai Cập",
+  "t": "Người Ai Cập sử dụng lịch dân sự 365 ngày",
+  "c": "sci",
+  "imp": 2,
+  "d": "Chậm nhất vào khoảng 2450 TCN, và có thể sớm hơn vài thế kỷ, người Ai Cập đã có lịch dân sự gồm 12 tháng, mỗi tháng 30 ngày, thêm 5 ngày ngoài các tháng thường. Nguồn hiện có không cho phép ấn định chắc chắn một năm phát minh.",
+  "fun": "Năm 365 ngày ngắn hơn năm thiên văn, nên các mùa trong lịch dần lệch khỏi mùa ngoài tự nhiên. Một lịch có tên mùa nông nghiệp chưa chắc luôn khớp với thời tiết thực tế.",
+  "consequencesTitle": "Một khuôn lịch chung để ghi ngày tháng",
+  "consequences": "Ngày chính thức được ghi theo ngày, tháng và mùa. Ba mùa của lịch mang tên gắn với nước lên, đất lộ và thu hoạch, mỗi mùa gồm bốn tháng.",
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/ja/essays/telling-time-in-ancient-egypt",
+      "title": "The Met — Cách tính thời gian ở Ai Cập cổ đại",
+      "scope": "Lịch đã có vào khoảng 2450 TCN hoặc sớm hơn, cấu trúc năm, ba mùa, cách ghi ngày và độ lệch theo thời gian."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/ja/essays/telling-time-in-ancient-egypt"
+},
 
-    { id: 'wa-kim-tu-thap-giza-2560tcn', y: -2560, ca: true, date: 'Khoảng 2560 TCN', r: 'Ai Cập', who: 'Pharaoh Khufu', place: 'Giza (gần Cairo)', t: 'Kim tự tháp Giza mọc lên', c: 'cul', imp: 3,
-      d: 'Pharaoh Khufu cho xây kim tự tháp lớn nhất ở Giza làm lăng mộ, ban đầu cao khoảng 146 m, gồm hơn 2 triệu khối đá. Nhiều khả năng người thợ dùng đường dốc, xe trượt và đòn bẩy để đưa đá lên cao. Con trai và cháu ông xây thêm hai kim tự tháp bên cạnh, cùng tượng Nhân sư khổng lồ canh giữ.',
-      why: 'Là kỳ quan cổ nhất trong Bảy kỳ quan thế giới cổ đại và là kỳ quan duy nhất còn đứng vững đến ngày nay.',
-      fun: 'Những người xây kim tự tháp không phải nô lệ bị roi vọt như phim ảnh hay kể, mà phần lớn là thợ được trả công bằng bánh mì, bia, và được chôn cất danh dự ngay gần công trình.',
-      alt: 'Kim tự tháp đã là “đồ cổ” ngay cả với người xưa: nữ hoàng Cleopatra sống gần thời con người lên Mặt Trăng hơn là gần thời xây kim tự tháp.' },
+    {
+  "id": "wa-kim-tu-thap-giza-2560tcn",
+  "y": -2560,
+  "ca": true,
+  "date": "Khoảng thế kỷ XXVI TCN; quần thể phát triển qua nhiều đời vua",
+  "r": "Ai Cập",
+  "who": "Khufu, Khafre, Menkaure",
+  "place": "Giza (gần Cairo)",
+  "t": "Các kim tự tháp Giza thời Vương triều IV",
+  "c": "cul",
+  "imp": 3,
+  "d": "Trong thiên niên kỷ III TCN, các vua Khufu, Khafre và Menkaure của Vương triều IV cho xây những kim tự tháp nổi tiếng tại Giza. Mốc khoảng thế kỷ XXVI TCN dùng để đặt bài về giai đoạn Khufu, không phải năm hoàn thành chính xác của toàn bộ quần thể.",
+  "fun": "Khufu, Khafre và Menkaure còn xuất hiện với các tên theo tiếng Hy Lạp là Cheops, Chephren và Mykerinus. Những cách gọi khác nhau có thể chỉ cùng một vị vua.",
+  "consequencesTitle": "Một quần thể gắn với nhiều đời vua",
+  "consequences": "Ba kim tự tháp lớn thuộc các dự án của những vị vua khác nhau. Nhìn chúng cùng nhau giúp hình dung một truyền thống kiến trúc được phát triển qua thời gian.",
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/it/press-releases/landmark-exhibition-of-egyptian-art-opens-at-metropolitan-museum-on-september-16-1999-exhibitions",
+      "title": "The Met — Nghệ thuật Ai Cập thời Kim tự tháp",
+      "scope": "Vương triều IV, ba vua xây kim tự tháp ở Giza, khoảng niên đại và các dạng tên Hy Lạp."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/it/press-releases/landmark-exhibition-of-egyptian-art-opens-at-metropolitan-museum-on-september-16-1999-exhibitions"
+},
 
-    { id: 'wa-sargon-akkad-2334tcn', y: -2334, ca: true, date: 'Khoảng 2334 TCN', r: 'Lưỡng Hà', who: 'Sargon vùng Akkad', t: 'Sargon lập Đế quốc Akkad', c: 'pol', imp: 2,
-      d: 'Theo truyền thuyết, Sargon từng là người hầu dâng rượu cho vua thành Kish. Ông giành lấy quyền lực, chinh phục lần lượt các thành bang Sumer và lập nên Đế quốc Akkad. Lần đầu tiên, nhiều dân tộc nói những ngôn ngữ khác nhau ở Lưỡng Hà cùng nằm dưới quyền một vị vua.',
-      why: 'Akkad thường được coi là đế quốc đa dân tộc đầu tiên trong lịch sử, làm khuôn mẫu cho các đế chế về sau.',
-      fun: 'Con gái Sargon là Enheduanna, nữ tư tế thành Ur, người được coi là tác giả văn học đầu tiên trong lịch sử có tên tuổi được ghi lại.' },
+    {
+  "id": "wa-sargon-akkad-2334tcn",
+  "y": -2334,
+  "ca": true,
+  "date": "Thế kỷ XXIV TCN; mốc quy ước 2334 TCN",
+  "r": "Lưỡng Hà",
+  "who": "Sargon vùng Akkad",
+  "t": "Sargon mở rộng quyền lực của Akkad",
+  "c": "pol",
+  "imp": 2,
+  "d": "Trong thế kỷ XXIV TCN, Sargon chinh phục các vùng ở Lưỡng Hà và mở rộng quyền lực tới miền bắc Syria. Mốc 2334 TCN là một niên đại quy ước trong các bảng niên biểu; những hệ thống niên đại khác có thể dùng con số hơi khác.",
+  "fun": "Thành Akkad cho đến nay vẫn chưa được xác định vị trí chắc chắn, dù tên của nó gắn với cả một giai đoạn lịch sử Lưỡng Hà.",
+  "consequencesTitle": "Chinh phục thay đổi quy mô quyền lực",
+  "consequences": "Nhiều vùng trước đó có các trung tâm chính trị riêng được đưa vào một phạm vi cai trị rộng hơn. Khi đọc về Akkad, cần phân biệt quá trình mở rộng với những giai thoại kể về xuất thân nhà vua.",
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/fr/toah/ht/02/wam",
+      "title": "The Met — Lưỡng Hà, 8000–2000 TCN",
+      "scope": "Các cuộc chinh phục của Sargon và vị trí thành Akkad chưa xác định."
+    },
+    {
+      "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Assyrian_Origins_Discoveries_at_Ashur_on_the_Tigris_Antiquities_in_the_Vorderasiatisches_Museum_Be.pdf",
+      "title": "The Met — Assyrian Origins",
+      "scope": "Bảng niên đại dùng 2334–2279 TCN cho Sargon."
+    },
+    {
+      "url": "https://www.metmuseum.org/it/toah/hd/meru/hd_meru.htm",
+      "title": "The Met — Danh sách vua Lưỡng Hà",
+      "scope": "Ví dụ hệ niên đại khác cho thời Sargon."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/fr/toah/ht/02/wam"
+},
 
-    { id: 'wa-ur-nammu-2112tcn', y: -2112, ca: true, date: 'Khoảng 2112–2095 TCN', r: 'Lưỡng Hà', who: 'Vua Ur-Nammu', place: 'Thành Ur (miền nam Iraq)', t: 'Ur-Nammu: tháp đền và bộ luật cổ nhất', c: 'pol', imp: 1,
-      d: 'Vua Ur-Nammu lập vương triều Ur III và cho xây tháp đền ziggurat bậc thang khổng lồ ở thành Ur để thờ thần Mặt Trăng. Ông cũng ban hành bộ luật Ur-Nammu, bộ luật thành văn cổ nhất còn giữ được, sớm hơn luật Hammurabi khoảng ba thế kỷ.',
-      why: 'Cho thấy từ hơn 4000 năm trước, người Sumer đã quản lý xã hội bằng luật lệ được viết ra rõ ràng.',
-      fun: 'Luật Ur-Nammu “nhẹ tay” hơn luật Hammurabi: nhiều tội gây thương tích chỉ bị phạt bằng bạc, chứ không theo kiểu “mắt đền mắt, răng đền răng”.' },
+    {
+  "id": "wa-ur-nammu-2112tcn",
+  "y": -2112,
+  "ca": true,
+  "date": "Khoảng 2112–2095 TCN",
+  "r": "Lưỡng Hà",
+  "who": "Vua Ur-Nammu",
+  "place": "Thành Ur (miền nam Iraq)",
+  "t": "Ur-Nammu và thời Vương triều III của Ur",
+  "c": "pol",
+  "imp": 1,
+  "d": "Ur-Nammu trị vì khoảng 2112–2095 TCN và mở đầu Vương triều III của Ur. Thời kỳ này gắn với việc xây dựng công trình và củng cố bộ máy cai trị. Một trong những tập hợp điều luật sớm còn được biết đến mang tên Ur-Nammu.",
+  "fun": "Một tượng đồng thời Shulgi, người kế vị Ur-Nammu, thể hiện nhà vua đội giỏ vật liệu xây dựng. Hình ảnh nhà vua làm việc còn có ý nghĩa biểu tượng trong việc dựng đền.",
+  "consequencesTitle": "Xây dựng và luật lệ cùng gắn với quyền lực nhà nước",
+  "consequences": "Công trình tôn giáo, hoạt động chính trị và văn bản cho thấy nhiều cách tổ chức quyền lực. Không nên từ một bộ luật suy ra mọi tranh chấp thực tế đều được giải quyết đúng theo các điều còn lưu lại.",
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/it/toah/hd/meru/hd_meru.htm",
+      "title": "The Met — Danh sách vua Lưỡng Hà",
+      "scope": "Niên đại Ur-Nammu và Shulgi."
+    },
+    {
+      "url": "https://collections.penn.museum/collections/highlights/neareast/ram.php",
+      "title": "Penn Museum — Ur và nhà nước thời Ur III",
+      "scope": "Xây dựng và củng cố quyền lực nhà nước."
+    },
+    {
+      "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Guide_to_the_Collections_Ancient_Near_Eastern_Art.pdf",
+      "title": "The Met — Hướng dẫn bộ sưu tập Cận Đông cổ đại",
+      "scope": "Tập hợp luật gắn Ur-Nammu và tượng Shulgi đội giỏ xây đền."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/it/toah/hd/meru/hd_meru.htm"
+},
 
-    { id: 'wa-gilgamesh-2100tcn', y: -2100, ca: true, date: 'Từ khoảng 2100 TCN', r: 'Lưỡng Hà', t: 'Sử thi Gilgamesh', c: 'cul', imp: 2,
-      d: 'Những bài thơ về Gilgamesh, vị vua huyền thoại của thành Uruk, được chép lại từ khoảng thời Ur III, rồi về sau ghép thành bộ sử thi hoàn chỉnh. Truyện kể về tình bạn giữa Gilgamesh và người bạn hoang dã Enkidu, về hành trình đi tìm sự bất tử và bài học rằng con người không ai thoát khỏi cái chết.',
-      why: 'Là một trong những tác phẩm văn học cổ nhất còn lại của loài người, đặt ra những câu hỏi về tình bạn và ý nghĩa cuộc sống vẫn còn nguyên giá trị.',
-      fun: 'Trong sử thi có chuyện trận đại hồng thủy và một người được báo trước để đóng thuyền lớn cứu muôn loài, rất giống chuyện con tàu Noah trong Kinh Thánh.',
-      alt: 'Gilgamesh không tìm được thuốc trường sinh, nhưng tên ông vẫn “sống” hơn 4000 năm nhờ văn chương. Có lẽ đó mới là kiểu bất tử thật sự.' },
+    {
+  "id": "wa-gilgamesh-2100tcn",
+  "y": -2100,
+  "ca": true,
+  "date": "Cuối thiên niên kỷ III TCN và các bản viết lại về sau",
+  "r": "Lưỡng Hà",
+  "t": "Gilgamesh: câu chuyện được viết lại qua nhiều thời đại",
+  "c": "cul",
+  "imp": 2,
+  "d": "Những truyện Sumer về Gilgamesh gắn với truyền thống cung đình Ur III vào cuối thiên niên kỷ III TCN và được chép trong trường học thời Cổ Babylon. Chúng chưa phải một bộ sử thi thống nhất. Những bản tiếng Akkad về sau tiếp tục kết hợp và viết lại chất liệu cũ.",
+  "fun": "Trong một truyện Sumer, Enkidu là người hầu của Gilgamesh; ở bản sử thi về sau, ông trở thành người bạn đồng hành. Nhân vật không giữ nguyên vai trò qua mọi phiên bản.",
+  "consequencesTitle": "Mỗi lần kể lại có thể thay đổi trọng tâm câu chuyện",
+  "consequences": "Các phiên bản phát triển những câu hỏi về tình bạn, trách nhiệm của người cai trị và giới hạn đời người. Mốc 2100 TCN là tham chiếu cho truyền thống sớm, không phải năm hoàn thành bản sử thi quen thuộc ngày nay.",
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/ko/essays/gilgamesh",
+      "title": "The Met — Gilgamesh",
+      "scope": "Truyền thống Ur III, việc sao chép ở trường học Cổ Babylon, nhiều phiên bản và sự thay đổi vai trò Enkidu."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/ko/essays/gilgamesh"
+},
 
     { id: 'wa-luat-hammurabi-1754tcn', y: -1754, ca: true, date: 'Khoảng 1754 TCN', r: 'Babylon (Iraq)', who: 'Vua Hammurabi', t: 'Bộ luật Hammurabi', c: 'pol', imp: 3,
       d: 'Vua Hammurabi thống nhất Lưỡng Hà rồi cho khắc 282 điều luật lên một cột đá bazan cao hơn 2 m, dựng nơi công cộng để mọi người cùng biết. Luật quy định từ buôn bán, thuê mướn, hôn nhân đến trộm cắp; nổi tiếng nhất là nguyên tắc “mắt đền mắt, răng đền răng”, dù mức phạt còn phân biệt quý tộc, dân thường và nô lệ.',
@@ -3676,8 +4110,24 @@ TL_DATA.push({
       d: 'Một “bức màn sắt” chia châu Âu thành phía tây theo Mỹ và phía đông theo Liên Xô. Hai bên chạy đua vũ trang, chạy đua vào vũ trụ, nhưng không trực tiếp bắn nhau.' },
     { id: 'eu-p-hoi-nhap', s: 1991, e: 2026, t: 'Châu Âu hội nhập', g: 'a',
       d: 'Sau Chiến tranh Lạnh, nhiều nước Đông Âu gia nhập Liên minh châu Âu, người dân đi lại không cần kiểm tra hộ chiếu trong khối Schengen và nhiều nước dùng chung đồng euro.' },
-    { id: 'eu-p-crete-mycenae', s: -2000, e: -1100, t: 'Văn minh Crete – Mycenae', g: 'b', r: 'Hy Lạp',
-      d: 'Nền văn minh đầu tiên của châu Âu nảy nở trên đảo Crete với những cung điện lớn, rồi lan sang người Mycenae ở lục địa Hy Lạp, những chiến binh trong thần thoại thành Troy.' },
+    {
+  "id": "eu-p-crete-mycenae",
+  "s": -2000,
+  "e": -1100,
+  "t": "Văn minh Crete – Mycenae",
+  "g": "b",
+  "r": "Hy Lạp",
+  "d": "Các trung tâm cung điện phát triển trên Crete khoảng 1900 TCN. Từ khoảng 1500 TCN, ảnh hưởng Mycenae từ lục địa tăng lên; hiện vật thể hiện sự pha trộn phong cách. Không nên coi đây là một nền văn minh đơn nhất chỉ lan theo một chiều.",
+  "ca": true,
+  "ref": "https://www.metmuseum.org/essays/minoan-crete",
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/essays/minoan-crete",
+      "title": "The Met — Minoan Crete",
+      "scope": "Cung điện Crete, giao thương, ảnh hưởng Mycenae và sự pha trộn phong cách; khung thời gian xấp xỉ."
+    }
+  ]
+},
     { id: 'eu-p-cong-hoa-la-ma', s: -509, e: -27, t: 'Cộng hòa La Mã', g: 'b', r: 'La Mã (Ý)',
       d: 'Rome không có vua, do hai quan chấp chính bầu hằng năm và Viện Nguyên lão điều hành. Từ một thành nhỏ, La Mã chinh phục toàn bộ vùng Địa Trung Hải.' },
     { id: 'eu-p-de-che-la-ma', s: -27, e: 395, t: 'Đế chế La Mã', g: 'b', r: 'La Mã (Ý)',
@@ -3700,15 +4150,61 @@ TL_DATA.push({
       why: 'Ötzi là “cỗ máy thời gian” hiếm hoi giúp ta biết người châu Âu thời đồ đá ăn gì, mặc gì, dùng công cụ ra sao.',
       fun: 'Trên người Ötzi có hơn 60 hình xăm, khiến ông thành một trong những “tín đồ xăm hình” lâu đời nhất từng được biết.',
       alt: 'Cùng thời Ötzi, người Sumer ở Lưỡng Hà đang bắt đầu viết chữ hình nêm, còn ở Việt Nam, cư dân thời đá mới đã biết làm gốm và trồng trọt.' },
-    { id: 'eu-stonehenge-2500tcn', y: -2500, ca: true, date: 'Khoảng 3000–2000 TCN', r: 'Anh', t: 'Vòng đá khổng lồ Stonehenge', c: 'cul', imp: 2,
-      place: 'Đồng bằng Salisbury, miền nam nước Anh',
-      d: 'Người thời đồ đá xây Stonehenge qua nhiều giai đoạn trong khoảng một nghìn năm. Những khối đá lớn nặng hàng chục tấn được dựng thành vòng tròn, xếp theo hướng mặt trời mọc ngày hạ chí và lặn ngày đông chí. Không ai biết chắc nó là đền thờ, nơi chôn cất hay một loại lịch.',
-      why: 'Công trình cho thấy người tiền sử đã biết tổ chức sức lao động lớn và quan sát bầu trời rất tinh tế.',
-      fun: 'Năm 2024, các nhà địa chất xác định khối “Đá Bàn Thờ” nặng khoảng 6 tấn được chở tới từ tận đông bắc Scotland, cách hơn 700 km — không xe, không đường, không bản đồ.' },
-    { id: 'eu-knossos-1900tcn', y: -1900, ca: true, date: 'Khoảng 1900 TCN', r: 'Hy Lạp (đảo Crete)', t: 'Cung điện Knossos trên đảo Crete', c: 'cul', imp: 2,
-      d: 'Người Minoan trên đảo Crete xây những cung điện lớn nhiều tầng, có tranh tường rực rỡ và cả hệ thống cống thoát nước. Họ buôn bán khắp Địa Trung Hải và dùng một loại chữ viết mà đến nay vẫn chưa ai giải mã được.',
-      why: 'Đây là nền văn minh đầu tiên của châu Âu, mở đường cho văn hóa Hy Lạp sau này.',
-      fun: 'Cung điện có quá nhiều phòng ốc ngoằn ngoèo đến mức có giả thuyết cho rằng nó gợi cảm hứng cho thần thoại mê cung giam quái vật đầu bò Minotaur.' },
+    {
+  "id": "eu-stonehenge-2500tcn",
+  "y": -2500,
+  "ca": true,
+  "date": "Từ khoảng 3000 TCN; dựng đá lớn khoảng 2500 TCN",
+  "r": "Anh",
+  "t": "Stonehenge được xây qua nhiều giai đoạn",
+  "c": "cul",
+  "imp": 2,
+  "place": "Đồng bằng Salisbury, miền nam nước Anh",
+  "d": "Khoảng 3000 TCN, tại Stonehenge đã có vòng hào và bờ đất; nơi này được dùng chôn hỏa táng trong nhiều thế kỷ. Khoảng 2500 TCN, các khối đá sarsen lớn được dựng lên. Công trình tiếp tục thay đổi về sau, nên không thể gói lịch sử của nó vào một lần xây.",
+  "fun": "Nghiên cứu năm 2024 truy nguồn Đá Bàn Thờ về vùng bồn địa Orcadian ở Scotland, cách ít nhất 750 km. Thành phần khoáng vật giúp xác định nguồn đá; đường vận chuyển cụ thể vẫn là giả thuyết.",
+  "consequencesTitle": "Từ khu chôn cất đến công trình đá qua nhiều thế hệ",
+  "consequences": "Bằng chứng mộ táng cho thấy đây từng là nơi chôn người, dù toàn bộ ý nghĩa nghi lễ và những thay đổi công năng vẫn cần nghiên cứu.",
+  "refs": [
+    {
+      "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/history-and-stories/timeline",
+      "title": "English Heritage — Timeline Stonehenge",
+      "scope": "Các giai đoạn khoảng 3000 và 2500 TCN, chôn hỏa táng và thay đổi công trình."
+    },
+    {
+      "url": "https://www.nature.com/articles/s41586-024-07652-1",
+      "title": "Nature — A Scottish provenance for the Altar Stone of Stonehenge",
+      "scope": "Nguồn Đá Bàn Thờ tại bồn địa Orcadian, khoảng cách tối thiểu và giới hạn suy luận về vận chuyển."
+    }
+  ],
+  "ref": "https://www.english-heritage.org.uk/visit/places/stonehenge/history-and-stories/timeline"
+},
+    {
+  "id": "eu-knossos-1900tcn",
+  "y": -1900,
+  "ca": true,
+  "date": "Giai đoạn cung điện đầu tiên, khoảng 1900–1700 TCN",
+  "r": "Hy Lạp (đảo Crete)",
+  "t": "Knossos và hoạt động quản lý trong cung điện",
+  "c": "cul",
+  "imp": 2,
+  "d": "Tại Knossos trên đảo Crete, giai đoạn cung điện đầu tiên thường được đặt khoảng 1900–1700 TCN. Những vật bằng đất sét dùng ghi chép và đóng dấu còn lại cho thấy hoạt động kiểm soát hàng hóa. Đây là một giai đoạn trong lịch sử nhiều lớp của khu cung điện.",
+  "fun": "Một mảnh đất sét hình lưỡi liềm ở Knossos có lỗ để luồn dây và nhiều dấu đóng. Vật nhỏ như vậy có thể lưu lại dấu vết quản lý hàng hóa mà kiến trúc lớn không kể được.",
+  "consequencesTitle": "Hàng hóa đi cùng dấu niêm và bản ghi",
+  "consequences": "Các dấu và văn bản cho phép nghiên cứu cách tổ chức công việc, thay vì chỉ nhìn cung điện như một công trình kiến trúc. Bảo tàng Heraklion ghi nhận chữ tượng hình Crete và Linear A cùng được sử dụng trong giai đoạn cung điện sớm.",
+  "refs": [
+    {
+      "url": "https://ca.heraklionmuseum.gr/ca/pawtucket/index.php/Detail/objects/381",
+      "title": "Bảo tàng Heraklion — Dấu niêm đất sét Knossos",
+      "scope": "Giai đoạn cung điện đầu 1900–1700 TCN, vật có lỗ dây và dấu đóng, liên hệ quản lý hàng hóa."
+    },
+    {
+      "url": "https://ca.heraklionmuseum.gr/ca/pawtucket/index.php/Detail/objects/332",
+      "title": "Bảo tàng Heraklion — Chữ tượng hình Crete",
+      "scope": "Chữ tượng hình Crete và Linear A cùng được sử dụng."
+    }
+  ],
+  "ref": "https://ca.heraklionmuseum.gr/ca/pawtucket/index.php/Detail/objects/381"
+},
     { id: 'eu-troy-1200tcn', y: -1200, ca: true, date: 'Khoảng thế kỷ XIII–XII TCN', r: 'Hy Lạp', t: 'Người Mycenae và cuộc chiến thành Troy', c: 'war', imp: 2,
       place: 'Troy (Hisarlik, Thổ Nhĩ Kỳ ngày nay)',
       d: 'Theo thần thoại, liên quân Hy Lạp vây thành Troy suốt mười năm để giành lại nàng Helen. Các nhà khảo cổ đã tìm thấy di tích Troy ở Thổ Nhĩ Kỳ với dấu vết bị tàn phá khoảng năm 1180 TCN, cho thấy câu chuyện có thể dựa trên những cuộc chiến có thật của người Mycenae.',
@@ -4681,8 +5177,24 @@ TL_DATA.push({
     { id: 'am-p-latinh-dan-chu', s: 1983, e: 2026, t: 'Dân chủ hóa và hội nhập', g: 'a', r: 'Mỹ Latinh',
       d: 'Phần lớn các nước trở lại chính quyền dân cử, mở cửa kinh tế và hợp tác khu vực; Brazil, Mexico vươn lên thành những nền kinh tế lớn của thế giới.' },
     // Nhóm b: Andes → Bắc Mỹ
-    { id: 'am-p-caral', s: -3000, e: -1800, t: 'Văn minh Caral – Norte Chico', g: 'b', r: 'Peru',
-      d: 'Nền văn minh cổ nhất châu Mỹ, ven biển Peru: các thành phố có kim tự tháp, quảng trường, sống bằng nghề cá và trồng bông, ra đời cùng thời với Ai Cập cổ đại.' },
+    {
+  "id": "am-p-caral",
+  "s": -3000,
+  "e": -1800,
+  "t": "Văn minh Caral – Norte Chico",
+  "g": "b",
+  "r": "Peru",
+  "d": "Khung niên đại xấp xỉ cho các trung tâm cổ ở vùng Supe, Peru. Caral-Supe có kiến trúc nền cao và quảng trường tròn lõm, cung cấp bằng chứng về tổ chức cộng đồng trong thiên niên kỷ III TCN.",
+  "ca": true,
+  "ref": "https://whc.unesco.org/en/list/1269/",
+  "refs": [
+    {
+      "url": "https://whc.unesco.org/en/list/1269/",
+      "title": "UNESCO — Thành phố thiêng Caral-Supe",
+      "scope": "Khoảng niên đại di tích, kiến trúc nền cao và quảng trường tròn lõm; không khẳng định thứ hạng tuyệt đối."
+    }
+  ]
+},
     { id: 'am-p-chavin', s: -900, e: -200, t: 'Văn hóa Chavín', g: 'b', r: 'Peru',
       d: 'Nền văn hóa đầu tiên lan tỏa khắp vùng Andes, xoay quanh trung tâm hành hương Chavín de Huántar với nghệ thuật chạm khắc hình báo đốm, rắn và chim ưng.' },
     { id: 'am-p-nazca-moche', s: -100, e: 700, t: 'Nazca và Moche', g: 'b', r: 'Peru',
@@ -7309,9 +7821,35 @@ TL_PEOPLE.push({
 
 // Lát cắt nổi bật (cả thế giới trong cùng một năm) và liên kết giữa các làn.
 TL_SLICES.push(
-  { id: 'sl-2560tcn', y: -2560, t: 'Khoảng 2560 TCN: thời của những công trình khổng lồ',
-    d: 'Khoảng năm 2560 TCN, đất Việt Nam chưa có nhà nước hay chữ viết: cư dân thời đồ đá mới sống ven sông, ven biển và trong hang động, mài rìu đá, nặn gốm, bắt đầu trồng trọt. Truyền thuyết kể họ Hồng Bàng đã dựng nước từ năm 2879 TCN, nhưng phải đến khoảng năm 2000 TCN, văn hóa Phùng Nguyên mới mở đầu thời kim khí ở miền Bắc. Cùng lúc ấy, ở Ai Cập, kim tự tháp của pharaoh Khufu vừa mọc lên, cao khoảng 146 m, giữ kỷ lục công trình cao nhất thế giới hơn 3.800 năm. Bên sông Ấn, Mohenjo-daro có phố xá kẻ ô và cống ngầm; ở Lưỡng Hà, người Sumer đã dùng chữ hình nêm hơn sáu thế kỷ; ở Anh, Stonehenge đang được dựng dần; còn ở Peru, người Caral cũng đắp kim tự tháp của riêng mình. Nếu vẽ bản đồ thế giới năm ấy, ta sẽ thấy những đốm sáng rời rạc chẳng hề biết nhau, nhưng đều đang làm cùng một việc: biến làng thành đô thị, biến đất đá thành những công trình sống lâu hơn cả người dựng nên chúng.',
-    ev: ['vn-tien-su-3500tcn', 'vn-hong-bang-2879tcn', 'vn-phung-nguyen-2000tcn', 'wa-kim-tu-thap-giza-2560tcn', 'sa-van-minh-song-an-2600tcn', 'wa-chu-hinh-nem-3200tcn', 'eu-stonehenge-2500tcn', 'am-caral-2600tcn'] },
+  {
+  "id": "sl-2560tcn",
+  "y": -2560,
+  "t": "Thiên niên kỷ III TCN: những công trình qua nhiều thế hệ",
+  "d": "Ở Giza, các vua Ai Cập cho xây kim tự tháp; tại Caral-Supe, Peru, có những nền kiến trúc lớn và quảng trường tròn lõm. Stonehenge ở Anh trải qua nhiều giai đoạn xây dựng, với vòng hào khoảng 3000 TCN và đá lớn khoảng 2500 TCN. Các mốc này là xấp xỉ, không có nghĩa mọi công trình xuất hiện cùng một năm. Đặt cạnh nhau giúp thấy những cộng đồng khác nhau tổ chức không gian chung theo những cách khác nhau; riêng sự gần nhau về thời gian chưa chứng minh họ có liên hệ trực tiếp.",
+  "ev": [
+    "wa-kim-tu-thap-giza-2560tcn",
+    "eu-stonehenge-2500tcn",
+    "am-caral-2600tcn"
+  ],
+  "ref": "https://www.metmuseum.org/it/press-releases/landmark-exhibition-of-egyptian-art-opens-at-metropolitan-museum-on-september-16-1999-exhibitions",
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/it/press-releases/landmark-exhibition-of-egyptian-art-opens-at-metropolitan-museum-on-september-16-1999-exhibitions",
+      "title": "The Met — Nghệ thuật Ai Cập thời Kim tự tháp",
+      "scope": "Vương triều IV, ba vua xây kim tự tháp ở Giza, khoảng niên đại và các dạng tên Hy Lạp."
+    },
+    {
+      "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/history-and-stories/timeline",
+      "title": "English Heritage — Timeline Stonehenge",
+      "scope": "Các giai đoạn khoảng 3000 và 2500 TCN, chôn hỏa táng và thay đổi công trình."
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1269/",
+      "title": "UNESCO — Thành phố thiêng Caral-Supe",
+      "scope": "Khoảng niên đại di tích, kiến trúc nền cao và quảng trường tròn lõm; không khẳng định thứ hạng tuyệt đối."
+    }
+  ]
+},
 
   { id: 'sl-500tcn', y: -500, t: 'Khoảng 500 TCN: thời của các nhà hiền triết',
     d: 'Khoảng năm 500 TCN, nước Văn Lang của các vua Hùng đang ở thời rực rỡ của văn hóa Đông Sơn. Người Lạc Việt chưa để lại sách vở, nhưng đã “viết” thế giới của mình lên mặt trống đồng: nhà sàn, thuyền đua, người giã gạo, chim Lạc bay quanh ngôi sao giữa trống. Cũng trong mấy chục năm ấy, nhiều nơi trên thế giới bỗng cùng nghĩ về cách làm người. Ở nước Lỗ, Khổng Tử ngoài 50 tuổi vừa làm quan vừa dạy học trò về lễ, nghĩa; ở lưu vực sông Hằng, theo niên đại truyền thống, Đức Phật đang giảng con đường trung đạo; ở miền nam nước Ý, học trò của Pythagoras tin rằng vũ trụ vận hành bằng con số. Cách cai trị cũng đang được nghĩ lại: năm 509 TCN người La Mã đuổi vua, lập cộng hòa; năm 508 TCN Athens trao quyền cho Đại hội công dân; còn vua Ba Tư Darius I nối đế quốc mênh mông bằng Con đường Hoàng gia dài khoảng 2.700 km. Nếu năm ấy có hội thảo triết học toàn cầu, danh sách diễn giả hẳn “đỉnh” chưa từng có, chỉ tiếc là chẳng ai biết đường đến.',

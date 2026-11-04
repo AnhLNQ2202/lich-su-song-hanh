@@ -35,7 +35,7 @@ for (const slice of slices) {
   highlights.get(anchor.id).push(slice);
 }
 function highlightHTML(item) {
-  return (highlights.get(item.id)||[]).map(slice=>'<details class="event-highlight" id="highlight-'+slice.id+'"><summary><span class="edition">Nhìn rộng ra</span><strong>'+escapeHTML(slice.title)+'</strong><span class="expand-hint">Mở câu chuyện cùng thời +</span></summary><div class="highlight-copy">'+paragraphs(slice.source.d)+'<div class="highlight-events">'+(slice.source.ev||[]).filter(id=>id!==item.id&&catalog.has(id)).map(id=>'<a href="'+href(catalog.get(id))+'">'+escapeHTML(catalog.get(id).title)+' →</a>').join('')+'</div></div></details>').join('');
+  return (highlights.get(item.id)||[]).map(slice=>'<details class="event-highlight" id="highlight-'+slice.id+'"><summary><span class="edition">Nhìn rộng ra</span><strong>'+escapeHTML(slice.title)+'</strong><span class="expand-hint">Mở câu chuyện cùng thời +</span></summary><div class="highlight-copy">'+paragraphs(slice.source.d)+'<div class="highlight-events">'+(slice.source.ev||[]).filter(id=>id!==item.id&&catalog.has(id)).map(id=>'<a href="'+href(catalog.get(id))+'">'+escapeHTML(catalog.get(id).title)+' →</a>').join('')+'</div>'+articleSources(slice.source)+'</div></details>').join('');
 }
 
 let current, comparisons = [], limit = 50;
