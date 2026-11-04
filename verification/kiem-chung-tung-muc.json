@@ -4110,21 +4110,6 @@
       ]
     },
     {
-      "id": "eu-np-euclid",
-      "title": "Euclid",
-      "year": -325,
-      "kind": "person",
-      "structuralCheck": "passed",
-      "reference": null,
-      "reviewPrompts": [
-        "chưa có nguồn gắn với mục",
-        "cần phân biệt lời trích, tên tác phẩm và cách diễn đạt",
-        "cần đối chiếu số liệu",
-        "cần giữ rõ tính chất truyền thuyết hoặc giai thoại"
-      ],
-      "fullTextCheck": "pending_claim_by_claim_review"
-    },
-    {
       "id": "sa-maurya-322tcn",
       "title": "Chandragupta lập Đế quốc Maurya",
       "year": -321,
@@ -4317,13 +4302,68 @@
       "year": -300,
       "kind": "event",
       "structuralCheck": "passed",
-      "reference": null,
+      "reference": "https://mathshistory.st-andrews.ac.uk/Biographies/Euclid/",
       "reviewPrompts": [
-        "chưa có nguồn gắn với mục",
         "cần phân biệt lời trích, tên tác phẩm và cách diễn đạt",
         "cần giữ rõ tính chất truyền thuyết hoặc giai thoại"
       ],
-      "fullTextCheck": "pending_claim_by_claim_review"
+      "fullTextCheck": "reviewed_scopes_listed",
+      "fieldReviewCheck": "reviewed_current_public_fields",
+      "scopes": [
+        {
+          "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Euclid/",
+          "title": "MacTutor, University of St Andrews — Euclid",
+          "scope": "Giới hạn tiểu sử, Alexandria, Cơ sở 13quyển, kế thừaEudoxus/Theaetetus, các quyển sốhọc và nhầm vớiEuclidMegara."
+        },
+        {
+          "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Archimedes/",
+          "title": "MacTutor, University of St Andrews — Archimedes",
+          "scope": "Khoảng287–212, Syracuse, văn bản thủytĩnh và hìnhcầu/hìnhtrụ, đa giác96cạnh tínhcậnπ, thư gửikếtquả và chuyện máyphòngthủđượcPlutarchkể."
+        },
+        {
+          "url": "https://www.cs.miami.edu/home/burt/manuscripts/archimedes/meas_circle.pdf",
+          "title": "Burton Rosenberg, University of Miami — Archimedes and Pi",
+          "scope": "Phân tích Proposition3:223/71<π<22/7 bằng đa giác nội/ngoại tiếp tới96cạnh."
+        }
+      ],
+      "lastReviewed": "2026-11-04",
+      "uncertainties": [
+        "Khung300–212chỉtổngquan các côngtrình/nhânvật, không phải một thờiđiểm chung."
+      ],
+      "decisions": [
+        "BỏEureka và câuđiểmtựa chưa đối chiếu bản gốc; dùng thuậttoán có thể kiểm tra và nguồn cụ thể.",
+        "Không diễn đạt cả môn hình học được một người tự xây từ đầu."
+      ]
+    },
+    {
+      "id": "eu-np-euclid",
+      "title": "Euclid",
+      "year": -300,
+      "kind": "person",
+      "structuralCheck": "passed",
+      "reference": "https://mathshistory.st-andrews.ac.uk/Biographies/Euclid/",
+      "reviewPrompts": [
+        "cần phân biệt lời trích, tên tác phẩm và cách diễn đạt",
+        "cần đối chiếu số liệu",
+        "cần giữ rõ tính chất truyền thuyết hoặc giai thoại"
+      ],
+      "fullTextCheck": "reviewed_scopes_listed",
+      "fieldReviewCheck": "reviewed_current_public_fields",
+      "scopes": [
+        {
+          "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Euclid/",
+          "title": "MacTutor, University of St Andrews — Euclid",
+          "scope": "Giới hạn tiểu sử, Alexandria, Cơ sở 13quyển, kế thừaEudoxus/Theaetetus, các quyển sốhọc và nhầm vớiEuclidMegara."
+        }
+      ],
+      "lastReviewed": "2026-11-04",
+      "uncertainties": [
+        "Ngày sinh/mất và nhiều chi tiết tiểu sử chưa biết chắc."
+      ],
+      "decisions": [
+        "Bỏ khung325–265 như đời người có thể suy tuổi; referenceOnly loại khỏi đối chiếu sống cùng thời.",
+        "Bỏ thứhạng sáchgiáokhoadùnglâunhất và giai thoạiđườngvua chưađốichiếuriêng."
+      ]
     },
     {
       "id": "eu-np-archimedes",
@@ -4331,11 +4371,25 @@
       "year": -287,
       "kind": "person",
       "structuralCheck": "passed",
-      "reference": null,
-      "reviewPrompts": [
-        "chưa có nguồn gắn với mục"
+      "reference": "https://mathshistory.st-andrews.ac.uk/Biographies/Archimedes/",
+      "reviewPrompts": [],
+      "fullTextCheck": "reviewed_scopes_listed",
+      "fieldReviewCheck": "reviewed_current_public_fields",
+      "scopes": [
+        {
+          "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Archimedes/",
+          "title": "MacTutor, University of St Andrews — Archimedes",
+          "scope": "Khoảng287–212, Syracuse, văn bản thủytĩnh và hìnhcầu/hìnhtrụ, đa giác96cạnh tínhcậnπ, thư gửikếtquả và chuyện máyphòngthủđượcPlutarchkể."
+        }
       ],
-      "fullTextCheck": "pending_claim_by_claim_review"
+      "lastReviewed": "2026-11-04",
+      "uncertainties": [
+        "Năm sinh287là xấp xỉ; các lời kể máyphòngthủ có khoảngcách với sự kiện."
+      ],
+      "decisions": [
+        "Chuyển mốc214khôngđượcràriêng sang212gắnvớivâyhãm/chiếmthành cónguồn; không gán mọi mô tả máy móc như chứng cứ trực tiếp.",
+        "BỏCicero140năm/mộ và so sánhTần–ÂuLạc khi chưa đối chiếu từng phần."
+      ]
     },
     {
       "id": "sa-vua-a-duc-kalinga-261tcn",
@@ -21149,8 +21203,8 @@
       "fullTextCheck": "pending_claim_by_claim_review"
     }
   ],
-  "scopedReviewCount": 271,
-  "pendingClaimReviewCount": 1136,
-  "currentPublicFieldReviewCount": 138,
-  "currentNarrativeReviewCount": 138
+  "scopedReviewCount": 274,
+  "pendingClaimReviewCount": 1133,
+  "currentPublicFieldReviewCount": 141,
+  "currentNarrativeReviewCount": 141
 }

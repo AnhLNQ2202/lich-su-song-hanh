@@ -4776,6 +4776,121 @@
         }
       ],
       "snapshotSHA256": "fbd3dfe83dba79000509ec578bf9b4306106db3ea224d3d733d67af083b70f86"
+    },
+    {
+      "id": "eu-np-euclid",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-10",
+      "decisions": [
+        "Bỏ khung325–265 như đời người có thể suy tuổi; referenceOnly loại khỏi đối chiếu sống cùng thời.",
+        "Bỏ thứhạng sáchgiáokhoadùnglâunhất và giai thoạiđườngvua chưađốichiếuriêng."
+      ],
+      "uncertainties": [
+        "Ngày sinh/mất và nhiều chi tiết tiểu sử chưa biết chắc."
+      ],
+      "fieldsReviewed": [
+        "n",
+        "b",
+        "d",
+        "cb",
+        "cd",
+        "role",
+        "r",
+        "k",
+        "act",
+        "bio",
+        "fun",
+        "ck",
+        "timeBasis",
+        "referenceOnly",
+        "lifeLabel",
+        "related"
+      ],
+      "sources": [
+        {
+          "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Euclid/",
+          "title": "MacTutor, University of St Andrews — Euclid",
+          "scope": "Giới hạn tiểu sử, Alexandria, Cơ sở 13quyển, kế thừaEudoxus/Theaetetus, các quyển sốhọc và nhầm vớiEuclidMegara."
+        }
+      ],
+      "snapshotSHA256": "1d7327102443b639faf7a2b6fbf7865813837d814963adabdcf887824113524c"
+    },
+    {
+      "id": "eu-np-archimedes",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-10",
+      "decisions": [
+        "Chuyển mốc214khôngđượcràriêng sang212gắnvớivâyhãm/chiếmthành cónguồn; không gán mọi mô tả máy móc như chứng cứ trực tiếp.",
+        "BỏCicero140năm/mộ và so sánhTần–ÂuLạc khi chưa đối chiếu từng phần."
+      ],
+      "uncertainties": [
+        "Năm sinh287là xấp xỉ; các lời kể máyphòngthủ có khoảngcách với sự kiện."
+      ],
+      "fieldsReviewed": [
+        "n",
+        "b",
+        "d",
+        "cb",
+        "role",
+        "r",
+        "k",
+        "act",
+        "bio",
+        "fun",
+        "related"
+      ],
+      "sources": [
+        {
+          "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Archimedes/",
+          "title": "MacTutor, University of St Andrews — Archimedes",
+          "scope": "Khoảng287–212, Syracuse, văn bản thủytĩnh và hìnhcầu/hìnhtrụ, đa giác96cạnh tínhcậnπ, thư gửikếtquả và chuyện máyphòngthủđượcPlutarchkể."
+        }
+      ],
+      "snapshotSHA256": "90cc9e71037c59c3149e28907aff26ce4ab9d066e73daa1d11b063dc8cf44d4a"
+    },
+    {
+      "id": "eu-euclid-archimedes-300tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-10",
+      "decisions": [
+        "BỏEureka và câuđiểmtựa chưa đối chiếu bản gốc; dùng thuậttoán có thể kiểm tra và nguồn cụ thể.",
+        "Không diễn đạt cả môn hình học được một người tự xây từ đầu."
+      ],
+      "uncertainties": [
+        "Khung300–212chỉtổngquan các côngtrình/nhânvật, không phải một thờiđiểm chung."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "y2",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "who",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences",
+        "related"
+      ],
+      "sources": [
+        {
+          "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Euclid/",
+          "title": "MacTutor, University of St Andrews — Euclid",
+          "scope": "Giới hạn tiểu sử, Alexandria, Cơ sở 13quyển, kế thừaEudoxus/Theaetetus, các quyển sốhọc và nhầm vớiEuclidMegara."
+        },
+        {
+          "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Archimedes/",
+          "title": "MacTutor, University of St Andrews — Archimedes",
+          "scope": "Khoảng287–212, Syracuse, văn bản thủytĩnh và hìnhcầu/hìnhtrụ, đa giác96cạnh tínhcậnπ, thư gửikếtquả và chuyện máyphòngthủđượcPlutarchkể."
+        },
+        {
+          "url": "https://www.cs.miami.edu/home/burt/manuscripts/archimedes/meas_circle.pdf",
+          "title": "Burton Rosenberg, University of Miami — Archimedes and Pi",
+          "scope": "Phân tích Proposition3:223/71<π<22/7 bằng đa giác nội/ngoại tiếp tới96cạnh."
+        }
+      ],
+      "snapshotSHA256": "b35bcdb6bb3c8ddf0c4b625a9216e1b025fa1c4e7f9e809a6423b99cf47834d5"
     }
   ],
   "updatedAt": "2026-11-04"

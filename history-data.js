@@ -6111,11 +6111,54 @@ TL_DATA.push({
   ],
   "ref": "https://plato.stanford.edu/entries/aristotle/"
 },
-    { id: 'eu-euclid-archimedes-300tcn', y: -300, y2: -212, ca: true, date: 'Khoảng 300–212 TCN', r: 'Hy Lạp', t: 'Euclid, Archimedes và toán học Hy Lạp', c: 'sci', imp: 2, who: 'Euclid, Archimedes',
-      d: 'Euclid viết bộ “Cơ sở” gồm 13 quyển, xây dựng cả môn hình học từ vài tiên đề đơn giản. Ít lâu sau, Archimedes ở Syracuse tìm ra nguyên lý lực đẩy của chất lỏng, nguyên lý đòn bẩy và tính số pi chính xác đến kinh ngạc.',
-      why: 'Hình học Euclid được dạy liên tục hơn 2.000 năm và vẫn là nền tảng của môn hình học ở trường phổ thông.',
-      fun: 'Theo giai thoại, khi nghĩ ra nguyên lý lực đẩy lúc đang tắm, Archimedes mừng quá chạy ra phố hét “Eureka!” (Tìm ra rồi!) mà quên cả mặc quần áo.',
-      alt: 'Archimedes từng nói: “Hãy cho tôi một điểm tựa, tôi sẽ nâng cả Trái Đất”, câu nói vẫn được trích dẫn mỗi khi bàn về sức mạnh của khoa học.' },
+    {
+  "id": "eu-euclid-archimedes-300tcn",
+  "y": -300,
+  "y2": -212,
+  "ca": true,
+  "date": "Tổng quan khoảng 300–212 TCN; không phải niên đại một phát minh",
+  "r": "Hy Lạp",
+  "t": "Euclid, Archimedes và toán học Hy Lạp",
+  "c": "sci",
+  "imp": 2,
+  "who": "Euclid, Archimedes",
+  "d": "Cơ sở của Euclid gồm 13 quyển, đi từ hình học tới cả các vấn đề về số. Archimedes về sau dùng lập luận hình học cho những câu hỏi về vật nổi và đo đường tròn. Hai cái tên cho thấy nhiều cách làm toán: sắp xếp kết quả thành hệ thống, tìm quan hệ và chứng minh điều vừa tìm ra.",
+  "fun": "Để kẹp giá trịπ giữa hai cận, Archimedes dùng đa giác đều 96 cạnh ở trong và ngoài đường tròn. Ông tìm khoảng 3 + 10/71 < π < 3 + 1/7. Chưa có máy tính bỏ túi, nhưng đã có cách làm sai số “khó chạy thoát”.",
+  "consequencesTitle": "Biết kết quả rồi, còn phải giải thích vì sao",
+  "consequences": "Giá trị nằm cả ở đường đi tới kết luận. Cơ sở kế thừa người đi trước, còn các tác phẩm của Archimedes cho phép theo dõi những lập luận cụ thể thay vì chỉ nhớ một giai thoại phát minh.",
+  "related": [
+    {
+      "id": "eu-np-euclid",
+      "kind": "connection",
+      "text": "Một tác phẩm được biết rõ hơn nhiều so với cuộc đời người mang tên nó.",
+      "ref": "https://mathshistory.st-andrews.ac.uk/Biographies/Euclid/"
+    },
+    {
+      "id": "eu-np-archimedes",
+      "kind": "connection",
+      "text": "Những công trình và lời kể về Archimedes ở Syracuse.",
+      "ref": "https://mathshistory.st-andrews.ac.uk/Biographies/Archimedes/"
+    }
+  ],
+  "refs": [
+    {
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Euclid/",
+      "title": "MacTutor, University of St Andrews — Euclid",
+      "scope": "Giới hạn tiểu sử, Alexandria, Cơ sở 13quyển, kế thừaEudoxus/Theaetetus, các quyển sốhọc và nhầm vớiEuclidMegara."
+    },
+    {
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Archimedes/",
+      "title": "MacTutor, University of St Andrews — Archimedes",
+      "scope": "Khoảng287–212, Syracuse, văn bản thủytĩnh và hìnhcầu/hìnhtrụ, đa giác96cạnh tínhcậnπ, thư gửikếtquả và chuyện máyphòngthủđượcPlutarchkể."
+    },
+    {
+      "url": "https://www.cs.miami.edu/home/burt/manuscripts/archimedes/meas_circle.pdf",
+      "title": "Burton Rosenberg, University of Miami — Archimedes and Pi",
+      "scope": "Phân tích Proposition3:223/71<π<22/7 bằng đa giác nội/ngoại tiếp tới96cạnh."
+    }
+  ],
+  "ref": "https://mathshistory.st-andrews.ac.uk/Biographies/Euclid/"
+},
     { id: 'eu-hannibal-218tcn', y: -218, y2: -201, r: 'La Mã (Ý)', t: 'Hannibal dẫn voi vượt dãy Alps', c: 'war', imp: 2, who: 'Hannibal',
       d: 'Trong cuộc chiến giữa La Mã và Carthage (Bắc Phi), tướng Hannibal làm điều không ai ngờ: dẫn quân và hàng chục con voi chiến vượt dãy Alps phủ tuyết để đánh thẳng vào nước Ý. Ông thắng nhiều trận lớn, nhưng cuối cùng Carthage vẫn thua năm 202 TCN.',
       why: 'Chiến thắng trước Carthage giúp La Mã làm chủ phía tây Địa Trung Hải và bước lên vị trí siêu cường.',
@@ -9713,17 +9756,73 @@ TL_PEOPLE.push({
   ],
   "ref": "https://www.iranicaonline.org/articles/alexander-the-great-356-23-bc/"
 },
-    { id: 'eu-np-euclid', n: 'Euclid', b: -325, d: -265, cb: true, cd: true,
-      role: 'Nhà toán học, “cha đẻ của hình học”', r: 'Hy Lạp (Alexandria)', c: 'sci', imp: 2,
-      k: -300, act: 'biên soạn bộ sách Cơ sở (Elements) ở Alexandria',
-      bio: 'Gần như không ai biết gì về đời tư của Euclid, kể cả năm sinh, năm mất; chỉ biết ông dạy học ở Alexandria (Ai Cập) thời vua Ptolemy I. Bộ Cơ sở gồm 13 quyển của ông xây dựng cả môn hình học từ vài định nghĩa và tiên đề đơn giản, rồi từng bước chứng minh hàng trăm định lý. Đây là sách giáo khoa được dùng lâu nhất lịch sử, và hình học ở trường phổ thông ngày nay vẫn gọi là “hình học Euclid”.',
-      fun: 'Tương truyền khi vua Ptolemy I hỏi có cách nào học hình học nhanh hơn đọc bộ Cơ sở không, Euclid đáp: “Không có con đường nào dành riêng cho vua chúa để đến với hình học.”' },
-    { id: 'eu-np-archimedes', n: 'Archimedes', b: -287, d: -212, cb: true,
-      role: 'Nhà toán học, nhà phát minh', r: 'Syracuse (đảo Sicilia)', c: 'sci', imp: 2,
-      k: -214, act: 'chế tạo máy móc giúp thành Syracuse chống lại cuộc vây hãm của La Mã',
-      bio: 'Sống ở thành Syracuse của người Hy Lạp trên đảo Sicilia, Archimedes tính được số pi chính xác tới hai chữ số thập phân, tìm ra công thức thể tích hình cầu và nguyên lý lực đẩy của chất lỏng mà học sinh ngày nay vẫn học. Ông còn nghiên cứu đòn bẩy, ròng rọc và chế tạo máy bắn đá, cần cẩu để bảo vệ thành. Ông thiệt mạng khi quân La Mã chiếm Syracuse năm 212 TCN.',
-      fun: 'Ông muốn trên mộ mình khắc hình một quả cầu nằm trong hình trụ, vì tự hào nhất là đã chứng minh thể tích quả cầu bằng hai phần ba thể tích hình trụ ấy; gần 140 năm sau, Cicero tìm ra ngôi mộ nhờ chính hình khắc này.',
-      same: 'Khi Archimedes giúp Syracuse chống quân La Mã (214–212 TCN), Tần Thủy Hoàng đã thống nhất Trung Hoa được bảy năm và đang cho nối dài Vạn Lý Trường Thành; chỉ ít năm sau, Thục Phán lập nước Âu Lạc (208 TCN).' },
+    {
+  "id": "eu-np-euclid",
+  "n": "Euclid",
+  "b": -300,
+  "d": -300,
+  "cb": true,
+  "cd": true,
+  "role": "Nhà toán học gắn với bộ Cơ sở",
+  "r": "Hy Lạp (Alexandria)",
+  "c": "sci",
+  "imp": 2,
+  "k": -300,
+  "act": "được gắn với việc dạy toán ở Alexandria và biên soạn Cơ sở",
+  "bio": "Ta biết rất ít về cuộc đời Euclid, nhưng bộ Cơ sở để lại một cách trình bày toán học có ảnh hưởng lâu dài. Tác phẩm sắp xếp, phát triển cả những kết quả của người đi trước. Những năm sinh–mất thường thấy chỉ là ước tính; hồ sơ này dùng một mốc tra cứu thay vì dựng tuổi thọ chắc chắn.",
+  "fun": "Euclid thành Alexandria từng bị nhầm với Euclid thành Megara, một triết gia sống sớm hơn khoảng một thế kỷ. Tên giống nhau đã khiến hai hồ sơ bị ghép nhầm từ rất lâu trước thời tìm kiếm trên mạng.",
+  "ck": true,
+  "timeBasis": "reference",
+  "referenceOnly": true,
+  "lifeLabel": "Tiểu sử chưa rõ; 300 TCN chỉ là mốc tra cứu",
+  "related": [
+    {
+      "id": "eu-euclid-archimedes-300tcn",
+      "kind": "connection",
+      "text": "Khám phá cách lập luận trong Cơ sở và các bài toán của Archimedes.",
+      "ref": "https://mathshistory.st-andrews.ac.uk/Biographies/Euclid/"
+    }
+  ],
+  "refs": [
+    {
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Euclid/",
+      "title": "MacTutor, University of St Andrews — Euclid",
+      "scope": "Giới hạn tiểu sử, Alexandria, Cơ sở 13quyển, kế thừaEudoxus/Theaetetus, các quyển sốhọc và nhầm vớiEuclidMegara."
+    }
+  ],
+  "ref": "https://mathshistory.st-andrews.ac.uk/Biographies/Euclid/"
+},
+    {
+  "id": "eu-np-archimedes",
+  "n": "Archimedes",
+  "b": -287,
+  "d": -212,
+  "cb": true,
+  "role": "Nhà toán học, nhà phát minh",
+  "r": "Syracuse (đảo Sicilia)",
+  "c": "sci",
+  "imp": 2,
+  "k": -212,
+  "act": "được kể là đã thiết kế máy móc giúp bảo vệ Syracuse trong cuộc vây hãm của La Mã",
+  "bio": "Archimedes ở Syracuse nghiên cứu hình học, cơ học và vật nổi trong chất lỏng. Ông chứng minh quan hệ thể tích giữa quả cầu và hình trụ ngoại tiếp, đồng thời đặt cận cho số π. Ông mất khi La Mã chiếm Syracuse năm 212 TCN; chuyện các máy phòng thủ được truyền lại qua tác giả như Plutarch.",
+  "fun": "Trong lời mở đầu một tác phẩm, Archimedes nói mình gửi cả hai mệnh đề sai để thử những người nhận vơ kết quả mà không đưa chứng minh. Một lời nhắc khá sắc: khoe “tôi cũng tìm ra rồi” chưa đủ.",
+  "related": [
+    {
+      "id": "eu-euclid-archimedes-300tcn",
+      "kind": "connection",
+      "text": "Một ví dụ cụ thể về cách Archimedes đặt cận cho số π.",
+      "ref": "https://mathshistory.st-andrews.ac.uk/Biographies/Archimedes/"
+    }
+  ],
+  "refs": [
+    {
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Archimedes/",
+      "title": "MacTutor, University of St Andrews — Archimedes",
+      "scope": "Khoảng287–212, Syracuse, văn bản thủytĩnh và hìnhcầu/hìnhtrụ, đa giác96cạnh tínhcậnπ, thư gửikếtquả và chuyện máyphòngthủđượcPlutarchkể."
+    }
+  ],
+  "ref": "https://mathshistory.st-andrews.ac.uk/Biographies/Archimedes/"
+},
     { id: 'eu-np-hannibal', n: 'Hannibal', b: -247, d: -183, cd: true,
       role: 'Danh tướng thành Carthage', r: 'Carthage (Bắc Phi)', c: 'war', imp: 2,
       k: -218, act: 'dẫn quân cùng đàn voi chiến vượt dãy Alps để tấn công La Mã',
