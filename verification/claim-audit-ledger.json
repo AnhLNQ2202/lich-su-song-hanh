@@ -4975,6 +4975,124 @@
         }
       ],
       "snapshotSHA256": "2e10d639398a5c9e627b58fca12322314d8feffa538612acaa15fe785c62f7a8"
+    },
+    {
+      "id": "sa-vua-a-duc-kalinga-261tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-12",
+      "decisions": [
+        "Không gán việc quyPhậtgiáo tức thời chỉvì trậnđánh;tiểuchỉdụ mô tả nhiều giai đoạn.",
+        "Bỏ hàngchụcvạn như sốthươngvongđãxácnhận,quan hệtruyền bátrực tiếp mọinơivàquốchuy/quốckỳ chưađốichiếuriêng."
+      ],
+      "uncertainties": [
+        "261TCNlàmốcxấpxỉ;nguồnkhắcghi nămthứ8sauđăngquang,lờituyênbốkhôngchứngminhđộthànhcôngthựctế."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "who",
+        "d",
+        "fun",
+        "alt",
+        "consequencesTitle",
+        "consequences",
+        "altTitle"
+      ],
+      "sources": [
+        {
+          "url": "https://open.oregonstate.education/ancientcivilizations/chapter/edicts-of-ashoka/",
+          "title": "Oregon State University — The Edicts of Ashoka",
+          "scope": "Giới thiệu niênđại304–232vàKalingakhoảng 261;tríchbảndịchNikam/McKeon1959Chỉdụ XIII,lờinhàvuavềthiệthại vàhốitiếc."
+        },
+        {
+          "url": "https://accesstoinsight.org/lib/authors/dhammika/wheel386.html",
+          "title": "S. Dhammika — The Edicts of King Asoka",
+          "scope": "Bản dịch chỉ dụ XIII:Kalinganăm8,ăn nănnhưngvẫncóquyềntrừngphạt;chỉdụ Kalingađọctheokỳ;TiểuchỉdụIquátrìnhtínngưỡngnhiềugiaiđoạn.Không dùnglờica tụng hiệnđạitrongphầngiớithiệu như kếtluậnsửhọc."
+        }
+      ],
+      "snapshotSHA256": "0a136cab416d6122f269e6119ee6463f243fa12a95fe01a76fe594166c82cbc7"
+    },
+    {
+      "id": "sa-np-a-duc",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-12",
+      "decisions": [
+        "Giữ304–232nhưniênđạithamkhảo,suppress tính tuổi đểkhôngbiếnước tínhthànhchắcchắn.",
+        "BỏcơsởchữabệnhchắcnhiềuchitiếtvàsoTần27tuổichưađốichiếu;khôngđồngnhấtmọidhamma vớigiáolýPhậtgiáochuyênbiệt."
+      ],
+      "uncertainties": [
+        "Tiểu sử vàquátrìnhquytheotínngưỡngđượctái dựngtừnhiềuloạitưliệu,khônglàmộtcảnhchuyểnđạocóchứngnhậnđúngngày."
+      ],
+      "fieldsReviewed": [
+        "n",
+        "b",
+        "d",
+        "cb",
+        "cd",
+        "role",
+        "r",
+        "k",
+        "act",
+        "bio",
+        "timeBasis",
+        "lifeLabel",
+        "fun",
+        "related"
+      ],
+      "sources": [
+        {
+          "url": "https://open.oregonstate.education/ancientcivilizations/chapter/edicts-of-ashoka/",
+          "title": "Oregon State University — The Edicts of Ashoka",
+          "scope": "Giới thiệu niênđại304–232vàKalingakhoảng 261;tríchbảndịchNikam/McKeon1959Chỉdụ XIII,lờinhàvuavềthiệthại vàhốitiếc."
+        },
+        {
+          "url": "https://accesstoinsight.org/lib/authors/dhammika/wheel386.html",
+          "title": "S. Dhammika — The Edicts of King Asoka",
+          "scope": "Bản dịch chỉ dụ XIII:Kalinganăm8,ăn nănnhưngvẫncóquyềntrừngphạt;chỉdụ Kalingađọctheokỳ;TiểuchỉdụIquátrìnhtínngưỡngnhiềugiaiđoạn.Không dùnglờica tụng hiệnđạitrongphầngiớithiệu như kếtluậnsửhọc."
+        }
+      ],
+      "snapshotSHA256": "d2119a00bc99d0e8d306bc66e1d94797401c36583567c2ce84375c6fb6e0f4a5"
+    },
+    {
+      "id": "sa-phat-giao-den-sri-lanka-250tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-12",
+      "decisions": [
+        "Bỏkỷlụccâylâunhấtthiếunguồn vàđườngtruyềntoànbộTheravadaĐôngNamÁ/Khmer nhưmộtlộtrìnhduynhất.",
+        "BổsungSanghamitta,táchvaitròbàkhỏiMahinda."
+      ],
+      "uncertainties": [
+        "Mốc250làthamchiếutrongtruyềnthống;nội dungghi rõkhácvớilờikhắcđươngthờiA-dục."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "who",
+        "place",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/document/163318",
+          "title": "UNESCO — Báo cáo bảo tồnAnuradhapura2003",
+          "scope": "PhầnlịchsửnhắcMahinda,vuaTissavàmốcquanh250;trìnhbàynhưtruyềnthốngkhôngbiênbảnđươngthời."
+        },
+        {
+          "url": "https://whc.unesco.org/en/list/200/",
+          "title": "UNESCO — Sacred City of Anuradhapura",
+          "scope": "Nhánhbồđềthếkỷ III,Sanghamitta,cộngđồngnisư vàditíchtôngiáo;khôngdùnglàchứngnhậncâylâunhấtthếgiới."
+        }
+      ],
+      "snapshotSHA256": "32e0d25b36da8ba5d1b5c0d02619e161a5fbdf0205b95ab7363812b77e096dde"
     }
   ],
   "updatedAt": "2026-11-04"

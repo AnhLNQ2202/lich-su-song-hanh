@@ -3679,18 +3679,65 @@ TL_DATA.push({
   ],
   "ref": "https://www.metmuseum.org/es/essays/mauryan-empire-ca-323-185-b-c"
 },
-    { id: 'sa-vua-a-duc-kalinga-261tcn', y: -261, ca: true, date: 'Khoảng 261 TCN', r: 'Ấn Độ', t: 'Vua A-dục hối hận sau trận Kalinga', c: 'cul', imp: 3,
-      who: 'Vua A-dục (Ashoka)',
-      d: 'Vua A-dục (trị vì khoảng 268–232 TCN) mở rộng Đế quốc Maurya bằng cuộc chiến chiếm xứ Kalinga, khiến hàng chục vạn người chết hoặc bị bắt đi. Ân hận trước cảnh tang thương, ông quay sang theo đạo Phật, cho khắc các chỉ dụ khuyên dân sống nhân từ, khoan dung lên cột đá và vách núi khắp đế quốc, đồng thời cử người đi truyền đạo khắp nơi.',
-      why: 'Nhờ vua A-dục, đạo Phật từ một tôn giáo vùng sông Hằng lan ra Sri Lanka, Trung Á và Đông Nam Á.',
-      fun: 'Bốn con sư tử trên đầu cột đá của vua A-dục ở Sarnath nay là quốc huy Ấn Độ, còn bánh xe pháp của ông nằm giữa quốc kỳ Ấn Độ.',
-      alt: 'Hiếm có hoàng đế nào công khai thừa nhận mình sai ngay sau một chiến thắng. Vua A-dục làm điều đó, và còn khắc luôn lời ăn năn lên đá cho hậu thế cùng đọc.' },
-    { id: 'sa-phat-giao-den-sri-lanka-250tcn', y: -250, ca: true, date: 'Khoảng giữa thế kỷ III TCN', r: 'Sri Lanka', t: 'Phật giáo đến đảo Sri Lanka', c: 'cul', imp: 1,
-      who: 'Nhà sư Mahinda, vua Devanampiya Tissa', place: 'Anuradhapura',
-      d: 'Theo truyền thống, Mahinda, con trai vua A-dục, sang Sri Lanka truyền đạo và được vua Devanampiya Tissa đón nhận. Một nhánh cây bồ đề chiết từ cây ở Bodh Gaya, nơi Đức Phật giác ngộ, được đem sang trồng ở kinh đô Anuradhapura.',
-      why: 'Sri Lanka trở thành trung tâm của Phật giáo Thượng tọa bộ; từ đây đạo Phật lan sang Myanmar, Thái Lan, Lào, Campuchia.',
-      fun: 'Cây bồ đề Jaya Sri Maha Bodhi ở Anuradhapura được coi là cây do con người trồng lâu đời nhất thế giới có ghi chép rõ năm trồng, đã hơn 2000 tuổi và vẫn được chăm sóc mỗi ngày.',
-      vn: 'Phật giáo Nam tông (Thượng tọa bộ) của đồng bào Khmer ở Nam Bộ Việt Nam ngày nay chính là nhánh Phật giáo truyền từ Sri Lanka qua Đông Nam Á.' },
+    {
+  "id": "sa-vua-a-duc-kalinga-261tcn",
+  "y": -261,
+  "ca": true,
+  "date": "Khoảng 261 TCN",
+  "r": "Ấn Độ",
+  "t": "Kalinga: chiến thắng khiến A-dục nói về nỗi hối hận",
+  "c": "cul",
+  "imp": 3,
+  "who": "Vua A-dục (Ashoka)",
+  "d": "Khoảng 261 TCN, A-dục chinh phục Kalinga. Chỉ dụ XIII về sau ghi lại nỗi hối tiếc của nhà vua trước những người chết, bị bắt đi và những gia đình chịu mất mát. Các con số trong đó là lời nhà vua công bố, không phải thống kê độc lập. Văn bản chuyển trọng tâm từ thắng trận sang nỗi đau mà chiến thắng gây ra.",
+  "fun": "Chỉ dụ Kalinga yêu cầu được đọc theo kỳ, và có lúc ngay cả cho một người nghe. Đá có thể giữ lời rất lâu, nhưng muốn lời tới người nghe vẫn cần một giọng đọc.",
+  "alt": "Ngay trong chỉ dụ XIII, nhà vua vẫn nhắc mình có quyền trừng phạt các cộng đồng sống trong rừng. Hình ảnh một người cai trị hoàn toàn từ bỏ mọi cưỡng chế sẽ đơn giản hóa chính lời khắc.",
+  "consequencesTitle": "Nhà vua muốn được nhớ bằng cách cai trị nào?",
+  "consequences": "A-dục đề cao việc chinh phục bằng dhamma, tức những nguyên tắc đạo lý ông khuyến khích. Lời khắc cho thấy hình ảnh người cai trị ông muốn xây dựng; hiệu quả thực tế cần những chứng cứ khác để đánh giá.",
+  "altTitle": "Hối hận không có nghĩa quyền trừng phạt biến mất",
+  "refs": [
+    {
+      "url": "https://open.oregonstate.education/ancientcivilizations/chapter/edicts-of-ashoka/",
+      "title": "Oregon State University — The Edicts of Ashoka",
+      "scope": "Giới thiệu niênđại304–232vàKalingakhoảng 261;tríchbảndịchNikam/McKeon1959Chỉdụ XIII,lờinhàvuavềthiệthại vàhốitiếc."
+    },
+    {
+      "url": "https://accesstoinsight.org/lib/authors/dhammika/wheel386.html",
+      "title": "S. Dhammika — The Edicts of King Asoka",
+      "scope": "Bản dịch chỉ dụ XIII:Kalinganăm8,ăn nănnhưngvẫncóquyềntrừngphạt;chỉdụ Kalingađọctheokỳ;TiểuchỉdụIquátrìnhtínngưỡngnhiềugiaiđoạn.Không dùnglờica tụng hiệnđạitrongphầngiớithiệu như kếtluậnsửhọc."
+    }
+  ],
+  "ref": "https://open.oregonstate.education/ancientcivilizations/chapter/edicts-of-ashoka/"
+},
+    {
+  "id": "sa-phat-giao-den-sri-lanka-250tcn",
+  "y": -250,
+  "ca": true,
+  "date": "Thế kỷ III TCN; mốc 250 TCN theo truyền thống được dẫn",
+  "r": "Sri Lanka",
+  "t": "Phật giáo đến đảo Sri Lanka",
+  "c": "cul",
+  "imp": 1,
+  "who": "Mahinda, Sanghamitta và vua Devanampiya Tissa",
+  "place": "Anuradhapura",
+  "d": "Theo truyền thống được hồ sơ Anuradhapura ghi lại, khoảng 250 TCN, Mahinda tới Sri Lanka và vua Devanampiya Tissa đón nhận Phật giáo. Một câu chuyện quan trọng khác gắn với Sanghamitta: bà mang nhánh cây bồ đề từ Ấn Độ tới đây trong thế kỷ III TCN và gắn với sự hình thành cộng đồng ni sư. Những nhân vật và việc làm khác nhau cùng góp vào ký ức tôn giáo của thành phố.",
+  "fun": "Câu chuyện truyền đạo không chỉ có vua và các nhà sư nam. Hồ sơ UNESCO nhắc Sanghamitta với vai trò lập một cộng đồng ni sư — một nhân vật đáng nhớ khi nhìn ai đã góp phần dựng nên đời sống tôn giáo.",
+  "consequencesTitle": "Một nơi chốn giữ ký ức qua nhiều thế hệ",
+  "consequences": "Cây bồ đề, tu viện và các công trình thờ tự làm Anuradhapura trở thành một trung tâm tôn giáo quan trọng. Truyền thống được giữ qua việc chăm sóc nơi chốn và sinh hoạt cộng đồng.",
+  "refs": [
+    {
+      "url": "https://whc.unesco.org/document/163318",
+      "title": "UNESCO — Báo cáo bảo tồnAnuradhapura2003",
+      "scope": "PhầnlịchsửnhắcMahinda,vuaTissavàmốcquanh250;trìnhbàynhưtruyềnthốngkhôngbiênbảnđươngthời."
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/200/",
+      "title": "UNESCO — Sacred City of Anuradhapura",
+      "scope": "Nhánhbồđềthếkỷ III,Sanghamitta,cộngđồngnisư vàditíchtôngiáo;khôngdùnglàchứngnhậncâylâunhấtthếgiới."
+    }
+  ],
+  "ref": "https://whc.unesco.org/document/163318"
+},
     { id: 'sa-gandhara-kushan-100', y: 100, ca: true, date: 'Thế kỷ I–III', r: 'Pakistan – Afghanistan', t: 'Tượng Phật Gandhara mang nét Hy Lạp', c: 'cul', imp: 1,
       place: 'Vùng Gandhara (tây bắc Pakistan, đông Afghanistan)',
       d: 'Dưới thời Đế quốc Kushan, vùng Gandhara là ngã tư của Con đường tơ lụa, nơi gặp gỡ của các nền văn hóa Ấn Độ, Ba Tư, Hy Lạp. Nghệ nhân ở đây tạc tượng Phật với sống mũi thẳng, tóc gợn sóng và áo xếp nếp như tượng Hy Lạp, một di sản gián tiếp từ thời quân Alexander đến vùng này.',
@@ -9065,11 +9112,45 @@ TL_PEOPLE.push({
   ],
   "ref": "https://www.metmuseum.org/es/essays/mauryan-empire-ca-323-185-b-c"
 },
-    { id: 'sa-np-a-duc', n: 'A-dục (Ashoka)', b: -304, d: -232, cb: true, cd: true,
-      role: 'Hoàng đế Maurya, người truyền bá đạo Phật', c: 'pol', imp: 3, r: 'Ấn Độ',
-      k: -261, act: 'chinh phục xứ Kalinga, rồi vì ân hận mà quay sang theo đạo Phật',
-      bio: 'Cháu nội của Chandragupta Maurya, vua A-dục cai trị một trong những đế quốc rộng lớn nhất lịch sử Ấn Độ. Sau cuộc chiến đẫm máu ở Kalinga, ông từ bỏ chinh phạt bằng gươm giáo để “chinh phục bằng đạo lý”: cho khắc chỉ dụ khuyên dân sống nhân từ, đào giếng, trồng cây ven đường, lập nơi chữa bệnh cho cả người lẫn thú vật và cử sứ giả đi truyền bá đạo Phật khắp nơi.',
-      same: 'Khi vua A-dục mất (232 TCN), Doanh Chính, vua nước Tần 27 tuổi, đang dồn sức cho cuộc chiến thôn tính sáu nước; 11 năm sau, ông thống nhất Trung Hoa và trở thành Tần Thủy Hoàng.' },
+    {
+  "id": "sa-np-a-duc",
+  "n": "A-dục (Ashoka)",
+  "b": -304,
+  "d": -232,
+  "cb": true,
+  "cd": true,
+  "role": "Hoàng đế Maurya, người bảo trợ Phật giáo",
+  "c": "pol",
+  "imp": 3,
+  "r": "Ấn Độ",
+  "k": -261,
+  "act": "chinh phục Kalinga; các chỉ dụ về sau nói đến nỗi hối hận",
+  "bio": "A-dục là vị vua Maurya nổi tiếng qua những chỉ dụ còn lại. Chúng kể về Kalinga, khuyên sống có đạo lý và bộc lộ sự gắn bó với Phật giáo. Một tiểu chỉ dụ nói ông đã làm cư sĩ hơn hai năm rưỡi, rồi mới trở nên nhiệt thành hơn sau khi gần gũi tăng đoàn. Câu chuyện chuyển biến vì vậy có nhiều chặng.",
+  "timeBasis": "traditional",
+  "lifeLabel": "Khoảng 304–232 TCN theo niên đại tham khảo; năm sinh chưa chắc",
+  "fun": "Những chỉ dụ cho ta gặp cả một người đang nói về mức độ nỗ lực của mình trong tín ngưỡng. Hình ảnh ấy có nhiều sắc thái hơn cảnh một vị vua đổi hẳn con người chỉ trong một khoảnh khắc.",
+  "related": [
+    {
+      "id": "sa-vua-a-duc-kalinga-261tcn",
+      "kind": "connection",
+      "text": "Đọc lời khắc về nỗi hối hận, cùng giới hạn của quyền lực nhân từ được công bố.",
+      "ref": "https://accesstoinsight.org/lib/authors/dhammika/wheel386.html"
+    }
+  ],
+  "refs": [
+    {
+      "url": "https://open.oregonstate.education/ancientcivilizations/chapter/edicts-of-ashoka/",
+      "title": "Oregon State University — The Edicts of Ashoka",
+      "scope": "Giới thiệu niênđại304–232vàKalingakhoảng 261;tríchbảndịchNikam/McKeon1959Chỉdụ XIII,lờinhàvuavềthiệthại vàhốitiếc."
+    },
+    {
+      "url": "https://accesstoinsight.org/lib/authors/dhammika/wheel386.html",
+      "title": "S. Dhammika — The Edicts of King Asoka",
+      "scope": "Bản dịch chỉ dụ XIII:Kalinganăm8,ăn nănnhưngvẫncóquyềntrừngphạt;chỉdụ Kalingađọctheokỳ;TiểuchỉdụIquátrìnhtínngưỡngnhiềugiaiđoạn.Không dùnglờica tụng hiệnđạitrongphầngiớithiệu như kếtluậnsửhọc."
+    }
+  ],
+  "ref": "https://open.oregonstate.education/ancientcivilizations/chapter/edicts-of-ashoka/"
+},
     { id: 'sa-np-aryabhata', n: 'Aryabhata', b: 476, d: 550, cd: true,
       role: 'Nhà toán học và thiên văn học', c: 'sci', imp: 2, r: 'Ấn Độ',
       k: 499, act: 'hoàn thành bộ sách toán học – thiên văn Aryabhatiya khi mới 23 tuổi',

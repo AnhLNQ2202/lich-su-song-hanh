@@ -4342,13 +4342,33 @@
       "year": -304,
       "kind": "person",
       "structuralCheck": "passed",
-      "reference": null,
+      "reference": "https://open.oregonstate.education/ancientcivilizations/chapter/edicts-of-ashoka/",
       "reviewPrompts": [
-        "chưa có nguồn gắn với mục",
         "cần kiểm tra phạm vi khẳng định tuyệt đối",
         "cần phân biệt lời trích, tên tác phẩm và cách diễn đạt"
       ],
-      "fullTextCheck": "pending_claim_by_claim_review"
+      "fullTextCheck": "reviewed_scopes_listed",
+      "fieldReviewCheck": "reviewed_current_public_fields",
+      "scopes": [
+        {
+          "url": "https://open.oregonstate.education/ancientcivilizations/chapter/edicts-of-ashoka/",
+          "title": "Oregon State University — The Edicts of Ashoka",
+          "scope": "Giới thiệu niênđại304–232vàKalingakhoảng 261;tríchbảndịchNikam/McKeon1959Chỉdụ XIII,lờinhàvuavềthiệthại vàhốitiếc."
+        },
+        {
+          "url": "https://accesstoinsight.org/lib/authors/dhammika/wheel386.html",
+          "title": "S. Dhammika — The Edicts of King Asoka",
+          "scope": "Bản dịch chỉ dụ XIII:Kalinganăm8,ăn nănnhưngvẫncóquyềntrừngphạt;chỉdụ Kalingađọctheokỳ;TiểuchỉdụIquátrìnhtínngưỡngnhiềugiaiđoạn.Không dùnglờica tụng hiệnđạitrongphầngiớithiệu như kếtluậnsửhọc."
+        }
+      ],
+      "lastReviewed": "2026-11-04",
+      "uncertainties": [
+        "Tiểu sử vàquátrìnhquytheotínngưỡngđượctái dựngtừnhiềuloạitưliệu,khônglàmộtcảnhchuyểnđạocóchứngnhậnđúngngày."
+      ],
+      "decisions": [
+        "Giữ304–232nhưniênđạithamkhảo,suppress tính tuổi đểkhôngbiếnước tínhthànhchắcchắn.",
+        "BỏcơsởchữabệnhchắcnhiềuchitiếtvàsoTần27tuổichưađốichiếu;khôngđồngnhấtmọidhamma vớigiáolýPhậtgiáochuyênbiệt."
+      ]
     },
     {
       "id": "eu-euclid-archimedes-300tcn",
@@ -4447,15 +4467,34 @@
     },
     {
       "id": "sa-vua-a-duc-kalinga-261tcn",
-      "title": "Vua A-dục hối hận sau trận Kalinga",
+      "title": "Kalinga: chiến thắng khiến A-dục nói về nỗi hối hận",
       "year": -261,
       "kind": "event",
       "structuralCheck": "passed",
-      "reference": null,
-      "reviewPrompts": [
-        "chưa có nguồn gắn với mục"
+      "reference": "https://open.oregonstate.education/ancientcivilizations/chapter/edicts-of-ashoka/",
+      "reviewPrompts": [],
+      "fullTextCheck": "reviewed_scopes_listed",
+      "fieldReviewCheck": "reviewed_current_public_fields",
+      "scopes": [
+        {
+          "url": "https://open.oregonstate.education/ancientcivilizations/chapter/edicts-of-ashoka/",
+          "title": "Oregon State University — The Edicts of Ashoka",
+          "scope": "Giới thiệu niênđại304–232vàKalingakhoảng 261;tríchbảndịchNikam/McKeon1959Chỉdụ XIII,lờinhàvuavềthiệthại vàhốitiếc."
+        },
+        {
+          "url": "https://accesstoinsight.org/lib/authors/dhammika/wheel386.html",
+          "title": "S. Dhammika — The Edicts of King Asoka",
+          "scope": "Bản dịch chỉ dụ XIII:Kalinganăm8,ăn nănnhưngvẫncóquyềntrừngphạt;chỉdụ Kalingađọctheokỳ;TiểuchỉdụIquátrìnhtínngưỡngnhiềugiaiđoạn.Không dùnglờica tụng hiệnđạitrongphầngiớithiệu như kếtluậnsửhọc."
+        }
       ],
-      "fullTextCheck": "pending_claim_by_claim_review"
+      "lastReviewed": "2026-11-04",
+      "uncertainties": [
+        "261TCNlàmốcxấpxỉ;nguồnkhắcghi nămthứ8sauđăngquang,lờituyênbốkhôngchứngminhđộthànhcôngthựctế."
+      ],
+      "decisions": [
+        "Không gán việc quyPhậtgiáo tức thời chỉvì trậnđánh;tiểuchỉdụ mô tả nhiều giai đoạn.",
+        "Bỏ hàngchụcvạn như sốthươngvongđãxácnhận,quan hệtruyền bátrực tiếp mọinơivàquốchuy/quốckỳ chưađốichiếuriêng."
+      ]
     },
     {
       "id": "cn-np-tan-thuy-hoang",
@@ -4546,11 +4585,30 @@
       "year": -250,
       "kind": "event",
       "structuralCheck": "passed",
-      "reference": null,
-      "reviewPrompts": [
-        "chưa có nguồn gắn với mục"
+      "reference": "https://whc.unesco.org/document/163318",
+      "reviewPrompts": [],
+      "fullTextCheck": "reviewed_scopes_listed",
+      "fieldReviewCheck": "reviewed_current_public_fields",
+      "scopes": [
+        {
+          "url": "https://whc.unesco.org/document/163318",
+          "title": "UNESCO — Báo cáo bảo tồnAnuradhapura2003",
+          "scope": "PhầnlịchsửnhắcMahinda,vuaTissavàmốcquanh250;trìnhbàynhưtruyềnthốngkhôngbiênbảnđươngthời."
+        },
+        {
+          "url": "https://whc.unesco.org/en/list/200/",
+          "title": "UNESCO — Sacred City of Anuradhapura",
+          "scope": "Nhánhbồđềthếkỷ III,Sanghamitta,cộngđồngnisư vàditíchtôngiáo;khôngdùnglàchứngnhậncâylâunhấtthếgiới."
+        }
       ],
-      "fullTextCheck": "pending_claim_by_claim_review"
+      "lastReviewed": "2026-11-04",
+      "uncertainties": [
+        "Mốc250làthamchiếutrongtruyềnthống;nội dungghi rõkhácvớilờikhắcđươngthờiA-dục."
+      ],
+      "decisions": [
+        "Bỏkỷlụccâylâunhấtthiếunguồn vàđườngtruyềntoànbộTheravadaĐôngNamÁ/Khmer nhưmộtlộtrìnhduynhất.",
+        "BổsungSanghamitta,táchvaitròbàkhỏiMahinda."
+      ]
     },
     {
       "id": "eu-np-hannibal",
@@ -21257,8 +21315,8 @@
       "fullTextCheck": "pending_claim_by_claim_review"
     }
   ],
-  "scopedReviewCount": 276,
-  "pendingClaimReviewCount": 1131,
-  "currentPublicFieldReviewCount": 143,
-  "currentNarrativeReviewCount": 143
+  "scopedReviewCount": 279,
+  "pendingClaimReviewCount": 1128,
+  "currentPublicFieldReviewCount": 146,
+  "currentNarrativeReviewCount": 146
 }
