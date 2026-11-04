@@ -5913,11 +5913,35 @@ TL_DATA.push({
       why: 'Các cuộc chinh phục đã trộn lẫn văn hóa Hy Lạp với Ba Tư, Ai Cập, Ấn Độ, tạo nên thời kỳ Hy Lạp hóa rực rỡ.',
       fun: 'Ông lập khoảng 20 thành phố mang tên Alexandria, và còn đặt tên một thành phố theo con ngựa yêu quý Bucephalus.',
       alt: 'Ở vùng Gandhara (Pakistan, Afghanistan ngày nay), tượng Phật về sau mang nét mặt và nếp áo kiểu Hy Lạp — dấu vết của cuộc gặp gỡ Đông – Tây mà Alexander khơi mào.' },
-    { id: 'eu-aristotle-335tcn', y: -335, r: 'Hy Lạp', t: 'Aristotle mở trường Lyceum', c: 'sci', imp: 1, who: 'Aristotle',
-      d: 'Aristotle, học trò của Plato và thầy dạy của Alexander, lập trường Lyceum ở Athens. Ông nghiên cứu gần như mọi lĩnh vực: logic, sinh học, vật lý, chính trị, thơ ca, và phân loại hàng trăm loài động vật.',
-      why: 'Tư tưởng của Aristotle chi phối khoa học và triết học châu Âu, Trung Đông suốt gần 2.000 năm.',
-      fun: 'Ông hay vừa đi dạo vừa giảng bài, nên học trò của ông được gọi là “phái tiêu dao” — những người vừa đi vừa học.',
-      alt: 'Không phải điều gì ông nói cũng đúng: Aristotle cho rằng vật nặng rơi nhanh hơn vật nhẹ, và phải gần 2.000 năm sau Galileo mới chứng minh điều ngược lại.' },
+    {
+  "id": "eu-aristotle-335tcn",
+  "y": -335,
+  "r": "Hy Lạp",
+  "t": "Aristotle mở trường Lyceum",
+  "c": "sci",
+  "imp": 1,
+  "who": "Aristotle",
+  "d": "Năm335 TCN, Aristotle trở lại Athens và lập Lyceum, lấy tên từ khu tập luyện thờ Apollo Lykeios. Người ở trường nghiên cứu từ sinh học, logic đến âm nhạc và chính trị. Một cộng đồng học thuật có thể đi theo nhiều hướng, thay vì chỉ lặp lại lời người sáng lập.",
+  "fun": "Tên trường gắn với Apollo Lykeios. Cái tên quen trong lịch sử triết học lại bắt đầu từ một địa điểm sinh hoạt của thành phố.",
+  "consequencesTitle": "Nhiều câu hỏi cùng có chỗ trong trường",
+  "consequences": "Lyceum kết hợp nghiên cứu với việc tập hợp bản thảo. Tìm hiểu tự nhiên và suy xét cách sống cùng góp vào công việc học thuật.",
+  "related": [
+    {
+      "id": "eu-np-aristotle",
+      "kind": "connection",
+      "text": "Theo dõi hành trình Aristotle trước khi trở lại Athens.",
+      "ref": "https://plato.stanford.edu/entries/aristotle/"
+    }
+  ],
+  "refs": [
+    {
+      "url": "https://plato.stanford.edu/entries/aristotle/",
+      "title": "Christopher Shields, Stanford Encyclopedia of Philosophy — Aristotle",
+      "scope": "384–322, học ởAcademy, dạyAlexander, lậpLyceum335, phạm vi nghiên cứu và nguồn tênPeripatetic; không dùng truyền thuyết đi dạo như nguyên nhân chắc chắn."
+    }
+  ],
+  "ref": "https://plato.stanford.edu/entries/aristotle/"
+},
     { id: 'eu-euclid-archimedes-300tcn', y: -300, y2: -212, ca: true, date: 'Khoảng 300–212 TCN', r: 'Hy Lạp', t: 'Euclid, Archimedes và toán học Hy Lạp', c: 'sci', imp: 2, who: 'Euclid, Archimedes',
       d: 'Euclid viết bộ “Cơ sở” gồm 13 quyển, xây dựng cả môn hình học từ vài tiên đề đơn giản. Ít lâu sau, Archimedes ở Syracuse tìm ra nguyên lý lực đẩy của chất lỏng, nguyên lý đòn bẩy và tính số pi chính xác đến kinh ngạc.',
       why: 'Hình học Euclid được dạy liên tục hơn 2.000 năm và vẫn là nền tảng của môn hình học ở trường phổ thông.',
@@ -8200,12 +8224,43 @@ TL_PEOPLE.push({
   ]
 },
 
-    { id: 'cn-np-manh-tu', n: 'Mạnh Tử', b: -372, d: -289, cb: true, cd: true,
-      role: 'Nhà tư tưởng Nho giáo, được tôn là “Á thánh”', c: 'cul', imp: 2, r: 'Trung Quốc',
-      k: -320, act: 'đến nước Ngụy, khuyên Lương Huệ vương coi trọng nhân nghĩa hơn cái lợi',
-      bio: 'Tên thật là Mạnh Kha, người nước Trâu, học trò của môn đệ Tử Tư (cháu nội Khổng Tử). Ông đi nhiều nước khuyên vua thi hành “nhân chính”, nổi tiếng với tư tưởng “dân vi quý, xã tắc thứ chi, quân vi khinh”: dân là quý nhất, rồi mới đến đất nước, vua là nhẹ. Sách Mạnh Tử thuộc bộ Tứ thư mà sĩ tử Việt Nam thời phong kiến phải học thuộc để đi thi.',
-      fun: 'Tương truyền mẹ ông ba lần dọn nhà, từ cạnh nghĩa địa ra cạnh chợ, rồi đến cạnh trường học, để con có môi trường tốt (Mạnh mẫu tam thiên). Có lẽ đây là câu chuyện “chọn trường cho con” nổi tiếng nhất châu Á.',
-      same: 'Mạnh Tử và Aristotle (384–322 TCN) là người cùng thời: một người đi khắp các nước khuyên vua lấy dân làm gốc, người kia làm thầy dạy cậu bé Alexander, vị vua về sau chinh phục cả Đế quốc Ba Tư.' },
+    {
+  "id": "cn-np-manh-tu",
+  "n": "Mạnh Tử",
+  "b": -372,
+  "d": -289,
+  "cb": true,
+  "cd": true,
+  "role": "Nhà tư tưởng Nho giáo, được tôn là “Á thánh”",
+  "c": "cul",
+  "imp": 2,
+  "r": "Trung Quốc",
+  "k": -319,
+  "act": "được ghi lại trong các cuộc đối thoại với người cai trị vào cuối thế kỷ IV TCN",
+  "bio": "Giữa thời các nước tranh giành quyền lực, Mạnh Tử hỏi người cai trị về cách đối xử với dân. Ông tin con người có những mầm thiện, nhưng chúng cần được nuôi dưỡng. Sách mang tên ông lưu lại đối thoại và tranh luận; đó là cửa chính để ta tìm hiểu tư tưởng của ông. Niên đại cuộc đời theo truyền thống là 372–289 TCN, còn một số nghiên cứu đặt năm sinh sớm hơn.",
+  "fun": "Để nói về lòng trắc ẩn, Mạnh Tử nêu tình huống thấy đứa trẻ sắp rơi xuống giếng: cảm giác lo lắng xuất hiện trước cả chuyện tính lợi. Triết học ở đây bắt đầu từ một phản ứng rất đời thường.",
+  "ck": true,
+  "timeBasis": "traditional",
+  "lifeLabel": "372–289 TCN theo truyền thống; niên đại còn tranh luận",
+  "refs": [
+    {
+      "url": "https://plato.stanford.edu/entries/mencius/",
+      "title": "Bryan W. Van Norden, Stanford Encyclopedia of Philosophy — Mencius",
+      "scope": "Đối thoại, bối cảnhChiếnQuốc, mầmthiện và tìnhhuống đứatrẻ gầngiếng2A6."
+    },
+    {
+      "url": "https://plato.stanford.edu/entries/mencius/notes.html",
+      "title": "Stanford — Chú thích6 về niên đạiMạnhTử",
+      "scope": "372–289 là truyền thống; nghiên cứu gợi năm sinh khoảng 390; nhận địnhLau không có chứng cứ thuyết phục cho sự việc trước319."
+    },
+    {
+      "url": "https://iep.utm.edu/mencius/",
+      "title": "Internet Encyclopedia of Philosophy — Mencius",
+      "scope": "Tiểu sử truyền thống, giới hạn văn bản, các cuộc gặp người cai trị cuối thế kỷIV và nghi vấn quan hệ học trực tiếpTửTư."
+    }
+  ],
+  "ref": "https://plato.stanford.edu/entries/mencius/"
+},
 
     { id: 'cn-np-tan-thuy-hoang', n: 'Tần Thủy Hoàng', b: -259, d: -210,
       role: 'Hoàng đế đầu tiên của Trung Quốc', c: 'pol', imp: 3, r: 'Trung Quốc',
@@ -9379,11 +9434,36 @@ TL_PEOPLE.push({
   ],
   "ref": "https://mathshistory.st-andrews.ac.uk/Biographies/Plato/"
 },
-    { id: 'eu-np-aristotle', n: 'Aristotle', b: -384, d: -322,
-      role: 'Triết gia, nhà bác học Hy Lạp', r: 'Hy Lạp', c: 'sci', imp: 3,
-      k: -335, act: 'mở trường Lyceum ở Athens, nơi thầy trò vừa đi dạo vừa giảng bài',
-      bio: 'Học ở Học viện của Plato suốt 20 năm, rồi được vua Philip II xứ Macedonia mời làm thầy dạy cậu bé Alexander, Aristotle viết về gần như mọi lĩnh vực: logic, sinh học, vật lý, đạo đức, chính trị, thơ ca. Ông quan sát và phân loại hàng trăm loài động vật, đặt nền móng cho môn logic học. Suốt gần 2.000 năm, các học giả châu Âu và thế giới Hồi giáo coi ông là bậc thầy của mọi tri thức.',
-      fun: 'Ông cho rằng vật nặng rơi nhanh hơn vật nhẹ, và suốt gần 2.000 năm ít ai nghi ngờ điều đó, cho đến khi Galileo dùng thí nghiệm chứng minh là sai.' },
+    {
+  "id": "eu-np-aristotle",
+  "n": "Aristotle",
+  "b": -384,
+  "d": -322,
+  "role": "Triết gia, nhà bác học Hy Lạp",
+  "r": "Hy Lạp",
+  "c": "sci",
+  "imp": 3,
+  "k": -335,
+  "act": "lập trường Lyceum ở Athens",
+  "bio": "Aristotle học ở Học viện của Plato, rồi có thời gian dạy Alexander tại Macedonia. Năm335 TCN, ông lập trường riêng ở Athens. Từ sinh vật tới cách lập luận và đời sống chính trị, ông theo đuổi nhiều loại câu hỏi. Việc học vì thế có cả quan sát lẫn tranh luận.",
+  "fun": "Học trò Aristotle về sau được gọi là Peripatetics, có lẽ do lối đi dạo trong khuôn viên. Chuyện vừa đi vừa giảng rất dễ nhớ, nhưng nguồn gốc tên gọi vẫn nên được kể với chữ “có lẽ”.",
+  "related": [
+    {
+      "id": "eu-aristotle-335tcn",
+      "kind": "connection",
+      "text": "Lyceum là nơi nhiều hướng nghiên cứu được theo đuổi cùng nhau.",
+      "ref": "https://plato.stanford.edu/entries/aristotle/"
+    }
+  ],
+  "refs": [
+    {
+      "url": "https://plato.stanford.edu/entries/aristotle/",
+      "title": "Christopher Shields, Stanford Encyclopedia of Philosophy — Aristotle",
+      "scope": "384–322, học ởAcademy, dạyAlexander, lậpLyceum335, phạm vi nghiên cứu và nguồn tênPeripatetic; không dùng truyền thuyết đi dạo như nguyên nhân chắc chắn."
+    }
+  ],
+  "ref": "https://plato.stanford.edu/entries/aristotle/"
+},
     { id: 'eu-np-alexander', n: 'Alexander Đại đế', b: -356, d: -323,
       role: 'Vua Macedonia, nhà chinh phạt', r: 'Macedonia', c: 'war', imp: 3,
       k: -331, act: 'đánh bại vua Ba Tư Darius III ở trận Gaugamela',

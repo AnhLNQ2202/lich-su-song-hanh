@@ -4341,6 +4341,111 @@
         }
       ],
       "snapshotSHA256": "03fcb9b5b2d812f59bc2f2ef8373119d5df5886ade43136e68ae3fdf032e3e99"
+    },
+    {
+      "id": "eu-np-aristotle",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-6",
+      "decisions": [
+        "Bỏ Galileo như người đầu tiên nghi ngờ Aristotle sau2000năm; không đồng nhất ảnh hưởng với việc ai cũng chấp nhận.",
+        "Không suy chính sách chinh phục củaAlexander trực tiếp từ việc họcAristotle."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "n",
+        "b",
+        "d",
+        "role",
+        "r",
+        "k",
+        "act",
+        "bio",
+        "fun",
+        "related"
+      ],
+      "sources": [
+        {
+          "url": "https://plato.stanford.edu/entries/aristotle/",
+          "title": "Christopher Shields, Stanford Encyclopedia of Philosophy — Aristotle",
+          "scope": "384–322, học ởAcademy, dạyAlexander, lậpLyceum335, phạm vi nghiên cứu và nguồn tênPeripatetic; không dùng truyền thuyết đi dạo như nguyên nhân chắc chắn."
+        }
+      ],
+      "snapshotSHA256": "d047b3aa91b3219adc7fe1e7a22b099d647a53c41ffc0d3ebaa030ea8522e854"
+    },
+    {
+      "id": "eu-aristotle-335tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-6",
+      "decisions": [
+        "Bỏ giai thoại Galileo và số lượng động vật chưa đối chiếu riêng; khớp hoạt động335 với hồ sơ nhân vật."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "r",
+        "t",
+        "who",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences",
+        "related"
+      ],
+      "sources": [
+        {
+          "url": "https://plato.stanford.edu/entries/aristotle/",
+          "title": "Christopher Shields, Stanford Encyclopedia of Philosophy — Aristotle",
+          "scope": "384–322, học ởAcademy, dạyAlexander, lậpLyceum335, phạm vi nghiên cứu và nguồn tênPeripatetic; không dùng truyền thuyết đi dạo như nguyên nhân chắc chắn."
+        }
+      ],
+      "snapshotSHA256": "74107ddbe07454b444aaa81a1defd9a1a4e8ba7b3c82951c4fb866f559501de8"
+    },
+    {
+      "id": "cn-np-manh-tu",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-6",
+      "decisions": [
+        "Bỏ giai thoại mẹ chuyểnnhà và thứhạng chọntrường nổi tiếng nhất chưa đối chiếu.",
+        "Bỏ năm 320 cuộc gặpLươngHuệVương như mốc chắc;319 chỉ mốc tham chiếu xấp xỉ cho hoạt động cuối thế kỷIV.",
+        "Giữ truyền thống372–289 nhưng không suy tuổi chính xác hoặc khẳng định quan hệ họcTửTư."
+      ],
+      "uncertainties": [
+        "Niên đại tiểu sử có các phương án khác; nội dung đối thoại được biết qua văn bản truyền lại, không phải biên bản hội kiến."
+      ],
+      "fieldsReviewed": [
+        "n",
+        "b",
+        "d",
+        "cb",
+        "cd",
+        "role",
+        "r",
+        "k",
+        "act",
+        "bio",
+        "fun",
+        "ck",
+        "timeBasis",
+        "lifeLabel"
+      ],
+      "sources": [
+        {
+          "url": "https://plato.stanford.edu/entries/mencius/",
+          "title": "Bryan W. Van Norden, Stanford Encyclopedia of Philosophy — Mencius",
+          "scope": "Đối thoại, bối cảnhChiếnQuốc, mầmthiện và tìnhhuống đứatrẻ gầngiếng2A6."
+        },
+        {
+          "url": "https://plato.stanford.edu/entries/mencius/notes.html",
+          "title": "Stanford — Chú thích6 về niên đạiMạnhTử",
+          "scope": "372–289 là truyền thống; nghiên cứu gợi năm sinh khoảng 390; nhận địnhLau không có chứng cứ thuyết phục cho sự việc trước319."
+        },
+        {
+          "url": "https://iep.utm.edu/mencius/",
+          "title": "Internet Encyclopedia of Philosophy — Mencius",
+          "scope": "Tiểu sử truyền thống, giới hạn văn bản, các cuộc gặp người cai trị cuối thế kỷIV và nghi vấn quan hệ học trực tiếpTửTư."
+        }
+      ],
+      "snapshotSHA256": "56f214ad881c669c98600b9495ee6c40c128686bab8418f84887e4268fd5d6d4"
     }
   ],
   "updatedAt": "2026-11-04"
