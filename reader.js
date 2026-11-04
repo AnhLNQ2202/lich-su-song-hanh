@@ -2,6 +2,9 @@
 const $ = id => document.getElementById(id);
 const escapeHTML = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 const yearText = year => year < 0 ? Math.abs(year) + ' TCN' : String(year);
+const personDates = p => p.lifeLabel || ((p.cb||p.cd?'Khoảng ':'')+yearText(p.b)+' – '+(p.d==null?'nay':yearText(p.d)));
+const personAge = (p,year) => p.timeBasis==='activity' ? 'Chưa xác định tuổi' : (p.cb?'Khoảng ':'')+(year-p.b-(p.b<0&&year>0?1:0))+' tuổi';
+const milestoneYear = p => (p.ck||p.timeBasis==='activity'?'Khoảng năm ':'Năm ')+yearText(p.k);
 const fold = text => String(text).normalize('NFD').replace(/\p{M}/gu, '').toLowerCase().replace(/đ/g,'d');
 const labels = {sl:'Lát cắt', ev:'Sự kiện', np:'Nhân vật', pd:'Thời kỳ', gb:'Sự kiện toàn cầu'};
 const regions = new Map(LANES.map(region => [region.id, region.name]));
@@ -133,13 +136,11 @@ function personTrail(entry, year) {
 }
 function lifeScene(entry, year) {
   const p=entry.source;
-  const age=year-p.b-(p.b<0&&year>0?1:0);
-  const uncertain=p.cb || p.cd;
   const difference=p.k-year;
-  const action = difference===0 ? 'Ngay năm này, ' : difference>0 ? difference+' năm sau, ' : -difference+' năm trước, ';
-  return '<div class="person-scene"><a class="person-bio-link" href="'+href(entry)+'"><span class="scene-age">'+'Khoảng '+age+' tuổi · '+escapeHTML(regions.get(entry.lane))+'</span>'+
+  const action = p.ck||p.timeBasis==='activity' ? milestoneYear(p)+', ' : difference===0 ? 'Ngay năm này, ' : difference>0 ? difference+' năm sau, ' : -difference+' năm trước, ';
+  return '<div class="person-scene"><a class="person-bio-link" href="'+href(entry)+'"><span class="scene-age">'+escapeHTML(personAge(p,year))+' · '+escapeHTML(regions.get(entry.lane))+'</span>'+
     '<strong>'+escapeHTML(entry.title)+'</strong><span>'+escapeHTML(p.role)+'</span>'+
-    '<p>'+escapeHTML(action+p.n+' '+p.act+'.')+'</p><small>'+yearText(p.b)+' — '+(p.d==null?'nay':yearText(p.d))+' · Tìm hiểu thêm →</small></a>'+personTrail(entry,year)+'</div>';
+    '<p>'+escapeHTML(action+p.n+' '+p.act+'.')+'</p><small>'+escapeHTML(personDates(p))+' · Tìm hiểu thêm →</small></a>'+personTrail(entry,year)+'</div>';
 }
 function storyPeople(item) {
   if(item.kind==='np')return '';
@@ -149,7 +150,7 @@ function storyPeople(item) {
 }
 function showPeople() {
   const year=current.source.k??current.year, alive=peopleAt(current);
-  $('portraits').innerHTML='<h2>Đang sống vào năm '+yearText(year)+'</h2>'+
+  $('portraits').innerHTML='<h2>Những nhân vật ở mốc '+yearText(year)+'</h2>'+
     (alive.length?alive.map(e=>lifeScene(e,year)).join(''):'<p>Thư viện chưa có tiểu sử ở mốc này.</p>')+
     '<button class="secondary-path" id="all-people">Tra cứu mọi nhân vật →</button>';
   $('all-people').onclick=()=>{openLibrary('search');$('kind').value='np';results();};
@@ -1107,8 +1108,8 @@ window.addEventListener('popstate',()=>{if(renderedURL!==location.href)render(tr
 function article(item) {
   const o = item.source;
   const body = item.kind === 'np' ? o.bio : o.d;
-  const meta = [o.topic, o.date, o.place, o.role, item.kind === 'np' ? yearText(o.b)+' – '+(o.d == null ? 'nay' : yearText(o.d)) : '', ['pd','gb'].includes(item.kind) ? yearText(o.s)+' – '+yearText(o.e) : ''].filter(Boolean);
-  const notes = [[o.altTitle||noteTitle(item.id,'alt'),o.alt],['Liên hệ Việt Nam',o.vn],['Một dấu mốc đáng nhớ',o.act ? 'Năm '+yearText(o.k)+', '+o.n+' '+o.act+'.' : ''],['Cùng thời',o.same],['Bạn có biết?',o.fun]];
+  const meta = [o.topic, o.date, o.place, o.role, item.kind === 'np' ? personDates(o) : '', ['pd','gb'].includes(item.kind) ? (o.ca?'Khoảng ':'')+yearText(o.s)+' – '+yearText(o.e) : ''].filter(Boolean);
+  const notes = [[o.altTitle||noteTitle(item.id,'alt'),o.alt],['Liên hệ Việt Nam',o.vn],['Một dấu mốc đáng nhớ',o.act ? milestoneYear(o)+', '+o.n+' '+o.act+'.' : ''],['Cùng thời',o.same],['Bạn có biết?',o.fun]];
   return (meta.length ? '<p class="meta">'+escapeHTML(meta.join(' · '))+'</p>' : '')+
     (activeReadingChain(item)?chainHTML(item):'')+'<div class="prose">'+paragraphs(o.context)+paragraphs(body)+articleVisuals(item)+eventEffects(item)+notes.filter(([,v])=>v).map(([h,v])=>(h?'<h2>'+escapeHTML(h)+'</h2>':'')+paragraphs(v)).join('')+(item.kind==='sl' ? sliceNotes(item) : '')+(activeReadingChain(item)?'':chainHTML(item))+relatedStory(item)+highlightHTML(item)+readingQuestion(item)+storyPeople(item)+'</div>'+exploreHTML(item)+articleSources(o)+'<details id="comparison-details" class="comparison-end"><summary>Cùng thời ở những nơi khác <span>Mở đối chiếu +</span></summary><div id="world" aria-label="Đối chiếu cuối bài"></div></details>';
 }
@@ -1150,7 +1151,7 @@ function placeCard(lane) {
     const delta=Math.abs(e.year-year)-(Math.min(e.year,year)<0&&Math.max(e.year,year)>0?1:0);
     return comparisonLink(e,yearText(e.year)+' · '+delta+' năm '+(e.year<year?'trước':'sau'));
   }).join('');
-  const faces=people.length?people.map(e=>comparisonLink(e,'Khoảng '+(year-e.year-(e.year<0&&year>0?1:0))+' tuổi · '+e.source.role)).join(''):'<p class="comparison-empty">Chưa có hồ sơ nhân vật ở mốc này.</p>';
+  const faces=people.length?people.map(e=>comparisonLink(e,personAge(e.source,year)+' · '+e.source.role)).join(''):'<p class="comparison-empty">Chưa có hồ sơ nhân vật ở mốc này.</p>';
   return '<section class="place-card" aria-label="'+escapeHTML(regions.get(lane))+' năm '+yearText(year)+'"><h3>'+escapeHTML(regions.get(lane))+'</h3><div class="place-section"><h4>Bối cảnh</h4>'+background+'</div><div class="place-section"><h4>Mốc tại năm '+yearText(year)+'</h4>'+landmarks+'</div><div class="place-section"><h4>Nhân vật cùng thời</h4>'+faces+'</div>'+(neighbours?'<details class="nearby-events"><summary>Mốc gần đó</summary>'+neighbours+'</details>':'')+'</section>';
 }
 function updateComparison() {
@@ -1185,7 +1186,7 @@ function mountComparisonUI() {
     if(!nativeComparisonLoading){
       nativeComparisonLoading=true;
       const script=document.createElement('script');
-      script.src='comparison-native.js?v=native-2';
+      script.src='comparison-native.js?v=audit-life-1';
       script.onerror=()=>{nativeComparisonLoading=false;script.remove();};
       document.head.append(script);
     }

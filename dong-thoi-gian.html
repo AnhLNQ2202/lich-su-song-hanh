@@ -649,8 +649,8 @@ summary.xs-h:focus-visible { outline: 2px solid var(--gold); }
 <div class="tip" id="tip" hidden></div>
 <div class="pop" id="pop" hidden></div>
 <div class="modal" id="quiz" hidden></div>
-<script src="history-data.js?v=audit-early-1"></script>
-<script src="reading-chains.js?v=audit-early-1"></script>
+<script src="history-data.js?v=audit-full-1"></script>
+<script src="reading-chains.js?v=audit-full-1"></script>
 
 <script>
 /* Lịch Sử Song Hành — dòng thời gian song song Việt Nam & thế giới */
@@ -752,6 +752,7 @@ summary.xs-h:focus-visible { outline: 2px solid var(--gold); }
   });
 
   function lifeStr(p) {
+    if (p.lifeLabel) return p.lifeLabel;
     const ap = p.cb || p.cd ? AP : '', d = p.death;
     if (d == null) return `${ap}${fy(p.b)} – nay`;
     if (p.b < 0 && d < 0) return `${ap}${-p.b}–${-d} TCN`;
@@ -759,7 +760,7 @@ summary.xs-h:focus-visible { outline: 2px solid var(--gold); }
     return `${ap}${p.b}–${d}`;
   }
   const endOf = (p) => (p.death == null ? YNOW : p.death);
-  const ageStr = (p, y) => { const a = gap(p.b, y); return a <= 0 ? 'vừa chào đời' : `${p.cb ? AP : ''}${a} tuổi`; };
+  const ageStr = (p, y) => { if(p.timeBasis==='activity')return 'Chưa xác định tuổi'; const a = gap(p.b, y); return a <= 0 ? 'vừa chào đời' : `${p.cb ? AP : ''}${a} tuổi`; };
   const periodsAt = (lane, y) => PDL[lane].filter((p) => p.s <= y && (y < p.e || (p.e >= YNOW && y <= 2030))).sort((a, b) => (a.g < b.g ? -1 : a.g > b.g ? 1 : a.s - b.s));
   const chapterAt = (y) => CHAPTERS.find((c) => y >= c.s && y < c.e) || (y < CHAPTERS[0].s ? CHAPTERS[0] : CHAPTERS[CHAPTERS.length - 1]);
   const eraAt = (y) => ERAS.find((e) => y >= e.s && y < e.e) || ERAS[ERAS.length - 1];
@@ -873,7 +874,7 @@ summary.xs-h:focus-visible { outline: 2px solid var(--gold); }
   function setCorner() {
     corner.innerHTML = S.mode === 'ev'
       ? ['pol', 'war', 'cul', 'sci'].map((c) => `<span>${ico(c)}${CATS[c]}</span>`).join('')
-      : `<span class="wide">${ico('person')} Mỗi vạch màu là một cuộc đời, từ năm sinh tới năm mất</span>`;
+      : `<span class="wide">${ico('person')} Vạch màu thể hiện đời người hoặc khoảng hoạt động được ghi rõ trong bài</span>`;
   }
 
   /* ================= measure ================= */
@@ -1258,7 +1259,7 @@ summary.xs-h:focus-visible { outline: 2px solid var(--gold); }
   function sliceCard(sl) {
     const evs = (sl.ev || []).map((id) => BYID.get(id)).filter(Boolean)
       .map((e) => `<button type="button" class="mini" data-open="${e.id}" data-l="${e.lane}"><i></i><span>${esc(fy(e.y))} · ${esc(e.t)}</span></button>`).join('');
-    return `<article class="sl-card"><div class="eyebrow">Lát cắt nổi bật</div><h3>${esc(sl.t)}</h3><p>${esc(sl.d)}</p>${evs ? `<div class="sl-ev">${evs}</div>` : ''}</article>`;
+    return `<article class="sl-card"><div class="eyebrow">Lát cắt nổi bật</div><h3>${esc(sl.t)}</h3><p>${esc(sl.d)}</p>${evs ? `<div class="sl-ev">${evs}</div>` : ''}${sourcesHTML(sl)}</article>`;
   }
   function bigYear(y) { return y < 0 ? `${-y}<small>TCN</small>` : `${y}`; }
   function sliceNav(y) {
@@ -1287,6 +1288,10 @@ summary.xs-h:focus-visible { outline: 2px solid var(--gold); }
 
   /* ================= detail views ================= */
   const box = (cls, title, text) => (text ? `<div class="box ${cls}">${title ? `<h4>${esc(title)}</h4>` : ''}<p>${esc(text)}</p></div>` : '');
+  function sourcesHTML(o) {
+    const refs=o.refs?.length?o.refs:o.ref?[{url:o.ref,title:'Nguồn tham khảo'}]:[];
+    return refs.length ? `<details class="sec audit-sources"><summary>Nguồn đối chiếu</summary><ul>${refs.map(r=>`<li><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)} ↗</a>${r.scope?`<p>${esc(r.scope)}</p>`:''}</li>`).join('')}</ul></details>` : '';
+  }
   function tags(o, extra) {
     const L = LANE[o.lane];
     return `<div class="d-tags"><span class="tag tl">${esc(L.name)}</span>${o.r ? `<span class="tag">${esc(o.r)}</span>` : ''}${extra || ''}</div>`;
@@ -1335,20 +1340,20 @@ summary.xs-h:focus-visible { outline: 2px solid var(--gold); }
   function ppDetail(o) {
     const living = o.death == null;
     const age = gap(o.b, endOf(o));
-    const ageTxt = living ? `năm nay khoảng ${age} tuổi` : `thọ ${o.cb || o.cd ? 'khoảng ' : ''}${age} tuổi`;
+    const ageTxt = o.timeBasis==='activity' ? '' : living ? `năm nay khoảng ${age} tuổi` : `thọ ${o.cb || o.cd ? 'khoảng ' : ''}${age} tuổi`;
     const others = PP.filter((p) => p !== o && p.b <= o.k && o.k <= endOf(p))
       .map((p) => ({ p, s: p.imp * 100 - Math.min(90, Math.abs(p.k - o.k)) + (p.lane !== o.lane ? 40 : 0) }))
       .sort((a, b) => b.s - a.s).slice(0, 14).map((x) => x.p);
     const cont = others.length ? `<section class="sec"><h3>Những người cùng thời<small>vào năm ${esc(fy(o.k))}</small></h3><p class="muted">Khi ${esc(o.n)} ${esc(o.act)}, thì…</p><ul class="cont">${others.map((p) => `<li data-l="${p.lane}"><button type="button" class="ref" data-open="${p.id}"><span class="yr">${esc(ageStr(p, o.k))}</span><span><b>${esc(p.n)}</b><small>${esc(p.role)} · ${esc(p.r || LANE[p.lane].name)}</small></span></button></li>`).join('')}</ul></section>` : '';
     return `<article class="dt" data-l="${o.lane}">
       ${tags(o, `<span class="tag">${ico('person')}${esc(o.role)}</span>`)}
-      <div class="d-date">${esc(o.life)} · ${esc(ageTxt)}</div>
+      <div class="d-date">${esc(o.life)}${ageTxt ? ' · '+esc(ageTxt) : ''}</div>
       <h2 class="d-title">${esc(o.n)}</h2>
       <p class="d-text">${esc(o.bio)}</p>
-      ${box('key', 'Khoảnh khắc làm nên tên tuổi', `Năm ${fy(o.k)}, ${o.n} ${o.act}.`)}${box('same', 'Cùng thời thú vị', o.same)}${box('fun', 'Bạn có biết?', o.fun)}
+      ${box('key', 'Một dấu mốc đáng nhớ', `${o.ck||o.timeBasis==='activity'?'Khoảng năm':'Năm'} ${fy(o.k)}, ${o.n} ${o.act}.`)}${box('same', 'Cùng thời thú vị', o.same)}${box('fun', 'Bạn có biết?', o.fun)}
       ${cont}
       ${sameTimeHTML(o.k, o.lane, 0)}
-      ${o.ref ? `<a class="btn" href="${esc(o.ref)}" target="_blank" rel="noopener">Nguồn tham khảo ↗</a>` : ""}
+      ${sourcesHTML(o)}
       ${navHTML(o)}
     </article>`;
   }
@@ -1368,7 +1373,7 @@ summary.xs-h:focus-visible { outline: 2px solid var(--gold); }
       ${top.length ? `<section class="sec"><h3>Các mốc trong thời kỳ<small>${evs.length} sự kiện</small></h3><ul class="rel">${top.map(evRef).join('')}</ul></section>` : ''}
       ${ppl.length ? `<section class="sec"><h3>Nhân vật của thời kỳ</h3><div class="xs-pp" data-l="${o.lane}">${ppl.map((p) => `<button type="button" class="pp" data-open="${p.id}">${esc(p.n)}<small>${esc(p.life)}</small></button>`).join('')}</div></section>` : ''}
       <section class="sec"><h3>Cùng thời ở nơi khác<small>${esc(fr(o.s, o.e))}</small></h3><div class="xs">${others.map((x) => `<section class="xs-lane" data-l="${x.l.id}"><div class="xs-h"><i class="sw"></i><b>${esc(x.l.name)}</b></div><div class="pdx">${x.ps.map((p) => `<button type="button" class="pp" data-open="${p.id}">${esc(p.t)}<small>${esc(fr(p.s, p.e))}</small></button>`).join('')}</div></section>`).join('')}</div></section>
-      ${o.ref ? `<a class="btn" href="${esc(o.ref)}" target="_blank" rel="noopener">Nguồn tham khảo ↗</a>` : ""}
+      ${sourcesHTML(o)}
       ${navHTML(o)}
     </article>`;
   }
@@ -1424,7 +1429,7 @@ summary.xs-h:focus-visible { outline: 2px solid var(--gold); }
   try { QZ.best = parseInt(localStorage.getItem('lsh-best') || '0', 10) || 0; } catch (e) { /* ignore */ }
   function quizNew() {
     const type = Math.random() < 0.62 || PP.length < 4 ? 'ev' : 'np';
-    const pool = type === 'ev' ? EV.filter((e) => e.imp >= 2) : PP.filter((p) => p.imp >= 2);
+    const pool = type === 'ev' ? EV.filter((e) => e.imp >= 2 && !e.ca) : PP.filter((p) => p.imp >= 2 && p.timeBasis!=='activity' && !p.cb);
     const yr = (o) => (type === 'ev' ? o.y : o.b);
     let a, b;
     for (let tries = 0; tries < 500; tries++) {

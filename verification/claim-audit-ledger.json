@@ -1,0 +1,1326 @@
+{
+  "method": "Đọc và biên tập từng trường hiển thị; nguồn hỗ trợ phạm vi nêu trong mục. Bất định được giữ trong nội dung. SHA phát hiện nội dung đã đổi sau đối chiếu.",
+  "records": [
+    {
+      "id": "eu-otzi-3300tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-1",
+      "decisions": [
+        "Giữ niên đại xấp xỉ; phân biệt chứng cứ vết thương với giả thuyết về động cơ và hình xăm."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "place",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://www.iceman.it/en/oetzi/the-discovery",
+          "title": "Bảo tàng Khảo cổ Nam Tyrol — Phát hiện Ötzi",
+          "scope": "Ngày phát hiện, người tìm thấy và nhận định ban đầu."
+        },
+        {
+          "url": "https://www.iceman.it/en/oetzi/the-body",
+          "title": "Bảo tàng Khảo cổ Nam Tyrol — Thi thể Ötzi",
+          "scope": "Tuổi thi thể, mũi tên phát hiện năm 2001, 61 hình xăm và giới hạn giả thuyết trị liệu."
+        }
+      ],
+      "snapshotSHA256": "e51c6153db8572f4ed56497beea63ec2f8958729ed48d69192d41a66f09d93e5"
+    },
+    {
+      "id": "wa-p-sumer",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-1",
+      "decisions": [
+        "Bỏ cách mô tả mọi thành bang có tổ chức hoàn toàn giống nhau."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "r",
+        "d",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/fr/toah/ht/02/wam",
+          "title": "The Met — Lưỡng Hà, 8000–2000 TCN",
+          "scope": "Các thành bang, quyền lực Sargon và giới hạn của niên đại tuyệt đối."
+        }
+      ],
+      "snapshotSHA256": "611ef547e4f3cd83ca231233abb66e8e8498725c98ff9014daf11a9ee9560202"
+    },
+    {
+      "id": "eu-p-tien-su",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-1",
+      "decisions": [
+        "Bỏ chuỗi nhân quả khái quát đồng thau → vũ khí tốt hơn → giao thương toàn châu Âu."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "d",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/history-and-stories/timeline",
+          "title": "English Heritage — Timeline Stonehenge",
+          "scope": "Các giai đoạn của ví dụ Stonehenge; khung hiển thị được nói rõ là một phần tiền sử."
+        }
+      ],
+      "snapshotSHA256": "6d6ab86345a3a5065beb9db57e9ae48a70e3ec233e0a403cbf0f39d89b80b975"
+    },
+    {
+      "id": "wa-p-ai-cap-so-ky",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-1",
+      "decisions": [
+        "Giữ khoảng xấp xỉ và tránh kể hợp nhất như một hành động đơn lẻ."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "r",
+        "d",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://egymonuments.gov.eg/en/historical-periods/early-dynastic-period",
+          "title": "Bộ Du lịch và Cổ vật Ai Cập — Sơ kỳ vương triều",
+          "scope": "Khoảng niên đại, hai vương triều, hợp nhất dần và Memphis."
+        }
+      ],
+      "snapshotSHA256": "dcc8a6b8da503b862d5733df1cac6fc3019b3b2a73e4fa0a8d928112947f2bde"
+    },
+    {
+      "id": "wa-p-co-vuong-quoc",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-1",
+      "decisions": [
+        "Thay mô tả thịnh vượng đồng nhất bằng diễn biến thay đổi theo thời gian."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "r",
+        "d",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://egymonuments.gov.eg/en/historical-periods/old-kingdom",
+          "title": "Bộ Du lịch và Cổ vật Ai Cập — Cổ Vương quốc",
+          "scope": "Niên đại, vương triều III–VI, Djoser, Giza và thay đổi quyền lực."
+        }
+      ],
+      "snapshotSHA256": "8d62d28fca6ce719860ab2b47197dc08d325eee63b61edb1e1fe172fa7e1d8ec"
+    },
+    {
+      "id": "wa-np-khufu",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-1",
+      "decisions": [
+        "Bỏ năm sinh 2610 TCN không có chứng cứ; hiển thị thời trị vì thay vì suy ra tuổi.",
+        "Bỏ số khối đá, thứ hạng và câu voi ma mút chưa được đối chiếu riêng trong tiểu sử này."
+      ],
+      "uncertainties": [
+        "Niên đại trị vì có nhiều hệ thống."
+      ],
+      "fieldsReviewed": [
+        "n",
+        "b",
+        "d",
+        "cb",
+        "cd",
+        "role",
+        "r",
+        "k",
+        "act",
+        "bio",
+        "fun",
+        "timeBasis",
+        "lifeLabel"
+      ],
+      "sources": [
+        {
+          "url": "https://egymonuments.gov.eg/en/collections/khufu-statue-2",
+          "title": "Bộ Du lịch và Cổ vật Ai Cập — Tượng Khufu",
+          "scope": "Nhân vật, công trình, niên đại trị vì tham khảo, chất liệu, kích thước và tìm lại đầu tượng."
+        }
+      ],
+      "snapshotSHA256": "b76d678d75e226d902863607c73f93e3fb758495dcb619fa6c6c7156953ce8f7"
+    },
+    {
+      "id": "wa-kim-tu-thap-giza-2560tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-1",
+      "decisions": [
+        "Chọn điểm tham chiếu trong khoảng trị vì đang dùng ở tiểu sử Khufu; giữ rõ quần thể thuộc nhiều đời vua."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "who",
+        "place",
+        "t",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/it/press-releases/landmark-exhibition-of-egyptian-art-opens-at-metropolitan-museum-on-september-16-1999-exhibitions",
+          "title": "The Met — Nghệ thuật Ai Cập thời Kim tự tháp",
+          "scope": "Vương triều IV, ba vua xây kim tự tháp ở Giza, khoảng niên đại và các dạng tên Hy Lạp."
+        },
+        {
+          "url": "https://egymonuments.gov.eg/en/collections/khufu-statue-2",
+          "title": "Bộ Du lịch và Cổ vật Ai Cập — Tượng Khufu",
+          "scope": "Khoảng trị vì 2589–2566 TCN; 2580 là mốc hiển thị trong khoảng này, không phải năm hoàn thành."
+        }
+      ],
+      "snapshotSHA256": "b8fa2ec7e8150a6bb93b65d754527bae4625d57bcd0677367341d4cdb82e90fb"
+    },
+    {
+      "id": "sa-van-minh-song-an-2600tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-1",
+      "decisions": [
+        "Bỏ giả thuyết khí hậu như một lời giải duy nhất cho suy thoái.",
+        "Bỏ so sánh tiện nghi với toàn châu Âu trung cổ và suy đoán người làm cống thay cho vua."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "y2",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "place",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://www.harappa.com/content/recent-indus-discoveries-and-highlights-excavations-harappa-1998-2000",
+          "title": "Harappa — Jonathan Mark Kenoyer và Richard H. Meadow",
+          "scope": "Kết quả khai quật; giai đoạn đô thị Harappa 2600–1900 TCN và mạng lưới các trung tâm."
+        },
+        {
+          "url": "https://whc.unesco.org/en/list/138/",
+          "title": "UNESCO — Moenjodaro",
+          "scope": "Bố cục đô thị, nhà gạch, giếng và hệ thống thoát nước."
+        },
+        {
+          "url": "https://www.harappa.com/sites/default/files/pdf/Kenoyer1991%20Indus%20Valley%20Tradition.pdf",
+          "title": "J. M. Kenoyer — The Indus Valley Tradition (1991)",
+          "scope": "Chức năng Đại bể tắm và các công trình từng gọi kho thóc còn là diễn giải."
+        }
+      ],
+      "snapshotSHA256": "646c8470aa04c03e3ee905f147158c91848aeb50f7808c3950ce02ab02a50c01"
+    },
+    {
+      "id": "sa-p-van-minh-song-an",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-1",
+      "decisions": [
+        "Đồng bộ khung thời kỳ với bài đọc; bỏ chức năng kho thóc như một sự thật chắc chắn."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "r",
+        "d",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://www.harappa.com/content/recent-indus-discoveries-and-highlights-excavations-harappa-1998-2000",
+          "title": "Harappa — Jonathan Mark Kenoyer và Richard H. Meadow",
+          "scope": "Kết quả khai quật; giai đoạn đô thị Harappa 2600–1900 TCN và mạng lưới các trung tâm."
+        },
+        {
+          "url": "https://whc.unesco.org/en/list/138/",
+          "title": "UNESCO — Moenjodaro",
+          "scope": "Bố cục đô thị, nhà gạch, giếng và hệ thống thoát nước."
+        },
+        {
+          "url": "https://www.harappa.com/sites/default/files/pdf/Kenoyer1991%20Indus%20Valley%20Tradition.pdf",
+          "title": "J. M. Kenoyer — The Indus Valley Tradition (1991)",
+          "scope": "Chức năng Đại bể tắm và các công trình từng gọi kho thóc còn là diễn giải."
+        }
+      ],
+      "snapshotSHA256": "3989df6c3ff583e3853115d2b44a15dc70439fa1d1bee7145f6447e1e7b47ead"
+    },
+    {
+      "id": "wa-np-sargon",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-1",
+      "decisions": [
+        "Bỏ năm sinh 2360 TCN suy đoán và các chi tiết bộ máy, ngôn ngữ chưa có nguồn.",
+        "Chỉ dùng khung trị vì để tránh tính tuổi giả."
+      ],
+      "uncertainties": [
+        "Có chênh lệch giữa các hệ niên đại."
+      ],
+      "fieldsReviewed": [
+        "n",
+        "b",
+        "d",
+        "cb",
+        "cd",
+        "role",
+        "r",
+        "k",
+        "act",
+        "bio",
+        "fun",
+        "timeBasis",
+        "lifeLabel"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/fr/toah/ht/02/wam",
+          "title": "The Met — Lưỡng Hà, 8000–2000 TCN",
+          "scope": "Các thành bang, quyền lực Sargon và giới hạn của niên đại tuyệt đối."
+        },
+        {
+          "url": "https://www.metmuseum.org/it/toah/hd/meru/hd_meru.htm",
+          "title": "The Met — Danh sách vua Lưỡng Hà",
+          "scope": "Khoảng trị vì Hammurabi, Ur-Nammu và các vua Ur III; niên đại Sargon khác một số hệ thống."
+        },
+        {
+          "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Assyrian_Origins_Discoveries_at_Ashur_on_the_Tigris_Antiquities_in_the_Vorderasiatisches_Museum_Be.pdf",
+          "title": "The Met — Assyrian Origins",
+          "scope": "Bảng niên đại dùng khoảng 2334–2279 TCN."
+        }
+      ],
+      "snapshotSHA256": "4e8b227ee1f6772c46b807c4e9ff18fcb4f529f0243fe396b774c66aed26d1ae"
+    },
+    {
+      "id": "wa-p-ur-3",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-1",
+      "decisions": [
+        "Bỏ cách đánh giá phục hưng cuối cùng như một sự kiện có ranh giới rõ."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "r",
+        "d",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/it/toah/hd/meru/hd_meru.htm",
+          "title": "The Met — Danh sách vua Lưỡng Hà",
+          "scope": "Khoảng trị vì Hammurabi, Ur-Nammu và các vua Ur III; niên đại Sargon khác một số hệ thống."
+        },
+        {
+          "url": "https://collections.penn.museum/collections/highlights/neareast/ram.php",
+          "title": "Penn Museum — Ur và thời Ur III",
+          "scope": "Củng cố nhà nước, xây dựng và hoạt động chính trị thời Ur III."
+        }
+      ],
+      "snapshotSHA256": "1f21e44cc7112b86c616f0dc27a29b236278d8f9e560a1655e6d9e82a5a1c5bb"
+    },
+    {
+      "id": "wa-p-trung-vuong-quoc",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-1",
+      "decisions": [
+        "Giữ các nét đã có nguồn; làm rõ diễn biến thuộc nhiều đời vua."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "r",
+        "d",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://egymonuments.gov.eg/en/historical-periods/middle-kingdom",
+          "title": "Bộ Du lịch và Cổ vật Ai Cập — Trung Vương quốc",
+          "scope": "Niên đại, Mentuhotep, chính quyền trung ương, Fayum, Nubia và văn học."
+        }
+      ],
+      "snapshotSHA256": "05b39fbd27a167422a9f745743478c35c1e0730dd4688b13fb2a2b50696df6f6"
+    },
+    {
+      "id": "wa-p-babylon-co",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-1",
+      "decisions": [
+        "Nêu rõ đây là khung một vương triều; các niên đại cổ đại là tham khảo."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "r",
+        "d",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://collections.louvre.fr/en/ark%3A/53355/cl010167932",
+          "title": "Louvre — Con dấu thời Vương triều I Babylon",
+          "scope": "Khoảng niên đại 1894–1595 TCN."
+        },
+        {
+          "url": "https://www.metmuseum.org/ko/essays/babylon",
+          "title": "The Met — Babylon",
+          "scope": "Hammurabi, những người kế vị và cuộc tiến công Hittite năm 1595 TCN."
+        }
+      ],
+      "snapshotSHA256": "0e4332dfb62a5a18e9ca295291f5444665a5f18f86e1854b4dcc9d5b8e757858"
+    },
+    {
+      "id": "wa-np-hammurabi",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-1",
+      "decisions": [
+        "Bỏ năm sinh 1810 TCN thiếu chứng cứ; không tính tuổi từ khung trị vì.",
+        "Bỏ lời trích chưa đối chiếu và cách mô tả mọi điều luật đều theo báo oán."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "n",
+        "b",
+        "d",
+        "cb",
+        "cd",
+        "role",
+        "r",
+        "k",
+        "act",
+        "bio",
+        "fun",
+        "timeBasis",
+        "lifeLabel"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/it/toah/hd/meru/hd_meru.htm",
+          "title": "The Met — Danh sách vua Lưỡng Hà",
+          "scope": "Khoảng trị vì Hammurabi, Ur-Nammu và các vua Ur III; niên đại Sargon khác một số hệ thống."
+        },
+        {
+          "url": "https://www.louvre.fr/en/the-code-of-hammurabi",
+          "title": "Louvre — Bia luật Hammurabi",
+          "scope": "Khoảng 1750 TCN, 282 phán quyết, cấu trúc nếu–thì, đá basalt, tìm thấy tại Susa năm 1902 và trưng bày từ 1904."
+        }
+      ],
+      "snapshotSHA256": "7406098961445ffbc99c9a9c31b88dec7ea8ec4655570314b907306523c058fc"
+    },
+    {
+      "id": "wa-luat-hammurabi-1754tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-1",
+      "decisions": [
+        "Điều chỉnh năm theo nguồn Louvre; phân biệt án lệ với luật hiện đại.",
+        "Bỏ năm 1901 và khẳng định mọi người đều được đọc bia."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "who",
+        "t",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://www.louvre.fr/en/the-code-of-hammurabi",
+          "title": "Louvre — Bia luật Hammurabi",
+          "scope": "Khoảng 1750 TCN, 282 phán quyết, cấu trúc nếu–thì, đá basalt, tìm thấy tại Susa năm 1902 và trưng bày từ 1904."
+        }
+      ],
+      "snapshotSHA256": "b2e1d608669e3a18198d5d4890c6529f7d4ae6f70bcc57cb5c12b5385ca06f2c"
+    },
+    {
+      "id": "wa-p-hyksos",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-1",
+      "decisions": [
+        "Bỏ cách kể một đoàn người đem công nghệ đến rồi công nghệ tự làm Ai Cập hùng mạnh."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "r",
+        "d",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://egymonuments.gov.eg/en/historical-periods/second-intermediate-period",
+          "title": "Bộ Du lịch và Cổ vật Ai Cập — Chuyển tiếp II",
+          "scope": "Niên đại, phân chia quyền lực, Avaris, Thebes, Ahmose và giới hạn bằng chứng về việc Hyksos lên nắm quyền."
+        }
+      ],
+      "snapshotSHA256": "5dd318a50a65a7e429f273601d07cf8fdc460ee495b1dad175cf4369242137d8"
+    },
+    {
+      "id": "wa-p-tan-vuong-quoc",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-1",
+      "decisions": [
+        "Thay nhãn đỉnh cao đồng nhất bằng diễn biến có thay đổi."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "r",
+        "d",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://egymonuments.gov.eg/en/historical-periods/new-kingdom",
+          "title": "Bộ Du lịch và Cổ vật Ai Cập — Tân Vương quốc",
+          "scope": "Khung niên đại, các vương triều, phạm vi quyền lực và công trình."
+        }
+      ],
+      "snapshotSHA256": "ffbbcc42e4919afbd3ed52b12e08f87e66acb7c669e728897095f5e6016db66a"
+    },
+    {
+      "id": "wa-giay-coi-y-hoc-1600tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-1",
+      "decisions": [
+        "Bỏ khẳng định sao chép từ bản cổ hơn khi chưa đối chiếu riêng; giữ rõ quan sát và bùa chú cùng xuất hiện."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://nyam.org/library-resources/library-collections/edwin-smith-surgical-papyrus/",
+          "title": "New York Academy of Medicine — Giấy cói Edwin Smith",
+          "scope": "Niên đại, 48 ca, cấu trúc lâm sàng, bùa chú mặt sau và việc mua năm 1862."
+        }
+      ],
+      "snapshotSHA256": "180a0cc3e55bb3be689d8b0dfa1afd6f0d26ddf558bbbd3031fc4107ab4ed1cb"
+    },
+    {
+      "id": "wa-np-hatshepsut",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-1",
+      "decisions": [
+        "Không dùng năm sinh 1507 TCN suy đoán; phân biệt nhiếp chính và mang danh hiệu vua.",
+        "Thay giải nghĩa tên và lối kể báo trước số phận bằng chi tiết ngôn ngữ trên hiện vật."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "n",
+        "b",
+        "d",
+        "cb",
+        "cd",
+        "role",
+        "r",
+        "k",
+        "act",
+        "bio",
+        "fun",
+        "timeBasis",
+        "lifeLabel"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/hatshepsut.html",
+          "title": "UCL — Hatshepsut",
+          "scope": "Khoảng niên đại 1479/1473–1458/1457 TCN."
+        },
+        {
+          "url": "https://www.metmuseum.org/exhibitions/listings/2006/hatshepsut",
+          "title": "The Met — Hatshepsut",
+          "scope": "Từ nhiếp chính tới đồng trị vì."
+        },
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/547761",
+          "title": "The Met — Hatshepsut Wearing the khat Headdress",
+          "scope": "Niên đại tượng và danh hiệu với đuôi giống cái."
+        }
+      ],
+      "snapshotSHA256": "66977ef403fe5c9a6d0214171843c9ea72c6f7ebba94d5142c803bbed201f4d5"
+    },
+    {
+      "id": "vn-dong-dau-go-mun-1500tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-1",
+      "decisions": [
+        "Điều chỉnh khoảng cuối theo niên đại giới thiệu; bỏ so sánh điện thoại và chuỗi nhân quả chưa có bằng chứng."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "y2",
+        "ca",
+        "date",
+        "t",
+        "d",
+        "consequencesTitle",
+        "consequences",
+        "fun"
+      ],
+      "sources": [
+        {
+          "url": "https://baotanglichsu.vn/vi/Articles/4016/cac-van-hoa-tien-djong-son-phung-nguyen-djong-djau-go-mun-khoang-4-000-2-500-nam-cach-ngay-nay",
+          "title": "Bảo tàng Lịch sử Quốc gia — Các văn hóa tiền Đông Sơn",
+          "scope": "Chuỗi Phùng Nguyên, Đồng Đậu, Gò Mun và hiện vật; Đồng Đậu khoảng 3500–3000 năm, Gò Mun khoảng 3000–2500 năm."
+        }
+      ],
+      "snapshotSHA256": "db5b36f97e3c564a56f0799121f2e95b2501571bc8cf2cfac1fcf6b7c12ae907"
+    },
+    {
+      "id": "wa-banh-xe-3500tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-2",
+      "decisions": [
+        "Bỏ câu khẳng định phát minh tại Lưỡng Hà năm 3500 TCN và chuỗi bàn xoay → mọi máy quay.",
+        "Không thay giả thuyết cũ bằng giả thuyết thợ mỏ Carpathian như kết luận đã chứng minh."
+      ],
+      "uncertainties": [
+        "Nơi và thời điểm phát minh vẫn chưa có đồng thuận."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11529624/",
+          "title": "Alacoque, Bulliet và James — Reconstructing the invention of the wheel (2024)",
+          "scope": "Chưa có đồng thuận về nguồn gốc; giới hạn của tái dựng bằng mô hình cơ học."
+        },
+        {
+          "url": "https://mgml.si/en/city-museum/exhibitions/211/the-wheel-5200-years/",
+          "title": "MGML — The Wheel: 5,200 Years",
+          "scope": "Bánh xe gỗ có trục, tuổi xấp xỉ và nơi tìm thấy tại Slovenia."
+        }
+      ],
+      "snapshotSHA256": "9e40b06c1bb8814efc6163342d9ba18fc6141e7c2d2a79ca7355ab0cc80c941f"
+    },
+    {
+      "id": "ea-p-co-trieu-tien",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-2",
+      "decisions": [
+        "Giữ rõ hai mức độ chứng cứ của mốc khởi đầu truyền thuyết và mốc cuối lịch sử."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "r",
+        "d",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://www.korea.net/NewsFocus/Culture/view?articleId=121789&pageIndex=4",
+          "title": "Korea.net — Truyền thuyết lập quốc",
+          "scope": "Mốc 2333 TCN trong câu chuyện Đàn Quân."
+        },
+        {
+          "url": "https://contents.history.go.kr/mobile/kc/view.do?code=kc_age_10&levelId=kc_i100600",
+          "title": "Viện Quốc sử Hàn Quốc — Chiến tranh Gojoseon–Hán",
+          "scope": "Chiến tranh 109–108 TCN và kết thúc Gojoseon."
+        }
+      ],
+      "snapshotSHA256": "453b060654d8de625fd2f02489263e3fcb8beee90aadf42aa31775ca7cd3d1c7"
+    },
+    {
+      "id": "cn-p-thuong",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-2",
+      "decisions": [
+        "Bỏ thứ hạng tuyệt đối; phân biệt khung toàn triều với bằng chứng cuối triều tại Ân Khư."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "r",
+        "d",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/ja/toah/ht/03/eac.html",
+          "title": "The Met — Trung Quốc, 2000–1000 TCN",
+          "scope": "Khung Thương 1600–1046 TCN, trung tâm chính trị, đúc đồng bằng khuôn ghép và nghi lễ."
+        },
+        {
+          "url": "https://whc.unesco.org/en/list/1114/",
+          "title": "UNESCO — Ân Khư",
+          "scope": "Kinh đô cuối thời Thương, giáp cốt, cung điện, mộ táng và mộ Phụ Hảo."
+        }
+      ],
+      "snapshotSHA256": "6588af8f2475439152efb0ec0fe6c8045f1942a0cda78dfb6422eb00489a4d9f"
+    },
+    {
+      "id": "wa-p-kassite-hittite",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-2",
+      "decisions": [
+        "Không coi mọi năm của khung Trung Babylon là thời gian một chính quyền Kassite thống nhất đã tồn tại."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "d",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/ko/essays/the-middle-babylonian-kassite-period-ca-1595-1155-b-c-in-mesopotamia",
+          "title": "The Met — Thời Trung Babylon/Kassite",
+          "scope": "Khung niên đại, tiến trình nắm quyền, quan hệ ngoại giao và kết thúc năm 1155 TCN."
+        }
+      ],
+      "snapshotSHA256": "55ef7e6141125768d518e899a8f28790009ad8e6d581761a6d1ca23c4b1b2100"
+    },
+    {
+      "id": "sa-nguoi-arya-kinh-veda-1500tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-2",
+      "decisions": [
+        "Bỏ cách giải thích chế độ đẳng cấp như hệ quả tự động của một cuộc di cư.",
+        "Bỏ liên hệ từ nguyên tiếng Việt và so sánh ngôn ngữ chưa đối chiếu riêng."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/ko/toah/ht/03/ssa.html",
+          "title": "The Met — Nam Á, 2000–1000 TCN",
+          "scope": "Mốc tham khảo từ khoảng 1500 TCN, các nhóm nói ngôn ngữ Ấn–Âu, tương tác văn hóa và Veda truyền miệng."
+        },
+        {
+          "url": "https://ich.unesco.org/en/RL/tradition-of-vedic-chanting-00062",
+          "title": "UNESCO — Truyền thống tụng Veda",
+          "scope": "Học truyền miệng, trọng âm, phát âm và các kỹ thuật bảo tồn lời tụng."
+        }
+      ],
+      "snapshotSHA256": "468bacd61bce10763b32e04a089d709e45a7d211e15a2a4b6723f81e321e5a5f"
+    },
+    {
+      "id": "sa-p-thoi-veda",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-2",
+      "decisions": [
+        "Thay đoạn quy mọi đặc điểm về một nhóm người và một địa điểm duy nhất."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "r",
+        "d",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/ko/toah/ht/03/ssa.html",
+          "title": "The Met — Nam Á, 2000–1000 TCN",
+          "scope": "Mốc tham khảo từ khoảng 1500 TCN, các nhóm nói ngôn ngữ Ấn–Âu, tương tác văn hóa và Veda truyền miệng."
+        },
+        {
+          "url": "https://ich.unesco.org/en/RL/tradition-of-vedic-chanting-00062",
+          "title": "UNESCO — Truyền thống tụng Veda",
+          "scope": "Học truyền miệng, trọng âm, phát âm và các kỹ thuật bảo tồn lời tụng."
+        }
+      ],
+      "snapshotSHA256": "6959b7dadb3b079b21daf0c04e7a4eb3dad3667907770873057d5332d7ca6b97"
+    },
+    {
+      "id": "wa-hatshepsut-1479tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-2",
+      "decisions": [
+        "Bỏ mô tả râu giả là đồng phục bắt buộc ở mọi tượng pharaoh.",
+        "Phân biệt nhiếp chính và địa vị vua."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "y2",
+        "ca",
+        "date",
+        "r",
+        "who",
+        "t",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/hatshepsut.html",
+          "title": "UCL — Hatshepsut",
+          "scope": "Khung 1479/1473–1458/1457 TCN."
+        },
+        {
+          "url": "https://www.metmuseum.org/exhibitions/listings/2006/hatshepsut",
+          "title": "The Met — Hatshepsut",
+          "scope": "Từ nhiếp chính sang đồng trị vì, bối cảnh nghệ thuật."
+        },
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/547761",
+          "title": "The Met — Tượng Hatshepsut đội khăn khat",
+          "scope": "Tượng và danh hiệu có đuôi giống cái, bối cảnh thể hiện nữ quân vương."
+        }
+      ],
+      "snapshotSHA256": "15196c8c847b70b1ee45e309623f5630da64ee9abd6ebe733ca94e874696fac2"
+    },
+    {
+      "id": "wa-np-akhenaten",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-2",
+      "decisions": [
+        "Bỏ năm sinh suy đoán và quan hệ cha con với Tutankhamun khi chưa đối chiếu nghiên cứu riêng.",
+        "Thay giai thoại thư ngoại giao bằng thông tin nghệ thuật có nguồn tác giả."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "n",
+        "b",
+        "d",
+        "cb",
+        "cd",
+        "role",
+        "r",
+        "k",
+        "act",
+        "bio",
+        "fun",
+        "timeBasis",
+        "lifeLabel"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/fr/essays/art-architecture-and-the-city-in-the-reign-of-amenhotep-iv-akhenaten-ca-13531336-b-c",
+          "title": "The Met — Nghệ thuật và đô thị thời Akhenaten",
+          "scope": "Khoảng trị vì, thay đổi tôn giáo theo từng giai đoạn, Amarna, đền ngoài trời và khối talatat."
+        },
+        {
+          "url": "https://www.ucl.ac.uk/engage/museums-collections/petrie-museum-egyptian-and-sudanese-archaeology/top-objects-petrie-museum/akhenaten-and-rays-sun-god-aten",
+          "title": "UCL — Akhenaten và các tia sáng Aten",
+          "scope": "Đổi tên, tôn giáo, kinh đô và thể hiện gia đình hoàng gia."
+        },
+        {
+          "url": "https://philipglass.com/compositions/akhnaten/",
+          "title": "Philip Glass — Akhnaten",
+          "scope": "Tác giả và ngày công diễn đầu tiên 24/3/1984."
+        }
+      ],
+      "snapshotSHA256": "bc9dc964a125e199bd781f9bc354fbf4b51b9b62f91396fdbec4bf783c0d3edf"
+    },
+    {
+      "id": "wa-akhenaten-1353tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-2",
+      "decisions": [
+        "Bỏ thứ hạng thử nghiệm độc thần và mô tả nghệ thuật tự nhiên hơn như một đánh giá khách quan."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "who",
+        "t",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/fr/essays/art-architecture-and-the-city-in-the-reign-of-amenhotep-iv-akhenaten-ca-13531336-b-c",
+          "title": "The Met — Nghệ thuật và đô thị thời Akhenaten",
+          "scope": "Khoảng trị vì, thay đổi tôn giáo theo từng giai đoạn, Amarna, đền ngoài trời và khối talatat."
+        },
+        {
+          "url": "https://www.ucl.ac.uk/engage/museums-collections/petrie-museum-egyptian-and-sudanese-archaeology/top-objects-petrie-museum/akhenaten-and-rays-sun-god-aten",
+          "title": "UCL — Akhenaten và các tia sáng Aten",
+          "scope": "Đổi tên, tôn giáo, kinh đô và thể hiện gia đình hoàng gia."
+        }
+      ],
+      "snapshotSHA256": "6d2da3bee4aefa90eb9eba4771654e262a0489750b9f85224f7484c8ee0ac074"
+    },
+    {
+      "id": "wa-np-tutankhamun",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-2",
+      "decisions": [
+        "Bỏ số tuổi và năm sinh suy đoán; không gọi mộ hoàn toàn chưa bị động đến.",
+        "Bỏ khối lượng vàng và xếp hạng nổi tiếng khi chưa đối chiếu từng hiện vật."
+      ],
+      "uncertainties": [
+        "Khung trị vì và ước lượng tuổi mất khác nhau giữa các nguồn."
+      ],
+      "fieldsReviewed": [
+        "n",
+        "b",
+        "d",
+        "cb",
+        "cd",
+        "role",
+        "r",
+        "k",
+        "act",
+        "bio",
+        "fun",
+        "timeBasis",
+        "lifeLabel"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/tutankhamun.html",
+          "title": "UCL — Tutankhamun",
+          "scope": "Khung khoảng 1333–1323 TCN; lên ngôi trẻ và khôi phục các thần sau Amarna."
+        },
+        {
+          "url": "https://egymonuments.gov.eg/en/monuments/tomb-of-tutankhamun",
+          "title": "Bộ Cổ vật Ai Cập — Mộ Tutankhamun",
+          "scope": "KV62, phát hiện năm 1922, quy mô khiêm tốn và mức độ bảo tồn tương đối. Trang dùng khung trị vì khác với UCL."
+        },
+        {
+          "url": "https://www.griffith.ox.ac.uk/discoveringTut/",
+          "title": "Đại học Oxford, Griffith Institute — Hồ sơ khai quật Tutankhamun",
+          "scope": "Nhật ký và hồ sơ khai quật; phát hiện và nghiên cứu kéo dài nhiều năm."
+        }
+      ],
+      "snapshotSHA256": "5a53a789de1239622686669a465fba82b4faf94e59f1da38198c122dd07a065a"
+    },
+    {
+      "id": "wa-tutankhamun-1332tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-2",
+      "decisions": [
+        "Thay lối đánh giá vua ít thành tích; phân biệt mộ còn tương đối nguyên vẹn với chưa từng bị trộm.",
+        "Đồng bộ khung trị vì với tiểu sử."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "who",
+        "place",
+        "t",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/tutankhamun.html",
+          "title": "UCL — Tutankhamun",
+          "scope": "Khung khoảng 1333–1323 TCN; lên ngôi trẻ và khôi phục các thần sau Amarna."
+        },
+        {
+          "url": "https://egymonuments.gov.eg/en/monuments/tomb-of-tutankhamun",
+          "title": "Bộ Cổ vật Ai Cập — Mộ Tutankhamun",
+          "scope": "KV62, phát hiện năm 1922, quy mô khiêm tốn và mức độ bảo tồn tương đối. Trang dùng khung trị vì khác với UCL."
+        },
+        {
+          "url": "https://www.griffith.ox.ac.uk/discoveringTut/",
+          "title": "Đại học Oxford, Griffith Institute — Hồ sơ khai quật Tutankhamun",
+          "scope": "Nhật ký và hồ sơ khai quật; phát hiện và nghiên cứu kéo dài nhiều năm."
+        }
+      ],
+      "snapshotSHA256": "db7b8548b85bfd11ca56f85c0020d74e0d089e8b9dd9abad4bb6ae56cf8d5a49"
+    },
+    {
+      "id": "wa-np-ramses-ii",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-2",
+      "decisions": [
+        "Không dùng năm sinh 1303 TCN suy đoán; thay tuổi thọ tính từ số quy ước bằng khung trị vì.",
+        "Bỏ giai thoại đón xác ướp tại sân bay chưa đối chiếu trực tiếp."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "n",
+        "b",
+        "d",
+        "cb",
+        "cd",
+        "role",
+        "r",
+        "k",
+        "act",
+        "bio",
+        "fun",
+        "timeBasis",
+        "lifeLabel"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesii.html",
+          "title": "UCL — Ramesses II",
+          "scope": "Trị vì khoảng 1279–1213 TCN, các công trình, văn bản Kadesh và hòa ước năm trị vì thứ 21 với Hattusili III."
+        },
+        {
+          "url": "https://corum.ktb.gov.tr/EN-61494/kadesh-war-and-peace-treaty.html",
+          "title": "Bộ Văn hóa và Du lịch Thổ Nhĩ Kỳ — Kadesh",
+          "scope": "Trận chiến khoảng 1274 TCN, Muwatalli và Ramesses, các bản văn hòa ước."
+        },
+        {
+          "url": "https://whc.unesco.org/en/activities/172",
+          "title": "UNESCO — Chiến dịch cứu các di tích Nubia",
+          "scope": "Chiến dịch phát động năm 1960, ghi chép và di chuyển đền, trong đó có Abu Simbel."
+        }
+      ],
+      "snapshotSHA256": "05c54810d7b68e9814be35548ad76817ad8d497d2b60be4c6339f57c16985cf2"
+    },
+    {
+      "id": "wa-tran-kadesh-1274tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-2",
+      "decisions": [
+        "Bỏ số xe chiến, xếp hạng trận đánh, chiến thắng và hòa ước cổ nhất chưa được chứng minh.",
+        "Nêu rõ thời gian và nhân vật khác nhau của trận đánh với hòa ước."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "who",
+        "place",
+        "t",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://corum.ktb.gov.tr/EN-61494/kadesh-war-and-peace-treaty.html",
+          "title": "Bộ Văn hóa và Du lịch Thổ Nhĩ Kỳ — Kadesh",
+          "scope": "Trận chiến khoảng 1274 TCN, Muwatalli và Ramesses, các bản văn hòa ước."
+        },
+        {
+          "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesii.html",
+          "title": "UCL — Ramesses II",
+          "scope": "Trị vì khoảng 1279–1213 TCN, các công trình, văn bản Kadesh và hòa ước năm trị vì thứ 21 với Hattusili III."
+        }
+      ],
+      "snapshotSHA256": "a0b134fcb0ac14428a2a32e2957a5e9d13ad2265d856f1d4134ef2de041af9a9"
+    },
+    {
+      "id": "cn-chu-giap-cot-1250tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-2",
+      "decisions": [
+        "Bỏ giai thoại long cốt năm 1899 và khái quát lịch sử chữ Hán ở Việt Nam khi chưa đối chiếu riêng."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "place",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1114/",
+          "title": "UNESCO — Ân Khư",
+          "scope": "Kinh đô cuối thời Thương, giáp cốt, cung điện, mộ táng và mộ Phụ Hảo."
+        },
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/42024",
+          "title": "The Met — Mảnh giáp cốt 18.56.73",
+          "scope": "Chất liệu xương, niên đại Thương và kích thước hiện vật."
+        }
+      ],
+      "snapshotSHA256": "62141c63b0e32e2db4d350b5b2f0adeda5469283fa7c700ed321b52778d5f79d"
+    },
+    {
+      "id": "cn-dong-thau-nha-thuong-1200tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-2",
+      "decisions": [
+        "Sửa thuật ngữ đồng thau và giới hạn khẳng định nặng nhất.",
+        "Bỏ câu Phụ Hảo chỉ huy hơn một vạn quân khi chưa kiểm tra văn bản gốc."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "d",
+        "consequencesTitle",
+        "consequences",
+        "fun"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/ja/toah/ht/03/eac.html",
+          "title": "The Met — Trung Quốc, 2000–1000 TCN",
+          "scope": "Khung Thương 1600–1046 TCN, trung tâm chính trị, đúc đồng bằng khuôn ghép và nghi lễ."
+        },
+        {
+          "url": "https://www2.chnmuseum.cn/collections_577/collection_highlights_608/archaeological_discoveries_609/202109/t20210902_251133.html",
+          "title": "Bảo tàng Quốc gia Trung Quốc — Đỉnh Hậu Mẫu Mậu",
+          "scope": "Khối lượng 832,84 kg và phạm vi thứ hạng trong Trung Quốc cổ đại."
+        }
+      ],
+      "snapshotSHA256": "a536556b1af4950cebe652424ef7384b069e164d6cee90eea58df067c29ead43"
+    },
+    {
+      "id": "eu-troy-1200tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-2",
+      "decisions": [
+        "Bỏ năm phá hủy chính xác 1180 TCN như chứng minh cuộc chiến trong thần thoại.",
+        "Giữ địa lý di tích ở Anatolia, không đồng nhất nó với nhà nước Hy Lạp hiện đại."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "place",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/849/",
+          "title": "UNESCO — Di tích Troy",
+          "scope": "Nhiều lớp lịch sử, địa điểm, truyền thống sử thi và giao lưu khu vực."
+        },
+        {
+          "url": "https://www.unesco.org.tr/Content_Files/Content/Yayinlar/wht_19.pdf",
+          "title": "Ủy ban UNESCO Thổ Nhĩ Kỳ — Tư liệu về Troy",
+          "scope": "Phân biệt câu chuyện con ngựa trong Odyssey với nội dung Iliad."
+        }
+      ],
+      "snapshotSHA256": "9f98556a994581d95fe2bc989827fda6cc61f2a72b6e9c7a7edea4f24f1d356f"
+    },
+    {
+      "id": "am-olmec-1200tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-2",
+      "decisions": [
+        "Bỏ nhãn văn minh mẹ như quan hệ nguồn gốc một chiều và giả thuyết vận chuyển tượng chưa chứng minh."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "place",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/olmec-art",
+          "title": "The Met — Nghệ thuật Olmec",
+          "scope": "Giai đoạn 1200–400 TCN, vùng vịnh Mexico, San Lorenzo, La Venta, đầu tượng, vật liệu và đời sống tiếp tục ở các trung tâm khác."
+        }
+      ],
+      "snapshotSHA256": "065d125f0245de1934ad2ffbc46dcc637234a0587eed33961633341bd6050f9c"
+    },
+    {
+      "id": "am-p-olmec",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-2",
+      "decisions": [
+        "Bỏ thứ hạng nền văn minh đầu tiên và giữ rõ giới hạn của khung phân kỳ."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "r",
+        "d",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/olmec-art",
+          "title": "The Met — Nghệ thuật Olmec",
+          "scope": "Giai đoạn 1200–400 TCN, vùng vịnh Mexico, San Lorenzo, La Venta, đầu tượng, vật liệu và đời sống tiếp tục ở các trung tâm khác."
+        }
+      ],
+      "snapshotSHA256": "a5290a38aafb8ad2ea0a32c4899279376ce94b7612c4b374fc854b9fcf5afba5"
+    },
+    {
+      "id": "am-chavin-900tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-2",
+      "decisions": [
+        "Bỏ thứ hạng lần đầu liên kết toàn Andes; phân biệt phép đo với diễn giải tâm linh."
+      ],
+      "uncertainties": [
+        "Niên đại tùy đối tượng và cách phân kỳ của từng nguồn."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/330/",
+          "title": "UNESCO — Chavín",
+          "scope": "Trung tâm nghi lễ, hành hương, kiến trúc, hành lang, quảng trường và giao lưu văn hóa."
+        },
+        {
+          "url": "https://museo.precolombino.cl/aprende/pueblos-culturas/culturas-precolombinas/andes-centrales/chav-n/",
+          "title": "Bảo tàng Nghệ thuật tiền Colombo Chile — Chavín",
+          "scope": "Khung 900–200 TCN và nghệ thuật Chavín; các nguồn có phạm vi niên đại khác nhau."
+        },
+        {
+          "url": "https://acoustics.org/4paaa2-uncanny-acoustics-phantom-instrument-guides-at-ancient-chavin-de-huantar-peru-miriam-kolar-ph-d/",
+          "title": "Miriam Kolar — Uncanny Acoustics tại Chavín, ASA 2014",
+          "scope": "19 pututu tìm thấy năm 2001, đo âm học và giới hạn diễn giải nghi lễ."
+        }
+      ],
+      "snapshotSHA256": "59bfddb0f8a0a16cbbc9248862c6465f0e7af17b4b433205675a476b5a320231"
+    },
+    {
+      "id": "am-p-chavin",
+      "reviewedAt": "2026-11-04",
+      "batch": "bronze-audit-2",
+      "decisions": [
+        "Nêu rõ khung phân kỳ, không gọi nền văn hóa đầu tiên lan khắp Andes."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "r",
+        "d",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://museo.precolombino.cl/aprende/pueblos-culturas/culturas-precolombinas/andes-centrales/chav-n/",
+          "title": "Bảo tàng Nghệ thuật tiền Colombo Chile — Chavín",
+          "scope": "Khung 900–200 TCN và nghệ thuật Chavín; các nguồn có phạm vi niên đại khác nhau."
+        },
+        {
+          "url": "https://whc.unesco.org/en/list/330/",
+          "title": "UNESCO — Chavín",
+          "scope": "Trung tâm nghi lễ, hành hương, kiến trúc, hành lang, quảng trường và giao lưu văn hóa."
+        }
+      ],
+      "snapshotSHA256": "299db0cd8b1d66ff815ace7eed5243570c66e39b7139d44308c460e454571398"
+    }
+  ],
+  "updatedAt": "2026-11-04"
+}

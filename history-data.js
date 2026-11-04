@@ -151,10 +151,28 @@ TL_DATA.push({
   ],
   "ref": "https://baotanglichsu.vn/vi/Articles/4016/cac-van-hoa-tien-djong-son-phung-nguyen-djong-djau-go-mun-khoang-4-000-2-500-nam-cach-ngay-nay"
 },
-    { id: 'vn-dong-dau-go-mun-1500tcn', y: -1500, y2: -700, ca: true, date: 'Khoảng 1500–700 TCN', t: 'Đồng Đậu, Gò Mun: thời đồ đồng', c: 'sci', imp: 1,
-      d: 'Tiếp nối Phùng Nguyên là văn hoá Đồng Đậu rồi Gò Mun. Đồ đồng ngày càng nhiều và đa dạng: mũi tên, mũi giáo, rìu, lưỡi câu, dùi. Công cụ kim loại giúp khai hoang, làm ruộng hiệu quả hơn, dân số tăng và làng xóm đông đúc dần.',
-      why: 'Kỹ thuật đúc đồng tích luỹ qua gần một nghìn năm là tiền đề để người Việt cổ làm ra những chiếc trống đồng tuyệt đẹp thời Đông Sơn.',
-      alt: 'Từ rìu đá sang rìu đồng là một cú “nâng cấp công nghệ” không kém gì chuyển từ điện thoại bàn phím sang điện thoại thông minh, chỉ có điều nó diễn ra trong vài trăm năm.' },
+    {
+  "id": "vn-dong-dau-go-mun-1500tcn",
+  "y": -1500,
+  "y2": -500,
+  "ca": true,
+  "date": "Khoảng 1500–500 TCN, niên đại xấp xỉ",
+  "t": "Đồng Đậu, Gò Mun: thời đồ đồng",
+  "c": "sci",
+  "imp": 1,
+  "d": "Sau Phùng Nguyên, khảo cổ miền Bắc Việt Nam ghi nhận các văn hóa Đồng Đậu và Gò Mun. Bảo tàng Lịch sử Quốc gia đặt Đồng Đậu khoảng 3.500–3.000 năm trước, Gò Mun khoảng 3.000–2.500 năm trước. Hiện vật cho thấy đồ đồng ngày càng đa dạng, trong khi công cụ đá và đồ gốm vẫn có mặt.",
+  "consequencesTitle": "Kỹ thuật thay đổi qua nhiều thế hệ",
+  "consequences": "Chuỗi hiện vật giúp theo dõi sự phát triển nghề luyện kim trước và trong quá trình chuyển sang văn hóa Đông Sơn. Không nên từ việc có đồ đồng suy ra ngay một nguyên nhân duy nhất làm dân số tăng hoặc nhà nước ra đời.",
+  "fun": "Tên Đồng Đậu và Gò Mun là tên các di chỉ dùng để gọi những nhóm hiện vật khảo cổ. Chúng không phải tên hai triều đại kế tiếp nhau.",
+  "refs": [
+    {
+      "url": "https://baotanglichsu.vn/vi/Articles/4016/cac-van-hoa-tien-djong-son-phung-nguyen-djong-djau-go-mun-khoang-4-000-2-500-nam-cach-ngay-nay",
+      "title": "Bảo tàng Lịch sử Quốc gia — Các văn hóa tiền Đông Sơn",
+      "scope": "Chuỗi Phùng Nguyên, Đồng Đậu, Gò Mun và hiện vật; Đồng Đậu khoảng 3500–3000 năm, Gò Mun khoảng 3000–2500 năm."
+    }
+  ],
+  "ref": "https://baotanglichsu.vn/vi/Articles/4016/cac-van-hoa-tien-djong-son-phung-nguyen-djong-djau-go-mun-khoang-4-000-2-500-nam-cach-ngay-nay"
+},
     { id: 'vn-sa-huynh-1000tcn', y: -1000, y2: 200, ca: true, date: 'Khoảng 1000 TCN – thế kỷ II', t: 'Văn hoá Sa Huỳnh ở miền Trung', c: 'cul', imp: 2, r: 'Miền Trung',
       place: 'Sa Huỳnh (Quảng Ngãi) và dọc duyên hải miền Trung',
       d: 'Dọc dải đất ven biển miền Trung, cư dân Sa Huỳnh sống bằng trồng trọt, đánh cá, làm đồ sắt và buôn bán bằng thuyền. Họ có tục chôn người chết trong những chiếc chum gốm lớn, kèm đồ trang sức bằng đá quý, thuỷ tinh và mã não.',
@@ -1696,8 +1714,29 @@ TL_DATA.push({
     }
   ]
 },
-    { id: 'cn-p-thuong', s: -1600, e: -1046, g: 'a', t: 'Nhà Thương', r: 'Trung Quốc',
-      d: 'Triều đại đầu tiên có chữ viết được khảo cổ chứng minh: chữ giáp cốt khắc trên mai rùa, xương thú. Người Thương đúc đồ đồng tinh xảo và rất coi trọng bói toán, cúng tế tổ tiên.' },
+    {
+  "id": "cn-p-thuong",
+  "s": -1600,
+  "e": -1046,
+  "g": "a",
+  "t": "Nhà Thương",
+  "r": "Trung Quốc",
+  "d": "Khoảng 1600–1046 TCN theo niên đại tham khảo. Những trung tâm như Trịnh Châu và An Dương để lại kiến trúc, đồ đồng nghi lễ và chứng cứ chữ viết. Giáp cốt ở Ân Khư đặc biệt quan trọng để nghiên cứu tín ngưỡng và xã hội cuối thời Thương.",
+  "ca": true,
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/ja/toah/ht/03/eac.html",
+      "title": "The Met — Trung Quốc, 2000–1000 TCN",
+      "scope": "Khung Thương 1600–1046 TCN, trung tâm chính trị, đúc đồng bằng khuôn ghép và nghi lễ."
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1114/",
+      "title": "UNESCO — Ân Khư",
+      "scope": "Kinh đô cuối thời Thương, giáp cốt, cung điện, mộ táng và mộ Phụ Hảo."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/ja/toah/ht/03/eac.html"
+},
     { id: 'cn-p-tay-chu', s: -1046, e: -771, g: 'a', t: 'Nhà Tây Chu', r: 'Trung Quốc',
       d: 'Nhà Chu diệt Thương, đóng đô ở Cảo Kinh (gần Tây An), chia đất phong cho anh em, công thần làm chư hầu và đề ra thuyết “Thiên mệnh” để giải thích quyền làm vua.' },
     { id: 'cn-p-xuan-thu', s: -770, e: -476, g: 'a', t: 'Đông Chu – Xuân Thu', r: 'Trung Quốc',
@@ -1788,18 +1827,62 @@ TL_DATA.push({
   "ref": "https://www.metmuseum.org/ja/toah/ht/03/eac.html"
 },
 
-    { id: 'cn-chu-giap-cot-1250tcn', y: -1250, ca: true, date: 'Khoảng thế kỷ XIII TCN', r: 'Trung Quốc',
-      t: 'Chữ giáp cốt trên mai rùa, xương thú', c: 'cul', imp: 3, place: 'Ân Khư (An Dương, Hà Nam)',
-      d: 'Vua nhà Thương thường bói toán trước mọi việc lớn: thầy bói hơ nóng mai rùa, xương bò cho nứt rồi đoán ý trời, sau đó khắc câu hỏi và lời đoán lên chính mảnh xương. Những dòng khắc ấy, gọi là chữ giáp cốt, là dạng chữ Hán cổ nhất còn lại đến nay, tìm thấy nhiều nhất ở Ân Khư, kinh đô cuối của nhà Thương.',
-      why: 'Là tổ tiên trực tiếp của chữ Hán, hệ chữ từng được dùng khắp Trung Quốc, Việt Nam, Triều Tiên và Nhật Bản.',
-      fun: 'Năm 1899, những mảnh “long cốt” bán làm thuốc ở Bắc Kinh được một học giả phát hiện có khắc chữ cổ. Suýt nữa cả “kho lưu trữ” của nhà Thương đã bị tán thành bột thuốc.',
-      vn: 'Chữ Hán theo các triều đại phương Bắc vào Việt Nam và được ông cha ta dùng suốt gần 2.000 năm, trước khi chữ Quốc ngữ thay thế vào đầu thế kỷ XX.' },
+    {
+  "id": "cn-chu-giap-cot-1250tcn",
+  "y": -1250,
+  "ca": true,
+  "date": "Khoảng thế kỷ XIII TCN",
+  "r": "Trung Quốc",
+  "t": "Chữ giáp cốt trên mai rùa, xương thú",
+  "c": "cul",
+  "imp": 3,
+  "place": "Ân Khư (An Dương, Hà Nam)",
+  "d": "Các văn khắc trên xương và mai rùa ở Ân Khư là chứng cứ quan trọng của chữ viết Trung Hoa thời Thương muộn. Chúng gắn với việc bói hỏi và đời sống cung đình. Mốc khoảng thế kỷ XIII TCN đặt bài vào giai đoạn ấy, không khẳng định một năm phát minh chữ viết.",
+  "fun": "Một mảnh giáp cốt ở The Met chỉ khoảng 3,5 × 2,7 cm. Những văn bản cổ không nhất thiết là những tấm bia lớn: mảnh vỡ nhỏ cũng có thể là tư liệu.",
+  "consequencesTitle": "Văn bản bổ sung cho hiện vật và kiến trúc",
+  "consequences": "Chữ khắc giúp nghiên cứu tín ngưỡng và xã hội Thương cùng với cung điện, mộ táng và đồ đồng. Những loại chứng cứ khác nhau cần được đọc cùng nhau.",
+  "refs": [
+    {
+      "url": "https://whc.unesco.org/en/list/1114/",
+      "title": "UNESCO — Ân Khư",
+      "scope": "Kinh đô cuối thời Thương, giáp cốt, cung điện, mộ táng và mộ Phụ Hảo."
+    },
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/42024",
+      "title": "The Met — Mảnh giáp cốt 18.56.73",
+      "scope": "Chất liệu xương, niên đại Thương và kích thước hiện vật."
+    }
+  ],
+  "ref": "https://whc.unesco.org/en/list/1114/"
+},
 
-    { id: 'cn-dong-thau-nha-thuong-1200tcn', y: -1200, ca: true, date: 'Khoảng thế kỷ XIII–XII TCN', r: 'Trung Quốc',
-      t: 'Đỉnh cao đúc đồng thời nhà Thương', c: 'sci', imp: 1,
-      d: 'Thợ thủ công nhà Thương đúc những chiếc đỉnh, bình rượu bằng đồng thau phủ hoa văn mặt thú cầu kỳ, dùng trong lễ tế tổ tiên. Chiếc đỉnh Hậu Mẫu Mậu nặng hơn 830 kg là đồ đồng cổ nặng nhất từng được tìm thấy trên thế giới.',
-      why: 'Cho thấy nhà Thương có tổ chức lao động quy mô lớn và trình độ luyện kim cao; đồ đồng trở thành biểu tượng của quyền lực.',
-      alt: 'Một trong những vị tướng nổi tiếng nhất nhà Thương lại là phụ nữ: bà Phụ Hảo, vợ vua Vũ Đinh, từng chỉ huy hơn một vạn quân. Lăng mộ của bà được tìm thấy còn nguyên vẹn năm 1976.' },
+    {
+  "id": "cn-dong-thau-nha-thuong-1200tcn",
+  "y": -1200,
+  "ca": true,
+  "date": "Khoảng thế kỷ XIII–XII TCN",
+  "r": "Trung Quốc",
+  "t": "Đúc đồng nghi lễ thời Thương",
+  "c": "sci",
+  "imp": 1,
+  "d": "Thợ thời Thương dùng khuôn gốm gồm nhiều mảnh để đúc đồ đồng nghi lễ với hoa văn phức tạp. Những bình và đỉnh dùng trong nghi lễ gắn nhà vua với tổ tiên. Khái niệm bronze ở đây nên được diễn đạt là đồ đồng hoặc hợp kim đồng, tránh nhầm với đồng thau theo nghĩa hợp kim đồng–kẽm.",
+  "consequencesTitle": "Kỹ thuật đúc cần cả vật liệu và tổ chức công việc",
+  "consequences": "Khuôn ghép đòi hỏi thời gian và độ chính xác; việc kiểm soát nguyên liệu, nhân lực và kỹ thuật gắn với quyền lực của tầng lớp cai trị.",
+  "fun": "Đỉnh Hậu Mẫu Mậu tại Bảo tàng Quốc gia Trung Quốc nặng 832,84 kg. Bảo tàng giới hạn thứ hạng của nó trong đồ đồng Trung Quốc cổ đại, không phải mọi đồ đồng trên toàn thế giới.",
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/ja/toah/ht/03/eac.html",
+      "title": "The Met — Trung Quốc, 2000–1000 TCN",
+      "scope": "Khung Thương 1600–1046 TCN, trung tâm chính trị, đúc đồng bằng khuôn ghép và nghi lễ."
+    },
+    {
+      "url": "https://www2.chnmuseum.cn/collections_577/collection_highlights_608/archaeological_discoveries_609/202109/t20210902_251133.html",
+      "title": "Bảo tàng Quốc gia Trung Quốc — Đỉnh Hậu Mẫu Mậu",
+      "scope": "Khối lượng 832,84 kg và phạm vi thứ hạng trong Trung Quốc cổ đại."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/ja/toah/ht/03/eac.html"
+},
 
     { id: 'cn-chu-diet-thuong-1046tcn', y: -1046, r: 'Trung Quốc',
       t: 'Chu Vũ Vương diệt Thương, lập nhà Chu', c: 'pol', imp: 2, who: 'Chu Vũ Vương', place: 'Mục Dã (Hà Nam)',
@@ -2393,8 +2476,29 @@ TL_DATA.push({
     { id: 'ea-p-hau-chien', s: 1945, e: 2026, t: 'Nhật Bản sau chiến tranh', g: 'a', r: 'Nhật Bản',
       d: 'Bị Mỹ chiếm đóng đến năm 1952, Nhật Bản xây dựng nền dân chủ hòa bình, trở thành cường quốc kinh tế qua các thời Chiêu Hòa, Bình Thành (Heisei) và Lệnh Hòa (Reiwa).' },
     // Nhóm b: Triều Tiên
-    { id: 'ea-p-co-trieu-tien', s: -2333, e: -108, t: 'Cổ Triều Tiên (Gojoseon)', g: 'b', r: 'Triều Tiên',
-      d: 'Nhà nước đầu tiên của người Triều Tiên (năm lập nước theo truyền thuyết), ở vùng Mãn Châu và bắc bán đảo; bị nhà Hán tiêu diệt năm 108 TCN.' },
+    {
+  "id": "ea-p-co-trieu-tien",
+  "s": -2333,
+  "e": -108,
+  "t": "Cổ Triều Tiên (Gojoseon)",
+  "g": "b",
+  "r": "Triều Tiên",
+  "d": "Mốc đầu 2333 TCN thuộc truyền thuyết Đàn Quân, không phải năm lập quốc được chứng minh bằng khảo cổ. Gojoseon là một nhà nước cổ trong lịch sử Triều Tiên; giai đoạn cuối kết thúc sau chiến tranh với nhà Hán năm 108 TCN. Không nên đọc cả khoảng trên thanh thời gian như một chuỗi niên đại có độ chắc chắn như nhau.",
+  "ca": true,
+  "refs": [
+    {
+      "url": "https://www.korea.net/NewsFocus/Culture/view?articleId=121789&pageIndex=4",
+      "title": "Korea.net — Truyền thuyết lập quốc",
+      "scope": "Mốc 2333 TCN trong câu chuyện Đàn Quân."
+    },
+    {
+      "url": "https://contents.history.go.kr/mobile/kc/view.do?code=kc_age_10&levelId=kc_i100600",
+      "title": "Viện Quốc sử Hàn Quốc — Chiến tranh Gojoseon–Hán",
+      "scope": "Chiến tranh 109–108 TCN và kết thúc Gojoseon."
+    }
+  ],
+  "ref": "https://www.korea.net/NewsFocus/Culture/view?articleId=121789&pageIndex=4"
+},
     { id: 'ea-p-tam-quoc', s: -57, e: 668, t: 'Thời Tam Quốc', g: 'b', r: 'Triều Tiên',
       d: 'Ba vương quốc Cao Câu Ly, Bách Tế và Tân La cùng tồn tại, cạnh tranh nhau và cùng tiếp thu chữ Hán, Phật giáo từ Trung Hoa.' },
     { id: 'ea-p-tan-la', s: 668, e: 935, t: 'Tân La thống nhất', g: 'b', r: 'Triều Tiên',
@@ -2870,10 +2974,57 @@ TL_DATA.push({
 TL_DATA.push({
   lane: 'sa',
   periods: [
-    { id: 'sa-p-van-minh-song-an', s: -2600, e: -1900, t: 'Văn minh sông Ấn', g: 'a', r: 'Ấn Độ – Pakistan',
-      d: 'Những thành phố quy hoạch bài bản như Harappa, Mohenjo-daro mọc lên dọc sông Ấn, có cống thoát nước, kho thóc và chữ viết riêng đến nay chưa giải mã được.' },
-    { id: 'sa-p-thoi-veda', s: -1500, e: -600, t: 'Thời kỳ Veda', g: 'a', r: 'Ấn Độ',
-      d: 'Người Arya định cư ở đồng bằng sông Hằng, kinh Veda bằng tiếng Phạn ra đời, đạo Bà La Môn và chế độ đẳng cấp dần hình thành.' },
+    {
+  "id": "sa-p-van-minh-song-an",
+  "s": -2600,
+  "e": -1900,
+  "t": "Văn minh sông Ấn",
+  "g": "a",
+  "r": "Ấn Độ – Pakistan",
+  "d": "Khoảng 2600–1900 TCN là khung giai đoạn đô thị Harappa trưởng thành. Harappa và Mohenjo-daro thuộc mạng lưới nhiều trung tâm, với kỹ thuật xây dựng và quản lý nước. Tên gọi “kho thóc” cho một số công trình là cách diễn giải, chưa phải chức năng đã được chứng minh.",
+  "ca": true,
+  "refs": [
+    {
+      "url": "https://www.harappa.com/content/recent-indus-discoveries-and-highlights-excavations-harappa-1998-2000",
+      "title": "Harappa — Jonathan Mark Kenoyer và Richard H. Meadow",
+      "scope": "Kết quả khai quật; giai đoạn đô thị Harappa 2600–1900 TCN và mạng lưới các trung tâm."
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/138/",
+      "title": "UNESCO — Moenjodaro",
+      "scope": "Bố cục đô thị, nhà gạch, giếng và hệ thống thoát nước."
+    },
+    {
+      "url": "https://www.harappa.com/sites/default/files/pdf/Kenoyer1991%20Indus%20Valley%20Tradition.pdf",
+      "title": "J. M. Kenoyer — The Indus Valley Tradition (1991)",
+      "scope": "Chức năng Đại bể tắm và các công trình từng gọi kho thóc còn là diễn giải."
+    }
+  ],
+  "ref": "https://www.harappa.com/content/recent-indus-discoveries-and-highlights-excavations-harappa-1998-2000"
+},
+    {
+  "id": "sa-p-thoi-veda",
+  "s": -1500,
+  "e": -600,
+  "t": "Thời kỳ Veda",
+  "g": "a",
+  "r": "Ấn Độ",
+  "d": "Khung quy ước cho giai đoạn hình thành và truyền lại các bài Veda ở Nam Á. Những truyền thống nghi lễ và cộng đồng thay đổi qua nhiều thế kỷ; không có một năm duy nhất đánh dấu mọi đặc điểm xã hội xuất hiện cùng lúc.",
+  "ca": true,
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/ko/toah/ht/03/ssa.html",
+      "title": "The Met — Nam Á, 2000–1000 TCN",
+      "scope": "Mốc tham khảo từ khoảng 1500 TCN, các nhóm nói ngôn ngữ Ấn–Âu, tương tác văn hóa và Veda truyền miệng."
+    },
+    {
+      "url": "https://ich.unesco.org/en/RL/tradition-of-vedic-chanting-00062",
+      "title": "UNESCO — Truyền thống tụng Veda",
+      "scope": "Học truyền miệng, trọng âm, phát âm và các kỹ thuật bảo tồn lời tụng."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/ko/toah/ht/03/ssa.html"
+},
     { id: 'sa-p-muoi-sau-tieu-quoc', s: -600, e: -322, t: 'Thời mười sáu tiểu quốc', g: 'a', r: 'Ấn Độ',
       d: 'Miền bắc Ấn Độ chia thành nhiều tiểu quốc lớn tranh hùng, Magadha dần mạnh nhất. Đây cũng là thời Đức Phật và Mahavira truyền đạo.' },
     { id: 'sa-p-maurya', s: -322, e: -185, t: 'Đế quốc Maurya', g: 'a', r: 'Ấn Độ',
@@ -2902,12 +3053,40 @@ TL_DATA.push({
       d: 'Các nước Đông Nam Á lần lượt giành độc lập, vượt qua chiến tranh và chia rẽ để cùng hợp tác trong ASEAN, trở thành một trong những khu vực kinh tế năng động nhất thế giới.' }
   ],
   events: [
-    { id: 'sa-van-minh-song-an-2600tcn', y: -2600, y2: -1900, ca: true, date: 'Khoảng 2600–1900 TCN', r: 'Ấn Độ – Pakistan', t: 'Văn minh sông Ấn: Harappa, Mohenjo-daro', c: 'cul', imp: 3,
-      place: 'Lưu vực sông Ấn (Pakistan và tây bắc Ấn Độ ngày nay)',
-      d: 'Khoảng năm 2600 TCN, dọc sông Ấn mọc lên những thành phố như Harappa và Mohenjo-daro, đường phố kẻ ô vuông vức, nhà xây bằng gạch nung, có cống thoát nước và giếng riêng. Cư dân trồng lúa mì, dệt vải bông, buôn bán tận Lưỡng Hà và dùng con dấu khắc chữ mà đến nay chưa ai đọc được. Khoảng năm 1900 TCN, các thành phố suy tàn dần, có thể do khí hậu khô hạn và sông đổi dòng.',
-      why: 'Là một trong những nền văn minh đô thị sớm nhất thế giới, cùng thời với Ai Cập và Lưỡng Hà, đặt nền móng đầu tiên cho lịch sử Nam Á.',
-      fun: 'Mohenjo-daro có một “Đại bể tắm” lát gạch chống thấm, và nhiều nhà có phòng tắm nối với cống ngầm: tiện nghi mà không ít thành phố châu Âu thời trung cổ còn phải mơ ước.',
-      alt: 'Lạ là các nhà khảo cổ chưa tìm thấy cung điện nguy nga hay lăng mộ vua nào. Có lẽ ở những thành phố này, người làm cống thoát nước mới là “ngôi sao” chứ không phải nhà vua.' },
+    {
+  "id": "sa-van-minh-song-an-2600tcn",
+  "y": -2600,
+  "y2": -1900,
+  "ca": true,
+  "date": "Khoảng 2600–1900 TCN",
+  "r": "Ấn Độ – Pakistan",
+  "t": "Văn minh sông Ấn: Harappa, Mohenjo-daro",
+  "c": "cul",
+  "imp": 3,
+  "place": "Lưu vực sông Ấn (Pakistan và tây bắc Ấn Độ ngày nay)",
+  "d": "Giai đoạn Harappa trưởng thành thường được đặt khoảng 2600–1900 TCN. Harappa và Mohenjo-daro là những trung tâm trong một mạng lưới rộng ở vùng sông Ấn. Tại Mohenjo-daro, đường phố có bố cục quy hoạch, nhà gạch, giếng và hệ thống thoát nước cho thấy việc tổ chức đời sống đô thị.",
+  "fun": "Cái tên “Đại bể tắm” mô tả một bể xây chống thấm. Cách sử dụng cụ thể vẫn được diễn giải. Tương tự, những công trình từng được gọi là “kho thóc” chưa có chức năng được xác định chắc chắn.",
+  "consequencesTitle": "Hạ tầng giúp hình dung cách một đô thị vận hành",
+  "consequences": "Cống, giếng và các khu nhà cung cấp chứng cứ về quản lý nước và không gian sống. Từ đó có thể đặt câu hỏi về tổ chức cộng đồng; riêng hạ tầng chưa xác định được ai nắm quyền hay họ cai trị theo thể chế nào.",
+  "refs": [
+    {
+      "url": "https://www.harappa.com/content/recent-indus-discoveries-and-highlights-excavations-harappa-1998-2000",
+      "title": "Harappa — Jonathan Mark Kenoyer và Richard H. Meadow",
+      "scope": "Kết quả khai quật; giai đoạn đô thị Harappa 2600–1900 TCN và mạng lưới các trung tâm."
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/138/",
+      "title": "UNESCO — Moenjodaro",
+      "scope": "Bố cục đô thị, nhà gạch, giếng và hệ thống thoát nước."
+    },
+    {
+      "url": "https://www.harappa.com/sites/default/files/pdf/Kenoyer1991%20Indus%20Valley%20Tradition.pdf",
+      "title": "J. M. Kenoyer — The Indus Valley Tradition (1991)",
+      "scope": "Chức năng Đại bể tắm và các công trình từng gọi kho thóc còn là diễn giải."
+    }
+  ],
+  "ref": "https://www.harappa.com/content/recent-indus-discoveries-and-highlights-excavations-harappa-1998-2000"
+},
     {
   "id": "sa-ban-chiang-2000tcn",
   "y": -2100,
@@ -2946,12 +3125,33 @@ TL_DATA.push({
   ],
   "ref": "https://db.iseaarchaeology.org/metals-database/"
 },
-    { id: 'sa-nguoi-arya-kinh-veda-1500tcn', y: -1500, ca: true, date: 'Khoảng 1500 TCN', r: 'Ấn Độ', t: 'Người Arya và kinh Veda', c: 'cul', imp: 2,
-      d: 'Khoảng năm 1500 TCN, các nhóm người nói tiếng Ấn – Arya di cư từ Trung Á vào tây bắc Ấn Độ, chăn nuôi bò ngựa rồi dần định cư ở đồng bằng sông Hằng. Họ sáng tác kinh Veda bằng tiếng Phạn, ban đầu chỉ học thuộc và truyền miệng. Xã hội dần chia thành các đẳng cấp, mầm mống của chế độ đẳng cấp khắt khe về sau.',
-      why: 'Kinh Veda, tiếng Phạn và đạo Bà La Môn hình thành từ đây, là nền tảng của đạo Hindu và văn hóa Ấn Độ suốt hơn 3000 năm.',
-      fun: 'Kinh Rig Veda được truyền miệng chính xác đến từng âm tiết qua nhiều thế kỷ trước khi được chép thành văn bản: một kiểu “ổ cứng bằng trí nhớ” đáng nể.',
-      alt: 'Tiếng Phạn là họ hàng xa của tiếng Anh, tiếng Pháp: cùng ngữ hệ Ấn – Âu. Chữ “pitar” (cha) trong tiếng Phạn là anh em họ của “pater” trong tiếng Latinh và “father” trong tiếng Anh.',
-      vn: 'Nhiều từ nhà Phật trong tiếng Việt như “Bụt”, “Niết bàn”, “Bát nhã” có gốc xa từ tiếng Phạn, theo chân các nhà truyền đạo đến nước ta.' },
+    {
+  "id": "sa-nguoi-arya-kinh-veda-1500tcn",
+  "y": -1500,
+  "ca": true,
+  "date": "Từ khoảng 1500 TCN; một quá trình dài",
+  "r": "Ấn Độ",
+  "t": "Veda và truyền thống gìn giữ bằng lời tụng",
+  "c": "cul",
+  "imp": 2,
+  "d": "Từ khoảng 1500 TCN theo niên đại tham khảo, những bài tụng Veda được sáng tác và truyền bằng lời ở Nam Á. Các nhóm nói ngôn ngữ Ấn–Âu tương tác với những cộng đồng đã có tại đây. Quá trình này diễn ra qua thời gian, không phải một đợt di cư duy nhất lập tức tạo toàn bộ văn hóa Ấn Độ.",
+  "fun": "Người học không chỉ nhớ nội dung: trọng âm và cách phát âm từng âm cũng được luyện từ nhỏ. Kỹ thuật truyền miệng có thể có những quy tắc kiểm soát rất chặt chẽ.",
+  "consequencesTitle": "Việc học dựa vào cả âm thanh và trí nhớ",
+  "consequences": "Truyền thống tụng dùng những quy tắc phát âm và phối hợp lời để bảo tồn văn bản. Nghi lễ, người dạy và người học cùng tham gia truyền lại tri thức.",
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/ko/toah/ht/03/ssa.html",
+      "title": "The Met — Nam Á, 2000–1000 TCN",
+      "scope": "Mốc tham khảo từ khoảng 1500 TCN, các nhóm nói ngôn ngữ Ấn–Âu, tương tác văn hóa và Veda truyền miệng."
+    },
+    {
+      "url": "https://ich.unesco.org/en/RL/tradition-of-vedic-chanting-00062",
+      "title": "UNESCO — Truyền thống tụng Veda",
+      "scope": "Học truyền miệng, trọng âm, phát âm và các kỹ thuật bảo tồn lời tụng."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/ko/toah/ht/03/ssa.html"
+},
     { id: 'sa-upanishad-800tcn', y: -800, ca: true, date: 'Khoảng thế kỷ VIII–V TCN', r: 'Ấn Độ', t: 'Kinh Upanishad và thuyết luân hồi', c: 'cul', imp: 1,
       d: 'Từ khoảng thế kỷ VIII TCN, các bản Upanishad đặt ra những câu hỏi lớn: con người thật sự là gì, vì sao có khổ đau, chết rồi đi về đâu. Các ý niệm luân hồi (sinh ra rồi tái sinh nhiều lần), nghiệp (việc làm gieo ra hậu quả) và giải thoát khỏi vòng luân hồi dần trở thành cốt lõi của tư tưởng Ấn Độ.',
       why: 'Những ý niệm này thấm vào đạo Hindu, đạo Phật, đạo Jain và ảnh hưởng tới cách nghĩ của hàng tỷ người châu Á.',
@@ -3423,8 +3623,24 @@ TL_DATA.push({
 TL_DATA.push({
   lane: 'wa',
   periods: [
-    { id: 'wa-p-sumer', s: -3500, e: -2334, t: 'Các thành bang Sumer', g: 'a', r: 'Lưỡng Hà',
-      d: 'Người Sumer dựng nên một số thành phố sớm nhất thế giới như Uruk, Ur, Lagash ở miền nam Lưỡng Hà; mỗi thành là một “quốc gia nhỏ” có đền tháp, vua và vị thần bảo hộ riêng.' },
+    {
+  "id": "wa-p-sumer",
+  "s": -3500,
+  "e": -2334,
+  "t": "Các thành bang Sumer",
+  "g": "a",
+  "r": "Lưỡng Hà",
+  "d": "Các thành bang như Uruk, Ur và Lagash phát triển tại miền nam Lưỡng Hà. Văn bản và di tích cho thấy những vua xây đền, cung điện và cạnh tranh quyền lực. Khoảng thời gian trên timeline là khung tham chiếu, không phải thời điểm mọi thành phố đồng loạt ra đời hay chấm dứt.",
+  "ca": true,
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/fr/toah/ht/02/wam",
+      "title": "The Met — Lưỡng Hà, 8000–2000 TCN",
+      "scope": "Các thành bang, quyền lực Sargon và giới hạn của niên đại tuyệt đối."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/fr/toah/ht/02/wam"
+},
     {
   "id": "wa-p-akkad",
   "s": -2334,
@@ -3453,12 +3669,69 @@ TL_DATA.push({
     }
   ]
 },
-    { id: 'wa-p-ur-3', s: -2112, e: -2004, t: 'Vương triều Ur III', g: 'a', r: 'Lưỡng Hà',
-      d: 'Thời phục hưng cuối cùng của người Sumer, với tháp đền đồ sộ ở Ur, bộ máy quan lại ghi chép rất tỉ mỉ và bộ luật Ur-Nammu.' },
-    { id: 'wa-p-babylon-co', s: -1894, e: -1595, t: 'Babylon cổ', g: 'a', r: 'Lưỡng Hà',
-      d: 'Babylon từ một thành nhỏ vươn lên làm chủ Lưỡng Hà, rực rỡ nhất dưới thời vua Hammurabi; thời kỳ kết thúc khi người Hittite tràn xuống cướp phá thành năm 1595 TCN.' },
-    { id: 'wa-p-kassite-hittite', s: -1595, e: -1155, t: 'Babylon Kassite và người Hittite', g: 'a',
-      d: 'Người Kassite cai trị Babylon gần 450 năm, còn người Hittite ở Anatolia trở thành cường quốc ngang hàng Ai Cập; thời kỳ khép lại trong cơn biến động lớn cuối thời đại đồ đồng.' },
+    {
+  "id": "wa-p-ur-3",
+  "s": -2112,
+  "e": -2004,
+  "t": "Vương triều Ur III",
+  "g": "a",
+  "r": "Lưỡng Hà",
+  "d": "Vương triều III của Ur, khoảng 2112–2004 TCN theo niên đại tham khảo, bắt đầu với Ur-Nammu. Các vua kế tiếp gồm Shulgi, Amar-Sin, Shu-Sin và Ibbi-Sin. Hiện vật và văn bản cho phép nghiên cứu việc cai trị, xây đền và hoạt động ghi chép; không cần gọi đây là lần phục hưng cuối cùng của cả một dân tộc.",
+  "ca": true,
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/it/toah/hd/meru/hd_meru.htm",
+      "title": "The Met — Danh sách vua Lưỡng Hà",
+      "scope": "Khoảng trị vì Hammurabi, Ur-Nammu và các vua Ur III; niên đại Sargon khác một số hệ thống."
+    },
+    {
+      "url": "https://collections.penn.museum/collections/highlights/neareast/ram.php",
+      "title": "Penn Museum — Ur và thời Ur III",
+      "scope": "Củng cố nhà nước, xây dựng và hoạt động chính trị thời Ur III."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/it/toah/hd/meru/hd_meru.htm"
+},
+    {
+  "id": "wa-p-babylon-co",
+  "s": -1894,
+  "e": -1595,
+  "t": "Babylon cổ",
+  "g": "a",
+  "r": "Lưỡng Hà",
+  "d": "Khung 1894–1595 TCN thường dùng cho Vương triều I của Babylon. Dưới Hammurabi, thành phố trở thành một trung tâm quyền lực lớn. Các vua kế tục cai trị đến khi cuộc tiến công của người Hittite tới Babylon năm 1595 TCN theo hệ niên đại tham khảo.",
+  "ca": true,
+  "refs": [
+    {
+      "url": "https://collections.louvre.fr/en/ark%3A/53355/cl010167932",
+      "title": "Louvre — Con dấu thời Vương triều I Babylon",
+      "scope": "Khoảng niên đại 1894–1595 TCN."
+    },
+    {
+      "url": "https://www.metmuseum.org/ko/essays/babylon",
+      "title": "The Met — Babylon",
+      "scope": "Hammurabi, những người kế vị và cuộc tiến công Hittite năm 1595 TCN."
+    }
+  ],
+  "ref": "https://collections.louvre.fr/en/ark%3A/53355/cl010167932"
+},
+    {
+  "id": "wa-p-kassite-hittite",
+  "s": -1595,
+  "e": -1155,
+  "t": "Babylon thời Kassite và các quan hệ khu vực",
+  "g": "a",
+  "d": "Khoảng 1595–1155 TCN là khung Trung Babylon thường dùng. Sau cuộc tiến công của người Hittite, các vua mang tên Kassite dần kiểm soát miền nam Lưỡng Hà. Họ giao thiệp với Ai Cập, Hatti, Assyria và Elam. Cuối thời kỳ, các cuộc tấn công từ Elam góp phần làm triều đại sụp đổ.",
+  "ca": true,
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/ko/essays/the-middle-babylonian-kassite-period-ca-1595-1155-b-c-in-mesopotamia",
+      "title": "The Met — Thời Trung Babylon/Kassite",
+      "scope": "Khung niên đại, tiến trình nắm quyền, quan hệ ngoại giao và kết thúc năm 1155 TCN."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/ko/essays/the-middle-babylonian-kassite-period-ca-1595-1155-b-c-in-mesopotamia"
+},
     { id: 'wa-p-phoenicia-israel', s: -1155, e: -911, t: 'Phoenicia, Israel và các tiểu quốc', g: 'a',
       d: 'Khi các đế quốc lớn suy yếu, người Phoenicia ven biển Lebanon buôn bán khắp Địa Trung Hải, người Aram tỏa khắp Syria và vương quốc Israel hình thành.' },
     { id: 'wa-p-assyria', s: -911, e: -612, t: 'Đế quốc Tân Assyria', g: 'a', r: 'Lưỡng Hà',
@@ -3482,16 +3755,96 @@ TL_DATA.push({
     { id: 'wa-p-trung-dong-hien-dai', s: 1922, e: 2026, t: 'Trung Đông hiện đại', g: 'a',
       d: 'Các quốc gia mới hình thành sau khi Ottoman tan rã; dầu mỏ, xung đột Ả Rập – Israel, các cuộc cách mạng và chiến tranh định hình khu vực trong thế kỷ XX–XXI.' },
 
-    { id: 'wa-p-ai-cap-so-ky', s: -3100, e: -2686, t: 'Ai Cập Sơ kỳ vương triều', g: 'b', r: 'Ai Cập',
-      d: 'Hai vương triều đầu tiên sau khi Ai Cập thống nhất; chữ tượng hình, bộ máy nhà nước và tín ngưỡng thờ pharaoh như thần dần định hình.' },
-    { id: 'wa-p-co-vuong-quoc', s: -2686, e: -2181, t: 'Cổ Vương quốc (thời Kim tự tháp)', g: 'b', r: 'Ai Cập',
-      d: 'Thời các pharaoh quyền lực xây kim tự tháp bậc thang Djoser và các kim tự tháp Giza; nhà nước tập trung, giàu có nhờ nông nghiệp bên sông Nile.' },
-    { id: 'wa-p-trung-vuong-quoc', s: -2055, e: -1650, t: 'Trung Vương quốc', g: 'b', r: 'Ai Cập',
-      d: 'Ai Cập thống nhất trở lại sau thời loạn; văn học và nghệ thuật phát triển, các pharaoh làm thủy lợi vùng Fayum và mở rộng xuống phía nam vào xứ Nubia.' },
-    { id: 'wa-p-hyksos', s: -1650, e: -1550, t: 'Thời người Hyksos', g: 'b', r: 'Ai Cập',
-      d: 'Người Hyksos từ vùng Levant làm chủ miền bắc Ai Cập, mang theo ngựa, xe chiến và cung tổng hợp, những thứ về sau lại giúp chính Ai Cập trở nên hùng mạnh.' },
-    { id: 'wa-p-tan-vuong-quoc', s: -1550, e: -1069, t: 'Tân Vương quốc', g: 'b', r: 'Ai Cập',
-      d: 'Thời đỉnh cao của Ai Cập: đế quốc vươn tới Syria và Nubia, với các pharaoh Hatshepsut, Akhenaten, Tutankhamun, Ramses II, cùng đền Karnak, Luxor và Thung lũng các vị vua.' },
+    {
+  "id": "wa-p-ai-cap-so-ky",
+  "s": -3100,
+  "e": -2686,
+  "t": "Ai Cập Sơ kỳ vương triều",
+  "g": "b",
+  "r": "Ai Cập",
+  "d": "Khoảng 3100–2686 TCN theo niên đại tham khảo của Bộ Cổ vật Ai Cập. Hai vương triều đầu gắn với quá trình hợp nhất Thượng và Hạ Ai Cập, sự phát triển của Memphis và quyền lực nhà vua. Việc thống nhất diễn ra dần, không chỉ trong một trận đánh hay một năm.",
+  "ca": true,
+  "refs": [
+    {
+      "url": "https://egymonuments.gov.eg/en/historical-periods/early-dynastic-period",
+      "title": "Bộ Du lịch và Cổ vật Ai Cập — Sơ kỳ vương triều",
+      "scope": "Khoảng niên đại, hai vương triều, hợp nhất dần và Memphis."
+    }
+  ],
+  "ref": "https://egymonuments.gov.eg/en/historical-periods/early-dynastic-period"
+},
+    {
+  "id": "wa-p-co-vuong-quoc",
+  "s": -2686,
+  "e": -2181,
+  "t": "Cổ Vương quốc (thời Kim tự tháp)",
+  "g": "b",
+  "r": "Ai Cập",
+  "d": "Khoảng 2686–2181 TCN, gồm các vương triều III–VI theo niên đại tham khảo. Kim tự tháp bậc thang của Djoser tại Saqqara và những kim tự tháp Giza thuộc thời kỳ này. Quyền lực trung ương có biến đổi qua các đời vua, không giữ một mức độ tập trung cố định suốt thời kỳ.",
+  "ca": true,
+  "refs": [
+    {
+      "url": "https://egymonuments.gov.eg/en/historical-periods/old-kingdom",
+      "title": "Bộ Du lịch và Cổ vật Ai Cập — Cổ Vương quốc",
+      "scope": "Niên đại, vương triều III–VI, Djoser, Giza và thay đổi quyền lực."
+    }
+  ],
+  "ref": "https://egymonuments.gov.eg/en/historical-periods/old-kingdom"
+},
+    {
+  "id": "wa-p-trung-vuong-quoc",
+  "s": -2055,
+  "e": -1650,
+  "t": "Trung Vương quốc",
+  "g": "b",
+  "r": "Ai Cập",
+  "d": "Khoảng 2055–1650 TCN theo niên đại tham khảo, gồm các vương triều XI–XIII. Việc Mentuhotep II hợp nhất đất nước mở đầu giai đoạn này. Các vua về sau củng cố trung ương, xây công trình, phát triển đất nông nghiệp ở Fayum và tổ chức các đồn lũy tại Nubia. Văn học cũng phát triển mạnh.",
+  "ca": true,
+  "refs": [
+    {
+      "url": "https://egymonuments.gov.eg/en/historical-periods/middle-kingdom",
+      "title": "Bộ Du lịch và Cổ vật Ai Cập — Trung Vương quốc",
+      "scope": "Niên đại, Mentuhotep, chính quyền trung ương, Fayum, Nubia và văn học."
+    }
+  ],
+  "ref": "https://egymonuments.gov.eg/en/historical-periods/middle-kingdom"
+},
+    {
+  "id": "wa-p-hyksos",
+  "s": -1650,
+  "e": -1550,
+  "t": "Thời kỳ Chuyển tiếp II và các vua Hyksos",
+  "g": "b",
+  "r": "Ai Cập",
+  "d": "Khoảng 1650–1550 TCN, quyền lực ở Ai Cập bị chia giữa nhiều trung tâm. Vương triều Hyksos đặt tại Avaris cai trị phần lớn miền bắc, trong khi các vua Thebes ở phía nam dần lớn mạnh. Chiến tranh kết thúc với việc Ahmose giành lại Avaris. Cách người Hyksos ban đầu lên nắm quyền vẫn chưa rõ.",
+  "ca": true,
+  "refs": [
+    {
+      "url": "https://egymonuments.gov.eg/en/historical-periods/second-intermediate-period",
+      "title": "Bộ Du lịch và Cổ vật Ai Cập — Chuyển tiếp II",
+      "scope": "Niên đại, phân chia quyền lực, Avaris, Thebes, Ahmose và giới hạn bằng chứng về việc Hyksos lên nắm quyền."
+    }
+  ],
+  "ref": "https://egymonuments.gov.eg/en/historical-periods/second-intermediate-period"
+},
+    {
+  "id": "wa-p-tan-vuong-quoc",
+  "s": -1550,
+  "e": -1069,
+  "t": "Tân Vương quốc",
+  "g": "b",
+  "r": "Ai Cập",
+  "d": "Khoảng 1550–1069 TCN theo niên đại tham khảo, gồm các vương triều XVIII–XX. Ai Cập mở rộng quyền lực vào Nubia và vùng Levant; các công trình lớn được xây tại Karnak, Luxor và những nơi khác. Nhiều vua được chôn tại Thung lũng các Vua. Quá trình này có cả chiến tranh, thay đổi tôn giáo và những giai đoạn suy yếu.",
+  "ca": true,
+  "refs": [
+    {
+      "url": "https://egymonuments.gov.eg/en/historical-periods/new-kingdom",
+      "title": "Bộ Du lịch và Cổ vật Ai Cập — Tân Vương quốc",
+      "scope": "Khung niên đại, các vương triều, phạm vi quyền lực và công trình."
+    }
+  ],
+  "ref": "https://egymonuments.gov.eg/en/historical-periods/new-kingdom"
+},
     { id: 'wa-p-ai-cap-hau-ky', s: -1069, e: -332, t: 'Ai Cập hậu kỳ', g: 'b', r: 'Ai Cập',
       d: 'Ai Cập chia rẽ và suy yếu, lần lượt chịu sự cai trị của các vua gốc Libya, Nubia, rồi bị Assyria và Ba Tư chinh phục, xen kẽ những giai đoạn phục hưng ngắn.' },
     { id: 'wa-p-ptolemy', s: -332, e: -30, t: 'Ai Cập thời Ptolemy', g: 'b', r: 'Ai Cập',
@@ -3516,11 +3869,33 @@ TL_DATA.push({
       d: 'Sau cách mạng 1952, Ai Cập trở thành nước cộng hòa, là nước Ả Rập đông dân nhất và giữ vai trò quan trọng trong chính trị khu vực.' }
   ],
   events: [
-    { id: 'wa-banh-xe-3500tcn', y: -3500, ca: true, date: 'Khoảng 3500 TCN', r: 'Lưỡng Hà', t: 'Bánh xe xuất hiện ở Lưỡng Hà', c: 'sci', imp: 3,
-      d: 'Khoảng 3500 TCN, ở Lưỡng Hà (Iraq ngày nay) và vài vùng khác gần như cùng lúc, con người bắt đầu dùng bánh xe. Ban đầu đó là bàn xoay giúp thợ nặn gốm nhanh và đều tay; sau đó bánh xe gỗ đặc được lắp vào xe để bò, lừa kéo hàng và chở người.',
-      why: 'Bánh xe giúp chở nặng đi xa, mở đường cho xe chiến, cối xay, bánh răng và mọi cỗ máy quay tròn về sau.',
-      fun: 'Con người biết dùng thuyền từ hàng vạn năm trước, rất lâu trước khi nghĩ ra bánh xe. Bánh xe trông đơn giản mà khó: trục và lỗ trục phải khớp gần như hoàn hảo thì xe mới chạy được.',
-      alt: 'Ở Trung Mỹ thời cổ, người ta từng làm tượng con vật có gắn bánh xe nhưng hầu như không dùng bánh xe để chở hàng, vì không có ngựa hay bò để kéo. Một phát minh chỉ hữu ích khi có đủ “hệ sinh thái” đi kèm.' },
+    {
+  "id": "wa-banh-xe-3500tcn",
+  "y": -3500,
+  "ca": true,
+  "date": "Thiên niên kỷ IV TCN; mốc tham chiếu 3500 TCN",
+  "r": "Nhiều khu vực",
+  "t": "Bánh xe và câu hỏi về nguồn gốc",
+  "c": "sci",
+  "imp": 3,
+  "d": "Nguồn gốc bánh xe chưa có đồng thuận về nơi, người và cách phát minh. Hiện vật và mô hình cho phép nghiên cứu những giai đoạn phát triển khác nhau, nhưng không đủ để kể chắc rằng một người nghĩ ra bàn xoay rồi từ đó trực tiếp tạo mọi loại xe. Mốc trên timeline chỉ đặt câu chuyện vào thời tiền sử.",
+  "fun": "Bảo tàng Ljubljana lưu giữ một bánh xe gỗ có trục khoảng 5.200 năm tuổi, tìm thấy tại đầm lầy Ljubljana ở Slovenia. Hiện vật còn lại rất cổ không đồng nghĩa địa điểm tìm thấy nó là nơi phát minh bánh xe.",
+  "consequencesTitle": "Một cơ chế có thể phát triển qua nhiều bước",
+  "consequences": "Nghiên cứu cơ học có thể thử xem những cơ cấu giả định hoạt động ra sao. Tuy nhiên, một mô hình chạy được không tự chứng minh đó chính là quá trình đã xảy ra trong lịch sử.",
+  "refs": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11529624/",
+      "title": "Alacoque, Bulliet và James — Reconstructing the invention of the wheel (2024)",
+      "scope": "Chưa có đồng thuận về nguồn gốc; giới hạn của tái dựng bằng mô hình cơ học."
+    },
+    {
+      "url": "https://mgml.si/en/city-museum/exhibitions/211/the-wheel-5200-years/",
+      "title": "MGML — The Wheel: 5,200 Years",
+      "scope": "Bánh xe gỗ có trục, tuổi xấp xỉ và nơi tìm thấy tại Slovenia."
+    }
+  ],
+  "ref": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11529624/"
+},
 
     {
   "id": "wa-chu-hinh-nem-3200tcn",
@@ -3622,9 +3997,9 @@ TL_DATA.push({
 
     {
   "id": "wa-kim-tu-thap-giza-2560tcn",
-  "y": -2560,
+  "y": -2580,
   "ca": true,
-  "date": "Khoảng thế kỷ XXVI TCN; quần thể phát triển qua nhiều đời vua",
+  "date": "Trong thế kỷ XXVI TCN; mốc tham chiếu 2580 TCN",
   "r": "Ai Cập",
   "who": "Khufu, Khafre, Menkaure",
   "place": "Giza (gần Cairo)",
@@ -3640,6 +4015,11 @@ TL_DATA.push({
       "url": "https://www.metmuseum.org/it/press-releases/landmark-exhibition-of-egyptian-art-opens-at-metropolitan-museum-on-september-16-1999-exhibitions",
       "title": "The Met — Nghệ thuật Ai Cập thời Kim tự tháp",
       "scope": "Vương triều IV, ba vua xây kim tự tháp ở Giza, khoảng niên đại và các dạng tên Hy Lạp."
+    },
+    {
+      "url": "https://egymonuments.gov.eg/en/collections/khufu-statue-2",
+      "title": "Bộ Du lịch và Cổ vật Ai Cập — Tượng Khufu",
+      "scope": "Khoảng trị vì 2589–2566 TCN; 2580 là mốc hiển thị trong khoảng này, không phải năm hoàn thành."
     }
   ],
   "ref": "https://www.metmuseum.org/it/press-releases/landmark-exhibition-of-egyptian-art-opens-at-metropolitan-museum-on-september-16-1999-exhibitions"
@@ -3737,38 +4117,181 @@ TL_DATA.push({
   "ref": "https://www.metmuseum.org/ko/essays/gilgamesh"
 },
 
-    { id: 'wa-luat-hammurabi-1754tcn', y: -1754, ca: true, date: 'Khoảng 1754 TCN', r: 'Babylon (Iraq)', who: 'Vua Hammurabi', t: 'Bộ luật Hammurabi', c: 'pol', imp: 3,
-      d: 'Vua Hammurabi thống nhất Lưỡng Hà rồi cho khắc 282 điều luật lên một cột đá bazan cao hơn 2 m, dựng nơi công cộng để mọi người cùng biết. Luật quy định từ buôn bán, thuê mướn, hôn nhân đến trộm cắp; nổi tiếng nhất là nguyên tắc “mắt đền mắt, răng đền răng”, dù mức phạt còn phân biệt quý tộc, dân thường và nô lệ.',
-      why: 'Là một trong những bộ luật thành văn đầy đủ sớm nhất, thể hiện ý tưởng luật pháp phải được công bố công khai cho mọi người.',
-      fun: 'Luật có cả điều khoản về xây nhà: nếu nhà sập vì thợ làm ẩu, người thợ phải chịu trách nhiệm rất nặng. Có lẽ đây là “quy chuẩn xây dựng” nghiêm khắc nhất lịch sử.',
-      alt: 'Cột đá luật này từng có một chuyến “du lịch” bất đắc dĩ: khoảng năm 1158 TCN, một vua xứ Elam cướp nó về thành Susa (Iran), nơi các nhà khảo cổ Pháp tìm thấy năm 1901. Nay nó nằm ở Bảo tàng Louvre, Paris.' },
+    {
+  "id": "wa-luat-hammurabi-1754tcn",
+  "y": -1750,
+  "ca": true,
+  "date": "Khoảng 1750 TCN",
+  "r": "Babylon (Iraq)",
+  "who": "Vua Hammurabi",
+  "t": "Bộ luật Hammurabi",
+  "c": "pol",
+  "imp": 3,
+  "d": "Bia Hammurabi khắc 282 phán quyết trên đá basalt cao hơn 2,25 m. Nội dung gồm gia đình, tài sản, buôn bán và lao động. Louvre lưu ý đây là tập hợp án lệ, không phải bộ luật theo nghĩa pháp lý hiện đại.",
+  "fun": "Bia được tìm thấy tại Susa năm 1902, sau khi từng bị đưa đi làm chiến lợi phẩm. Nó được trưng bày tại Louvre từ năm 1904.",
+  "consequencesTitle": "Những tình huống cụ thể được ghi thành văn",
+  "consequences": "Các phán quyết thường có dạng nếu một việc xảy ra thì áp dụng cách xử lý tương ứng. Bia cho thấy cách nhà vua thể hiện vai trò xét xử; không chứng minh mọi người đều đọc được hay tiếp cận nó như nhau.",
+  "refs": [
+    {
+      "url": "https://www.louvre.fr/en/the-code-of-hammurabi",
+      "title": "Louvre — Bia luật Hammurabi",
+      "scope": "Khoảng 1750 TCN, 282 phán quyết, cấu trúc nếu–thì, đá basalt, tìm thấy tại Susa năm 1902 và trưng bày từ 1904."
+    }
+  ],
+  "ref": "https://www.louvre.fr/en/the-code-of-hammurabi"
+},
 
-    { id: 'wa-giay-coi-y-hoc-1600tcn', y: -1600, ca: true, date: 'Khoảng 1600 TCN', r: 'Ai Cập', t: 'Cuộn giấy cói y học Edwin Smith', c: 'sci', imp: 1,
-      d: 'Cuộn giấy cói này được chép vào khoảng năm 1600 TCN từ những tài liệu còn cổ hơn, mô tả 48 ca chấn thương từ đầu xuống ngực, kèm cách khám, chẩn đoán và chữa trị. Điểm đặc biệt là nó dựa nhiều vào quan sát thực tế, rất ít dùng bùa chú như các sách thuốc cùng thời.',
-      why: 'Là một trong những văn bản phẫu thuật cổ nhất thế giới, cho thấy y học Ai Cập cổ đại đã khá tiến bộ.',
-      fun: 'Cuộn giấy không mang tên thầy thuốc Ai Cập nào mà mang tên Edwin Smith, một nhà buôn đồ cổ người Mỹ đã mua nó ở Luxor năm 1862.' },
+    {
+  "id": "wa-giay-coi-y-hoc-1600tcn",
+  "y": -1600,
+  "ca": true,
+  "date": "Khoảng 1600 TCN",
+  "r": "Ai Cập",
+  "t": "Cuộn giấy cói y học Edwin Smith",
+  "c": "sci",
+  "imp": 1,
+  "d": "Cuộn giấy cói Edwin Smith được tạo khoảng 1600 TCN, viết bằng chữ hieratic của Ai Cập. Phần chính trình bày 48 ca thương tích theo một cấu trúc gồm mô tả, chẩn đoán, tiên lượng và điều trị. Văn bản nổi bật nhờ cách tiếp cận dựa vào quan sát các chấn thương.",
+  "fun": "Mặt còn lại có cả bùa chú và một công thức được mô tả là làm người già trẻ lại. Tên hiện nay lấy theo Edwin Smith, người mua cuộn giấy tại Ai Cập năm 1862, không phải tên tác giả cổ đại.",
+  "consequencesTitle": "Có thể theo dõi từng bước suy luận của người chữa bệnh",
+  "consequences": "Cách trình bày ca bệnh giúp nghiên cứu người xưa phân loại vết thương và lựa chọn cách xử lý. Điều đó không có nghĩa mọi phần của cuộn giấy đều tách khỏi niềm tin ma thuật.",
+  "refs": [
+    {
+      "url": "https://nyam.org/library-resources/library-collections/edwin-smith-surgical-papyrus/",
+      "title": "New York Academy of Medicine — Giấy cói Edwin Smith",
+      "scope": "Niên đại, 48 ca, cấu trúc lâm sàng, bùa chú mặt sau và việc mua năm 1862."
+    }
+  ],
+  "ref": "https://nyam.org/library-resources/library-collections/edwin-smith-surgical-papyrus/"
+},
 
-    { id: 'wa-hatshepsut-1479tcn', y: -1479, y2: -1458, ca: true, date: 'Khoảng 1479–1458 TCN', r: 'Ai Cập', who: 'Hatshepsut', t: 'Hatshepsut, nữ pharaoh quyền lực', c: 'pol', imp: 2,
-      d: 'Hatshepsut ban đầu nhiếp chính cho vị vua còn nhỏ tuổi, rồi tự xưng pharaoh và trị vì khoảng 20 năm. Bà chuộng xây dựng và buôn bán hơn chinh chiến, từng cử đoàn thuyền tới xứ Punt mang về hương trầm, gỗ quý và cả những cây nhựa thơm còn sống. Ngôi đền bậc thang ở Deir el-Bahari là kiệt tác của thời bà.',
-      why: 'Là một trong những nữ quân vương thành công nhất thời cổ đại, cho thấy phụ nữ có thể nắm quyền tối cao ở Ai Cập.',
-      fun: 'Trên nhiều tượng và phù điêu, Hatshepsut được khắc với bộ râu giả: râu là “đồng phục” bắt buộc của pharaoh, bất kể nam hay nữ.' },
+    {
+  "id": "wa-hatshepsut-1479tcn",
+  "y": -1479,
+  "y2": -1458,
+  "ca": true,
+  "date": "Khoảng 1479–1458 TCN; địa vị vua từ khoảng 1473 TCN",
+  "r": "Ai Cập",
+  "who": "Hatshepsut",
+  "t": "Hatshepsut: từ nhiếp chính đến mang danh hiệu vua",
+  "c": "pol",
+  "imp": 2,
+  "d": "Hatshepsut ban đầu nhiếp chính cho Thutmose III khi ông còn nhỏ, rồi mang danh hiệu vua và đồng trị vì với ông. Vì vậy, mốc khoảng 1479 TCN và khoảng 1473 TCN diễn tả hai bước khác nhau trong quá trình nắm quyền. Không nên cộng toàn bộ thời gian ấy thành số năm bà đã mang danh hiệu pharaoh.",
+  "fun": "Một tượng Hatshepsut tại The Met giữ các đuôi từ giống cái trong danh hiệu hoàng gia. Vì thế không nên diễn giải rằng bà phải luôn được thể hiện hoàn toàn như một người đàn ông.",
+  "consequencesTitle": "Quyền lực được thể hiện bằng nhiều cách",
+  "consequences": "Tượng và danh hiệu hoàng gia cho phép nghiên cứu cách bà trình bày địa vị. Những lựa chọn về hình dáng, trang phục và từ ngữ cần được xem theo từng hiện vật.",
+  "refs": [
+    {
+      "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/hatshepsut.html",
+      "title": "UCL — Hatshepsut",
+      "scope": "Khung 1479/1473–1458/1457 TCN."
+    },
+    {
+      "url": "https://www.metmuseum.org/exhibitions/listings/2006/hatshepsut",
+      "title": "The Met — Hatshepsut",
+      "scope": "Từ nhiếp chính sang đồng trị vì, bối cảnh nghệ thuật."
+    },
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/547761",
+      "title": "The Met — Tượng Hatshepsut đội khăn khat",
+      "scope": "Tượng và danh hiệu có đuôi giống cái, bối cảnh thể hiện nữ quân vương."
+    }
+  ],
+  "ref": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/hatshepsut.html"
+},
 
-    { id: 'wa-akhenaten-1353tcn', y: -1353, ca: true, date: 'Khoảng 1353–1336 TCN', r: 'Ai Cập', who: 'Akhenaten và hoàng hậu Nefertiti', t: 'Akhenaten và cuộc cải cách tôn giáo', c: 'cul', imp: 1,
-      d: 'Pharaoh Akhenaten gạt bỏ việc thờ nhiều vị thần, chỉ đề cao thần đĩa Mặt Trời Aten, rồi rời kinh đô cũ để xây thành phố mới ở Amarna. Nghệ thuật thời ông cũng khác lạ: tượng và tranh vẽ người tự nhiên, gần gũi hơn. Sau khi ông mất, Ai Cập quay lại tín ngưỡng cũ và tìm cách xóa tên ông khỏi lịch sử.',
-      why: 'Là một trong những thử nghiệm sớm nhất về việc tôn thờ một vị thần duy nhất trong lịch sử loài người.',
-      fun: 'Tượng bán thân hoàng hậu Nefertiti, vợ Akhenaten, được tìm thấy năm 1912 và nay là một trong những tác phẩm nổi tiếng nhất của nghệ thuật Ai Cập, đang trưng bày ở Berlin.' },
+    {
+  "id": "wa-akhenaten-1353tcn",
+  "y": -1353,
+  "ca": true,
+  "date": "Trong thời trị vì khoảng 1353–1336 TCN",
+  "r": "Ai Cập",
+  "who": "Akhenaten và hoàng hậu Nefertiti",
+  "t": "Akhenaten và cuộc cải cách tôn giáo",
+  "c": "cul",
+  "imp": 1,
+  "d": "Amenhotep IV từng bước chuyển trọng tâm sang Aten, đổi tên thành Akhenaten và lập kinh đô mới Akhetaten. Việc thờ Aten được tổ chức trong những không gian hướng tới ánh sáng ngoài trời. Thay đổi tôn giáo đi cùng những thử nghiệm về kiến trúc và cách thể hiện cơ thể con người.",
+  "fun": "Tia sáng của Aten có thể kết thúc bằng bàn tay trong hình ảnh thờ phụng. Trên một phù điêu ở UCL, Akhenaten đứng cùng Nefertiti và Meritaten trước bàn dâng lễ dưới các tia sáng ấy.",
+  "consequencesTitle": "Thay đổi nghi lễ tác động đến cách xây đền",
+  "consequences": "Khi những khu thờ chính không còn cần mái nặng theo lối cũ, người xây có thể dùng các khối đá nhỏ hơn. The Met liên hệ những khối talatat với sự thay đổi này; đó là một quan hệ cụ thể giữa nghi lễ và kỹ thuật.",
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/fr/essays/art-architecture-and-the-city-in-the-reign-of-amenhotep-iv-akhenaten-ca-13531336-b-c",
+      "title": "The Met — Nghệ thuật và đô thị thời Akhenaten",
+      "scope": "Khoảng trị vì, thay đổi tôn giáo theo từng giai đoạn, Amarna, đền ngoài trời và khối talatat."
+    },
+    {
+      "url": "https://www.ucl.ac.uk/engage/museums-collections/petrie-museum-egyptian-and-sudanese-archaeology/top-objects-petrie-museum/akhenaten-and-rays-sun-god-aten",
+      "title": "UCL — Akhenaten và các tia sáng Aten",
+      "scope": "Đổi tên, tôn giáo, kinh đô và thể hiện gia đình hoàng gia."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/fr/essays/art-architecture-and-the-city-in-the-reign-of-amenhotep-iv-akhenaten-ca-13531336-b-c"
+},
 
-    { id: 'wa-tutankhamun-1332tcn', y: -1332, ca: true, date: 'Khoảng 1332–1323 TCN', r: 'Ai Cập', who: 'Tutankhamun, nhà khảo cổ Howard Carter', place: 'Thung lũng các vị vua (Luxor)', t: 'Pharaoh trẻ Tutankhamun', c: 'cul', imp: 2,
-      d: 'Tutankhamun lên ngôi khi mới khoảng 9 tuổi và mất khi chưa đầy 20, không để lại chiến công gì lớn. Ông nổi tiếng vì lăng mộ gần như còn nguyên vẹn được nhà khảo cổ Howard Carter tìm thấy năm 1922, với hơn 5000 hiện vật, trong đó có chiếc mặt nạ vàng nặng hơn 10 kg.',
-      why: 'Kho báu trong lăng giúp thế giới hình dung rõ nhất sự giàu có và tay nghề tinh xảo của Ai Cập cổ đại.',
-      fun: 'Một vị vua “ít thành tích” lại trở thành pharaoh nổi tiếng nhất thế giới, chỉ vì bọn trộm mộ đã bỏ sót lăng của ông. Đôi khi bị lãng quên lại là một may mắn.',
-      alt: 'Cái gọi là “lời nguyền Tutankhamun” làm chết người mở lăng phần lớn là chuyện báo chí thêu dệt: chính Howard Carter sống thêm hơn 16 năm sau khi mở lăng.' },
+    {
+  "id": "wa-tutankhamun-1332tcn",
+  "y": -1333,
+  "ca": true,
+  "date": "Khoảng 1333–1323 TCN theo UCL; mộ được tìm thấy năm 1922",
+  "r": "Ai Cập",
+  "who": "Tutankhamun, nhà khảo cổ Howard Carter",
+  "place": "Thung lũng các vị vua (Luxor)",
+  "t": "Tutankhamun và những gì còn lại trong KV62",
+  "c": "cul",
+  "imp": 2,
+  "d": "Tutankhamun lên ngôi khi còn trẻ và trị vì trong khoảng một thập niên. Lăng mộ KV62 tại Thung lũng các Vua được Howard Carter tìm thấy năm 1922, còn tương đối nguyên vẹn so với nhiều mộ hoàng gia khác. Không nên từ sự nổi tiếng của phát hiện này suy ra ông không có vai trò lịch sử nào.",
+  "fun": "Dù chứa nhiều hiện vật nổi tiếng, KV62 khá nhỏ so với nhiều lăng vua khác. Chỉ các tường của phòng chôn cất có trang trí, theo mô tả của Bộ Cổ vật Ai Cập.",
+  "consequencesTitle": "Đồ vật và hồ sơ khai quật cùng tạo nên nguồn nghiên cứu",
+  "consequences": "Hiện vật giúp khảo sát kỹ nghệ và nghi lễ mai táng, còn ảnh, nhật ký và bản vẽ ghi lại bối cảnh tìm thấy chúng. Đây là hai phần bổ sung cho nhau.",
+  "refs": [
+    {
+      "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/tutankhamun.html",
+      "title": "UCL — Tutankhamun",
+      "scope": "Khung khoảng 1333–1323 TCN; lên ngôi trẻ và khôi phục các thần sau Amarna."
+    },
+    {
+      "url": "https://egymonuments.gov.eg/en/monuments/tomb-of-tutankhamun",
+      "title": "Bộ Cổ vật Ai Cập — Mộ Tutankhamun",
+      "scope": "KV62, phát hiện năm 1922, quy mô khiêm tốn và mức độ bảo tồn tương đối. Trang dùng khung trị vì khác với UCL."
+    },
+    {
+      "url": "https://www.griffith.ox.ac.uk/discoveringTut/",
+      "title": "Đại học Oxford, Griffith Institute — Hồ sơ khai quật Tutankhamun",
+      "scope": "Nhật ký và hồ sơ khai quật; phát hiện và nghiên cứu kéo dài nhiều năm."
+    }
+  ],
+  "ref": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/tutankhamun.html"
+},
 
-    { id: 'wa-tran-kadesh-1274tcn', y: -1274, ca: true, date: 'Khoảng 1274 TCN', r: 'Ai Cập – Hittite', who: 'Ramses II và vua Hittite Muwatalli II', place: 'Kadesh (Syria)', t: 'Trận Kadesh và hòa ước cổ nhất', c: 'war', imp: 2,
-      d: 'Pharaoh Ramses II đem quân lên Syria đánh người Hittite ở Kadesh, một trong những trận đánh xe chiến lớn nhất thời cổ với hàng nghìn cỗ xe ngựa. Hai bên bất phân thắng bại. Khoảng 15 năm sau, Ai Cập và Hittite ký hòa ước, được coi là hiệp ước hòa bình thành văn cổ nhất còn giữ được.',
-      why: 'Cho thấy ngay từ hơn 3000 năm trước, các cường quốc đã biết dùng ngoại giao để chấm dứt chiến tranh.',
-      fun: 'Một bản sao hòa ước khắc trên tấm đất sét của người Hittite đang được trưng bày tại trụ sở Liên Hợp Quốc ở New York.',
-      alt: 'Về nước, Ramses II cho khắc trận Kadesh lên tường nhiều đền như một chiến thắng vang dội. Có lẽ đây là một trong những chiến dịch “truyền thông” sớm nhất lịch sử.' },
+    {
+  "id": "wa-tran-kadesh-1274tcn",
+  "y": -1274,
+  "ca": true,
+  "date": "Khoảng 1274 TCN",
+  "r": "Ai Cập – Hittite",
+  "who": "Ramses II và vua Hittite Muwatalli II",
+  "place": "Kadesh (Syria)",
+  "t": "Trận Kadesh và con đường tới hòa ước",
+  "c": "war",
+  "imp": 2,
+  "d": "Khoảng 1274 TCN, Ramses II giao chiến với vua Hittite Muwatalli II tại Kadesh. Hòa ước đến về sau, trong năm trị vì thứ 21 của Ramses, với Hattusili III. Vì vậy không nên gộp trận chiến và việc ký hòa ước thành một sự kiện diễn ra cùng năm hoặc giữa cùng hai nhà vua.",
+  "fun": "Tên vua Hittite trong hòa ước là Hattusili III, còn đối thủ của Ramses tại trận Kadesh là Muwatalli II. Phân biệt hai người giúp tránh tưởng hòa bình được ký ngay sau trận đánh.",
+  "consequencesTitle": "Từ đối đầu quân sự đến thỏa thuận giữa hai triều đình",
+  "consequences": "Những bản văn còn lại cho phép nghiên cứu cả cách kể chiến tranh lẫn quan hệ ngoại giao. Hòa ước có bản Ai Cập và Hittite; không cần gắn thứ hạng cổ nhất để thấy giá trị của tư liệu.",
+  "refs": [
+    {
+      "url": "https://corum.ktb.gov.tr/EN-61494/kadesh-war-and-peace-treaty.html",
+      "title": "Bộ Văn hóa và Du lịch Thổ Nhĩ Kỳ — Kadesh",
+      "scope": "Trận chiến khoảng 1274 TCN, Muwatalli và Ramesses, các bản văn hòa ước."
+    },
+    {
+      "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesii.html",
+      "title": "UCL — Ramesses II",
+      "scope": "Trị vì khoảng 1279–1213 TCN, các công trình, văn bản Kadesh và hòa ước năm trị vì thứ 21 với Hattusili III."
+    }
+  ],
+  "ref": "https://corum.ktb.gov.tr/EN-61494/kadesh-war-and-peace-treaty.html"
+},
 
     { id: 'wa-phoenicia-chu-cai-1050tcn', y: -1050, ca: true, date: 'Khoảng 1050 TCN', r: 'Phoenicia (Lebanon)', t: 'Người Phoenicia và bảng chữ cái', c: 'cul', imp: 3,
       d: 'Người Phoenicia sống ở ven biển Lebanon ngày nay, là những thương nhân đi biển giỏi nhất Địa Trung Hải. Để ghi chép buôn bán cho nhanh, họ dùng một bảng chữ cái chỉ có 22 chữ ghi phụ âm, thay cho hàng trăm ký hiệu của chữ hình nêm hay chữ tượng hình. Bảng chữ cái này theo chân tàu buôn sang Hy Lạp và khắp vùng Địa Trung Hải.',
@@ -4084,8 +4607,23 @@ TL_DATA.push({
 TL_DATA.push({
   lane: 'eu',
   periods: [
-    { id: 'eu-p-tien-su', s: -3500, e: -800, t: 'Châu Âu thời đồ đá – đồ đồng', g: 'a',
-      d: 'Cư dân châu Âu làm nông, chăn nuôi và dựng những công trình đá khổng lồ như Stonehenge. Đồ đồng dần lan rộng, kéo theo vũ khí tốt hơn và giao thương đường xa.' },
+    {
+  "id": "eu-p-tien-su",
+  "s": -3500,
+  "e": -800,
+  "t": "Châu Âu thời đồ đá – đồ đồng",
+  "g": "a",
+  "d": "Khung này bao quát một phần tiền sử châu Âu, với những cộng đồng và nhịp phát triển khác nhau theo vùng. Stonehenge là một ví dụ tại Anh: vòng hào có từ khoảng 3000 TCN, còn những khối đá lớn được dựng khoảng 2500 TCN. Đây không phải niên đại chung cho toàn châu lục.",
+  "ca": true,
+  "refs": [
+    {
+      "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/history-and-stories/timeline",
+      "title": "English Heritage — Timeline Stonehenge",
+      "scope": "Các giai đoạn của ví dụ Stonehenge; khung hiển thị được nói rõ là một phần tiền sử."
+    }
+  ],
+  "ref": "https://www.english-heritage.org.uk/visit/places/stonehenge/history-and-stories/timeline"
+},
     { id: 'eu-p-hy-lap', s: -800, e: -146, t: 'Hy Lạp cổ đại', g: 'a', r: 'Hy Lạp',
       d: 'Hàng trăm thành bang như Athens, Sparta chung tiếng nói và thần thoại nhưng thường xuyên cạnh tranh nhau. Đây là cái nôi của dân chủ, triết học, sân khấu và Thế vận hội.' },
     { id: 'eu-p-tay-la-ma', s: 395, e: 476, t: 'Tây La Mã', g: 'a', r: 'La Mã (Ý)',
@@ -4144,12 +4682,34 @@ TL_DATA.push({
       d: 'Sau khi Liên Xô tan rã, Nga trở thành quốc gia kế tục, chuyển sang kinh tế thị trường và vẫn là nước có diện tích lớn nhất thế giới.' }
   ],
   events: [
-    { id: 'eu-otzi-3300tcn', y: -3300, ca: true, date: 'Khoảng 3300 TCN', r: 'Ý – Áo', t: 'Người băng Ötzi trên dãy Alps', c: 'cul', imp: 1,
-      place: 'Dãy Alps, biên giới Ý – Áo',
-      d: 'Khoảng 5.300 năm trước, một người đàn ông chết trên núi cao và được băng tuyết giữ nguyên hình hài. Năm 1991, hai du khách leo núi tình cờ tìm thấy ông cùng rìu đồng, cung tên và bộ đồ đánh lửa. Các nhà khoa học còn phát hiện một đầu mũi tên găm trong vai ông.',
-      why: 'Ötzi là “cỗ máy thời gian” hiếm hoi giúp ta biết người châu Âu thời đồ đá ăn gì, mặc gì, dùng công cụ ra sao.',
-      fun: 'Trên người Ötzi có hơn 60 hình xăm, khiến ông thành một trong những “tín đồ xăm hình” lâu đời nhất từng được biết.',
-      alt: 'Cùng thời Ötzi, người Sumer ở Lưỡng Hà đang bắt đầu viết chữ hình nêm, còn ở Việt Nam, cư dân thời đá mới đã biết làm gốm và trồng trọt.' },
+    {
+  "id": "eu-otzi-3300tcn",
+  "y": -3300,
+  "ca": true,
+  "date": "Khoảng 3300 TCN; được tìm thấy ngày 19/9/1991",
+  "r": "Ý – Áo",
+  "t": "Ötzi: dấu vết một người thời Đồng đá",
+  "c": "cul",
+  "imp": 1,
+  "place": "Dãy Alps, biên giới Ý – Áo",
+  "d": "Khoảng 5.300 năm trước, một người đàn ông chết trên dãy Alps và được bảo tồn tự nhiên trong băng. Erika và Helmut Simon tìm thấy thi thể ngày 19/9/1991 gần biên giới Ý–Áo. Ban đầu người ta tưởng đó là nạn nhân tai nạn leo núi gần đây; các nghiên cứu sau mới cho thấy tuổi cổ của thi thể.",
+  "fun": "Cơ thể Ötzi có 61 hình xăm dạng vạch hoặc chữ thập. Giả thuyết chúng nhằm giảm đau được đề xuất dựa vào vị trí trên cơ thể; đó chưa phải lời giải chắc chắn về ý nghĩa hình xăm.",
+  "consequencesTitle": "Những bằng chứng nhỏ thay đổi câu chuyện",
+  "consequences": "Năm 2001, ảnh X-quang phát hiện đầu mũi tên trong vai trái. Phát hiện này thay đổi cách giải thích cái chết: từ một tai nạn trên núi sang bằng chứng về bạo lực. Danh tính và động cơ của người tấn công vẫn chưa biết.",
+  "refs": [
+    {
+      "url": "https://www.iceman.it/en/oetzi/the-discovery",
+      "title": "Bảo tàng Khảo cổ Nam Tyrol — Phát hiện Ötzi",
+      "scope": "Ngày phát hiện, người tìm thấy và nhận định ban đầu."
+    },
+    {
+      "url": "https://www.iceman.it/en/oetzi/the-body",
+      "title": "Bảo tàng Khảo cổ Nam Tyrol — Thi thể Ötzi",
+      "scope": "Tuổi thi thể, mũi tên phát hiện năm 2001, 61 hình xăm và giới hạn giả thuyết trị liệu."
+    }
+  ],
+  "ref": "https://www.iceman.it/en/oetzi/the-discovery"
+},
     {
   "id": "eu-stonehenge-2500tcn",
   "y": -2500,
@@ -4205,11 +4765,34 @@ TL_DATA.push({
   ],
   "ref": "https://ca.heraklionmuseum.gr/ca/pawtucket/index.php/Detail/objects/381"
 },
-    { id: 'eu-troy-1200tcn', y: -1200, ca: true, date: 'Khoảng thế kỷ XIII–XII TCN', r: 'Hy Lạp', t: 'Người Mycenae và cuộc chiến thành Troy', c: 'war', imp: 2,
-      place: 'Troy (Hisarlik, Thổ Nhĩ Kỳ ngày nay)',
-      d: 'Theo thần thoại, liên quân Hy Lạp vây thành Troy suốt mười năm để giành lại nàng Helen. Các nhà khảo cổ đã tìm thấy di tích Troy ở Thổ Nhĩ Kỳ với dấu vết bị tàn phá khoảng năm 1180 TCN, cho thấy câu chuyện có thể dựa trên những cuộc chiến có thật của người Mycenae.',
-      why: 'Cuộc chiến thành Troy trở thành nguồn cảm hứng bất tận cho văn học, hội họa và điện ảnh phương Tây suốt gần 3.000 năm.',
-      fun: 'Con ngựa gỗ nổi tiếng không hề xuất hiện trong sử thi Iliad. Ngày nay “ngựa thành Troy” còn là tên một loại mã độc máy tính — cũng giả làm quà tặng để lẻn vào nhà bạn.' },
+    {
+  "id": "eu-troy-1200tcn",
+  "y": -1200,
+  "ca": true,
+  "date": "Khoảng thế kỷ XIII–XII TCN",
+  "r": "Tây bắc Anatolia",
+  "t": "Troy: di tích khảo cổ và câu chuyện sử thi",
+  "c": "war",
+  "imp": 2,
+  "place": "Troy (Hisarlik, Thổ Nhĩ Kỳ ngày nay)",
+  "d": "Troy tại Hisarlik, Thổ Nhĩ Kỳ, có nhiều lớp cư trú qua hàng nghìn năm. Truyền thống sử thi gắn nơi này với cuộc vây hãm của người Hy Lạp. Di tích cho thấy một đô thị có lịch sử lâu dài; riêng việc tìm thấy thành và dấu vết phá hủy không xác nhận mọi nhân vật, nguyên nhân và chi tiết trong truyện.",
+  "fun": "Con ngựa gỗ nổi tiếng không nằm trong Iliad. Nó được kể trong Odyssey, một sử thi khác gắn với Homer. Những chi tiết ta thường nhớ như một câu chuyện duy nhất thực ra đến từ nhiều tác phẩm.",
+  "consequencesTitle": "Khảo cổ và văn học trả lời những câu hỏi khác nhau",
+  "consequences": "Hiện vật giúp nghiên cứu cư trú và giao lưu giữa Anatolia với Địa Trung Hải. Sử thi cho thấy cách những cộng đồng về sau kể và nhớ quá khứ. Hai lớp tư liệu liên quan nhưng không thay thế nhau.",
+  "refs": [
+    {
+      "url": "https://whc.unesco.org/en/list/849/",
+      "title": "UNESCO — Di tích Troy",
+      "scope": "Nhiều lớp lịch sử, địa điểm, truyền thống sử thi và giao lưu khu vực."
+    },
+    {
+      "url": "https://www.unesco.org.tr/Content_Files/Content/Yayinlar/wht_19.pdf",
+      "title": "Ủy ban UNESCO Thổ Nhĩ Kỳ — Tư liệu về Troy",
+      "scope": "Phân biệt câu chuyện con ngựa trong Odyssey với nội dung Iliad."
+    }
+  ],
+  "ref": "https://whc.unesco.org/en/list/849/"
+},
     { id: 'eu-chu-hy-lap-800tcn', y: -800, ca: true, date: 'Khoảng thế kỷ VIII TCN', r: 'Hy Lạp', t: 'Bảng chữ cái Hy Lạp có nguyên âm', c: 'cul', imp: 1,
       d: 'Người Hy Lạp mượn bảng chữ cái của thương nhân Phoenicia, vốn chỉ ghi phụ âm, rồi thêm các chữ ghi nguyên âm như alpha, epsilon, omicron. Nhờ vậy chữ viết ghi được gần đúng cách phát âm, dễ học hơn hẳn các loại chữ tượng hình.',
       why: 'Bảng chữ cái Hy Lạp là “ông tổ” của chữ Latinh và chữ Kirin, hai hệ chữ được hàng tỷ người dùng ngày nay.',
@@ -5158,8 +5741,24 @@ TL_DATA.push({
   lane: 'am',
   periods: [
     // Nhóm a: Trung Mỹ → Mỹ Latinh
-    { id: 'am-p-olmec', s: -1200, e: -400, t: 'Văn minh Olmec', g: 'a', r: 'Mexico',
-      d: 'Nền văn minh đầu tiên ở Trung Mỹ, nổi tiếng với các đầu tượng đá khổng lồ và trung tâm nghi lễ ven vịnh Mexico; thường được gọi là “văn minh mẹ” của vùng này.' },
+    {
+  "id": "am-p-olmec",
+  "s": -1200,
+  "e": -400,
+  "t": "Văn minh Olmec",
+  "g": "a",
+  "r": "Mexico",
+  "d": "Khung 1200–400 TCN thường dùng cho giai đoạn phát triển các trung tâm lớn như San Lorenzo và La Venta. Một số cộng đồng và truyền thống nghệ thuật tiếp tục sau mốc cuối này.",
+  "ca": true,
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/essays/olmec-art",
+      "title": "The Met — Nghệ thuật Olmec",
+      "scope": "Giai đoạn 1200–400 TCN, vùng vịnh Mexico, San Lorenzo, La Venta, đầu tượng, vật liệu và đời sống tiếp tục ở các trung tâm khác."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/essays/olmec-art"
+},
     { id: 'am-p-maya-tien-co-dien', s: -400, e: 250, t: 'Maya tiền cổ điển', g: 'a', r: 'Trung Mỹ',
       d: 'Người Maya xây những thành phố lớn đầu tiên như El Mirador, phát triển chữ viết, lịch pháp và các kim tự tháp giữa rừng nhiệt đới Guatemala, Mexico.' },
     { id: 'am-p-maya-co-dien', s: 250, e: 900, t: 'Maya cổ điển', g: 'a', r: 'Trung Mỹ',
@@ -5195,8 +5794,29 @@ TL_DATA.push({
     }
   ]
 },
-    { id: 'am-p-chavin', s: -900, e: -200, t: 'Văn hóa Chavín', g: 'b', r: 'Peru',
-      d: 'Nền văn hóa đầu tiên lan tỏa khắp vùng Andes, xoay quanh trung tâm hành hương Chavín de Huántar với nghệ thuật chạm khắc hình báo đốm, rắn và chim ưng.' },
+    {
+  "id": "am-p-chavin",
+  "s": -900,
+  "e": -200,
+  "t": "Văn hóa Chavín",
+  "g": "b",
+  "r": "Peru",
+  "d": "Khoảng 900–200 TCN là khung thường dùng cho văn hóa hoặc phong cách Chavín trong giới thiệu bảo tàng. Quần thể Chavín de Huántar có lịch sử xây dựng dài hơn trong một số hệ niên đại. Đây là một trung tâm nghi lễ và giao lưu ở Andes; không phải toàn bộ Andes từng thuộc một chính quyền duy nhất.",
+  "ca": true,
+  "refs": [
+    {
+      "url": "https://museo.precolombino.cl/aprende/pueblos-culturas/culturas-precolombinas/andes-centrales/chav-n/",
+      "title": "Bảo tàng Nghệ thuật tiền Colombo Chile — Chavín",
+      "scope": "Khung 900–200 TCN và nghệ thuật Chavín; các nguồn có phạm vi niên đại khác nhau."
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/330/",
+      "title": "UNESCO — Chavín",
+      "scope": "Trung tâm nghi lễ, hành hương, kiến trúc, hành lang, quảng trường và giao lưu văn hóa."
+    }
+  ],
+  "ref": "https://museo.precolombino.cl/aprende/pueblos-culturas/culturas-precolombinas/andes-centrales/chav-n/"
+},
     { id: 'am-p-nazca-moche', s: -100, e: 700, t: 'Nazca và Moche', g: 'b', r: 'Peru',
       d: 'Người Nazca ở phía nam vẽ những hình khổng lồ trên sa mạc; người Moche ở phía bắc Peru nổi tiếng với gốm vẽ chân dung, đồ kim hoàn và kênh tưới tiêu.' },
     { id: 'am-p-tiwanaku-wari', s: 700, e: 1000, t: 'Tiwanaku và Wari', g: 'b', r: 'Andes',
@@ -5241,17 +5861,62 @@ TL_DATA.push({
   ]
 },
 
-    { id: 'am-olmec-1200tcn', y: -1200, ca: true, date: 'Khoảng 1200–400 TCN', r: 'Mexico', t: 'Người Olmec, “văn minh mẹ” Trung Mỹ', c: 'cul', imp: 2,
-      place: 'Ven vịnh Mexico (Veracruz, Tabasco)',
-      d: 'Người Olmec sống ở vùng đất thấp ven vịnh Mexico, xây các trung tâm nghi lễ San Lorenzo, La Venta và tạc những đầu tượng đá bazan khổng lồ, có chiếc cao hơn 3 m. Họ chơi trò bóng cao su và có thể đã đặt nền móng cho lịch, chữ viết của các dân tộc Trung Mỹ sau này.',
-      why: 'Nhiều nét văn hóa của Maya và Aztec như tín ngưỡng, trò chơi bóng nghi lễ, lịch pháp có thể bắt nguồn từ người Olmec.',
-      fun: 'Tên “Olmec” do người Aztec đặt về sau, nghĩa là “người xứ cao su”. Họ làm bóng cao su từ hơn 3.000 năm trước, rất lâu trước khi bóng đá ra đời.',
-      alt: 'Những đầu tượng nặng hàng chục tấn được đẽo từ đá chở về từ vùng núi xa hàng chục km, trong khi người Olmec không có bánh xe hay gia súc kéo. Bí quyết có lẽ là bè, con lăn và rất nhiều sức người.' },
+    {
+  "id": "am-olmec-1200tcn",
+  "y": -1200,
+  "ca": true,
+  "date": "Khoảng 1200–400 TCN",
+  "r": "Mexico",
+  "t": "Olmec và nghệ thuật của những trung tâm ven vịnh",
+  "c": "cul",
+  "imp": 2,
+  "place": "Ven vịnh Mexico (Veracruz, Tabasco)",
+  "d": "Khoảng 1200–400 TCN, các cộng đồng nay gọi chung là Olmec phát triển những truyền thống nghệ thuật tại Veracruz và Tabasco. San Lorenzo và La Venta có những công trình lớn; đầu tượng đá và đồ ngọc là các loại hình nổi bật. Đây là nhiều cộng đồng và trung tâm, không phải một nhà nước đồng nhất được biết đầy đủ.",
+  "fun": "Sau khoảng 400 TCN, xây dựng tượng đài ở La Venta chấm dứt, nhưng một số trung tâm khác vẫn tiếp tục tạc đá và làm gốm. Một mốc kết thúc thời kỳ không có nghĩa mọi cộng đồng biến mất cùng lúc.",
+  "consequencesTitle": "Đồ vật tiếp tục được coi trọng qua nhiều thế hệ",
+  "consequences": "Một số hiện vật Olmec được các cộng đồng về sau gìn giữ hoặc sử dụng lại. Sự tiếp nối ấy cần nghiên cứu theo từng trường hợp, thay vì gọi Olmec là nguồn duy nhất của mọi văn hóa Trung Mỹ.",
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/essays/olmec-art",
+      "title": "The Met — Nghệ thuật Olmec",
+      "scope": "Giai đoạn 1200–400 TCN, vùng vịnh Mexico, San Lorenzo, La Venta, đầu tượng, vật liệu và đời sống tiếp tục ở các trung tâm khác."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/essays/olmec-art"
+},
 
-    { id: 'am-chavin-900tcn', y: -900, ca: true, date: 'Khoảng 900–200 TCN', r: 'Peru', t: 'Đền Chavín de Huántar trên dãy Andes', c: 'cul', imp: 1,
-      d: 'Ở độ cao hơn 3.000 m trên dãy Andes, người Chavín xây quần thể đền đá với những đường hầm ngoằn ngoèo bên trong và các tượng thần mang nanh báo đốm. Nơi đây trở thành trung tâm hành hương, lan truyền phong cách nghệ thuật và tín ngưỡng khắp miền bắc Peru.',
-      why: 'Lần đầu tiên nhiều vùng của dãy Andes chia sẻ chung một nền văn hóa, mở đường cho các nhà nước lớn sau này.',
-      fun: 'Các nhà khảo cổ tìm thấy những chiếc tù và bằng vỏ ốc biển ở Chavín; thổi trong hệ thống đường hầm, tiếng vọng có lẽ tạo nên không khí huyền bí cho nghi lễ.' },
+    {
+  "id": "am-chavin-900tcn",
+  "y": -900,
+  "ca": true,
+  "date": "Thiên niên kỷ I TCN; mốc tham chiếu 900 TCN",
+  "r": "Peru",
+  "t": "Đền Chavín de Huántar trên dãy Andes",
+  "c": "cul",
+  "imp": 1,
+  "d": "Chavín de Huántar ở vùng Andes của Peru là một trung tâm nghi lễ và hành hương với quảng trường, nền kiến trúc và những hành lang bên trong. Di tích mang các hình tượng kết hợp đặc điểm người và động vật. Các khung niên đại khác nhau có thể nói về toàn di tích, giai đoạn xây dựng hoặc phong cách nghệ thuật; mốc 900 TCN ở đây chỉ để tham chiếu.",
+  "fun": "Năm 2001, nhóm khai quật tìm thấy 19 tù và bằng vỏ ốc. Các nhà nghiên cứu đã đo âm thanh của chúng và âm học kiến trúc. Kết quả đo không tự cho biết người xưa diễn giải trải nghiệm ấy ra sao.",
+  "consequencesTitle": "Một nơi gặp gỡ của nhiều cộng đồng",
+  "consequences": "Người từ những vùng và ngôn ngữ khác nhau tới trung tâm góp phần tạo nên giao lưu tín ngưỡng và nghệ thuật. Không cần gọi đây là lần đầu toàn Andes có chung văn hóa để diễn tả vai trò ấy.",
+  "refs": [
+    {
+      "url": "https://whc.unesco.org/en/list/330/",
+      "title": "UNESCO — Chavín",
+      "scope": "Trung tâm nghi lễ, hành hương, kiến trúc, hành lang, quảng trường và giao lưu văn hóa."
+    },
+    {
+      "url": "https://museo.precolombino.cl/aprende/pueblos-culturas/culturas-precolombinas/andes-centrales/chav-n/",
+      "title": "Bảo tàng Nghệ thuật tiền Colombo Chile — Chavín",
+      "scope": "Khung 900–200 TCN và nghệ thuật Chavín; các nguồn có phạm vi niên đại khác nhau."
+    },
+    {
+      "url": "https://acoustics.org/4paaa2-uncanny-acoustics-phantom-instrument-guides-at-ancient-chavin-de-huantar-peru-miriam-kolar-ph-d/",
+      "title": "Miriam Kolar — Uncanny Acoustics tại Chavín, ASA 2014",
+      "scope": "19 pututu tìm thấy năm 2001, đo âm học và giới hạn diễn giải nghi lễ."
+    }
+  ],
+  "ref": "https://whc.unesco.org/en/list/330/"
+},
 
     { id: 'am-nazca-500tcn', y: -500, y2: 500, ca: true, date: 'Khoảng 500 TCN – 500', r: 'Peru', t: 'Những hình vẽ khổng lồ Nazca', c: 'cul', imp: 2,
       place: 'Sa mạc Nazca, miền nam Peru',
@@ -7061,42 +7726,243 @@ TL_PEOPLE.push({
 TL_PEOPLE.push({
   lane: 'wa',
   people: [
-    { id: 'wa-np-khufu', n: 'Khufu (Kheops)', b: -2610, d: -2566, cb: true, cd: true,
-      role: 'Pharaoh xây Đại Kim tự tháp Giza', c: 'pol', imp: 3, r: 'Ai Cập',
-      k: -2589, act: 'lên ngôi pharaoh, rồi cho xây Đại Kim tự tháp ở Giza',
-      bio: 'Khufu, người Hy Lạp gọi là Kheops, là vị vua thứ hai của Vương triều thứ Tư thời Cổ Vương quốc; không rõ năm sinh, và các nhà Ai Cập học còn chênh nhau vài chục năm về thời gian trị vì của ông. Kim tự tháp của ông cao khoảng 146 m, gồm chừng 2,3 triệu khối đá, là công trình cao nhất do con người dựng nên suốt gần 4.000 năm và là kỳ quan cổ đại duy nhất còn tồn tại.',
-      fun: 'Người để lại công trình đồ sộ nhất thế giới cổ đại lại chỉ còn một bức tượng chắc chắn là của mình: một tượng ngà nhỏ xíu cao khoảng 7,5 cm, nằm gọn trong lòng bàn tay.',
-      same: 'Khi Đại Kim tự tháp đang được xây, trên đảo Wrangel giá lạnh ở Bắc Băng Dương (nay thuộc Nga) vẫn còn những đàn voi ma mút lông xoăn cuối cùng; chúng chỉ tuyệt chủng vào khoảng 4.000 năm trước.' },
-    { id: 'wa-np-sargon', n: 'Sargon xứ Akkad', b: -2360, d: -2279, cb: true, cd: true,
-      role: 'Vua sáng lập Đế quốc Akkad', c: 'war', imp: 2, r: 'Lưỡng Hà',
-      k: -2334, act: 'lập nên Đế quốc Akkad, thường được coi là đế quốc đầu tiên trong lịch sử',
-      bio: 'Không rõ năm sinh, xuất thân bình dân, Sargon theo các văn bản cổ từng là quan dâng rượu cho vua thành Kish trước khi giành lấy quyền lực. Ông lần lượt chinh phục các thành bang Sumer, lập kinh đô Akkad và dựng nên một đế quốc trải từ vịnh Ba Tư tới vùng Syria ngày nay, với quân đội thường trực, quan lại do vua bổ nhiệm và tiếng Akkad làm ngôn ngữ chung.',
-      fun: 'Theo một truyền thuyết khắc trên bảng đất sét, khi mới sinh, Sargon được mẹ đặt trong giỏ cói thả trôi sông, rồi được một người gánh nước vớt lên nuôi: câu chuyện rất giống tích Moses trong Kinh Thánh.' },
-    { id: 'wa-np-hammurabi', n: 'Hammurabi', b: -1810, d: -1750, cb: true, cd: true,
-      role: 'Vua Babylon, người ban hành bộ luật nổi tiếng', c: 'pol', imp: 3, r: 'Babylon (Iraq)',
-      k: -1754, act: 'cho khắc bộ luật mang tên mình lên một cột đá đen cao hơn 2 m',
-      bio: 'Từ một thành bang nhỏ, Hammurabi dùng cả ngoại giao lẫn chiến tranh để thống nhất phần lớn Lưỡng Hà dưới quyền Babylon. Ông chăm lo đào kênh, xây đền và nổi tiếng nhất với bộ luật gồm 282 điều, quy định từ buôn bán, vay nợ, hôn nhân đến tội phạm, với nguyên tắc “mắt đền mắt, răng đền răng”. Đây là một trong những bộ luật thành văn đầy đủ và cổ nhất còn giữ được.',
-      fun: 'Lời mở đầu bộ luật nói Hammurabi được thần giao trọng trách “để kẻ mạnh không áp bức kẻ yếu”; phần kết còn dặn người bị oan hãy tới trước tấm bia, nhờ người đọc luật cho nghe để biết quyền của mình.' },
-    { id: 'wa-np-hatshepsut', n: 'Hatshepsut', b: -1507, d: -1458, cb: true, cd: true,
-      role: 'Nữ pharaoh quyền lực của Ai Cập', c: 'pol', imp: 2, r: 'Ai Cập',
-      k: -1479, act: 'lên nắm quyền ở Ai Cập, ban đầu với vai trò nhiếp chính cho vua nhỏ Thutmose III',
-      bio: 'Là con gái pharaoh Thutmose I, Hatshepsut nhiếp chính cho người con riêng còn nhỏ của chồng rồi tự xưng pharaoh, nắm quyền hơn 20 năm trong hòa bình và thịnh vượng. Bà gửi đoàn thuyền buôn tới xứ Punt xa xôi mang về hương trầm, gỗ quý, và cho xây ngôi đền nhiều tầng bậc tuyệt đẹp ở Deir el-Bahari. Sau khi bà mất, nhiều hình ảnh và tên tuổi của bà bị đục bỏ khỏi các đền đài.',
-      fun: 'Tên Hatshepsut có nghĩa là “người đứng đầu các quý bà”, một cái tên như báo trước rằng bà sẽ không chịu đứng sau ai.' },
-    { id: 'wa-np-akhenaten', n: 'Akhenaten', b: -1380, d: -1336, cb: true, cd: true,
-      role: 'Pharaoh cải cách tôn giáo', c: 'cul', imp: 1, r: 'Ai Cập',
-      k: -1353, act: 'lên ngôi, rồi tiến hành cuộc cải cách chỉ thờ thần Mặt Trời Aten',
-      bio: 'Lên ngôi với tên Amenhotep IV, ông đổi tên thành Akhenaten (“người có ích cho thần Aten”), gạt bỏ các vị thần truyền thống để tôn thờ đĩa Mặt Trời Aten và xây kinh đô mới Akhetaten (Amarna) giữa sa mạc. Nghệ thuật thời ông trở nên tự nhiên, mềm mại khác thường. Sau khi ông mất, cải cách bị xóa bỏ. Ông là chồng của hoàng hậu Nefertiti và nhiều khả năng là cha của Tutankhamun.',
-      fun: 'Hơn 300 bức thư ngoại giao trên bảng đất sét tìm thấy ở Amarna cho thấy các vua thời ấy gọi nhau là “anh em”, nhưng vẫn hay phàn nàn rằng số vàng được tặng… quá ít.' },
-    { id: 'wa-np-tutankhamun', n: 'Tutankhamun', b: -1341, d: -1323, cb: true, cd: true,
-      role: 'Pharaoh trẻ tuổi của Ai Cập', c: 'pol', imp: 2, r: 'Ai Cập',
-      k: -1332, act: 'lên ngôi pharaoh khi mới khoảng 9 tuổi',
-      bio: 'Ra đời với tên Tutankhaten, cậu bé vua đổi tên thành Tutankhamun khi khôi phục việc thờ thần Amun và các vị thần cũ mà Akhenaten từng gạt bỏ. Ông mất khi mới khoảng 18–19 tuổi và chỉ để lại dấu ấn mờ nhạt trong sử sách. Nhưng năm 1922, Howard Carter tìm thấy lăng mộ gần như nguyên vẹn của ông với hơn 5.000 hiện vật, khiến ông trở thành pharaoh nổi tiếng nhất thế giới.',
-      fun: 'Chiếc quan tài trong cùng của ông làm bằng vàng khối nặng khoảng 110 kg, còn chiếc mặt nạ nặng hơn 10 kg vàng. Một vị vua ít tiếng tăm đã được an táng như vậy, thật khó hình dung lăng của Ramses II thuở ban đầu giàu có đến mức nào.' },
-    { id: 'wa-np-ramses-ii', n: 'Ramses II', b: -1303, d: -1213, cb: true, cd: true,
-      role: 'Pharaoh lừng danh của Tân Vương quốc', c: 'pol', imp: 3, r: 'Ai Cập',
-      k: -1274, act: 'đánh trận Kadesh với người Hittite, một trong những trận xe chiến lớn nhất lịch sử',
-      bio: 'Trị vì 66 năm, Ramses II là một trong những pharaoh quyền lực và nổi tiếng nhất Ai Cập. Khoảng 15 năm sau trận Kadesh bất phân thắng bại, ông ký với người Hittite một trong những hòa ước cổ nhất còn giữ được. Ông xây dựng khắp nơi, từ đền Abu Simbel khoét vào vách núi đến những pho tượng khổng lồ, và sống khoảng 90 tuổi, lâu đến mức nhiều thần dân cả đời chỉ biết đến một vị pharaoh.',
-      fun: 'Năm 1976, xác ướp của ông được đưa sang Paris để xử lý nấm mốc và được đón tại sân bay với đầy đủ nghi thức quân đội dành cho một vị vua, hơn 3.000 năm sau khi ông qua đời.' },
+    {
+  "id": "wa-np-khufu",
+  "n": "Khufu (Kheops)",
+  "b": -2589,
+  "d": -2566,
+  "cb": true,
+  "cd": true,
+  "role": "Pharaoh xây Đại Kim tự tháp Giza",
+  "c": "pol",
+  "imp": 3,
+  "r": "Ai Cập",
+  "k": -2589,
+  "act": "bắt đầu thời gian trị vì theo hệ niên đại tham khảo của Bộ Cổ vật Ai Cập",
+  "bio": "Khufu là vua Vương triều IV và là người cho xây Đại Kim tự tháp ở Giza. Các bảng niên đại có thể dùng những khoảng trị vì khác nhau; ở đây dùng khoảng 2589–2566 TCN. Những mốc hiển thị mô tả thời trị vì, không phải một năm sinh suy đoán.",
+  "fun": "Tượng ngà Khufu tại Bảo tàng Ai Cập chỉ cao 7,5 cm. Khi được tìm thấy, tượng thiếu đầu; đội khai quật tìm lại phần đầu sau ba tuần. Một hình ảnh rất nhỏ lưu giữ tên tuổi người gắn với công trình khổng lồ.",
+  "timeBasis": "activity",
+  "lifeLabel": "Trị vì khoảng 2589–2566 TCN; không dùng để tính tuổi",
+  "refs": [
+    {
+      "url": "https://egymonuments.gov.eg/en/collections/khufu-statue-2",
+      "title": "Bộ Du lịch và Cổ vật Ai Cập — Tượng Khufu",
+      "scope": "Nhân vật, công trình, niên đại trị vì tham khảo, chất liệu, kích thước và tìm lại đầu tượng."
+    }
+  ],
+  "ref": "https://egymonuments.gov.eg/en/collections/khufu-statue-2"
+},
+    {
+  "id": "wa-np-sargon",
+  "n": "Sargon xứ Akkad",
+  "b": -2334,
+  "d": -2279,
+  "cb": true,
+  "cd": true,
+  "role": "Vua sáng lập Đế quốc Akkad",
+  "c": "war",
+  "imp": 2,
+  "r": "Lưỡng Hà",
+  "k": -2334,
+  "act": "bắt đầu trị vì theo một hệ niên đại tham khảo về Akkad",
+  "bio": "Sargon mở rộng quyền cai trị của Akkad bằng các cuộc chinh phục ở Lưỡng Hà và miền bắc Syria. Những niên đại tuyệt đối của giai đoạn này chưa thống nhất: một bảng tham khảo dùng 2334–2279 TCN, trong khi The Met dùng 2340–2285 TCN. Khoảng trên timeline là thời trị vì theo hệ thứ nhất, không phải tuổi đời.",
+  "fun": "Tên Akkad được dùng cho cả một giai đoạn lịch sử, nhưng vị trí của chính thành Akkad vẫn chưa được xác định chắc chắn.",
+  "timeBasis": "activity",
+  "lifeLabel": "Trị vì khoảng 2334–2279 TCN theo một hệ niên đại",
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/fr/toah/ht/02/wam",
+      "title": "The Met — Lưỡng Hà, 8000–2000 TCN",
+      "scope": "Các thành bang, quyền lực Sargon và giới hạn của niên đại tuyệt đối."
+    },
+    {
+      "url": "https://www.metmuseum.org/it/toah/hd/meru/hd_meru.htm",
+      "title": "The Met — Danh sách vua Lưỡng Hà",
+      "scope": "Khoảng trị vì Hammurabi, Ur-Nammu và các vua Ur III; niên đại Sargon khác một số hệ thống."
+    },
+    {
+      "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Assyrian_Origins_Discoveries_at_Ashur_on_the_Tigris_Antiquities_in_the_Vorderasiatisches_Museum_Be.pdf",
+      "title": "The Met — Assyrian Origins",
+      "scope": "Bảng niên đại dùng khoảng 2334–2279 TCN."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/fr/toah/ht/02/wam"
+},
+    {
+  "id": "wa-np-hammurabi",
+  "n": "Hammurabi",
+  "b": -1792,
+  "d": -1750,
+  "cb": true,
+  "cd": true,
+  "role": "Vua Babylon, người ban hành bộ luật nổi tiếng",
+  "c": "pol",
+  "imp": 3,
+  "r": "Babylon (Iraq)",
+  "k": -1750,
+  "act": "gắn với bia tập hợp các phán quyết được khắc khoảng cuối triều đại",
+  "bio": "Hammurabi là vua Babylon, trị vì khoảng 1792–1750 TCN theo bảng niên đại tham khảo. Bia luật mang tên ông là chứng tích về cách nhà vua trình bày công lý và quyền lực. Mốc mở đầu trên timeline là thời trị vì, không phải năm sinh.",
+  "fun": "Phù điêu trên đỉnh bia thể hiện Hammurabi trước thần mặt trời Shamash. Hình ảnh gắn quyền lực nhà vua với vai trò gìn giữ công lý.",
+  "timeBasis": "activity",
+  "lifeLabel": "Trị vì khoảng 1792–1750 TCN",
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/it/toah/hd/meru/hd_meru.htm",
+      "title": "The Met — Danh sách vua Lưỡng Hà",
+      "scope": "Khoảng trị vì Hammurabi, Ur-Nammu và các vua Ur III; niên đại Sargon khác một số hệ thống."
+    },
+    {
+      "url": "https://www.louvre.fr/en/the-code-of-hammurabi",
+      "title": "Louvre — Bia luật Hammurabi",
+      "scope": "Khoảng 1750 TCN, 282 phán quyết, cấu trúc nếu–thì, đá basalt, tìm thấy tại Susa năm 1902 và trưng bày từ 1904."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/it/toah/hd/meru/hd_meru.htm"
+},
+    {
+  "id": "wa-np-hatshepsut",
+  "n": "Hatshepsut",
+  "b": -1479,
+  "d": -1458,
+  "cb": true,
+  "cd": true,
+  "role": "Nữ pharaoh quyền lực của Ai Cập",
+  "c": "pol",
+  "imp": 2,
+  "r": "Ai Cập",
+  "k": -1473,
+  "act": "mang danh hiệu vua và đồng trị vì với Thutmose III, sau giai đoạn nhiếp chính",
+  "bio": "Hatshepsut thuộc Vương triều XVIII. Bà ban đầu nhiếp chính cho Thutmose III rồi mang danh hiệu vua và đồng trị vì với ông. Khoảng 1479–1458 TCN bao gồm cả giai đoạn nhiếp chính; khoảng 1473 TCN thường được dùng cho bước chuyển sang địa vị vua. Đây là các mốc quyền lực, không phải năm sinh.",
+  "fun": "Trên một tượng ngồi tại The Met, danh hiệu hoàng gia của Hatshepsut có những đuôi từ giống cái. Cách thể hiện quyền lực của bà không chỉ nằm ở trang phục mà còn được ghi trong ngôn ngữ trên tượng.",
+  "timeBasis": "activity",
+  "lifeLabel": "Nhiếp chính và trị vì khoảng 1479–1458 TCN; danh hiệu vua khoảng 1473 TCN",
+  "refs": [
+    {
+      "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/hatshepsut.html",
+      "title": "UCL — Hatshepsut",
+      "scope": "Khoảng niên đại 1479/1473–1458/1457 TCN."
+    },
+    {
+      "url": "https://www.metmuseum.org/exhibitions/listings/2006/hatshepsut",
+      "title": "The Met — Hatshepsut",
+      "scope": "Từ nhiếp chính tới đồng trị vì."
+    },
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/547761",
+      "title": "The Met — Hatshepsut Wearing the khat Headdress",
+      "scope": "Niên đại tượng và danh hiệu với đuôi giống cái."
+    }
+  ],
+  "ref": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/hatshepsut.html"
+},
+    {
+  "id": "wa-np-akhenaten",
+  "n": "Akhenaten",
+  "b": -1353,
+  "d": -1336,
+  "cb": true,
+  "cd": true,
+  "role": "Pharaoh cải cách tôn giáo",
+  "c": "cul",
+  "imp": 1,
+  "r": "Ai Cập",
+  "k": -1353,
+  "act": "bắt đầu thời trị vì thường được đặt trong khoảng 1353–1336 TCN",
+  "bio": "Akhenaten lên ngôi với tên Amenhotep IV, sau đó đổi tên và xây kinh đô Akhetaten, nay thường gọi Amarna. Ông đề cao Aten và hạn chế các tín ngưỡng khác. Tôn giáo và nghệ thuật thay đổi qua những bước trong triều đại; không phải mọi cải cách xuất hiện ngay khi lên ngôi.",
+  "fun": "Nhân vật này trở thành đề tài opera Akhnaten của Philip Glass. Tác phẩm ra mắt tại Stuttgart ngày 24/3/1984. Một pharaoh cổ đại tiếp tục được diễn giải qua nghệ thuật hiện đại.",
+  "timeBasis": "activity",
+  "lifeLabel": "Trị vì khoảng 1353–1336 TCN",
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/fr/essays/art-architecture-and-the-city-in-the-reign-of-amenhotep-iv-akhenaten-ca-13531336-b-c",
+      "title": "The Met — Nghệ thuật và đô thị thời Akhenaten",
+      "scope": "Khoảng trị vì, thay đổi tôn giáo theo từng giai đoạn, Amarna, đền ngoài trời và khối talatat."
+    },
+    {
+      "url": "https://www.ucl.ac.uk/engage/museums-collections/petrie-museum-egyptian-and-sudanese-archaeology/top-objects-petrie-museum/akhenaten-and-rays-sun-god-aten",
+      "title": "UCL — Akhenaten và các tia sáng Aten",
+      "scope": "Đổi tên, tôn giáo, kinh đô và thể hiện gia đình hoàng gia."
+    },
+    {
+      "url": "https://philipglass.com/compositions/akhnaten/",
+      "title": "Philip Glass — Akhnaten",
+      "scope": "Tác giả và ngày công diễn đầu tiên 24/3/1984."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/fr/essays/art-architecture-and-the-city-in-the-reign-of-amenhotep-iv-akhenaten-ca-13531336-b-c"
+},
+    {
+  "id": "wa-np-tutankhamun",
+  "n": "Tutankhamun",
+  "b": -1333,
+  "d": -1323,
+  "cb": true,
+  "cd": true,
+  "role": "Pharaoh trẻ tuổi của Ai Cập",
+  "c": "pol",
+  "imp": 2,
+  "r": "Ai Cập",
+  "k": -1333,
+  "act": "bắt đầu trị vì khi còn trẻ, theo khung niên đại tham khảo của UCL",
+  "bio": "Tutankhamun là vua Vương triều XVIII, lên ngôi khi còn trẻ. Triều đại của ông gắn với việc khôi phục các vị thần sau thời Amarna. Ở đây dùng khoảng 1333–1323 TCN theo UCL; các nguồn có thể dùng khoảng khác. Thanh thời gian thể hiện trị vì, không ấn định tuổi từ một năm sinh giả định.",
+  "fun": "Hồ sơ ở Oxford lưu cả thẻ hiện vật, ảnh, bản vẽ và nhật ký của cuộc khai quật. Việc tìm thấy mộ năm 1922 chỉ mở đầu cho một quá trình ghi chép, bảo tồn và nghiên cứu lâu dài.",
+  "timeBasis": "activity",
+  "lifeLabel": "Trị vì khoảng 1333–1323 TCN theo UCL",
+  "refs": [
+    {
+      "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/tutankhamun.html",
+      "title": "UCL — Tutankhamun",
+      "scope": "Khung khoảng 1333–1323 TCN; lên ngôi trẻ và khôi phục các thần sau Amarna."
+    },
+    {
+      "url": "https://egymonuments.gov.eg/en/monuments/tomb-of-tutankhamun",
+      "title": "Bộ Cổ vật Ai Cập — Mộ Tutankhamun",
+      "scope": "KV62, phát hiện năm 1922, quy mô khiêm tốn và mức độ bảo tồn tương đối. Trang dùng khung trị vì khác với UCL."
+    },
+    {
+      "url": "https://www.griffith.ox.ac.uk/discoveringTut/",
+      "title": "Đại học Oxford, Griffith Institute — Hồ sơ khai quật Tutankhamun",
+      "scope": "Nhật ký và hồ sơ khai quật; phát hiện và nghiên cứu kéo dài nhiều năm."
+    }
+  ],
+  "ref": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/tutankhamun.html"
+},
+    {
+  "id": "wa-np-ramses-ii",
+  "n": "Ramses II",
+  "b": -1279,
+  "d": -1213,
+  "cb": true,
+  "cd": true,
+  "role": "Pharaoh lừng danh của Tân Vương quốc",
+  "c": "pol",
+  "imp": 3,
+  "r": "Ai Cập",
+  "k": -1274,
+  "act": "giao chiến với quân Hittite tại Kadesh",
+  "bio": "Ramses II thuộc Vương triều XIX, trị vì khoảng 1279–1213 TCN. Ông để lại nhiều công trình và văn bản về Kadesh. Hòa ước với Hattusili III thuộc năm trị vì thứ 21, muộn hơn trận đánh với Muwatalli II; hai mốc liên quan đến hai vua Hittite khác nhau.",
+  "fun": "Những đền gắn với Ramses II ở Abu Simbel đã được di dời để tránh nước hồ dâng. Việc cứu các công trình ấy cần một chiến dịch quốc tế do UNESCO phát động, hơn ba thiên niên kỷ sau thời nhà vua.",
+  "timeBasis": "activity",
+  "lifeLabel": "Trị vì khoảng 1279–1213 TCN",
+  "refs": [
+    {
+      "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesii.html",
+      "title": "UCL — Ramesses II",
+      "scope": "Trị vì khoảng 1279–1213 TCN, các công trình, văn bản Kadesh và hòa ước năm trị vì thứ 21 với Hattusili III."
+    },
+    {
+      "url": "https://corum.ktb.gov.tr/EN-61494/kadesh-war-and-peace-treaty.html",
+      "title": "Bộ Văn hóa và Du lịch Thổ Nhĩ Kỳ — Kadesh",
+      "scope": "Trận chiến khoảng 1274 TCN, Muwatalli và Ramesses, các bản văn hòa ước."
+    },
+    {
+      "url": "https://whc.unesco.org/en/activities/172",
+      "title": "UNESCO — Chiến dịch cứu các di tích Nubia",
+      "scope": "Chiến dịch phát động năm 1960, ghi chép và di chuyển đền, trong đó có Abu Simbel."
+    }
+  ],
+  "ref": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesii.html"
+},
     { id: 'wa-np-nebuchadnezzar-ii', n: 'Nebuchadnezzar II', b: -642, d: -562, cb: true,
       role: 'Vua Tân Babylon', c: 'pol', imp: 2, r: 'Babylon (Iraq)',
       k: -575, act: 'cho dựng Cổng Ishtar ốp gạch men xanh lam rực rỡ ở Babylon',
