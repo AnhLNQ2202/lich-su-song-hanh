@@ -3683,17 +3683,37 @@
     },
     {
       "id": "eu-hippocrates-400tcn",
-      "title": "Hippocrates – ông tổ y học phương Tây",
+      "title": "Hippocrates: quan sát người bệnh và trách nhiệm người chữa",
       "year": -400,
       "kind": "event",
       "structuralCheck": "passed",
-      "reference": null,
+      "reference": "https://www.nlm.nih.gov/hmd/topics/greek-medicine/index.html",
       "reviewPrompts": [
-        "chưa có nguồn gắn với mục",
         "cần phân biệt lời trích, tên tác phẩm và cách diễn đạt",
         "cần đối chiếu số liệu"
       ],
-      "fullTextCheck": "pending_claim_by_claim_review"
+      "fullTextCheck": "reviewed_scopes_listed",
+      "fieldReviewCheck": "reviewed_current_public_fields",
+      "scopes": [
+        {
+          "url": "https://www.nlm.nih.gov/hmd/topics/greek-medicine/index.html",
+          "title": "U.S. National Library of Medicine — Greek Medicine",
+          "scope": "Quan sát cơ thể; nhiều tác giả, quan điểm khác nhau; nội dung lời thề và việc câuFirst do no harm không có nguyên dạng trong đó."
+        },
+        {
+          "url": "https://digitalhippocrates.org/",
+          "title": "Institute for the Preservation of Medical Traditions — Digital Hippocrates",
+          "scope": "Dự án văn bản gốc: tập hợp được gán Hippocrates có niên đại trải từ thế kỷVTCN tới thế kỷII."
+        }
+      ],
+      "lastReviewed": "2026-11-04",
+      "uncertainties": [
+        "Mốc400TCN để đặt bài về truyền thống văn bản, không phải năm xuất bản hoặc phát minh cụ thể."
+      ],
+      "decisions": [
+        "Bỏ thứ hạng ông tổ tuyệt đối, không gán toàn bộ trước tác cho một người.",
+        "Bỏ liên hệ Tuệ Tĩnh và Hải Thượng Lãn Ông chưa được đối chiếu riêng; không khẳng định mọi trường y dùng lời thề cổ."
+      ]
     },
     {
       "id": "sa-ramayana-mahabharata-400tcn",
@@ -3713,12 +3733,27 @@
       "year": -399,
       "kind": "event",
       "structuralCheck": "passed",
-      "reference": null,
+      "reference": "https://plato.stanford.edu/entries/socrates/",
       "reviewPrompts": [
-        "chưa có nguồn gắn với mục",
         "cần phân biệt lời trích, tên tác phẩm và cách diễn đạt"
       ],
-      "fullTextCheck": "pending_claim_by_claim_review"
+      "fullTextCheck": "reviewed_scopes_listed",
+      "fieldReviewCheck": "reviewed_current_public_fields",
+      "scopes": [
+        {
+          "url": "https://plato.stanford.edu/entries/socrates/",
+          "title": "Debra Nails, Stanford Encyclopedia of Philosophy — Socrates",
+          "scope": "Vụ án399, các cáo buộc, bản án; Crito là đối thoại của Plato; ba nguồn và vấn đề dựng chân dung lịch sử."
+        }
+      ],
+      "lastReviewed": "2026-11-04",
+      "uncertainties": [
+        "Chi tiết đối thoại và động cơ trong tác phẩm không phải biên bản độc lập của phiên tòa."
+      ],
+      "decisions": [
+        "Tách bản án tử hình khỏi lựa chọn trốn trong Crito; không kể như ông được tòa cho chọn uống độc hoặc bỏ trốn.",
+        "Không gọi mọi nguồn là học trò, vì Aristophanes là nhà viết hài kịch."
+      ]
     },
     {
       "id": "eu-plato-hoc-vien-387tcn",
@@ -3726,13 +3761,27 @@
       "year": -387,
       "kind": "event",
       "structuralCheck": "passed",
-      "reference": null,
+      "reference": "https://mathshistory.st-andrews.ac.uk/Biographies/Plato/",
       "reviewPrompts": [
-        "chưa có nguồn gắn với mục",
         "cần phân biệt lời trích, tên tác phẩm và cách diễn đạt",
         "cần đối chiếu số liệu"
       ],
-      "fullTextCheck": "pending_claim_by_claim_review"
+      "fullTextCheck": "reviewed_scopes_listed",
+      "fieldReviewCheck": "reviewed_current_public_fields",
+      "scopes": [
+        {
+          "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Plato/",
+          "title": "MacTutor, University of St Andrews — Plato",
+          "scope": "MốcHọc viện khoảng387, nguồn tênAcademus, nghiên cứu/giảng dạy và diễn giải mối quan tâm đào tạo người làm chính trị."
+        }
+      ],
+      "lastReviewed": "2026-11-04",
+      "uncertainties": [
+        "387TCN là mốc xấp xỉ; động cơ được trình bày theo cách giải thích của nguồn."
+      ],
+      "decisions": [
+        "Bỏ cách đồng nhất Học viện với đại học hiện đại và thời gian tồn tại hàng trăm năm chưa đối chiếu trong mục này."
+      ]
     },
     {
       "id": "eu-np-aristotle",
@@ -20822,8 +20871,8 @@
       "fullTextCheck": "pending_claim_by_claim_review"
     }
   ],
-  "scopedReviewCount": 253,
-  "pendingClaimReviewCount": 1154,
-  "currentPublicFieldReviewCount": 120,
-  "currentNarrativeReviewCount": 120
+  "scopedReviewCount": 256,
+  "pendingClaimReviewCount": 1151,
+  "currentPublicFieldReviewCount": 123,
+  "currentNarrativeReviewCount": 123
 }

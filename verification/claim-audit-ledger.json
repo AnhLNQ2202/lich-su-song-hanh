@@ -4138,6 +4138,107 @@
         }
       ],
       "snapshotSHA256": "24bb01336b46003169bf7dc9083dd2d410e503f50a8c8fb9dad9ceee3fb35969"
+    },
+    {
+      "id": "eu-socrates-399tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-4",
+      "decisions": [
+        "Tách bản án tử hình khỏi lựa chọn trốn trong Crito; không kể như ông được tòa cho chọn uống độc hoặc bỏ trốn.",
+        "Không gọi mọi nguồn là học trò, vì Aristophanes là nhà viết hài kịch."
+      ],
+      "uncertainties": [
+        "Chi tiết đối thoại và động cơ trong tác phẩm không phải biên bản độc lập của phiên tòa."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "r",
+        "t",
+        "who",
+        "place",
+        "d",
+        "consequencesTitle",
+        "consequences",
+        "fun",
+        "related"
+      ],
+      "sources": [
+        {
+          "url": "https://plato.stanford.edu/entries/socrates/",
+          "title": "Debra Nails, Stanford Encyclopedia of Philosophy — Socrates",
+          "scope": "Vụ án399, các cáo buộc, bản án; Crito là đối thoại của Plato; ba nguồn và vấn đề dựng chân dung lịch sử."
+        }
+      ],
+      "snapshotSHA256": "327153025af4b60cef062d659fcf6a436da79fac161f3bf7ec7047082098e798"
+    },
+    {
+      "id": "eu-plato-hoc-vien-387tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-4",
+      "decisions": [
+        "Bỏ cách đồng nhất Học viện với đại học hiện đại và thời gian tồn tại hàng trăm năm chưa đối chiếu trong mục này."
+      ],
+      "uncertainties": [
+        "387TCN là mốc xấp xỉ; động cơ được trình bày theo cách giải thích của nguồn."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "who",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences",
+        "related"
+      ],
+      "sources": [
+        {
+          "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Plato/",
+          "title": "MacTutor, University of St Andrews — Plato",
+          "scope": "MốcHọc viện khoảng387, nguồn tênAcademus, nghiên cứu/giảng dạy và diễn giải mối quan tâm đào tạo người làm chính trị."
+        }
+      ],
+      "snapshotSHA256": "3c61a88aa774bcbb0b1322c8f0d171af58a50d8698677dae5eca11e717ceb79b"
+    },
+    {
+      "id": "eu-hippocrates-400tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-4",
+      "decisions": [
+        "Bỏ thứ hạng ông tổ tuyệt đối, không gán toàn bộ trước tác cho một người.",
+        "Bỏ liên hệ Tuệ Tĩnh và Hải Thượng Lãn Ông chưa được đối chiếu riêng; không khẳng định mọi trường y dùng lời thề cổ."
+      ],
+      "uncertainties": [
+        "Mốc400TCN để đặt bài về truyền thống văn bản, không phải năm xuất bản hoặc phát minh cụ thể."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "who",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://www.nlm.nih.gov/hmd/topics/greek-medicine/index.html",
+          "title": "U.S. National Library of Medicine — Greek Medicine",
+          "scope": "Quan sát cơ thể; nhiều tác giả, quan điểm khác nhau; nội dung lời thề và việc câuFirst do no harm không có nguyên dạng trong đó."
+        },
+        {
+          "url": "https://digitalhippocrates.org/",
+          "title": "Institute for the Preservation of Medical Traditions — Digital Hippocrates",
+          "scope": "Dự án văn bản gốc: tập hợp được gán Hippocrates có niên đại trải từ thế kỷVTCN tới thế kỷII."
+        }
+      ],
+      "snapshotSHA256": "0941630dfd7cfecf878c06b81df9e2e03b5e2ad818b194687467aba3c453580f"
     }
   ],
   "updatedAt": "2026-11-04"

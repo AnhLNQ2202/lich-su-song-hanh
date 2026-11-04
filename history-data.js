@@ -5796,19 +5796,95 @@ TL_DATA.push({
   ],
   "ref": "https://www.cambridge.org/core/books/abs/early-greek-political-thought-from-homer-to-the-sophists/herodotus/4B146C6088CE5218D2B69F6C319A9758"
 },
-    { id: 'eu-hippocrates-400tcn', y: -400, ca: true, date: 'Khoảng thế kỷ V–IV TCN', r: 'Hy Lạp', t: 'Hippocrates – ông tổ y học phương Tây', c: 'sci', imp: 1, who: 'Hippocrates',
-      d: 'Thầy thuốc Hippocrates trên đảo Kos dạy rằng bệnh tật có nguyên nhân tự nhiên chứ không phải do thần linh trừng phạt. Ông chú trọng quan sát triệu chứng, ghi chép bệnh án và đề cao đạo đức nghề y.',
-      why: 'Cách tiếp cận dựa trên quan sát đã đặt nền móng cho y học phương Tây suốt hơn hai nghìn năm.',
-      fun: 'Đến nay, nhiều trường y trên thế giới vẫn cho sinh viên đọc “Lời thề Hippocrates” khi ra trường.',
-      vn: 'Ở Việt Nam, danh y Tuệ Tĩnh (thế kỷ XIV) với chủ trương “Nam dược trị Nam nhân” và Hải Thượng Lãn Ông (thế kỷ XVIII) được tôn vinh là những bậc thầy của y học dân tộc.' },
-    { id: 'eu-socrates-399tcn', y: -399, r: 'Hy Lạp', t: 'Socrates bị kết án tử hình', c: 'cul', imp: 2, who: 'Socrates', place: 'Athens',
-      d: 'Socrates đi khắp phố chợ Athens đặt câu hỏi, buộc người ta tự nhận ra chỗ mâu thuẫn trong suy nghĩ của mình. Bị cáo buộc “làm hư thanh niên” và bất kính với thần linh, ông bị tòa án kết tội và chọn uống thuốc độc thay vì bỏ trốn.',
-      why: 'Phương pháp đặt câu hỏi để tìm ra sự thật của ông vẫn được dùng trong giáo dục và tranh luận ngày nay.',
-      alt: 'Socrates không viết một dòng nào. Mọi điều ta biết về ông đều qua lời kể của học trò, nhất là Plato — nghĩa là thầy nổi tiếng nhờ trò.' },
-    { id: 'eu-plato-hoc-vien-387tcn', y: -387, ca: true, date: 'Khoảng 387 TCN', r: 'Hy Lạp', t: 'Plato mở Học viện ở Athens', c: 'cul', imp: 1, who: 'Plato',
-      d: 'Học trò của Socrates là Plato lập một trường học trong khu vườn mang tên người anh hùng Akademos, nơi thầy trò cùng tranh luận về toán học, chính trị và triết học. Học viện tồn tại hàng trăm năm.',
-      why: 'Đây là hình mẫu sớm của trường đại học, nơi tri thức được truyền dạy và tranh luận một cách có tổ chức.',
-      fun: 'Chữ “academy” (học viện) trong nhiều thứ tiếng bắt nguồn từ chính khu vườn Akademos này.' },
+    {
+  "id": "eu-hippocrates-400tcn",
+  "y": -400,
+  "ca": true,
+  "date": "Truyền thống y học từ thế kỷ V TCN; 400 TCN là mốc tham chiếu",
+  "r": "Hy Lạp",
+  "t": "Hippocrates: quan sát người bệnh và trách nhiệm người chữa",
+  "c": "sci",
+  "imp": 1,
+  "who": "Hippocrates",
+  "d": "Khi tìm hiểu bệnh tật, truyền thống gắn với Hippocrates chú trọng quan sát cơ thể và tìm cách giải thích tự nhiên. Tên ông về sau đứng trên một tập hợp nhiều trước tác về y học. Nhưng đây là công việc của nhiều tác giả qua nhiều thời kỳ, đôi khi còn đưa ra lời giải thích trái nhau. Một tên tuổi lớn đã che khuất cả một cuộc trao đổi dài.",
+  "fun": "Câu thường được dẫn là “Trước hết, đừng gây hại” không xuất hiện nguyên như vậy trong Lời thề Hippocrates. Bản lời thề có cam kết tránh gây hại và bất công; một ý gần nhau đã trở thành câu trích quen miệng.",
+  "consequencesTitle": "Chữa bệnh còn là một trách nhiệm",
+  "consequences": "Lời thề trong tập hợp này bàn về bổn phận người thầy thuốc, trong đó có giữ kín chuyện riêng của bệnh nhân. Những thế hệ sau tiếp tục sửa lời cam kết để phù hợp với hoàn cảnh và giá trị của mình.",
+  "refs": [
+    {
+      "url": "https://www.nlm.nih.gov/hmd/topics/greek-medicine/index.html",
+      "title": "U.S. National Library of Medicine — Greek Medicine",
+      "scope": "Quan sát cơ thể; nhiều tác giả, quan điểm khác nhau; nội dung lời thề và việc câuFirst do no harm không có nguyên dạng trong đó."
+    },
+    {
+      "url": "https://digitalhippocrates.org/",
+      "title": "Institute for the Preservation of Medical Traditions — Digital Hippocrates",
+      "scope": "Dự án văn bản gốc: tập hợp được gán Hippocrates có niên đại trải từ thế kỷVTCN tới thế kỷII."
+    }
+  ],
+  "ref": "https://www.nlm.nih.gov/hmd/topics/greek-medicine/index.html"
+},
+    {
+  "id": "eu-socrates-399tcn",
+  "y": -399,
+  "r": "Hy Lạp",
+  "t": "Socrates bị kết án tử hình",
+  "c": "cul",
+  "imp": 2,
+  "who": "Socrates",
+  "place": "Athens",
+  "d": "Năm 399 TCN, Socrates bị xét xử ở Athens với cáo buộc bất kính thần linh và làm hư thanh niên. Những cuộc hỏi đáp của ông thường bắt đầu bằng điều tưởng dễ trả lời, rồi làm lộ ra những chỗ chưa rõ. Tòa kết tội và tuyên án tử. Trong đối thoại Crito của Plato, người bạn tìm cách thuyết phục ông trốn, nhưng Socrates từ chối; đó là câu chuyện được truyền lại qua một tác phẩm triết học.",
+  "consequencesTitle": "Một phiên tòa còn được tranh luận rất lâu",
+  "consequences": "Vụ án đặt người đọc trước những câu hỏi về công dân, luật pháp và việc phản biện cộng đồng mình đang sống. Qua các tác phẩm kể lại, Socrates tiếp tục trở thành người đối thoại với những thế hệ sau.",
+  "fun": "Socrates không để lại tác phẩm tự viết. Những chân dung của Plato, Xenophon và tác giả hài kịch Aristophanes lại khác nhau: muốn tìm người hay đặt câu hỏi, ta cũng phải hỏi người đang kể về ông.",
+  "related": [
+    {
+      "id": "eu-np-socrates",
+      "kind": "connection",
+      "text": "Tìm hiểu con người phía sau vụ án và những nguồn kể khác nhau về ông.",
+      "ref": "https://plato.stanford.edu/entries/socrates/"
+    }
+  ],
+  "refs": [
+    {
+      "url": "https://plato.stanford.edu/entries/socrates/",
+      "title": "Debra Nails, Stanford Encyclopedia of Philosophy — Socrates",
+      "scope": "Vụ án399, các cáo buộc, bản án; Crito là đối thoại của Plato; ba nguồn và vấn đề dựng chân dung lịch sử."
+    }
+  ],
+  "ref": "https://plato.stanford.edu/entries/socrates/"
+},
+    {
+  "id": "eu-plato-hoc-vien-387tcn",
+  "y": -387,
+  "ca": true,
+  "date": "Khoảng 387 TCN",
+  "r": "Hy Lạp",
+  "t": "Plato mở Học viện ở Athens",
+  "c": "cul",
+  "imp": 1,
+  "who": "Plato",
+  "d": "Khoảng 387 TCN, Plato lập Học viện tại Athens, trên khu đất gắn với người anh hùng Academus. Nơi đây dành cho nghiên cứu và giảng dạy triết học cùng các môn khoa học. Với Plato, việc học còn gắn với câu hỏi rất thực tế: có thể đào tạo những người sẽ cai trị thành bang tốt hơn không?",
+  "fun": "Tên “Academy” bắt nguồn từ địa điểm gắn với Academus. Một cái tên nơi chốn đã đi rất xa, trở thành từ quen thuộc để gọi các cơ sở học thuật.",
+  "consequencesTitle": "Từ việc học đến chuyện cai trị",
+  "consequences": "Theo cách giải thích của MacTutor, thất vọng về đời sống chính trị góp phần khiến Plato muốn đào tạo những người lãnh đạo có tri thức và giá trị ông theo đuổi. Học viện cho thấy nghiên cứu và mong muốn thay đổi xã hội có thể gắn bó với nhau.",
+  "related": [
+    {
+      "id": "eu-np-plato",
+      "kind": "connection",
+      "text": "Plato còn đưa những cuộc tranh luận vào hình thức đối thoại trong tác phẩm.",
+      "ref": "https://mathshistory.st-andrews.ac.uk/Biographies/Plato/"
+    }
+  ],
+  "refs": [
+    {
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Plato/",
+      "title": "MacTutor, University of St Andrews — Plato",
+      "scope": "MốcHọc viện khoảng387, nguồn tênAcademus, nghiên cứu/giảng dạy và diễn giải mối quan tâm đào tạo người làm chính trị."
+    }
+  ],
+  "ref": "https://mathshistory.st-andrews.ac.uk/Biographies/Plato/"
+},
     { id: 'eu-alexander-336tcn', y: -336, y2: -323, r: 'Macedonia', t: 'Alexander Đại đế chinh phục phương Đông', c: 'war', imp: 3, who: 'Alexander Đại đế',
       d: 'Lên ngôi vua Macedonia năm 20 tuổi, Alexander dẫn quân đánh bại Đế quốc Ba Tư, chiếm Ai Cập, rồi tiến tới tận Ấn Độ chỉ trong khoảng mười năm. Khi quân lính mệt mỏi không chịu đi tiếp, ông quay về và qua đời ở Babylon năm 323 TCN, lúc mới 32 tuổi.',
       why: 'Các cuộc chinh phục đã trộn lẫn văn hóa Hy Lạp với Ba Tư, Ai Cập, Ấn Độ, tạo nên thời kỳ Hy Lạp hóa rực rỡ.',
