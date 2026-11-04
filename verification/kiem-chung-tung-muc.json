@@ -2170,6 +2170,86 @@
       ]
     },
     {
+      "id": "ea-p-yayoi",
+      "title": "Yayoi: khởi đầu khác nhau theo vùng",
+      "year": -950,
+      "kind": "period",
+      "structuralCheck": "passed",
+      "reference": "https://link.springer.com/article/10.1007/s00334-020-00791-1",
+      "reviewPrompts": [],
+      "fullTextCheck": "reviewed_scopes_listed",
+      "fieldReviewCheck": "reviewed_current_public_fields",
+      "scopes": [
+        {
+          "url": "https://link.springer.com/article/10.1007/s00334-020-00791-1",
+          "title": "Leipe và cộng sự — Crop cultivation of Middle Yayoi culture communities",
+          "scope": "Nghiên cứu2020/2021: khungthếkỷ X/IVTCN–250, khácbiệtvùng, lúa/kê tại Maenakanishi thếkỷII–ITCN. Đã đọc bản cậpnhật và correction2021 chỉ đổi quyềntruycập mở."
+        },
+        {
+          "url": "https://rekihaku.repo.nii.ac.jp/records/246",
+          "title": "Fujio Shin’ichiro2013 — The Frame of the Yayoi Culture",
+          "scope": "Tóm tắt được chỉmục bởi khoBảo tàng Lịch sử Nhật: Bắc Kyushu từcuốiXTCN, miền tây khácVIII–VI,Chubu/Nam Kanto giữaIIITCN. Trangchi tiết/PDFtrả429 khi mở; đối chiếu khung rộng và khácbiệtvùng thêm bằng bàiLeipe đọc đầy đủ."
+        },
+        {
+          "url": "https://www.metmuseum.org/fr/essays/yayoi-culture-ca-4th-century-b-c-3rd-century-a-d",
+          "title": "The Met — Yayoi Culture",
+          "scope": "Khungtruyềnthống khoảng 300TCN–300, khác niênđạidài trong nghiên cứuđịnhtuổi; không dùng chữ advanced để xếp hạng cộngđồng."
+        }
+      ],
+      "lastReviewed": "2026-11-04",
+      "uncertainties": [
+        "Các ranhgiớithờikỳ làxấpxỉ,phụthuộctiêuchí vàđịaphương."
+      ],
+      "decisions": [
+        "Mởđầuthờikỳkhớpmốc950củabài,ghi rõkhungdài thayvì âmthầmgáncho toànquầnđảo.",
+        "Giữcuối250theokhungnghiêncứuLeipe,khôngđồngnhấttấtcảvùngchuyểnsangKofunđồngthời."
+      ]
+    },
+    {
+      "id": "ea-yayoi-lua-nuoc-300tcn",
+      "title": "Thời Yayoi: ruộng lúa đến, thực đơn vẫn khác nhau",
+      "year": -950,
+      "kind": "event",
+      "structuralCheck": "passed",
+      "reference": "https://link.springer.com/article/10.1007/s00334-020-00791-1",
+      "reviewPrompts": [
+        "cần kiểm tra phạm vi khẳng định tuyệt đối",
+        "cần phân biệt lời trích, tên tác phẩm và cách diễn đạt"
+      ],
+      "fullTextCheck": "reviewed_scopes_listed",
+      "fieldReviewCheck": "reviewed_current_public_fields",
+      "scopes": [
+        {
+          "url": "https://link.springer.com/article/10.1007/s00334-020-00791-1",
+          "title": "Leipe và cộng sự — Crop cultivation of Middle Yayoi culture communities",
+          "scope": "Nghiên cứu2020/2021: khungthếkỷ X/IVTCN–250, khácbiệtvùng, lúa/kê tại Maenakanishi thếkỷII–ITCN. Đã đọc bản cậpnhật và correction2021 chỉ đổi quyềntruycập mở."
+        },
+        {
+          "url": "https://rekihaku.repo.nii.ac.jp/records/246",
+          "title": "Fujio Shin’ichiro2013 — The Frame of the Yayoi Culture",
+          "scope": "Tóm tắt được chỉmục bởi khoBảo tàng Lịch sử Nhật: Bắc Kyushu từcuốiXTCN, miền tây khácVIII–VI,Chubu/Nam Kanto giữaIIITCN. Trangchi tiết/PDFtrả429 khi mở; đối chiếu khung rộng và khácbiệtvùng thêm bằng bàiLeipe đọc đầy đủ."
+        },
+        {
+          "url": "https://www.metmuseum.org/fr/essays/yayoi-culture-ca-4th-century-b-c-3rd-century-a-d",
+          "title": "The Met — Yayoi Culture",
+          "scope": "Khungtruyềnthống khoảng 300TCN–300, khác niênđạidài trong nghiên cứuđịnhtuổi; không dùng chữ advanced để xếp hạng cộngđồng."
+        },
+        {
+          "url": "https://knmdb.kyohaku.go.jp/eng/12429.html",
+          "title": "Kyoto National Museum — DōtakuJK437",
+          "scope": "Vai trò nhạc cụnghi lễ rồi vậttrangtrínghi thức, phân tích quai vàhoa văn; chỉ dùngphầnhồsơhiệnvật, không ápniênđại400TCN củatranglàmđồngthuậnduynhất."
+        }
+      ],
+      "lastReviewed": "2026-11-04",
+      "uncertainties": [
+        "Khởiđầu vàđịnhnghĩavănhóaYayoi còntranhluận,khácnhau theođịaphương vàhệphânkỳ;950khôngnămchínhxác."
+      ],
+      "decisions": [
+        "Thaymốc300như lầnđầulúanướcđến bằngmốc950xấpxỉkhungdài, giữID300 đểliênkết/tiếnđộkhônggãy.",
+        "Táchlúanước khỏiđồng/sắt đếncùngnăm; bỏnhânquảcâylúatựmìnhlậpnhànước vàliênhệĐôngSơn chưađốichiếuriêng."
+      ]
+    },
+    {
       "id": "wa-p-assyria",
       "title": "Đế quốc Tân Assyria",
       "year": -911,
@@ -4261,32 +4341,6 @@
       "title": "A-dục (Ashoka)",
       "year": -304,
       "kind": "person",
-      "structuralCheck": "passed",
-      "reference": null,
-      "reviewPrompts": [
-        "chưa có nguồn gắn với mục",
-        "cần kiểm tra phạm vi khẳng định tuyệt đối",
-        "cần phân biệt lời trích, tên tác phẩm và cách diễn đạt"
-      ],
-      "fullTextCheck": "pending_claim_by_claim_review"
-    },
-    {
-      "id": "ea-p-yayoi",
-      "title": "Thời Yayoi",
-      "year": -300,
-      "kind": "period",
-      "structuralCheck": "passed",
-      "reference": null,
-      "reviewPrompts": [
-        "chưa có nguồn gắn với mục"
-      ],
-      "fullTextCheck": "pending_claim_by_claim_review"
-    },
-    {
-      "id": "ea-yayoi-lua-nuoc-300tcn",
-      "title": "Lúa nước và đồ sắt đến Nhật Bản",
-      "year": -300,
-      "kind": "event",
       "structuralCheck": "passed",
       "reference": null,
       "reviewPrompts": [
@@ -21203,8 +21257,8 @@
       "fullTextCheck": "pending_claim_by_claim_review"
     }
   ],
-  "scopedReviewCount": 274,
-  "pendingClaimReviewCount": 1133,
-  "currentPublicFieldReviewCount": 141,
-  "currentNarrativeReviewCount": 141
+  "scopedReviewCount": 276,
+  "pendingClaimReviewCount": 1131,
+  "currentPublicFieldReviewCount": 143,
+  "currentNarrativeReviewCount": 143
 }

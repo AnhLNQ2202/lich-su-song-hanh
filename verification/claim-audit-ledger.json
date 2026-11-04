@@ -4891,6 +4891,90 @@
         }
       ],
       "snapshotSHA256": "b35bcdb6bb3c8ddf0c4b625a9216e1b025fa1c4e7f9e809a6423b99cf47834d5"
+    },
+    {
+      "id": "ea-yayoi-lua-nuoc-300tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-11",
+      "decisions": [
+        "Thaymốc300như lầnđầulúanướcđến bằngmốc950xấpxỉkhungdài, giữID300 đểliênkết/tiếnđộkhônggãy.",
+        "Táchlúanước khỏiđồng/sắt đếncùngnăm; bỏnhânquảcâylúatựmìnhlậpnhànước vàliênhệĐôngSơn chưađốichiếuriêng."
+      ],
+      "uncertainties": [
+        "Khởiđầu vàđịnhnghĩavănhóaYayoi còntranhluận,khácnhau theođịaphương vàhệphânkỳ;950khôngnămchínhxác."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "d",
+        "consequencesTitle",
+        "consequences",
+        "fun"
+      ],
+      "sources": [
+        {
+          "url": "https://link.springer.com/article/10.1007/s00334-020-00791-1",
+          "title": "Leipe và cộng sự — Crop cultivation of Middle Yayoi culture communities",
+          "scope": "Nghiên cứu2020/2021: khungthếkỷ X/IVTCN–250, khácbiệtvùng, lúa/kê tại Maenakanishi thếkỷII–ITCN. Đã đọc bản cậpnhật và correction2021 chỉ đổi quyềntruycập mở."
+        },
+        {
+          "url": "https://rekihaku.repo.nii.ac.jp/records/246",
+          "title": "Fujio Shin’ichiro2013 — The Frame of the Yayoi Culture",
+          "scope": "Tóm tắt được chỉmục bởi khoBảo tàng Lịch sử Nhật: Bắc Kyushu từcuốiXTCN, miền tây khácVIII–VI,Chubu/Nam Kanto giữaIIITCN. Trangchi tiết/PDFtrả429 khi mở; đối chiếu khung rộng và khácbiệtvùng thêm bằng bàiLeipe đọc đầy đủ."
+        },
+        {
+          "url": "https://www.metmuseum.org/fr/essays/yayoi-culture-ca-4th-century-b-c-3rd-century-a-d",
+          "title": "The Met — Yayoi Culture",
+          "scope": "Khungtruyềnthống khoảng 300TCN–300, khác niênđạidài trong nghiên cứuđịnhtuổi; không dùng chữ advanced để xếp hạng cộngđồng."
+        },
+        {
+          "url": "https://knmdb.kyohaku.go.jp/eng/12429.html",
+          "title": "Kyoto National Museum — DōtakuJK437",
+          "scope": "Vai trò nhạc cụnghi lễ rồi vậttrangtrínghi thức, phân tích quai vàhoa văn; chỉ dùngphầnhồsơhiệnvật, không ápniênđại400TCN củatranglàmđồngthuậnduynhất."
+        }
+      ],
+      "snapshotSHA256": "16be5357767ce673d305cc7f8701ce486dc1b3d4c96535e11fc9bef4364b43ae"
+    },
+    {
+      "id": "ea-p-yayoi",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-11",
+      "decisions": [
+        "Mởđầuthờikỳkhớpmốc950củabài,ghi rõkhungdài thayvì âmthầmgáncho toànquầnđảo.",
+        "Giữcuối250theokhungnghiêncứuLeipe,khôngđồngnhấttấtcảvùngchuyểnsangKofunđồngthời."
+      ],
+      "uncertainties": [
+        "Các ranhgiớithờikỳ làxấpxỉ,phụthuộctiêuchí vàđịaphương."
+      ],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "r",
+        "d",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://link.springer.com/article/10.1007/s00334-020-00791-1",
+          "title": "Leipe và cộng sự — Crop cultivation of Middle Yayoi culture communities",
+          "scope": "Nghiên cứu2020/2021: khungthếkỷ X/IVTCN–250, khácbiệtvùng, lúa/kê tại Maenakanishi thếkỷII–ITCN. Đã đọc bản cậpnhật và correction2021 chỉ đổi quyềntruycập mở."
+        },
+        {
+          "url": "https://rekihaku.repo.nii.ac.jp/records/246",
+          "title": "Fujio Shin’ichiro2013 — The Frame of the Yayoi Culture",
+          "scope": "Tóm tắt được chỉmục bởi khoBảo tàng Lịch sử Nhật: Bắc Kyushu từcuốiXTCN, miền tây khácVIII–VI,Chubu/Nam Kanto giữaIIITCN. Trangchi tiết/PDFtrả429 khi mở; đối chiếu khung rộng và khácbiệtvùng thêm bằng bàiLeipe đọc đầy đủ."
+        },
+        {
+          "url": "https://www.metmuseum.org/fr/essays/yayoi-culture-ca-4th-century-b-c-3rd-century-a-d",
+          "title": "The Met — Yayoi Culture",
+          "scope": "Khungtruyềnthống khoảng 300TCN–300, khác niênđạidài trong nghiên cứuđịnhtuổi; không dùng chữ advanced để xếp hạng cộngđồng."
+        }
+      ],
+      "snapshotSHA256": "2e10d639398a5c9e627b58fca12322314d8feffa538612acaa15fe785c62f7a8"
     }
   ],
   "updatedAt": "2026-11-04"

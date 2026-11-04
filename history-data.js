@@ -2726,8 +2726,34 @@ TL_DATA.push({
     }
   ]
 },
-    { id: 'ea-p-yayoi', s: -300, e: 250, t: 'Thời Yayoi', g: 'a', r: 'Nhật Bản',
-      d: 'Kỹ thuật trồng lúa nước, đồ đồng, đồ sắt từ lục địa tới quần đảo; làng mạc lớn dần và các tiểu quốc xuất hiện.' },
+    {
+  "id": "ea-p-yayoi",
+  "s": -950,
+  "e": 250,
+  "t": "Yayoi: khởi đầu khác nhau theo vùng",
+  "g": "a",
+  "r": "Nhật Bản, với niên đại theo vùng",
+  "d": "Thanh thời gian dùng khung dài, từ khoảng thế kỷ X TCN tới 250. Theo Fujio, các tiêu chí Yayoi xuất hiện ở Bắc Kyushu cuối thế kỷ X TCN, miền tây khác từ VIII–VI, còn Chubu và Nam Kanto từ giữaIII TCN. Đây là nhiều quá trình địa phương; khung300 TCN–300 trong tài liệu truyền thống là một cách phân kỳ khác.",
+  "ca": true,
+  "refs": [
+    {
+      "url": "https://link.springer.com/article/10.1007/s00334-020-00791-1",
+      "title": "Leipe và cộng sự — Crop cultivation of Middle Yayoi culture communities",
+      "scope": "Nghiên cứu2020/2021: khungthếkỷ X/IVTCN–250, khácbiệtvùng, lúa/kê tại Maenakanishi thếkỷII–ITCN. Đã đọc bản cậpnhật và correction2021 chỉ đổi quyềntruycập mở."
+    },
+    {
+      "url": "https://rekihaku.repo.nii.ac.jp/records/246",
+      "title": "Fujio Shin’ichiro2013 — The Frame of the Yayoi Culture",
+      "scope": "Tóm tắt được chỉmục bởi khoBảo tàng Lịch sử Nhật: Bắc Kyushu từcuốiXTCN, miền tây khácVIII–VI,Chubu/Nam Kanto giữaIIITCN. Trangchi tiết/PDFtrả429 khi mở; đối chiếu khung rộng và khácbiệtvùng thêm bằng bàiLeipe đọc đầy đủ."
+    },
+    {
+      "url": "https://www.metmuseum.org/fr/essays/yayoi-culture-ca-4th-century-b-c-3rd-century-a-d",
+      "title": "The Met — Yayoi Culture",
+      "scope": "Khungtruyềnthống khoảng 300TCN–300, khác niênđạidài trong nghiên cứuđịnhtuổi; không dùng chữ advanced để xếp hạng cộngđồng."
+    }
+  ],
+  "ref": "https://link.springer.com/article/10.1007/s00334-020-00791-1"
+},
     { id: 'ea-p-kofun', s: 250, e: 538, t: 'Thời Kofun', g: 'a', r: 'Nhật Bản',
       d: 'Thời của những lăng mộ gò đất khổng lồ; dòng họ Yamato dần thống nhất phần lớn quần đảo Nhật Bản.' },
     { id: 'ea-p-asuka', s: 538, e: 710, t: 'Thời Asuka', g: 'a', r: 'Nhật Bản',
@@ -2843,11 +2869,43 @@ TL_DATA.push({
   ],
   "ref": "https://www.korea.net/NewsFocus/Culture/view?articleId=121092"
 },
-    { id: 'ea-yayoi-lua-nuoc-300tcn', y: -300, ca: true, date: 'Khoảng thế kỷ III TCN', r: 'Nhật Bản', t: 'Lúa nước và đồ sắt đến Nhật Bản', c: 'sci', imp: 3,
-      d: 'Những nhóm người từ lục địa và bán đảo Triều Tiên mang kỹ thuật trồng lúa nước, đồ đồng và đồ sắt tới miền tây Nhật Bản (có nghiên cứu cho rằng lúa nước đến sớm hơn nhiều). Ruộng lúa giúp dân số tăng nhanh, làng mạc lớn dần, kéo theo tranh chấp đất đai và sự xuất hiện của các thủ lĩnh, tiểu quốc.',
-      why: 'Cây lúa thay đổi hoàn toàn xã hội Nhật Bản, đặt nền móng cho làng xã, giai cấp và nhà nước sau này.',
-      alt: 'Bát cơm trắng, thứ không thể thiếu trong bữa ăn của người Nhật hôm nay, thực ra là một “hàng nhập khẩu” đã hơn 2000 năm tuổi.',
-      vn: 'Cùng thời gian này, cư dân văn hóa Đông Sơn ở đồng bằng sông Hồng đã trồng lúa nước thành thạo và đúc những chiếc trống đồng tinh xảo.' },
+    {
+  "id": "ea-yayoi-lua-nuoc-300tcn",
+  "y": -950,
+  "ca": true,
+  "date": "Khởi đầu khác nhau theo vùng; 950 TCN là mốc tham chiếu của khung dài",
+  "r": "Nhật Bản",
+  "t": "Thời Yayoi: ruộng lúa đến, thực đơn vẫn khác nhau",
+  "c": "sci",
+  "imp": 3,
+  "d": "Việc trồng lúa nước và những thay đổi gắn với Yayoi lan qua quần đảo Nhật trong nhiều thế kỷ. Nghiên cứu của Fujio đặt khởi đầu ở Bắc Kyushu từ cuối thế kỷ X TCN, còn các vùng khác muộn hơn. Vì vậy, mốc trên timeline chưa phải lúc toàn Nhật Bản cùng bước vào một thời đại mới. Khung khoảng 300 TCN–300 vẫn gặp trong nhiều tài liệu phân kỳ cũ.",
+  "consequencesTitle": "Một thời kỳ, nhiều cách làm nông",
+  "consequences": "Cư dân không chọn cùng một loại cây ở mọi nơi. Nghiên cứu tại Maenakanishi ở Kanto cho thấy kê cũng rất quan trọng bên cạnh lúa trong thế kỷII–I TCN. Những thay đổi sinh kế cần được nhìn theo từng vùng.",
+  "fun": "Chuông đồng dōtaku ban đầu là nhạc cụ nghi lễ, rồi có những chiếc được làm lớn để dùng như vật trang trí nghi thức. Theo Bảo tàng Quốc gia Kyoto, hình dáng và hoa văn giúp người nghiên cứu tìm hiểu sự thay đổi ấy: chuông cũng có lúc được coi trọng vì dáng vẻ hơn tiếng ngân.",
+  "refs": [
+    {
+      "url": "https://link.springer.com/article/10.1007/s00334-020-00791-1",
+      "title": "Leipe và cộng sự — Crop cultivation of Middle Yayoi culture communities",
+      "scope": "Nghiên cứu2020/2021: khungthếkỷ X/IVTCN–250, khácbiệtvùng, lúa/kê tại Maenakanishi thếkỷII–ITCN. Đã đọc bản cậpnhật và correction2021 chỉ đổi quyềntruycập mở."
+    },
+    {
+      "url": "https://rekihaku.repo.nii.ac.jp/records/246",
+      "title": "Fujio Shin’ichiro2013 — The Frame of the Yayoi Culture",
+      "scope": "Tóm tắt được chỉmục bởi khoBảo tàng Lịch sử Nhật: Bắc Kyushu từcuốiXTCN, miền tây khácVIII–VI,Chubu/Nam Kanto giữaIIITCN. Trangchi tiết/PDFtrả429 khi mở; đối chiếu khung rộng và khácbiệtvùng thêm bằng bàiLeipe đọc đầy đủ."
+    },
+    {
+      "url": "https://www.metmuseum.org/fr/essays/yayoi-culture-ca-4th-century-b-c-3rd-century-a-d",
+      "title": "The Met — Yayoi Culture",
+      "scope": "Khungtruyềnthống khoảng 300TCN–300, khác niênđạidài trong nghiên cứuđịnhtuổi; không dùng chữ advanced để xếp hạng cộngđồng."
+    },
+    {
+      "url": "https://knmdb.kyohaku.go.jp/eng/12429.html",
+      "title": "Kyoto National Museum — DōtakuJK437",
+      "scope": "Vai trò nhạc cụnghi lễ rồi vậttrangtrínghi thức, phân tích quai vàhoa văn; chỉ dùngphầnhồsơhiệnvật, không ápniênđại400TCN củatranglàmđồngthuậnduynhất."
+    }
+  ],
+  "ref": "https://link.springer.com/article/10.1007/s00334-020-00791-1"
+},
     { id: 'ea-han-diet-co-trieu-tien-108tcn', y: -108, r: 'Triều Tiên', t: 'Nhà Hán diệt nước Cổ Triều Tiên', c: 'war', imp: 2, who: 'Hán Vũ Đế',
       d: 'Năm 108 TCN, Hán Vũ Đế đem quân thủy bộ tấn công vương quốc Cổ Triều Tiên ở miền bắc bán đảo. Sau khi kinh đô Vương Hiểm thất thủ, nhà Hán lập bốn quận để cai trị; quận Lạc Lãng tồn tại tới năm 313 thì bị Cao Câu Ly đánh chiếm.',
       why: 'Chữ Hán, đồ sắt và văn hóa Trung Hoa theo đó tràn vào bán đảo, nhưng ách cai trị cũng thúc đẩy các tộc người bản địa liên kết, lập nên những vương quốc riêng.',
