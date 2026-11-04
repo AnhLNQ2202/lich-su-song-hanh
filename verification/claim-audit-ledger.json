@@ -2952,6 +2952,1192 @@
         }
       ],
       "snapshotSHA256": "a1700375a7ffe42e39c35807d35dbde5fa783fd84df53683d7964323b5b39042"
+    },
+    {
+      "id": "vn-hong-bang-2879tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-2",
+      "decisions": [
+        "Rà lại từng trường hiển thị và biên tập thành câu chuyện dễ hiểu.",
+        "Thay lời hướng dẫn kiểm chứng trong fun fact bằng cách đọc ý nghĩa cộng đồng có trong bài bảo tàng."
+      ],
+      "uncertainties": [
+        "Đây là truyền thuyết với nhiều dị bản; niên đại truyền thống không là mốc khảo cổ."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "t",
+        "d",
+        "consequencesTitle",
+        "consequences",
+        "fun"
+      ],
+      "sources": [
+        {
+          "url": "https://baotanglichsu.vn/vi/Articles/2001/65123/huyen-thoai-boc-tram-trung-trong-cac-sach-su.html",
+          "title": "Bảo tàng Lịch sử Quốc gia — Huyền thoại bọc trăm trứng",
+          "scope": "Truyền thuyết và các dị bản trong sách sử."
+        },
+        {
+          "url": "https://baotanglichsu.vn/vi/Articles/2001/65120/co-bao-nhieu-djoi-vua-hung.html",
+          "title": "Bảo tàng Lịch sử Quốc gia — Có bao nhiêu đời vua Hùng?",
+          "scope": "Niên đại truyền thống Hồng Bàng và giới hạn khi diễn giải thời Hùng Vương."
+        }
+      ],
+      "snapshotSHA256": "e64401be23835a1d0287048dfee5649c7d1d26e2374140360564f3f4bef37652"
+    },
+    {
+      "id": "eu-stonehenge-2500tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-2",
+      "decisions": [
+        "Rà lại từng trường hiển thị và biên tập thành câu chuyện dễ hiểu.",
+        "Giữ tách nguồn đá với giả thuyết tuyến vận chuyển; không khẳng định đường biển đã được chứng minh."
+      ],
+      "uncertainties": [
+        "Nguồn địa chất được xác định ở phạm vi bồn địa, không phải một mỏ cụ thể."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "place",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/history-and-stories/timeline",
+          "title": "English Heritage — Timeline Stonehenge",
+          "scope": "Các giai đoạn khoảng 3000 và 2500 TCN, chôn hỏa táng và thay đổi công trình."
+        },
+        {
+          "url": "https://www.nature.com/articles/s41586-024-07652-1",
+          "title": "Nature — A Scottish provenance for the Altar Stone of Stonehenge",
+          "scope": "Nguồn Đá Bàn Thờ tại bồn địa Orcadian, khoảng cách tối thiểu và giới hạn suy luận về vận chuyển."
+        }
+      ],
+      "snapshotSHA256": "6520e310d2e82f52f1ed42f69845c3c11f6d0ecc40ad0f92d9da78601a5deead"
+    },
+    {
+      "id": "wa-sargon-akkad-2334tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-2",
+      "decisions": [
+        "Rà lại từng trường hiển thị và biên tập thành câu chuyện dễ hiểu."
+      ],
+      "uncertainties": [
+        "2334 TCN theo hệ niên đại được dẫn, không phải con số duy nhất trong nghiên cứu."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "who",
+        "t",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/fr/toah/ht/02/wam",
+          "title": "The Met — Lưỡng Hà, 8000–2000 TCN",
+          "scope": "Các cuộc chinh phục của Sargon và vị trí thành Akkad chưa xác định."
+        },
+        {
+          "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Assyrian_Origins_Discoveries_at_Ashur_on_the_Tigris_Antiquities_in_the_Vorderasiatisches_Museum_Be.pdf",
+          "title": "The Met — Assyrian Origins",
+          "scope": "Bảng niên đại dùng 2334–2279 TCN cho Sargon."
+        },
+        {
+          "url": "https://www.metmuseum.org/it/toah/hd/meru/hd_meru.htm",
+          "title": "The Met — Danh sách vua Lưỡng Hà",
+          "scope": "Ví dụ hệ niên đại khác cho thời Sargon."
+        }
+      ],
+      "snapshotSHA256": "cda59d9d1d34beb4b809f0a21c8167991d2853b0390edd055e9d6733601e5ffc"
+    },
+    {
+      "id": "wa-p-akkad",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-2",
+      "decisions": [
+        "Rà lại từng trường hiển thị và biên tập thành câu chuyện dễ hiểu.",
+        "Đối chiếu thêm cả năm cuối 2154 TCN của thanh thời kỳ, thay vì chỉ viện nguồn cho Sargon."
+      ],
+      "uncertainties": [
+        "Đây là một hệ phân kỳ, không phải mọi bảng niên đại đều dùng cùng số năm."
+      ],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "r",
+        "d",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/fr/toah/ht/02/wam",
+          "title": "The Met — Lưỡng Hà, 8000–2000 TCN",
+          "scope": "Các cuộc chinh phục của Sargon và vị trí thành Akkad chưa xác định."
+        },
+        {
+          "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Assyrian_Origins_Discoveries_at_Ashur_on_the_Tigris_Antiquities_in_the_Vorderasiatisches_Museum_Be.pdf",
+          "title": "The Met — Assyrian Origins",
+          "scope": "Bảng niên đại dùng 2334–2279 TCN cho Sargon."
+        },
+        {
+          "url": "https://www.metmuseum.org/it/toah/hd/meru/hd_meru.htm",
+          "title": "The Met — Danh sách vua Lưỡng Hà",
+          "scope": "Ví dụ hệ niên đại khác cho thời Sargon."
+        },
+        {
+          "url": "https://www.ngv.vic.gov.au/explore/collection/work/58316/",
+          "title": "NGV — Bình gốm từ Ur, thời Akkad",
+          "scope": "Hồ sơ hiện vật dùng khung Akkad 2334–2154 TCN; chỉ dùng để đối chiếu khoảng phân kỳ."
+        }
+      ],
+      "snapshotSHA256": "378f66df36e74547047d88323ed793b348514b6200ef327e81beef1d6254c18e"
+    },
+    {
+      "id": "ea-dan-quan-2333tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-2",
+      "decisions": [
+        "Rà lại từng trường hiển thị và biên tập thành câu chuyện dễ hiểu.",
+        "Thay URL Korea.net tiếng Đức bị vòng chuyển hướng bằng nguồn Viện Hàn lâm Hàn Quốc học.",
+        "Không dùng các chi tiết khác về ngày quốc khánh hay phạm vi lãnh thổ từ bài Korea.net như kết luận đã đối chiếu."
+      ],
+      "uncertainties": [
+        "Truyện được trình bày như truyền thuyết, không dùng tuổi thọ kỳ ảo như niên đại lịch sử."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "who",
+        "d",
+        "consequencesTitle",
+        "consequences",
+        "fun"
+      ],
+      "sources": [
+        {
+          "url": "https://www.korea.net/NewsFocus/Culture/view?articleId=121092",
+          "title": "Korea.net — Đàn Quân và truyền thuyết nguồn cội",
+          "scope": "Hoàn Hùng, gấu và hổ, việc hóa người, Đàn Quân và mốc truyền thuyết 2333 TCN."
+        },
+        {
+          "url": "https://dhlab.aks.ac.kr/Korea100/wiki/index.php/Opening_the_Door_to_History_-_Gojoseon",
+          "title": "Viện Hàn lâm Hàn Quốc học — Gojoseon",
+          "scope": "Tam quốc di sự thế kỷ XIII và phân biệt truyền thuyết với việc dựng lịch sử nhà nước."
+        }
+      ],
+      "snapshotSHA256": "c4ce8b8dd5db5ef6162b7fef65ac731642574e48bef4f67320fffaaa77664eae"
+    },
+    {
+      "id": "wa-ur-nammu-2112tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-2",
+      "decisions": [
+        "Rà lại từng trường hiển thị và biên tập thành câu chuyện dễ hiểu.",
+        "Đối chiếu phần Ur III ở cuối trang Penn Museum, không nhầm cổ mộ 2600–2500 TCN với triều Ur III."
+      ],
+      "uncertainties": [
+        "Tập luật mang tên Ur-Nammu không được coi như hồ sơ chứng minh mọi cách xét xử thực tế."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "who",
+        "place",
+        "t",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/it/toah/hd/meru/hd_meru.htm",
+          "title": "The Met — Danh sách vua Lưỡng Hà",
+          "scope": "Niên đại Ur-Nammu và Shulgi."
+        },
+        {
+          "url": "https://collections.penn.museum/collections/highlights/neareast/ram.php",
+          "title": "Penn Museum — Ur và nhà nước thời Ur III",
+          "scope": "Xây dựng và củng cố quyền lực nhà nước."
+        },
+        {
+          "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Guide_to_the_Collections_Ancient_Near_Eastern_Art.pdf",
+          "title": "The Met — Hướng dẫn bộ sưu tập Cận Đông cổ đại",
+          "scope": "Tập hợp luật gắn Ur-Nammu và tượng Shulgi đội giỏ xây đền."
+        }
+      ],
+      "snapshotSHA256": "6f6254ded3e4dc5cbbfb41e22bf294a0deaa14857d96f6b17f26eb4c9d42cd1a"
+    },
+    {
+      "id": "wa-gilgamesh-2100tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-2",
+      "decisions": [
+        "Rà lại từng trường hiển thị và biên tập thành câu chuyện dễ hiểu.",
+        "Không coi ngày hình thành truyền thống truyện là năm sinh Gilgamesh hoặc năm hoàn thành sử thi chuẩn."
+      ],
+      "uncertainties": [
+        "Gilgamesh là nhân vật truyền thuyết; bài nói về lịch sử văn bản, không xác nhận toàn bộ tiểu sử nhân vật."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/ko/essays/gilgamesh",
+          "title": "The Met — Gilgamesh",
+          "scope": "Truyền thống Ur III, việc sao chép ở trường học Cổ Babylon, nhiều phiên bản và sự thay đổi vai trò Enkidu."
+        }
+      ],
+      "snapshotSHA256": "b8f72a8260a2a499d99e11f780afc30f1788ad3f4a0c9f6dfd4842c4fa043c3a"
+    },
+    {
+      "id": "cn-vua-vu-nha-ha-2070tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-2",
+      "decisions": [
+        "Rà lại từng trường hiển thị và biên tập thành câu chuyện dễ hiểu.",
+        "Không kể truyền thuyết trị thủy hay một năm lập nhà Hạ như điều đã được chứng minh."
+      ],
+      "uncertainties": [
+        "Liên hệ Nhị Lý Đầu–nhà Hạ còn là giả thuyết."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/ja/toah/ht/03/eac.html",
+          "title": "The Met — Trung Quốc, 2000–1000 TCN",
+          "scope": "Nhà Hạ được ghi là chưa xác nhận; Nhị Lý Đầu là trung tâm có thể liên hệ, không phải đồng nhất chắc chắn."
+        }
+      ],
+      "snapshotSHA256": "176f91a958a2689553e48ded6cdea4739c2b4a972835026aad98b6c6be82a6c2"
+    },
+    {
+      "id": "cn-p-ha",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-2",
+      "decisions": [
+        "Rà lại từng trường hiển thị và biên tập thành câu chuyện dễ hiểu."
+      ],
+      "uncertainties": [
+        "Chưa xác nhận được tên triều đại từ chứng cứ khảo cổ hiện có."
+      ],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "r",
+        "d",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/ja/toah/ht/03/eac.html",
+          "title": "The Met — Trung Quốc, 2000–1000 TCN",
+          "scope": "Nhà Hạ được ghi là chưa xác nhận; Nhị Lý Đầu là trung tâm có thể liên hệ, không phải đồng nhất chắc chắn."
+        }
+      ],
+      "snapshotSHA256": "fe25e0031e7d188aeb896eba565b3fdf5f25373f201b31f12310916049839881"
+    },
+    {
+      "id": "vn-phung-nguyen-2000tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-2",
+      "decisions": [
+        "Rà lại từng trường hiển thị và biên tập thành câu chuyện dễ hiểu.",
+        "Giữ khoảng niên đại xấp xỉ; bỏ nguồn bàn lập quốc vì đoạn mới không đưa ra niên đại nhà nước."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "y2",
+        "ca",
+        "date",
+        "t",
+        "place",
+        "d",
+        "consequencesTitle",
+        "consequences",
+        "fun"
+      ],
+      "sources": [
+        {
+          "url": "https://baotanglichsu.vn/vi/Articles/4016/cac-van-hoa-tien-djong-son-phung-nguyen-djong-djau-go-mun-khoang-4-000-2-500-nam-cach-ngay-nay",
+          "title": "Bảo tàng Lịch sử Quốc gia — Các văn hóa tiền Đông Sơn",
+          "scope": "Khoảng niên đại, hiện vật đá và chuỗi Phùng Nguyên, Đồng Đậu, Gò Mun."
+        },
+        {
+          "url": "https://baotanglichsu.vn/vi/Articles/3096/7991/cac-nen-van-hoa-thuoc-thoi-djai-hung-vuong.html",
+          "title": "Bảo tàng Lịch sử Quốc gia — Các nền văn hóa thuộc thời đại Hùng Vương",
+          "scope": "Tên di chỉ và phát hiện năm 1959."
+        }
+      ],
+      "snapshotSHA256": "1cae85dedd8a3443e115a3d953d77f6fb822e974979e63993057eb84a659aca0"
+    },
+    {
+      "id": "sa-ban-chiang-2000tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-2",
+      "decisions": [
+        "Rà lại từng trường hiển thị và biên tập thành câu chuyện dễ hiểu.",
+        "Đối chiếu cả bảng niên đại ISEAA lẫn nghiên cứu của người trực tiếp tham gia khai quật; giữ sự khác biệt trong bài.",
+        "Fun fact về khác biệt gốm theo vùng được nêu như quan sát của dự án, không kết luận các làng hoàn toàn cách biệt."
+      ],
+      "uncertainties": [
+        "Các nhóm nghiên cứu dùng hệ niên đại dài và ngắn khác nhau; chưa trình bày một hệ là đồng thuận duy nhất."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "place",
+        "d",
+        "consequencesTitle",
+        "consequences",
+        "fun"
+      ],
+      "sources": [
+        {
+          "url": "https://db.iseaarchaeology.org/metals-database/",
+          "title": "ISEAA — Cơ sở dữ liệu kim loại và niên đại Ban Chiang",
+          "scope": "Bảng niên đại làm việc, giai đoạn sớm khoảng 2100–1500 TCN."
+        },
+        {
+          "url": "https://onlinelibrary.wiley.com/doi/10.1002/oa.3174",
+          "title": "Higham — Zooarchaeology of Ban Chiang (2022)",
+          "scope": "Hệ niên đại đặt cư trú thời đá mới khoảng 1500 TCN."
+        },
+        {
+          "url": "https://iseaarchaeology.org/ban-chiang-project/Current-Work/",
+          "title": "Dự án Ban Chiang — Nghiên cứu gốm",
+          "scope": "Các kiểu gốm khác nhau và gốm vẽ đỏ giai đoạn muộn."
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4575132/",
+          "title": "Higham và cộng sự — A New Chronology (2015)",
+          "scope": "Tranh luận giữa các mô hình niên đại và ý nghĩa với cách giải thích luyện kim."
+        }
+      ],
+      "snapshotSHA256": "21c0ba112136d435e49f55ff12aee1b35269dfad62da186cb5dc3830ba298c61"
+    },
+    {
+      "id": "eu-knossos-1900tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-2",
+      "decisions": [
+        "Rà lại từng trường hiển thị và biên tập thành câu chuyện dễ hiểu.",
+        "Thay hai trang catalog Heraklion bị timeout bằng nguồn bảo tàng và chuyên khảo chữ viết có thể đọc trực tiếp.",
+        "Bỏ fun fact dấu niêm hình lưỡi liềm khi không truy lại được hồ sơ hiện vật trong lượt này."
+      ],
+      "uncertainties": [
+        "Không biến khả năng hiểu số và hàng hóa thành đã giải mã ngôn ngữ."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/minoan-crete",
+          "title": "The Met — Minoan Crete",
+          "scope": "Cung điện khoảng 1900 TCN, tập trung kinh tế và quyền lực, văn bản hành chính trên đất sét."
+        },
+        {
+          "url": "https://mnamon.sns.it/index.php?id=19&lang=en&page=Scrittura",
+          "title": "Maurizio Del Freo, Scuola Normale Superiore — Linear A",
+          "scope": "Văn bản tại Knossos, ghi giao dịch kinh tế, con số và tình trạng chưa giải mã."
+        }
+      ],
+      "snapshotSHA256": "da0af211d43f9cd41d1f6d6a2c9619ac31a348aebfac71d0fdd11554eaa27c36"
+    },
+    {
+      "id": "vn-van-lang-700tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-2",
+      "decisions": [
+        "Rà lại từng trường hiển thị và biên tập thành câu chuyện dễ hiểu.",
+        "Giữ rõ khung tham chiếu của nhà nước sơ khai và phân biệt với niên đại ghi danh di sản."
+      ],
+      "uncertainties": [
+        "Các niên đại và cách mô tả tổ chức thời Hùng Vương có giới hạn tư liệu."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "t",
+        "who",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://baotanglichsu.vn/vi/Articles/3096/10144/ve-cac-nha-nuoc-so-khai-o-mien-bac-viet-nam.html",
+          "title": "Bảo tàng Lịch sử Quốc gia — Các nhà nước sơ khai ở miền Bắc",
+          "scope": "Bằng chứng khảo cổ, truyền thống văn bản và quá trình nhà nước sơ khai."
+        },
+        {
+          "url": "https://baotanglichsu.vn/vi/Articles/2001/65120/co-bao-nhieu-djoi-vua-hung.html",
+          "title": "Bảo tàng Lịch sử Quốc gia — Có bao nhiêu đời vua Hùng?",
+          "scope": "Mốc khoảng thế kỷ VII TCN và giới hạn diễn giải niên đại truyền thống."
+        },
+        {
+          "url": "https://ich.unesco.org/en/RL/worship-of-hng-kings-in-ph-th-00735",
+          "title": "UNESCO — Tín ngưỡng thờ cúng Hùng Vương ở Phú Thọ",
+          "scope": "Ghi danh năm 2012 và ý nghĩa sinh hoạt tín ngưỡng."
+        }
+      ],
+      "snapshotSHA256": "8b985935a11397253333593c7410623a8bc04b2f97acffef84f36eaa97ba5075"
+    },
+    {
+      "id": "vn-p-van-lang",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-2",
+      "decisions": [
+        "Rà lại từng trường hiển thị và biên tập thành câu chuyện dễ hiểu.",
+        "Nguồn 65120 nêu cách đặt mốc cuối khoảng 208 TCN khác truyền thống 258 TCN; không trình bày thành một ngày chấm dứt đã được xác nhận."
+      ],
+      "uncertainties": [
+        "Mốc cuối khác nhau giữa cách tính truyền thống và nghiên cứu; giữ nhãn xấp xỉ."
+      ],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "d",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://baotanglichsu.vn/vi/Articles/3096/10144/ve-cac-nha-nuoc-so-khai-o-mien-bac-viet-nam.html",
+          "title": "Bảo tàng Lịch sử Quốc gia — Các nhà nước sơ khai ở miền Bắc",
+          "scope": "Bằng chứng khảo cổ, truyền thống văn bản và quá trình nhà nước sơ khai."
+        },
+        {
+          "url": "https://baotanglichsu.vn/vi/Articles/2001/65120/co-bao-nhieu-djoi-vua-hung.html",
+          "title": "Bảo tàng Lịch sử Quốc gia — Có bao nhiêu đời vua Hùng?",
+          "scope": "Mốc khoảng thế kỷ VII TCN và giới hạn diễn giải niên đại truyền thống."
+        }
+      ],
+      "snapshotSHA256": "e08a01f1c60732f6532f5cfbeef8c0ad8dd056c4e4cf0317e0eb6dc41ad2bdc5"
+    },
+    {
+      "id": "eu-olympic-776tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-3",
+      "decisions": [
+        "Đối chiếu từng trường hiển thị; viết lại theo giọng kể dễ hiểu, có bối cảnh và ý nghĩa.",
+        "Thêm nhãn niên đại truyền thống; bỏ lời bình dạy kiểm chứng trong fun fact."
+      ],
+      "uncertainties": [
+        "Không xác định 776 TCN là năm chắc chắn khai sinh mọi cuộc thi tại Olympia."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "r",
+        "t",
+        "place",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences",
+        "date",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://www.olympics.com/ioc/faq/history-and-origin-of-the-games/what-is-the-origin-of-the-olympic-games",
+          "title": "IOC — Nguồn gốc Olympic",
+          "scope": "Chu kỳ bốn năm, mốc thường dẫn 776 TCN và giới hạn hiểu biết về lúc bắt đầu."
+        },
+        {
+          "url": "https://www.fhw.gr/Olympics/ancient/en/202a.html",
+          "title": "Foundation of the Hellenic World — Olympia thế kỷ X–VIII TCN",
+          "scope": "Truyền thống cuộc đua stadion năm 776 TCN và người thắng Coroebus; chương trình thi mở rộng về sau."
+        }
+      ],
+      "snapshotSHA256": "9f31bb7b41bf1ad2ab2f7383fb1c212c6657c313792b1acb4c4138793c27a002"
+    },
+    {
+      "id": "vn-truyen-thuyet-600tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-3",
+      "decisions": [
+        "Đối chiếu từng trường hiển thị; viết lại theo giọng kể dễ hiểu, có bối cảnh và ý nghĩa.",
+        "Bỏ khẳng định truyện ra đời đúng thời Văn Lang và thứ hạng dự báo thời tiết cổ nhất.",
+        "Ghi rõ 600 TCN là vị trí tra cứu, không phải ngày sự kiện hay sáng tác."
+      ],
+      "uncertainties": [
+        "Có nhiều dị bản và chưa xác định thời điểm hình thành từng truyện."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "t",
+        "d",
+        "consequencesTitle",
+        "consequences",
+        "fun"
+      ],
+      "sources": [
+        {
+          "url": "https://thvovanthang.hcm.edu.vn/truyen-co-tich-viet-nam/truyen-thuyet-ve-son-tinh-thuy-tinh/ct/85218/434181",
+          "title": "TH Võ Văn Thặng — Bản kể Sơn Tinh, Thủy Tinh",
+          "scope": "Bản truyện và cách đọc ý nghĩa chống lũ; không dùng làm niên đại sáng tác."
+        },
+        {
+          "url": "https://truongnguyenkhuyenhcm.edu.vn/uploads/images/4/files/2021/tuan%201%20thang%208/tiet-23-thanh-giong.pdf",
+          "title": "Trường Nguyễn Khuyến — Văn bản Thánh Gióng",
+          "scope": "Thể loại truyền thuyết, lớn lên kỳ ảo và ra trận."
+        },
+        {
+          "url": "https://thleductho.hcm.edu.vn/khoi-5/lang-lieu-ong-to-van-hoa-am-thuc-thoi-dai-hung-vuong/ctmb/72034/659366",
+          "title": "TH Lê Đức Thọ — Truyền thuyết Lang Liêu",
+          "scope": "Chỉ dùng phần bản kể bánh từ gạo dâng vua và ý nghĩa truyền thống; không dùng con số 2622 năm Văn Lang ở đầu bài như lịch sử đã xác nhận."
+        }
+      ],
+      "snapshotSHA256": "d52d4e9f925f2c07baffd70e8c6357c2d79eada414794d141de1e7cc82dea478"
+    },
+    {
+      "id": "cn-np-ton-tu",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-3",
+      "decisions": [
+        "Đối chiếu từng trường hiển thị; viết lại theo giọng kể dễ hiểu, có bối cảnh và ý nghĩa.",
+        "Bỏ tuổi thọ suy ra từ 544–496 TCN và hoạt động dâng sách năm 512 chưa được xác minh.",
+        "Các số b,d,k=-500 chỉ là một điểm đặt hồ sơ, được referenceOnly đánh dấu và loại khỏi mọi phép đối chiếu sống cùng thời."
+      ],
+      "uncertainties": [
+        "Sự tồn tại của nhân vật và lịch sử tác giả còn tranh luận."
+      ],
+      "fieldsReviewed": [
+        "n",
+        "b",
+        "d",
+        "cb",
+        "cd",
+        "role",
+        "r",
+        "k",
+        "act",
+        "bio",
+        "fun",
+        "ck",
+        "timeBasis",
+        "referenceOnly",
+        "lifeLabel"
+      ],
+      "sources": [
+        {
+          "url": "https://afe.easia.columbia.edu/main_pop/ps/ps_china-sunzi-art-of-war.htm",
+          "title": "Columbia University — Tuyển đoạn Binh pháp Tôn Tử",
+          "scope": "Tác giả theo truyền thống, giới hạn xác minh tiểu sử; cách định niên đại biên soạn nửa sau thế kỷ IV TCN; tư tưởng chuẩn bị, hiểu mình và đối phương."
+        }
+      ],
+      "snapshotSHA256": "14f150127f6e87b4afb8990f1026556e4f5c4463e154b821f3762186c00a47c1"
+    },
+    {
+      "id": "cn-ton-tu-binh-phap-512tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-3",
+      "decisions": [
+        "Đối chiếu từng trường hiển thị; viết lại theo giọng kể dễ hiểu, có bối cảnh và ý nghĩa.",
+        "Chuyển mốc truyền thống 512 TCN sang mốc quy chiếu văn bản 350 TCN; giữ ID để liên kết cũ vẫn mở được.",
+        "Tách niên đại biên soạn văn bản khỏi tiểu sử người được gán tác giả."
+      ],
+      "uncertainties": [
+        "Mốc 350 TCN là vị trí tham chiếu trong nửa sau thế kỷ IV theo nguồn, không phải năm xuất bản chính xác."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "who",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences",
+        "related"
+      ],
+      "sources": [
+        {
+          "url": "https://afe.easia.columbia.edu/main_pop/ps/ps_china-sunzi-art-of-war.htm",
+          "title": "Columbia University — Tuyển đoạn Binh pháp Tôn Tử",
+          "scope": "Tác giả theo truyền thống, giới hạn xác minh tiểu sử; cách định niên đại biên soạn nửa sau thế kỷ IV TCN; tư tưởng chuẩn bị, hiểu mình và đối phương."
+        }
+      ],
+      "snapshotSHA256": "62e025a782240d3cf9665032b43474c3ec15b71f2320a286e1522903f386e1ed"
+    },
+    {
+      "id": "eu-cong-hoa-la-ma-509tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-3",
+      "decisions": [
+        "Đối chiếu từng trường hiển thị; viết lại theo giọng kể dễ hiểu, có bối cảnh và ý nghĩa.",
+        "Không coi toàn bộ thiết chế trưởng thành đã xuất hiện đầy đủ ngay năm 509.",
+        "Bỏ giai thoại nguyên nhân ám sát Caesar và diễn giải res publica quá rộng khi chưa đối chiếu riêng."
+      ],
+      "uncertainties": [
+        "Niên đại đầu Cộng hòa dựa vào truyền thống và bảng quan chức có vấn đề."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "r",
+        "t",
+        "d",
+        "fun",
+        "ca",
+        "date",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/the-roman-republic",
+          "title": "The Met — Cộng hòa La Mã",
+          "scope": "Khung 509–27 TCN, đặc quyền quý tộc, xung đột đất đai và nợ, mở rộng lãnh thổ, bất bình đẳng và nội chiến."
+        },
+        {
+          "url": "https://sites.ualberta.ca/~csmackay/Consuls.List.html",
+          "title": "Christopher S. Mackay, University of Alberta — Danh sách quan chấp chính",
+          "scope": "Thông thường hai chấp chính được bầu mỗi năm, có ngoại lệ; hạn chế độ chính xác bảng niên đại đầu Cộng hòa."
+        }
+      ],
+      "snapshotSHA256": "63c8ffe872372a11cde686f82a4a0cc02571e1ab3d9d10aaa451d1b3d823004e"
+    },
+    {
+      "id": "eu-p-cong-hoa-la-ma",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-3",
+      "decisions": [
+        "Đối chiếu từng trường hiển thị; viết lại theo giọng kể dễ hiểu, có bối cảnh và ý nghĩa.",
+        "Bỏ khẳng định chinh phục toàn bộ Địa Trung Hải; nêu quá trình và giới hạn quyền chính trị."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "r",
+        "d",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/the-roman-republic",
+          "title": "The Met — Cộng hòa La Mã",
+          "scope": "Khung 509–27 TCN, đặc quyền quý tộc, xung đột đất đai và nợ, mở rộng lãnh thổ, bất bình đẳng và nội chiến."
+        },
+        {
+          "url": "https://sites.ualberta.ca/~csmackay/Consuls.List.html",
+          "title": "Christopher S. Mackay, University of Alberta — Danh sách quan chấp chính",
+          "scope": "Thông thường hai chấp chính được bầu mỗi năm, có ngoại lệ; hạn chế độ chính xác bảng niên đại đầu Cộng hòa."
+        }
+      ],
+      "snapshotSHA256": "c1f03d01c65600bcf8eea8ac5dbe806ad275787419e02c845c8dc2a1696ed949"
+    },
+    {
+      "id": "eu-dan-chu-athens-508tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-3",
+      "decisions": [
+        "Đối chiếu từng trường hiển thị; viết lại theo giọng kể dễ hiểu, có bối cảnh và ý nghĩa.",
+        "Bỏ khẳng định đầu tiên tuyệt đối, tỷ lệ 10–20% thiếu căn cứ và mô tả tự động trục xuất người nhiều phiếu nhất mỗi năm."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "r",
+        "t",
+        "who",
+        "place",
+        "d",
+        "fun",
+        "date",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://dev.ascsa.edu.gr/excavations/athenian-agora/about-the-excavations/agorahistory",
+          "title": "ASCSA — Lịch sử và niên biểu Athens",
+          "scope": "Cải cách Cleisthenes 508/7 TCN trong niên biểu khảo cổ."
+        },
+        {
+          "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781118878347.ch22",
+          "title": "Ryan K. Balot và Larissa M. Atkison — Women and Slaves in Greek Democracy",
+          "scope": "Giới hạn cộng đồng chính trị và vai trò xã hội của phụ nữ, người nô lệ, người ngoại cư."
+        },
+        {
+          "url": "https://camu.gr/en/item/pilino-ostrako-thrafsma-angeiou-pou-ferei-to-onoma-tou-themistokli/",
+          "title": "Bảo tàng Canellopoulos — Mảnh gốm mang tên Themistocles",
+          "scope": "Hiện vật khoảng 470 TCN, tên Themistocles và cha Neocles, phiếu trục xuất bằng mảnh gốm; không dùng con số ngưỡng phiếu còn tranh luận."
+        }
+      ],
+      "snapshotSHA256": "9410ccccf7c0ad652cd2423b98b2c3bbc261ef72f1a31291de2c9788b4527f9d"
+    },
+    {
+      "id": "cn-lao-tu-dao-duc-kinh-500tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-3",
+      "decisions": [
+        "Đối chiếu từng trường hiển thị; viết lại theo giọng kể dễ hiểu, có bối cảnh và ý nghĩa.",
+        "Bỏ khẳng định Lão Tử là một viên quan có tiểu sử xác định và mọi ảnh hưởng y học/võ thuật chưa đối chiếu.",
+        "Đổi mốc đặt bài 500 sang350 để thể hiện giai đoạn hình thành văn bản, giữ nguyênID."
+      ],
+      "uncertainties": [
+        "Không có một niên đại biên soạn duy nhất được đồng thuận."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "who",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://plato.stanford.edu/entries/laozi/",
+          "title": "Alan Chan, Stanford Encyclopedia of Philosophy — Laozi",
+          "scope": "Tranh luận tác giả và quá trình tập hợp thế kỷ V–III TCN; tư tưởng không cưỡng ép; bản thẻ tre Quách Điếm, khai quật 1993 và mộ khoảng 300 TCN."
+        }
+      ],
+      "snapshotSHA256": "a9e1061bc750b0c58316662333aae13e10658d4bac70932d554fe25e8478c0c5"
+    },
+    {
+      "id": "am-nazca-500tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-3",
+      "decisions": [
+        "Đối chiếu từng trường hiển thị; viết lại theo giọng kể dễ hiểu, có bối cảnh và ý nghĩa.",
+        "Bỏ lời giải ngoài hành tinh và khẳng định tất cả hình đều chỉ có thể thấy từ máy bay."
+      ],
+      "uncertainties": [
+        "Chức năng của các nhóm hình là câu hỏi nghiên cứu, không trình bày giả thuyết nghi lễ như đáp án duy nhất."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "y2",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "place",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/700/",
+          "title": "UNESCO — Lines and Geoglyphs of Nasca and Palpa",
+          "scope": "Địa điểm, kỹ thuật gạt bề mặt, khung 500 TCN–500 và các loại hình."
+        },
+        {
+          "url": "https://www.yamagata-u.ac.jp/en/download_file/view/1952/835/",
+          "title": "Đại học Yamagata — Công bố nghiên cứu Nazca ngày 24/9/2024",
+          "scope": "303 hình mới được khảo sát thực địa xác nhận, AI hỗ trợ chọn vị trí; các nhóm hình và giả thuyết mục đích khác nhau."
+        }
+      ],
+      "snapshotSHA256": "d4284284afa338a834d194a57133e63b1565d65c9605cec65c75d63dab609554"
+    },
+    {
+      "id": "eu-marathon-490tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-3",
+      "decisions": [
+        "Đối chiếu từng trường hiển thị; viết lại theo giọng kể dễ hiểu, có bối cảnh và ý nghĩa.",
+        "Giữ mạch nhân quả và link1896; thay nguồn Met có lỗi nămSalamis bằng triển lãm chính thức Hy Lạp."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "r",
+        "t",
+        "place",
+        "d",
+        "alt",
+        "context",
+        "consequences",
+        "consequencesTitle",
+        "related",
+        "altTitle",
+        "fun"
+      ],
+      "sources": [
+        {
+          "url": "https://2500years.culture.gov.gr/en/chapters/persiki-polemi",
+          "title": "Bộ Văn hóa Hy Lạp — Các cuộc chiến với Ba Tư",
+          "scope": "Ionia, sự can thiệp Athens, Marathon490 và chiến dịch 480–479."
+        },
+        {
+          "url": "https://www.hh.gr/en/destinations/marathon/",
+          "title": "Hellenic Heritage — Marathon",
+          "scope": "Athens và Plataea, gò mộ và các mảnh đài chiến thắng."
+        },
+        {
+          "url": "https://worldathletics.org/news/feature/1896-olympic-marathon-spiridon-louis-125-anniversary-breal-cup",
+          "title": "World Athletics — Cuộc marathon Olympic 1896",
+          "scope": "Michel Bréal đề xuất môn chạy dựa vào truyền thuyết người đưa tin."
+        }
+      ],
+      "snapshotSHA256": "d84f90473f98f08128e775f1e834522a7f31343661d672656fa1f20a09d9876e"
+    },
+    {
+      "id": "eu-thermopylae-salamis-480tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-3",
+      "decisions": [
+        "Đối chiếu từng trường hiển thị; viết lại theo giọng kể dễ hiểu, có bối cảnh và ý nghĩa.",
+        "Không gọi liên quân là hạm đội Athens đơn thuần hoặc gán Themistocles chức tổng chỉ huy khi nguồn không hỗ trợ.",
+        "Bỏ so sánh Bạch Đằng như quan hệ ảnh hưởng và kết luận hoàng kim tất yếu."
+      ],
+      "uncertainties": [
+        "Quy mô quân đội trong sử liệu khác nhau; dùng mô tả khái quát thay con số lớn chưa chắc."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "r",
+        "t",
+        "who",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://2500years.culture.gov.gr/en/chapters/i-machi-ton-thermopilon",
+          "title": "Bộ Văn hóa Hy Lạp — Thermopylae",
+          "scope": "Địa hình, liên quân ban đầu và các đơn vị ở lại, đường đánh vòng."
+        },
+        {
+          "url": "https://2500years.culture.gov.gr/en/chapters/i-naumachia-tis-salaminas",
+          "title": "Bộ Văn hóa Hy Lạp — Salamis",
+          "scope": "Tranh luận giữa các chỉ huy, chủ trương của Themistocles, eo biển và chiến thắng480."
+        },
+        {
+          "url": "https://2500years.culture.gov.gr/en/chapters/persiki-polemi",
+          "title": "Bộ Văn hóa Hy Lạp — Các cuộc chiến với Ba Tư",
+          "scope": "Chiến dịch480–479, không kết thúc ngay sauSalamis."
+        }
+      ],
+      "snapshotSHA256": "9c67b357b68c98d19bc5621bf875b567763d2bd8aa08468e5df82c044b93d258"
+    },
+    {
+      "id": "cn-chien-quoc-475tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-3",
+      "decisions": [
+        "Đối chiếu từng trường hiển thị; viết lại theo giọng kể dễ hiểu, có bối cảnh và ý nghĩa.",
+        "Bỏ “chỉ còn bảy nước”, quy mô hàng chục vạn như số chắc và việc dùng sắt đồng loạt."
+      ],
+      "uncertainties": [
+        "Có những cách đặt mốc đầu khác;475 là quy ước của bảng được dẫn."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "y2",
+        "r",
+        "t",
+        "d",
+        "ca",
+        "date",
+        "consequencesTitle",
+        "consequences",
+        "fun"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/toah/ht/04/eac.html",
+          "title": "The Met — Trung Quốc 1000 TCN–1",
+          "scope": "Bảng phân kỳ 475–221; nghệ thuật khảm kim loại và tranh lụa ở Sở. Chỉ dùng bảng cho221, không dùng đoạn văn có lỗi206 về mở đầu nhàTần."
+        },
+        {
+          "url": "https://en.chinaculture.org/gb/en_aboutchina/2003-09/24/content_22714.htm",
+          "title": "ChinaCulture — Thời Chiến Quốc",
+          "scope": "Bảy cường quốc và các nước nhỏ còn tồn tại, cạnh tranh cải cách và tư tưởng. Không dùng câu lỗi đồng nhất vua Chu/vua Thương và mốc338."
+        }
+      ],
+      "snapshotSHA256": "a67e4eeafbc9d2a2282d0938741d115410a173ccbec24d98cb56ce8b7e81d498"
+    },
+    {
+      "id": "cn-p-chien-quoc",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-3",
+      "decisions": [
+        "Đối chiếu từng trường hiển thị; viết lại theo giọng kể dễ hiểu, có bối cảnh và ý nghĩa."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "r",
+        "d",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/toah/ht/04/eac.html",
+          "title": "The Met — Trung Quốc 1000 TCN–1",
+          "scope": "Bảng phân kỳ 475–221; nghệ thuật khảm kim loại và tranh lụa ở Sở. Chỉ dùng bảng cho221, không dùng đoạn văn có lỗi206 về mở đầu nhàTần."
+        },
+        {
+          "url": "https://en.chinaculture.org/gb/en_aboutchina/2003-09/24/content_22714.htm",
+          "title": "ChinaCulture — Thời Chiến Quốc",
+          "scope": "Bảy cường quốc và các nước nhỏ còn tồn tại, cạnh tranh cải cách và tư tưởng. Không dùng câu lỗi đồng nhất vua Chu/vua Thương và mốc338."
+        }
+      ],
+      "snapshotSHA256": "d46a42a08345decc18497f8bc9e39d295fb99c1379662e0a1a630042e4d57fe2"
+    },
+    {
+      "id": "eu-np-socrates",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-3",
+      "decisions": [
+        "Đối chiếu từng trường hiển thị; viết lại theo giọng kể dễ hiểu, có bối cảnh và ý nghĩa.",
+        "Dùng khoảng 469 theo nguồn; bỏ lời diễn đạt biến chuyện từ chối trốn trong đối thoại Plato thành hoạt động được chứng minh độc lập."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "n",
+        "b",
+        "d",
+        "cb",
+        "role",
+        "r",
+        "k",
+        "act",
+        "bio",
+        "fun"
+      ],
+      "sources": [
+        {
+          "url": "https://plato.stanford.edu/entries/socrates/",
+          "title": "Debra Nails, Stanford Encyclopedia of Philosophy — Socrates",
+          "scope": "469–399, không viết tác phẩm, vấn đề ba chân dung khác nhau, phương pháp hỏi đáp và vụ xét xử399."
+        }
+      ],
+      "snapshotSHA256": "ffe8702ff78e90ccf28e550922ca3dfb35afc7f532b3c603faa48d9bbc273789"
+    },
+    {
+      "id": "eu-parthenon-447tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-3",
+      "decisions": [
+        "Đối chiếu từng trường hiển thị; viết lại theo giọng kể dễ hiểu, có bối cảnh và ý nghĩa.",
+        "Tách giai đoạn kiến trúc với hoàn tất điêu khắc; không trình bày mọi điều chỉnh như một cơ chế đánh lừa thị giác đã xác nhận.",
+        "Bỏ các giai đoạn tái sử dụng công trình và tranh chấp hiện đại để đối chiếu riêng ở bài phù hợp."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "y2",
+        "r",
+        "t",
+        "who",
+        "place",
+        "d",
+        "fun",
+        "date",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ysma.gr/en/monuments/parthenon/",
+          "title": "Acropolis Restoration Service — Parthenon",
+          "scope": "Cống hiếnAthena, xây447–438, điêu khắc432, tác giả, các điều chỉnh kiến trúc."
+        },
+        {
+          "url": "https://www.theacropolismuseum.gr/en/financial-accounts-construction-parthenon",
+          "title": "Bảo tàng Acropolis — Bảng kê chi phí xây Parthenon",
+          "scope": "EM5223: vật liệu, công nhân vận chuyển đá, giám sát và công khai tài khoản."
+        }
+      ],
+      "snapshotSHA256": "69e42978e80a64e1789463117c00dba9e0b3990092c064707d1f2fafa8aa365a"
+    },
+    {
+      "id": "eu-herodotus-440tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-3",
+      "decisions": [
+        "Đối chiếu từng trường hiển thị; viết lại theo giọng kể dễ hiểu, có bối cảnh và ý nghĩa.",
+        "Bỏ năm 440 như mốc tác phẩm chính xác, thứ hạng sử gia đầu tiên và danh sách chuyến đi chưa đối chiếu từng nơi."
+      ],
+      "uncertainties": [
+        "Niên đại bản cuối còn có các đề xuất khác;430 chỉ là mốc đặt bài."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "who",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cambridge.org/core/books/abs/early-greek-political-thought-from-homer-to-the-sophists/herodotus/4B146C6088CE5218D2B69F6C319A9758",
+          "title": "Michael Gagarin và Paul Woodruff — Herodotus",
+          "scope": "Thời gian hình thành tác phẩm, cách đặt bản cuối khoảng 430–425 và quan sát chính trị."
+        },
+        {
+          "url": "https://folio2.furman.edu/dramaturg/Herodotus/pages/chunk_850.html",
+          "title": "Furman Classics — Herodotus, Histories7.152",
+          "scope": "Văn bản gốc phân biệt kể lại điều được nghe với tin mọi điều ấy."
+        }
+      ],
+      "snapshotSHA256": "94d45933624103085222fac8b94075d55e44418fdf33820632d3591801cf844a"
+    },
+    {
+      "id": "eu-np-plato",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-3",
+      "decisions": [
+        "Đối chiếu từng trường hiển thị; viết lại theo giọng kể dễ hiểu, có bối cảnh và ý nghĩa.",
+        "Bỏ thứ hạng học trò xuất sắc nhất, số tác phẩm và biệt danh vai rộng chưa xác minh.",
+        "Ghi rõ hai đề xuất năm sinh thay vì giấu khác biệt giữa nguồn."
+      ],
+      "uncertainties": [
+        "Năm sinh khoảng 429 hoặc427 theo các tài liệu;387 là mốcHọc viện xấp xỉ."
+      ],
+      "fieldsReviewed": [
+        "n",
+        "b",
+        "d",
+        "cb",
+        "cd",
+        "role",
+        "r",
+        "k",
+        "act",
+        "bio",
+        "fun",
+        "ck",
+        "lifeLabel"
+      ],
+      "sources": [
+        {
+          "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Plato/",
+          "title": "MacTutor, University of St Andrews — Plato",
+          "scope": "Khung427–347 và Học viện từ khoảng 387; hoạt động nghiên cứu, giảng dạy."
+        },
+        {
+          "url": "https://plato.stanford.edu/entries/plato/",
+          "title": "Richard Kraut, Stanford Encyclopedia of Philosophy — Plato",
+          "scope": "Đề xuất năm sinh429? khác khung427; hình thức đối thoại, tác giả gián tiếp, không xem Socrates trong đối thoại là bản sao lịch sử."
+        }
+      ],
+      "snapshotSHA256": "3fa9d6d88589211fdb50616c1247330679ab753b46c52bfb35eb42d08d2de5f6"
+    },
+    {
+      "id": "sl-500tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-3",
+      "decisions": [
+        "Đối chiếu từng trường hiển thị; viết lại theo giọng kể dễ hiểu, có bối cảnh và ý nghĩa.",
+        "Thay tập hợp nhiều niên đại truyền thống bất định thành đối chiếu có trọng tâm và nguồn trực tiếp.",
+        "Bỏ giả định tất cả nhân vật giảng dạy trong cùng năm 500, “thời rực rỡ”ĐôngSơn và con số đườngDarius chưa kiểm tra ở látcắt."
+      ],
+      "uncertainties": [
+        "500 TCN là khung nhìn gần hai cuộc cải cách, không phải năm chung của mọi việc."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "t",
+        "d",
+        "ev",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/the-roman-republic",
+          "title": "The Met — Cộng hòa La Mã",
+          "scope": "Khung 509–27 TCN, đặc quyền quý tộc, xung đột đất đai và nợ, mở rộng lãnh thổ, bất bình đẳng và nội chiến."
+        },
+        {
+          "url": "https://sites.ualberta.ca/~csmackay/Consuls.List.html",
+          "title": "Christopher S. Mackay, University of Alberta — Danh sách quan chấp chính",
+          "scope": "Thông thường hai chấp chính được bầu mỗi năm, có ngoại lệ; hạn chế độ chính xác bảng niên đại đầu Cộng hòa."
+        },
+        {
+          "url": "https://dev.ascsa.edu.gr/excavations/athenian-agora/about-the-excavations/agorahistory",
+          "title": "ASCSA — Lịch sử và niên biểu Athens",
+          "scope": "Cải cách Cleisthenes 508/7 TCN trong niên biểu khảo cổ."
+        },
+        {
+          "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781118878347.ch22",
+          "title": "Ryan K. Balot và Larissa M. Atkison — Women and Slaves in Greek Democracy",
+          "scope": "Giới hạn cộng đồng chính trị và vai trò xã hội của phụ nữ, người nô lệ, người ngoại cư."
+        }
+      ],
+      "snapshotSHA256": "24bb01336b46003169bf7dc9083dd2d410e503f50a8c8fb9dad9ceee3fb35969"
     }
   ],
   "updatedAt": "2026-11-04"

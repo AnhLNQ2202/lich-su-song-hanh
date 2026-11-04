@@ -4,8 +4,9 @@ const escapeHTML = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&
 const yearText = year => year < 0 ? Math.abs(year) + ' TCN' : String(year);
 const personDates = p => p.lifeLabel || ((p.cb||p.cd?'Khoảng ':'')+yearText(p.b)+' – '+(p.d==null?'nay':yearText(p.d)));
 const personAge = (p,year) => p.timeBasis ? 'Chưa xác định tuổi' : (p.cb?'Khoảng ':'')+(year-p.b-(p.b<0&&year>0?1:0))+' tuổi';
-const milestoneYear = p => (p.ck||p.timeBasis?'Khoảng năm ':'Năm ')+yearText(p.k);
+const milestoneYear = p => p.referenceOnly ? 'Theo truyền thống' : (p.ck||p.timeBasis?'Khoảng năm ':'Năm ')+yearText(p.k);
 const fold = text => String(text).normalize('NFD').replace(/\p{M}/gu, '').toLowerCase().replace(/đ/g,'d');
+const entryYearText = entry => entry.source.referenceOnly ? 'Chưa rõ' : yearText(entry.year);
 const labels = {sl:'Lát cắt', ev:'Sự kiện', np:'Nhân vật', pd:'Thời kỳ', gb:'Sự kiện toàn cầu'};
 const regions = new Map(LANES.map(region => [region.id, region.name]));
 const catalog = new Map();
@@ -116,13 +117,15 @@ function sliceNotes(item) {
   }).join('');
 }
 function peopleAt(item) {
+  if(item.source.referenceOnly)return [];
   const year = item.source.k ?? item.year;
   const named = [item.title,item.source.who,item.source.d].filter(Boolean).join(' ');
-  return all.filter(e => e.kind === 'np' && e !== item && e.year <= year && (e.source.d ?? Infinity) >= year)
+  return all.filter(e => e.kind === 'np' && !e.source.referenceOnly && e !== item && e.year <= year && (e.source.d ?? Infinity) >= year)
     .sort((a,b) => Number(named.includes(b.title))-Number(named.includes(a.title)) || Math.abs(a.source.k-year)-Math.abs(b.source.k-year));
 }
 function personTrail(entry, year) {
   const p=entry.source;
+  if(p.referenceOnly)return '';
   const names=[entry.title,entry.title.split(' (')[0],...entry.title.split(/[–—]/)].map(n=>fold(n.trim())).filter(n=>n.length>3);
   const linked=events.filter(e=>e.year>=p.b&&e.year<=(p.d??2026)&&e.source.who&&names.some(n=>fold(e.source.who).includes(n))).sort((a,b)=>a.year-b.year);
   const rows=[{year:p.k,title:p.n+' '+p.act}];
@@ -962,7 +965,7 @@ function updateRail() {
     link.toggleAttribute('data-chain-nav',Boolean(chain));
     link.innerHTML='<small>'+label+' · '+yearText(entry.year)+'</small><span>'+escapeHTML(entry.title)+'</span>';
   }
-  $('year').textContent=yearText(year);
+  $('year').textContent=current.source.referenceOnly?'Chưa rõ':yearText(year);
 }
 $('rail-list').onclick=()=>openLibrary('events');
 function paragraphs(text) {
@@ -1038,7 +1041,7 @@ function relatedStory(item) {
   if(!links.length)return '';
   return '<section class="story-connections"><h2>Đọc thêm trong dòng thời gian</h2>'+links.map(link=>{
     const target=catalog.get(link.id);
-    return '<div class="story-connection"><span>'+escapeHTML(RELATION_NAMES[link.kind])+' · '+yearText(target.year)+'</span><a href="'+href(target)+'">'+escapeHTML(target.title)+' →</a>'+paragraphs(link.text)+'</div>';
+    return '<div class="story-connection"><span>'+escapeHTML(RELATION_NAMES[link.kind])+' · '+entryYearText(target)+'</span><a href="'+href(target)+'">'+escapeHTML(target.title)+' →</a>'+paragraphs(link.text)+'</div>';
   }).join('')+'</section>';
 }
 function articleSources(o) {
@@ -1109,7 +1112,7 @@ function article(item) {
   const o = item.source;
   const body = item.kind === 'np' ? o.bio : o.d;
   const meta = [o.topic, o.date, o.place, o.role, item.kind === 'np' ? personDates(o) : '', ['pd','gb'].includes(item.kind) ? (o.ca?'Khoảng ':'')+yearText(o.s)+' – '+yearText(o.e) : ''].filter(Boolean);
-  const notes = [[o.altTitle||noteTitle(item.id,'alt'),o.alt],['Liên hệ Việt Nam',o.vn],['Một dấu mốc đáng nhớ',o.act ? milestoneYear(o)+', '+o.n+' '+o.act+'.' : ''],['Cùng thời',o.same],['Bạn có biết?',o.fun]];
+  const notes = [[o.altTitle||noteTitle(item.id,'alt'),o.alt],['Liên hệ Việt Nam',o.vn],[o.referenceOnly?'Theo lời truyền lại':'Một dấu mốc đáng nhớ',o.act ? milestoneYear(o)+', '+o.n+' '+o.act+'.' : ''],['Cùng thời',o.same],['Bạn có biết?',o.fun]];
   return (meta.length ? '<p class="meta">'+escapeHTML(meta.join(' · '))+'</p>' : '')+
     (activeReadingChain(item)?chainHTML(item):'')+'<div class="prose">'+paragraphs(o.context)+paragraphs(body)+articleVisuals(item)+eventEffects(item)+notes.filter(([,v])=>v).map(([h,v])=>(h?'<h2>'+escapeHTML(h)+'</h2>':'')+paragraphs(v)).join('')+(item.kind==='sl' ? sliceNotes(item) : '')+(activeReadingChain(item)?'':chainHTML(item))+relatedStory(item)+highlightHTML(item)+readingQuestion(item)+storyPeople(item)+'</div>'+exploreHTML(item)+articleSources(o)+'<details id="comparison-details" class="comparison-end"><summary>Cùng thời ở những nơi khác <span>Mở đối chiếu +</span></summary><div id="world" aria-label="Đối chiếu cuối bài"></div></details>';
 }
@@ -1139,7 +1142,7 @@ function placeData(lane) {
   const exact=events.filter(e=>e.lane===lane&&e.year===year);
   const near=events.filter(e=>e.lane===lane&&e.year!==year&&Math.abs(e.year-year)<=25)
     .sort((a,b)=>Math.abs(a.year-year)-Math.abs(b.year-year)).slice(0,2);
-  const people=all.filter(e=>e.kind==='np'&&e.lane===lane&&e.year<=year&&(e.source.d??Infinity)>=year)
+  const people=all.filter(e=>e.kind==='np'&&!e.source.referenceOnly&&e.lane===lane&&e.year<=year&&(e.source.d??Infinity)>=year)
     .sort((a,b)=>Math.abs(a.source.k-year)-Math.abs(b.source.k-year)).slice(0,3);
   return {lane,name:regions.get(lane),year,active,exact,near,people};
 }
@@ -1289,7 +1292,7 @@ function results() {
   const matches=source.filter(entry=>(!topic || entry.source.topic===topic || (topic==='cul' && entry.source.c==='cul')) && (bounds.length!==2 || (entry.year>=bounds[0] && entry.year<=bounds[1])) && (!unreadOnly || !finished.has(entry.id)) && (!kind || entry.kind===kind || (kind==='ev' && entry.kind==='gb')) && tokens.every(t=>entry.search.includes(t)));
   const visible=matches.slice(0,limit);
   $('status').textContent=matches.length ? matches.length+' mục' : 'Chưa tìm thấy. Thử tên ngắn hơn hoặc một năm.';
-  $('results').innerHTML=visible.map(entry=>'<a class="result" href="'+href(entry)+'" '+(entry===current?'aria-current="page"':'')+'><time>'+escapeHTML(yearText(entry.year))+'</time><div><strong>'+escapeHTML(entry.title)+'</strong><small>'+escapeHTML([labels[entry.kind],regions.get(entry.lane),finished.has(entry.id)?'✓ Đã đọc':''].filter(Boolean).join(' · '))+'</small></div><span aria-hidden="true">›</span></a>').join('')+(visible.length<matches.length?'<button class="more" id="more">Xem thêm kết quả ↓</button>':'');
+  $('results').innerHTML=visible.map(entry=>'<a class="result" href="'+href(entry)+'" '+(entry===current?'aria-current="page"':'')+'><time>'+escapeHTML(entryYearText(entry))+'</time><div><strong>'+escapeHTML(entry.title)+'</strong><small>'+escapeHTML([labels[entry.kind],regions.get(entry.lane),finished.has(entry.id)?'✓ Đã đọc':''].filter(Boolean).join(' · '))+'</small></div><span aria-hidden="true">›</span></a>').join('')+(visible.length<matches.length?'<button class="more" id="more">Xem thêm kết quả ↓</button>':'');
 }
 function openLibrary(mode) {
   catalogMode=mode;

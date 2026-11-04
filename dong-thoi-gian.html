@@ -649,8 +649,8 @@ summary.xs-h:focus-visible { outline: 2px solid var(--gold); }
 <div class="tip" id="tip" hidden></div>
 <div class="pop" id="pop" hidden></div>
 <div class="modal" id="quiz" hidden></div>
-<script src="history-data.js?v=audit-story-2"></script>
-<script src="reading-chains.js?v=audit-story-2"></script>
+<script src="history-data.js?v=audit-story-3"></script>
+<script src="reading-chains.js?v=audit-story-3"></script>
 
 <script>
 /* Lịch Sử Song Hành — dòng thời gian song song Việt Nam & thế giới */
@@ -874,7 +874,7 @@ summary.xs-h:focus-visible { outline: 2px solid var(--gold); }
   function setCorner() {
     corner.innerHTML = S.mode === 'ev'
       ? ['pol', 'war', 'cul', 'sci'].map((c) => `<span>${ico(c)}${CATS[c]}</span>`).join('')
-      : `<span class="wide">${ico('person')} Vạch màu thể hiện đời người hoặc khoảng hoạt động được ghi rõ trong bài</span>`;
+      : `<span class="wide">${ico('person')} Vạch màu thể hiện đời người, khoảng hoạt động hoặc điểm tra cứu được ghi rõ trong bài</span>`;
   }
 
   /* ================= measure ================= */
@@ -1225,7 +1225,7 @@ summary.xs-h:focus-visible { outline: 2px solid var(--gold); }
         return Math.min(Math.abs(e.y - y), e.y2 != null ? Math.abs(e.y2 - y) : 1e9);
       };
       const evs = maxEv ? EVL[L.id].filter((e) => dist(e) <= W).sort((a, b) => dist(a) - dist(b) || b.imp - a.imp).slice(0, maxEv).sort(byY) : [];
-      const ppl = maxPp ? PPL[L.id].filter((p) => p.b <= y && y <= endOf(p))
+      const ppl = maxPp ? PPL[L.id].filter((p) => !p.referenceOnly && p.b <= y && y <= endOf(p))
         .map((p) => ({ p, s: p.imp * 100 - Math.min(90, Math.abs(p.k - y)) }))
         .sort((a, b) => b.s - a.s).slice(0, maxPp).map((x) => x.p) : [];
       return { L, pds, evs, ppl };
@@ -1341,7 +1341,7 @@ summary.xs-h:focus-visible { outline: 2px solid var(--gold); }
     const living = o.death == null;
     const age = gap(o.b, endOf(o));
     const ageTxt = o.timeBasis ? '' : living ? `năm nay khoảng ${age} tuổi` : `thọ ${o.cb || o.cd ? 'khoảng ' : ''}${age} tuổi`;
-    const others = PP.filter((p) => p !== o && p.b <= o.k && o.k <= endOf(p))
+    const others = PP.filter((p) => !o.referenceOnly && !p.referenceOnly && p !== o && p.b <= o.k && o.k <= endOf(p))
       .map((p) => ({ p, s: p.imp * 100 - Math.min(90, Math.abs(p.k - o.k)) + (p.lane !== o.lane ? 40 : 0) }))
       .sort((a, b) => b.s - a.s).slice(0, 14).map((x) => x.p);
     const cont = others.length ? `<section class="sec"><h3>Những người cùng thời<small>vào năm ${esc(fy(o.k))}</small></h3><p class="muted">Khi ${esc(o.n)} ${esc(o.act)}, thì…</p><ul class="cont">${others.map((p) => `<li data-l="${p.lane}"><button type="button" class="ref" data-open="${p.id}"><span class="yr">${esc(ageStr(p, o.k))}</span><span><b>${esc(p.n)}</b><small>${esc(p.role)} · ${esc(p.r || LANE[p.lane].name)}</small></span></button></li>`).join('')}</ul></section>` : '';
@@ -1350,9 +1350,9 @@ summary.xs-h:focus-visible { outline: 2px solid var(--gold); }
       <div class="d-date">${esc(o.life)}${ageTxt ? ' · '+esc(ageTxt) : ''}</div>
       <h2 class="d-title">${esc(o.n)}</h2>
       <p class="d-text">${esc(o.bio)}</p>
-      ${box('key', 'Một dấu mốc đáng nhớ', `${o.ck||o.timeBasis?'Khoảng năm':'Năm'} ${fy(o.k)}, ${o.n} ${o.act}.`)}${box('same', 'Cùng thời thú vị', o.same)}${box('fun', 'Bạn có biết?', o.fun)}
+      ${box('key', o.referenceOnly ? 'Theo lời truyền lại' : 'Một dấu mốc đáng nhớ', o.referenceOnly ? `Theo truyền thống, ${o.n} ${o.act}.` : `${o.ck||o.timeBasis?'Khoảng năm':'Năm'} ${fy(o.k)}, ${o.n} ${o.act}.`)}${box('same', 'Cùng thời thú vị', o.same)}${box('fun', 'Bạn có biết?', o.fun)}
       ${cont}
-      ${sameTimeHTML(o.k, o.lane, 0)}
+      ${o.referenceOnly ? '' : sameTimeHTML(o.k, o.lane, 0)}
       ${sourcesHTML(o)}
       ${navHTML(o)}
     </article>`;
@@ -1360,7 +1360,7 @@ summary.xs-h:focus-visible { outline: 2px solid var(--gold); }
   function pdDetail(o) {
     const evs = EVL[o.lane].filter((e) => e.y >= o.s && e.y < o.e);
     const top = evs.slice().sort((a, b) => b.imp - a.imp || a.y - b.y).slice(0, 10).sort(byY);
-    const ppl = PPL[o.lane].filter((p) => p.b < o.e && endOf(p) > o.s).sort((a, b) => b.imp - a.imp || a.b - b.b).slice(0, 12);
+    const ppl = PPL[o.lane].filter((p) => !p.referenceOnly && p.b < o.e && endOf(p) > o.s).sort((a, b) => b.imp - a.imp || a.b - b.b).slice(0, 12);
     const others = LANES.filter((l) => l.id !== o.lane)
       .map((l) => ({ l, ps: PDL[l.id].filter((p) => p.s < o.e && p.e > o.s) }))
       .filter((x) => x.ps.length);

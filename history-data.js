@@ -10,7 +10,7 @@ TL_DATA.push({
   "e": -208,
   "g": "a",
   "t": "Nước Văn Lang",
-  "d": "Nhà nước gắn với thời Hùng Vương trong truyền thống sử Việt. Khoảng thế kỷ VII TCN là mốc tham chiếu cho quá trình hình thành; các mốc đầu và cuối trên timeline là xấp xỉ. Cần phân biệt chứng cứ khảo cổ Đông Sơn với những mô tả về tổ chức nhà nước được thư tịch ghi chép muộn hơn.",
+  "d": "Văn Lang gắn với các vua Hùng trong truyền thống sử Việt. Khung khoảng thế kỷ VII TCN–208 TCN ở đây là một cách tham chiếu về nhà nước sơ khai. Khảo cổ Đông Sơn và những lời kể trong thư tịch góp các loại dấu vết khác nhau; hai đầu thanh thời gian đều cần đọc như mốc xấp xỉ.",
   "ref": "https://baotanglichsu.vn/vi/Articles/3096/10144/ve-cac-nha-nuoc-so-khai-o-mien-bac-viet-nam.html",
   "refs": [
     {
@@ -100,10 +100,10 @@ TL_DATA.push({
   "t": "Lạc Long Quân, Âu Cơ trong truyền thuyết nguồn cội",
   "c": "cul",
   "imp": 2,
-  "d": "Truyền thuyết kể Lạc Long Quân và Âu Cơ sinh bọc trăm trứng; những người con chia nhau lên núi và xuống biển. Các bản ghi chép có những khác biệt. Mốc 2879 TCN thuộc hệ niên đại truyền thống về thời Hồng Bàng, không phải năm lập nước được xác nhận bằng khảo cổ.",
-  "consequencesTitle": "Một câu chuyện về nguồn cội được truyền lại",
-  "consequences": "Câu chuyện cần được đọc như truyền thuyết và ký ức văn hóa. Giá trị của nó không phụ thuộc vào việc coi từng chi tiết là sự kiện có niên đại chính xác.",
-  "fun": "Niên đại mà sách kể cho một câu chuyện và thời điểm sách ấy được biên soạn là hai điều khác nhau. Văn bản ghi chép muộn không tự trở thành chứng cứ đương thời.",
+  "d": "Trong truyền thuyết nguồn cội, Lạc Long Quân và Âu Cơ sinh một bọc trăm trứng. Những người con rồi chia nhau lên núi, xuống biển. Hình ảnh một gia đình mở ra câu chuyện về những cộng đồng sống ở nhiều miền mà vẫn có chung gốc gác. Mốc 2879 TCN thuộc niên đại truyền thống thời Hồng Bàng, chưa phải một năm lập nước được khảo cổ xác nhận.",
+  "consequencesTitle": "Đi xa vẫn có thể nhớ mình cùng một nhà",
+  "consequences": "Câu chuyện có thể được đọc như lời nhắc về sự gắn bó giữa những cộng đồng. Các bản ghi chép có khác biệt, nhưng hình ảnh nguồn cội chung vẫn giữ sức sống.",
+  "fun": "Hình ảnh cùng một bọc gợi cách gọi “đồng bào”. Một ý niệm về cộng đồng được kể bằng chuyện gia đình nên trở nên rất dễ nhớ, ngay cả với người chưa từng mở một quyển sử.",
   "refs": [
     {
       "url": "https://baotanglichsu.vn/vi/Articles/2001/65123/huyen-thoai-boc-tram-trung-trong-cac-sach-su.html",
@@ -128,10 +128,10 @@ TL_DATA.push({
   "c": "cul",
   "imp": 1,
   "place": "Trung du và đồng bằng Bắc Bộ",
-  "d": "Văn hóa Phùng Nguyên ở miền Bắc Việt Nam thường được đặt vào khoảng 4.000–3.500 năm trước. Đồ gốm và công cụ, đồ trang sức bằng đá cho thấy kỹ năng chế tác của cư dân. Mốc 2000 TCN là mốc xấp xỉ cho bài, không phải năm một nền văn hóa đột ngột xuất hiện.",
-  "consequencesTitle": "Theo dõi biến đổi qua hiện vật",
-  "consequences": "Khi đặt cạnh Đồng Đậu và Gò Mun, hiện vật Phùng Nguyên giúp nghiên cứu những thay đổi kỹ thuật trước văn hóa Đông Sơn. Quan hệ giữa các giai đoạn không tự chứng minh một nhà nước đã ra đời từ đầu chuỗi.",
-  "fun": "Tên văn hóa lấy theo di chỉ Phùng Nguyên ở Phú Thọ, được phát hiện năm 1959. Tên dùng trong khảo cổ bắt nguồn từ nơi tìm thấy hiện vật, không phải tên cư dân xưa tự gọi mình.",
+  "d": "Khoảng 4000–3500 năm trước, cư dân Phùng Nguyên ở miền Bắc Việt Nam làm công cụ, đồ trang sức đá và đồ gốm với kỹ thuật tinh xảo. Những dấu cưa, khoan, mài và các món đồ nhỏ cho thấy bàn tay người thợ đã rất khéo. Một phần câu chuyện thời ấy nằm ngay trong cách họ tạo nên vật dụng hằng ngày.",
+  "consequencesTitle": "Theo dấu người thợ qua các thế hệ",
+  "consequences": "Đặt hiện vật Phùng Nguyên cạnh Đồng Đậu và Gò Mun, ta thấy những thay đổi trong kỹ thuật và vật liệu trên đường tới Đông Sơn.",
+  "fun": "Tên văn hóa lấy từ di chỉ Phùng Nguyên ở Phú Thọ, được phát hiện năm 1959. Đó là tên người nghiên cứu dùng về sau; cư dân cổ có thể chẳng nhận ra mình đang được gọi bằng cái tên ấy.",
   "refs": [
     {
       "url": "https://baotanglichsu.vn/vi/Articles/4016/cac-van-hoa-tien-djong-son-phung-nguyen-djong-djau-go-mun-khoang-4-000-2-500-nam-cach-ngay-nay",
@@ -142,11 +142,6 @@ TL_DATA.push({
       "url": "https://baotanglichsu.vn/vi/Articles/3096/7991/cac-nen-van-hoa-thuoc-thoi-djai-hung-vuong.html",
       "title": "Bảo tàng Lịch sử Quốc gia — Các nền văn hóa thuộc thời đại Hùng Vương",
       "scope": "Tên di chỉ và phát hiện năm 1959."
-    },
-    {
-      "url": "https://baotanglichsu.vn/vi/Articles/2001/65061/ve-thoi-djiem-lap-quoc-viet-nam.html",
-      "title": "Bảo tàng Lịch sử Quốc gia — Về thời điểm lập quốc Việt Nam",
-      "scope": "Giới hạn khi đồng nhất văn hóa khảo cổ với niên đại ra đời nhà nước."
     }
   ],
   "ref": "https://baotanglichsu.vn/vi/Articles/4016/cac-van-hoa-tien-djong-son-phung-nguyen-djong-djau-go-mun-khoang-4-000-2-500-nam-cach-ngay-nay"
@@ -211,10 +206,10 @@ TL_DATA.push({
   "c": "pol",
   "imp": 3,
   "who": "Các vua Hùng",
-  "d": "Văn Lang là tên nhà nước gắn với thời Hùng Vương trong truyền thống sử Việt. Khoảng thế kỷ VII TCN thường được dùng làm mốc tham chiếu cho quá trình hình thành nhà nước sơ khai. Khảo cổ văn hóa Đông Sơn cung cấp một lớp bằng chứng; các câu chuyện và mô tả tổ chức trong thư tịch là lớp tư liệu khác, được ghi chép muộn hơn.",
-  "fun": "UNESCO ghi danh tín ngưỡng thờ cúng Hùng Vương ở Phú Thọ năm 2012. Mốc ghi danh di sản nói về truyền thống văn hóa đang được gìn giữ, không phải xác nhận năm thành lập Văn Lang.",
-  "consequencesTitle": "Nhiều loại tư liệu giúp tìm hiểu buổi đầu dựng nước",
-  "consequences": "Cần đặt truyền thống sử học cạnh hiện vật và di tích, thay vì coi mọi chi tiết đều được xác nhận như nhau. Không có cơ sở để quy toàn bộ quá trình lập quốc về một nguyên nhân duy nhất như đắp đê.",
+  "d": "Nhắc buổi đầu dựng nước, truyền thống sử Việt kể về Văn Lang và các vua Hùng. Còn những cộng đồng thời ấy sống ra sao? Di tích và hiện vật Đông Sơn ở lưu vực sông Hồng, sông Mã, sông Cả là một đầu mối để tìm hiểu. Khoảng thế kỷ VII TCN được dùng làm mốc tham chiếu; những mô tả trong sách được ghi lại muộn hơn.",
+  "fun": "Tín ngưỡng thờ cúng Hùng Vương ở Phú Thọ được UNESCO ghi danh năm 2012. Trong việc chuẩn bị lễ vật có bánh từ gạo, cùng những diễn xướng và thực hành cộng đồng: ký ức nguồn cội còn được gìn giữ bằng công việc của người hôm nay.",
+  "consequencesTitle": "Tìm buổi đầu dựng nước qua nhiều dấu vết",
+  "consequences": "Câu chuyện truyền lại và hiện vật giúp tiếp cận những mặt khác nhau của quá khứ. Việc hình thành nhà nước cần được tìm hiểu như một quá trình, không chỉ một ngày lập quốc.",
   "refs": [
     {
       "url": "https://baotanglichsu.vn/vi/Articles/3096/10144/ve-cac-nha-nuoc-so-khai-o-mien-bac-viet-nam.html",
@@ -262,10 +257,37 @@ TL_DATA.push({
   ],
   "ref": "https://baotanglichsu.vn/DataFiles/2021/10/News/Ti%E1%BA%BFng%20Vi%E1%BB%87t/12.10.2021/Thong%20bao%20khoa%20hoc/Net%20dac%20sac%20cua%20nhom%20Bao%20vat%20Quoc%20gia...%20Nguyen%20Van%20Doan.pdf"
 },
-    { id: 'vn-truyen-thuyet-600tcn', y: -600, ca: true, date: 'Thời các vua Hùng', t: 'Sơn Tinh, Thánh Gióng, bánh chưng', c: 'cul', imp: 1,
-      d: 'Thời Văn Lang để lại kho truyền thuyết phong phú: Sơn Tinh – Thuỷ Tinh kể chuyện chống lũ lụt, Thánh Gióng nói về cả làng góp gạo nuôi người đánh giặc, Lang Liêu với bánh chưng, bánh giầy đề cao nghề nông và lòng hiếu thảo. Chúng phản ánh đời sống, nỗi lo và ước mơ của cư dân trồng lúa.',
-      why: 'Giúp ta hiểu người Việt cổ bận tâm điều gì nhất: nước lũ, giặc ngoại xâm và mùa màng.',
-      alt: 'Năm nào Thuỷ Tinh cũng dâng nước đánh Sơn Tinh, đúng như mùa lũ sông Hồng năm nào cũng về: có lẽ đây là bản “dự báo thời tiết” lâu đời nhất của người Việt.' },
+    {
+  "id": "vn-truyen-thuyet-600tcn",
+  "y": -600,
+  "ca": true,
+  "date": "Truyền thuyết gắn với thời vua Hùng; 600 TCN chỉ là mốc đặt bài",
+  "t": "Sơn Tinh, Thánh Gióng và câu chuyện từ hạt gạo",
+  "c": "cul",
+  "imp": 1,
+  "d": "Sơn Tinh chống nước dâng, Gióng lớn lên để ra trận, Lang Liêu chọn gạo làm bánh dâng vua cha. Những truyện gắn với thời Hùng Vương đưa chuyện giữ đất, chống lũ và quý trọng hạt gạo vào các hình ảnh dễ nhớ. Truyện được lưu truyền, kể lại qua nhiều thế hệ; chúng ta chưa biết chính xác từng truyện ra đời năm nào.",
+  "consequencesTitle": "Nguồn cội được kể cả bên mâm cơm",
+  "consequences": "Đọc như truyền thuyết, ta có thể tìm thấy cách cộng đồng gửi gắm điều mình coi trọng: sức mạnh bảo vệ quê hương, mùa màng và lòng hiếu thảo. Mốc trên timeline chỉ giúp đặt bài vào phần thời Hùng Vương.",
+  "fun": "Trong chuyện Lang Liêu, món dâng được chọn làm bằng gạo, giữa cuộc tìm kiếm của ngon vật lạ. Một nguyên liệu quen thuộc lại có phần thuyết trình rất thuyết phục.",
+  "refs": [
+    {
+      "url": "https://thvovanthang.hcm.edu.vn/truyen-co-tich-viet-nam/truyen-thuyet-ve-son-tinh-thuy-tinh/ct/85218/434181",
+      "title": "TH Võ Văn Thặng — Bản kể Sơn Tinh, Thủy Tinh",
+      "scope": "Bản truyện và cách đọc ý nghĩa chống lũ; không dùng làm niên đại sáng tác."
+    },
+    {
+      "url": "https://truongnguyenkhuyenhcm.edu.vn/uploads/images/4/files/2021/tuan%201%20thang%208/tiet-23-thanh-giong.pdf",
+      "title": "Trường Nguyễn Khuyến — Văn bản Thánh Gióng",
+      "scope": "Thể loại truyền thuyết, lớn lên kỳ ảo và ra trận."
+    },
+    {
+      "url": "https://thleductho.hcm.edu.vn/khoi-5/lang-lieu-ong-to-van-hoa-am-thuc-thoi-dai-hung-vuong/ctmb/72034/659366",
+      "title": "TH Lê Đức Thọ — Truyền thuyết Lang Liêu",
+      "scope": "Chỉ dùng phần bản kể bánh từ gạo dâng vua và ý nghĩa truyền thống; không dùng con số 2622 năm Văn Lang ở đầu bài như lịch sử đã xác nhận."
+    }
+  ],
+  "ref": "https://thvovanthang.hcm.edu.vn/truyen-co-tich-viet-nam/truyen-thuyet-ve-son-tinh-thuy-tinh/ct/85218/434181"
+},
     { id: 'vn-au-lac-208tcn', y: -208, ca: true, date: 'Khoảng năm 208 TCN', t: 'An Dương Vương lập nước Âu Lạc', c: 'pol', imp: 3,
       who: 'Thục Phán – An Dương Vương', place: 'Cổ Loa (Đông Anh, Hà Nội)',
       d: 'Sau khi người Lạc Việt và Âu Việt cùng đánh lui quân Tần, thủ lĩnh Âu Việt là Thục Phán thay vua Hùng, lập nước Âu Lạc và dời đô về Cổ Loa (có tài liệu ghi năm 257 TCN). Ông cho xây thành Cổ Loa nhiều vòng hình xoáy ốc, có hào nước bao quanh, và chế loại nỏ bắn được nhiều mũi tên.',
@@ -1750,7 +1772,7 @@ TL_DATA.push({
   "g": "a",
   "t": "Nhà Hạ (chưa được xác nhận)",
   "r": "Trung Quốc",
-  "d": "Khoảng 2100–1600 TCN trong bảng niên đại tham khảo. Liên hệ giữa nhà Hạ trong sử sách và di tích Nhị Lý Đầu vẫn là giả thuyết.",
+  "d": "Khoảng 2100–1600 TCN là khung tham khảo cho nhà Hạ trong bảng niên đại được dẫn. Nhị Lý Đầu cung cấp hiện vật và kiến trúc để nghiên cứu, nhưng việc gọi đây là một trung tâm nhà Hạ còn là giả thuyết.",
   "ca": true,
   "ref": "https://www.metmuseum.org/ja/toah/ht/03/eac.html",
   "refs": [
@@ -1825,8 +1847,29 @@ TL_DATA.push({
   ],
   "ref": "https://www.metmuseum.org/toah/ht/04/eac.html"
 },
-    { id: 'cn-p-chien-quoc', s: -475, e: -221, g: 'a', t: 'Đông Chu – Chiến Quốc', r: 'Trung Quốc',
-      d: 'Bảy nước lớn Tần, Sở, Tề, Yên, Hàn, Triệu, Ngụy đánh nhau liên miên và đua nhau cải cách. Trăm nhà trăm học thuyết (Bách gia chư tử) tranh luận sôi nổi cho đến khi nước Tần thống nhất.' },
+    {
+  "id": "cn-p-chien-quoc",
+  "s": -475,
+  "e": -221,
+  "g": "a",
+  "t": "Đông Chu – Chiến Quốc",
+  "r": "Trung Quốc",
+  "d": "Khung475–221 TCN là một cách phân kỳ Chiến Quốc. Các cường quốc tranh giành, thôn tính những nước nhỏ, đồng thời đua nhau cải cách và tìm ý tưởng cai trị. Năm221 TCN, Tần thống nhất. Nghệ thuật kim loại và tranh lụa cho thấy thời kỳ này còn có đời sống sáng tạo phong phú.",
+  "ca": true,
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/toah/ht/04/eac.html",
+      "title": "The Met — Trung Quốc 1000 TCN–1",
+      "scope": "Bảng phân kỳ 475–221; nghệ thuật khảm kim loại và tranh lụa ở Sở. Chỉ dùng bảng cho221, không dùng đoạn văn có lỗi206 về mở đầu nhàTần."
+    },
+    {
+      "url": "https://en.chinaculture.org/gb/en_aboutchina/2003-09/24/content_22714.htm",
+      "title": "ChinaCulture — Thời Chiến Quốc",
+      "scope": "Bảy cường quốc và các nước nhỏ còn tồn tại, cạnh tranh cải cách và tư tưởng. Không dùng câu lỗi đồng nhất vua Chu/vua Thương và mốc338."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/toah/ht/04/eac.html"
+},
     { id: 'cn-p-tan', s: -221, e: -206, g: 'a', t: 'Nhà Tần', r: 'Trung Quốc',
       d: 'Triều đại ngắn ngủi nhưng đặt nền móng cho đế chế Trung Hoa: một hoàng đế, một bộ chữ viết, một hệ đo lường, một bộ máy quận huyện. Luật lệ hà khắc khiến nhà Tần sụp đổ chỉ sau 15 năm.' },
     { id: 'cn-p-han', s: -206, e: 220, g: 'a', t: 'Nhà Hán', r: 'Trung Quốc',
@@ -1897,10 +1940,10 @@ TL_DATA.push({
   "t": "Nhà Hạ giữa sử sách và khảo cổ",
   "c": "pol",
   "imp": 2,
-  "d": "Sử sách Trung Hoa kể về nhà Hạ. Tuy nhiên, việc nhận diện triều đại này trong bằng chứng khảo cổ chưa được xác nhận chắc chắn. Trung tâm Nhị Lý Đầu ở Hà Nam, có các kiến trúc lớn và đồ đồng, được đề xuất là một trung tâm của nhà Hạ; đó vẫn là một cách diễn giải.",
-  "fun": "Bảng niên đại của The Met ghi nhà Hạ khoảng 2100–1600 TCN kèm chú thích “chưa được xác nhận”. Chú thích này quan trọng ngang với các con số.",
-  "consequencesTitle": "Di tích có thật chưa tự xác nhận mọi chi tiết trong sách",
-  "consequences": "Có thể khảo sát kiến trúc và hiện vật của Nhị Lý Đầu mà vẫn để ngỏ tên gọi chính trị của cộng đồng tạo ra chúng. Không nên suy từ truyền thống về nhà Hạ ra năm lập triều chính xác.",
+  "d": "Nhà Hạ xuất hiện trong sử sách Trung Hoa, còn ở Nhị Lý Đầu, Hà Nam, khảo cổ tìm thấy kiến trúc lớn và đồ đồng. Có giả thuyết nối di tích với nhà Hạ, nhưng mối nối ấy chưa được xác nhận chắc chắn.",
+  "fun": "Bảng niên đại The Met ghi khoảng 2100–1600 TCN kèm chữ “chưa xác nhận”. Một dòng chú thích ngắn có thể thay đổi cách ta hiểu cả một thanh thời gian.",
+  "consequencesTitle": "Di tích có thật, tên gọi còn để ngỏ",
+  "consequences": "Hiện vật giúp tìm hiểu cộng đồng ở Nhị Lý Đầu ngay cả khi chưa thể gọi chắc chính quyền ấy là nhà Hạ.",
   "refs": [
     {
       "url": "https://www.metmuseum.org/ja/toah/ht/03/eac.html",
@@ -2049,25 +2092,90 @@ TL_DATA.push({
   "ref": "https://plato.stanford.edu/entries/confucius/"
 },
 
-    { id: 'cn-ton-tu-binh-phap-512tcn', y: -512, ca: true, date: 'Cuối thế kỷ VI TCN', r: 'Trung Quốc',
-      ref: 'https://afe.easia.columbia.edu/ps/cup/sunzi_art_of_war.pdf', t: 'Binh pháp Tôn Tử và vấn đề tác giả', c: 'cul', imp: 2, who: 'Tôn Vũ (Tôn Tử)', place: 'Nước Ngô',
-      d: 'Truyền thống gắn Binh pháp với Tôn Vũ, một người được kể là phục vụ nước Ngô cuối thời Xuân Thu. Tuy nhiên, sự tồn tại của nhân vật và thời điểm biên soạn văn bản còn được giới nghiên cứu tranh luận. Mốc cuối thế kỷ VI TCN trên dòng thời gian là niên đại theo truyền thống, không phải ngày tác phẩm đã được xác định chắc chắn. Sách gồm 13 thiên bàn về chiến lược và việc dùng binh.',
-      why: 'Là một tác phẩm quân sự có ảnh hưởng lâu dài, được đọc và diễn giải trong nhiều bối cảnh khác nhau.',
-      fun: 'Câu nổi tiếng thường bị nhớ thành “biết người biết ta, trăm trận trăm thắng”, nhưng nguyên văn là “trăm trận không nguy”. Tôn Tử thực tế hơn chúng ta tưởng.',
-      alt: 'Một cuốn sách về chiến tranh mà ý tưởng hay nhất lại là tránh đánh nhau: không đánh mà khiến đối phương khuất phục mới là giỏi nhất.' },
+    {
+  "id": "cn-ton-tu-binh-phap-512tcn",
+  "y": -350,
+  "ca": true,
+  "date": "Nửa sau thế kỷ IV TCN theo tài liệu Columbia; mốc đặt bài 350 TCN",
+  "r": "Trung Quốc",
+  "ref": "https://afe.easia.columbia.edu/main_pop/ps/ps_china-sunzi-art-of-war.htm",
+  "t": "Binh pháp Tôn Tử: thắng bắt đầu trước trận đánh",
+  "c": "cul",
+  "imp": 2,
+  "who": "Tôn Tử, theo truyền thống",
+  "d": "Binh pháp đặt việc chuẩn bị, địa hình và hiểu đối phương vào trung tâm tính toán. Theo tài liệu Columbia, sách được biên soạn vào nửa sau thế kỷ IV TCN; niên đại và tác giả vẫn còn tranh luận.",
+  "fun": "Sách coi khuất phục đối phương mà không giao chiến là tài giỏi. Một cuốn binh pháp lại nhắc người đọc đừng vội đánh.",
+  "consequencesTitle": "Chuẩn bị trước khi trông chờ vào chiến thắng",
+  "consequences": "Tư tưởng ấy được đọc lại trong nhiều thời đại, cả ngoài quân sự.",
+  "related": [
+    {
+      "id": "cn-np-ton-tu",
+      "kind": "connection",
+      "text": "Tên tuổi đứng sau cuốn sách vẫn còn là một câu hỏi lịch sử.",
+      "ref": "https://afe.easia.columbia.edu/main_pop/ps/ps_china-sunzi-art-of-war.htm"
+    }
+  ],
+  "refs": [
+    {
+      "url": "https://afe.easia.columbia.edu/main_pop/ps/ps_china-sunzi-art-of-war.htm",
+      "title": "Columbia University — Tuyển đoạn Binh pháp Tôn Tử",
+      "scope": "Tác giả theo truyền thống, giới hạn xác minh tiểu sử; cách định niên đại biên soạn nửa sau thế kỷ IV TCN; tư tưởng chuẩn bị, hiểu mình và đối phương."
+    }
+  ]
+},
 
-    { id: 'cn-lao-tu-dao-duc-kinh-500tcn', y: -500, ca: true, date: 'Khoảng thế kỷ VI–IV TCN', r: 'Trung Quốc',
-      t: 'Lão Tử và Đạo Đức Kinh', c: 'cul', imp: 2, who: 'Lão Tử',
-      d: 'Theo truyền thống, Lão Tử là một viên quan giữ thư viện nhà Chu, tác giả Đạo Đức Kinh: cuốn sách khoảng 5.000 chữ bàn về “Đạo”, quy luật tự nhiên của vũ trụ. Ông khuyên con người sống thuận tự nhiên, “vô vi” (không cưỡng ép), mềm mỏng và khiêm nhường như nước. Nhiều học giả cho rằng sách có thể do nhiều người soạn qua thời gian.',
-      why: 'Tư tưởng của Lão Tử là gốc của Đạo giáo, ảnh hưởng sâu đến y học cổ truyền, võ thuật, hội họa và tín ngưỡng dân gian Á Đông.',
-      fun: 'Tương truyền khi về già, Lão Tử cưỡi trâu xanh đi về phía tây; người giữ cửa ải nài nỉ ông viết sách để lại. Một cuốn sách kinh điển ra đời như một “thủ tục qua cửa khẩu”.',
-      alt: 'Khổng Tử dạy cách sống tốt giữa xã hội, Lão Tử dạy cách sống thuận với tự nhiên. Hai triết lý “song hành” ấy cùng nhào nặn tính cách người Á Đông.' },
+    {
+  "id": "cn-lao-tu-dao-duc-kinh-500tcn",
+  "y": -350,
+  "ca": true,
+  "date": "Quá trình hình thành nhiều thế kỷ; mốc tham chiếu 350 TCN",
+  "r": "Trung Quốc",
+  "t": "Đạo Đức Kinh: đôi khi bớt ép lại làm được nhiều hơn",
+  "c": "cul",
+  "imp": 2,
+  "who": "Lão Tử",
+  "d": "Trong một thời các nước tranh quyền, những lời dạy gắn với Lão Tử gợi một cách nghĩ khác: cai trị và sống có nhất thiết phải luôn áp đặt? “Vô vi” thường được hiểu là hành động không cưỡng ép, thay vì ngồi yên mặc mọi chuyện. Đạo Đức Kinh có lịch sử hình thành phức tạp; nhiều nghiên cứu đặt quá trình tập hợp trong thế kỷ IV TCN, trước khi văn bản tương đối ổn định vào thế kỷ III TCN.",
+  "fun": "Năm 1993, mộ ở Quách Điếm, có niên đại khoảng 300 TCN, cho ra những thẻ tre chứa phần lời văn gần với Đạo Đức Kinh. Thứ tự và câu chữ khác bản quen thuộc: sách cổ cũng có lịch sử phiên bản.",
+  "consequencesTitle": "Một cuốn sách lớn lên qua nhiều lần truyền lại",
+  "consequences": "Danh tính tác giả và niên đại còn được bàn luận. Những bản chép khác nhau giúp nhìn cuốn sách như kết quả của việc lưu truyền, chọn lọc và sắp xếp tư tưởng.",
+  "refs": [
+    {
+      "url": "https://plato.stanford.edu/entries/laozi/",
+      "title": "Alan Chan, Stanford Encyclopedia of Philosophy — Laozi",
+      "scope": "Tranh luận tác giả và quá trình tập hợp thế kỷ V–III TCN; tư tưởng không cưỡng ép; bản thẻ tre Quách Điếm, khai quật 1993 và mộ khoảng 300 TCN."
+    }
+  ],
+  "ref": "https://plato.stanford.edu/entries/laozi/"
+},
 
-    { id: 'cn-chien-quoc-475tcn', y: -475, y2: -221, r: 'Trung Quốc',
-      t: 'Thời Chiến Quốc: bảy nước tranh hùng', c: 'war', imp: 2,
-      d: 'Sau thời Xuân Thu, hơn trăm nước chư hầu bị thôn tính dần, chỉ còn bảy nước lớn: Tần, Sở, Tề, Yên, Hàn, Triệu, Ngụy. Chiến tranh diễn ra liên miên với quy mô hàng chục vạn quân. Các nước đua nhau cải cách, dùng nông cụ và vũ khí bằng sắt, chiêu mộ người tài từ khắp nơi.',
-      why: 'Cuộc cạnh tranh khốc liệt buộc các nước phải cải cách mạnh mẽ, tạo tiền đề cho việc thống nhất Trung Quốc dưới tay nhà Tần.',
-      alt: '“Trăm nhà trăm học thuyết” (Nho, Đạo, Mặc, Pháp…) nở rộ đúng lúc loạn nhất: vua các nước cần ý tưởng mới để tồn tại, nên giới trí thức được săn đón như các “chuyên gia tư vấn” ngày nay.' },
+    {
+  "id": "cn-chien-quoc-475tcn",
+  "y": -475,
+  "y2": -221,
+  "r": "Trung Quốc",
+  "t": "Chiến Quốc: các nước tìm cách mạnh lên",
+  "c": "war",
+  "imp": 2,
+  "d": "Thời Chiến Quốc thường được đặt trong khoảng 475–221 TCN. Bảy nước lớn Tần, Sở, Tề, Yên, Hàn, Triệu, Ngụy cạnh tranh, bên cạnh các nước nhỏ. Muốn đứng vững, các vua tìm người hiến kế, sửa cách cai trị và tăng nguồn lực. Chiến tranh và các cuộc tranh luận tư tưởng cùng làm biến đổi thời đại.",
+  "ca": true,
+  "date": "475–221 TCN theo một cách phân kỳ thường dùng",
+  "consequencesTitle": "Cạnh tranh kết thúc bằng một cuộc thống nhất",
+  "consequences": "Năm 221 TCN, Tần chinh phục các đối thủ lớn còn lại. Một thời nhiều trung tâm quyền lực khép lại, mở sang mô hình đế quốc thống nhất.",
+  "fun": "Giữa thời chiến vẫn có những đồ đồng khảm vàng, bạc rất tinh xảo và tranh vẽ trên lụa từ các di tích nước Sở. Nhìn thời đại chỉ qua bản đồ chiến trận sẽ bỏ lỡ cả bàn tay người thợ.",
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/toah/ht/04/eac.html",
+      "title": "The Met — Trung Quốc 1000 TCN–1",
+      "scope": "Bảng phân kỳ 475–221; nghệ thuật khảm kim loại và tranh lụa ở Sở. Chỉ dùng bảng cho221, không dùng đoạn văn có lỗi206 về mở đầu nhàTần."
+    },
+    {
+      "url": "https://en.chinaculture.org/gb/en_aboutchina/2003-09/24/content_22714.htm",
+      "title": "ChinaCulture — Thời Chiến Quốc",
+      "scope": "Bảy cường quốc và các nước nhỏ còn tồn tại, cạnh tranh cải cách và tư tưởng. Không dùng câu lỗi đồng nhất vua Chu/vua Thương và mốc338."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/toah/ht/04/eac.html"
+},
 
     { id: 'cn-thuong-uong-cai-cach-356tcn', y: -356, r: 'Trung Quốc',
       t: 'Thương Ưởng cải cách nước Tần', c: 'pol', imp: 1, who: 'Thương Ưởng', place: 'Nước Tần',
@@ -2693,20 +2801,20 @@ TL_DATA.push({
   "c": "pol",
   "imp": 2,
   "who": "Đàn Quân (Dangun)",
-  "d": "Truyền thuyết Triều Tiên kể Hoàn Hùng xuống trần, kết duyên với một con gấu hóa thành người và sinh Đàn Quân. Ông được gắn với sự thành lập Cổ Triều Tiên vào năm 2333 TCN. Câu chuyện được ghi trong Tam quốc di sự ở thế kỷ XIII, cách rất xa thời điểm được kể.",
-  "consequencesTitle": "Truyền thống lập quốc và niên đại khảo cổ cần được phân biệt",
-  "consequences": "Mốc 2333 TCN thuộc câu chuyện nguồn cội được lưu truyền. Việc một văn bản chép lại mốc ấy không tự xác nhận được năm thành lập một nhà nước bằng bằng chứng đương thời.",
-  "fun": "Cùng một câu chuyện có thể được nghiên cứu ở hai góc: nó nói gì về nguồn cội trong truyền thống, và văn bản ghi lại nó ra đời vào thời nào.",
+  "d": "Truyền thuyết Triều Tiên kể Hoàn Hùng xuống trần, rồi kết duyên với một con gấu đã hóa thành người. Người con của họ là Đàn Quân, gắn với chuyện lập Cổ Triều Tiên năm 2333 TCN. Tam quốc di sự ghi lại truyền thuyết vào thế kỷ XIII, rất lâu sau thời điểm câu chuyện đặt ra.",
+  "consequencesTitle": "Kể nguồn cội bằng một gia đình khác thường",
+  "consequences": "Dòng dõi trời–đất trở thành một cách kể về khởi đầu cộng đồng. Năm 2333 TCN là mốc trong truyền thuyết, còn quá trình hình thành nhà nước cần những loại tư liệu khác để tìm hiểu.",
+  "fun": "Trong truyện còn có cả hổ muốn thành người. Hổ bỏ cuộc giữa thử thách, còn gấu kiên trì rồi hóa thành phụ nữ. Nhân vật trông đáng gờm hơn chưa chắc là người đi đến cuối câu chuyện.",
   "refs": [
     {
       "url": "https://www.korea.net/NewsFocus/Culture/view?articleId=121092",
-      "title": "Korea.net — Truyền thuyết Đàn Quân",
-      "scope": "Nội dung truyện và mốc lập quốc truyền thống 2333 TCN."
+      "title": "Korea.net — Đàn Quân và truyền thuyết nguồn cội",
+      "scope": "Hoàn Hùng, gấu và hổ, việc hóa người, Đàn Quân và mốc truyền thuyết 2333 TCN."
     },
     {
-      "url": "https://german.korea.net/Events/Overseas/view?articleId=20466",
-      "title": "Korea.net — Ghi chép truyền thuyết Đàn Quân",
-      "scope": "Tam quốc di sự thế kỷ XIII và truyền thống lập quốc."
+      "url": "https://dhlab.aks.ac.kr/Korea100/wiki/index.php/Opening_the_Door_to_History_-_Gojoseon",
+      "title": "Viện Hàn lâm Hàn Quốc học — Gojoseon",
+      "scope": "Tam quốc di sự thế kỷ XIII và phân biệt truyền thuyết với việc dựng lịch sử nhà nước."
     }
   ],
   "ref": "https://www.korea.net/NewsFocus/Culture/view?articleId=121092"
@@ -3258,10 +3366,10 @@ TL_DATA.push({
   "c": "cul",
   "imp": 1,
   "place": "Ban Chiang, đông bắc Thái Lan",
-  "d": "Ban Chiang ở đông bắc Thái Lan có dấu vết cư trú, mộ táng, đồ gốm và kỹ thuật kim loại. Niên đại vẫn có các cách xác lập khác nhau: bảng làm việc của ISEAA đặt giai đoạn sớm từ khoảng 2100 TCN, còn nghiên cứu của Higham đặt cư trú thời đá mới khoảng 1500 TCN. Timeline dùng mốc tham chiếu theo bảng ISEAA.",
-  "consequencesTitle": "Cách định tuổi ảnh hưởng đến cách kể lịch sử",
-  "consequences": "Nếu thời điểm xuất hiện đồ đồng thay đổi, cách giải thích sự lan truyền kỹ thuật cũng thay đổi. Vì vậy không nên khẳng định một mốc duy nhất là kết luận chung của mọi nhóm nghiên cứu.",
-  "fun": "Những bình vẽ đỏ nổi tiếng thuộc giai đoạn muộn trong hệ phân kỳ của dự án Ban Chiang. Chúng không đại diện cho mọi loại gốm ở di chỉ suốt toàn bộ lịch sử.",
+  "d": "Ở Ban Chiang, đông bắc Thái Lan, những ngôi mộ, đồ gốm và hiện vật kim loại giữ lại dấu đời sống một làng cổ. Ngay cả lúc bắt đầu cư trú cũng có hai cách đặt mốc: bảng làm việc ISEAA dùng khoảng 2100 TCN, còn nghiên cứu Higham và Kijngam năm 2022 đặt vào khoảng 1500 TCN. Bài giữ rõ hai cách tính, dùng mốc đầu theo ISEAA.",
+  "consequencesTitle": "Một chiếc nồi có thể đặt lại câu hỏi về cả giai đoạn",
+  "consequences": "Định tuổi mộ và đồ vật ảnh hưởng đến cách giải thích lúc kỹ thuật kim loại xuất hiện, lan truyền. Bởi vậy, các con số ở đây vẫn đi cùng tên hệ niên đại.",
+  "fun": "Những bình vẽ đỏ nổi tiếng thuộc giai đoạn muộn trong phân kỳ của dự án Ban Chiang. Các kiểu gốm còn có thể khác nhau giữa những nơi chỉ cách khoảng 25 km — hàng xóm gần vẫn có gu riêng.",
   "refs": [
     {
       "url": "https://db.iseaarchaeology.org/metals-database/",
@@ -3887,7 +3995,7 @@ TL_DATA.push({
   "t": "Đế quốc Akkad",
   "g": "a",
   "r": "Lưỡng Hà",
-  "d": "Khoảng niên đại quy ước. Sargon và những người kế vị mở rộng quyền cai trị qua nhiều vùng Lưỡng Hà. Vị trí thành Akkad chưa được xác định chắc chắn.",
+  "d": "Sargon và những người kế vị mở rộng quyền cai trị qua nhiều vùng Lưỡng Hà. Khoảng 2334–2154 TCN là một khung niên đại quy ước thường dùng cho thời Akkad. Thành phố cùng tên vẫn chưa có vị trí được xác định chắc chắn.",
   "ca": true,
   "ref": "https://www.metmuseum.org/fr/toah/ht/02/wam",
   "refs": [
@@ -3905,6 +4013,11 @@ TL_DATA.push({
       "url": "https://www.metmuseum.org/it/toah/hd/meru/hd_meru.htm",
       "title": "The Met — Danh sách vua Lưỡng Hà",
       "scope": "Ví dụ hệ niên đại khác cho thời Sargon."
+    },
+    {
+      "url": "https://www.ngv.vic.gov.au/explore/collection/work/58316/",
+      "title": "NGV — Bình gốm từ Ur, thời Akkad",
+      "scope": "Hồ sơ hiện vật dùng khung Akkad 2334–2154 TCN; chỉ dùng để đối chiếu khoảng phân kỳ."
     }
   ]
 },
@@ -4363,10 +4476,10 @@ TL_DATA.push({
   "t": "Sargon mở rộng quyền lực của Akkad",
   "c": "pol",
   "imp": 2,
-  "d": "Trong thế kỷ XXIV TCN, Sargon chinh phục các vùng ở Lưỡng Hà và mở rộng quyền lực tới miền bắc Syria. Mốc 2334 TCN là một niên đại quy ước trong các bảng niên biểu; những hệ thống niên đại khác có thể dùng con số hơi khác.",
-  "fun": "Thành Akkad cho đến nay vẫn chưa được xác định vị trí chắc chắn, dù tên của nó gắn với cả một giai đoạn lịch sử Lưỡng Hà.",
-  "consequencesTitle": "Chinh phục thay đổi quy mô quyền lực",
-  "consequences": "Nhiều vùng trước đó có các trung tâm chính trị riêng được đưa vào một phạm vi cai trị rộng hơn. Khi đọc về Akkad, cần phân biệt quá trình mở rộng với những giai thoại kể về xuất thân nhà vua.",
+  "d": "Trong thế kỷ XXIV TCN, Sargon đưa quyền lực Akkad vượt ra khỏi một thành phố. Các cuộc chinh phục mở rộng phạm vi cai trị ở Lưỡng Hà và tới miền bắc Syria. Những trung tâm vốn có đường đi riêng nay phải đối diện một quyền lực lớn hơn. Bài dùng mốc quy ước 2334 TCN; các hệ niên đại có thể chênh nhau.",
+  "fun": "Thành Akkad vẫn chưa được xác định vị trí chắc chắn. Một đế quốc để lại tên cho cả giai đoạn lịch sử, nhưng địa chỉ của thành phố mang tên nó lại còn bỏ ngỏ.",
+  "consequencesTitle": "Quyền cai trị vượt khỏi một thành bang",
+  "consequences": "Quy mô mới làm thay đổi quan hệ giữa các trung tâm chính trị. Câu chuyện Akkad vì thế giúp nhìn bước chuyển từ quyền lực tại từng thành phố sang việc cai quản nhiều vùng.",
   "refs": [
     {
       "url": "https://www.metmuseum.org/fr/toah/ht/02/wam",
@@ -4398,10 +4511,10 @@ TL_DATA.push({
   "t": "Ur-Nammu và thời Vương triều III của Ur",
   "c": "pol",
   "imp": 1,
-  "d": "Ur-Nammu trị vì khoảng 2112–2095 TCN và mở đầu Vương triều III của Ur. Thời kỳ này gắn với việc xây dựng công trình và củng cố bộ máy cai trị. Một trong những tập hợp điều luật sớm còn được biết đến mang tên Ur-Nammu.",
-  "fun": "Một tượng đồng thời Shulgi, người kế vị Ur-Nammu, thể hiện nhà vua đội giỏ vật liệu xây dựng. Hình ảnh nhà vua làm việc còn có ý nghĩa biểu tượng trong việc dựng đền.",
-  "consequencesTitle": "Xây dựng và luật lệ cùng gắn với quyền lực nhà nước",
-  "consequences": "Công trình tôn giáo, hoạt động chính trị và văn bản cho thấy nhiều cách tổ chức quyền lực. Không nên từ một bộ luật suy ra mọi tranh chấp thực tế đều được giải quyết đúng theo các điều còn lưu lại.",
+  "d": "Khoảng 2112 TCN, Ur-Nammu mở đầu Vương triều III của Ur. Ông và các vua kế tiếp củng cố việc cai trị bằng xây dựng, hoạt động chính trị và bộ máy quản lý. Một tập hợp luật sớm còn được biết đến mang tên Ur-Nammu, thêm một cửa sổ để nhìn cách quyền lực được trình bày.",
+  "fun": "Một tượng đồng Shulgi, vua kế vị Ur-Nammu, thể hiện ông đội giỏ vật liệu để xây đền. Vua cũng xuất hiện trong hình ảnh người làm việc — nhưng đây là vai trò nghi lễ, không phải bằng chứng ông làm thợ xây cả ngày.",
+  "consequencesTitle": "Xây đền và lập trật tự cùng kể chuyện quyền vua",
+  "consequences": "Công trình cùng văn bản cho thấy những cách nhà vua tổ chức và giải thích việc cai trị. Chúng không cho biết mọi vụ tranh chấp thực tế đã được xử đúng hệt lời ghi.",
   "refs": [
     {
       "url": "https://www.metmuseum.org/it/toah/hd/meru/hd_meru.htm",
@@ -4431,10 +4544,10 @@ TL_DATA.push({
   "t": "Gilgamesh: câu chuyện được viết lại qua nhiều thời đại",
   "c": "cul",
   "imp": 2,
-  "d": "Những truyện Sumer về Gilgamesh gắn với truyền thống cung đình Ur III vào cuối thiên niên kỷ III TCN và được chép trong trường học thời Cổ Babylon. Chúng chưa phải một bộ sử thi thống nhất. Những bản tiếng Akkad về sau tiếp tục kết hợp và viết lại chất liệu cũ.",
-  "fun": "Trong một truyện Sumer, Enkidu là người hầu của Gilgamesh; ở bản sử thi về sau, ông trở thành người bạn đồng hành. Nhân vật không giữ nguyên vai trò qua mọi phiên bản.",
-  "consequencesTitle": "Mỗi lần kể lại có thể thay đổi trọng tâm câu chuyện",
-  "consequences": "Các phiên bản phát triển những câu hỏi về tình bạn, trách nhiệm của người cai trị và giới hạn đời người. Mốc 2100 TCN là tham chiếu cho truyền thống sớm, không phải năm hoàn thành bản sử thi quen thuộc ngày nay.",
+  "d": "Trước khi trở thành bộ sử thi quen thuộc, Gilgamesh sống trong nhiều câu chuyện Sumer được hát ở cung đình Ur III rồi chép trong trường học. Những người kể và người viết về sau dùng tiếng Akkad, ghép lại và đổi trọng tâm. Câu chuyện dần dành nhiều chỗ hơn cho tình bạn, trách nhiệm của người cai trị và việc con người phải đối diện cái chết.",
+  "fun": "Enkidu từng là người hầu trong một truyện Sumer, rồi trở thành bạn đồng hành ở phiên bản sử thi sau. Đọc hai bản có thể gặp cùng một tên nhưng một vai khác — nhân vật văn học cũng có lịch sử riêng.",
+  "consequencesTitle": "Kể lại cũng là đặt câu hỏi mới",
+  "consequences": "Mỗi phiên bản mang mối quan tâm của người làm ra nó. Mốc cuối thiên niên kỷ III TCN chỉ gắn với truyền thống sớm, chưa phải lúc bộ sử thi về sau hoàn tất.",
   "refs": [
     {
       "url": "https://www.metmuseum.org/ko/essays/gilgamesh",
@@ -5215,8 +5328,29 @@ TL_DATA.push({
     }
   ]
 },
-    { id: 'eu-p-cong-hoa-la-ma', s: -509, e: -27, t: 'Cộng hòa La Mã', g: 'b', r: 'La Mã (Ý)',
-      d: 'Rome không có vua, do hai quan chấp chính bầu hằng năm và Viện Nguyên lão điều hành. Từ một thành nhỏ, La Mã chinh phục toàn bộ vùng Địa Trung Hải.' },
+    {
+  "id": "eu-p-cong-hoa-la-ma",
+  "s": -509,
+  "e": -27,
+  "t": "Cộng hòa La Mã",
+  "g": "b",
+  "r": "La Mã (Ý)",
+  "d": "Khoảng 509–27 TCN là khung thường dùng cho Cộng hòa La Mã. Quyền lực được chia giữa quan chức, các hội đồng công dân và Viện Nguyên lão, đồng thời liên tục bị tranh chấp. Rome mở rộng lãnh thổ bằng chinh phục và ngoại giao; về cuối thời kỳ, bất bình đẳng, khủng hoảng chính trị và nội chiến góp phần làm nền cộng hòa tan rã.",
+  "ca": true,
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/essays/the-roman-republic",
+      "title": "The Met — Cộng hòa La Mã",
+      "scope": "Khung 509–27 TCN, đặc quyền quý tộc, xung đột đất đai và nợ, mở rộng lãnh thổ, bất bình đẳng và nội chiến."
+    },
+    {
+      "url": "https://sites.ualberta.ca/~csmackay/Consuls.List.html",
+      "title": "Christopher S. Mackay, University of Alberta — Danh sách quan chấp chính",
+      "scope": "Thông thường hai chấp chính được bầu mỗi năm, có ngoại lệ; hạn chế độ chính xác bảng niên đại đầu Cộng hòa."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/essays/the-roman-republic"
+},
     { id: 'eu-p-de-che-la-ma', s: -27, e: 395, t: 'Đế chế La Mã', g: 'b', r: 'La Mã (Ý)',
       d: 'Đế chế trải từ Anh tới Ai Cập, từ Tây Ban Nha tới Lưỡng Hà, nối với nhau bằng đường lát đá, luật pháp và tiếng Latinh. Hai thế kỷ đầu được gọi là thời “Hòa bình La Mã”.' },
     { id: 'eu-p-byzantine', s: 395, e: 1453, t: 'Đông La Mã (Byzantine)', g: 'b', r: 'Byzantium (Istanbul)',
@@ -5269,10 +5403,10 @@ TL_DATA.push({
   "c": "cul",
   "imp": 2,
   "place": "Đồng bằng Salisbury, miền nam nước Anh",
-  "d": "Khoảng 3000 TCN, tại Stonehenge đã có vòng hào và bờ đất; nơi này được dùng chôn hỏa táng trong nhiều thế kỷ. Khoảng 2500 TCN, các khối đá sarsen lớn được dựng lên. Công trình tiếp tục thay đổi về sau, nên không thể gói lịch sử của nó vào một lần xây.",
-  "fun": "Nghiên cứu năm 2024 truy nguồn Đá Bàn Thờ về vùng bồn địa Orcadian ở Scotland, cách ít nhất 750 km. Thành phần khoáng vật giúp xác định nguồn đá; đường vận chuyển cụ thể vẫn là giả thuyết.",
-  "consequencesTitle": "Từ khu chôn cất đến công trình đá qua nhiều thế hệ",
-  "consequences": "Bằng chứng mộ táng cho thấy đây từng là nơi chôn người, dù toàn bộ ý nghĩa nghi lễ và những thay đổi công năng vẫn cần nghiên cứu.",
+  "d": "Stonehenge không xuất hiện chỉ sau một lần dựng đá. Khoảng 3000 TCN, nơi đây đã có vòng hào và bờ đất, rồi được dùng chôn hỏa táng trong nhiều thế kỷ. Đến khoảng 2500 TCN, các khối đá lớn sarsen được dựng lên. Những người đến sau còn tiếp tục thay đổi công trình, nối công việc của mình vào dấu tích người đi trước.",
+  "fun": "Nghiên cứu năm 2024 tìm thấy dấu hiệu khoáng vật nối Đá Bàn Thờ với bồn địa Orcadian ở Scotland, cách ít nhất 750 km. Biết quê của hòn đá vẫn chưa cho biết chính xác người xưa đưa nó tới bằng đường nào — phần “giao hàng” còn là câu hỏi.",
+  "consequencesTitle": "Một địa điểm mang ký ức của nhiều thế hệ",
+  "consequences": "Dấu mộ táng và các lần xây sửa cho thấy Stonehenge có một lịch sử dài. Cách dùng và ý nghĩa nghi lễ của toàn bộ công trình vẫn còn được nghiên cứu.",
   "refs": [
     {
       "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/history-and-stories/timeline",
@@ -5291,28 +5425,28 @@ TL_DATA.push({
   "id": "eu-knossos-1900tcn",
   "y": -1900,
   "ca": true,
-  "date": "Giai đoạn cung điện đầu tiên, khoảng 1900–1700 TCN",
+  "date": "Cung điện phát triển từ khoảng 1900 TCN",
   "r": "Hy Lạp (đảo Crete)",
   "t": "Knossos và hoạt động quản lý trong cung điện",
   "c": "cul",
   "imp": 2,
-  "d": "Tại Knossos trên đảo Crete, giai đoạn cung điện đầu tiên thường được đặt khoảng 1900–1700 TCN. Những vật bằng đất sét dùng ghi chép và đóng dấu còn lại cho thấy hoạt động kiểm soát hàng hóa. Đây là một giai đoạn trong lịch sử nhiều lớp của khu cung điện.",
-  "fun": "Một mảnh đất sét hình lưỡi liềm ở Knossos có lỗ để luồn dây và nhiều dấu đóng. Vật nhỏ như vậy có thể lưu lại dấu vết quản lý hàng hóa mà kiến trúc lớn không kể được.",
-  "consequencesTitle": "Hàng hóa đi cùng dấu niêm và bản ghi",
-  "consequences": "Các dấu và văn bản cho phép nghiên cứu cách tổ chức công việc, thay vì chỉ nhìn cung điện như một công trình kiến trúc. Bảo tàng Heraklion ghi nhận chữ tượng hình Crete và Linear A cùng được sử dụng trong giai đoạn cung điện sớm.",
+  "d": "Ở Knossos trên đảo Crete, cung điện là nơi tập trung cả quyền lực, hoạt động kinh tế và nghệ thuật. Quanh những công trình lớn còn có công việc nhỏ mà thiết yếu: ghi và kiểm soát hàng hóa. Các bảng đất sét cho thấy cách người làm việc ở đây theo dõi những thứ đi vào, đi ra kho.",
+  "fun": "Chữ Linear A trên Crete vẫn chưa được giải mã đầy đủ. Người nghiên cứu có thể nhận ra con số và dấu ghi hàng hóa nhưng còn nhiều điều chưa đọc được. Một bản sổ có thể tồn tại lâu hơn khả năng chúng ta hiểu nó.",
+  "consequencesTitle": "Đằng sau cung điện còn có người giữ sổ",
+  "consequences": "Những bản ghi đưa ta tới gần cách tổ chức công việc. Hình dung một cung điện vì thế có cả kho hàng và người viết, bên cạnh kiến trúc để ngắm.",
   "refs": [
     {
-      "url": "https://ca.heraklionmuseum.gr/ca/pawtucket/index.php/Detail/objects/381",
-      "title": "Bảo tàng Heraklion — Dấu niêm đất sét Knossos",
-      "scope": "Giai đoạn cung điện đầu 1900–1700 TCN, vật có lỗ dây và dấu đóng, liên hệ quản lý hàng hóa."
+      "url": "https://www.metmuseum.org/essays/minoan-crete",
+      "title": "The Met — Minoan Crete",
+      "scope": "Cung điện khoảng 1900 TCN, tập trung kinh tế và quyền lực, văn bản hành chính trên đất sét."
     },
     {
-      "url": "https://ca.heraklionmuseum.gr/ca/pawtucket/index.php/Detail/objects/332",
-      "title": "Bảo tàng Heraklion — Chữ tượng hình Crete",
-      "scope": "Chữ tượng hình Crete và Linear A cùng được sử dụng."
+      "url": "https://mnamon.sns.it/index.php?id=19&lang=en&page=Scrittura",
+      "title": "Maurizio Del Freo, Scuola Normale Superiore — Linear A",
+      "scope": "Văn bản tại Knossos, ghi giao dịch kinh tế, con số và tình trạng chưa giải mã."
     }
   ],
-  "ref": "https://ca.heraklionmuseum.gr/ca/pawtucket/index.php/Detail/objects/381"
+  "ref": "https://www.metmuseum.org/essays/minoan-crete"
 },
     {
   "id": "eu-troy-1200tcn",
@@ -5373,23 +5507,29 @@ TL_DATA.push({
   "id": "eu-olympic-776tcn",
   "y": -776,
   "r": "Hy Lạp",
-  "t": "Mốc 776 TCN trong truyền thống Olympic cổ đại",
+  "t": "Olympia: từ một cuộc đua đến truyền thống thi đấu",
   "c": "cul",
   "imp": 3,
   "place": "Olympia",
-  "d": "Các cuộc thi ở Olympia được tổ chức theo chu kỳ bốn năm. Nguồn thành văn thường nhắc mốc 776 TCN, nhưng thời điểm bắt đầu thực tế chưa được xác định chắc chắn.",
-  "fun": "Một năm thường được trích dẫn trong sử liệu không nhất thiết là năm một truyền thống thực sự ra đời.",
-  "consequencesTitle": "Một chu kỳ thi đấu trở thành cách tính thời gian",
-  "consequences": "Khoảng bốn năm giữa hai kỳ được gọi là một Olympiad và từng được dùng để ghi niên đại.",
+  "d": "Hãy hình dung Olympia trước khi có chương trình hàng chục môn thi. Theo truyền thống, kỳ năm 776 TCN chỉ có một cuộc chạy gọi là stadion; người thắng được ghi là Coroebus xứ Elis. Các cuộc thi về sau mới có thêm môn. Mốc 776 TCN thường mở đầu câu chuyện Olympic, nhưng lúc các cuộc thi thực sự bắt đầu vẫn chưa biết chắc.",
+  "fun": "Lịch thi theo truyền thống năm 776 TCN gọn đến mức chỉ cần ghi một môn chạy. Phiên bản đầu của một sự kiện lớn đôi khi đơn giản hơn ta tưởng.",
+  "consequencesTitle": "Một cuộc hẹn lặp lại sau bốn năm",
+  "consequences": "Chu kỳ bốn năm giúp những cuộc thi ở Olympia trở thành một truyền thống lâu dài. Các kỳ thi cũng cho người Hy Lạp một cách nhìn thời gian qua những lần gặp lại.",
   "ref": "https://www.olympics.com/ioc/faq/history-and-origin-of-the-games/what-is-the-origin-of-the-olympic-games",
   "refs": [
     {
       "url": "https://www.olympics.com/ioc/faq/history-and-origin-of-the-games/what-is-the-origin-of-the-olympic-games",
       "title": "IOC — Nguồn gốc Olympic",
-      "scope": "Niên đại và những nhận định trong bài được biên tập lại theo tài liệu này."
+      "scope": "Chu kỳ bốn năm, mốc thường dẫn 776 TCN và giới hạn hiểu biết về lúc bắt đầu."
+    },
+    {
+      "url": "https://www.fhw.gr/Olympics/ancient/en/202a.html",
+      "title": "Foundation of the Hellenic World — Olympia thế kỷ X–VIII TCN",
+      "scope": "Truyền thống cuộc đua stadion năm 776 TCN và người thắng Coroebus; chương trình thi mở rộng về sau."
     }
   ],
-  "date": "776 TCN, mốc thường được dẫn trong sử liệu"
+  "date": "776 TCN là mốc truyền thống thường được dẫn",
+  "ca": true
 },
     {
   "id": "eu-rome-753tcn",
@@ -5460,83 +5600,202 @@ TL_DATA.push({
   ],
   "ref": "https://plato.stanford.edu/entries/pythagoras/"
 },
-    { id: 'eu-cong-hoa-la-ma-509tcn', y: -509, r: 'La Mã (Ý)', t: 'La Mã đuổi vua, lập nền cộng hòa', c: 'pol', imp: 3,
-      d: 'Người Rome lật đổ vị vua chuyên quyền Tarquinius Kiêu ngạo và quyết không để ai làm vua nữa. Thay vào đó, họ bầu hai quan chấp chính mỗi năm, cùng Viện Nguyên lão quản lý đất nước, để không một người nào nắm hết quyền lực.',
-      why: 'Mô hình chia quyền, nhiệm kỳ ngắn và bầu cử của La Mã ảnh hưởng tới nhiều nhà nước cộng hòa hiện đại.',
-      fun: 'Từ “republic” (cộng hòa) bắt nguồn từ tiếng Latinh “res publica”, nghĩa là “việc chung của mọi người”.',
-      alt: 'Người La Mã ghét chữ “vua” tới mức gần 500 năm sau, Julius Caesar bị ám sát một phần vì bị nghi muốn làm vua.' },
-    { id: 'eu-dan-chu-athens-508tcn', y: -508, r: 'Hy Lạp', t: 'Athens khai sinh nền dân chủ', c: 'pol', imp: 3, who: 'Cleisthenes', place: 'Athens',
-      d: 'Nhà cải cách Cleisthenes trao quyền quyết định các việc lớn cho Đại hội công dân, nơi mọi công dân nam được phát biểu và bỏ phiếu. “Dân chủ” trong tiếng Hy Lạp nghĩa là “quyền lực của nhân dân”.',
-      why: 'Athens là nơi đầu tiên thử nghiệm việc để người dân tự quyết định vận mệnh thành bang, ý tưởng còn sống đến ngày nay.',
-      fun: 'Mỗi năm, công dân Athens có thể bỏ phiếu trục xuất một chính khách bị coi là nguy hiểm bằng cách viết tên người đó lên mảnh gốm vỡ. Ai bị nhiều phiếu nhất phải rời thành bang 10 năm.',
-      alt: 'Phụ nữ, nô lệ và người nước ngoài không được bỏ phiếu, nên “nhân dân” ở Athens thực ra chỉ chiếm khoảng 10–20% số người sống trong thành bang.' },
     {
-      "id": "eu-marathon-490tcn",
-      "y": -490,
-      "r": "Hy Lạp",
-      "t": "Trận Marathon",
-      "c": "war",
-      "imp": 2,
-      "place": "Đồng bằng Marathon, gần Athens",
-      "d": "Năm 490 TCN, quân Ba Tư đổ bộ lên đồng bằng Marathon, gần Athens. Tại đây, quân Athens và đồng minh từ Plataea đánh bại lực lượng đổ bộ.",
-      "alt": "Những binh sĩ Athens tử trận được chôn gần nơi họ chiến đấu. Gò đất phủ lên ngôi mộ chung vẫn còn ở Marathon. Người Athens cũng dựng một đài bằng đá cẩm thạch để ghi nhớ chiến thắng. Những mảnh đá gốc hiện được giữ tại bảo tàng khảo cổ địa phương.",
-      "context": "Khi các thành bang Hy Lạp ở Ionia nổi dậy chống quyền cai trị của Ba Tư, Athens đã gửi quân giúp họ. Sau khi dẹp cuộc nổi dậy, vua Darius I đưa quân sang biển Aegea để trừng phạt những thành bang từng tiếp viện.",
-      "consequences": "Athens giữ được thành trong cuộc tiến công năm 490 TCN. Đến năm 480 TCN, vua Xerxes mở một chiến dịch mới. Lần này quân Ba Tư vượt qua Thermopylae và tiến vào Athens, còn hạm đội Hy Lạp đón đánh ở eo biển Salamis.",
-      "consequencesTitle": "Mười năm sau Marathon, quân Ba Tư trở lại",
-      "refs": [
-        {
-          "url": "https://2500years.culture.gov.gr/en/chapters/persiki-polemi",
-          "title": "Bộ Văn hóa Hy Lạp — Các cuộc chiến với Ba Tư",
-          "scope": "Athens giúp cuộc nổi dậy ở Ionia, trận Marathon và cuộc tiến công của Xerxes."
-        },
-        {
-          "url": "https://www.hh.gr/en/destinations/marathon/",
-          "title": "Hellenic Heritage — Di tích Marathon",
-          "scope": "Gò mộ gần chiến trường và những mảnh còn lại của đài kỷ niệm chiến thắng."
-        },
-        {
-          "url": "https://www.metmuseum.org/de/essays/the-achaemenid-persian-empire-550-330-b-c",
-          "title": "The Met — The Achaemenid Persian Empire",
-          "scope": "Bối cảnh Ionia, Marathon năm 490 và cuộc tiến công của Xerxes năm 480 TCN."
-        },
-        {
-          "url": "https://worldathletics.org/news/feature/1896-olympic-marathon-spiridon-louis-125-anniversary-breal-cup",
-          "title": "World Athletics — Cuộc marathon Olympic đầu tiên",
-          "scope": "Đề xuất của Michel Bréal, truyền thuyết người đưa tin, đường chạy và kết quả năm 1896."
-        }
-      ],
-      "related": [
-        {
-          "id": "eu-thermopylae-salamis-480tcn",
-          "kind": "connection",
-          "text": "Mười năm sau Marathon, cuộc tiến công của Xerxes đưa chiến tranh sang những trận đánh mới.",
-          "ref": "https://www.metmuseum.org/de/essays/the-achaemenid-persian-empire-550-330-b-c"
-        },
-        {
-          "id": "eu-marathon-olympic-1896",
-          "kind": "connection",
-          "text": "Truyền thuyết người đưa tin truyền cảm hứng cho đường chạy từ Marathon về Athens hơn hai nghìn năm sau.",
-          "ref": "https://worldathletics.org/news/feature/1896-olympic-marathon-spiridon-louis-125-anniversary-breal-cup"
-        }
-      ],
-      "altTitle": "Gò đất bên chiến trường Marathon",
+  "id": "eu-cong-hoa-la-ma-509tcn",
+  "y": -509,
+  "r": "La Mã (Ý)",
+  "t": "La Mã bước sang thời cộng hòa",
+  "c": "pol",
+  "imp": 3,
+  "d": "Theo niên đại truyền thống, Rome chấm dứt chế độ vua vào năm 509 TCN. Nền cộng hòa về sau có các quan chức được bầu, hội đồng công dân và Viện Nguyên lão; thông thường mỗi năm có hai quan chấp chính. Những thiết chế ấy phát triển qua thời gian, giữa các cuộc tranh giành quyền lực.",
+  "fun": "“Hai chấp chính mỗi năm” là quy tắc thông thường, nhưng danh sách còn ghi người thay thế giữa nhiệm kỳ và những năm dùng hội đồng khác. Lịch sử tổ chức bộ máy cũng có khá nhiều dòng chú thích.",
+  "ca": true,
+  "date": "509 TCN theo niên đại truyền thống",
+  "consequencesTitle": "Hết vua, cuộc tranh luận về quyền lực vẫn tiếp tục",
+  "consequences": "Giới quý tộc giữ nhiều đặc quyền. Nợ và việc phân chia đất công khiến những nhóm công dân khác đấu tranh để có thêm tiếng nói. Chuyển sang cộng hòa vì thế chưa đồng nghĩa mọi người đã có quyền ngang nhau.",
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/essays/the-roman-republic",
+      "title": "The Met — Cộng hòa La Mã",
+      "scope": "Khung 509–27 TCN, đặc quyền quý tộc, xung đột đất đai và nợ, mở rộng lãnh thổ, bất bình đẳng và nội chiến."
+    },
+    {
+      "url": "https://sites.ualberta.ca/~csmackay/Consuls.List.html",
+      "title": "Christopher S. Mackay, University of Alberta — Danh sách quan chấp chính",
+      "scope": "Thông thường hai chấp chính được bầu mỗi năm, có ngoại lệ; hạn chế độ chính xác bảng niên đại đầu Cộng hòa."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/essays/the-roman-republic"
+},
+    {
+  "id": "eu-dan-chu-athens-508tcn",
+  "y": -508,
+  "r": "Hy Lạp",
+  "t": "Athens cải cách: ai được quyền lên tiếng?",
+  "c": "pol",
+  "imp": 3,
+  "who": "Cleisthenes",
+  "place": "Athens",
+  "d": "Năm 508–507 TCN, cải cách gắn với Cleisthenes đánh dấu một bước quan trọng trong quá trình hình thành dân chủ Athens. Công dân nam trưởng thành có thể trực tiếp dự việc chính trị. Nhưng phụ nữ, người bị nô lệ và người ngoại cư không có quyền tham gia chính trị ấy.",
+  "fun": "Bảo tàng Canellopoulos giữ một “lá phiếu” bằng mảnh gốm mang tên Themistocles và cha ông, Neocles. Trong thể thức bỏ phiếu trục xuất, đồ gốm vỡ cũng có thể mang sức nặng chính trị.",
+  "date": "508–507 TCN",
+  "consequencesTitle": "Cửa hội nghị mở cho ai?",
+  "consequences": "Athens cho thấy sức mạnh của việc công dân trực tiếp dự phần cai trị, đồng thời đặt ra câu hỏi về ranh giới của chữ “công dân”. Những người ở ngoài hội nghị vẫn làm nên đời sống kinh tế, tôn giáo và xã hội của thành bang.",
+  "refs": [
+    {
+      "url": "https://dev.ascsa.edu.gr/excavations/athenian-agora/about-the-excavations/agorahistory",
+      "title": "ASCSA — Lịch sử và niên biểu Athens",
+      "scope": "Cải cách Cleisthenes 508/7 TCN trong niên biểu khảo cổ."
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781118878347.ch22",
+      "title": "Ryan K. Balot và Larissa M. Atkison — Women and Slaves in Greek Democracy",
+      "scope": "Giới hạn cộng đồng chính trị và vai trò xã hội của phụ nữ, người nô lệ, người ngoại cư."
+    },
+    {
+      "url": "https://camu.gr/en/item/pilino-ostrako-thrafsma-angeiou-pou-ferei-to-onoma-tou-themistokli/",
+      "title": "Bảo tàng Canellopoulos — Mảnh gốm mang tên Themistocles",
+      "scope": "Hiện vật khoảng 470 TCN, tên Themistocles và cha Neocles, phiếu trục xuất bằng mảnh gốm; không dùng con số ngưỡng phiếu còn tranh luận."
+    }
+  ],
+  "ref": "https://dev.ascsa.edu.gr/excavations/athenian-agora/about-the-excavations/agorahistory"
+},
+    {
+  "id": "eu-marathon-490tcn",
+  "y": -490,
+  "r": "Hy Lạp",
+  "t": "Trận Marathon",
+  "c": "war",
+  "imp": 2,
+  "place": "Đồng bằng Marathon, gần Athens",
+  "d": "Năm 490 TCN, quân Ba Tư đổ bộ lên đồng bằng Marathon, gần Athens. Quân Athens cùng đồng minh Plataea đánh bại lực lượng đổ bộ. Chiến thắng giữ Athens qua được cuộc tiến công này, nhưng chưa khép lại cuộc đối đầu.",
+  "alt": "Gò mộ những binh sĩ Athens tử trận vẫn còn gần chiến trường. Các mảnh gốc của đài chiến thắng bằng đá cẩm thạch được giữ tại bảo tàng địa phương. Bên cạnh câu chuyện chiến thắng là dấu tích những người không trở về.",
+  "context": "Trước đó, Athens giúp các thành bang Ionia nổi dậy chống Ba Tư. Sau khi dẹp cuộc nổi dậy, Darius I đưa quân qua biển Aegea để trừng phạt những thành bang từng tiếp viện.",
+  "consequences": "Năm 480 TCN, Xerxes mở chiến dịch mới. Quân Ba Tư vượt Thermopylae, tiến vào Athens, còn hạm đội liên minh Hy Lạp giao chiến tại Salamis. Marathon là một bước ngoặt trong cuộc chiến dài hơn.",
+  "consequencesTitle": "Mười năm sau Marathon, quân Ba Tư trở lại",
+  "refs": [
+    {
+      "url": "https://2500years.culture.gov.gr/en/chapters/persiki-polemi",
+      "title": "Bộ Văn hóa Hy Lạp — Các cuộc chiến với Ba Tư",
+      "scope": "Ionia, sự can thiệp Athens, Marathon490 và chiến dịch 480–479."
+    },
+    {
+      "url": "https://www.hh.gr/en/destinations/marathon/",
+      "title": "Hellenic Heritage — Marathon",
+      "scope": "Athens và Plataea, gò mộ và các mảnh đài chiến thắng."
+    },
+    {
+      "url": "https://worldathletics.org/news/feature/1896-olympic-marathon-spiridon-louis-125-anniversary-breal-cup",
+      "title": "World Athletics — Cuộc marathon Olympic 1896",
+      "scope": "Michel Bréal đề xuất môn chạy dựa vào truyền thuyết người đưa tin."
+    }
+  ],
+  "related": [
+    {
+      "id": "eu-thermopylae-salamis-480tcn",
+      "kind": "connection",
+      "text": "Mười năm sau, cuộc tiến công mới của Xerxes đưa chiến tranh tới Salamis.",
       "ref": "https://2500years.culture.gov.gr/en/chapters/persiki-polemi"
     },
-    { id: 'eu-thermopylae-salamis-480tcn', y: -480, r: 'Hy Lạp', t: 'Thermopylae và hải chiến Salamis', c: 'war', imp: 2, who: 'Vua Leonidas, Themistocles',
-      d: 'Vua Ba Tư Xerxes đem đại quân xâm lược Hy Lạp. Vua Sparta Leonidas cùng vài nghìn quân chặn đèo Thermopylae nhiều ngày rồi hy sinh. Khoảng một tháng sau, hạm đội Athens do Themistocles chỉ huy nhử thuyền Ba Tư vào eo biển hẹp Salamis và đánh tan chúng.',
-      why: 'Thắng lợi giữ được nền độc lập của các thành bang, mở ra “thời kỳ hoàng kim” của văn hóa Hy Lạp.',
-      fun: 'Bộ phim “300” chỉ nhắc tới 300 chiến binh Sparta, nhưng thực tế ở Thermopylae còn có thêm vài nghìn lính từ các thành bang khác.',
-      vn: 'Cũng như Bạch Đằng sau này, Salamis là ví dụ kinh điển về việc bên yếu hơn chọn đúng địa hình sông nước để thắng một hạm đội lớn.' },
-    { id: 'eu-parthenon-447tcn', y: -447, y2: -432, r: 'Hy Lạp', t: 'Đền Parthenon trên đồi Acropolis', c: 'cul', imp: 2, who: 'Pericles, nhà điêu khắc Phidias', place: 'Athens',
-      d: 'Dưới thời Pericles, Athens giàu có nhờ thương mại và đồng minh, đã xây đền Parthenon bằng đá cẩm thạch để thờ nữ thần Athena. Công trình được làm trong 15 năm với những tỉ lệ được tính toán rất kỹ.',
-      why: 'Parthenon trở thành biểu tượng của nền văn minh Hy Lạp và là khuôn mẫu cho kiến trúc cổ điển khắp thế giới.',
-      fun: 'Trông thẳng tắp nhưng đền gần như không có đường nào thẳng tuyệt đối: các cột hơi phình và nghiêng nhẹ để mắt người nhìn thấy... thẳng.',
-      alt: 'Đền từng là nhà thờ, rồi nhà thờ Hồi giáo, rồi kho thuốc súng của quân Ottoman, và bị nổ tung năm 1687 khi quân Venice nã pháo. Nhiều tượng phù điêu nay ở London, và Hy Lạp vẫn đang đòi lại.' },
-    { id: 'eu-herodotus-440tcn', y: -440, ca: true, date: 'Khoảng 440 TCN', r: 'Hy Lạp', t: 'Herodotus viết bộ “Lịch sử”', c: 'cul', imp: 1, who: 'Herodotus',
-      d: 'Herodotus đi khắp Ai Cập, Lưỡng Hà, Ba Tư để hỏi chuyện, rồi viết bộ “Lịch sử” kể về các cuộc chiến tranh Hy Lạp – Ba Tư và phong tục của nhiều dân tộc. Ông cố gắng giải thích vì sao các sự kiện xảy ra, chứ không chỉ kể chuyện thần thánh.',
-      why: 'Ông được gọi là “cha đẻ của sử học” vì là người đầu tiên thu thập, so sánh và kể lại quá khứ một cách có hệ thống.',
-      fun: 'Vì chép cả những chuyện khó tin nghe được dọc đường, Herodotus còn bị một số người chê là “cha đẻ của chuyện bịa”.',
-      vn: 'Ở Việt Nam, bộ quốc sử đầu tiên được biết đến là Đại Việt sử ký của Lê Văn Hưu, hoàn thành năm 1272.' },
+    {
+      "id": "eu-marathon-olympic-1896",
+      "kind": "connection",
+      "text": "Truyền thuyết người đưa tin gợi ý đường chạy Marathon–Athens tại Olympic 1896.",
+      "ref": "https://worldathletics.org/news/feature/1896-olympic-marathon-spiridon-louis-125-anniversary-breal-cup"
+    }
+  ],
+  "altTitle": "Gò đất bên chiến trường Marathon",
+  "ref": "https://2500years.culture.gov.gr/en/chapters/persiki-polemi",
+  "fun": "Cuộc chạy marathon ở Olympic 1896 được gợi từ truyền thuyết người đưa tin. Câu chuyện cổ tạo cảm hứng cho một môn thể thao mới; điều đó chưa xác nhận mọi chi tiết của truyền thuyết là sự thật."
+},
+    {
+  "id": "eu-thermopylae-salamis-480tcn",
+  "y": -480,
+  "r": "Hy Lạp",
+  "t": "Thermopylae và hải chiến Salamis",
+  "c": "war",
+  "imp": 2,
+  "who": "Vua Leonidas, Themistocles",
+  "d": "Năm 480 TCN, quân Xerxes tiến xuống Hy Lạp. Leonidas dẫn lực lượng liên minh giữ đèo Thermopylae, rồi bị đánh vòng và thất bại. Trên biển, Themistocles thúc đẩy kế hoạch giao chiến trong eo Salamis. Hạm đội liên minh Hy Lạp giành thắng lợi ở nơi chật hẹp, khiến ưu thế số đông của đối phương khó phát huy.",
+  "fun": "Con số “300” dễ nhớ đã làm lu mờ những người khác tại Thermopylae. Quân Hy Lạp ban đầu có hàng nghìn người; ngay lực lượng ở lại cuối cùng cũng có người Thespiae và Thebes bên cạnh Sparta.",
+  "consequencesTitle": "Thắng trên biển, chiến tranh chưa kết thúc",
+  "consequences": "Salamis làm thay đổi tình thế chiến dịch. Giao tranh vẫn tiếp tục sang năm 479 TCN. Chiến thắng là kết quả của liên minh nhiều thành bang, với những cuộc tranh luận về nơi đánh và cách đánh.",
+  "refs": [
+    {
+      "url": "https://2500years.culture.gov.gr/en/chapters/i-machi-ton-thermopilon",
+      "title": "Bộ Văn hóa Hy Lạp — Thermopylae",
+      "scope": "Địa hình, liên quân ban đầu và các đơn vị ở lại, đường đánh vòng."
+    },
+    {
+      "url": "https://2500years.culture.gov.gr/en/chapters/i-naumachia-tis-salaminas",
+      "title": "Bộ Văn hóa Hy Lạp — Salamis",
+      "scope": "Tranh luận giữa các chỉ huy, chủ trương của Themistocles, eo biển và chiến thắng480."
+    },
+    {
+      "url": "https://2500years.culture.gov.gr/en/chapters/persiki-polemi",
+      "title": "Bộ Văn hóa Hy Lạp — Các cuộc chiến với Ba Tư",
+      "scope": "Chiến dịch480–479, không kết thúc ngay sauSalamis."
+    }
+  ],
+  "ref": "https://2500years.culture.gov.gr/en/chapters/i-machi-ton-thermopilon"
+},
+    {
+  "id": "eu-parthenon-447tcn",
+  "y": -447,
+  "y2": -432,
+  "r": "Hy Lạp",
+  "t": "Đền Parthenon trên đồi Acropolis",
+  "c": "cul",
+  "imp": 2,
+  "who": "Iktinos, Kallikrates, Pheidias",
+  "place": "Athens",
+  "d": "Trên Acropolis, người Athens dựng Parthenon để thờ nữ thần Athena, sau khi quyết định xây lại các nơi thờ tự bị quân Ba Tư phá hủy. Phần đền được xây từ 447 đến 438 TCN; điêu khắc ở phần hồi hoàn tất năm 432. Kiến trúc sư, nhà điêu khắc và nhiều người thợ cùng góp công vào công trình.",
+  "fun": "Những bảng kê xây đền còn ghi tiền mua vật liệu, công khai thu–chi và tiền công khai thác, vận chuyển đá. Nhìn lên thấy thần thoại; đọc bảng kê thấy cả công việc hậu cần. Công trình đẹp vẫn cần người giữ sổ.",
+  "date": "Xây đền447–438 TCN; hoàn tất điêu khắc phần hồi432 TCN",
+  "consequencesTitle": "Đường cong góp phần tạo nên vẻ cân đối",
+  "consequences": "Nền đền hơi cong, thân cột có độ phình và khoảng cách cột góc được điều chỉnh. Vẻ hài hòa đến từ nhiều tính toán nhỏ; người xây đã điều chỉnh cả những chi tiết khó nhận ra khi nhìn từ xa.",
+  "refs": [
+    {
+      "url": "https://www.ysma.gr/en/monuments/parthenon/",
+      "title": "Acropolis Restoration Service — Parthenon",
+      "scope": "Cống hiếnAthena, xây447–438, điêu khắc432, tác giả, các điều chỉnh kiến trúc."
+    },
+    {
+      "url": "https://www.theacropolismuseum.gr/en/financial-accounts-construction-parthenon",
+      "title": "Bảo tàng Acropolis — Bảng kê chi phí xây Parthenon",
+      "scope": "EM5223: vật liệu, công nhân vận chuyển đá, giám sát và công khai tài khoản."
+    }
+  ],
+  "ref": "https://www.ysma.gr/en/monuments/parthenon/"
+},
+    {
+  "id": "eu-herodotus-440tcn",
+  "y": -430,
+  "ca": true,
+  "date": "Nửa sau thế kỷ V TCN; mốc tham chiếu430 TCN",
+  "r": "Hy Lạp",
+  "t": "Herodotus kể lịch sử bằng những câu hỏi",
+  "c": "cul",
+  "imp": 1,
+  "who": "Herodotus",
+  "d": "Herodotus gom chuyện chiến tranh Hy Lạp–Ba Tư cùng những lời kể về con người và phong tục nhiều nơi. Ông hỏi về nguyên nhân, so sánh các lời giải thích và giữ cả những chuyện mình nghe được. Tác phẩm hình thành trong nửa sau thế kỷ V TCN; khoảng 430–425 là một cách đặt niên đại bản cuối trong nghiên cứu.",
+  "fun": "Trong quyểnVII, đoạn 152, Herodotus nói đại ý mình phải thuật lại điều được kể, nhưng không buộc phải tin tất cả. Ghi vào sổ và gật đầu tin ngay vốn là hai việc khác nhau.",
+  "consequencesTitle": "Câu chuyện lớn được ghép từ nhiều lời kể",
+  "consequences": "Cách ông viết cho thấy lịch sử có cả việc tìm hiểu và lựa chọn lời kể. Những điều người ta nhớ, tin hoặc kể khác nhau cũng trở thành một phần của cuốn sách.",
+  "refs": [
+    {
+      "url": "https://www.cambridge.org/core/books/abs/early-greek-political-thought-from-homer-to-the-sophists/herodotus/4B146C6088CE5218D2B69F6C319A9758",
+      "title": "Michael Gagarin và Paul Woodruff — Herodotus",
+      "scope": "Thời gian hình thành tác phẩm, cách đặt bản cuối khoảng 430–425 và quan sát chính trị."
+    },
+    {
+      "url": "https://folio2.furman.edu/dramaturg/Herodotus/pages/chunk_850.html",
+      "title": "Furman Classics — Herodotus, Histories7.152",
+      "scope": "Văn bản gốc phân biệt kể lại điều được nghe với tin mọi điều ấy."
+    }
+  ],
+  "ref": "https://www.cambridge.org/core/books/abs/early-greek-political-thought-from-homer-to-the-sophists/herodotus/4B146C6088CE5218D2B69F6C319A9758"
+},
     { id: 'eu-hippocrates-400tcn', y: -400, ca: true, date: 'Khoảng thế kỷ V–IV TCN', r: 'Hy Lạp', t: 'Hippocrates – ông tổ y học phương Tây', c: 'sci', imp: 1, who: 'Hippocrates',
       d: 'Thầy thuốc Hippocrates trên đảo Kos dạy rằng bệnh tật có nguyên nhân tự nhiên chứ không phải do thần linh trừng phạt. Ông chú trọng quan sát triệu chứng, ghi chép bệnh án và đề cao đạo đức nghề y.',
       why: 'Cách tiếp cận dựa trên quan sát đã đặt nền móng cho y học phương Tây suốt hơn hai nghìn năm.',
@@ -6542,11 +6801,35 @@ TL_DATA.push({
   "ref": "https://whc.unesco.org/en/list/330/"
 },
 
-    { id: 'am-nazca-500tcn', y: -500, y2: 500, ca: true, date: 'Khoảng 500 TCN – 500', r: 'Peru', t: 'Những hình vẽ khổng lồ Nazca', c: 'cul', imp: 2,
-      place: 'Sa mạc Nazca, miền nam Peru',
-      d: 'Trên sa mạc khô cằn miền nam Peru, người Paracas rồi người Nazca gạt lớp đá sẫm màu trên mặt đất để lộ lớp đất sáng bên dưới, tạo nên hàng trăm đường thẳng và hình con khỉ, chim ruồi, nhện dài hàng chục đến hàng trăm mét. Khí hậu gần như không mưa đã giữ chúng tồn tại suốt hai nghìn năm.',
-      why: 'Là một trong những bí ẩn khảo cổ hấp dẫn nhất, cho thấy trình độ tổ chức và trí tưởng tượng của các xã hội Andes cổ.',
-      fun: 'Nhiều hình chỉ nhìn rõ trọn vẹn từ trên cao, nên có người đoán đó là “sân bay của người ngoài hành tinh”. Giới khảo cổ cho rằng đây là lối đi nghi lễ gắn với nước và mùa màng: kém lãng mạn hơn nhưng có bằng chứng hơn.' },
+    {
+  "id": "am-nazca-500tcn",
+  "y": -500,
+  "y2": 500,
+  "ca": true,
+  "date": "Khoảng 500 TCN – 500",
+  "r": "Peru",
+  "t": "Những hình vẽ khổng lồ Nazca",
+  "c": "cul",
+  "imp": 2,
+  "place": "Sa mạc Nazca, miền nam Peru",
+  "d": "Trên sa mạc miền nam Peru, các cộng đồng Paracas rồi Nazca tạo hình trên mặt đất bằng cách gạt lớp đá sẫm để lộ nền sáng. Có đường thẳng, hình học và cả sinh vật. Khung khoảng 500 TCN–500 của di sản trải qua nhiều thế hệ; khí hậu khô giúp giữ lại dấu vết công việc ấy.",
+  "fun": "Công bố năm 2024 của Đại học Yamagata cho biết khảo sát có AI hỗ trợ đã xác nhận thêm 303 hình sinh vật trong sáu tháng đi thực địa. Máy giúp tìm chỗ đáng xem, còn người nghiên cứu vẫn phải tới kiểm tra — khảo cổ chưa có nút “quét xong”.",
+  "consequencesTitle": "Một cảnh quan còn nhiều câu chuyện để tìm",
+  "consequences": "Các nhóm hình khác nhau có thể liên quan những cách đi lại và nghi lễ khác nhau. Mục đích cụ thể vẫn đang được nghiên cứu, nên khó gom tất cả thành một lời giải duy nhất.",
+  "refs": [
+    {
+      "url": "https://whc.unesco.org/en/list/700/",
+      "title": "UNESCO — Lines and Geoglyphs of Nasca and Palpa",
+      "scope": "Địa điểm, kỹ thuật gạt bề mặt, khung 500 TCN–500 và các loại hình."
+    },
+    {
+      "url": "https://www.yamagata-u.ac.jp/en/download_file/view/1952/835/",
+      "title": "Đại học Yamagata — Công bố nghiên cứu Nazca ngày 24/9/2024",
+      "scope": "303 hình mới được khảo sát thực địa xác nhận, AI hỗ trợ chọn vị trí; các nhóm hình và giả thuyết mục đích khác nhau."
+    }
+  ],
+  "ref": "https://whc.unesco.org/en/list/700/"
+},
 
     { id: 'am-maya-chu-viet-300tcn', y: -300, ca: true, date: 'Từ khoảng thế kỷ III TCN', r: 'Trung Mỹ', t: 'Người Maya có chữ viết, lịch và số 0', c: 'sci', imp: 3,
       d: 'Người Maya dần hoàn thiện một hệ chữ viết gồm hàng trăm ký hiệu, ghi tên vua, chiến công và ngày tháng lên bia đá, đồ gốm và sách làm từ vỏ cây. Họ quan sát bầu trời, tính lịch rất chính xác, dùng hệ đếm cơ số 20 và có ký hiệu số 0 hình vỏ ốc.',
@@ -7749,11 +8032,34 @@ TL_PEOPLE.push({
   "ref": "https://plato.stanford.edu/entries/confucius/"
 },
 
-    { id: 'cn-np-ton-tu', n: 'Tôn Tử', b: -544, d: -496, cb: true, cd: true,
-      ref: 'https://afe.easia.columbia.edu/ps/cup/sunzi_art_of_war.pdf', role: 'Nhân vật theo truyền thống gắn với Binh pháp Tôn Tử', c: 'war', imp: 2, r: 'Trung Quốc',
-      k: -512, act: 'dâng bộ Binh pháp 13 thiên lên Ngô vương Hạp Lư và được trọng dụng',
-      bio: 'Tên thật là Tôn Vũ, người nước Tề, sau sang giúp nước Ngô thời Xuân Thu. Theo Sử ký của Tư Mã Thiên, ông giúp vua Ngô đánh bại nước Sở hùng mạnh. Binh pháp Tôn Tử đề cao mưu lược, tình báo và việc thắng mà không cần đánh; đến nay sách vẫn được đọc ở các học viện quân sự lẫn trường kinh doanh. Năm sinh, năm mất là các mốc theo truyền thống. Có học giả đặt vấn đề về sự tồn tại của nhân vật cũng như thời điểm hình thành văn bản.',
-      fun: 'Câu nổi tiếng thường được nhớ là “biết người biết ta, trăm trận trăm thắng”, nhưng nguyên văn là “tri bỉ tri kỷ, bách chiến bất đãi”, nghĩa là trăm trận không nguy. Hóa ra Tôn Tử thận trọng hơn nhiều người tưởng.' },
+    {
+  "id": "cn-np-ton-tu",
+  "n": "Tôn Tử",
+  "b": -500,
+  "d": -500,
+  "cb": true,
+  "cd": true,
+  "ref": "https://afe.easia.columbia.edu/main_pop/ps/ps_china-sunzi-art-of-war.htm",
+  "role": "Tên tuổi được truyền thống gắn với Binh pháp",
+  "c": "war",
+  "imp": 2,
+  "r": "Trung Quốc",
+  "k": -500,
+  "act": "được kể là sống cùng thời Khổng Tử",
+  "bio": "Tôn Tử, còn gọi là Tôn Vũ, được truyền thống gắn với Binh pháp. Tiểu sử của ông chưa có chứng cứ xác nhận chắc chắn. Câu chuyện về con người và lịch sử biên soạn cuốn sách vì vậy còn nhiều điều để ngỏ.",
+  "fun": "Một tên tác giả có thể rất nổi tiếng trong khi ta vẫn biết rất ít về người mang tên ấy.",
+  "ck": true,
+  "timeBasis": "reference",
+  "referenceOnly": true,
+  "lifeLabel": "Tiểu sử chưa xác minh; 500 TCN chỉ là mốc tra cứu",
+  "refs": [
+    {
+      "url": "https://afe.easia.columbia.edu/main_pop/ps/ps_china-sunzi-art-of-war.htm",
+      "title": "Columbia University — Tuyển đoạn Binh pháp Tôn Tử",
+      "scope": "Tác giả theo truyền thống, giới hạn xác minh tiểu sử; cách định niên đại biên soạn nửa sau thế kỷ IV TCN; tư tưởng chuẩn bị, hiểu mình và đối phương."
+    }
+  ]
+},
 
     { id: 'cn-np-manh-tu', n: 'Mạnh Tử', b: -372, d: -289, cb: true, cd: true,
       role: 'Nhà tư tưởng Nho giáo, được tôn là “Á thánh”', c: 'cul', imp: 2, r: 'Trung Quốc',
@@ -8880,16 +9186,60 @@ TL_PEOPLE.push({
   ],
   "ref": "https://plato.stanford.edu/entries/pythagoras/"
 },
-    { id: 'eu-np-socrates', n: 'Socrates', b: -470, d: -399, cb: true,
-      role: 'Triết gia Athens', r: 'Hy Lạp', c: 'cul', imp: 3,
-      k: -399, act: 'chấp nhận bản án tử hình của tòa án Athens thay vì bỏ trốn',
-      bio: 'Socrates không mở trường, chỉ đi khắp các khu chợ ở Athens hỏi chuyện mọi người bằng những câu tưởng như rất đơn giản: “Công bằng là gì?”, “Dũng cảm là gì?”. Bằng cách hỏi liên tiếp, ông giúp người đối diện tự nhận ra chỗ mâu thuẫn trong suy nghĩ của mình; cách làm này nay gọi là “phương pháp Socrates”. Cuối đời, ông bị buộc tội làm hư thanh niên và bất kính với thần linh.',
-      fun: 'Câu nói nổi tiếng nhất gắn với ông, “Tôi chỉ biết một điều là tôi không biết gì cả”, thật ra là cách người đời sau tóm tắt lời ông trong tác phẩm của Plato.' },
-    { id: 'eu-np-plato', n: 'Plato', b: -427, d: -347, cb: true, cd: true,
-      role: 'Triết gia, người lập Học viện Athens', r: 'Hy Lạp', c: 'cul', imp: 2,
-      k: -387, act: 'mở Học viện (Akademia), một trong những trường học đầu tiên của châu Âu',
-      bio: 'Là học trò xuất sắc nhất của Socrates, Plato viết khoảng 35 tác phẩm dưới dạng đối thoại, trong đó người thầy Socrates thường là nhân vật chính. Trong cuốn Cộng hòa, ông phác họa một nhà nước lý tưởng do các triết gia cai trị và kể “ngụ ngôn cái hang” về những người cả đời chỉ nhìn thấy bóng của sự vật. Từ “academy” (học viện) trong nhiều thứ tiếng bắt nguồn từ tên ngôi trường ông lập ra.',
-      fun: 'Theo một truyền thống cổ, tên thật của ông là Aristocles; “Platon” chỉ là biệt danh, nghĩa là “rộng”, có lẽ vì đôi vai rộng của ông.' },
+    {
+  "id": "eu-np-socrates",
+  "n": "Socrates",
+  "b": -469,
+  "d": -399,
+  "cb": true,
+  "role": "Triết gia Athens",
+  "r": "Hy Lạp",
+  "c": "cul",
+  "imp": 3,
+  "k": -399,
+  "act": "bị xét xử và xử tử tại Athens",
+  "bio": "Socrates sống ở Athens, nổi tiếng qua những cuộc hỏi đáp về điều người ta tưởng mình đã hiểu: công bằng, đức hạnh, sống tốt. Hỏi thêm một câu có thể làm câu trả lời ban đầu lung lay. Ông không để lại tác phẩm do mình viết; ta gặp ông qua những chân dung khác nhau của Plato, Xenophon và Aristophanes. Năm399 TCN, Athens xét xử ông với cáo buộc bất kính thần linh và làm hư thanh niên, rồi tuyên án tử.",
+  "fun": "Người không để lại sách lại trở thành nhân vật chính trong rất nhiều trang sách. Đọc về Socrates còn là đọc cách những người khác nhìn ông, chứ không phải nghe một bản ghi âm nguyên vẹn.",
+  "refs": [
+    {
+      "url": "https://plato.stanford.edu/entries/socrates/",
+      "title": "Debra Nails, Stanford Encyclopedia of Philosophy — Socrates",
+      "scope": "469–399, không viết tác phẩm, vấn đề ba chân dung khác nhau, phương pháp hỏi đáp và vụ xét xử399."
+    }
+  ],
+  "ref": "https://plato.stanford.edu/entries/socrates/"
+},
+    {
+  "id": "eu-np-plato",
+  "n": "Plato",
+  "b": -427,
+  "d": -347,
+  "cb": true,
+  "cd": true,
+  "role": "Triết gia, người lập Học viện Athens",
+  "r": "Hy Lạp",
+  "c": "cul",
+  "imp": 2,
+  "k": -387,
+  "act": "lập Học viện tại Athens",
+  "bio": "Plato viết triết học thành những cuộc trò chuyện. Người đọc theo Socrates và các nhân vật hỏi nhau về công bằng, hiểu biết, cách sống, rồi gặp những đáp án còn gây tranh luận. Khoảng387 TCN, ông lập Học viện ở Athens, nơi nghiên cứu và giảng dạy triết học cùng các môn khoa học. Các đối thoại đưa ta tới thế giới tư tưởng của ông, nhưng không phải bản chép nguyên lời Socrates.",
+  "fun": "Plato thường để người khác lên tiếng trong tác phẩm, thay vì bước ra giải thích “đây là đáp án của tôi”. Đọc một cuộc đối thoại của ông đôi khi giống dự một buổi tranh luận mà tác giả nhất quyết không cầm micro.",
+  "ck": true,
+  "lifeLabel": "Khoảng429/427–347 TCN",
+  "refs": [
+    {
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Plato/",
+      "title": "MacTutor, University of St Andrews — Plato",
+      "scope": "Khung427–347 và Học viện từ khoảng 387; hoạt động nghiên cứu, giảng dạy."
+    },
+    {
+      "url": "https://plato.stanford.edu/entries/plato/",
+      "title": "Richard Kraut, Stanford Encyclopedia of Philosophy — Plato",
+      "scope": "Đề xuất năm sinh429? khác khung427; hình thức đối thoại, tác giả gián tiếp, không xem Socrates trong đối thoại là bản sao lịch sử."
+    }
+  ],
+  "ref": "https://mathshistory.st-andrews.ac.uk/Biographies/Plato/"
+},
     { id: 'eu-np-aristotle', n: 'Aristotle', b: -384, d: -322,
       role: 'Triết gia, nhà bác học Hy Lạp', r: 'Hy Lạp', c: 'sci', imp: 3,
       k: -335, act: 'mở trường Lyceum ở Athens, nơi thầy trò vừa đi dạo vừa giảng bài',
@@ -9499,9 +9849,40 @@ TL_SLICES.push(
   ]
 },
 
-  { id: 'sl-500tcn', y: -500, t: 'Khoảng 500 TCN: thời của các nhà hiền triết',
-    d: 'Khoảng năm 500 TCN, nước Văn Lang của các vua Hùng đang ở thời rực rỡ của văn hóa Đông Sơn. Người Lạc Việt chưa để lại sách vở, nhưng đã “viết” thế giới của mình lên mặt trống đồng: nhà sàn, thuyền đua, người giã gạo, chim Lạc bay quanh ngôi sao giữa trống. Cũng trong mấy chục năm ấy, nhiều nơi trên thế giới bỗng cùng nghĩ về cách làm người. Ở nước Lỗ, Khổng Tử ngoài 50 tuổi vừa làm quan vừa dạy học trò về lễ, nghĩa; ở lưu vực sông Hằng, theo niên đại truyền thống, Đức Phật đang giảng con đường trung đạo; ở miền nam nước Ý, học trò của Pythagoras tin rằng vũ trụ vận hành bằng con số. Cách cai trị cũng đang được nghĩ lại: năm 509 TCN người La Mã đuổi vua, lập cộng hòa; năm 508 TCN Athens trao quyền cho Đại hội công dân; còn vua Ba Tư Darius I nối đế quốc mênh mông bằng Con đường Hoàng gia dài khoảng 2.700 km. Nếu năm ấy có hội thảo triết học toàn cầu, danh sách diễn giả hẳn “đỉnh” chưa từng có, chỉ tiếc là chẳng ai biết đường đến.',
-    ev: ['vn-van-lang-700tcn', 'vn-dong-son-700tcn', 'cn-khong-tu-551tcn', 'sa-duc-phat-563tcn', 'eu-pythagoras-530tcn', 'eu-cong-hoa-la-ma-509tcn', 'eu-dan-chu-athens-508tcn', 'wa-darius-con-duong-hoang-gia-522tcn'] },
+  {
+  "id": "sl-500tcn",
+  "y": -500,
+  "t": "Khoảng500 TCN: ai được quyết định việc chung?",
+  "d": "Cuối thế kỷVI và đầu thế kỷV TCN, đặt Rome cạnh Athens sẽ thấy hai câu chuyện về quyền lực. Theo truyền thống, Rome rời chế độ vua; các thiết chế cộng hòa dần phát triển, giữa những cuộc tranh giành đặc quyền. Ở Athens, cải cách508–507 TCN mở một chặng quan trọng của dân chủ, nhưng phụ nữ, người bị nô lệ và người ngoại cư vẫn ở ngoài quyền dự việc chính trị. Hai nơi cùng gợi một câu hỏi: ai được nói thay cho cộng đồng? Những thay đổi này không diễn ra trong cùng một năm và cũng chưa đem lại quyền ngang nhau cho tất cả.",
+  "ev": [
+    "eu-cong-hoa-la-ma-509tcn",
+    "eu-dan-chu-athens-508tcn"
+  ],
+  "ca": true,
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/essays/the-roman-republic",
+      "title": "The Met — Cộng hòa La Mã",
+      "scope": "Khung 509–27 TCN, đặc quyền quý tộc, xung đột đất đai và nợ, mở rộng lãnh thổ, bất bình đẳng và nội chiến."
+    },
+    {
+      "url": "https://sites.ualberta.ca/~csmackay/Consuls.List.html",
+      "title": "Christopher S. Mackay, University of Alberta — Danh sách quan chấp chính",
+      "scope": "Thông thường hai chấp chính được bầu mỗi năm, có ngoại lệ; hạn chế độ chính xác bảng niên đại đầu Cộng hòa."
+    },
+    {
+      "url": "https://dev.ascsa.edu.gr/excavations/athenian-agora/about-the-excavations/agorahistory",
+      "title": "ASCSA — Lịch sử và niên biểu Athens",
+      "scope": "Cải cách Cleisthenes 508/7 TCN trong niên biểu khảo cổ."
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781118878347.ch22",
+      "title": "Ryan K. Balot và Larissa M. Atkison — Women and Slaves in Greek Democracy",
+      "scope": "Giới hạn cộng đồng chính trị và vai trò xã hội của phụ nữ, người nô lệ, người ngoại cư."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/essays/the-roman-republic"
+},
 
   { id: 'sl-208tcn', y: -208, t: 'Năm 208 TCN: thành Cổ Loa, nhà Tần và voi của Hannibal',
     d: 'Khoảng năm 208 TCN, sau nhiều năm cùng người Lạc Việt đánh lui quân Tần, thủ lĩnh Âu Việt Thục Phán lập nước Âu Lạc, đóng đô ở Cổ Loa và xây tòa thành nhiều vòng hình xoáy ốc. Đối thủ của họ, nhà Tần, mới thống nhất Trung Hoa năm 221 TCN, từng nối dài Vạn Lý Trường Thành để chặn Hung Nô, nhưng lại sụp đổ rất nhanh: Tần Thủy Hoàng mất năm 210 TCN, khởi nghĩa nổ ra khắp nơi, và năm 206 TCN Lưu Bang dựng nên nhà Hán. Trùng hợp thú vị: hai “bức tường” nổi tiếng mọc lên cùng một thời, một bức dài hàng nghìn cây số trên biên cương phương Bắc, một tòa thành xoắn như vỏ ốc giữa đồng bằng sông Hồng. Ở đầu kia lục địa, La Mã và Carthage đang giằng co: Hannibal đã dẫn voi chiến vượt dãy Alps (218 TCN), còn nhà bác học Archimedes vừa qua đời khi La Mã chiếm Syracuse (212 TCN). Ở Ấn Độ, Đế quốc Maurya sau thời vua A-dục đã suy yếu dần. Cả thế giới như đứng ở ngã rẽ: những đế chế cũ lung lay, những thế lực mới chuẩn bị bước lên.',
