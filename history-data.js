@@ -1689,12 +1689,29 @@ TL_DATA.push({
       alt: 'Ông còn thống nhất cả khoảng cách giữa hai bánh xe để xe khắp nước chạy chung một vệt đường. Nghe vụn vặt nhưng rất thông minh, giống như ngày nay cả thế giới dần dùng chung một loại cổng sạc.',
       vn: 'Sau khi thống nhất, quân Tần đánh xuống phương Nam; người Tây Âu – Lạc Việt kháng chiến bền bỉ nhiều năm và giết được chủ tướng Đồ Thư.' },
 
-    { id: 'cn-van-ly-truong-thanh-214tcn', y: -214, ca: true, date: 'Từ khoảng 214 TCN', r: 'Trung Quốc',
-      t: 'Nối dài Vạn Lý Trường Thành', c: 'sci', imp: 2, who: 'Mông Điềm',
-      d: 'Tần Thủy Hoàng sai tướng Mông Điềm đem khoảng 30 vạn quân đánh đuổi Hung Nô, rồi huy động binh lính, dân phu nối các đoạn tường thành cũ của các nước phía bắc thành một tuyến phòng thủ dài. Các triều đại sau tiếp tục xây; đoạn Trường Thành bằng gạch đá mà du khách hay đến thăm ngày nay chủ yếu được xây thời nhà Minh.',
-      why: 'Biểu tượng của cuộc giằng co hàng nghìn năm giữa cư dân nông nghiệp định cư và các đế chế du mục trên thảo nguyên.',
-      fun: 'Câu “Vạn Lý Trường Thành nhìn thấy được từ Mặt Trăng” chỉ là chuyện tưởng tượng. Tường quá hẹp, đến phi hành gia bay quanh Trái Đất cũng rất khó nhận ra bằng mắt thường.',
-      alt: 'Nếu cộng mọi đoạn tường qua các thời kỳ, tổng chiều dài lên tới hơn 21.000 km, dài hơn nửa vòng Trái Đất.' },
+    {
+  "id": "cn-van-ly-truong-thanh-214tcn",
+  "y": -220,
+  "ca": true,
+  "date": "Khoảng 220 TCN",
+  "r": "Trung Quốc",
+  "t": "Các tuyến phòng thủ được nối lại thời Tần",
+  "c": "sci",
+  "imp": 2,
+  "who": "Mông Điềm",
+  "d": "Khoảng năm 220 TCN, dưới thời Tần Thủy Hoàng, những đoạn thành đã có trước được kết nối thành hệ thống phòng thủ. Hoạt động xây dựng và thay đổi các tuyến thành tiếp diễn qua nhiều triều đại.",
+  "fun": "Vạn Lý Trường Thành không có một lần xây duy nhất. UNESCO mô tả quá trình xây dựng từ thế kỷ III TCN đến thế kỷ XVII.",
+  "consequencesTitle": "Một hệ thống được xây qua nhiều thế kỷ",
+  "consequences": "Tường, đường đi, tháp canh và cửa ải tạo nên một mạng công trình quân sự. Các phần thời Minh là lớp xây dựng muộn trong lịch sử kéo dài ấy.",
+  "refs": [
+    {
+      "url": "https://whc.unesco.org/en/list/438/",
+      "title": "UNESCO — Vạn Lý Trường Thành",
+      "scope": "Niên đại khoảng 220 TCN, kết nối thành có trước, các thành phần và xây dựng tới thời Minh."
+    }
+  ],
+  "ref": "https://whc.unesco.org/en/list/438/"
+},
 
     {
       "id": "cn-binh-ma-dung-210tcn",
@@ -2299,11 +2316,34 @@ TL_DATA.push({
       why: 'Cao Ly tồn tại gần 500 năm, để lại những thành tựu như gốm men ngọc, kinh khắc gỗ và kỹ thuật in chữ kim loại.',
       fun: 'Tên “Korea” mà thế giới dùng ngày nay bắt nguồn từ chữ Cao Ly (Goryeo), được các thương nhân Ả Rập và châu Âu truyền đi.',
       vn: 'Cùng thời gian đó, người Việt cũng đang giành lại quyền tự chủ: Khúc Thừa Dụ nắm quyền năm 905 và Ngô Quyền đánh thắng quân Nam Hán năm 938.' },
-    { id: 'ea-truyen-genji-1008', y: 1008, ca: true, date: 'Đầu thế kỷ XI', r: 'Nhật Bản', t: 'Truyện kể Genji của Murasaki Shikibu', c: 'cul', imp: 2, who: 'Murasaki Shikibu',
-      d: 'Murasaki Shikibu, một nữ quan trong cung đình Heian, viết bộ truyện dài 54 chương kể về cuộc đời, những mối tình và nỗi buồn của chàng hoàng tử Genji. Tác phẩm hoàn thành vào khoảng đầu thế kỷ XI và được giới quý tộc truyền tay nhau chép đọc.',
-      why: 'Thường được coi là một trong những tiểu thuyết đầu tiên của nhân loại, đặt nền móng cho văn xuôi Nhật Bản.',
-      fun: 'Thời ấy, đàn ông quý tộc viết chữ Hán cho “trang trọng”, còn phụ nữ viết bằng chữ kana. Kết quả là nhiều kiệt tác đầu tiên của văn học tiếng Nhật lại do phụ nữ chấp bút.',
-      alt: 'Trong khi châu Âu thế kỷ XI chủ yếu chép kinh sách bằng tiếng Latinh, một phụ nữ Nhật đã viết bộ truyện tâm lý dài cả nghìn trang.' },
+    {
+  "id": "ea-truyen-genji-1008",
+  "y": 1008,
+  "ca": true,
+  "date": "Được nhắc trong nhật ký năm 1008",
+  "r": "Nhật Bản",
+  "t": "Truyện kể Genji đã được đọc trong cung đình Heian",
+  "c": "cul",
+  "imp": 2,
+  "who": "Murasaki Shikibu",
+  "d": "Nhật ký của Murasaki Shikibu nhắc đến Genji vào năm 1008, cho thấy câu chuyện đã được người trong triều biết tới. Tác phẩm dường như vẫn đang được viết vào lúc ấy.",
+  "fun": "Năm 1008 thường được gọi là năm hoàn thành Genji, nhưng chứng cứ nhật ký chỉ cho biết truyện đã được nhắc và đang lưu hành. Đây là mốc về sự hiện diện của tác phẩm.",
+  "consequencesTitle": "Một câu chuyện tiếp tục sống trong hình ảnh",
+  "consequences": "Genji trở thành nguồn đề tài cho nhiều hình thức hội họa và trang trí. Những bản chép và hình minh họa giúp theo dõi lịch sử đọc qua các thời kỳ.",
+  "refs": [
+    {
+      "url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Tale_of_Genji_A_Japanese_Classic_Illuminated.pdf",
+      "title": "The Met — The Tale of Genji: A Japanese Classic Illuminated",
+      "scope": "Nhật ký năm 1008 và nhận định tác phẩm còn đang hình thành."
+    },
+    {
+      "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Genji_A_Picture_Album.pdf",
+      "title": "The Met — Genji: A Picture Album",
+      "scope": "Lịch sử minh họa và ảnh hưởng trong nghệ thuật."
+    }
+  ],
+  "ref": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Tale_of_Genji_A_Japanese_Classic_Illuminated.pdf"
+},
     { id: 'ea-gom-men-ngoc-cao-ly-1123', y: 1123, ca: true, date: 'Thế kỷ XII', r: 'Triều Tiên', t: 'Gốm men ngọc Cao Ly', c: 'cul', imp: 1,
       d: 'Thợ gốm Cao Ly làm ra những chiếc bình men xanh ngọc (celadon) trong trẻo, nổi bật là kỹ thuật khảm (sanggam): khắc hoa văn lên xương gốm rồi lấp đầy bằng đất trắng, đất đỏ trước khi tráng men. Nghề gốm Cao Ly đạt đỉnh cao vào thế kỷ XII.',
       why: 'Gốm men ngọc Cao Ly được cả người Trung Hoa thời Tống khen ngợi và là niềm tự hào nghệ thuật của Hàn Quốc ngày nay.',
@@ -2324,10 +2364,27 @@ TL_DATA.push({
       d: 'Hốt Tất Liệt hai lần sai quân Nguyên và Cao Ly vượt biển đánh Nhật Bản, vào năm 1274 và 1281. Các samurai chống trả quyết liệt trên bờ biển Hakata, lần sau còn đắp cả tường đá dọc bờ biển. Cả hai lần, bão lớn đánh tan phần lớn hạm đội xâm lược; người Nhật gọi đó là kamikaze, “gió thần”.',
       why: 'Thất bại của Mông Cổ củng cố niềm tin rằng Nhật Bản được thần linh che chở, nhưng cũng khiến Mạc phủ Kamakura suy yếu vì không có đất đai để ban thưởng cho samurai.',
       vn: 'Năm 1286, Hốt Tất Liệt gác kế hoạch đánh Nhật lần thứ ba để dồn sức đánh Đại Việt. Thất bại ở Bạch Đằng năm 1288 khiến kế hoạch ấy không bao giờ thành hiện thực: Đại Việt đã gián tiếp “che chắn” cho Nhật Bản.' },
-    { id: 'ea-jikji-1377', ref: 'https://www.bnf.fr/en/jikji-treasure-world-printing', y: 1377, r: 'Triều Tiên', t: 'Jikji, sách in chữ kim loại cổ nhất', c: 'sci', imp: 2, place: 'Chùa Hưng Đức, Cheongju',
-      d: 'Năm 1377, chùa Hưng Đức (Heungdeok) ở Cheongju in cuốn Jikji, tuyển tập lời dạy của các thiền sư, bằng những con chữ rời đúc từ kim loại. Đây là cuốn sách in chữ kim loại cổ nhất còn tồn tại, ra đời trước Kinh Thánh của Gutenberg khoảng 78 năm.',
-      why: 'Cho thấy người Triều Tiên đã làm chủ kỹ thuật in chữ rời kim loại rất sớm, trước cả châu Âu.',
-      fun: 'Bản in chữ kim loại năm 1377 còn lại ở Thư viện Quốc gia Pháp là quyển thứ hai, không phải trọn bộ. Bản khắc gỗ đầy đủ năm 1378 được lưu giữ ở Hàn Quốc.' },
+    {
+  "id": "ea-jikji-1377",
+  "ref": "https://www.bnf.fr/en/jikji-treasure-world-printing",
+  "y": 1377,
+  "r": "Triều Tiên",
+  "t": "Jikji được in bằng chữ rời kim loại",
+  "c": "sci",
+  "imp": 2,
+  "place": "Chùa Hưng Đức, Cheongju",
+  "d": "Năm 1377, chùa Heungdeok tại Cheongju in Jikji bằng chữ rời kim loại đúc. Bản còn lại tại BnF tương ứng với quyển hai của tác phẩm.",
+  "fun": "Một bản Jikji đầy đủ in khắc gỗ năm 1378 được giữ ở Hàn Quốc. Nó là một ấn bản khác với quyển hai in chữ rời kim loại năm 1377 ở BnF.",
+  "consequencesTitle": "Hiện vật còn lại cho thấy kỹ thuật in sớm",
+  "consequences": "Jikji là bằng chứng quan trọng của truyền thống in chữ rời kim loại tại Triều Tiên, có trước bản Kinh Thánh Gutenberg gần tám thập kỷ.",
+  "refs": [
+    {
+      "url": "https://www.bnf.fr/en/jikji-treasure-world-printing",
+      "title": "BnF — Jikji, báu vật lịch sử in ấn",
+      "scope": "Bản kim loại 1377 còn quyển hai, bản khắc gỗ 1378 đầy đủ và so sánh niên đại Gutenberg."
+    }
+  ]
+},
     { id: 'ea-trieu-dai-joseon-1392', y: 1392, r: 'Triều Tiên', t: 'Lý Thành Quế lập triều Joseon', c: 'pol', imp: 3, who: 'Lý Thành Quế (Yi Seong-gye)', place: 'Hán Dương (Seoul)',
       d: 'Năm 1392, tướng Lý Thành Quế lật đổ nhà Cao Ly, lập vương triều mới lấy quốc hiệu là Triều Tiên (Joseon), rồi dời đô về Hán Dương, tức Seoul ngày nay. Nhà Joseon lấy Nho giáo làm nền tảng cai trị và tuyển chọn quan lại qua thi cử.',
       why: 'Joseon tồn tại hơn 500 năm, là một trong những vương triều lâu đời nhất thế giới và định hình văn hóa truyền thống của người Hàn.',
@@ -2906,12 +2963,28 @@ TL_DATA.push({
       d: 'Trong khoảng 60 năm, Anh ba lần đánh Miến Điện (1824–1826, 1852, 1885). Sau cuộc chiến cuối cùng, vua Thibaw bị bắt đi lưu đày ở Ấn Độ, Miến Điện bị sáp nhập thành một tỉnh của Ấn Độ thuộc Anh.',
       why: 'Hoàn tất việc Anh kiểm soát phía tây Đông Nam Á lục địa, tạo thế cạnh tranh với Pháp đang chiếm Đông Dương.',
       vn: 'Cũng trong những năm 1883–1885, Pháp buộc triều Nguyễn ký các hiệp ước Hác-măng và Pa-tơ-nốt: Miến Điện và Việt Nam mất độc lập gần như cùng lúc.' },
-    { id: 'sa-duong-sat-an-do-1853', y: 1853, date: '16/4/1853', r: 'Ấn Độ', t: 'Đường sắt chở khách đầu tiên ở châu Á', c: 'sci', imp: 1,
-      place: 'Bombay (Mumbai) – Thane',
-      d: 'Ngày 16/4/1853, đoàn tàu chở khách đầu tiên của Ấn Độ chạy khoảng 34 km từ Bombay (Mumbai) đến Thane với 14 toa. Người Anh xây đường sắt để chở bông, chè, ngũ cốc ra cảng và điều quân cho nhanh, nhưng nó cũng thay đổi hẳn cách người Ấn Độ đi lại, buôn bán.',
-      why: 'Đường sắt làm thay đổi kinh tế và xã hội Ấn Độ; ngày nay mạng đường sắt Ấn Độ thuộc loại lớn nhất thế giới.',
-      fun: 'Ba đầu máy kéo đoàn tàu đầu tiên có tên Sahib, Sultan và Sindh, nghe như ba nhân vật bước ra từ truyện cổ tích.',
-      vn: 'Việt Nam có tuyến đường sắt đầu tiên Sài Gòn – Mỹ Tho năm 1885; tuyến đường sắt Bắc – Nam hoàn thành năm 1936.' },
+    {
+  "id": "sa-duong-sat-an-do-1853",
+  "y": 1853,
+  "date": "16/4/1853",
+  "r": "Ấn Độ",
+  "t": "Chuyến tàu chở khách khai trương tuyến Bombay–Thane",
+  "c": "sci",
+  "imp": 1,
+  "place": "Bombay (Mumbai) – Thane",
+  "d": "Ngày 16/4/1853, đoàn tàu chở khách rời Bori Bunder ở Bombay, nay là Mumbai, để đến Thane. Indian Railways ghi nhận đây là mốc mở đầu dịch vụ đường sắt chở khách tại Ấn Độ.",
+  "fun": "Ba đầu máy tham gia chuyến khai trương mang tên Sahib, Sindh và Sultan. Hình ảnh một đầu máy kéo đoàn tàu không diễn tả đầy đủ đoàn tàu trong dịp này.",
+  "consequencesTitle": "Một tuyến ban đầu mở sang lịch sử mạng lưới",
+  "consequences": "Các tuyến ở những vùng khác tiếp tục được mở trong những năm sau. Mốc khai trương cần được đọc trong phạm vi cụ thể của dịch vụ hành khách tại Ấn Độ.",
+  "refs": [
+    {
+      "url": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/eff_res/camtech/Civil%20Engineering/SubjactWise/Induction%20Course%20of%20Track%20Maintainer%20-%20Part%20I%20Introduction%20-%20Aug%202024.pdf",
+      "title": "Indian Railways — Tài liệu nhập môn lịch sử đường sắt",
+      "scope": "Ngày 16/4/1853, tuyến Bombay–Thane, ba đầu máy và phạm vi dịch vụ chở khách."
+    }
+  ],
+  "ref": "https://nfr.indianrailways.gov.in/railwayboard/uploads/directorate/eff_res/camtech/Civil%20Engineering/SubjactWise/Induction%20Course%20of%20Track%20Maintainer%20-%20Part%20I%20Introduction%20-%20Aug%202024.pdf"
+},
     { id: 'sa-khoi-nghia-sepoy-1857', y: 1857, y2: 1858, r: 'Ấn Độ', t: 'Cuộc khởi nghĩa Sepoy', c: 'war', imp: 2,
       d: 'Năm 1857, binh lính người Ấn (sepoy) trong quân đội Công ty Đông Ấn nổi dậy; mồi lửa là tin đồn vỏ đạn mới được bôi mỡ bò và mỡ lợn, xúc phạm cả người Hindu lẫn người Hồi giáo. Cuộc nổi dậy lan khắp miền bắc, tôn hoàng đế Mughal già yếu làm thủ lĩnh, nhưng bị quân Anh đàn áp đẫm máu.',
       why: 'Năm 1858, Anh giải thể Công ty Đông Ấn, phế truất hoàng đế Mughal cuối cùng và chuyển sang trực tiếp cai trị Ấn Độ.',
@@ -4419,11 +4492,32 @@ TL_DATA.push({
     { id: 'eu-nato-1949', y: 1949, r: 'Tây Âu – Bắc Mỹ', t: 'NATO ra đời', c: 'pol', imp: 2,
       d: 'Mỹ, Canada và 10 nước Tây Âu lập Tổ chức Hiệp ước Bắc Đại Tây Dương (NATO), cam kết coi một cuộc tấn công vào một thành viên là tấn công vào tất cả. Năm 1955, Liên Xô và các nước Đông Âu lập khối Warsaw để đối trọng.',
       why: 'Hai khối quân sự đối đầu là hình ảnh rõ nhất của Chiến tranh Lạnh ở châu Âu.' },
-    { id: 'eu-adn-1953', y: 1953, r: 'Anh', t: 'Khám phá cấu trúc xoắn kép của ADN', c: 'sci', imp: 2, who: 'James Watson, Francis Crick, Rosalind Franklin',
-      d: 'Tại Đại học Cambridge, Watson và Crick dựng mô hình ADN có dạng hai sợi xoắn vào nhau như một chiếc thang xoắn. Họ dựa nhiều vào ảnh chụp tia X của nhà khoa học Rosalind Franklin ở London.',
-      why: 'Khám phá giải thích cách thông tin di truyền được lưu giữ và sao chép, mở đường cho y học, công nghệ sinh học và giải mã bộ gen người.',
-      fun: 'Hôm tìm ra mô hình, Crick bước vào quán rượu quen gần trường và tuyên bố họ vừa tìm ra “bí mật của sự sống”.',
-      alt: 'Franklin qua đời năm 1958 nên không được cùng nhận giải Nobel năm 1962; ngày nay vai trò của bà mới được ghi nhận đầy đủ hơn.' },
+    {
+  "id": "eu-adn-1953",
+  "y": 1953,
+  "r": "Anh",
+  "t": "Mô hình xoắn kép giúp giải thích cấu trúc ADN",
+  "c": "sci",
+  "imp": 2,
+  "who": "James Watson, Francis Crick, Rosalind Franklin, Maurice Wilkins",
+  "d": "Năm 1953, James Watson và Francis Crick đề xuất cấu trúc xoắn kép của ADN. Kết quả dựa vào nhiều nghiên cứu, trong đó công việc của Rosalind Franklin có vai trò quan trọng.",
+  "fun": "Năm tìm ra mô hình là 1953, còn Nobel Y học ghi nhận công trình được trao năm 1962 cho Watson, Crick và Maurice Wilkins. Franklin mất năm 1958.",
+  "consequencesTitle": "Cấu trúc gợi mở cách vật chất di truyền được sao chép",
+  "consequences": "Mô hình kết nối cấu trúc phân tử với những câu hỏi về lưu giữ và sao chép thông tin di truyền.",
+  "refs": [
+    {
+      "url": "https://www.nobelprize.org/stories/cells-nerves-genes/",
+      "title": "Nobel Prize — Khám phá cấu trúc ADN",
+      "scope": "Công trình năm 1953, đóng góp Franklin, năm mất và những người nhận giải năm 1962."
+    },
+    {
+      "url": "https://www.nobelprize.org/ceremonies/1993-opening-address",
+      "title": "Nobel Prize — Diễn văn khai mạc năm 1993",
+      "scope": "Cấu trúc xoắn kép và ý nghĩa với cơ chế sao chép."
+    }
+  ],
+  "ref": "https://www.nobelprize.org/stories/cells-nerves-genes/"
+},
     {
       "id": "eu-sputnik-1957",
       "y": 1957,
@@ -5142,11 +5236,28 @@ TL_DATA.push({
       why: 'Là bước tiến lớn của bình đẳng giới, dù phụ nữ da màu ở nhiều bang miền Nam còn bị cản trở đi bầu tới tận những năm 1960.',
       fun: 'Tu chính án được thông qua nhờ lá phiếu quyết định của nghị sĩ trẻ Harry Burn ở bang Tennessee, người đổi ý sau khi nhận thư của mẹ dặn “hãy là một cậu bé ngoan”.' },
 
-    { id: 'am-hollywood-1927', y: 1927, r: 'Hoa Kỳ', t: 'Phim có tiếng, thời hoàng kim Hollywood', c: 'cul', imp: 1,
-      place: 'Hollywood (California)',
-      d: 'Bộ phim “The Jazz Singer” năm 1927 có những đoạn thoại và tiếng hát khớp với hình, chấm dứt kỷ nguyên phim câm. Hollywood bước vào thời hoàng kim; năm 1928, chú chuột Mickey ra mắt trong phim hoạt hình có tiếng “Steamboat Willie”.',
-      why: 'Điện ảnh Mỹ trở thành ngành công nghiệp giải trí toàn cầu và là “quyền lực mềm” lớn của nước Mỹ.',
-      fun: 'Một trong những câu thoại đầu tiên vang lên là “Các bạn chưa nghe thấy gì đâu!”, và quả thật khán giả khi ấy chưa từng nghe phim nói bao giờ.' },
+    {
+  "id": "am-hollywood-1927",
+  "y": 1927,
+  "r": "Hoa Kỳ",
+  "t": "The Jazz Singer thúc đẩy bước chuyển sang phim có tiếng",
+  "c": "cul",
+  "imp": 1,
+  "place": "Hollywood (California)",
+  "d": "The Jazz Singer ra mắt ngày 6/10/1927, kết hợp phần lớn cảnh kể chuyện theo lối phim câm với âm nhạc, tiếng hát và một số đoạn thoại đồng bộ. Phim trở thành cột mốc thương mại trong quá trình chuyển đổi công nghệ của Hollywood.",
+  "fun": "The Jazz Singer chỉ có khoảng hai phút thoại thực sự. Bộ phim thường được gọi là “phim nói đầu tiên” lại phần lớn kể chuyện theo lối phim câm.",
+  "consequencesTitle": "Rạp chiếu và xưởng phim cùng phải thay đổi",
+  "consequences": "Thành công của phim thúc đẩy hãng Warner phát triển các dự án và hệ thống trình chiếu có âm thanh. Công nghệ này đã có nhiều thử nghiệm trước đó.",
+  "refs": [
+    {
+      "url": "https://www.loc.gov/static/programs/national-film-preservation-board/documents/jazz_singer.pdf",
+      "title": "Library of Congress — Ron Hutchinson viết về The Jazz Singer",
+      "scope": "Ra mắt ngày 6/10/1927, cấu trúc pha phim câm và thoại, thử nghiệm có trước, tác động thương mại."
+    }
+  ],
+  "ref": "https://www.loc.gov/static/programs/national-film-preservation-board/documents/jazz_singer.pdf",
+  "date": "6/10/1927"
+},
 
     { id: 'am-pho-wall-1929', y: 1929, date: '24–29/10/1929', r: 'Hoa Kỳ', t: 'Phố Wall sụp đổ', c: 'sci', imp: 3,
       place: 'Sở Giao dịch chứng khoán New York',
@@ -5154,11 +5265,32 @@ TL_DATA.push({
       why: 'Châm ngòi cho cuộc Đại khủng hoảng lan ra toàn thế giới, góp phần đưa các thế lực phát xít lên nắm quyền ở châu Âu.',
       vn: 'Khủng hoảng lan tới Đông Dương: giá lúa gạo, cao su tụt mạnh, đời sống nông dân và công nhân Việt Nam cực khổ, góp phần dẫn tới phong trào cách mạng 1930–1931.' },
 
-    { id: 'am-chinh-sach-moi-1933', y: 1933, r: 'Hoa Kỳ', t: 'Chính sách mới của Roosevelt', c: 'pol', imp: 2,
-      who: 'Franklin D. Roosevelt',
-      d: 'Nhậm chức giữa lúc khủng hoảng tồi tệ nhất, Tổng thống Franklin Roosevelt đưa ra hàng loạt biện pháp: cứu ngân hàng, mở công trình công cộng để tạo việc làm, lập bảo hiểm xã hội và trợ cấp thất nghiệp. Ông trò chuyện trực tiếp với người dân qua radio trong các buổi “nói chuyện bên lò sưởi”.',
-      why: 'Nhà nước bắt đầu đóng vai trò lớn trong điều tiết kinh tế và an sinh xã hội, mô hình ảnh hưởng tới nhiều nước sau này.',
-      fun: 'Roosevelt là tổng thống Mỹ duy nhất đắc cử 4 lần. Sau ông, Hiến pháp Mỹ được sửa (1951) để mỗi người chỉ làm tổng thống tối đa 2 nhiệm kỳ.' },
+    {
+  "id": "am-chinh-sach-moi-1933",
+  "y": 1933,
+  "r": "Hoa Kỳ",
+  "t": "Roosevelt triển khai Chính sách mới",
+  "c": "pol",
+  "imp": 2,
+  "who": "Franklin D. Roosevelt",
+  "d": "Sau khi nhậm chức tháng 3/1933 giữa Đại khủng hoảng, Franklin D. Roosevelt triển khai New Deal. Nhiều chương trình được xây dựng qua thời gian để ứng phó với khủng hoảng kinh tế và đời sống xã hội.",
+  "fun": "Tu chính án thứ 22 quy định số lần một người được bầu làm tổng thống, kèm điều kiện cho người kế nhiệm hơn hai năm nhiệm kỳ của người khác. Vì vậy quy tắc thường gọi là “hai nhiệm kỳ” có chi tiết pháp lý riêng.",
+  "consequencesTitle": "Một tên gọi bao gồm nhiều chương trình",
+  "consequences": "New Deal có các tổ chức và biện pháp ra đời ở những năm khác nhau, từ hỗ trợ và việc làm tới quản lý tài chính. Đánh giá kết quả cần xét từng chính sách và bối cảnh.",
+  "refs": [
+    {
+      "url": "https://www.fdrlibrary.org/great-depression-facts",
+      "title": "FDR Presidential Library — Great Depression Facts",
+      "scope": "Bối cảnh Đại khủng hoảng và New Deal."
+    },
+    {
+      "url": "https://www.archives.gov/founding-docs/amendments-11-27",
+      "title": "National Archives — Tu chính án 11–27",
+      "scope": "Điều kiện số lần được bầu tại Tu chính án 22, phê chuẩn 1951."
+    }
+  ],
+  "ref": "https://www.fdrlibrary.org/great-depression-facts"
+},
 
     { id: 'am-tran-chau-cang-1941', y: 1941, date: '7/12/1941', r: 'Hoa Kỳ', t: 'Trân Châu Cảng, Mỹ tham chiến', c: 'war', imp: 3,
       place: 'Trân Châu Cảng (Hawaii)',

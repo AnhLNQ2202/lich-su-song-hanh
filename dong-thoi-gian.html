@@ -649,7 +649,8 @@ summary.xs-h:focus-visible { outline: 2px solid var(--gold); }
 <div class="tip" id="tip" hidden></div>
 <div class="pop" id="pop" hidden></div>
 <div class="modal" id="quiz" hidden></div>
-<script src="history-data.js?v=stories-4"></script>
+<script src="history-data.js?v=chains-1"></script>
+<script src="reading-chains.js?v=chains-1"></script>
 
 <script>
 /* Lịch Sử Song Hành — dòng thời gian song song Việt Nam & thế giới */
@@ -1325,6 +1326,7 @@ summary.xs-h:focus-visible { outline: 2px solid var(--gold); }
         return target ? `<li><button type="button" class="ref" data-open="${esc(target.id)}"><span class="yr">${esc(fy(target.y ?? target.s ?? target.b))}</span><span><b>${esc(target.t || target.n)}</b><small>${esc(RELATION_NAMES[link.kind])} · ${esc(link.text)}</small></span></button></li>` : '';
       }).join('')}</ul></section>` : ''}
       ${relHTML(o)}
+      ${READING_CHAINS.some(chain=>chain.steps.some(step=>step.id===o.id)) ? `<details class="sec"><summary>Đọc nối mạch theo chủ đề</summary>${READING_CHAINS.filter(chain=>chain.steps.some(step=>step.id===o.id)).map(chain=>`<p><a class="btn" href="index.html?chain=${esc(chain.id)}#${esc(chain.steps[0].id)}" target="_top">${esc(chain.title)} · ${chain.steps.length} mốc →</a></p>`).join('')}</details>` : ''}
       ${sameTimeHTML(o.y, o.lane, 4)}
       ${o.refs?.length ? `<details class="sec"><summary>Nguồn đối chiếu</summary><ul>${o.refs.map(ref => `<li><a href="${esc(ref.url)}" target="_blank" rel="noopener">${esc(ref.title)} ↗</a><p>${esc(ref.scope)}</p></li>`).join('')}</ul></details>` : o.ref ? `<a class="btn" href="${esc(o.ref)}" target="_blank" rel="noopener">Nguồn tham khảo ↗</a>` : ''}
       ${navHTML(o)}

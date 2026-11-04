@@ -75,6 +75,10 @@ function refreshProgress() {
   $('mark-read').setAttribute('aria-pressed', String(read));
   $('next-unread').hidden = !next || next === current;
   if (next) $('next-unread').href = href(next);
+  document.querySelectorAll('[data-chain-read-count]').forEach(node=>{
+    const chain=READING_CHAINS.find(c=>c.id===node.dataset.chainReadCount);
+    node.textContent=chain.steps.filter(step=>finished.has(step.id)).length+' / '+chain.steps.length+' bài đã đọc';
+  });
 }
 function markRead() {
   const id = current.id;
@@ -942,16 +946,19 @@ window.addEventListener('message', event => {
   $('headline').scrollIntoView({block:'start'});
 });
 function updateRail() {
-  const index = timeline.indexOf(current);
+  const chain=activeReadingChain(current);
+  const sequence=chain?chain.steps.map(step=>catalog.get(step.id)):timeline;
+  const index = sequence.indexOf(current);
   const year = current.source.k ?? current.year;
-  const nextIndex = index>=0 ? index+1 : timeline.findIndex(e=>e.year>=year);
-  const pivot = nextIndex<0 ? timeline.length : nextIndex;
-  const stops = [['rail-before',timeline[index>=0?index-1:pivot-1],'← Trước'],['rail-after',timeline[pivot],'Sau →']];
+  const nextIndex = index>=0 ? index+1 : sequence.findIndex(e=>e.year>=year);
+  const pivot = nextIndex<0 ? sequence.length : nextIndex;
+  const stops = [['rail-before',sequence[index>=0?index-1:pivot-1],'← Trước'],['rail-after',sequence[pivot],'Sau →']];
   for(const [id,entry,label] of stops) {
     const link=$(id);
     link.hidden=!entry;
     if (!entry) continue;
-    link.href=href(entry);
+    link.href=chain?chainHref(chain,entry.id):href(entry);
+    link.toggleAttribute('data-chain-nav',Boolean(chain));
     link.innerHTML='<small>'+label+' · '+yearText(entry.year)+'</small><span>'+escapeHTML(entry.title)+'</span>';
   }
   $('year').textContent=yearText(year);
@@ -1025,7 +1032,8 @@ function eventEffects(item) {
   return '<section class="story-effects"><h2>'+escapeHTML(o.consequencesTitle||noteTitle(item.id,'why'))+'</h2>'+paragraphs(effect)+'</section>';
 }
 function relatedStory(item) {
-  const links=(item.source.related||[]).filter(link=>catalog.has(link.id));
+  const chain=activeReadingChain(item);
+  const links=(item.source.related||[]).filter(link=>catalog.has(link.id)&&!chain?.steps.some(step=>step.id===link.id));
   if(!links.length)return '';
   return '<section class="story-connections"><h2>Đọc thêm trong dòng thời gian</h2>'+links.map(link=>{
     const target=catalog.get(link.id);
@@ -1056,13 +1064,53 @@ $('body-copy').addEventListener('click',event=>{
   });
   block.querySelector('.reading-feedback').innerHTML='<b>'+(correct?'Đúng rồi.':'Đáp án là '+escapeHTML(q.choices[q.correct]))+'</b>'+paragraphs(q.why)+'<a href="'+escapeHTML(q.ref)+'" target="_blank" rel="noopener">Xem nguồn ↗</a>';
 });
+function activeReadingChain(item) {
+  const id=new URLSearchParams(location.search).get('chain');
+  return READING_CHAINS.find(chain=>chain.id===id&&chain.steps.some(step=>step.id===item?.id));
+}
+function chainHref(chain,id) {
+  const url=new URL(location.href);
+  if(chain)url.searchParams.set('chain',chain.id);
+  else url.searchParams.delete('chain');
+  url.hash=id;
+  return url.href;
+}
+function chainSteps(chain,item) {
+  return '<ol class="chain-steps">'+chain.steps.map((step,index)=>{
+    const entry=catalog.get(step.id);
+    const here=entry===item;
+    return '<li'+(here?' aria-current="step"':'')+'><span class="chain-step-number" aria-hidden="true">'+(index+1)+'</span><div><a data-chain-nav href="'+escapeHTML(chainHref(chain,entry.id))+'"'+(here?' aria-current="page"':'')+'><time>'+yearText(entry.year)+'</time> '+escapeHTML(entry.title)+'</a><p>'+escapeHTML(step.note)+'</p><a class="chain-source" href="'+escapeHTML(step.ref)+'" target="_blank" rel="noopener">Nguồn cho mối nối ↗</a></div></li>';
+  }).join('')+'</ol>';
+}
+function chainHTML(item) {
+  const chain=activeReadingChain(item);
+  if(chain){
+    const index=chain.steps.findIndex(step=>step.id===item.id);
+    const count=chain.steps.filter(step=>finished.has(step.id)).length;
+    return '<section class="reading-chain active-chain" aria-label="Chuỗi đang đọc"><details><summary><span class="chain-label">Mốc '+(index+1)+' / '+chain.steps.length+' trong chuỗi</span><strong class="chain-title">'+escapeHTML(chain.title)+'</strong><span class="chain-hint">Xem mối nối và các mốc</span></summary><p class="chain-note">'+escapeHTML(chain.steps[index].note)+'</p><p data-chain-read-count="'+chain.id+'">'+count+' / '+chain.steps.length+' bài đã đọc</p>'+chainSteps(chain,item)+'</details><a class="chain-exit" data-chain-nav href="'+escapeHTML(chainHref(null,item.id))+'">Trở về dòng thời gian →</a></section>';
+  }
+  return READING_CHAINS.filter(c=>c.steps.some(step=>step.id===item.id)).map(c=>
+    '<details class="reading-chain chain-offer"><summary><span class="chain-label">Đọc nối mạch · '+c.steps.length+' mốc</span><strong>'+escapeHTML(c.title)+'</strong></summary><p>'+escapeHTML(c.description)+'</p>'+chainSteps(c,item)+'<a class="chain-start" data-chain-nav href="'+escapeHTML(chainHref(c,c.steps[0].id))+'">Đọc từ mốc đầu →</a></details>').join('');
+}
+document.addEventListener('click',event=>{
+  const link=event.target.closest('a[data-chain-nav]');
+  if(!link||event.defaultPrevented||event.button!==0||event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;
+  event.preventDefault();
+  history.pushState(null,'',link.href);
+  render(true);
+});
+const chainMenu=document.createElement('details');
+chainMenu.className='reading-chain chain-menu';
+chainMenu.innerHTML='<summary>Đọc nối mạch theo một chủ đề</summary><ul>'+READING_CHAINS.map(chain=>'<li><a data-chain-nav href="'+escapeHTML(chainHref(chain,chain.steps[0].id))+'">'+escapeHTML(chain.title)+' <small>· '+chain.steps.length+' mốc</small></a></li>').join('')+'</ul>';
+$('home-progress').after(chainMenu);
+window.addEventListener('popstate',()=>{if(renderedURL!==location.href)render(true);});
 function article(item) {
   const o = item.source;
   const body = item.kind === 'np' ? o.bio : o.d;
   const meta = [o.topic, o.date, o.place, o.role, item.kind === 'np' ? yearText(o.b)+' – '+(o.d == null ? 'nay' : yearText(o.d)) : '', ['pd','gb'].includes(item.kind) ? yearText(o.s)+' – '+yearText(o.e) : ''].filter(Boolean);
   const notes = [[o.altTitle||noteTitle(item.id,'alt'),o.alt],['Liên hệ Việt Nam',o.vn],['Một dấu mốc đáng nhớ',o.act ? 'Năm '+yearText(o.k)+', '+o.n+' '+o.act+'.' : ''],['Cùng thời',o.same],['Bạn có biết?',o.fun]];
   return (meta.length ? '<p class="meta">'+escapeHTML(meta.join(' · '))+'</p>' : '')+
-    '<div class="prose">'+paragraphs(o.context)+paragraphs(body)+articleVisuals(item)+eventEffects(item)+notes.filter(([,v])=>v).map(([h,v])=>(h?'<h2>'+escapeHTML(h)+'</h2>':'')+paragraphs(v)).join('')+(item.kind==='sl' ? sliceNotes(item) : '')+relatedStory(item)+highlightHTML(item)+readingQuestion(item)+storyPeople(item)+'</div>'+exploreHTML(item)+articleSources(o)+'<details id="comparison-details" class="comparison-end"><summary>Cùng thời ở những nơi khác <span>Mở đối chiếu +</span></summary><div id="world" aria-label="Đối chiếu cuối bài"></div></details>';
+    (activeReadingChain(item)?chainHTML(item):'')+'<div class="prose">'+paragraphs(o.context)+paragraphs(body)+articleVisuals(item)+eventEffects(item)+notes.filter(([,v])=>v).map(([h,v])=>(h?'<h2>'+escapeHTML(h)+'</h2>':'')+paragraphs(v)).join('')+(item.kind==='sl' ? sliceNotes(item) : '')+(activeReadingChain(item)?'':chainHTML(item))+relatedStory(item)+highlightHTML(item)+readingQuestion(item)+storyPeople(item)+'</div>'+exploreHTML(item)+articleSources(o)+'<details id="comparison-details" class="comparison-end"><summary>Cùng thời ở những nơi khác <span>Mở đối chiếu +</span></summary><div id="world" aria-label="Đối chiếu cuối bài"></div></details>';
 }
 function comparisonItems(item) {
   if (item.kind === 'sl') return (item.source.ev || []).map(id=>catalog.get(id)).filter(Boolean);
@@ -1171,6 +1219,7 @@ function showWorld() {
   drawPlaceControls();
   $('comparison-details').ontoggle=()=>{if($('comparison-details').open)mountComparisonUI();};
 }
+let renderedURL='';
 function render(focus = false) {
   let id;
   try { id=decodeURIComponent(location.hash.slice(1)); } catch { id=''; }
@@ -1180,6 +1229,10 @@ function render(focus = false) {
     current=sliceAnchors.get(requestedHighlight);
     history.replaceState(null,'',href(current));
   }
+  if(new URLSearchParams(location.search).has('chain')&&!activeReadingChain(current)){
+    history.replaceState(null,'',chainHref(null,current?.id||''));
+  }
+  renderedURL=location.href;
   if(artDialog.open)artDialog.close();
   if (!current && !atlas.hidden) displayAtlas(false);
   refreshProgress();
@@ -1191,17 +1244,18 @@ function render(focus = false) {
     if (focus) { $('intro').focus({preventScroll:true}); window.scrollTo(0,0); }
     return;
   }
-  const sequence = timeline;
+  const activeChain=activeReadingChain(current);
+  const sequence = activeChain?activeChain.steps.map(step=>catalog.get(step.id)):timeline;
   const itemIndex=sequence.indexOf(current);
   const nextIndex=sequence.findIndex(e=>e.year>=(current.source.k??current.year));
   const index=itemIndex>=0?itemIndex:Math.max(0,(nextIndex<0?sequence.length:nextIndex)-1);
   const inTimeline = eventIds.has(current.id);
-  $('next').querySelector('b').textContent = inTimeline ? 'Đã đọc · tiếp' : 'Mốc tiếp';
+  $('next').querySelector('b').textContent = activeChain?(index===sequence.length-1?'Đã đọc · Kết thúc chuỗi':'Đã đọc · Mốc tiếp trong chuỗi'):inTimeline ? 'Đã đọc · tiếp' : 'Mốc tiếp';
   $('next').onclick = event => {
-    if (inTimeline && index < sequence.length-1 && !finished.has(current.id) && !event.ctrlKey && !event.metaKey && !event.shiftKey && !event.altKey) markRead();
+    if (inTimeline && (activeChain||index < sequence.length-1) && !finished.has(current.id) && !event.ctrlKey && !event.metaKey && !event.shiftKey && !event.altKey) markRead();
   };
   $('series').textContent = [labels[current.kind],regions.get(current.lane)].filter(Boolean).join(' · ');
-  $('number').textContent = String(index+1).padStart(2,'0')+' / '+String(sequence.length).padStart(2,'0');
+  $('number').textContent = String(index+1).padStart(2,'0')+' / '+String(sequence.length).padStart(2,'0')+(activeChain?' · trong chuỗi':'');
   updateRail();
   sendToAtlas(current.id);
   $('headline').textContent = current.title;
@@ -1211,7 +1265,9 @@ function render(focus = false) {
     if(highlight)highlight.open=true;
   }
   for (const [name,entry] of [['prev',sequence[index-1]],['next',sequence[index+1]]]) {
-    if (entry) { $(name).href=href(entry); $(name).setAttribute('aria-label',(name==='next'?(inTimeline?'Đánh dấu đã đọc và đến':'Mốc tiếp'):'Mốc trước')+' · '+entry.title); }
+    $(name).toggleAttribute('data-chain-nav',Boolean(activeChain));
+    if (entry) { $(name).href=activeChain?chainHref(activeChain,entry.id):href(entry); $(name).setAttribute('aria-label',(name==='next'?(inTimeline?'Đánh dấu đã đọc và đến':'Mốc tiếp'):'Mốc trước')+' · '+entry.title); }
+    else if(name==='next'&&activeChain) {$(name).href=chainHref(null,current.id);$(name).setAttribute('aria-label','Đánh dấu đã đọc và kết thúc chuỗi');}
     else $(name).removeAttribute('href');
   }
   for (const link of document.querySelectorAll('[data-atlas]')) link.href='dong-thoi-gian.html'+href(current);
@@ -1273,5 +1329,5 @@ $('results').onclick=e=>{
   if(e.target.closest('#more')) {const count=limit;limit+=50;results();$('results').children[count]?.focus();}
 };
 $('topic-filter').onchange=$('era-range').onchange=$('search').oninput=$('kind').onchange=()=>{limit=50;results();$('results').scrollTop=0};
-window.addEventListener('hashchange',()=>render(true));
+window.addEventListener('hashchange',()=>{if(renderedURL!==location.href)render(true);});
 render();
