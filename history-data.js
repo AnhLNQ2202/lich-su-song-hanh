@@ -79,10 +79,10 @@ TL_DATA.push({
   "c": "cul",
   "imp": 2,
   "place": "Tràng An, Ninh Bình",
-  "d": "Tại Tràng An, Ninh Bình, các lớp khảo cổ lưu giữ dấu vết con người sử dụng cảnh quan qua hơn 30.000 năm. Cư dân săn bắt, hái lượm đã thích nghi với những đợt thay đổi môi trường, trong đó có biển tiến. Mốc 3500 TCN chỉ là điểm đặt bài mở đầu trên timeline của trang, không phải năm con người bắt đầu sống ở Việt Nam.",
-  "fun": "Một địa điểm có dấu tích qua nhiều thời kỳ không có nghĩa một cộng đồng đã ở nguyên trong cùng một hang suốt hàng chục nghìn năm. Các lớp khảo cổ cần được đọc theo từng giai đoạn.",
-  "consequencesTitle": "Môi trường thay đổi, cách sống cũng thay đổi",
-  "consequences": "Chuỗi di tích cho phép theo dõi cách con người sử dụng hang động và nguồn thức ăn khi cảnh quan chuyển từ đất liền sang ven biển rồi lại thay đổi.",
+  "d": "Trước những trang sử về vua chúa, các hang động Tràng An đã giữ dấu chân người qua hơn 30.000 năm. Những cộng đồng săn bắt, hái lượm sống trong một cảnh quan nhiều lần thay đổi khi biển lấn vào rồi rút đi. Dấu tích họ để lại kể chuyện tìm thức ăn và thích nghi với môi trường quanh mình.",
+  "fun": "Cùng quần thể Tràng An còn có cố đô Hoa Lư thế kỷ X–XI. Một vùng đất giữ cả dấu người tiền sử lẫn kinh đô về sau, cách nhau hàng chục nghìn năm.",
+  "consequencesTitle": "Biển thay đổi, cách kiếm sống cũng đổi theo",
+  "consequences": "Các lớp khảo cổ cho thấy con người sử dụng hang động và nguồn thức ăn qua nhiều giai đoạn. Mốc 3500 TCN chỉ đặt bài ở đầu dòng thời gian; dấu tích người tại đây cổ hơn nhiều.",
   "refs": [
     {
       "url": "https://whc.unesco.org/en/list/1438/",
@@ -1868,16 +1868,16 @@ TL_DATA.push({
   "y": -3500,
   "y2": -2000,
   "ca": true,
-  "date": "Các giai đoạn thời đá mới; mốc tham chiếu 3500 TCN",
+  "date": "Một phần thời đá mới; mốc tham chiếu 3500 TCN",
   "r": "Trung Quốc",
   "t": "Những cộng đồng thời đá mới ở lưu vực sông lớn",
   "c": "cul",
   "imp": 1,
   "place": "Lưu vực Hoàng Hà và Trường Giang",
-  "d": "Tại các lưu vực Hoàng Hà và Trường Giang, nhiều cộng đồng thời đá mới phát triển đời sống định cư dựa vào trồng trọt và vật nuôi. Ngưỡng Thiều nổi bật với gốm vẽ màu; các văn hóa ở phía đông và hạ lưu Trường Giang để lại những truyền thống gốm và chế tác ngọc khác nhau. Mốc 3500 TCN là điểm tham chiếu trong một quá trình dài.",
-  "consequencesTitle": "Nhiều truyền thống cùng góp vào văn hóa về sau",
-  "consequences": "Các cộng đồng phát triển đặc điểm riêng và có trao đổi với nhau. Những hình dáng đồ đựng, kỹ thuật trang trí và đồ ngọc tiếp tục xuất hiện trong nghệ thuật các giai đoạn sau.",
-  "fun": "Ngọc không được đẽo dễ dàng bằng dao: nghệ nhân phải dùng chất mài như cát thô để tạo hình và đánh bóng. Độ tinh xảo của hiện vật phản ánh nhiều công sức và kỹ năng.",
+  "d": "Dọc Hoàng Hà và Trường Giang, những cộng đồng thời đá mới sống định cư với cây trồng và vật nuôi. Họ làm ra những đồ dùng vừa đáp ứng sinh hoạt vừa mang kiểu dáng riêng: gốm vẽ màu ở Ngưỡng Thiều, những truyền thống gốm và ngọc khác ở phía đông và hạ lưu Trường Giang.",
+  "consequencesTitle": "Cách làm đồ vật được gìn giữ và trao đổi",
+  "consequences": "Các cộng đồng có nét riêng nhưng vẫn giao lưu. Dáng đồ đựng, cách trang trí và đồ ngọc tiếp tục xuất hiện trong nghệ thuật về sau.",
+  "fun": "Ngọc quá dai và cứng để chỉ cầm dao rồi đẽo thành hình. Nghệ nhân dùng chất mài như cát để tạo dáng và đánh bóng. Một món đồ nhỏ, bề mặt nhẵn đẹp có thể chứa rất nhiều giờ kiên nhẫn.",
   "refs": [
     {
       "url": "https://www.metmuseum.org/de/essays/neolithic-period-in-china",
@@ -2579,11 +2579,11 @@ TL_DATA.push({
     {
   "id": "ea-p-jomon",
   "s": -3500,
-  "e": -300,
-  "t": "Thời Jomon",
+  "e": -400,
+  "t": "Jōmon ở miền bắc Nhật Bản",
   "g": "a",
   "r": "Nhật Bản",
-  "d": "Khung hiển thị này chỉ bao quát một phần thời Jōmon. Nhóm di chỉ UNESCO ở miền bắc có bằng chứng định cư, săn bắt, hái lượm và đánh cá sớm hơn nhiều.",
+  "d": "Rừng, sông và biển nuôi sống những cộng đồng định cư bằng săn bắt, đánh cá, hái lượm. Khoảng 3500–400 TCN được hiển thị ở đây là một đoạn của lịch sử Jōmon miền bắc, vốn có dấu tích sớm hơn nhiều.",
   "ca": true,
   "ref": "https://whc.unesco.org/en/decisions/7956/",
   "refs": [
@@ -2669,10 +2669,10 @@ TL_DATA.push({
   "t": "Jōmon: định cư trước nền nông nghiệp thâm canh",
   "c": "cul",
   "imp": 2,
-  "d": "Nhóm 17 di chỉ Jōmon ở miền bắc Nhật Bản được UNESCO ghi danh lưu giữ bằng chứng về các cộng đồng định cư, săn bắt, đánh cá và hái lượm trong khoảng 13.000–400 TCN. Đây là phạm vi niên đại của nhóm di chỉ ấy; không phải một khung duy nhất áp dụng cho mọi vùng Nhật Bản. Mốc 3500 TCN dùng để đặt bài trên timeline.",
-  "fun": "Ngoài đồ gốm, nhóm di chỉ còn có tượng đất sét dogū, mộ táng và các vòng đá. Dấu tích Jōmon vì thế kể cả chuyện sinh hoạt lẫn nghi lễ.",
-  "consequencesTitle": "Có nhiều con đường dẫn tới đời sống định cư",
-  "consequences": "Nguồn thức ăn từ rừng, sông và biển có thể hỗ trợ những cộng đồng ở lâu dài. Các di tích này giúp xem xét định cư mà không mặc định phải đi kèm nông nghiệp thâm canh.",
+  "d": "Có phải cứ muốn sống lâu dài ở một nơi thì phải làm ruộng? Nhóm di chỉ Jōmon miền bắc Nhật Bản kể một con đường khác: cư dân săn bắt, đánh cá và hái lượm vẫn tạo nên những cộng đồng định cư. Rừng có hạt, sông biển có nguồn thức ăn, còn dấu nhà và nơi nghi lễ cho thấy đời sống được tổ chức qua nhiều thế hệ.",
+  "fun": "Tượng đất sét dogū, các khu mộ và vòng đá cho thấy cộng đồng còn có đời sống nghi lễ phong phú. Chuyện tiền sử không chỉ là hôm nay kiếm được gì để ăn.",
+  "consequencesTitle": "Nguồn thức ăn mở ra nhiều cách sống",
+  "consequences": "UNESCO ghi nhận 17 di chỉ trải từ khoảng 13.000–400 TCN ở miền bắc. Mốc 3500 TCN đặt bài trong quãng dài ấy, không đại diện toàn bộ thời Jōmon của Nhật Bản.",
   "refs": [
     {
       "url": "https://whc.unesco.org/en/decisions/7956/",
@@ -4235,23 +4235,18 @@ TL_DATA.push({
   "t": "Chữ viết phát triển ở miền nam Lưỡng Hà",
   "c": "cul",
   "imp": 3,
-  "d": "Khoảng 3200 TCN, chữ viết xuất hiện ở miền nam Lưỡng Hà. Qua thời gian, người viết dùng đầu bút ấn các nét hình nêm lên đất sét; hệ chữ này được sử dụng cho nhiều ngôn ngữ và nhiều loại văn bản. Cần phân biệt giai đoạn ký hiệu sớm với những dạng chữ hình nêm phát triển về sau.",
-  "fun": "Một dấu chữ hình nêm có thể mang giá trị cả từ hoặc âm tiết. Hình dáng giống nhau của các nét không có nghĩa hệ chữ chỉ là một bộ chữ cái.",
-  "consequencesTitle": "Thông tin có thể được lưu ngoài trí nhớ",
-  "consequences": "Văn bản giúp lưu sổ sách, thư từ và những nội dung dài. Những bảng đất sét còn lại cho phép nghiên cứu cả việc quản lý lẫn đời sống tinh thần.",
+  "d": "Ở Uruk cuối thiên niên kỷ IV TCN, người ta ghi thông tin kinh tế lên đất sét. Qua thời gian, đầu bút sậy được ấn xuống để tạo các nét hình nêm. Những dấu chữ dần ghi được cả từ và âm, mở rộng những điều người viết có thể diễn đạt.",
+  "fun": "Một hình có thể được mượn để ghi âm của từ khác, thay vì chỉ gọi đúng vật được vẽ. Hệ chữ phát triển nhờ bước chuyển ấy: người đọc phải biết cả ngôn ngữ, chứ nhìn tranh đoán ý thôi chưa đủ.",
+  "consequencesTitle": "Từ ghi số hàng đến giữ những câu chuyện dài",
+  "consequences": "Đến giữa thiên niên kỷ III TCN, chữ hình nêm được dùng cho nhiều văn bản kinh tế, tôn giáo, chính trị, văn chương và tri thức. Một kỹ thuật ghi chép đi vào nhiều mặt đời sống.",
   "refs": [
     {
-      "url": "https://www.britishmuseum.org/sites/default/files/2019-09/Visit_Mesopotamia_KS2b.pdf",
-      "title": "British Museum — Mesopotamia",
-      "scope": "Mốc xuất hiện chữ viết khoảng 3200 TCN tại miền nam Lưỡng Hà."
-    },
-    {
-      "url": "https://www.britishmuseum.org/sites/default/files/2019-10/Babylon_Teachers_Resource.pdf",
-      "title": "British Museum — Babylon: tài liệu giáo dục",
-      "scope": "Bảng đất sét, cách tạo dấu, giá trị từ và âm tiết, các loại văn bản."
+      "url": "https://www.metmuseum.org/de/essays/the-origins-of-writing",
+      "title": "Ira Spar, The Met — Nguồn gốc chữ viết",
+      "scope": "Bảng Uruk giai đoạn 3200–3000 TCN, ghi kinh tế, bút sậy, dấu hình nêm, ghi âm và những loại văn bản về sau."
     }
   ],
-  "ref": "https://www.britishmuseum.org/sites/default/files/2019-09/Visit_Mesopotamia_KS2b.pdf"
+  "ref": "https://www.metmuseum.org/de/essays/the-origins-of-writing"
 },
 
     {
@@ -4263,10 +4258,10 @@ TL_DATA.push({
   "t": "Chữ tượng hình trong buổi đầu Ai Cập cổ đại",
   "c": "cul",
   "imp": 2,
-  "d": "Chữ viết Ai Cập hình thành vào cuối thiên niên kỷ IV TCN; hệ chữ tượng hình đã có những quy tắc ổn định trước khoảng 3000 TCN. Các dấu có thể ghi nghĩa, ghi âm hoặc giúp xác định nhóm nghĩa. Vì vậy, đọc văn bản không chỉ là nhìn hình rồi đoán tên đồ vật.",
-  "fun": "Chữ tượng hình có các dấu ghi phụ âm. Một hình vẽ có thể tham gia ghi âm của một từ, chứ không nhất thiết nói về chính con vật hay đồ vật được vẽ.",
-  "consequencesTitle": "Chữ viết gắn hình ảnh với ngôn ngữ",
-  "consequences": "Hệ chữ cho phép thể hiện tên người, thông điệp và nội dung nghi lễ bằng sự phối hợp của nhiều loại dấu.",
+  "d": "Cuối thiên niên kỷ IV TCN, người Ai Cập hình thành một hệ chữ vừa đẹp mắt vừa có quy tắc. Có dấu ghi nghĩa, dấu ghi âm và dấu giúp làm rõ nhóm nghĩa. Nhờ phối hợp chúng, người viết diễn đạt được tên người và những điều trừu tượng, vượt xa việc vẽ một con vật để chỉ con vật ấy.",
+  "fun": "Muốn biết bắt đầu đọc từ bên nào, hãy nhìn hướng mặt người và con vật. Chúng quay sang phải thì đọc từ phải vào; quay sang trái thì đọc từ trái. Nhân vật trong hàng chữ đang “chỉ đường” cho bạn.",
+  "consequencesTitle": "Hình ảnh trở thành công cụ của ngôn ngữ",
+  "consequences": "Trước khoảng 3000 TCN, các quy tắc và dấu chữ đã dần ổn định. Hệ chữ đi vào thông điệp, tên tuổi và nội dung nghi lễ.",
   "refs": [
     {
       "url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Art_of_Ancient_Egypt_A_Resource_for_Educators.pdf",
@@ -4286,16 +4281,21 @@ TL_DATA.push({
   "t": "Ai Cập hợp nhất vào thời những pharaoh đầu tiên",
   "c": "pol",
   "imp": 3,
-  "d": "Khoảng năm 3100 TCN, Ai Cập bước vào giai đoạn thống nhất dưới quyền một pharaoh. Tài liệu lịch sử liên hệ giai đoạn đầu vương triều với Narmer và Aha; tên Menes xuất hiện trong truyền thống về người sáng lập.",
-  "fun": "Tài liệu về Ai Cập cổ có thể chênh nhau hàng chục năm ở một số niên đại. Con số 3100 TCN biểu thị khoảng thời gian, không phải một năm thống nhất được ghi nhận chính xác.",
-  "consequencesTitle": "Từ nhiều vùng cư trú đến nhà nước vương triều",
-  "consequences": "Quá trình thống nhất mở đầu một giai đoạn tổ chức quyền lực và văn hóa vật chất có thể được khảo sát qua hiện vật và di tích.",
-  "ref": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Art_of_Ancient_Egypt_A_Resource_for_Educators.pdf",
+  "d": "Khoảng 3100 TCN, quá trình hợp nhất Thượng và Hạ Ai Cập đưa đất nước vào thời các vương triều đầu. Một trong những chặng cuối thường gắn với Narmer. Memphis hình thành như trung tâm mới, còn quyền nhà vua được củng cố qua nhiều bước.",
+  "fun": "Trên một mặt bảng đá, Narmer đội vương miện đỏ; ở mặt kia là vương miện trắng. Cùng một vị vua, hai cách xuất hiện — chi tiết trang phục cũng có thể mang một thông điệp chính trị.",
+  "consequencesTitle": "Quyền lực cần một hình ảnh để được nhận ra",
+  "consequences": "Bảng đá Narmer thường được diễn giải là hình ảnh về sự thống nhất. Nhà vua xuất hiện với hai loại vương miện gắn với Thượng và Hạ Ai Cập, biến quyền cai trị thành điều người xem có thể nhìn thấy.",
+  "ref": "https://egymonuments.gov.eg/historical-periods/early-dynastic-period/",
   "refs": [
     {
-      "url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Art_of_Ancient_Egypt_A_Resource_for_Educators.pdf",
-      "title": "The Met — Nghệ thuật Ai Cập cổ",
-      "scope": "Niên đại và những nhận định trong bài được biên tập lại theo tài liệu này."
+      "url": "https://egymonuments.gov.eg/historical-periods/early-dynastic-period/",
+      "title": "Bộ Du lịch và Cổ vật Ai Cập — Sơ kỳ vương triều",
+      "scope": "Khoảng 3100 TCN, hợp nhất dần, Narmer và Memphis."
+    },
+    {
+      "url": "https://egymonuments.gov.eg/collections/narmer-palette-1/",
+      "title": "Bộ Du lịch và Cổ vật Ai Cập — Bảng đá Narmer",
+      "scope": "Hai loại vương miện, khung khoảng 3100 TCN và cách diễn giải cảnh thống nhất."
     }
   ]
 },
@@ -4309,10 +4309,10 @@ TL_DATA.push({
   "t": "Người Ai Cập sử dụng lịch dân sự 365 ngày",
   "c": "sci",
   "imp": 2,
-  "d": "Chậm nhất vào khoảng 2450 TCN, và có thể sớm hơn vài thế kỷ, người Ai Cập đã có lịch dân sự gồm 12 tháng, mỗi tháng 30 ngày, thêm 5 ngày ngoài các tháng thường. Nguồn hiện có không cho phép ấn định chắc chắn một năm phát minh.",
-  "fun": "Năm 365 ngày ngắn hơn năm thiên văn, nên các mùa trong lịch dần lệch khỏi mùa ngoài tự nhiên. Một lịch có tên mùa nông nghiệp chưa chắc luôn khớp với thời tiết thực tế.",
-  "consequencesTitle": "Một khuôn lịch chung để ghi ngày tháng",
-  "consequences": "Ngày chính thức được ghi theo ngày, tháng và mùa. Ba mùa của lịch mang tên gắn với nước lên, đất lộ và thu hoạch, mỗi mùa gồm bốn tháng.",
+  "d": "Mười hai tháng, mỗi tháng ba mươi ngày: mới được 360 ngày, còn năm ngày nữa nằm ngoài các tháng thường. Đó là cấu trúc lịch dân sự Ai Cập đã có ít nhất từ khoảng 2450 TCN, có thể sớm hơn. Ba mùa mang tên gắn với nước lên, đất lộ và thu hoạch, mỗi mùa bốn tháng.",
+  "fun": "Một ngày được ghi kiểu “ngày 15, tháng 3 của mùa nước lên”. Nghe rất sát đồng ruộng, nhưng đến khi lịch lệch mùa, tên gọi không bảo đảm lúc ấy nước thực sự đang lên.",
+  "consequencesTitle": "Lịch giúp ghi ngày, nhưng cũng có thể lệch mùa",
+  "consequences": "Năm lịch dài 365 ngày ngắn hơn năm thiên văn, nên độ lệch tích lại theo thời gian. Ngày tháng dùng để ghi việc vẫn tiếp tục, còn mùa ngoài tự nhiên có thể trôi khỏi tên mùa trên lịch.",
   "refs": [
     {
       "url": "https://www.metmuseum.org/ja/essays/telling-time-in-ancient-egypt",
@@ -5204,7 +5204,7 @@ TL_DATA.push({
   "t": "Văn minh Crete – Mycenae",
   "g": "b",
   "r": "Hy Lạp",
-  "d": "Các trung tâm cung điện phát triển trên Crete khoảng 1900 TCN. Từ khoảng 1500 TCN, ảnh hưởng Mycenae từ lục địa tăng lên; hiện vật thể hiện sự pha trộn phong cách. Không nên coi đây là một nền văn minh đơn nhất chỉ lan theo một chiều.",
+  "d": "Khoảng 1900 TCN, các trung tâm cung điện phát triển trên Crete, gắn quyền lực với hoạt động kinh tế và nghệ thuật. Từ khoảng 1500 TCN, ảnh hưởng Mycenae từ lục địa tăng lên. Đồ gốm pha trộn kiểu dáng cho thấy những truyền thống gặp nhau. Khung 2000–1100 TCN ở đây bao quát một phần câu chuyện giao lưu ấy.",
   "ca": true,
   "ref": "https://www.metmuseum.org/essays/minoan-crete",
   "refs": [
@@ -6407,7 +6407,7 @@ TL_DATA.push({
   "t": "Văn minh Caral – Norte Chico",
   "g": "b",
   "r": "Peru",
-  "d": "Khung niên đại xấp xỉ cho các trung tâm cổ ở vùng Supe, Peru. Caral-Supe có kiến trúc nền cao và quảng trường tròn lõm, cung cấp bằng chứng về tổ chức cộng đồng trong thiên niên kỷ III TCN.",
+  "d": "Tại Caral-Supe ở Peru, những nền kiến trúc lớn và quảng trường tròn lõm ghi dấu một xã hội đô thị sớm. Khung khoảng 3000–1800 TCN theo kết quả định tuổi của dự án khảo cổ bao quát lịch sử phát triển di tích.",
   "ca": true,
   "ref": "https://whc.unesco.org/en/list/1269/",
   "refs": [
@@ -6471,10 +6471,10 @@ TL_DATA.push({
   "c": "cul",
   "imp": 2,
   "place": "Thung lũng sông Supe, Peru",
-  "d": "Caral-Supe ở Peru là một di tích khoảng 5.000 năm tuổi, với các công trình đắp nền, không gian nghi lễ và quảng trường tròn lõm. Di tích nằm trong thung lũng Supe. Năm 2600 TCN là mốc tham chiếu cho giai đoạn phát triển của đô thị.",
-  "fun": "UNESCO mô tả Caral là ví dụ phát triển phức tạp của nền văn minh sớm ở thung lũng Supe. Cụm “thành phố cổ nhất châu Mỹ” cần đi kèm phạm vi và bằng chứng khảo cổ cụ thể.",
-  "consequencesTitle": "Đô thị có thể hình thành qua những không gian chung",
-  "consequences": "Quy mô kiến trúc và bố cục cho phép tìm hiểu tổ chức xã hội thời kỳ đầu của văn minh trong thung lũng.",
+  "d": "Ở thung lũng Supe của Peru, Caral có những nền kiến trúc lớn và quảng trường tròn thấp hơn mặt đất xung quanh. Bố cục công trình cho thấy các không gian chung và nghi lễ có vai trò đáng kể. Khoảng 2600 TCN đặt bài trong lịch sử di tích được xác định vào khoảng 3000–1800 TCN.",
+  "fun": "Theo UNESCO, việc di tích không có những phát hiện vàng bạc góp phần khiến nó ít bị đào trộm. Đôi khi điều người săn kho báu không thấy hấp dẫn lại giúp giữ một kho tư liệu lịch sử.",
+  "consequencesTitle": "Nhìn tổ chức cộng đồng qua cách xây không gian",
+  "consequences": "Quy mô và cách bố trí công trình giúp tìm hiểu một xã hội đô thị sớm. Những phần dành cho nghi lễ còn gợi vai trò tín ngưỡng trong đời sống chung.",
   "ref": "https://whc.unesco.org/en/list/1269/",
   "refs": [
     {
@@ -9473,7 +9473,7 @@ TL_SLICES.push(
   "id": "sl-2560tcn",
   "y": -2560,
   "t": "Thiên niên kỷ III TCN: những công trình qua nhiều thế hệ",
-  "d": "Ở Giza, các vua Ai Cập cho xây kim tự tháp; tại Caral-Supe, Peru, có những nền kiến trúc lớn và quảng trường tròn lõm. Stonehenge ở Anh trải qua nhiều giai đoạn xây dựng, với vòng hào khoảng 3000 TCN và đá lớn khoảng 2500 TCN. Các mốc này là xấp xỉ, không có nghĩa mọi công trình xuất hiện cùng một năm. Đặt cạnh nhau giúp thấy những cộng đồng khác nhau tổ chức không gian chung theo những cách khác nhau; riêng sự gần nhau về thời gian chưa chứng minh họ có liên hệ trực tiếp.",
+  "d": "Trong thiên niên kỷ III TCN, nhìn sang ba nơi sẽ thấy ba cách tạo nên không gian lớn: những kim tự tháp Giza ở Ai Cập; nền cao và quảng trường tròn lõm ở Caral-Supe, Peru; rồi các chặng dựng Stonehenge tại Anh. Chúng được xây qua nhiều thế hệ, với những mốc khác nhau. Đặt cạnh nhau giúp thấy nhiều cộng đồng cùng có nhu cầu tổ chức không gian chung; thời gian gần nhau chưa cho biết họ có liên hệ trực tiếp.",
   "ev": [
     "wa-kim-tu-thap-giza-2560tcn",
     "eu-stonehenge-2500tcn",
@@ -13014,27 +13014,26 @@ TL_DATA.push({
   "periods": [],
   "events": [
     {
-      "id": "sa-dholavira-3000tcn",
-      "y": -3000,
-      "t": "Dholavira xây dựng đô thị giữa vùng khô hạn",
-      "c": "cul",
-      "imp": 1,
-      "context": "Văn minh Harappa hình thành nhiều đô thị tại Nam Á. Dholavira nằm trên đảo Khadir, nơi nguồn nước có tính mùa vụ.",
-      "d": "Di tích ghi nhận cư trú khoảng 3000–1500 TCN. Thành có các khu vực phân chia, đường phố, nơi ở và hệ thống trữ, quản lý nước. Năm 3000 TCN là mốc tham chiếu cho khoảng cư trú.",
-      "consequencesTitle": "Đời sống đô thị cần giữ được nước",
-      "consequences": "Hệ thống nước cho thấy cách cư dân tổ chức một điều kiện thiết yếu để sinh sống ở môi trường khô. Xưởng chế tác và hiện vật còn giúp tìm hiểu sản xuất và trao đổi.",
-      "ref": "https://whc.unesco.org/en/list/1645",
-      "refs": [
-        {
-          "url": "https://whc.unesco.org/en/list/1645",
-          "title": "UNESCO — Dholavira",
-          "scope": "Khoảng cư trú, môi trường khô, quy hoạch, quản lý nước và nghề chế tác."
-        }
-      ],
-      "ca": true,
-      "date": "Khoảng 3000–1500 TCN",
-      "fun": "Các nhà khảo cổ tìm thấy dấu vết làm hạt chuỗi và đồ bằng vỏ sò, đá, kim loại. Một đô thị cổ được nhận ra cả qua những xưởng sản xuất nhỏ."
-    },
+  "id": "sa-dholavira-3000tcn",
+  "y": -3000,
+  "t": "Dholavira xây dựng đô thị giữa vùng khô hạn",
+  "c": "cul",
+  "imp": 1,
+  "d": "Xây một đô thị ở nơi khô hạn, việc đầu tiên phải tính là nước. Dholavira trên đảo Khadir có hai dòng chảy theo mùa và hệ thống giữ, quản lý nguồn nước khan hiếm. Trong khoảng cư trú 3000–1500 TCN, cư dân còn xây đường, nhà và những khu vực được tổ chức riêng.",
+  "consequencesTitle": "Giữ được nước mới giữ được đời sống đô thị",
+  "consequences": "Hệ thống nước cho thấy cách cộng đồng xoay xở với môi trường khắc nghiệt. Các xưởng và hiện vật đồng thời kể chuyện sản xuất, giao thương với những nơi khác.",
+  "ref": "https://whc.unesco.org/en/list/1645",
+  "refs": [
+    {
+      "url": "https://whc.unesco.org/en/list/1645",
+      "title": "UNESCO — Dholavira",
+      "scope": "Khoảng cư trú, môi trường khô, quy hoạch, quản lý nước và nghề chế tác."
+    }
+  ],
+  "ca": true,
+  "date": "Khoảng 3000–1500 TCN",
+  "fun": "Dấu vết xưởng làm hạt chuỗi và hiện vật bằng vỏ sò, đá, kim loại cùng nằm trong câu chuyện Dholavira. Đằng sau bức tường thành còn có những người thợ làm ra các món rất nhỏ."
+},
     {
       "id": "sa-ajanta-200tcn",
       "y": -200,

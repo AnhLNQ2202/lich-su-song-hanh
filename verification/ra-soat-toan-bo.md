@@ -2,18 +2,21 @@
 
 Cập nhật 04/11/2026. Có 1407 mục, 51 câu đố và 7 chuỗi đọc. Mục tiêu còn đang thực hiện.
 
-- 237 mục đã có hồ sơ đối chiếu theo phạm vi nguồn; 1170 mục chưa có đối chiếu từng nhận định.
-- Trong số trên, 75 mục đã qua lượt biên tập từng trường hiển thị của đợt hiện tại; 1332 mục chưa qua bước này. Các hồ sơ cũ không tự được tính là hoàn tất bước mới.
-- Câu đố và chuỗi đọc sẽ được rà nội dung lại sau khi những bài nguồn tương ứng đã được kiểm chứng. Kiểm thử hoạt động không thay thế việc này.
+- 237 mục có hồ sơ đối chiếu theo phạm vi nguồn; 1170 mục chưa có đối chiếu từng nhận định.
+- 88 mục đã qua lượt biên tập từng trường hiển thị hiện tại; 1319 mục chưa qua bước này. Hồ sơ theo phạm vi nguồn ở đợt cũ không tự được tính là hoàn tất bước mới.
+- 88 mục trong nhóm hiện tại đã được biên tập theo giọng kể dễ hiểu, nối sự việc với ý nghĩa và điểm thêm chi tiết hóm hỉnh có cơ sở.
+- Câu đố và chuỗi đọc cần được rà nội dung lại sau khi bài nguồn tương ứng đã được kiểm chứng. Kiểm thử hoạt động không thay thế việc này.
 
-Hồ sơ chi tiết: kiem-chung-tung-muc.json và claim-audit-ledger.json. Ledger lưu nguồn, quyết định sửa, bất định và dấu SHA để phát hiện nội dung đã đổi sau đối chiếu.
+Hồ sơ chi tiết: kiem-chung-tung-muc.json và claim-audit-ledger.json. Ledger lưu nguồn, quyết định sửa, bất định và SHA để phát hiện thay đổi sau đối chiếu.
 
-## Đã phát hiện và xử lý trong lượt hiện tại
+## Những vấn đề đã xử lý
 
-Bỏ việc dùng năm trị vì làm năm sinh để tính tuổi Khufu, Sargon, Hammurabi và Hatshepsut. Giao diện đọc, đối chiếu React và timeline ghi khung hoạt động và không suy ra tuổi. Những trường hợp này cũng được loại khỏi câu đố tự sinh so sánh năm sinh.
+Tách khung trị vì khỏi năm sinh của những vua cổ đại chưa có niên đại tiểu sử đáng tin. Giao diện đọc, đối chiếu React và timeline không suy tuổi từ các khung này. Niên đại truyền thống còn tranh luận của Đức Phật cũng không dùng để tính tuổi chính xác.
 
-Đã biên tập Ötzi, các giai đoạn Ai Cập, tiểu sử các vua nêu trên, văn minh sông Ấn và phần thời kỳ, bia Hammurabi, giấy cói Edwin Smith, Đồng Đậu–Gò Mun, các thành bang Sumer và Ur III. Không dùng những nhãn như “kho thóc” như chức năng đã được chứng minh; các mốc cổ đại nêu rõ tính xấp xỉ và hệ niên đại.
+Đối chiếu và biên tập các nhóm tiền sử, Ai Cập, Lưỡng Hà, sông Ấn, văn hóa khảo cổ Việt Nam, chữ viết, các truyền thống tư tưởng và nhiều trung tâm nghệ thuật cổ. Sửa mốc đầu Tân Babylon và Achaemenid; phân biệt trận Kadesh với hòa ước về sau, truyền thuyết Rome với ngày lập thành được chứng minh, giai đoạn nhiếp chính với địa vị vua của Hatshepsut. Phạm vi miền bắc trong bài và thời kỳ Jōmon được ghi thống nhất.
+
+Theo yêu cầu mới, bài đọc được kể bằng ngôn ngữ gần gũi, có mạch sự việc và hệ quả. Hồ sơ kiểm chứng được giữ riêng; bất định có ảnh hưởng đến cách hiểu vẫn nói rõ tại chỗ. Hướng dẫn giọng kể nằm trong huong-dan-bien-tap.md.
 
 ## Quy tắc hoàn tất
 
-Mọi trường công khai của từng mục cần có nguồn hỗ trợ hoặc được viết lại để loại nhận định chưa có cơ sở. Giai thoại, truyền thuyết, niên đại quy ước và giả thuyết được ghi rõ. Toàn bộ bài, mốc, nhân vật, so sánh, câu đố, lát cắt và chuỗi đọc cần thống nhất với nhau. Chỉ sau đó mới có thể báo hoàn tất toàn bộ.
+Mọi trường công khai của từng mục cần có nguồn hỗ trợ hoặc được viết lại để loại nhận định chưa có cơ sở. Giai thoại, truyền thuyết, niên đại quy ước và giả thuyết phải được ghi rõ. Bài đọc, thời kỳ, nhân vật, so sánh, câu đố, lát cắt và chuỗi đọc cần thống nhất. Chỉ sau đó mới có thể báo hoàn tất toàn bộ.

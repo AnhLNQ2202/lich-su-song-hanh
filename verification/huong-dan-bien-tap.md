@@ -14,4 +14,4 @@ Theo yêu cầu ngày 04/11/2026: dễ hiểu, có logic, mở những góc nhì
 
 Ví dụ về mạch kể: từ việc Cyrus thắng trận đến khó khăn cai quản Babylon; từ tỷ lệ vàng–bạc trong electrum đến nhu cầu tin vào dấu đóng; từ những gì mũi tên trong vai Ötzi cho biết đến câu hỏi còn bỏ ngỏ về người tấn công.
 
-75 mục đã qua đối chiếu trường hiển thị trong đợt hiện tại được biên tập lại theo hướng này. Đây là tiến độ của một phần nội dung, không phải chứng nhận toàn bộ 1.407 mục đã hoàn tất.
+Các mục đang qua đối chiếu trường hiển thị được biên tập lại theo hướng này. Tiến độ nằm trong hồ sơ kiểm chứng; không coi việc biên tập một phần là chứng nhận toàn bộ 1.407 mục đã hoàn tất.

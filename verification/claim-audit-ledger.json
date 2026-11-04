@@ -2565,6 +2565,393 @@
         }
       ],
       "snapshotSHA256": "270490811158c8b9ea04ad2fb8d3b4fc47bd13ee26120e1c762aa196cf9fccc9"
+    },
+    {
+      "id": "vn-tien-su-3500tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-1",
+      "decisions": [
+        "Đọc lại các trường công khai cùng phạm vi nguồn, biên tập giọng kể và kiểm tra mốc hiển thị.",
+        "Thay fun fact mang giọng hướng dẫn khảo cổ bằng liên hệ Tràng An–Hoa Lư có trong hồ sơ UNESCO.",
+        "Giữ rõ mốc đặt bài khác với tuổi di tích."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "t",
+        "place",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1438/",
+          "title": "UNESCO — Quần thể danh thắng Tràng An",
+          "scope": "Chuỗi khảo cổ hơn 30.000 năm, hoạt động săn bắt hái lượm và thích nghi với biến đổi môi trường."
+        }
+      ],
+      "snapshotSHA256": "c45bfe4781fc6af35aeef4f8939c9cfeb61daf0e47cbbcea401562391632fba1"
+    },
+    {
+      "id": "cn-lang-nong-nghiep-dau-tien",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-1",
+      "decisions": [
+        "Đọc lại các trường công khai cùng phạm vi nguồn, biên tập giọng kể và kiểm tra mốc hiển thị.",
+        "Không gán đây là làng nông nghiệp đầu tiên hay một năm bắt đầu duy nhất."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "y2",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "place",
+        "d",
+        "consequencesTitle",
+        "consequences",
+        "fun"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/de/essays/neolithic-period-in-china",
+          "title": "The Met — Thời đá mới ở Trung Quốc",
+          "scope": "Định cư, nông nghiệp, các truyền thống gốm và ngọc, trao đổi văn hóa và kỹ thuật mài ngọc."
+        }
+      ],
+      "snapshotSHA256": "23fd6b9d40bd939832a51f61e2df33e6d8755658d5d84749c463a9c1bac28f99"
+    },
+    {
+      "id": "ea-gom-jomon-3500tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-1",
+      "decisions": [
+        "Đọc lại các trường công khai cùng phạm vi nguồn, biên tập giọng kể và kiểm tra mốc hiển thị."
+      ],
+      "uncertainties": [
+        "Niên đại nêu cho nhóm di chỉ miền bắc, không áp đồng loạt cho mọi vùng Nhật Bản."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences",
+        "place"
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/decisions/7956/",
+          "title": "UNESCO — Các di chỉ Jōmon ở miền bắc Nhật Bản",
+          "scope": "17 di chỉ, khoảng 13.000–400 TCN, định cư trước nông nghiệp thâm canh và di vật nghi lễ."
+        }
+      ],
+      "snapshotSHA256": "80a7cd1d62ff7535cf46fc853ab581c907194b4dcb834712d14eb805685383fe"
+    },
+    {
+      "id": "ea-p-jomon",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-1",
+      "decisions": [
+        "Đọc lại các trường công khai cùng phạm vi nguồn, biên tập giọng kể và kiểm tra mốc hiển thị.",
+        "Sửa mốc cuối từ 300 sang 400 TCN và nêu rõ phạm vi miền bắc để thống nhất với nhóm di chỉ được dẫn."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "r",
+        "d",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/decisions/7956/",
+          "title": "UNESCO — Các di chỉ Jōmon ở miền bắc Nhật Bản",
+          "scope": "17 di chỉ, khoảng 13.000–400 TCN, định cư trước nông nghiệp thâm canh và di vật nghi lễ."
+        }
+      ],
+      "snapshotSHA256": "1badda107f5ba0709899b81e9793af8066ca6ba262e21d18c0ff2bd55f962455"
+    },
+    {
+      "id": "wa-chu-hinh-nem-3200tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-1",
+      "decisions": [
+        "Đọc lại các trường công khai cùng phạm vi nguồn, biên tập giọng kể và kiểm tra mốc hiển thị.",
+        "Bổ sung nguồn chuyên khảo trực tiếp để đối chiếu nội dung khi hai tài liệu British Museum trả 403 với công cụ.",
+        "Không kể nét hình nêm trưởng thành đã xuất hiện đầy đủ ngay năm 3200 TCN."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "place",
+        "t",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/de/essays/the-origins-of-writing",
+          "title": "Ira Spar, The Met — Nguồn gốc chữ viết",
+          "scope": "Bảng Uruk giai đoạn 3200–3000 TCN, ghi kinh tế, bút sậy, dấu hình nêm, ghi âm và những loại văn bản về sau."
+        }
+      ],
+      "snapshotSHA256": "001207080854b956345bc48f5b95af450380414081d0b6b99acf48548957b60b"
+    },
+    {
+      "id": "wa-chu-tuong-hinh-3200tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-1",
+      "decisions": [
+        "Đọc lại các trường công khai cùng phạm vi nguồn, biên tập giọng kể và kiểm tra mốc hiển thị.",
+        "Thêm hướng đọc chữ tượng hình theo tài liệu The Met, trang 48; không áp quy tắc này cho mọi hệ chữ Ai Cập."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Art_of_Ancient_Egypt_A_Resource_for_Educators.pdf",
+          "title": "The Met — Nghệ thuật Ai Cập cổ: tài liệu giáo dục",
+          "scope": "Sự hình thành và ổn định của chữ viết, dấu ghi âm, ghi nghĩa và định tố."
+        }
+      ],
+      "snapshotSHA256": "f2b442b9a56226af34b4e4bcc9d4eeea0355ffacf18f33db3eacf05ecef992ef"
+    },
+    {
+      "id": "wa-lich-365-ngay-2700tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-1",
+      "decisions": [
+        "Đọc lại các trường công khai cùng phạm vi nguồn, biên tập giọng kể và kiểm tra mốc hiển thị.",
+        "Giữ mốc đã có lịch, không gọi đó là năm phát minh chắc chắn."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/ja/essays/telling-time-in-ancient-egypt",
+          "title": "The Met — Cách tính thời gian ở Ai Cập cổ đại",
+          "scope": "Lịch đã có vào khoảng 2450 TCN hoặc sớm hơn, cấu trúc năm, ba mùa, cách ghi ngày và độ lệch theo thời gian."
+        }
+      ],
+      "snapshotSHA256": "d7d7fb2b9c85053db18a11f87bdc63f4cdd051bcf33141a9c96ea0e54a367c8f"
+    },
+    {
+      "id": "wa-ai-cap-thong-nhat-3100tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-1",
+      "decisions": [
+        "Đọc lại các trường công khai cùng phạm vi nguồn, biên tập giọng kể và kiểm tra mốc hiển thị.",
+        "Thay nhận định chung bằng trường hợp bảng đá có mô tả hiện vật; giữ cách diễn giải thống nhất dưới dạng không tuyệt đối."
+      ],
+      "uncertainties": [
+        "Thống nhất là quá trình dài; không suy ra một ngày hoàn tất hoặc đồng nhất tuyệt đối các tên Narmer, Aha, Menes."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://egymonuments.gov.eg/historical-periods/early-dynastic-period/",
+          "title": "Bộ Du lịch và Cổ vật Ai Cập — Sơ kỳ vương triều",
+          "scope": "Khoảng 3100 TCN, hợp nhất dần, Narmer và Memphis."
+        },
+        {
+          "url": "https://egymonuments.gov.eg/collections/narmer-palette-1/",
+          "title": "Bộ Du lịch và Cổ vật Ai Cập — Bảng đá Narmer",
+          "scope": "Hai loại vương miện, khung khoảng 3100 TCN và cách diễn giải cảnh thống nhất."
+        }
+      ],
+      "snapshotSHA256": "b7bcf0e4885966911fed48f05a16848c1cc9998ce7cf026edc62986b64816a26"
+    },
+    {
+      "id": "sa-dholavira-3000tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-1",
+      "decisions": [
+        "Đọc lại các trường công khai cùng phạm vi nguồn, biên tập giọng kể và kiểm tra mốc hiển thị.",
+        "Đối chiếu lại khoảng cư trú, đảo Khadir, nguồn nước theo mùa và xưởng chế tác theo UNESCO; không lặp nhãn địa lý Đông Nam Á bị ghi nhầm trong giới thiệu hồ sơ."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "t",
+        "d",
+        "consequencesTitle",
+        "consequences",
+        "ca",
+        "date",
+        "fun"
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1645",
+          "title": "UNESCO — Dholavira",
+          "scope": "Khoảng cư trú, môi trường khô, quy hoạch, quản lý nước và nghề chế tác."
+        }
+      ],
+      "snapshotSHA256": "e7b1854378aa7b3113692147e6f8a1732c6a26110c86bfbd059c1d676c038440"
+    },
+    {
+      "id": "am-caral-2600tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-1",
+      "decisions": [
+        "Đọc lại các trường công khai cùng phạm vi nguồn, biên tập giọng kể và kiểm tra mốc hiển thị.",
+        "Thay lời bình về thứ hạng bằng chi tiết bảo tồn được UNESCO giải thích; không xếp hạng cổ nhất toàn châu Mỹ."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "place",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1269/",
+          "title": "UNESCO — Caral-Supe",
+          "scope": "Niên đại và những nhận định trong bài được biên tập lại theo tài liệu này."
+        }
+      ],
+      "snapshotSHA256": "47103779c617b81de7e4e13ba6e15464e49308e1a3619cc2f20de633777586c0"
+    },
+    {
+      "id": "am-p-caral",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-1",
+      "decisions": [
+        "Đọc lại các trường công khai cùng phạm vi nguồn, biên tập giọng kể và kiểm tra mốc hiển thị.",
+        "Đối chiếu mốc đầu và cuối với phần tính toàn vẹn của hồ sơ UNESCO."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "r",
+        "d",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1269/",
+          "title": "UNESCO — Thành phố thiêng Caral-Supe",
+          "scope": "Khoảng niên đại di tích, kiến trúc nền cao và quảng trường tròn lõm; không khẳng định thứ hạng tuyệt đối."
+        }
+      ],
+      "snapshotSHA256": "f18210be49f93eeb47dc465d17ddd62d7c212b81c101589d7d2ff1744f770e15"
+    },
+    {
+      "id": "eu-p-crete-mycenae",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-1",
+      "decisions": [
+        "Đọc lại các trường công khai cùng phạm vi nguồn, biên tập giọng kể và kiểm tra mốc hiển thị.",
+        "Không gộp Crete và Mycenae thành một nhà nước hay kể sự truyền bá theo một chiều."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "r",
+        "d",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/minoan-crete",
+          "title": "The Met — Minoan Crete",
+          "scope": "Cung điện Crete, giao thương, ảnh hưởng Mycenae và sự pha trộn phong cách; khung thời gian xấp xỉ."
+        }
+      ],
+      "snapshotSHA256": "0977349716670171acfc7550a660a7c97ad60b68a54932bedaf95a55d996664c"
+    },
+    {
+      "id": "sl-2560tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-1",
+      "decisions": [
+        "Đọc lại các trường công khai cùng phạm vi nguồn, biên tập giọng kể và kiểm tra mốc hiển thị.",
+        "Giữ ba liên kết sự kiện và khoảng thời gian; không giả định ba công trình cùng hoàn tất một năm hay do cùng nguồn gốc."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "t",
+        "d",
+        "ev"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/it/press-releases/landmark-exhibition-of-egyptian-art-opens-at-metropolitan-museum-on-september-16-1999-exhibitions",
+          "title": "The Met — Nghệ thuật Ai Cập thời Kim tự tháp",
+          "scope": "Vương triều IV, ba vua xây kim tự tháp ở Giza, khoảng niên đại và các dạng tên Hy Lạp."
+        },
+        {
+          "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/history-and-stories/timeline",
+          "title": "English Heritage — Timeline Stonehenge",
+          "scope": "Các giai đoạn khoảng 3000 và 2500 TCN, chôn hỏa táng và thay đổi công trình."
+        },
+        {
+          "url": "https://whc.unesco.org/en/list/1269/",
+          "title": "UNESCO — Thành phố thiêng Caral-Supe",
+          "scope": "Khoảng niên đại di tích, kiến trúc nền cao và quảng trường tròn lõm; không khẳng định thứ hạng tuyệt đối."
+        }
+      ],
+      "snapshotSHA256": "a1700375a7ffe42e39c35807d35dbde5fa783fd84df53683d7964323b5b39042"
     }
   ],
   "updatedAt": "2026-11-04"
