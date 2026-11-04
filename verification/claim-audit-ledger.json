@@ -4663,6 +4663,119 @@
         }
       ],
       "snapshotSHA256": "b897faaab0b57f4d91202751d24299ce0dd3ea3734b0b2b4a9aef08e2e6b990d"
+    },
+    {
+      "id": "sa-maurya-322tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-9",
+      "decisions": [
+        "BỏKautilya như tácgiảchắcchắn/cốvấnchi phối mọithànhquả, giai thoạiJain vàbộmáydo thám chưađốichiếutrongmục.",
+        "Đổi mốc322 sang321theoMet, giữID; không gán toànbộ phạmviđếquốc lúc cựcđại cho một người."
+      ],
+      "uncertainties": [
+        "Niên đại mởđầu khoảng 321là khungthamchiếu, có các cách tính khác."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "who",
+        "d",
+        "fun",
+        "alt",
+        "consequencesTitle",
+        "consequences",
+        "altTitle",
+        "related"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/es/essays/mauryan-empire-ca-323-185-b-c",
+          "title": "The Met — Mauryan Empire",
+          "scope": "Phần thân dùng khoảng 321–185, mở rộng dướiChandragupta và Bindusara, tên Sandracotta; không dùng tiêu đề323 như một năm lậptriều khác đãxácminh."
+        },
+        {
+          "url": "https://discovery.ucl.ac.uk/id/eprint/10170898/",
+          "title": "Sushma Jansari, UCL Press2023 — Chandragupta Maurya: The creation of a national hero in India",
+          "scope": "Tóm tắt nghiên cứu về cuộc hòa giải khoảng 305–303, thiếu chứngcứ đángtin về ai thắng và cách sửgia thuộcđịa/hậuthuộcđịa diễn giải khácnhau."
+        }
+      ],
+      "snapshotSHA256": "a4abb00d75d543ac0912bd3f80321fbbf34572b45db509543e7bc2b2258d6979"
+    },
+    {
+      "id": "sa-p-maurya",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-9",
+      "decisions": [
+        "Khớp mốc đầu321vớibàilậptriều, ghi rõ phân kỳ xấpxỉ và lãnhthổbiếnđổi; để đối chiếu truyền báPhậtgiáo ở bàiAshoka."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "r",
+        "d",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/es/essays/mauryan-empire-ca-323-185-b-c",
+          "title": "The Met — Mauryan Empire",
+          "scope": "Phần thân dùng khoảng 321–185, mở rộng dướiChandragupta và Bindusara, tên Sandracotta; không dùng tiêu đề323 như một năm lậptriều khác đãxácminh."
+        }
+      ],
+      "snapshotSHA256": "20b37a370e6b9da1dfd9a61772bf467d3796612b70ffd49cca0d1b05dcc3e768"
+    },
+    {
+      "id": "sa-np-chandragupta-maurya",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-9",
+      "decisions": [
+        "Thayb340/d297tiểusửkhôngđượcxácminhbằngkhungtrịvì; giao diện cótimeBasis đểkhôngtínhtuổi.",
+        "Khungđầu321theoMet,kết298theoPBS; làkhungthamchiếukhôngđộchínhxácđếnnăm.",
+        "BỏgặpAlexander,500voiđổilấyđấtvàvềgiàđitu khichưađốichiếuriêng."
+      ],
+      "uncertainties": [
+        "Các tài liệu dùng năm bắtđầu320,321,322hoặckhác; giữca/cb/cd/ck vàlifeLabel rõ."
+      ],
+      "fieldsReviewed": [
+        "n",
+        "b",
+        "d",
+        "cb",
+        "cd",
+        "role",
+        "r",
+        "k",
+        "act",
+        "bio",
+        "fun",
+        "ck",
+        "timeBasis",
+        "lifeLabel",
+        "related"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/es/essays/mauryan-empire-ca-323-185-b-c",
+          "title": "The Met — Mauryan Empire",
+          "scope": "Phần thân dùng khoảng 321–185, mở rộng dướiChandragupta và Bindusara, tên Sandracotta; không dùng tiêu đề323 như một năm lậptriều khác đãxácminh."
+        },
+        {
+          "url": "https://discovery.ucl.ac.uk/id/eprint/10170898/",
+          "title": "Sushma Jansari, UCL Press2023 — Chandragupta Maurya: The creation of a national hero in India",
+          "scope": "Tóm tắt nghiên cứu về cuộc hòa giải khoảng 305–303, thiếu chứngcứ đángtin về ai thắng và cách sửgia thuộcđịa/hậuthuộcđịa diễn giải khácnhau."
+        },
+        {
+          "url": "https://www.pbs.org/thestoryofindia/timeline/2/",
+          "title": "Michael Wood/PBS — The Story of India, Episode2",
+          "scope": "PhầnChandragupta dùng khoảng 320–298; chỉ dùng để đối chiếu mốc cuối trịvì298. Khungđầu321 trênprofile theoMet, nêu rõ xấpxỉ. Không dùng các niênđạiNalanda/epic trên cùngtrang."
+        }
+      ],
+      "snapshotSHA256": "fbd3dfe83dba79000509ec578bf9b4306106db3ea224d3d733d67af083b70f86"
     }
   ],
   "updatedAt": "2026-11-04"

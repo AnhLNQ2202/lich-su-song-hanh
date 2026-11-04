@@ -3320,8 +3320,24 @@ TL_DATA.push({
   ],
   "ref": "https://ebooks.inflibnet.ac.in/icp01/chapter/mahajanapadas-rise-of-magadha-nandas-invasion-of-alexander/"
 },
-    { id: 'sa-p-maurya', s: -322, e: -185, t: 'Đế quốc Maurya', g: 'a', r: 'Ấn Độ',
-      d: 'Đế quốc đầu tiên thống nhất phần lớn tiểu lục địa Ấn Độ; dưới thời vua A-dục, đạo Phật được truyền bá rộng khắp.' },
+    {
+  "id": "sa-p-maurya",
+  "s": -321,
+  "e": -185,
+  "t": "Đế quốc Maurya",
+  "g": "a",
+  "r": "Ấn Độ",
+  "d": "Khoảng321–185 TCN là một khung niên đại thường dùng cho nhà Maurya. Quyền lực hình thành ở phía đông bắc, mở rộng dưới Chandragupta và Bindusara, rồi tới thời Ashoka. Những đời vua nối tiếp nhau làm thay đổi phạm vi đế quốc; thanh thời gian không có nghĩa mọi vùng đều được cai trị suốt cả khoảng này.",
+  "ca": true,
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/es/essays/mauryan-empire-ca-323-185-b-c",
+      "title": "The Met — Mauryan Empire",
+      "scope": "Phần thân dùng khoảng 321–185, mở rộng dướiChandragupta và Bindusara, tên Sandracotta; không dùng tiêu đề323 như một năm lậptriều khác đãxácminh."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/es/essays/mauryan-empire-ca-323-185-b-c"
+},
     { id: 'sa-p-kushan', s: -185, e: 320, t: 'Thời phân tán – Đế quốc Kushan', g: 'a', r: 'Ấn Độ',
       d: 'Sau nhà Maurya, Ấn Độ chia thành nhiều vương quốc. Ở tây bắc, Đế quốc Kushan nắm giữ một đoạn Con đường tơ lụa, bảo trợ đạo Phật và nghệ thuật Gandhara.' },
     { id: 'sa-p-gupta', s: 320, e: 550, t: 'Đế quốc Gupta', g: 'a', r: 'Ấn Độ',
@@ -3567,12 +3583,44 @@ TL_DATA.push({
   ],
   "ref": "https://exhibits.libraries.emory.edu/life-of-an-item/about/"
 },
-    { id: 'sa-maurya-322tcn', y: -322, ca: true, date: 'Khoảng 322 TCN', r: 'Ấn Độ', t: 'Chandragupta lập Đế quốc Maurya', c: 'pol', imp: 3,
-      who: 'Chandragupta Maurya và quân sư Kautilya',
-      d: 'Ngay sau khi quân của Alexander Đại đế rút khỏi tây bắc Ấn Độ, Chandragupta lật đổ triều Nanda ở xứ Magadha và lập ra nhà Maurya. Với mưu lược của quân sư Kautilya, ông dựng nên đế quốc đầu tiên thống nhất phần lớn tiểu lục địa Ấn Độ, có bộ máy thu thuế, quân đội đông đảo và mạng lưới do thám chặt chẽ.',
-      why: 'Lần đầu tiên phần lớn Ấn Độ nằm dưới một chính quyền, mở đường cho thời thịnh trị của vua A-dục.',
-      fun: 'Kautilya được cho là tác giả cuốn Arthashastra bàn về cách trị nước, thu thuế và dùng gián điệp, nên hay được gọi là “Machiavelli của Ấn Độ”, dù ông sống trước Machiavelli khoảng 1800 năm.',
-      alt: 'Theo truyền thống đạo Jain, về già Chandragupta từ bỏ ngai vàng, trở thành tu sĩ và nhịn ăn đến cuối đời: từ hoàng đế lập quốc thành nhà tu khổ hạnh.' },
+    {
+  "id": "sa-maurya-322tcn",
+  "y": -321,
+  "ca": true,
+  "date": "Khoảng321 TCN theo khung tham chiếuThe Met",
+  "r": "Ấn Độ",
+  "t": "Chandragupta lập Đế quốc Maurya",
+  "c": "pol",
+  "imp": 3,
+  "who": "Chandragupta Maurya",
+  "d": "Cuối thế kỷ IV TCN, quyền lực Maurya hình thành ở miền bắc Ấn Độ rồi mở rộng qua một vùng rất lớn. Chandragupta đặt nền móng; người kế vị Bindusara tiếp tục đưa đế quốc vào miền trung và một phần miền nam. Bản đồ ấy lớn dần qua nhiều đời vua, thay vì xuất hiện trọn vẹn trong ngày lập triều.",
+  "fun": "Trong nguồn Hy Lạp, Chandragupta được biết dưới tên Sandracotta. Lần theo một người qua nhiều ngôn ngữ đôi khi bắt đầu bằng việc nhận ra hai cái tên đang chỉ cùng một nhân vật.",
+  "alt": "Khoảng305–303 TCN, Chandragupta và Seleucus đi tới hòa giải sau xung đột. Nghiên cứu của Sushma Jansari chỉ ra rằng nguồn sớm không đủ để xác định chắc ai thắng trận. Sử gia Anh và Ấn Độ về sau đã đọc cùng câu chuyện theo những lập trường rất khác.",
+  "consequencesTitle": "Đế quốc lớn lên qua nhiều đời",
+  "consequences": "Phạm vi cai trị nối những vùng xa nhau, từ Bengal về phía Afghanistan. Khung khoảng 321–185 TCN ở đây theo phần thân bàiThe Met; các tài liệu có cách đặt mốc đầu chênh nhau vài năm.",
+  "altTitle": "Một cuộc hòa giải, nhiều cách kể người thắng",
+  "related": [
+    {
+      "id": "sa-np-chandragupta-maurya",
+      "kind": "connection",
+      "text": "Tìm hiểu người sáng lập và các giới hạn khi dựng lại tiểu sử.",
+      "ref": "https://www.metmuseum.org/es/essays/mauryan-empire-ca-323-185-b-c"
+    }
+  ],
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/es/essays/mauryan-empire-ca-323-185-b-c",
+      "title": "The Met — Mauryan Empire",
+      "scope": "Phần thân dùng khoảng 321–185, mở rộng dướiChandragupta và Bindusara, tên Sandracotta; không dùng tiêu đề323 như một năm lậptriều khác đãxácminh."
+    },
+    {
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10170898/",
+      "title": "Sushma Jansari, UCL Press2023 — Chandragupta Maurya: The creation of a national hero in India",
+      "scope": "Tóm tắt nghiên cứu về cuộc hòa giải khoảng 305–303, thiếu chứngcứ đángtin về ai thắng và cách sửgia thuộcđịa/hậuthuộcđịa diễn giải khácnhau."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/es/essays/mauryan-empire-ca-323-185-b-c"
+},
     { id: 'sa-vua-a-duc-kalinga-261tcn', y: -261, ca: true, date: 'Khoảng 261 TCN', r: 'Ấn Độ', t: 'Vua A-dục hối hận sau trận Kalinga', c: 'cul', imp: 3,
       who: 'Vua A-dục (Ashoka)',
       d: 'Vua A-dục (trị vì khoảng 268–232 TCN) mở rộng Đế quốc Maurya bằng cuộc chiến chiếm xứ Kalinga, khiến hàng chục vạn người chết hoặc bị bắt đi. Ân hận trước cảnh tang thương, ông quay sang theo đạo Phật, cho khắc các chỉ dụ khuyên dân sống nhân từ, khoan dung lên cột đá và vách núi khắp đế quốc, đồng thời cử người đi truyền đạo khắp nơi.',
@@ -8871,11 +8919,51 @@ TL_PEOPLE.push({
   ],
   "ref": "https://plato.stanford.edu/entries/buddha/"
 },
-    { id: 'sa-np-chandragupta-maurya', n: 'Chandragupta Maurya', b: -340, d: -297, cb: true, cd: true,
-      role: 'Hoàng đế sáng lập nhà Maurya', c: 'pol', imp: 2, r: 'Ấn Độ',
-      k: -322, act: 'lật đổ nhà Nanda, lập nên Đế quốc Maurya',
-      bio: 'Xuất thân không rõ ràng, Chandragupta được quân sư Kautilya (Chanakya) giúp sức lật đổ triều Nanda hùng mạnh ở lưu vực sông Hằng. Ông dựng nên Đế quốc Maurya, nhà nước đầu tiên thống nhất phần lớn tiểu lục địa Ấn Độ, với bộ máy quan lại, thuế khóa và mạng lưới do thám chặt chẽ. Theo truyền thống đạo Jain, cuối đời ông nhường ngôi cho con trai để đi tu ở miền nam.',
-      fun: 'Sử gia Hy Lạp Plutarch kể rằng thuở trẻ Chandragupta từng gặp Alexander Đại đế. Về sau, khi tướng Seleucus, người kế thừa một phần đế chế của Alexander, kéo quân tới, hai bên giảng hòa: Chandragupta tặng 500 voi chiến, đổi lại những vùng đất rộng lớn ở phía tây bắc.' },
+    {
+  "id": "sa-np-chandragupta-maurya",
+  "n": "Chandragupta Maurya",
+  "b": -321,
+  "d": -298,
+  "cb": true,
+  "cd": true,
+  "role": "Hoàng đế sáng lập nhà Maurya",
+  "c": "pol",
+  "imp": 2,
+  "r": "Ấn Độ",
+  "k": -321,
+  "act": "đặt nền móng cho quyền lực Maurya ở miền bắc Ấn Độ",
+  "bio": "Chandragupta là người sáng lập nhà Maurya. Quyền lực của ông mở rộng qua miền bắc Ấn Độ; cuộc hòa giải với Seleucus khoảng 305–303 TCN là một dấu mốc quan trọng. Chi tiết chiến tranh và cuộc đời ông còn nhiều khoảng trống. Hồ sơ dùng khung trị vì tham khảo, không dùng những năm sinh, mất thiếu chắc chắn để tính tuổi.",
+  "fun": "Cuộc đối đầu với Seleucus còn có một “đời sống” trong sách sử hiện đại. Theo nghiên cứu của Sushma Jansari, có sử gia Anh cho rằng Seleucus thắng, còn sử gia Ấn Độ kể chiều ngược lại. Người viết cũng mang thời đại của mình vào cách nhìn quá khứ.",
+  "ck": true,
+  "timeBasis": "reign",
+  "lifeLabel": "Trị vì khoảng 321–298 TCN theo khung tham chiếu; không phải năm sinh–mất",
+  "related": [
+    {
+      "id": "sa-maurya-322tcn",
+      "kind": "connection",
+      "text": "Theo dõi quá trình mở rộng qua nhiều đời vua, thay vì gom vào một ngày lập quốc.",
+      "ref": "https://www.metmuseum.org/es/essays/mauryan-empire-ca-323-185-b-c"
+    }
+  ],
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/es/essays/mauryan-empire-ca-323-185-b-c",
+      "title": "The Met — Mauryan Empire",
+      "scope": "Phần thân dùng khoảng 321–185, mở rộng dướiChandragupta và Bindusara, tên Sandracotta; không dùng tiêu đề323 như một năm lậptriều khác đãxácminh."
+    },
+    {
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10170898/",
+      "title": "Sushma Jansari, UCL Press2023 — Chandragupta Maurya: The creation of a national hero in India",
+      "scope": "Tóm tắt nghiên cứu về cuộc hòa giải khoảng 305–303, thiếu chứngcứ đángtin về ai thắng và cách sửgia thuộcđịa/hậuthuộcđịa diễn giải khácnhau."
+    },
+    {
+      "url": "https://www.pbs.org/thestoryofindia/timeline/2/",
+      "title": "Michael Wood/PBS — The Story of India, Episode2",
+      "scope": "PhầnChandragupta dùng khoảng 320–298; chỉ dùng để đối chiếu mốc cuối trịvì298. Khungđầu321 trênprofile theoMet, nêu rõ xấpxỉ. Không dùng các niênđạiNalanda/epic trên cùngtrang."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/es/essays/mauryan-empire-ca-323-185-b-c"
+},
     { id: 'sa-np-a-duc', n: 'A-dục (Ashoka)', b: -304, d: -232, cb: true, cd: true,
       role: 'Hoàng đế Maurya, người truyền bá đạo Phật', c: 'pol', imp: 3, r: 'Ấn Độ',
       k: -261, act: 'chinh phục xứ Kalinga, rồi vì ân hận mà quay sang theo đạo Phật',

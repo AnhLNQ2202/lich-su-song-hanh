@@ -4010,19 +4010,6 @@
       ]
     },
     {
-      "id": "sa-np-chandragupta-maurya",
-      "title": "Chandragupta Maurya",
-      "year": -340,
-      "kind": "person",
-      "structuralCheck": "passed",
-      "reference": null,
-      "reviewPrompts": [
-        "chưa có nguồn gắn với mục",
-        "cần kiểm tra phạm vi khẳng định tuyệt đối"
-      ],
-      "fullTextCheck": "pending_claim_by_claim_review"
-    },
-    {
       "id": "eu-alexander-336tcn",
       "title": "Alexander: thắng trận rồi cai quản ra sao?",
       "year": -336,
@@ -4140,29 +4127,100 @@
     {
       "id": "sa-maurya-322tcn",
       "title": "Chandragupta lập Đế quốc Maurya",
-      "year": -322,
+      "year": -321,
       "kind": "event",
       "structuralCheck": "passed",
-      "reference": null,
+      "reference": "https://www.metmuseum.org/es/essays/mauryan-empire-ca-323-185-b-c",
       "reviewPrompts": [
-        "chưa có nguồn gắn với mục",
         "cần kiểm tra phạm vi khẳng định tuyệt đối",
         "cần phân biệt lời trích, tên tác phẩm và cách diễn đạt"
       ],
-      "fullTextCheck": "pending_claim_by_claim_review"
+      "fullTextCheck": "reviewed_scopes_listed",
+      "fieldReviewCheck": "reviewed_current_public_fields",
+      "scopes": [
+        {
+          "url": "https://www.metmuseum.org/es/essays/mauryan-empire-ca-323-185-b-c",
+          "title": "The Met — Mauryan Empire",
+          "scope": "Phần thân dùng khoảng 321–185, mở rộng dướiChandragupta và Bindusara, tên Sandracotta; không dùng tiêu đề323 như một năm lậptriều khác đãxácminh."
+        },
+        {
+          "url": "https://discovery.ucl.ac.uk/id/eprint/10170898/",
+          "title": "Sushma Jansari, UCL Press2023 — Chandragupta Maurya: The creation of a national hero in India",
+          "scope": "Tóm tắt nghiên cứu về cuộc hòa giải khoảng 305–303, thiếu chứngcứ đángtin về ai thắng và cách sửgia thuộcđịa/hậuthuộcđịa diễn giải khácnhau."
+        }
+      ],
+      "lastReviewed": "2026-11-04",
+      "uncertainties": [
+        "Niên đại mởđầu khoảng 321là khungthamchiếu, có các cách tính khác."
+      ],
+      "decisions": [
+        "BỏKautilya như tácgiảchắcchắn/cốvấnchi phối mọithànhquả, giai thoạiJain vàbộmáydo thám chưađốichiếutrongmục.",
+        "Đổi mốc322 sang321theoMet, giữID; không gán toànbộ phạmviđếquốc lúc cựcđại cho một người."
+      ]
+    },
+    {
+      "id": "sa-np-chandragupta-maurya",
+      "title": "Chandragupta Maurya",
+      "year": -321,
+      "kind": "person",
+      "structuralCheck": "passed",
+      "reference": "https://www.metmuseum.org/es/essays/mauryan-empire-ca-323-185-b-c",
+      "reviewPrompts": [
+        "cần kiểm tra phạm vi khẳng định tuyệt đối"
+      ],
+      "fullTextCheck": "reviewed_scopes_listed",
+      "fieldReviewCheck": "reviewed_current_public_fields",
+      "scopes": [
+        {
+          "url": "https://www.metmuseum.org/es/essays/mauryan-empire-ca-323-185-b-c",
+          "title": "The Met — Mauryan Empire",
+          "scope": "Phần thân dùng khoảng 321–185, mở rộng dướiChandragupta và Bindusara, tên Sandracotta; không dùng tiêu đề323 như một năm lậptriều khác đãxácminh."
+        },
+        {
+          "url": "https://discovery.ucl.ac.uk/id/eprint/10170898/",
+          "title": "Sushma Jansari, UCL Press2023 — Chandragupta Maurya: The creation of a national hero in India",
+          "scope": "Tóm tắt nghiên cứu về cuộc hòa giải khoảng 305–303, thiếu chứngcứ đángtin về ai thắng và cách sửgia thuộcđịa/hậuthuộcđịa diễn giải khácnhau."
+        },
+        {
+          "url": "https://www.pbs.org/thestoryofindia/timeline/2/",
+          "title": "Michael Wood/PBS — The Story of India, Episode2",
+          "scope": "PhầnChandragupta dùng khoảng 320–298; chỉ dùng để đối chiếu mốc cuối trịvì298. Khungđầu321 trênprofile theoMet, nêu rõ xấpxỉ. Không dùng các niênđạiNalanda/epic trên cùngtrang."
+        }
+      ],
+      "lastReviewed": "2026-11-04",
+      "uncertainties": [
+        "Các tài liệu dùng năm bắtđầu320,321,322hoặckhác; giữca/cb/cd/ck vàlifeLabel rõ."
+      ],
+      "decisions": [
+        "Thayb340/d297tiểusửkhôngđượcxácminhbằngkhungtrịvì; giao diện cótimeBasis đểkhôngtínhtuổi.",
+        "Khungđầu321theoMet,kết298theoPBS; làkhungthamchiếukhôngđộchínhxácđếnnăm.",
+        "BỏgặpAlexander,500voiđổilấyđấtvàvềgiàđitu khichưađốichiếuriêng."
+      ]
     },
     {
       "id": "sa-p-maurya",
       "title": "Đế quốc Maurya",
-      "year": -322,
+      "year": -321,
       "kind": "period",
       "structuralCheck": "passed",
-      "reference": null,
+      "reference": "https://www.metmuseum.org/es/essays/mauryan-empire-ca-323-185-b-c",
       "reviewPrompts": [
-        "chưa có nguồn gắn với mục",
         "cần kiểm tra phạm vi khẳng định tuyệt đối"
       ],
-      "fullTextCheck": "pending_claim_by_claim_review"
+      "fullTextCheck": "reviewed_scopes_listed",
+      "fieldReviewCheck": "reviewed_current_public_fields",
+      "scopes": [
+        {
+          "url": "https://www.metmuseum.org/es/essays/mauryan-empire-ca-323-185-b-c",
+          "title": "The Met — Mauryan Empire",
+          "scope": "Phần thân dùng khoảng 321–185, mở rộng dướiChandragupta và Bindusara, tên Sandracotta; không dùng tiêu đề323 như một năm lậptriều khác đãxácminh."
+        }
+      ],
+      "lastReviewed": "2026-11-04",
+      "uncertainties": [],
+      "decisions": [
+        "Khớp mốc đầu321vớibàilậptriều, ghi rõ phân kỳ xấpxỉ và lãnhthổbiếnđổi; để đối chiếu truyền báPhậtgiáo ở bàiAshoka."
+      ]
     },
     {
       "id": "wa-p-seleucid",
@@ -21091,8 +21149,8 @@
       "fullTextCheck": "pending_claim_by_claim_review"
     }
   ],
-  "scopedReviewCount": 268,
-  "pendingClaimReviewCount": 1139,
-  "currentPublicFieldReviewCount": 135,
-  "currentNarrativeReviewCount": 135
+  "scopedReviewCount": 271,
+  "pendingClaimReviewCount": 1136,
+  "currentPublicFieldReviewCount": 138,
+  "currentNarrativeReviewCount": 138
 }
