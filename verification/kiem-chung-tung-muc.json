@@ -3885,15 +3885,35 @@
     {
       "id": "cn-thuong-uong-cai-cach-356tcn",
       "title": "Thương Ưởng cải cách nước Tần",
-      "year": -356,
+      "year": -359,
       "kind": "event",
       "structuralCheck": "passed",
-      "reference": null,
+      "reference": "https://afe.easia.columbia.edu/main_pop/ps/ps_china-book-of-lord-shang.htm",
       "reviewPrompts": [
-        "chưa có nguồn gắn với mục",
         "cần phân biệt lời trích, tên tác phẩm và cách diễn đạt"
       ],
-      "fullTextCheck": "pending_claim_by_claim_review"
+      "fullTextCheck": "reviewed_scopes_listed",
+      "fieldReviewCheck": "reviewed_current_public_fields",
+      "scopes": [
+        {
+          "url": "https://afe.easia.columbia.edu/main_pop/ps/ps_china-book-of-lord-shang.htm",
+          "title": "Columbia University — Selection from the Book of Lord Shang",
+          "scope": "Giữa thế kỷIV, đếnTần361, cải cách bắt đầu359 theo tài liệu; kế thừa luật trước, nông nghiệp/chiến tranh, thưởngphạt."
+        },
+        {
+          "url": "https://plato.stanford.edu/entries/chinese-legalism/",
+          "title": "Yuri Pines, Stanford Encyclopedia of Philosophy — Legalism in Chinese Philosophy",
+          "scope": "Hệ tước công, thay đặc quyền thế tập, khuyến khích và kiểm soát; phân biệt chủ trương trong văn bản với mọi hoạt động thực tế."
+        }
+      ],
+      "lastReviewed": "2026-11-04",
+      "uncertainties": [
+        "Các chính sách phát triển qua thời gian; mốc tham chiếu không là một ngày toàn bộ cải cách được ban hành."
+      ],
+      "decisions": [
+        "Thay mốc 356 không có nguồn ở mục bằng359 theoColumbia và ghi rõ nguồn niên đại,ca; giữID để liên kết cũ không gãy.",
+        "Bỏ cây gỗ/50lạngvàng chưa đối chiếu và xếp hạng nướcTần nghèo nhất/mạnh nhất."
+      ]
     },
     {
       "id": "eu-np-alexander",
@@ -3901,11 +3921,33 @@
       "year": -356,
       "kind": "person",
       "structuralCheck": "passed",
-      "reference": null,
-      "reviewPrompts": [
-        "chưa có nguồn gắn với mục"
+      "reference": "https://www.iranicaonline.org/articles/alexander-the-great-356-23-bc/",
+      "reviewPrompts": [],
+      "fullTextCheck": "reviewed_scopes_listed",
+      "fieldReviewCheck": "reviewed_current_public_fields",
+      "scopes": [
+        {
+          "url": "https://www.iranicaonline.org/articles/alexander-the-great-356-23-bc/",
+          "title": "Pierre Briant, Encyclopaedia Iranica — Alexander the Great",
+          "scope": "356–323, kế vị336, quân chủ lực sangÁ334, Gaugamela331, kháng cự kéo dài sau các trận lớn."
+        },
+        {
+          "url": "https://www.metmuseum.org/ja/essays/the-rise-of-macedonia-and-the-conquests-of-alexander-the-great",
+          "title": "The Met — The Rise of Macedon and the Conquests of Alexander the Great",
+          "scope": "Khung trị vì 336–323, di sản quân độiPhilipII, chiến dịch334 tới sông Ấn và các vương quốc kế tục. Không dùng con số tuổi chết33 của bài."
+        },
+        {
+          "url": "https://ikmk.smb.museum/object?id=18214359&lang=en",
+          "title": "Münzkabinett Berlin — Đồng tetradrachm18214359",
+          "scope": "MặtHerakles/Zeus, chữAlexander, xưởng Amphipolis; quyền lực được truyền qua hình ảnh trên tiền."
+        }
       ],
-      "fullTextCheck": "pending_claim_by_claim_review"
+      "lastReviewed": "2026-11-04",
+      "uncertainties": [],
+      "decisions": [
+        "Bỏ số lượng thành phố, giai thoạiIliaddướigối và so sánhThươngƯởngcùngnămsinh chưa đối chiếu riêng.",
+        "Không kể đế quốc chia thành mọi nước ngay lập tức sau khi chết."
+      ]
     },
     {
       "id": "cn-lao-tu-dao-duc-kinh-500tcn",
@@ -3982,15 +4024,39 @@
     },
     {
       "id": "eu-alexander-336tcn",
-      "title": "Alexander Đại đế chinh phục phương Đông",
+      "title": "Alexander: thắng trận rồi cai quản ra sao?",
       "year": -336,
       "kind": "event",
       "structuralCheck": "passed",
-      "reference": null,
-      "reviewPrompts": [
-        "chưa có nguồn gắn với mục"
+      "reference": "https://www.iranicaonline.org/articles/alexander-the-great-356-23-bc/",
+      "reviewPrompts": [],
+      "fullTextCheck": "reviewed_scopes_listed",
+      "fieldReviewCheck": "reviewed_current_public_fields",
+      "scopes": [
+        {
+          "url": "https://www.iranicaonline.org/articles/alexander-the-great-356-23-bc/",
+          "title": "Pierre Briant, Encyclopaedia Iranica — Alexander the Great",
+          "scope": "356–323, kế vị336, quân chủ lực sangÁ334, Gaugamela331, kháng cự kéo dài sau các trận lớn."
+        },
+        {
+          "url": "https://www.metmuseum.org/ja/essays/the-rise-of-macedonia-and-the-conquests-of-alexander-the-great",
+          "title": "The Met — The Rise of Macedon and the Conquests of Alexander the Great",
+          "scope": "Khung trị vì 336–323, di sản quân độiPhilipII, chiến dịch334 tới sông Ấn và các vương quốc kế tục. Không dùng con số tuổi chết33 của bài."
+        },
+        {
+          "url": "https://ikmk.smb.museum/object?id=18214359&lang=en",
+          "title": "Münzkabinett Berlin — Đồng tetradrachm18214359",
+          "scope": "MặtHerakles/Zeus, chữAlexander, xưởng Amphipolis; quyền lực được truyền qua hình ảnh trên tiền."
+        }
       ],
-      "fullTextCheck": "pending_claim_by_claim_review"
+      "lastReviewed": "2026-11-04",
+      "uncertainties": [
+        "Thời HyLạphóa là cách phân kỳ; quá trình trao đổi và xung đột không bắt đầu hoặc kết thúc trong một năm."
+      ],
+      "decisions": [
+        "Không mô tả HyLạphóa chỉ như sự pha trộn rực rỡ do một người tạo ra; bổ sung người kháng cự.",
+        "Bỏ liên hệ tượngPhậtGandhara trực tiếp vớiAlexander khi chưa đối chiếu các giai đoạn trung gian."
+      ]
     },
     {
       "id": "eu-aristotle-335tcn",
@@ -20975,8 +21041,8 @@
       "fullTextCheck": "pending_claim_by_claim_review"
     }
   ],
-  "scopedReviewCount": 262,
-  "pendingClaimReviewCount": 1145,
-  "currentPublicFieldReviewCount": 129,
-  "currentNarrativeReviewCount": 129
+  "scopedReviewCount": 265,
+  "pendingClaimReviewCount": 1142,
+  "currentPublicFieldReviewCount": 132,
+  "currentNarrativeReviewCount": 132
 }

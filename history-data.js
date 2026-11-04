@@ -2177,11 +2177,35 @@ TL_DATA.push({
   "ref": "https://www.metmuseum.org/toah/ht/04/eac.html"
 },
 
-    { id: 'cn-thuong-uong-cai-cach-356tcn', y: -356, r: 'Trung Quốc',
-      t: 'Thương Ưởng cải cách nước Tần', c: 'pol', imp: 1, who: 'Thương Ưởng', place: 'Nước Tần',
-      d: 'Được vua Tần Hiếu Công tin dùng, Thương Ưởng ban hành luật mới: thưởng phạt nghiêm minh, khuyến khích làm ruộng và lập công trên chiến trường, bỏ bớt đặc quyền của quý tộc. Nước Tần vốn nghèo ở biên viễn phía tây dần trở thành nước mạnh nhất.',
-      why: 'Cải cách theo tư tưởng Pháp gia biến nước Tần thành một “cỗ máy chiến tranh”, đặt nền cho việc thống nhất sau này.',
-      fun: 'Để dân tin luật mới, ông treo thưởng cho ai vác một cây gỗ từ cổng nam sang cổng bắc thành, rồi nâng lên 50 lạng vàng. Có người làm thử và được thưởng thật. Một chiến dịch “xây dựng lòng tin” bằng… một cây gỗ.' },
+    {
+  "id": "cn-thuong-uong-cai-cach-356tcn",
+  "y": -359,
+  "r": "Trung Quốc",
+  "t": "Thương Ưởng cải cách nước Tần",
+  "c": "pol",
+  "imp": 1,
+  "who": "Thương Ưởng",
+  "place": "Nước Tần",
+  "d": "Nước Tần muốn mạnh lên trong cuộc cạnh tranh với các nước khác. Thương Ưởng giúp Tần Hiếu Công sửa luật, tập trung sức dân vào làm ruộng và chiến tranh. Thưởng, phạt cùng hệ thống tước bậc khiến công lao có thể đổi lấy địa vị. Những thay đổi dựa trên cả luật đã có từ trước, rồi được đẩy đi xa hơn.",
+  "fun": "Trong chương trình được trình bày ở Thương quân thư, làm ruộng và ra trận là những con đường chính tới lợi ích, tước bậc. Một bảng “hướng nghiệp” rất hẹp: người muốn thành công được nhà nước chỉ sẵn lối đi.",
+  "ca": true,
+  "date": "Giữa thế kỷ IV TCN; mốc 359 TCN theo tài liệuColumbia",
+  "consequencesTitle": "Đường thăng tiến đổi, cuộc sống cũng đổi",
+  "consequences": "Cải cách góp phần tăng sức mạnh Tần và làm suy giảm đặc quyền cha truyền con nối. Nhưng cơ hội mới đi cùng sự kiểm soát nghiêm ngặt: nhà nước muốn sức lao động và tham vọng của người dân phục vụ mục tiêu của mình.",
+  "refs": [
+    {
+      "url": "https://afe.easia.columbia.edu/main_pop/ps/ps_china-book-of-lord-shang.htm",
+      "title": "Columbia University — Selection from the Book of Lord Shang",
+      "scope": "Giữa thế kỷIV, đếnTần361, cải cách bắt đầu359 theo tài liệu; kế thừa luật trước, nông nghiệp/chiến tranh, thưởngphạt."
+    },
+    {
+      "url": "https://plato.stanford.edu/entries/chinese-legalism/",
+      "title": "Yuri Pines, Stanford Encyclopedia of Philosophy — Legalism in Chinese Philosophy",
+      "scope": "Hệ tước công, thay đặc quyền thế tập, khuyến khích và kiểm soát; phân biệt chủ trương trong văn bản với mọi hoạt động thực tế."
+    }
+  ],
+  "ref": "https://afe.easia.columbia.edu/main_pop/ps/ps_china-book-of-lord-shang.htm"
+},
 
     { id: 'cn-tan-thong-nhat-221tcn', y: -221, r: 'Trung Quốc',
       t: 'Tần Thủy Hoàng thống nhất Trung Quốc', c: 'pol', imp: 3, who: 'Tần Thủy Hoàng (Doanh Chính)',
@@ -5908,11 +5932,49 @@ TL_DATA.push({
   ],
   "ref": "https://mathshistory.st-andrews.ac.uk/Biographies/Plato/"
 },
-    { id: 'eu-alexander-336tcn', y: -336, y2: -323, r: 'Macedonia', t: 'Alexander Đại đế chinh phục phương Đông', c: 'war', imp: 3, who: 'Alexander Đại đế',
-      d: 'Lên ngôi vua Macedonia năm 20 tuổi, Alexander dẫn quân đánh bại Đế quốc Ba Tư, chiếm Ai Cập, rồi tiến tới tận Ấn Độ chỉ trong khoảng mười năm. Khi quân lính mệt mỏi không chịu đi tiếp, ông quay về và qua đời ở Babylon năm 323 TCN, lúc mới 32 tuổi.',
-      why: 'Các cuộc chinh phục đã trộn lẫn văn hóa Hy Lạp với Ba Tư, Ai Cập, Ấn Độ, tạo nên thời kỳ Hy Lạp hóa rực rỡ.',
-      fun: 'Ông lập khoảng 20 thành phố mang tên Alexandria, và còn đặt tên một thành phố theo con ngựa yêu quý Bucephalus.',
-      alt: 'Ở vùng Gandhara (Pakistan, Afghanistan ngày nay), tượng Phật về sau mang nét mặt và nếp áo kiểu Hy Lạp — dấu vết của cuộc gặp gỡ Đông – Tây mà Alexander khơi mào.' },
+    {
+  "id": "eu-alexander-336tcn",
+  "y": -336,
+  "y2": -323,
+  "r": "Macedonia",
+  "t": "Alexander: thắng trận rồi cai quản ra sao?",
+  "c": "war",
+  "imp": 3,
+  "who": "Alexander Đại đế",
+  "d": "Alexander thừa hưởng đội quân đã được Philip II cải tổ. Sau khi lên ngôi năm 336 TCN, ông mở những chiến dịch đưa quyền lực Macedonia qua Ai Cập, lãnh thổ Ba Tư và tới lưu vực sông Ấn. Cuộc tiến quân làm đổi bản đồ chính trị, nhưng người ở các vùng bị chinh phục không chỉ đứng nhìn. Kháng cự ở Bactria và Sogdiana còn kéo dài sau khi Darius III mất.",
+  "fun": "Một đồng bạc từ xưởng Amphipolis mang tên Alexander nhưng chọn Herakles ở mặt trước, Zeus ở mặt sau. Thần thoại cũng có mặt trong việc trình bày quyền lực — và đi theo tiền tới tay người sử dụng.",
+  "alt": "Pierre Briant lưu ý rằng chỉ kể các trận thắng lớn dễ làm lu mờ sức kháng cự. Chiếm một trung tâm quyền lực chưa đồng nghĩa đã kiểm soát toàn bộ vùng đất quanh nó.",
+  "date": "Trị vì 336–323 TCN; quân chủ lực sang châuÁ từ 334 TCN",
+  "consequencesTitle": "Một đế quốc, rồi nhiều người tranh quyền",
+  "consequences": "Alexander mất năm 323 TCN. Các tướng tranh giành quyền lực và dần hình thành những vương quốc kế tục. Mốc ấy thường mở đầu thời Hy Lạp hóa; sự tiếp xúc văn hóa diễn ra qua nhiều cộng đồng và thế hệ, cùng với cả xung đột.",
+  "altTitle": "Nhìn từ những người chống lại cuộc chinh phục",
+  "related": [
+    {
+      "id": "eu-np-alexander",
+      "kind": "connection",
+      "text": "Các mốc trong hành trình của Alexander và một chi tiết trên đồng tiền mang tên ông.",
+      "ref": "https://www.iranicaonline.org/articles/alexander-the-great-356-23-bc/"
+    }
+  ],
+  "refs": [
+    {
+      "url": "https://www.iranicaonline.org/articles/alexander-the-great-356-23-bc/",
+      "title": "Pierre Briant, Encyclopaedia Iranica — Alexander the Great",
+      "scope": "356–323, kế vị336, quân chủ lực sangÁ334, Gaugamela331, kháng cự kéo dài sau các trận lớn."
+    },
+    {
+      "url": "https://www.metmuseum.org/ja/essays/the-rise-of-macedonia-and-the-conquests-of-alexander-the-great",
+      "title": "The Met — The Rise of Macedon and the Conquests of Alexander the Great",
+      "scope": "Khung trị vì 336–323, di sản quân độiPhilipII, chiến dịch334 tới sông Ấn và các vương quốc kế tục. Không dùng con số tuổi chết33 của bài."
+    },
+    {
+      "url": "https://ikmk.smb.museum/object?id=18214359&lang=en",
+      "title": "Münzkabinett Berlin — Đồng tetradrachm18214359",
+      "scope": "MặtHerakles/Zeus, chữAlexander, xưởng Amphipolis; quyền lực được truyền qua hình ảnh trên tiền."
+    }
+  ],
+  "ref": "https://www.iranicaonline.org/articles/alexander-the-great-356-23-bc/"
+},
     {
   "id": "eu-aristotle-335tcn",
   "y": -335,
@@ -9464,12 +9526,46 @@ TL_PEOPLE.push({
   ],
   "ref": "https://plato.stanford.edu/entries/aristotle/"
 },
-    { id: 'eu-np-alexander', n: 'Alexander Đại đế', b: -356, d: -323,
-      role: 'Vua Macedonia, nhà chinh phạt', r: 'Macedonia', c: 'war', imp: 3,
-      k: -331, act: 'đánh bại vua Ba Tư Darius III ở trận Gaugamela',
-      bio: 'Lên ngôi năm 20 tuổi sau khi vua cha Philip II bị ám sát, Alexander dẫn quân sang châu Á, chinh phục Đế quốc Ba Tư, Ai Cập và tiến tới tận lưu vực sông Ấn. Ông lập hàng chục thành phố, nổi tiếng nhất là Alexandria ở Ai Cập. Đế chế của ông tan rã ngay sau khi ông mất ở Babylon lúc chưa đầy 33 tuổi, nhưng tiếng Hy Lạp và văn hóa Hy Lạp đã lan khắp vùng Tây Á.',
-      fun: 'Theo nhà sử học Plutarch, Alexander luôn mang theo cuốn sử thi Iliad do thầy Aristotle chú giải, và đặt nó dưới gối cùng với một con dao găm.',
-      same: 'Năm Alexander chào đời (356 TCN), ở nước Tần, Thương Ưởng bắt đầu cuộc cải cách giúp nước này giàu mạnh lên, đủ sức thống nhất Trung Hoa 135 năm sau (221 TCN).' },
+    {
+  "id": "eu-np-alexander",
+  "n": "Alexander Đại đế",
+  "b": -356,
+  "d": -323,
+  "role": "Vua Macedonia, nhà chinh phạt",
+  "r": "Macedonia",
+  "c": "war",
+  "imp": 3,
+  "k": -331,
+  "act": "đánh bại Darius III tại Gaugamela",
+  "bio": "Alexander kế vị Philip II năm 336 TCN, rồi đưa quân chủ lực sang châu Á năm 334. Ông đánh bại Darius III ở Gaugamela năm 331, tiếp tục các chiến dịch qua nhiều vùng của đế quốc Ba Tư tới lưu vực sông Ấn. Ông mất tại Babylon năm 323. Những chiến thắng lớn không khiến mọi nơi ngừng chống cự; cai quản lãnh thổ là một câu chuyện khác với thắng trận.",
+  "fun": "Trên đồng bạc mang tên Alexander ở Berlin, gương mặt đội da sư tử là Herakles, không phải một chân dung được hồ sơ xác định là nhà vua. Có tên người phát hành trên tiền chưa có nghĩa người trên hình cũng chính là ông.",
+  "related": [
+    {
+      "id": "eu-alexander-336tcn",
+      "kind": "connection",
+      "text": "Nhìn cuộc chinh phục từ cả chiến thắng, kháng cự và câu chuyện cai quản.",
+      "ref": "https://www.iranicaonline.org/articles/alexander-the-great-356-23-bc/"
+    }
+  ],
+  "refs": [
+    {
+      "url": "https://www.iranicaonline.org/articles/alexander-the-great-356-23-bc/",
+      "title": "Pierre Briant, Encyclopaedia Iranica — Alexander the Great",
+      "scope": "356–323, kế vị336, quân chủ lực sangÁ334, Gaugamela331, kháng cự kéo dài sau các trận lớn."
+    },
+    {
+      "url": "https://www.metmuseum.org/ja/essays/the-rise-of-macedonia-and-the-conquests-of-alexander-the-great",
+      "title": "The Met — The Rise of Macedon and the Conquests of Alexander the Great",
+      "scope": "Khung trị vì 336–323, di sản quân độiPhilipII, chiến dịch334 tới sông Ấn và các vương quốc kế tục. Không dùng con số tuổi chết33 của bài."
+    },
+    {
+      "url": "https://ikmk.smb.museum/object?id=18214359&lang=en",
+      "title": "Münzkabinett Berlin — Đồng tetradrachm18214359",
+      "scope": "MặtHerakles/Zeus, chữAlexander, xưởng Amphipolis; quyền lực được truyền qua hình ảnh trên tiền."
+    }
+  ],
+  "ref": "https://www.iranicaonline.org/articles/alexander-the-great-356-23-bc/"
+},
     { id: 'eu-np-euclid', n: 'Euclid', b: -325, d: -265, cb: true, cd: true,
       role: 'Nhà toán học, “cha đẻ của hình học”', r: 'Hy Lạp (Alexandria)', c: 'sci', imp: 2,
       k: -300, act: 'biên soạn bộ sách Cơ sở (Elements) ở Alexandria',
