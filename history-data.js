@@ -173,11 +173,35 @@ TL_DATA.push({
   ],
   "ref": "https://baotanglichsu.vn/vi/Articles/4016/cac-van-hoa-tien-djong-son-phung-nguyen-djong-djau-go-mun-khoang-4-000-2-500-nam-cach-ngay-nay"
 },
-    { id: 'vn-sa-huynh-1000tcn', y: -1000, y2: 200, ca: true, date: 'Khoảng 1000 TCN – thế kỷ II', t: 'Văn hoá Sa Huỳnh ở miền Trung', c: 'cul', imp: 2, r: 'Miền Trung',
-      place: 'Sa Huỳnh (Quảng Ngãi) và dọc duyên hải miền Trung',
-      d: 'Dọc dải đất ven biển miền Trung, cư dân Sa Huỳnh sống bằng trồng trọt, đánh cá, làm đồ sắt và buôn bán bằng thuyền. Họ có tục chôn người chết trong những chiếc chum gốm lớn, kèm đồ trang sức bằng đá quý, thuỷ tinh và mã não.',
-      why: 'Là cội nguồn văn hoá của vương quốc Chăm Pa, cho thấy miền Trung từ rất sớm đã giao lưu buôn bán khắp Biển Đông.',
-      fun: 'Khuyên tai hình hai đầu thú kiểu Sa Huỳnh còn được tìm thấy ở Philippines và Thái Lan, dấu vết của một mạng lưới buôn bán trên biển từ hơn hai nghìn năm trước.' },
+    {
+  "id": "vn-sa-huynh-1000tcn",
+  "y": -500,
+  "y2": 1,
+  "ca": true,
+  "date": "Giai đoạn tiêu biểu khoảng 2500–2000 năm trước",
+  "t": "Văn hoá Sa Huỳnh ở miền Trung",
+  "c": "cul",
+  "imp": 2,
+  "r": "Miền Trung",
+  "place": "Sa Huỳnh (Quảng Ngãi) và dọc duyên hải miền Trung",
+  "d": "Những khu mộ chum, đồ sắt và trang sức đá, thủy tinh, mã não cho thấy đời sống phong phú của các cộng đồng Sa Huỳnh ở miền Trung. Trồng trọt, khai thác biển và trao đổi hàng hóa có vai trò khác nhau tùy địa điểm. Khoảng 2500–2000 năm trước ở đây giới thiệu giai đoạn có nhiều hiện vật tiêu biểu, không ấn định toàn bộ quá trình hình thành văn hóa này.",
+  "fun": "Tại Giồng Cá Vồ thuộc văn hóa Đồng Nai, có những khuyên tai hai đầu thú được tìm thấy thành cặp trong mộ chum. Cùng một kiểu trang sức có thể vượt qua ranh giới mà khảo cổ học ngày nay dùng để phân loại văn hóa.",
+  "consequencesTitle": "Trang sức cho thấy những đường giao lưu",
+  "consequences": "Những kiểu đồ vật tương tự xuất hiện ở nhiều nơi giúp nghiên cứu liên hệ giữa các cộng đồng. Việc nhận diện quan hệ giao lưu cần kết hợp chất liệu, kỹ thuật và bối cảnh tìm thấy.",
+  "refs": [
+    {
+      "url": "https://baotanglichsu.vn/vi/Articles/3101/68858/van-hoa-sa-huynh-nhin-tu-van-hoa-djong-nai.html",
+      "title": "Bảo tàng Lịch sử quốc gia — Sa Huỳnh nhìn từ Đồng Nai",
+      "scope": "Táng chum, đồ sắt, trang sức và quan hệ giao lưu giữa các cộng đồng."
+    },
+    {
+      "url": "https://baotanglichsu.vn/vi/Articles/3101/69526/ve-mot-loai-hinh-trang-suc-co-djoc-djao-khuyen-tai-hinh-hai-djauthu.html",
+      "title": "Bảo tàng Lịch sử quốc gia — Khuyên tai hai đầu thú",
+      "scope": "Đồ trang sức khoảng 2500–2000 năm trước; phân bố Sa Huỳnh và Đồng Nai, cặp khuyên tại Giồng Cá Vồ."
+    }
+  ],
+  "ref": "https://baotanglichsu.vn/vi/Articles/3101/68858/van-hoa-sa-huynh-nhin-tu-van-hoa-djong-nai.html"
+},
     {
   "id": "vn-van-lang-700tcn",
   "y": -700,
@@ -210,11 +234,34 @@ TL_DATA.push({
   ],
   "ref": "https://baotanglichsu.vn/vi/Articles/3096/10144/ve-cac-nha-nuoc-so-khai-o-mien-bac-viet-nam.html"
 },
-    { id: 'vn-dong-son-700tcn', y: -700, y2: 100, ca: true, date: 'Thế kỷ VII TCN – thế kỷ I', t: 'Văn hoá Đông Sơn và trống đồng', c: 'cul', imp: 3,
-      place: 'Đông Sơn (Thanh Hoá), lưu vực sông Hồng, sông Mã, sông Cả',
-      d: 'Đây là đỉnh cao văn hoá thời dựng nước. Người Đông Sơn đúc trống đồng, thạp đồng, lưỡi cày, vũ khí rất tinh xảo. Hoa văn trên trống khắc cảnh giã gạo, đua thuyền, nhảy múa, nhà sàn, cho thấy một đời sống lúa nước phong phú và giàu lễ hội.',
-      why: 'Trống đồng trở thành biểu tượng của văn hoá Việt cổ và là bằng chứng về một nền văn minh lúa nước phát triển cao.',
-      fun: 'Giữa mặt trống đồng Ngọc Lũ là ngôi sao 14 cánh, xung quanh có đàn chim Lạc đang bay; trống kiểu Đông Sơn còn được tìm thấy khắp Đông Nam Á, tận Indonesia.' },
+    {
+  "id": "vn-dong-son-700tcn",
+  "y": -700,
+  "y2": 200,
+  "ca": true,
+  "date": "Khoảng thế kỷ VII TCN–thế kỷ I/II",
+  "t": "Văn hoá Đông Sơn và trống đồng",
+  "c": "cul",
+  "imp": 3,
+  "place": "Đông Sơn (Thanh Hoá), lưu vực sông Hồng, sông Mã, sông Cả",
+  "d": "Văn hóa Đông Sơn được nghiên cứu qua di tích và hiện vật ở Bắc Bộ, Bắc Trung Bộ, nổi bật tại lưu vực sông Hồng, sông Mã và sông Cả. Trống, thạp, công cụ và vũ khí cho thấy kỹ thuật đúc đồng phát triển. Hình người, thuyền, nhà và động vật trên đồ đồng cung cấp tư liệu về sinh hoạt và nghi lễ; cách giải thích từng hình vẫn cần dựa vào bối cảnh.",
+  "fun": "Trống Ngọc Lũ có hình 14 tia ở giữa mặt trống. Sau khi được tìm thấy khoảng 1893–1894, hiện vật từng được giữ và thờ tại đình làng Ngọc Lũ trước khi vào bộ sưu tập bảo tàng.",
+  "consequencesTitle": "Hoa văn cũng là tư liệu lịch sử",
+  "consequences": "Đồ đồng không chỉ cho biết kỹ thuật chế tác. Khi đặt hình trang trí cạnh công cụ và di tích cư trú, người nghiên cứu có thêm cách tìm hiểu đời sống của những cộng đồng không để lại sử sách theo kiểu đời sau.",
+  "refs": [
+    {
+      "url": "https://baotanglichsu.vn/DataFiles/2021/10/News/Ti%E1%BA%BFng%20Vi%E1%BB%87t/12.10.2021/Thong%20bao%20khoa%20hoc/Net%20dac%20sac%20cua%20nhom%20Bao%20vat%20Quoc%20gia...%20Nguyen%20Van%20Doan.pdf",
+      "title": "Nguyễn Văn Đoàn — Bảo vật văn hóa Đông Sơn, Thông báo khoa học BTLSQG",
+      "scope": "Khung thế kỷ VII TCN–I/II, lưu vực sông Hồng, Mã, Cả và các hiện vật."
+    },
+    {
+      "url": "https://baotanglichsu.vn/vi/Articles/3096/71184/net-djac-sac-nhom-bao-vat-quoc-gia-van-hoa-djong-son-luu-giu-tai-bao-tang-lich-su-quoc-gia.html",
+      "title": "Bảo tàng Lịch sử quốc gia — Bảo vật Đông Sơn",
+      "scope": "Trống Ngọc Lũ: trang trí 14 tia, cảnh sinh hoạt; phát hiện khoảng 1893–1894 rồi được giữ ở đình làng."
+    }
+  ],
+  "ref": "https://baotanglichsu.vn/DataFiles/2021/10/News/Ti%E1%BA%BFng%20Vi%E1%BB%87t/12.10.2021/Thong%20bao%20khoa%20hoc/Net%20dac%20sac%20cua%20nhom%20Bao%20vat%20Quoc%20gia...%20Nguyen%20Van%20Doan.pdf"
+},
     { id: 'vn-truyen-thuyet-600tcn', y: -600, ca: true, date: 'Thời các vua Hùng', t: 'Sơn Tinh, Thánh Gióng, bánh chưng', c: 'cul', imp: 1,
       d: 'Thời Văn Lang để lại kho truyền thuyết phong phú: Sơn Tinh – Thuỷ Tinh kể chuyện chống lũ lụt, Thánh Gióng nói về cả làng góp gạo nuôi người đánh giặc, Lang Liêu với bánh chưng, bánh giầy đề cao nghề nông và lòng hiếu thảo. Chúng phản ánh đời sống, nỗi lo và ước mơ của cư dân trồng lúa.',
       why: 'Giúp ta hiểu người Việt cổ bận tâm điều gì nhất: nước lũ, giặc ngoại xâm và mùa màng.',
@@ -1737,10 +1784,47 @@ TL_DATA.push({
   ],
   "ref": "https://www.metmuseum.org/ja/toah/ht/03/eac.html"
 },
-    { id: 'cn-p-tay-chu', s: -1046, e: -771, g: 'a', t: 'Nhà Tây Chu', r: 'Trung Quốc',
-      d: 'Nhà Chu diệt Thương, đóng đô ở Cảo Kinh (gần Tây An), chia đất phong cho anh em, công thần làm chư hầu và đề ra thuyết “Thiên mệnh” để giải thích quyền làm vua.' },
-    { id: 'cn-p-xuan-thu', s: -770, e: -476, g: 'a', t: 'Đông Chu – Xuân Thu', r: 'Trung Quốc',
-      d: 'Nhà Chu dời đô về Lạc Dương và suy yếu; hơn trăm nước chư hầu thôn tính lẫn nhau. Đây cũng là thời của Khổng Tử, Lão Tử, Tôn Tử. Tên gọi lấy từ bộ sử Xuân Thu của nước Lỗ.' },
+    {
+  "id": "cn-p-tay-chu",
+  "s": -1046,
+  "e": -771,
+  "g": "a",
+  "t": "Nhà Tây Chu",
+  "r": "Trung Quốc",
+  "d": "Khoảng 1046–771 TCN theo khung tham khảo. Sau khi thay thế nhà Thương, nhà Chu tổ chức quyền cai trị từ miền tây; Thiên mệnh trở thành một cách giải thích tính chính đáng của vương triều.",
+  "ca": true,
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/toah/ht/04/eac.html",
+      "title": "The Met — Trung Quốc, 1000 TCN–1",
+      "scope": "Khung Tây Chu 1046–771 TCN, Đông Chu từ 770 TCN; chuyển đô và cạnh tranh giữa các nước."
+    },
+    {
+      "url": "https://asia.si.edu/education/educator-resources/teaching-china-with-the-smithsonian/explore-by-dynasty/zhou-dynasty/",
+      "title": "Smithsonian — Nhà Chu",
+      "scope": "Nguồn gốc nhà Chu và Thiên mệnh trong việc giải thích thay thế nhà Thương."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/toah/ht/04/eac.html"
+},
+    {
+  "id": "cn-p-xuan-thu",
+  "s": -770,
+  "e": -476,
+  "g": "a",
+  "t": "Đông Chu – Xuân Thu",
+  "r": "Trung Quốc",
+  "d": "Khoảng 770–476 TCN theo khung tham khảo. Đây là phần đầu thời Đông Chu, sau khi triều đình chuyển về Lạc Dương. Quyền lực phân bố giữa nhiều nước, với chiến tranh, liên minh và những thay đổi trong quan hệ với vua Chu.",
+  "ca": true,
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/toah/ht/04/eac.html",
+      "title": "The Met — Trung Quốc, 1000 TCN–1",
+      "scope": "Khung Tây Chu 1046–771 TCN, Đông Chu từ 770 TCN; chuyển đô và cạnh tranh giữa các nước."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/toah/ht/04/eac.html"
+},
     { id: 'cn-p-chien-quoc', s: -475, e: -221, g: 'a', t: 'Đông Chu – Chiến Quốc', r: 'Trung Quốc',
       d: 'Bảy nước lớn Tần, Sở, Tề, Yên, Hàn, Triệu, Ngụy đánh nhau liên miên và đua nhau cải cách. Trăm nhà trăm học thuyết (Bách gia chư tử) tranh luận sôi nổi cho đến khi nước Tần thống nhất.' },
     { id: 'cn-p-tan', s: -221, e: -206, g: 'a', t: 'Nhà Tần', r: 'Trung Quốc',
@@ -1884,25 +1968,86 @@ TL_DATA.push({
   "ref": "https://www.metmuseum.org/ja/toah/ht/03/eac.html"
 },
 
-    { id: 'cn-chu-diet-thuong-1046tcn', y: -1046, r: 'Trung Quốc',
-      t: 'Chu Vũ Vương diệt Thương, lập nhà Chu', c: 'pol', imp: 2, who: 'Chu Vũ Vương', place: 'Mục Dã (Hà Nam)',
-      d: 'Vua Trụ, vị vua cuối nhà Thương, bị sử sách mô tả là tàn bạo, ăn chơi. Chu Vũ Vương liên kết các bộ tộc, đánh bại quân Thương ở Mục Dã năm 1046 TCN. Nhà Chu chia đất cho anh em, công thần làm chư hầu cai quản từng vùng; đó là nghĩa gốc của từ “phong kiến”: phong đất, kiến lập nước.',
-      why: 'Nhà Chu đưa ra thuyết “Thiên mệnh”: vua trị vì nhờ mệnh trời, nhưng nếu vô đạo sẽ mất mệnh trời. Các triều đại sau đều dùng lý lẽ này để giải thích việc thay ngôi.',
-      alt: 'Chuyện Trụ Vương – Đát Kỷ quen thuộc qua “Phong thần diễn nghĩa” là tiểu thuyết ra đời sau đó hơn 2.500 năm. Người thắng viết sử, nên có lẽ vua Trụ đã bị “bôi đen” thêm ít nhiều.' },
+    {
+  "id": "cn-chu-diet-thuong-1046tcn",
+  "y": -1046,
+  "r": "Trung Quốc",
+  "t": "Chu Vũ Vương diệt Thương, lập nhà Chu",
+  "c": "pol",
+  "imp": 2,
+  "who": "Chu Vũ Vương",
+  "d": "Chu Vũ Vương đánh bại nhà Thương, mở đầu thời Tây Chu theo khung niên đại thường dùng. Người Chu giải thích quyền cai trị bằng Thiên mệnh: quyền làm vua có thể chuyển sang một dòng họ khác. Câu chuyện đạo đức về vị vua cuối nhà Thương cần được phân biệt với chứng cứ đương thời về cuộc chuyển quyền.",
+  "ca": true,
+  "date": "Khoảng 1046 TCN theo niên đại tham khảo",
+  "consequencesTitle": "Một cách giải thích quyền thay ngôi",
+  "consequences": "Thiên mệnh cung cấp lý lẽ để người Chu trình bày việc lật đổ một triều đại là chính đáng. Đây là một tư tưởng chính trị quan trọng của thời Chu.",
+  "fun": "Lợi quỹ, một đồ đồng phát hiện năm 1976 tại Lâm Đồng, có minh văn nhắc chiến dịch đánh Thương của Chu Vũ Vương. Câu chuyện còn được ghi trên đồ vật gần thời sự kiện, không chỉ trong sách chép nhiều thế kỷ sau.",
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/toah/ht/04/eac.html",
+      "title": "The Met — Trung Quốc, 1000 TCN–1",
+      "scope": "Khung Tây Chu 1046–771 TCN, Đông Chu từ 770 TCN; chuyển đô và cạnh tranh giữa các nước."
+    },
+    {
+      "url": "https://asia.si.edu/education/educator-resources/teaching-china-with-the-smithsonian/explore-by-dynasty/zhou-dynasty/",
+      "title": "Smithsonian — Nhà Chu",
+      "scope": "Nguồn gốc nhà Chu và Thiên mệnh trong việc giải thích thay thế nhà Thương."
+    },
+    {
+      "url": "https://www.ccpo.gov.hk/media/2025/09/%E2%80%98Mystery-of-Chinese-Writing-Roving-Exhibition_18-panels.pdf",
+      "title": "Văn phòng Phát huy Văn hóa Trung Hoa, Hong Kong — Bí ẩn chữ Hán",
+      "scope": "Minh văn Lợi quỹ ghi cuộc chinh phạt Thương của Chu Vũ Vương; phát hiện năm 1976 tại Lâm Đồng."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/toah/ht/04/eac.html"
+},
 
-    { id: 'cn-dong-chu-xuan-thu-770tcn', y: -770, date: '771–770 TCN', r: 'Trung Quốc',
-      t: 'Nhà Chu dời đô, mở đầu thời Xuân Thu', c: 'pol', imp: 2, place: 'Lạc Ấp (Lạc Dương)',
-      d: 'Năm 771 TCN, kinh đô Cảo Kinh bị bộ tộc Khuyển Nhung đánh phá, Chu U Vương bị giết. Năm sau, Chu Bình Vương dời đô về Lạc Ấp, mở đầu thời Đông Chu. Vua Chu chỉ còn là vua trên danh nghĩa, hơn trăm nước chư hầu tha hồ thôn tính lẫn nhau.',
-      why: 'Thời loạn lạc nhưng lại là thời tư tưởng nở rộ: Khổng Tử, Lão Tử, Tôn Tử đều sống trong giai đoạn này.',
-      fun: 'Tương truyền Chu U Vương đốt lửa báo động giả chỉ để chọc cười ái phi Bao Tự. Đến khi giặc đến thật, đốt lửa mãi chẳng chư hầu nào tới cứu: bài học đắt giá về chữ tín.' },
+    {
+  "id": "cn-dong-chu-xuan-thu-770tcn",
+  "y": -770,
+  "date": "771–770 TCN",
+  "r": "Trung Quốc",
+  "t": "Nhà Chu dời đô, mở đầu thời Xuân Thu",
+  "c": "pol",
+  "imp": 2,
+  "place": "Lạc Ấp (Lạc Dương)",
+  "d": "Sau biến động ở miền tây năm 771 TCN, triều đình Chu chuyển trung tâm về phía đông tại Lạc Dương năm 770 TCN. Đây là mốc thường dùng mở đầu Đông Chu. Quyền lực các nước lớn dần tăng lên trong khi địa vị vua Chu thay đổi; bản đồ chính trị tiếp tục biến động qua chiến tranh và liên minh.",
+  "consequencesTitle": "Trật tự nhiều trung tâm quyền lực",
+  "consequences": "Các nước theo đuổi lợi ích riêng trong quan hệ vừa cạnh tranh vừa hợp tác. Bối cảnh ấy giúp đặt những biến đổi tư tưởng và nghệ thuật vào một thế giới chính trị không còn do một trung tâm kiểm soát chặt chẽ.",
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/toah/ht/04/eac.html",
+      "title": "The Met — Trung Quốc, 1000 TCN–1",
+      "scope": "Khung Tây Chu 1046–771 TCN, Đông Chu từ 770 TCN; chuyển đô và cạnh tranh giữa các nước."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/toah/ht/04/eac.html"
+},
 
-    { id: 'cn-khong-tu-551tcn', y: -551, date: '551–479 TCN', r: 'Trung Quốc',
-      t: 'Khổng Tử và Nho giáo', c: 'cul', imp: 3, who: 'Khổng Tử', place: 'Nước Lỗ (Sơn Đông)',
-      d: 'Khổng Tử sinh năm 551 TCN, sống giữa thời Xuân Thu loạn lạc. Ông đi khắp các nước khuyên vua chúa cai trị bằng đạo đức, lễ nghĩa thay vì bạo lực nhưng ít được trọng dụng. Ông mở trường dạy học cho cả con nhà thường dân; học trò ghi lại lời thầy trong sách Luận ngữ.',
-      why: 'Nho giáo trở thành hệ tư tưởng chính thống của Trung Quốc, Việt Nam, Triều Tiên, Nhật Bản suốt hai nghìn năm, định hình cách học hành, gia đình và chính quyền.',
-      fun: 'Tương truyền ông có khoảng 3.000 học trò, trong đó 72 người xuất sắc. Một “trường tư thục” quy mô lớn từ 2.500 năm trước.',
-      alt: 'Lúc sinh thời, Khổng Tử gần như thất bại trong việc làm quan. Sau khi mất, ông lại trở thành người thầy có ảnh hưởng nhất phương Đông.',
-      vn: 'Văn Miếu ở Thăng Long (1070) được xây để thờ Khổng Tử; Nho học theo con đường khoa cử trở thành nền giáo dục chính của Đại Việt.' },
+    {
+  "id": "cn-khong-tu-551tcn",
+  "y": -551,
+  "date": "551–479 TCN theo niên đại truyền thống",
+  "r": "Trung Quốc",
+  "t": "Khổng Tử và Nho giáo",
+  "c": "cul",
+  "imp": 3,
+  "who": "Khổng Tử",
+  "place": "Nước Lỗ (Sơn Đông)",
+  "d": "Khổng Tử sống trong bối cảnh quyền lực nhà Chu biến đổi. Những đối thoại gắn với ông đặt trọng tâm vào việc học, lễ, lòng nhân và phẩm chất của người cai trị. Luận ngữ là nguồn quan trọng để tìm hiểu truyền thống ấy, nhưng không phải bản ghi âm đầy đủ của những buổi dạy.",
+  "fun": "Luận ngữ nêu nguyên tắc đừng áp đặt cho người khác điều mình không muốn. Đặt câu ấy trở lại một cuộc đối thoại giúp hiểu ý nghĩa của nó rõ hơn một khẩu hiệu tách riêng.",
+  "ca": true,
+  "consequencesTitle": "Người đọc đời sau tiếp tục lựa chọn cách hiểu",
+  "consequences": "Các thế hệ đề cao những phần khác nhau trong văn bản khi bàn về giáo dục và chính trị.",
+  "refs": [
+    {
+      "url": "https://plato.stanford.edu/entries/confucius/",
+      "title": "Stanford Encyclopedia of Philosophy — Confucius",
+      "scope": "Niên đại truyền thống, các lớp tiểu sử và văn bản, nội dung lễ, nhân, giáo dục và nguyên tắc ứng xử."
+    }
+  ],
+  "ref": "https://plato.stanford.edu/entries/confucius/"
+},
 
     { id: 'cn-ton-tu-binh-phap-512tcn', y: -512, ca: true, date: 'Cuối thế kỷ VI TCN', r: 'Trung Quốc',
       ref: 'https://afe.easia.columbia.edu/ps/cup/sunzi_art_of_war.pdf', t: 'Binh pháp Tôn Tử và vấn đề tác giả', c: 'cul', imp: 2, who: 'Tôn Vũ (Tôn Tử)', place: 'Nước Ngô',
@@ -3025,8 +3170,24 @@ TL_DATA.push({
   ],
   "ref": "https://www.metmuseum.org/ko/toah/ht/03/ssa.html"
 },
-    { id: 'sa-p-muoi-sau-tieu-quoc', s: -600, e: -322, t: 'Thời mười sáu tiểu quốc', g: 'a', r: 'Ấn Độ',
-      d: 'Miền bắc Ấn Độ chia thành nhiều tiểu quốc lớn tranh hùng, Magadha dần mạnh nhất. Đây cũng là thời Đức Phật và Mahavira truyền đạo.' },
+    {
+  "id": "sa-p-muoi-sau-tieu-quoc",
+  "s": -600,
+  "e": -322,
+  "t": "Các mahajanapada và sự lớn mạnh của Magadha",
+  "g": "a",
+  "r": "Ấn Độ",
+  "d": "Từ khoảng thế kỷ VI TCN, nhiều nhà nước cạnh tranh tại miền bắc Nam Á. Văn bản Phật giáo và Jain lưu lại những danh sách mahajanapada, thường kể mười sáu nước nhưng không hoàn toàn trùng nhau. Magadha dần mở rộng quyền lực. Khung 600–322 TCN trên thanh là cách bao quát giai đoạn, không phải thời gian mười sáu nước cùng tồn tại nguyên vẹn.",
+  "ca": true,
+  "refs": [
+    {
+      "url": "https://ebooks.inflibnet.ac.in/icp01/chapter/mahajanapadas-rise-of-magadha-nandas-invasion-of-alexander/",
+      "title": "P. Bhaskar Reddy, INFLIBNET — Mahajanapadas và Magadha",
+      "scope": "Danh sách trong văn bản Phật giáo, Jain; các nhà nước khoảng thế kỷ VI TCN và sự lớn mạnh của Magadha."
+    }
+  ],
+  "ref": "https://ebooks.inflibnet.ac.in/icp01/chapter/mahajanapadas-rise-of-magadha-nandas-invasion-of-alexander/"
+},
     { id: 'sa-p-maurya', s: -322, e: -185, t: 'Đế quốc Maurya', g: 'a', r: 'Ấn Độ',
       d: 'Đế quốc đầu tiên thống nhất phần lớn tiểu lục địa Ấn Độ; dưới thời vua A-dục, đạo Phật được truyền bá rộng khắp.' },
     { id: 'sa-p-kushan', s: -185, e: 320, t: 'Thời phân tán – Đế quốc Kushan', g: 'a', r: 'Ấn Độ',
@@ -3152,22 +3313,85 @@ TL_DATA.push({
   ],
   "ref": "https://www.metmuseum.org/ko/toah/ht/03/ssa.html"
 },
-    { id: 'sa-upanishad-800tcn', y: -800, ca: true, date: 'Khoảng thế kỷ VIII–V TCN', r: 'Ấn Độ', t: 'Kinh Upanishad và thuyết luân hồi', c: 'cul', imp: 1,
-      d: 'Từ khoảng thế kỷ VIII TCN, các bản Upanishad đặt ra những câu hỏi lớn: con người thật sự là gì, vì sao có khổ đau, chết rồi đi về đâu. Các ý niệm luân hồi (sinh ra rồi tái sinh nhiều lần), nghiệp (việc làm gieo ra hậu quả) và giải thoát khỏi vòng luân hồi dần trở thành cốt lõi của tư tưởng Ấn Độ.',
-      why: 'Những ý niệm này thấm vào đạo Hindu, đạo Phật, đạo Jain và ảnh hưởng tới cách nghĩ của hàng tỷ người châu Á.',
-      alt: 'Câu “gieo nhân nào gặt quả nấy” người Việt hay nói chính là phiên bản đời thường của thuyết nghiệp, một ý tưởng đã đi một chặng đường gần 3000 năm từ Ấn Độ.' },
-    { id: 'sa-duc-phat-563tcn', y: -563, ca: true, date: 'Thế kỷ VI TCN (theo truyền thống)', r: 'Ấn Độ – Nepal', t: 'Đức Phật Thích Ca và đạo Phật ra đời', c: 'cul', imp: 3,
-      who: 'Tất-đạt-đa Cồ-đàm (Siddhartha Gautama)', place: 'Lumbini (Nepal), Bodh Gaya, Sarnath (Ấn Độ)',
-      d: 'Thái tử Tất-đạt-đa sinh ra ở Lumbini dưới chân dãy Himalaya, sống giàu sang nhưng day dứt trước cảnh sinh, lão, bệnh, tử. Ông rời cung điện đi tìm lời giải, sau nhiều năm tu tập đã giác ngộ dưới cội bồ đề ở Bodh Gaya, trở thành Phật, nghĩa là “người tỉnh thức”. Ông giảng về Tứ diệu đế và con đường trung đạo: không quá hưởng thụ, cũng không quá khổ hạnh.',
-      why: 'Đạo Phật lan khắp châu Á, trở thành một trong những tôn giáo lớn nhất thế giới và gắn bó sâu sắc với văn hóa Việt Nam.',
-      fun: 'Năm sinh của Đức Phật vẫn còn tranh luận: theo truyền thống là thế kỷ VI TCN, còn nhiều nhà nghiên cứu hiện đại cho rằng ông sống vào khoảng thế kỷ V TCN.',
-      alt: 'Ông có lẽ là “hoàng tử bỏ nhà ra đi” nổi tiếng nhất lịch sử: rời ngai vàng không phải vì thua trận hay tranh quyền, mà chỉ vì muốn hiểu vì sao con người đau khổ.',
-      vn: 'Đạo Phật đến Việt Nam từ rất sớm, khoảng đầu Công nguyên; trung tâm Luy Lâu (Thuận Thành, Bắc Ninh) là một trong những trung tâm Phật giáo đầu tiên của khu vực.' },
-    { id: 'sa-mahavira-dao-jain-540tcn', y: -540, ca: true, date: 'Thế kỷ VI–V TCN', r: 'Ấn Độ', t: 'Mahavira và đạo Jain bất bạo động', c: 'cul', imp: 1,
-      who: 'Mahavira',
-      d: 'Cùng thời với Đức Phật, Mahavira truyền bá đạo Jain (Kỳ Na giáo), đề cao nguyên tắc không làm hại bất cứ sinh vật nào. Tín đồ Jain ăn chay rất nghiêm ngặt, nhiều người tránh cả rau củ mọc dưới đất; một số tu sĩ đeo khăn che miệng để khỏi vô tình hít phải côn trùng.',
-      why: 'Nguyên tắc bất bạo động (ahimsa) của đạo Jain về sau ảnh hưởng mạnh tới Gandhi và cuộc đấu tranh hòa bình giành độc lập của Ấn Độ.',
-      alt: 'Thế kỷ VI–V TCN là thời “bùng nổ tư tưởng” kỳ lạ: Đức Phật và Mahavira ở Ấn Độ, Khổng Tử và Lão Tử ở Trung Hoa, các triết gia đầu tiên ở Hy Lạp gần như sống cùng một thời.' },
+    {
+  "id": "sa-upanishad-800tcn",
+  "y": -700,
+  "ca": true,
+  "date": "Các bản sớm khoảng 700–500 TCN; nhiều lớp về sau",
+  "r": "Ấn Độ",
+  "t": "Upanishad: hỏi về bản thân và thực tại",
+  "c": "cul",
+  "imp": 1,
+  "d": "Các bản Upanishad sớm hình thành trong truyền thống Veda và được truyền bằng tiếng Sanskrit. Qua những cuộc đối thoại, người học hỏi về bản thân, thực tại, hành động và sự giải thoát. Niên đại khác nhau giữa các văn bản; không phải toàn bộ tập hợp được soạn cùng một lúc hay chỉ trình bày một học thuyết duy nhất.",
+  "consequencesTitle": "Những cuộc đối thoại tiếp tục được diễn giải",
+  "consequences": "Các cách hiểu về tự ngã, nghiệp và tái sinh trở thành chất liệu cho nhiều truyền thống triết học Ấn Độ. Những người tiếp nhận về sau cũng tranh luận với văn bản, không chỉ lặp lại một câu trả lời có sẵn.",
+  "fun": "Gargi và Maitreyi là những phụ nữ tham gia đối thoại triết học trong Upanishad. Người đặt câu hỏi trong những văn bản cổ này không chỉ có các nhân vật nam.",
+  "refs": [
+    {
+      "url": "https://iep.utm.edu/upanisad/",
+      "title": "Internet Encyclopedia of Philosophy — Upanishads",
+      "scope": "Niên đại các lớp văn bản, chủ đề và các nhân vật nữ trong đối thoại."
+    }
+  ],
+  "ref": "https://iep.utm.edu/upanisad/"
+},
+    {
+  "id": "sa-duc-phat-563tcn",
+  "y": -563,
+  "ca": true,
+  "date": "563 TCN là mốc theo một hệ niên đại; niên đại còn tranh luận",
+  "r": "Ấn Độ – Nepal",
+  "t": "Đức Phật và con đường chấm dứt khổ đau",
+  "c": "cul",
+  "imp": 3,
+  "who": "Tất-đạt-đa Cồ-đàm (Siddhartha Gautama)",
+  "place": "Lumbini (Nepal), Bodh Gaya, Sarnath (Ấn Độ)",
+  "d": "Đức Phật Gautama gắn với các lời dạy về khổ đau, nguyên nhân và con đường giải thoát. Truyền thống Phật giáo kể câu chuyện rời nhà, tu tập và giác ngộ. Khi đọc tiểu sử, cần phân biệt lớp tự sự tôn giáo với những chi tiết có thể xác định bằng nghiên cứu lịch sử.",
+  "fun": "Các tài liệu có thể ghi những năm sinh và mất khác nhau vì dựa vào các hệ tính khác nhau. Nhiều nghiên cứu đặt Đức Phật muộn hơn cặp năm 563–483 TCN thường gặp.",
+  "consequencesTitle": "Câu hỏi về khổ đau dẫn tới việc thực hành",
+  "consequences": "Lời dạy kết nối cách nhìn về con người với những phương pháp tu tập, hướng tới chấm dứt khổ đau.",
+  "refs": [
+    {
+      "url": "https://plato.stanford.edu/entries/buddha/",
+      "title": "Mark Siderits, Stanford Encyclopedia of Philosophy — Buddha",
+      "scope": "Khổ, giải thoát, lời kể về Gautama và tranh luận niên đại, gồm cách đặt niên đại mất khoảng 405 TCN."
+    },
+    {
+      "url": "https://www.open.edu/openlearn/history-the-arts/culture/religious-studies/the-dates-the-buddha",
+      "title": "Open University — Các hệ niên đại Đức Phật",
+      "scope": "Nhiều niên đại truyền thống và những cách tính lại; không có một cặp năm được mọi giới chấp nhận."
+    }
+  ],
+  "ref": "https://plato.stanford.edu/entries/buddha/"
+},
+    {
+  "id": "sa-mahavira-dao-jain-540tcn",
+  "y": -540,
+  "ca": true,
+  "date": "Thế kỷ VI–V TCN; 540 TCN là mốc đặt bài",
+  "r": "Ấn Độ",
+  "t": "Mahavira và đạo Jain bất bạo động",
+  "c": "cul",
+  "imp": 1,
+  "who": "Mahavira",
+  "d": "Mahavira được truyền thống Jain tôn kính là vị Jina thứ 24 của chu kỳ hiện tại. Ông tiếp nối và cải cách một truyền thống đã có trước, thay vì sáng lập từ con số không. Những lời kể về đời ông có khác biệt giữa các nhánh Jain; niên đại 540 TCN trên timeline là mốc tham chiếu.",
+  "consequencesTitle": "Tiếp nối cũng có thể đi cùng thay đổi",
+  "consequences": "Mahavira được gắn với việc bổ sung lời nguyện thứ năm vào bốn lời nguyện của vị Jina trước đó, Parshvanatha. Sự tiếp nối ấy là một cách hiểu vai trò của ông trong lịch sử Jain.",
+  "fun": "Mahavira là danh hiệu có nghĩa “đại anh hùng”; tên lúc sinh được ghi là Vardhamana. Một tên tuổi quen thuộc có thể vốn là danh hiệu tôn kính.",
+  "refs": [
+    {
+      "url": "https://jainpedia.org/article/themes/people/jina/mahavira/",
+      "title": "Jainpedia — Mahavira",
+      "scope": "Vị Jina thứ 24, cải cách một truyền thống có trước, danh hiệu và các nguồn tiểu sử."
+    },
+    {
+      "url": "https://jainpedia.org/resources/chronology/",
+      "title": "Jainpedia — Niên biểu",
+      "scope": "Phân biệt niên đại truyền thống Shvetambara 599–527 TCN với các cách đặt niên đại khác."
+    }
+  ],
+  "ref": "https://jainpedia.org/article/themes/people/jina/mahavira/"
+},
     { id: 'sa-ramayana-mahabharata-400tcn', y: -400, y2: 400, ca: true, date: 'Khoảng 400 TCN – 400', r: 'Ấn Độ', t: 'Hai sử thi Mahabharata và Ramayana', c: 'cul', imp: 2,
       d: 'Hai bộ sử thi khổng lồ được nhiều thế hệ người kể chuyện bồi đắp suốt nhiều thế kỷ. Mahabharata kể cuộc chiến giữa hai dòng họ anh em nhà Pandava và Kaurava, trong đó có đoạn Bhagavad Gita bàn về bổn phận và đạo đức. Ramayana kể chuyện hoàng tử Rama cùng thần khỉ Hanuman giải cứu nàng Sita khỏi tay quỷ vương Ravana.',
       why: 'Hai sử thi trở thành kho chuyện chung của cả Nam Á và Đông Nam Á, sống mãi trong múa, kịch, phù điêu đền đài từ Angkor đến Java.',
@@ -3732,14 +3956,82 @@ TL_DATA.push({
   ],
   "ref": "https://www.metmuseum.org/ko/essays/the-middle-babylonian-kassite-period-ca-1595-1155-b-c-in-mesopotamia"
 },
-    { id: 'wa-p-phoenicia-israel', s: -1155, e: -911, t: 'Phoenicia, Israel và các tiểu quốc', g: 'a',
-      d: 'Khi các đế quốc lớn suy yếu, người Phoenicia ven biển Lebanon buôn bán khắp Địa Trung Hải, người Aram tỏa khắp Syria và vương quốc Israel hình thành.' },
-    { id: 'wa-p-assyria', s: -911, e: -612, t: 'Đế quốc Tân Assyria', g: 'a', r: 'Lưỡng Hà',
-      d: 'Assyria với quân đội thiện chiến, xe chiến và vũ khí sắt chinh phục từ Lưỡng Hà tới Ai Cập; kinh đô Nineveh thất thủ năm 612 TCN trước liên quân Babylon và Media.' },
-    { id: 'wa-p-tan-babylon', s: -612, e: -539, t: 'Đế quốc Tân Babylon', g: 'a', r: 'Lưỡng Hà',
-      d: 'Babylon trở lại huy hoàng dưới vua Nebuchadnezzar II, với cổng Ishtar và những công trình đồ sộ, cho đến khi bị Ba Tư chiếm năm 539 TCN.' },
-    { id: 'wa-p-achaemenes', s: -539, e: -330, t: 'Đế quốc Ba Tư Achaemenes', g: 'a', r: 'Ba Tư (Iran)',
-      d: 'Cyrus Đại đế dựng nước năm 550 TCN; từ khi chiếm Babylon (539 TCN), Ba Tư làm chủ cả vùng Tây Á, là đế quốc lớn nhất thế giới lúc bấy giờ, cho đến khi bị Alexander Đại đế đánh bại.' },
+    {
+  "id": "wa-p-phoenicia-israel",
+  "s": -1155,
+  "e": -911,
+  "t": "Các cảng thị ven Levant thời đồ sắt",
+  "g": "a",
+  "d": "Tyre, Sidon, Byblos và Arwad là những cảng thị độc lập, thường được gọi chung là Phoenicia. Giao thương đường biển nối họ với nhiều vùng Địa Trung Hải. Khoảng 1155–911 TCN trên thanh này là một cửa sổ tham khảo trong lịch sử dài hơn của khu vực, không phải hai năm thành lập và tan rã của một nước Phoenicia thống nhất.",
+  "ca": true,
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/ja/essays/the-phoenicians-1500-300-b-c",
+      "title": "The Met — Người Phoenicia",
+      "scope": "Các cảng thị độc lập ở ven Levant, niên đại rộng và thương mại Địa Trung Hải."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/ja/essays/the-phoenicians-1500-300-b-c"
+},
+    {
+  "id": "wa-p-assyria",
+  "s": -911,
+  "e": -612,
+  "t": "Đế quốc Tân Assyria",
+  "g": "a",
+  "r": "Lưỡng Hà",
+  "d": "Khung khoảng 911–612 TCN thường dùng cho Tân Assyria. Nineveh trở thành một kinh đô lớn, với cung điện và các bộ sưu tập văn bản. Thành thất thủ năm 612 TCN; đây là mốc kết thúc quy ước của thời kỳ, không có nghĩa mọi lực lượng Assyria chấm dứt hoạt động ngay trong năm đó.",
+  "ca": true,
+  "refs": [
+    {
+      "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/04/wam.html",
+      "title": "The Met — Tây Á, 1000 TCN–1",
+      "scope": "Khung Tân Assyria 911–612 TCN."
+    },
+    {
+      "url": "https://www.metmuseum.org/pt/essays/nineveh",
+      "title": "The Met — Nineveh",
+      "scope": "Kinh đô, thất thủ năm 612 TCN và sự tồn tại ngắn của chính quyền còn lại."
+    }
+  ],
+  "ref": "https://82nd-and-fifth.metmuseum.org/toah/ht/04/wam.html"
+},
+    {
+  "id": "wa-p-tan-babylon",
+  "s": -626,
+  "e": -539,
+  "t": "Đế quốc Tân Babylon",
+  "g": "a",
+  "r": "Lưỡng Hà",
+  "d": "Khoảng 626–539 TCN là khung của Đế quốc Tân Babylon theo hồ sơ UNESCO. Babylon là kinh đô với các công trình lớn và nhiều lớp di tích. Mốc 612 TCN thuộc sự thất thủ của Nineveh, không phải khởi đầu thời Tân Babylon.",
+  "ca": true,
+  "refs": [
+    {
+      "url": "https://whc.unesco.org/en/list/278/",
+      "title": "UNESCO — Babylon",
+      "scope": "Khung Tân Babylon 626–539 TCN, di tích và nhiều lớp lịch sử đô thị."
+    }
+  ],
+  "ref": "https://whc.unesco.org/en/list/278/"
+},
+    {
+  "id": "wa-p-achaemenes",
+  "s": -550,
+  "e": -330,
+  "t": "Đế quốc Ba Tư Achaemenes",
+  "g": "a",
+  "r": "Ba Tư (Iran)",
+  "d": "Khung 550–330 TCN thường dùng cho Đế quốc Achaemenid. Bắt đầu từ các cuộc chinh phục của Cyrus, đế quốc mở rộng qua nhiều đời vua và kết thúc trong cuộc chinh phục của Alexander. Mốc 539 TCN là năm chiếm Babylon, không phải khởi đầu toàn thời kỳ.",
+  "ca": true,
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/ja/essays/the-achaemenid-persian-empire-550-330-b-c",
+      "title": "The Met — Đế quốc Achaemenid, 550–330 TCN",
+      "scope": "Cyrus 559–530, thắng Media năm 550, Babylon 539; Darius 522–486, cơ cấu và xây dựng."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/ja/essays/the-achaemenid-persian-empire-550-330-b-c"
+},
     { id: 'wa-p-seleucid', s: -330, e: -141, t: 'Alexander và nhà Seleucid', g: 'a',
       d: 'Sau khi Alexander chinh phục Ba Tư, tướng của ông là Seleucus lập vương triều cai trị Lưỡng Hà và Iran; văn hóa Hy Lạp hòa trộn với văn hóa phương Đông.' },
     { id: 'wa-p-parthia', s: -141, e: 224, t: 'Đế quốc Parthia (An Tức)', g: 'a', r: 'Ba Tư (Iran)',
@@ -3845,8 +4137,29 @@ TL_DATA.push({
   ],
   "ref": "https://egymonuments.gov.eg/en/historical-periods/new-kingdom"
 },
-    { id: 'wa-p-ai-cap-hau-ky', s: -1069, e: -332, t: 'Ai Cập hậu kỳ', g: 'b', r: 'Ai Cập',
-      d: 'Ai Cập chia rẽ và suy yếu, lần lượt chịu sự cai trị của các vua gốc Libya, Nubia, rồi bị Assyria và Ba Tư chinh phục, xen kẽ những giai đoạn phục hưng ngắn.' },
+    {
+  "id": "wa-p-ai-cap-hau-ky",
+  "s": -1069,
+  "e": -332,
+  "t": "Ai Cập: Chuyển tiếp thứ Ba và Hậu kỳ",
+  "g": "b",
+  "r": "Ai Cập",
+  "d": "Thanh này gộp hai thời kỳ: Chuyển tiếp thứ Ba khoảng 1069–664 TCN và Hậu kỳ 664–332 TCN. Quyền lực từng chia giữa nhiều trung tâm, rồi có những lần tái thống nhất. Các vua gốc Libya và Napata, các triều đại Ai Cập cùng những giai đoạn Ba Tư cai trị tạo nên một lịch sử nhiều biến đổi, chứ không phải suy yếu liên tục suốt hơn bảy thế kỷ.",
+  "ca": true,
+  "refs": [
+    {
+      "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/3inter/index.html",
+      "title": "UCL — Ai Cập thời Chuyển tiếp thứ Ba",
+      "scope": "Khung khoảng 1069–664 TCN; phân quyền, các triều đại gốc Libya và Napata."
+    },
+    {
+      "url": "https://www.metmuseum.org/essays/egypt-in-the-late-period-ca-712-332-b-c",
+      "title": "The Met — Ai Cập Hậu kỳ",
+      "scope": "Khung 664–332 TCN, triều 26, các giai đoạn Ba Tư cai trị và các triều đại Ai Cập xen giữa."
+    }
+  ],
+  "ref": "https://www.ucl.ac.uk/museums-static/digitalegypt/3inter/index.html"
+},
     { id: 'wa-p-ptolemy', s: -332, e: -30, t: 'Ai Cập thời Ptolemy', g: 'b', r: 'Ai Cập',
       d: 'Alexander chiếm Ai Cập năm 332 TCN; sau đó tướng Ptolemy lập vương triều gốc Hy Lạp, đóng đô ở Alexandria, kéo dài đến nữ hoàng Cleopatra VII.' },
     { id: 'wa-p-ai-cap-la-ma', s: -30, e: 641, t: 'Ai Cập thuộc La Mã', g: 'b', r: 'Ai Cập',
@@ -4293,50 +4606,245 @@ TL_DATA.push({
   "ref": "https://corum.ktb.gov.tr/EN-61494/kadesh-war-and-peace-treaty.html"
 },
 
-    { id: 'wa-phoenicia-chu-cai-1050tcn', y: -1050, ca: true, date: 'Khoảng 1050 TCN', r: 'Phoenicia (Lebanon)', t: 'Người Phoenicia và bảng chữ cái', c: 'cul', imp: 3,
-      d: 'Người Phoenicia sống ở ven biển Lebanon ngày nay, là những thương nhân đi biển giỏi nhất Địa Trung Hải. Để ghi chép buôn bán cho nhanh, họ dùng một bảng chữ cái chỉ có 22 chữ ghi phụ âm, thay cho hàng trăm ký hiệu của chữ hình nêm hay chữ tượng hình. Bảng chữ cái này theo chân tàu buôn sang Hy Lạp và khắp vùng Địa Trung Hải.',
-      why: 'Là tổ tiên chung của các bảng chữ cái Hy Lạp, Latinh, Ả Rập, Do Thái… mà phần lớn thế giới dùng ngày nay.',
-      fun: 'Chữ “alphabet” ghép từ alpha và beta, hai chữ cái đầu của tiếng Hy Lạp, vốn bắt nguồn từ chữ “aleph” (con bò) và “bet” (ngôi nhà) của người Phoenicia.',
-      alt: 'Bảng chữ cái là phát minh của dân buôn chứ không phải của học giả: càng ít ký hiệu thì càng dễ học, và chữ viết thôi không còn là đặc quyền của một nhóm nhỏ thư lại.',
-      vn: 'Chữ Quốc ngữ dùng mẫu tự Latinh, nên có thể coi người Phoenicia là “ông tổ xa” của từng con chữ người Việt viết hằng ngày.' },
+    {
+  "id": "wa-phoenicia-chu-cai-1050tcn",
+  "y": -1050,
+  "ca": true,
+  "date": "Được chứng thực từ thế kỷ XII TCN; mốc tham chiếu 1050 TCN",
+  "r": "Phoenicia (Lebanon)",
+  "t": "Người Phoenicia và bảng chữ cái",
+  "c": "cul",
+  "imp": 3,
+  "d": "Các văn khắc Phoenicia dùng 22 dấu chủ yếu ghi phụ âm và thường viết từ phải sang trái. Hệ chữ này tiếp nối những thử nghiệm chữ cái có trước, rồi được truyền và biến đổi trong giao lưu Địa Trung Hải. Không có chứng cứ để gán việc phát minh toàn bộ bảng chữ cái cho một thương nhân hay một năm cụ thể.",
+  "fun": "Tên “alphabet” ghép từ alpha và beta, hai chữ đầu của bảng chữ cái Hy Lạp. Ngay trong tên gọi quen thuộc ấy đã có dấu vết của quá trình tiếp nhận chữ viết giữa các cộng đồng.",
+  "consequencesTitle": "Mỗi ngôn ngữ tiếp nhận rồi biến đổi chữ viết",
+  "consequences": "Người Hy Lạp điều chỉnh một số dấu để ghi nguyên âm. Những chặng truyền tiếp qua Etrusca và La Mã góp phần hình thành mẫu tự Latinh, hệ chữ được dùng cho chữ Quốc ngữ ngày nay.",
+  "refs": [
+    {
+      "url": "https://mnamon.sns.it/index.php?id=23&lang=en&page=Scrittura",
+      "title": "Scuola Normale Superiore — Chữ Phoenicia",
+      "scope": "Chữ Phoenicia được chứng thực từ thế kỷ XII TCN; 22 dấu phụ âm, chiều viết và quan hệ với các truyền thống chữ sớm hơn."
+    },
+    {
+      "url": "https://www.metmuseum.org/exhibitions/listings/2014/assyria-to-iberia/blog/posts/alphabet",
+      "title": "The Met — The Alphabet",
+      "scope": "Chữ cái xuất hiện trước Phoenicia; truyền sang Hy Lạp, Etrusca và La Mã; tên alpha, beta."
+    }
+  ],
+  "ref": "https://mnamon.sns.it/index.php?id=23&lang=en&page=Scrittura"
+},
 
-    { id: 'wa-vuong-quoc-israel-1000tcn', y: -1000, ca: true, date: 'Khoảng 1000–930 TCN', r: 'Israel', who: 'Vua David, vua Solomon', t: 'Vương quốc Israel thời David và Solomon', c: 'pol', imp: 1,
-      d: 'Theo Kinh Thánh Do Thái, khoảng năm 1000 TCN vua David thống nhất các bộ tộc Israel và chọn Jerusalem làm kinh đô; con ông là vua Solomon xây Đền thờ đầu tiên. Nhiều chi tiết vẫn đang được các nhà khảo cổ tranh luận, nhưng Jerusalem từ đó trở thành thành phố thiêng của người Do Thái.',
-      why: 'Đặt nền móng cho Do Thái giáo, tôn giáo thờ một thần có ảnh hưởng lớn tới Kitô giáo và Hồi giáo sau này.',
-      alt: 'Cả ba tôn giáo Do Thái giáo, Kitô giáo và Hồi giáo đều coi Jerusalem là thánh địa, vì vậy thành phố nhỏ này trở thành một trong những nơi bị tranh giành nhiều nhất lịch sử.' },
+    {
+  "id": "wa-vuong-quoc-israel-1000tcn",
+  "y": -1000,
+  "ca": true,
+  "date": "Khoảng thế kỷ X TCN trong truyền thống Kinh Thánh",
+  "r": "Israel",
+  "who": "Vua David, vua Solomon",
+  "t": "David, Solomon và câu hỏi về vương quốc sớm",
+  "c": "pol",
+  "imp": 1,
+  "d": "Sách Samuel kể David trở thành vua và chiếm Jerusalem; sách Các Vua kể Solomon xây Đền thờ. Đây là những câu chuyện nền tảng trong truyền thống Kinh Thánh. Quy mô, niên đại và đặc điểm của vương quốc thế kỷ X TCN vẫn cần nghiên cứu bằng khảo cổ và văn bản, thay vì coi toàn bộ lời kể là biên niên đương thời.",
+  "consequencesTitle": "Văn bản và hiện vật mở những cửa sổ khác nhau",
+  "consequences": "Một văn khắc thế kỷ IX TCN nhắc “nhà David” giúp nghiên cứu tên gọi một dòng vua. Nó không tự xác nhận mọi chi tiết về lãnh thổ và công trình trong câu chuyện David–Solomon.",
+  "fun": "Bia Tel Dan được ghép từ những mảnh tìm thấy trong hai năm 1993 và 1994. Người nghiên cứu có thể gặp tên một dòng vua trên văn khắc do đối thủ của dòng vua ấy để lại.",
+  "refs": [
+    {
+      "url": "https://www.biblegateway.com/passage/?search=2+Samuel+5&version=NIV%3BNKJV",
+      "title": "Samuel quyển II, chương 5",
+      "scope": "Lời kể về David làm vua và Jerusalem; dùng như nguồn truyền thống, không coi là xác nhận khảo cổ."
+    },
+    {
+      "url": "https://www.biblegateway.com/passage/?search=1+kings+6&version=NIV",
+      "title": "Các Vua quyển I, chương 6",
+      "scope": "Lời kể Solomon xây Đền thờ."
+    },
+    {
+      "url": "https://thejewishmuseum.org/exhibitions/tel-dan-stele/",
+      "title": "The Jewish Museum — Bia Tel Dan",
+      "scope": "Bia tiếng Aram thế kỷ IX TCN có cụm nhà David; các mảnh tìm thấy năm 1993 và 1994."
+    }
+  ],
+  "ref": "https://www.biblegateway.com/passage/?search=2+Samuel+5&version=NIV%3BNKJV"
+},
 
-    { id: 'wa-hoa-giao-1000tcn', y: -1000, ca: true, date: 'Khoảng 1500–600 TCN (chưa rõ)', r: 'Ba Tư (Iran)', who: 'Nhà tiên tri Zoroaster (Zarathustra)', t: 'Hỏa giáo của Zoroaster', c: 'cul', imp: 1,
-      d: 'Nhà tiên tri Zoroaster dạy rằng thế giới là cuộc đấu tranh giữa thiện và ác, và mỗi người phải chọn đứng về phía thiện bằng ý nghĩ tốt, lời nói tốt, việc làm tốt. Lửa được coi là biểu tượng của sự trong sạch nên đạo này thường được gọi là Hỏa giáo. Đến nay giới sử học vẫn chưa xác định được Zoroaster sống vào thời nào.',
-      why: 'Hỏa giáo là quốc giáo của nhiều đế chế Ba Tư, và các ý tưởng về thiên đường, địa ngục, ngày phán xét được cho là đã ảnh hưởng tới nhiều tôn giáo về sau.',
-      fun: 'Ba nhà thông thái phương Đông mang quà tới mừng Chúa Giê-su ra đời, các “Magi”, được cho là tư tế Hỏa giáo; từ “magic” (phép thuật) cũng bắt nguồn từ chữ này.' },
+    {
+  "id": "wa-hoa-giao-1000tcn",
+  "y": -1000,
+  "ca": true,
+  "date": "Chưa xác định chắc thời Zoroaster; 1000 TCN là mốc đặt bài",
+  "r": "Thế giới Iran cổ",
+  "who": "Nhà tiên tri Zoroaster (Zarathustra)",
+  "t": "Zoroaster và truyền thống Zoroastrianism",
+  "c": "cul",
+  "imp": 1,
+  "d": "Zoroaster, hay Zarathustra, gắn với những bài Gatha và truyền thống tôn giáo về Ahura Mazda. Niên đại và quê hương của ông vẫn được tranh luận; mốc 1000 TCN chỉ giúp đặt bài trên timeline. Trong cách trình bày của cộng đồng Zarathushtrian Assembly ngày nay, con người có trách nhiệm lựa chọn ý nghĩ, lời nói và hành động tốt.",
+  "fun": "Tên gọi quen thuộc “Hỏa giáo” dễ khiến người đọc tưởng lửa là vị thần được thờ. Zarathushtrian Assembly giải thích rằng lửa là biểu tượng và điểm tập trung khi cầu nguyện; đối tượng thờ phụng là Ahura Mazda.",
+  "consequencesTitle": "Một truyền thống có nhiều lớp qua thời gian",
+  "consequences": "Các văn bản và thực hành được hình thành, lưu truyền và diễn giải qua nhiều giai đoạn. Cần phân biệt những bài Gatha với toàn bộ nghi lễ và kinh văn xuất hiện về sau.",
+  "refs": [
+    {
+      "url": "https://www.iranicaonline.org/articles/zoroaster-iii-zoroaster-in-the-avesta/",
+      "title": "Encyclopaedia Iranica — Zoroaster trong Avesta",
+      "scope": "Bất định về thời đại, quê hương và quan hệ với các văn bản."
+    },
+    {
+      "url": "https://zoroastrian.org/faqs/",
+      "title": "Zarathushtrian Assembly — Hỏi đáp",
+      "scope": "Cách cộng đồng này giải thích Gatha, các lớp kinh văn, đạo đức và ý nghĩa của lửa."
+    }
+  ],
+  "ref": "https://www.iranicaonline.org/articles/zoroaster-iii-zoroaster-in-the-avesta/"
+},
 
-    { id: 'wa-thu-vien-ashurbanipal-669tcn', y: -669, y2: -631, date: 'Thời trị vì 669–631 TCN', r: 'Assyria (Iraq)', who: 'Vua Ashurbanipal', place: 'Nineveh (gần Mosul, Iraq)', t: 'Thư viện của vua Ashurbanipal', c: 'cul', imp: 2,
-      d: 'Vua Ashurbanipal của Đế quốc Assyria tự hào là người biết đọc, biết viết, điều hiếm có ở các vua thời đó. Ông cho sưu tầm hàng vạn tấm đất sét ghi chữ hình nêm về y học, thiên văn, bói toán, văn chương, cất trong cung điện ở Nineveh. Khi Nineveh bị đốt năm 612 TCN, lửa lại nung các tấm đất sét cứng thêm và giữ chúng đến ngày nay.',
-      why: 'Là một trong những thư viện có hệ thống đầu tiên, giữ lại phần lớn hiểu biết của chúng ta về Lưỡng Hà, kể cả sử thi Gilgamesh.',
-      fun: 'Trận hỏa hoạn phá hủy cung điện lại thành “người bảo quản” tốt nhất: đất sét được nung thành gốm nên không tan rã. Hiếm khi lửa lại có ích cho sách vở như thế.' },
+    {
+  "id": "wa-thu-vien-ashurbanipal-669tcn",
+  "y": -668,
+  "date": "Thế kỷ VII TCN; 668 TCN là mốc tham chiếu",
+  "r": "Assyria (Iraq)",
+  "who": "Vua Ashurbanipal",
+  "place": "Nineveh (gần Mosul, Iraq)",
+  "t": "Thư viện của vua Ashurbanipal",
+  "c": "cul",
+  "imp": 2,
+  "d": "Những bộ sưu tập văn bản tại Nineveh gắn với tên Ashurbanipal lưu giữ tri thức dưới dạng bảng đất sét chữ hình nêm. Số khoảng 30.000 thường được nhắc tới gồm cả bảng và mảnh vỡ, không phải 30.000 cuốn sách nguyên vẹn. Văn bản đến từ nhiều hoạt động sưu tầm, sao chép và sở hữu khác nhau.",
+  "fun": "Các nhà nghiên cứu nhận diện khoảng một trăm bảng từ bộ sưu tập riêng của học giả Nabu-zuqup-kenu trong số văn bản Nineveh. Một “thư viện hoàng gia” có thể chứa cả dấu vết của thư viện tư nhân.",
+  "ca": true,
+  "consequencesTitle": "Một bộ sưu tập lớn có nhiều nguồn gốc",
+  "consequences": "Dấu sở hữu và ghi chú giúp lần theo những người từng giữ hoặc sao chép văn bản. Nhờ đó, lịch sử thư viện có thể được nghiên cứu từ các mạng lưới học thuật và nghề viết, bên cạnh vai trò nhà vua.",
+  "refs": [
+    {
+      "url": "https://ccp.yale.edu/introduction/cities-and-libraries",
+      "title": "Yale Cuneiform Commentaries Project — Cities and Libraries",
+      "scope": "Khoảng 30.000 bảng chữ, các bộ sưu tập ở Nineveh và dấu vết sở hữu tư nhân."
+    },
+    {
+      "url": "https://www.dfg.de/resource/blob/365490/13-ahrc-library-ashurbanipal.pdf",
+      "title": "DFG/AHRC — Reading the Library of Ashurbanipal",
+      "scope": "Khoảng 30.000 bảng đất sét và mảnh vỡ, bộ sưu tập thế kỷ VII TCN."
+    },
+    {
+      "url": "https://www.metmuseum.org/it/toah/hd/meru/hd_meru.htm",
+      "title": "The Met — Danh sách vua Lưỡng Hà",
+      "scope": "Mốc bắt đầu trị vì Ashurbanipal khoảng 668 TCN, dùng để đặt bài."
+    }
+  ],
+  "ref": "https://ccp.yale.edu/introduction/cities-and-libraries"
+},
 
-    { id: 'wa-babylon-nebuchadnezzar-605tcn', y: -605, y2: -562, r: 'Babylon (Iraq)', who: 'Vua Nebuchadnezzar II', t: 'Babylon huy hoàng thời Nebuchadnezzar II', c: 'pol', imp: 2,
-      d: 'Vua Nebuchadnezzar II biến Babylon thành một trong những thành phố lớn và lộng lẫy nhất thế giới lúc bấy giờ, với cổng Ishtar ốp gạch men xanh, tường thành đồ sộ và tháp đền nhiều tầng. Ông cũng chiếm Jerusalem năm 587 TCN, phá Đền thờ và đưa nhiều người Do Thái về Babylon.',
-      why: 'Babylon trở thành biểu tượng của đô thị giàu có bậc nhất cổ đại, còn cuộc “lưu đày ở Babylon” in đậm dấu ấn trong Kinh Thánh.',
-      fun: 'Vườn treo Babylon nằm trong Bảy kỳ quan thế giới cổ đại, nhưng đến nay khảo cổ học vẫn chưa tìm thấy dấu vết chắc chắn; có giả thuyết cho rằng khu vườn thực ra nằm ở Nineveh.',
-      alt: 'Muốn ngắm cổng Ishtar ngày nay, bạn phải tới Berlin chứ không phải Iraq: cổng được các nhà khảo cổ Đức dựng lại trong Bảo tàng Pergamon từ những viên gạch đào được đầu thế kỷ XX.' },
+    {
+  "id": "wa-babylon-nebuchadnezzar-605tcn",
+  "y": -604,
+  "y2": -562,
+  "r": "Babylon (Iraq)",
+  "who": "Vua Nebuchadnezzar II",
+  "t": "Xây Babylon thời Nebuchadnezzar II",
+  "c": "pol",
+  "imp": 2,
+  "d": "Nebuchadnezzar II để lại dấu vết của chương trình xây dựng Babylon qua gạch có dấu tên vua và những trụ đất sét ghi việc xây công trình. Một trụ tại The Met kể việc làm tường thành ngoài. Những văn bản này vừa là tư liệu về xây dựng, vừa cho thấy cách nhà vua muốn công trình của mình được ghi nhớ.",
+  "fun": "Dấu tên vua thường được đóng trên mặt trên viên gạch, phần sẽ bị che khi xây. Người đi ngang công trình không nhất thiết đọc được tên; thông điệp không chỉ dành cho mắt người qua đường.",
+  "ca": true,
+  "date": "Trong thời trị vì khoảng 604–562 TCN theo hồ sơ hiện vật",
+  "consequencesTitle": "Xây thành cũng là gửi thông điệp",
+  "consequences": "Trụ đặt trong nền được hướng tới thần linh và những người cai trị về sau có thể tìm thấy nó. Người xưa dùng công trình và chữ viết để nối tên tuổi nhà vua với tương lai.",
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/321676",
+      "title": "The Met — Trụ đất sét của Nebuchadnezzar II",
+      "scope": "Khung 604–562 TCN; văn bản xây thành, trụ đặt trong nền và dấu trên gạch."
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/278/",
+      "title": "UNESCO — Babylon",
+      "scope": "Khung Tân Babylon 626–539 TCN, di tích và nhiều lớp lịch sử đô thị."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/art/collection/search/321676"
+},
 
-    { id: 'wa-tien-xu-lydia-600tcn', y: -600, ca: true, date: 'Khoảng thế kỷ VII–VI TCN', r: 'Lydia (Thổ Nhĩ Kỳ)', t: 'Lydia và những đồng tiền xu sớm nhất', c: 'sci', imp: 2,
-      d: 'Ở vương quốc Lydia (miền tây Thổ Nhĩ Kỳ ngày nay), người ta đúc những đồng xu thuộc loại sớm nhất thế giới bằng electrum, hợp kim vàng – bạc có sẵn trong tự nhiên, dập hình đầu sư tử để bảo đảm khối lượng. Trước đó, người ta đổi hàng lấy hàng hoặc phải cân bạc mỗi lần mua bán. Gần như cùng thời, Trung Hoa cũng có tiền đồng đúc hình cái xẻng, con dao.',
-      why: 'Tiền xu giúp buôn bán nhanh và dễ tính toán, rồi lan sang Hy Lạp, Ba Tư và khắp thế giới.',
-      fun: 'Vua Croesus của Lydia giàu đến mức ngày nay tiếng Anh vẫn có thành ngữ “giàu như Croesus” để nói về người cực kỳ giàu có.',
-      alt: 'Đồng xu có dấu nhà vua giống như một “tem bảo hành”: người mua không cần mang cân đi chợ nữa, chỉ cần tin vào con dấu. Tiền tệ, suy cho cùng, là chuyện niềm tin.',
-      vn: 'Đồng tiền đầu tiên do nhà nước Việt Nam tự đúc được biết đến là tiền Thái Bình hưng bảo của nhà Đinh, vào thế kỷ X.' },
+    {
+  "id": "wa-tien-xu-lydia-600tcn",
+  "y": -600,
+  "ca": true,
+  "date": "Khoảng thế kỷ VII–VI TCN",
+  "r": "Lydia (Thổ Nhĩ Kỳ)",
+  "t": "Lydia và những thử nghiệm tiền xu sớm",
+  "c": "sci",
+  "imp": 2,
+  "d": "Những đồng tiền sớm ở Lydia được làm bằng electrum, hợp kim vàng và bạc. Các mảnh kim loại có khối lượng theo chuẩn và dấu đóng giúp bảo chứng giá trị trong trao đổi. Nhưng tỷ lệ vàng trong electrum có thể thay đổi, nên một đồng xu không tự loại bỏ mọi vấn đề về kiểm định và sự tin cậy.",
+  "fun": "Electrum có thể trông như vàng nhưng chứa lượng bạc khác nhau. Vì thế một dấu đóng trên kim loại không chỉ là hình trang trí: nó liên quan đến chuyện người nhận tin đồng tiền đáng giá bao nhiêu.",
+  "consequencesTitle": "Dấu đóng biến kim loại thành một lời cam kết",
+  "consequences": "Giá trị lưu hành dựa vào cả kim loại lẫn uy tín của bên phát hành. Về sau, việc tách tiền vàng và tiền bạc gắn với Croesus là một thay đổi đáng kể trong hệ thống này.",
+  "refs": [
+    {
+      "url": "https://www.sardisexpedition.org/en/essays/latw-kroll-coins-of-sardis",
+      "title": "John H. Kroll, Sardis Expedition — Tiền xu Sardis",
+      "scope": "Electrum, dấu bảo chứng, vấn đề tỷ lệ vàng–bạc và tiền vàng, bạc gắn với Croesus."
+    },
+    {
+      "url": "https://www.oeaw.ac.at/en/oeai/research/classical-studies/numismatics/early-lydian-coinage-and-chronology",
+      "title": "Viện Hàn lâm Khoa học Áo — Niên đại tiền Lydia sớm",
+      "scope": "Nguồn gốc và niên đại tiền sớm còn nhiều điểm chưa rõ; không phải mọi xưởng đều được xác định."
+    }
+  ],
+  "ref": "https://www.sardisexpedition.org/en/essays/latw-kroll-coins-of-sardis"
+},
 
-    { id: 'wa-cyrus-lap-ba-tu-550tcn', y: -550, r: 'Ba Tư (Iran)', who: 'Cyrus Đại đế', t: 'Cyrus Đại đế lập Đế quốc Ba Tư', c: 'pol', imp: 3,
-      d: 'Năm 550 TCN, Cyrus, thủ lĩnh người Ba Tư, đánh bại người Media, rồi lần lượt chiếm vương quốc Lydia giàu có và thành Babylon (539 TCN). Chỉ trong khoảng 20 năm, ông dựng nên đế quốc lớn nhất thế giới thời bấy giờ, trải từ Tiểu Á đến Trung Á. Ông nổi tiếng cai trị khoan dung, tôn trọng phong tục và tín ngưỡng của các dân tộc bị chinh phục.',
-      why: 'Mở đầu Đế quốc Ba Tư, mô hình đế chế đa dân tộc cai quản bằng tỉnh, đường sá và sự khoan dung, được nhiều đế chế sau học theo.',
-      fun: 'Trụ Cyrus, một ống đất sét khắc chữ hình nêm kể việc ông cho các dân tộc bị lưu đày được về quê và dựng lại đền thờ, đôi khi được gọi là một trong những văn bản sớm nhất về quyền con người.',
-      alt: 'Hiếm có kẻ chinh phục nào được chính dân bị chinh phục ca ngợi: Cyrus cho người Do Thái lưu đày ở Babylon trở về Jerusalem, nên Kinh Thánh nhắc tới ông với lòng biết ơn.' },
-    { id: 'wa-darius-con-duong-hoang-gia-522tcn', y: -522, y2: -486, r: 'Ba Tư (Iran)', who: 'Vua Darius I', t: 'Darius I và Con đường Hoàng gia', c: 'pol', imp: 2,
-      d: 'Vua Darius I chia đế quốc thành các tỉnh do quan tổng đốc (satrap) cai quản, thống nhất tiền vàng và thuế khóa. Con đường Hoàng gia dài khoảng 2.700 km nối Sardis (Thổ Nhĩ Kỳ) với Susa (Iran), có trạm đổi ngựa dọc đường, giúp thư tín đi hết tuyến chỉ trong khoảng một tuần. Ông cũng cho xây kinh đô nghi lễ Persepolis tráng lệ.',
-      why: 'Cách tổ chức đế quốc bằng tỉnh, đường sá, bưu trạm và tiền tệ thống nhất của Ba Tư trở thành bài học cho nhiều đế chế về sau.',
-      fun: 'Dòng chữ khắc trên một tòa bưu điện lớn ở New York, đại ý “không tuyết, mưa, nóng hay đêm tối nào ngăn được người đưa thư”, được dịch từ lời nhà sử học Hy Lạp Herodotus khen các trạm ngựa của Ba Tư.' },
+    {
+  "id": "wa-cyrus-lap-ba-tu-550tcn",
+  "y": -550,
+  "r": "Ba Tư (Iran)",
+  "who": "Cyrus Đại đế",
+  "t": "Cyrus Đại đế lập Đế quốc Ba Tư",
+  "c": "pol",
+  "imp": 3,
+  "d": "Năm 550 TCN, Cyrus đánh bại vua Astyages của Media. Cuộc chinh phục làm thay đổi cán cân quyền lực Tây Á; Lydia rồi Babylon tiếp tục rơi vào tay Ba Tư. Babylon bị chiếm năm 539 TCN. Đây là quá trình hình thành đế quốc qua nhiều chiến dịch, không chỉ một lễ lập quốc.",
+  "fun": "Trụ Cyrus thường được gọi là “hiến chương nhân quyền đầu tiên”. Theo nhà nghiên cứu Michael Seymour tại The Met, cách gọi này vượt quá nội dung văn bản: đó gần hơn với một tuyên bố về cách làm vua nhân từ.",
+  "consequencesTitle": "Chinh phục cần đi cùng việc giải thích quyền cai trị",
+  "consequences": "Sau khi vào Babylon, Cyrus trình bày mình như người khôi phục trật tự và thờ tự. Trụ Cyrus là tư liệu để nghiên cứu cách nhà vua muốn cuộc chuyển quyền được nhìn nhận.",
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/ja/essays/the-achaemenid-persian-empire-550-330-b-c",
+      "title": "The Met — Đế quốc Achaemenid, 550–330 TCN",
+      "scope": "Cyrus 559–530, thắng Media năm 550, Babylon 539; Darius 522–486, cơ cấu và xây dựng."
+    },
+    {
+      "url": "https://www.metmuseum.org/fr/perspectives/cyrus-the-great",
+      "title": "Michael Seymour, The Met — Di sản Cyrus",
+      "scope": "Trụ Cyrus, tự trình bày quyền vua, sự tiếp nhận trong Xenophon và giới hạn gọi là hiến chương nhân quyền."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/ja/essays/the-achaemenid-persian-empire-550-330-b-c"
+},
+    {
+  "id": "wa-darius-con-duong-hoang-gia-522tcn",
+  "y": -522,
+  "y2": -486,
+  "r": "Ba Tư (Iran)",
+  "who": "Vua Darius I",
+  "t": "Darius I và Con đường Hoàng gia",
+  "c": "pol",
+  "imp": 2,
+  "d": "Dưới Darius I, mạng lưới đường nối các trung tâm đế quốc giúp thư tín, đoàn buôn và người thi hành công vụ di chuyển. Tuyến thường gọi Con đường Hoàng gia nối Susa với Sardis; Iranica quy đổi chiều dài được Herodotus ghi thành khoảng 2600 km. Đây là một phần của mạng đường có cả những tuyến tồn tại từ trước.",
+  "fun": "Dòng chữ nổi tiếng trên bưu điện James A. Farley ở New York bắt nguồn từ lời Herodotus về người đưa tin Ba Tư. USPS còn đính chính rằng đó không phải khẩu hiệu chính thức của Bưu chính Hoa Kỳ.",
+  "ca": true,
+  "date": "Thời trị vì khoảng 522–486 TCN",
+  "consequencesTitle": "Khoảng cách được khắc phục bằng mạng lưới",
+  "consequences": "Đường và trạm giúp các vùng liên lạc với trung tâm cai trị. Khả năng tổ chức người, nơi nghỉ và các chặng đi quan trọng không kém chiều dài tuyến đường.",
+  "refs": [
+    {
+      "url": "https://www.iranicaonline.org/articles/achaemenid-dynasty/achaemenid-dynasty-ii-the-empire/",
+      "title": "Encyclopaedia Iranica — Đế quốc Achaemenid",
+      "scope": "Mạng đường, tuyến Susa–Sardis khoảng 2600 km và các trạm; hệ thống sử dụng cả tuyến có trước."
+    },
+    {
+      "url": "https://facts.usps.com/fun/",
+      "title": "USPS — About that motto",
+      "scope": "Chữ trên bưu điện Farley, nguồn Herodotus và việc USPS không có khẩu hiệu chính thức."
+    }
+  ],
+  "ref": "https://www.iranicaonline.org/articles/achaemenid-dynasty/achaemenid-dynasty-ii-the-empire/"
+},
 
     { id: 'wa-alexandria-331tcn', y: -331, date: 'Từ năm 331 TCN', r: 'Ai Cập', place: 'Alexandria', t: 'Alexandria và thư viện lừng danh', c: 'cul', imp: 2,
       d: 'Alexander Đại đế lập thành Alexandria bên bờ Địa Trung Hải năm 331 TCN. Dưới các vua Ptolemy, thành phố trở thành trung tâm học thuật của thế giới Hy Lạp, với Thư viện Alexandria lưu giữ hàng vạn cuộn sách và ngọn hải đăng Pharos, một trong Bảy kỳ quan cổ đại. Euclid viết sách hình học và Eratosthenes đo chu vi Trái Đất tại đây.',
@@ -4624,8 +5132,29 @@ TL_DATA.push({
   ],
   "ref": "https://www.english-heritage.org.uk/visit/places/stonehenge/history-and-stories/timeline"
 },
-    { id: 'eu-p-hy-lap', s: -800, e: -146, t: 'Hy Lạp cổ đại', g: 'a', r: 'Hy Lạp',
-      d: 'Hàng trăm thành bang như Athens, Sparta chung tiếng nói và thần thoại nhưng thường xuyên cạnh tranh nhau. Đây là cái nôi của dân chủ, triết học, sân khấu và Thế vận hội.' },
+    {
+  "id": "eu-p-hy-lap",
+  "s": -800,
+  "e": -31,
+  "t": "Hy Lạp: thành bang và thời Hellenistic",
+  "g": "a",
+  "r": "Hy Lạp",
+  "d": "Khung văn hóa rộng từ khoảng thế kỷ VIII đến 31 TCN. Các thành bang có thể chế và truyền thống riêng, cùng những liên hệ qua ngôn ngữ, lễ hội và giao thương. Sau thời Alexander là các vương quốc Hellenistic. Mốc 31 TCN thường kết thúc phân kỳ này; nghệ thuật và văn hóa Hy Lạp vẫn tiếp tục dưới thời La Mã.",
+  "ca": true,
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/essays/greek-art-in-the-archaic-period",
+      "title": "The Met — Nghệ thuật Hy Lạp thời Archaic",
+      "scope": "Các thành bang, khác biệt địa phương, ngôn ngữ, lễ hội và giao lưu với Ai Cập, Cận Đông."
+    },
+    {
+      "url": "https://www.metmuseum.org/essays/art-of-the-hellenistic-age-and-the-hellenistic-tradition",
+      "title": "The Met — Thời Hellenistic",
+      "scope": "Khung 323–31 TCN, các vương quốc và sự tiếp tục nghệ thuật Hy Lạp dưới La Mã."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/essays/greek-art-in-the-archaic-period"
+},
     { id: 'eu-p-tay-la-ma', s: 395, e: 476, t: 'Tây La Mã', g: 'a', r: 'La Mã (Ý)',
       d: 'Sau khi đế chế chia đôi năm 395, nửa phía tây suy yếu nhanh vì khủng hoảng kinh tế, nội chiến và các tộc người German tràn vào, đến năm 476 thì sụp đổ.' },
     { id: 'eu-p-so-ky-trung-co', s: 476, e: 1000, t: 'Sơ kỳ Trung cổ', g: 'a',
@@ -4793,11 +5322,33 @@ TL_DATA.push({
   ],
   "ref": "https://whc.unesco.org/en/list/849/"
 },
-    { id: 'eu-chu-hy-lap-800tcn', y: -800, ca: true, date: 'Khoảng thế kỷ VIII TCN', r: 'Hy Lạp', t: 'Bảng chữ cái Hy Lạp có nguyên âm', c: 'cul', imp: 1,
-      d: 'Người Hy Lạp mượn bảng chữ cái của thương nhân Phoenicia, vốn chỉ ghi phụ âm, rồi thêm các chữ ghi nguyên âm như alpha, epsilon, omicron. Nhờ vậy chữ viết ghi được gần đúng cách phát âm, dễ học hơn hẳn các loại chữ tượng hình.',
-      why: 'Bảng chữ cái Hy Lạp là “ông tổ” của chữ Latinh và chữ Kirin, hai hệ chữ được hàng tỷ người dùng ngày nay.',
-      fun: 'Từ “alphabet” (bảng chữ cái) ghép từ tên hai chữ cái đầu tiên của tiếng Hy Lạp: alpha và beta.',
-      vn: 'Chữ Quốc ngữ dùng bảng chữ cái Latinh — hậu duệ của chữ Hy Lạp qua người Etrusca và La Mã. Vì thế “a, b, c” của ta có họ hàng xa với “alpha, beta”.' },
+    {
+  "id": "eu-chu-hy-lap-800tcn",
+  "y": -800,
+  "ca": true,
+  "date": "Khoảng thế kỷ VIII TCN",
+  "r": "Hy Lạp",
+  "t": "Bảng chữ cái Hy Lạp có nguyên âm",
+  "c": "cul",
+  "imp": 1,
+  "d": "Các văn khắc cho thấy chữ cái Hy Lạp được sử dụng từ thế kỷ VIII TCN. Người dùng điều chỉnh một hệ chữ có nguồn gốc Phoenicia, dùng một số dấu để ghi nguyên âm. Nhiều địa phương có biến thể riêng; bảng chữ cái quen thuộc ngày nay là kết quả của một quá trình phát triển.",
+  "fun": "Người Hy Lạp cổ không viết bằng đúng bộ chữ hoa và chữ thường như sách học hiện nay. Dạng chữ thường Hy Lạp phát triển trong thời trung đại, rất lâu sau những văn khắc đầu tiên.",
+  "consequencesTitle": "Sự tiếp nhận tạo nên một hệ chữ mới",
+  "consequences": "Việc dùng dấu ghi nguyên âm giúp hệ chữ thích ứng với tiếng Hy Lạp. Lịch sử chữ Latinh cũng đi qua những chặng tiếp nhận từ Hy Lạp đến Etrusca và La Mã.",
+  "refs": [
+    {
+      "url": "https://mnamon.sns.it/index.php?id=12&lang=en&page=Scrittura",
+      "title": "Scuola Normale Superiore — Chữ Hy Lạp",
+      "scope": "Chứng cứ thế kỷ VIII TCN, dấu ghi nguyên âm, các biến thể địa phương và chữ thường thời trung đại."
+    },
+    {
+      "url": "https://www.metmuseum.org/exhibitions/listings/2014/assyria-to-iberia/blog/posts/alphabet",
+      "title": "The Met — The Alphabet",
+      "scope": "Chữ cái xuất hiện trước Phoenicia; truyền sang Hy Lạp, Etrusca và La Mã; tên alpha, beta."
+    }
+  ],
+  "ref": "https://mnamon.sns.it/index.php?id=12&lang=en&page=Scrittura"
+},
     {
   "id": "eu-olympic-776tcn",
   "y": -776,
@@ -4820,22 +5371,75 @@ TL_DATA.push({
   ],
   "date": "776 TCN, mốc thường được dẫn trong sử liệu"
 },
-    { id: 'eu-rome-753tcn', y: -753, ca: true, date: '753 TCN (theo truyền thuyết)', r: 'La Mã (Ý)', t: 'Thành Rome ra đời', c: 'pol', imp: 2, who: 'Romulus (truyền thuyết)',
-      d: 'Truyền thuyết kể rằng hai anh em sinh đôi Romulus và Remus bị bỏ rơi bên sông Tiber và được một con sói cái nuôi lớn. Năm 753 TCN, Romulus lập ra thành Rome trên những ngọn đồi bên sông. Khảo cổ học cho thấy nơi đây vốn đã có những làng nhỏ từ trước đó.',
-      why: 'Từ một làng nhỏ bên sông, Rome sẽ trở thành trung tâm của một trong những đế chế lớn nhất lịch sử.',
-      fun: 'Người Rome đến nay vẫn tổ chức sinh nhật thành phố vào ngày 21 tháng 4 hằng năm.',
-      vn: 'Cùng khoảng thế kỷ VIII–VII TCN, ở đồng bằng sông Hồng, nhà nước Văn Lang của các vua Hùng đang dần hình thành.' },
-    { id: 'eu-homer-750tcn', y: -750, ca: true, date: 'Khoảng thế kỷ VIII TCN', r: 'Hy Lạp', t: 'Homer và hai sử thi Iliad, Odyssey', c: 'cul', imp: 1,
-      d: 'Iliad kể về những ngày cuối của cuộc chiến thành Troy, còn Odyssey kể hành trình mười năm trở về nhà đầy gian nan của người anh hùng Odysseus. Hai sử thi được truyền miệng qua nhiều thế hệ trước khi được ghi lại bằng chữ.',
-      why: 'Đây là hai tác phẩm văn học cổ nhất châu Âu còn lưu giữ, là nền móng của văn chương phương Tây.',
-      fun: 'Các nhà nghiên cứu vẫn tranh cãi Homer là một người, nhiều người, hay chỉ là cái tên chung cho các nghệ nhân hát rong.',
-      alt: 'Odyssey có thể xem là chuyện “đường về nhà” xa nhất văn học: Odysseus mất mười năm, gặp đủ quái vật và thần linh, chỉ để về với vợ con ở đảo Ithaca.' },
-    { id: 'eu-pythagoras-530tcn', y: -530, ca: true, date: 'Khoảng 530 TCN', r: 'Hy Lạp', t: 'Pythagoras và trường phái số học', c: 'sci', imp: 1, who: 'Pythagoras',
-      place: 'Croton (miền nam nước Ý ngày nay)',
-      d: 'Pythagoras lập một trường phái vừa nghiên cứu toán học, âm nhạc, vừa sống theo những quy tắc đạo đức nghiêm ngặt. Họ tin rằng mọi thứ trong vũ trụ đều có thể giải thích bằng con số và tỉ lệ.',
-      why: 'Ý tưởng dùng toán học để hiểu thế giới tự nhiên trở thành nền tảng của khoa học phương Tây.',
-      fun: 'Định lý mang tên ông thực ra đã được người Babylon và người Trung Quốc biết đến từ trước. Còn học trò của ông thì bị cấm... ăn đậu.',
-      alt: 'Pythagoras gần như không để lại bài viết nào; những gì ta biết về ông phần lớn do học trò kể lại, nhiều chuyện đã thành truyền thuyết.' },
+    {
+  "id": "eu-rome-753tcn",
+  "y": -753,
+  "ca": true,
+  "date": "21/4/753 TCN theo truyền thống",
+  "r": "La Mã (Ý)",
+  "t": "Rome và ngày sinh nhật trong truyền thuyết",
+  "c": "pol",
+  "imp": 2,
+  "who": "Romulus (truyền thuyết)",
+  "d": "Theo truyền thống La Mã, Romulus lập Rome ngày 21 tháng 4 năm 753 TCN. Ngày trên timeline ghi lại câu chuyện lập thành mà người Rome gìn giữ; không nên hiểu đó là một ngày khai lập đã được khảo cổ xác nhận. Lịch sử đô thị về sau kéo dài qua nhiều chế độ và thời kỳ.",
+  "fun": "Rome vẫn gọi ngày 21 tháng 4 là Natale di Roma — sinh nhật thành phố. Một mốc mang tính truyền thống có thể tiếp tục sống trong lịch lễ của một đô thị hiện đại.",
+  "consequencesTitle": "Một thành phố kể về khởi đầu của mình",
+  "consequences": "Truyền thuyết lập thành trở thành một phần ký ức công cộng của Rome. Nó giúp hiểu cách thành phố kỷ niệm lịch sử, bên cạnh việc nghiên cứu quá khứ qua di tích và văn bản.",
+  "refs": [
+    {
+      "url": "https://www.turismoroma.it/en/page/rome-nutshell",
+      "title": "Turismo Roma — Rome in a nutshell",
+      "scope": "Ngày lập thành 21/4/753 TCN theo truyền thống; thành phố và lịch sử lâu dài."
+    }
+  ],
+  "ref": "https://www.turismoroma.it/en/page/rome-nutshell"
+},
+    {
+  "id": "eu-homer-750tcn",
+  "y": -750,
+  "ca": true,
+  "date": "Khoảng thế kỷ VIII–VII TCN; niên đại còn được nghiên cứu",
+  "r": "Hy Lạp",
+  "t": "Iliad, Odyssey và đường đi từ lời hát đến bản chép",
+  "c": "cul",
+  "imp": 1,
+  "d": "Iliad và Odyssey gắn với tên Homer, nhưng có lịch sử trình diễn và lưu truyền bằng lời trước khi tồn tại dưới dạng các bản chép. Nghiên cứu niên đại phân biệt thời gian hình thành truyền thống sử thi, việc ghi lại bằng chữ và tuổi của những bản văn còn lại. Mốc 750 TCN chỉ đặt bài trong giai đoạn tham khảo.",
+  "fun": "Theo giới thiệu của Thư viện Đại học Chicago, những mảnh giấy cói Homer sớm nhất còn lại có niên đại thế kỷ III TCN. Khoảng cách nhiều thế kỷ nhắc rằng “văn bản cổ nhất còn giữ” và “lúc sáng tác” là hai mốc khác nhau.",
+  "consequencesTitle": "Tác phẩm được truyền qua nhiều thế hệ người đọc",
+  "consequences": "Những mảnh giấy cói, bản chép trung đại và ấn bản về sau giúp người nghiên cứu lần theo việc bảo tồn và tiếp nhận sử thi. Tuổi của bản chép còn lại có thể cách rất xa thời hình thành tác phẩm.",
+  "refs": [
+    {
+      "url": "https://www.lib.uchicago.edu/collex/exhibits/homer-print-transmission-and-reception-homers-works/homer-print/",
+      "title": "Thư viện Đại học Chicago — Homer in Print",
+      "scope": "Truyền miệng, khung thế kỷ VIII–VII TCN, ghi chép và những mảnh giấy cói còn lại."
+    }
+  ],
+  "ref": "https://www.lib.uchicago.edu/collex/exhibits/homer-print-transmission-and-reception-homers-works/homer-print/"
+},
+    {
+  "id": "eu-pythagoras-530tcn",
+  "y": -530,
+  "ca": true,
+  "date": "Khoảng 530 TCN",
+  "r": "Hy Lạp",
+  "t": "Pythagoras và một cộng đồng tư tưởng",
+  "c": "sci",
+  "imp": 1,
+  "who": "Pythagoras",
+  "place": "Croton (miền nam nước Ý ngày nay)",
+  "d": "Khoảng 530 TCN, Pythagoras đến Croton ở miền nam bán đảo Ý. Tên ông gắn với một cách sống và những suy nghĩ về linh hồn, trật tự và con số. Các thế hệ theo trường phái phát triển tư tưởng theo nhiều hướng.",
+  "fun": "Định lý quen thuộc mang tên ông, nhưng các nguồn sớm không ghi ông chứng minh nó. Tên một định lý và hồ sơ phát hiện thực tế có thể khác nhau.",
+  "consequencesTitle": "Một tên tuổi có thể che khuất nhiều thế hệ",
+  "consequences": "Cần phân biệt Pythagoras với những người thuộc truyền thống Pythagoras về sau khi nói về thành tựu toán học.",
+  "refs": [
+    {
+      "url": "https://plato.stanford.edu/entries/pythagoras/",
+      "title": "Carl Huffman, Stanford Encyclopedia of Philosophy — Pythagoras",
+      "scope": "Khoảng 570–490 TCN; Croton khoảng 530; tư liệu muộn, sách gán tên và giới hạn quy định lý cho cá nhân ông."
+    }
+  ],
+  "ref": "https://plato.stanford.edu/entries/pythagoras/"
+},
     { id: 'eu-cong-hoa-la-ma-509tcn', y: -509, r: 'La Mã (Ý)', t: 'La Mã đuổi vua, lập nền cộng hòa', c: 'pol', imp: 3,
       d: 'Người Rome lật đổ vị vua chuyên quyền Tarquinius Kiêu ngạo và quyết không để ai làm vua nữa. Thay vào đó, họ bầu hai quan chấp chính mỗi năm, cùng Viện Nguyên lão quản lý đất nước, để không một người nào nắm hết quyền lực.',
       why: 'Mô hình chia quyền, nhiệm kỳ ngắn và bầu cử của La Mã ảnh hưởng tới nhiều nhà nước cộng hòa hiện đại.',
@@ -7098,12 +7702,32 @@ TL_PEOPLE.push({
 TL_PEOPLE.push({
   lane: 'cn',
   people: [
-    { id: 'cn-np-khong-tu', n: 'Khổng Tử', b: -551, d: -479,
-      role: 'Nhà tư tưởng, người sáng lập Nho giáo', c: 'cul', imp: 3, r: 'Trung Quốc',
-      k: -497, act: 'rời nước Lỗ, bắt đầu 14 năm chu du các nước để truyền bá tư tưởng của mình',
-      bio: 'Tên thật là Khổng Khâu, người nước Lỗ (tỉnh Sơn Đông ngày nay). Ông mở trường dạy học cho cả con nhà thường dân, tương truyền có tới 3.000 học trò. Lời dạy của ông về lòng nhân, lễ nghĩa, đạo làm người được học trò chép lại thành sách Luận ngữ. Nho giáo về sau trở thành nền tảng tư tưởng của các triều đại Trung Hoa, Việt Nam, Triều Tiên; Văn Miếu ở Thăng Long (1070) được dựng để thờ ông.',
-      fun: 'Câu “Điều gì mình không muốn thì đừng làm cho người khác” (Kỷ sở bất dục, vật thi ư nhân) chính là lời ông, ghi trong sách Luận ngữ. Hơn 2.500 năm sau, câu nói ấy vẫn được dùng làm nguyên tắc ứng xử ở khắp nơi.',
-      same: 'Thế kỷ VI TCN là “thời của các nhà hiền triết”: Khổng Tử gần như cùng thời với Đức Phật ở Ấn Độ (theo một cách tính phổ biến, khoảng 563–483 TCN) và nhà toán học Pythagoras ở Hy Lạp (khoảng 570–495 TCN).' },
+    {
+  "id": "cn-np-khong-tu",
+  "n": "Khổng Tử",
+  "b": -551,
+  "d": -479,
+  "role": "Nhà tư tưởng và người thầy trong truyền thống Nho học",
+  "c": "cul",
+  "imp": 3,
+  "r": "Trung Quốc",
+  "k": -500,
+  "act": "được nhắc trong nguồn cổ về hoạt động nghi lễ và chính trị tại nước Lỗ",
+  "bio": "Khổng Tử, tức Khổng Khâu, gắn với việc dạy học và suy nghĩ về lễ, phẩm chất con người và cai trị. Luận ngữ lưu lại nhiều đối thoại gắn với ông; những hình ảnh về người thầy được các thế hệ diễn giải khác nhau.",
+  "fun": "Tên Confucius trong tiếng châu Âu là dạng Latinh hóa của họ Khổng và danh xưng thầy. Tên thường dùng ở phương Tây vốn mang ý nghĩa tôn xưng.",
+  "cb": true,
+  "cd": true,
+  "ck": true,
+  "lifeLabel": "551–479 TCN theo niên đại truyền thống",
+  "refs": [
+    {
+      "url": "https://plato.stanford.edu/entries/confucius/",
+      "title": "Stanford Encyclopedia of Philosophy — Confucius",
+      "scope": "Niên đại truyền thống, các lớp tiểu sử và văn bản, nội dung lễ, nhân, giáo dục và nguyên tắc ứng xử."
+    }
+  ],
+  "ref": "https://plato.stanford.edu/entries/confucius/"
+},
 
     { id: 'cn-np-ton-tu', n: 'Tôn Tử', b: -544, d: -496, cb: true, cd: true,
       ref: 'https://afe.easia.columbia.edu/ps/cup/sunzi_art_of_war.pdf', role: 'Nhân vật theo truyền thống gắn với Binh pháp Tôn Tử', c: 'war', imp: 2, r: 'Trung Quốc',
@@ -7564,12 +8188,43 @@ TL_PEOPLE.push({
 TL_PEOPLE.push({
   lane: 'sa',
   people: [
-    { id: 'sa-np-duc-phat', n: 'Đức Phật Thích Ca', b: -563, d: -483, cb: true, cd: true,
-      role: 'Người sáng lập đạo Phật', c: 'cul', imp: 3, r: 'Ấn Độ – Nepal',
-      k: -528, act: 'giác ngộ dưới cội bồ đề ở Bodh Gaya (theo niên đại truyền thống)',
-      bio: 'Tên thật là Tất-đạt-đa Cồ-đàm (Siddhartha Gautama), vị thái tử của một tiểu quốc dưới chân dãy Himalaya đã rời bỏ cung điện để tìm con đường giải thoát con người khỏi khổ đau. Sau khi giác ngộ, Đức Phật dành khoảng 45 năm đi giảng đạo khắp lưu vực sông Hằng, để lại giáo lý về Tứ diệu đế và con đường trung đạo. Niên đại cuộc đời Đức Phật còn nhiều tranh luận: theo truyền thống là thế kỷ VI TCN, còn nhiều học giả hiện đại xếp vào thế kỷ V TCN.',
-      fun: 'Theo truyền thống Phật giáo Nam tông, Đức Phật đản sinh, thành đạo và nhập niết bàn vào cùng một ngày trăng tròn tháng Vesak. Liên Hợp Quốc công nhận Đại lễ Vesak từ năm 1999, và Việt Nam đã nhiều lần đăng cai tổ chức đại lễ này.',
-      same: 'Theo niên đại truyền thống, Đức Phật hơn Khổng Tử (551–479 TCN) 12 tuổi và nhập niết bàn trước ông 4 năm: hai bậc thầy lớn của châu Á sống cùng thời, dù không có dấu vết nào cho thấy họ từng biết đến nhau.' },
+    {
+  "id": "sa-np-duc-phat",
+  "n": "Đức Phật Thích Ca",
+  "b": -563,
+  "d": -483,
+  "cb": true,
+  "cd": true,
+  "role": "Người sáng lập đạo Phật",
+  "c": "cul",
+  "imp": 3,
+  "r": "Ấn Độ – Nepal",
+  "k": -528,
+  "act": "được gắn mốc thành đạo trong hệ niên đại 563–483 TCN",
+  "bio": "Gautama thuộc cộng đồng Shakya ở vùng nay gần biên giới Ấn Độ–Nepal. Truyền thống kể ông rời đời sống gia đình để tìm con đường chấm dứt khổ đau, rồi giảng dạy sau khi giác ngộ. Niên đại lịch sử còn tranh luận; khoảng 563–483 TCN chỉ là một hệ tham chiếu, không đủ để tính tuổi chắc chắn ở một năm cụ thể.",
+  "fun": "Liên Hợp Quốc công nhận việc kỷ niệm Vesak qua nghị quyết năm 1999. Ngày lễ hiện đại và năm sinh lịch sử của Đức Phật là hai vấn đề khác nhau.",
+  "timeBasis": "traditional",
+  "lifeLabel": "Khoảng 563–483 TCN theo một hệ niên đại; còn tranh luận",
+  "ck": true,
+  "refs": [
+    {
+      "url": "https://plato.stanford.edu/entries/buddha/",
+      "title": "Mark Siderits, Stanford Encyclopedia of Philosophy — Buddha",
+      "scope": "Khổ, giải thoát, lời kể về Gautama và tranh luận niên đại, gồm cách đặt niên đại mất khoảng 405 TCN."
+    },
+    {
+      "url": "https://www.open.edu/openlearn/history-the-arts/culture/religious-studies/the-dates-the-buddha",
+      "title": "Open University — Các hệ niên đại Đức Phật",
+      "scope": "Nhiều niên đại truyền thống và những cách tính lại; không có một cặp năm được mọi giới chấp nhận."
+    },
+    {
+      "url": "https://www.un.org/en/observances/vesak-day",
+      "title": "Liên Hợp Quốc — Ngày Vesak",
+      "scope": "Vesak và nghị quyết 54/115 năm 1999."
+    }
+  ],
+  "ref": "https://plato.stanford.edu/entries/buddha/"
+},
     { id: 'sa-np-chandragupta-maurya', n: 'Chandragupta Maurya', b: -340, d: -297, cb: true, cd: true,
       role: 'Hoàng đế sáng lập nhà Maurya', c: 'pol', imp: 2, r: 'Ấn Độ',
       k: -322, act: 'lật đổ nhà Nanda, lập nên Đế quốc Maurya',
@@ -7963,22 +8618,104 @@ TL_PEOPLE.push({
   ],
   "ref": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesii.html"
 },
-    { id: 'wa-np-nebuchadnezzar-ii', n: 'Nebuchadnezzar II', b: -642, d: -562, cb: true,
-      role: 'Vua Tân Babylon', c: 'pol', imp: 2, r: 'Babylon (Iraq)',
-      k: -575, act: 'cho dựng Cổng Ishtar ốp gạch men xanh lam rực rỡ ở Babylon',
-      bio: 'Là vị vua quyền lực nhất của Đế quốc Tân Babylon, Nebuchadnezzar II đánh bại Ai Cập ở trận Carchemish (605 TCN), làm chủ vùng Syria – Palestine, phá Jerusalem (587 hoặc 586 TCN) và đưa nhiều người Do Thái về Babylon. Ông biến kinh đô thành thành phố lộng lẫy bậc nhất thời ấy, với tường thành đồ sộ, đại lộ rước lễ và tháp đền Etemenanki cao vút.',
-      fun: 'Gạch xây Babylon thời ông thường được đóng dấu tên nhà vua; đến nay các nhà khảo cổ vẫn đào được rất nhiều viên gạch ghi “Nebuchadnezzar, vua Babylon”: một kiểu “ký tên” lên từng viên gạch.' },
-    { id: 'wa-np-cyrus', n: 'Cyrus Đại đế', b: -600, d: -530, cb: true,
-      role: 'Vua sáng lập Đế quốc Ba Tư', c: 'pol', imp: 3, r: 'Ba Tư (Iran)',
-      k: -539, act: 'tiến vào Babylon và cho các dân tộc bị lưu đày được trở về quê hương',
-      bio: 'Từ một tiểu vương xứ Anshan, Cyrus lần lượt đánh bại người Medes, vua Croesus giàu có của xứ Lydia và Đế quốc Tân Babylon, dựng nên Đế quốc Achaemenes, đế quốc lớn nhất thế giới thời bấy giờ. Thay vì tàn phá, ông thường để các dân tộc bị chinh phục giữ phong tục, tín ngưỡng của mình, nhờ vậy được nhiều nơi nhớ đến như một vị vua khoan dung. Lăng mộ của ông vẫn còn ở Pasargadae (Iran).',
-      fun: 'Hai thế kỷ sau, khi Alexander Đại đế chinh phục Ba Tư, ông đã tới viếng lăng Cyrus ở Pasargadae và ra lệnh tu sửa ngôi mộ từng bị kẻ trộm xâm phạm.',
-      same: 'Khi Cyrus tiến vào Babylon năm 539 TCN, ở nước Lỗ bên Trung Hoa, cậu bé Khổng Tử mới 12 tuổi.' },
-    { id: 'wa-np-darius-i', n: 'Darius I', b: -550, d: -486, cb: true,
-      role: 'Hoàng đế Ba Tư, nhà tổ chức đại tài', c: 'pol', imp: 2, r: 'Ba Tư (Iran)',
-      k: -522, act: 'giành ngôi vua Ba Tư, rồi chia đế quốc thành các tỉnh do tổng đốc cai quản',
-      bio: 'Darius I đưa Đế quốc Ba Tư lên cực thịnh, trải từ thung lũng sông Ấn tới Ai Cập và vùng Balkan. Ông chia đất nước thành các tỉnh (satrapy), phát hành đồng tiền vàng daric, mở Con đường Hoàng gia dài khoảng 2.700 km và cho xây kinh đô nghi lễ Persepolis. Tuy vậy, cuộc viễn chinh ông phái sang Hy Lạp đã thất bại ở trận Marathon (490 TCN).',
-      fun: 'Ông cho khắc trên vách núi Behistun một bản tự thuật bằng ba thứ tiếng; nhờ văn bia này, đến thế kỷ XIX các học giả giải mã được chữ hình nêm, giống như đá Rosetta với chữ tượng hình Ai Cập.' },
+    {
+  "id": "wa-np-nebuchadnezzar-ii",
+  "n": "Nebuchadnezzar II",
+  "b": -604,
+  "d": -562,
+  "cb": true,
+  "role": "Vua Tân Babylon",
+  "c": "pol",
+  "imp": 2,
+  "r": "Babylon (Iraq)",
+  "k": -604,
+  "act": "bắt đầu khung trị vì dùng trong các hồ sơ hiện vật của The Met và NYU",
+  "bio": "Nebuchadnezzar II là vua Tân Babylon gắn với chương trình xây dựng lớn ở kinh đô. Gạch đóng dấu và trụ văn bản đặt trong nền ghi lại tên nhà vua cùng các công trình. Khung 604–562 TCN ở đây theo niên đại dùng trong những hồ sơ hiện vật được dẫn, không phải năm sinh và năm mất.",
+  "fun": "Một viên gạch trưng bày trong triển lãm của NYU có cả dấu hoàng gia bằng chữ hình nêm lẫn một dòng chữ cái khắc thêm, được giới thiệu như dấu của người thợ. Dấu quyền lực nhà vua và dấu tay nghề của người làm cùng xuất hiện trên một vật nhỏ.",
+  "ck": true,
+  "timeBasis": "activity",
+  "lifeLabel": "Trị vì khoảng 604–562 TCN theo niên đại hiện vật",
+  "refs": [
+    {
+      "url": "https://isaw.nyu.edu/exhibitions/ishtar-gate/objects/brick-nebuchadnezzar-ii-2",
+      "title": "NYU ISAW — Gạch Nebuchadnezzar II",
+      "scope": "Khung 604–562 TCN, dấu hoàng gia chữ hình nêm và chữ cái khắc thêm trên một viên gạch."
+    },
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/321676",
+      "title": "The Met — Trụ đất sét của Nebuchadnezzar II",
+      "scope": "Khung 604–562 TCN; văn bản xây thành, trụ đặt trong nền và dấu trên gạch."
+    }
+  ],
+  "ref": "https://isaw.nyu.edu/exhibitions/ishtar-gate/objects/brick-nebuchadnezzar-ii-2"
+},
+    {
+  "id": "wa-np-cyrus",
+  "n": "Cyrus Đại đế",
+  "b": -559,
+  "d": -530,
+  "cb": true,
+  "role": "Vua sáng lập Đế quốc Ba Tư",
+  "c": "pol",
+  "imp": 3,
+  "r": "Ba Tư (Iran)",
+  "k": -539,
+  "act": "chiếm Babylon và trình bày quyền cai trị theo truyền thống vua Lưỡng Hà",
+  "bio": "Cyrus II mở rộng quyền lực Ba Tư sau khi đánh bại Media và chiếm Babylon. Trụ mang tên ông kể việc phục hồi các nơi thờ và cho người gắn với các nơi ấy trở về. Cần đọc văn bản trong bối cảnh một vị vua giải thích tính chính đáng của mình.",
+  "fun": "Xenophon viết Cyropaedia, một tiểu sử lý tưởng hóa Cyrus, ở thế kỷ IV TCN. Hình ảnh một vị vua còn được tạo nên bởi sách người đời sau viết về ông.",
+  "timeBasis": "activity",
+  "lifeLabel": "Trị vì khoảng 559–530 TCN",
+  "ck": true,
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/ja/essays/the-achaemenid-persian-empire-550-330-b-c",
+      "title": "The Met — Đế quốc Achaemenid, 550–330 TCN",
+      "scope": "Cyrus 559–530, thắng Media năm 550, Babylon 539; Darius 522–486, cơ cấu và xây dựng."
+    },
+    {
+      "url": "https://www.metmuseum.org/fr/perspectives/cyrus-the-great",
+      "title": "Michael Seymour, The Met — Di sản Cyrus",
+      "scope": "Trụ Cyrus, tự trình bày quyền vua, sự tiếp nhận trong Xenophon và giới hạn gọi là hiến chương nhân quyền."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/ja/essays/the-achaemenid-persian-empire-550-330-b-c"
+},
+    {
+  "id": "wa-np-darius-i",
+  "n": "Darius I",
+  "b": -522,
+  "d": -486,
+  "cb": true,
+  "role": "Vua Ba Tư Achaemenid",
+  "c": "pol",
+  "imp": 2,
+  "r": "Ba Tư (Iran)",
+  "k": -522,
+  "act": "lên ngôi trong một cuộc khủng hoảng kế vị",
+  "bio": "Darius I củng cố đế quốc qua hệ thống cai trị và liên lạc. Ông triển khai những công trình hoàng gia tại Susa và Persepolis. Việc kết nối các vùng giúp vận chuyển thông tin, người và nguồn lực.",
+  "fun": "Văn khắc ở Bisotun kể về quyền lên ngôi của Darius bằng ba ngôn ngữ. Những phiên bản song song ấy về sau trở thành đầu mối quan trọng để giải mã chữ hình nêm.",
+  "timeBasis": "activity",
+  "lifeLabel": "Trị vì khoảng 522–486 TCN",
+  "ck": true,
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/ja/essays/the-achaemenid-persian-empire-550-330-b-c",
+      "title": "The Met — Đế quốc Achaemenid, 550–330 TCN",
+      "scope": "Cyrus 559–530, thắng Media năm 550, Babylon 539; Darius 522–486, cơ cấu và xây dựng."
+    },
+    {
+      "url": "https://www.iranicaonline.org/articles/achaemenid-dynasty/achaemenid-dynasty-ii-the-empire/",
+      "title": "Encyclopaedia Iranica — Đế quốc Achaemenid",
+      "scope": "Mạng đường, tuyến Susa–Sardis khoảng 2600 km và các trạm; hệ thống sử dụng cả tuyến có trước."
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1222/",
+      "title": "UNESCO — Bisotun",
+      "scope": "Phù điêu, văn khắc ba ngôn ngữ của Darius và vai trò trong giải mã chữ hình nêm."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/ja/essays/the-achaemenid-persian-empire-550-330-b-c"
+},
     { id: 'wa-np-cleopatra', n: 'Cleopatra VII', b: -69, d: -30,
       role: 'Nữ hoàng cuối cùng của Ai Cập cổ đại', c: 'pol', imp: 3, r: 'Ai Cập',
       k: -48, act: 'liên minh với Julius Caesar để giành lại ngai vàng Ai Cập',
@@ -8093,11 +8830,31 @@ TL_PEOPLE.push({
 TL_PEOPLE.push({
   lane: 'eu',
   people: [
-    { id: 'eu-np-pythagoras', n: 'Pythagoras', b: -570, d: -495, cb: true, cd: true,
-      role: 'Nhà toán học, triết gia Hy Lạp', r: 'Hy Lạp', c: 'sci', imp: 2,
-      k: -530, act: 'lập trường phái mang tên mình ở Croton, miền nam nước Ý',
-      bio: 'Sinh trên đảo Samos, Pythagoras sang Croton ở miền nam nước Ý lập một cộng đồng vừa là trường học vừa là hội tu hành. Ông và môn đồ tin rằng vạn vật đều có thể giải thích bằng con số, và nhận ra những tỉ lệ số đơn giản tạo nên các quãng âm nghe hài hòa. Định lý về tam giác vuông mang tên ông thật ra đã được người Babylon biết đến từ hơn một nghìn năm trước.',
-      fun: 'Trường phái của ông có nhiều điều kiêng kỵ kỳ lạ, nổi tiếng nhất là cấm môn đồ ăn đậu tằm; đến nay người ta vẫn tranh cãi vì sao.' },
+    {
+  "id": "eu-np-pythagoras",
+  "n": "Pythagoras",
+  "b": -570,
+  "d": -490,
+  "cb": true,
+  "cd": true,
+  "role": "Nhà tư tưởng Hy Lạp",
+  "r": "Hy Lạp",
+  "c": "sci",
+  "imp": 2,
+  "k": -530,
+  "act": "chuyển đến Croton, nơi hình thành cộng đồng đi theo cách sống của ông",
+  "bio": "Pythagoras lớn lên ở Samos, rồi đến Croton khoảng 530 TCN. Cộng đồng gắn với ông kết hợp tư tưởng về linh hồn và cách sống có kỷ luật. Ông sống khoảng 570–490 TCN; nhiều chi tiết tiểu sử chỉ còn qua những nguồn viết muộn.",
+  "fun": "Những sách lưu truyền dưới tên Pythagoras không tự chứng minh do ông viết. Nghiên cứu văn bản nhận diện cả tác phẩm gán tên ông ở đời sau.",
+  "ck": true,
+  "refs": [
+    {
+      "url": "https://plato.stanford.edu/entries/pythagoras/",
+      "title": "Carl Huffman, Stanford Encyclopedia of Philosophy — Pythagoras",
+      "scope": "Khoảng 570–490 TCN; Croton khoảng 530; tư liệu muộn, sách gán tên và giới hạn quy định lý cho cá nhân ông."
+    }
+  ],
+  "ref": "https://plato.stanford.edu/entries/pythagoras/"
+},
     { id: 'eu-np-socrates', n: 'Socrates', b: -470, d: -399, cb: true,
       role: 'Triết gia Athens', r: 'Hy Lạp', c: 'cul', imp: 3,
       k: -399, act: 'chấp nhận bản án tử hình của tòa án Athens thay vì bỏ trốn',

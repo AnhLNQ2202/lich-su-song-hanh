@@ -3,8 +3,8 @@ const $ = id => document.getElementById(id);
 const escapeHTML = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 const yearText = year => year < 0 ? Math.abs(year) + ' TCN' : String(year);
 const personDates = p => p.lifeLabel || ((p.cb||p.cd?'Khoảng ':'')+yearText(p.b)+' – '+(p.d==null?'nay':yearText(p.d)));
-const personAge = (p,year) => p.timeBasis==='activity' ? 'Chưa xác định tuổi' : (p.cb?'Khoảng ':'')+(year-p.b-(p.b<0&&year>0?1:0))+' tuổi';
-const milestoneYear = p => (p.ck||p.timeBasis==='activity'?'Khoảng năm ':'Năm ')+yearText(p.k);
+const personAge = (p,year) => p.timeBasis ? 'Chưa xác định tuổi' : (p.cb?'Khoảng ':'')+(year-p.b-(p.b<0&&year>0?1:0))+' tuổi';
+const milestoneYear = p => (p.ck||p.timeBasis?'Khoảng năm ':'Năm ')+yearText(p.k);
 const fold = text => String(text).normalize('NFD').replace(/\p{M}/gu, '').toLowerCase().replace(/đ/g,'d');
 const labels = {sl:'Lát cắt', ev:'Sự kiện', np:'Nhân vật', pd:'Thời kỳ', gb:'Sự kiện toàn cầu'};
 const regions = new Map(LANES.map(region => [region.id, region.name]));
@@ -137,7 +137,7 @@ function personTrail(entry, year) {
 function lifeScene(entry, year) {
   const p=entry.source;
   const difference=p.k-year;
-  const action = p.ck||p.timeBasis==='activity' ? milestoneYear(p)+', ' : difference===0 ? 'Ngay năm này, ' : difference>0 ? difference+' năm sau, ' : -difference+' năm trước, ';
+  const action = p.ck||p.timeBasis ? milestoneYear(p)+', ' : difference===0 ? 'Ngay năm này, ' : difference>0 ? difference+' năm sau, ' : -difference+' năm trước, ';
   return '<div class="person-scene"><a class="person-bio-link" href="'+href(entry)+'"><span class="scene-age">'+escapeHTML(personAge(p,year))+' · '+escapeHTML(regions.get(entry.lane))+'</span>'+
     '<strong>'+escapeHTML(entry.title)+'</strong><span>'+escapeHTML(p.role)+'</span>'+
     '<p>'+escapeHTML(action+p.n+' '+p.act+'.')+'</p><small>'+escapeHTML(personDates(p))+' · Tìm hiểu thêm →</small></a>'+personTrail(entry,year)+'</div>';
@@ -1186,7 +1186,7 @@ function mountComparisonUI() {
     if(!nativeComparisonLoading){
       nativeComparisonLoading=true;
       const script=document.createElement('script');
-      script.src='comparison-native.js?v=audit-life-1';
+      script.src='comparison-native.js?v=audit-life-2';
       script.onerror=()=>{nativeComparisonLoading=false;script.remove();};
       document.head.append(script);
     }

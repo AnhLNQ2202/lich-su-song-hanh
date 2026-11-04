@@ -649,8 +649,8 @@ summary.xs-h:focus-visible { outline: 2px solid var(--gold); }
 <div class="tip" id="tip" hidden></div>
 <div class="pop" id="pop" hidden></div>
 <div class="modal" id="quiz" hidden></div>
-<script src="history-data.js?v=audit-full-1"></script>
-<script src="reading-chains.js?v=audit-full-1"></script>
+<script src="history-data.js?v=audit-full-2"></script>
+<script src="reading-chains.js?v=audit-full-2"></script>
 
 <script>
 /* Lịch Sử Song Hành — dòng thời gian song song Việt Nam & thế giới */
@@ -760,7 +760,7 @@ summary.xs-h:focus-visible { outline: 2px solid var(--gold); }
     return `${ap}${p.b}–${d}`;
   }
   const endOf = (p) => (p.death == null ? YNOW : p.death);
-  const ageStr = (p, y) => { if(p.timeBasis==='activity')return 'Chưa xác định tuổi'; const a = gap(p.b, y); return a <= 0 ? 'vừa chào đời' : `${p.cb ? AP : ''}${a} tuổi`; };
+  const ageStr = (p, y) => { if(p.timeBasis)return 'Chưa xác định tuổi'; const a = gap(p.b, y); return a <= 0 ? 'vừa chào đời' : `${p.cb ? AP : ''}${a} tuổi`; };
   const periodsAt = (lane, y) => PDL[lane].filter((p) => p.s <= y && (y < p.e || (p.e >= YNOW && y <= 2030))).sort((a, b) => (a.g < b.g ? -1 : a.g > b.g ? 1 : a.s - b.s));
   const chapterAt = (y) => CHAPTERS.find((c) => y >= c.s && y < c.e) || (y < CHAPTERS[0].s ? CHAPTERS[0] : CHAPTERS[CHAPTERS.length - 1]);
   const eraAt = (y) => ERAS.find((e) => y >= e.s && y < e.e) || ERAS[ERAS.length - 1];
@@ -1340,7 +1340,7 @@ summary.xs-h:focus-visible { outline: 2px solid var(--gold); }
   function ppDetail(o) {
     const living = o.death == null;
     const age = gap(o.b, endOf(o));
-    const ageTxt = o.timeBasis==='activity' ? '' : living ? `năm nay khoảng ${age} tuổi` : `thọ ${o.cb || o.cd ? 'khoảng ' : ''}${age} tuổi`;
+    const ageTxt = o.timeBasis ? '' : living ? `năm nay khoảng ${age} tuổi` : `thọ ${o.cb || o.cd ? 'khoảng ' : ''}${age} tuổi`;
     const others = PP.filter((p) => p !== o && p.b <= o.k && o.k <= endOf(p))
       .map((p) => ({ p, s: p.imp * 100 - Math.min(90, Math.abs(p.k - o.k)) + (p.lane !== o.lane ? 40 : 0) }))
       .sort((a, b) => b.s - a.s).slice(0, 14).map((x) => x.p);
@@ -1350,7 +1350,7 @@ summary.xs-h:focus-visible { outline: 2px solid var(--gold); }
       <div class="d-date">${esc(o.life)}${ageTxt ? ' · '+esc(ageTxt) : ''}</div>
       <h2 class="d-title">${esc(o.n)}</h2>
       <p class="d-text">${esc(o.bio)}</p>
-      ${box('key', 'Một dấu mốc đáng nhớ', `${o.ck||o.timeBasis==='activity'?'Khoảng năm':'Năm'} ${fy(o.k)}, ${o.n} ${o.act}.`)}${box('same', 'Cùng thời thú vị', o.same)}${box('fun', 'Bạn có biết?', o.fun)}
+      ${box('key', 'Một dấu mốc đáng nhớ', `${o.ck||o.timeBasis?'Khoảng năm':'Năm'} ${fy(o.k)}, ${o.n} ${o.act}.`)}${box('same', 'Cùng thời thú vị', o.same)}${box('fun', 'Bạn có biết?', o.fun)}
       ${cont}
       ${sameTimeHTML(o.k, o.lane, 0)}
       ${sourcesHTML(o)}
@@ -1429,7 +1429,7 @@ summary.xs-h:focus-visible { outline: 2px solid var(--gold); }
   try { QZ.best = parseInt(localStorage.getItem('lsh-best') || '0', 10) || 0; } catch (e) { /* ignore */ }
   function quizNew() {
     const type = Math.random() < 0.62 || PP.length < 4 ? 'ev' : 'np';
-    const pool = type === 'ev' ? EV.filter((e) => e.imp >= 2 && !e.ca) : PP.filter((p) => p.imp >= 2 && p.timeBasis!=='activity' && !p.cb);
+    const pool = type === 'ev' ? EV.filter((e) => e.imp >= 2 && !e.ca) : PP.filter((p) => p.imp >= 2 && !p.timeBasis && !p.cb);
     const yr = (o) => (type === 'ev' ? o.y : o.b);
     let a, b;
     for (let tries = 0; tries < 500; tries++) {

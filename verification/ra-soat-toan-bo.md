@@ -2,8 +2,8 @@
 
 Cập nhật 04/11/2026. Có 1407 mục, 51 câu đố và 7 chuỗi đọc. Mục tiêu còn đang thực hiện.
 
-- 202 mục đã có hồ sơ đối chiếu theo phạm vi nguồn; 1205 mục chưa có đối chiếu từng nhận định.
-- Trong số trên, 40 mục đã qua lượt biên tập từng trường hiển thị của đợt hiện tại; 1367 mục chưa qua bước này. Các hồ sơ cũ không tự được tính là hoàn tất bước mới.
+- 237 mục đã có hồ sơ đối chiếu theo phạm vi nguồn; 1170 mục chưa có đối chiếu từng nhận định.
+- Trong số trên, 75 mục đã qua lượt biên tập từng trường hiển thị của đợt hiện tại; 1332 mục chưa qua bước này. Các hồ sơ cũ không tự được tính là hoàn tất bước mới.
 - Câu đố và chuỗi đọc sẽ được rà nội dung lại sau khi những bài nguồn tương ứng đã được kiểm chứng. Kiểm thử hoạt động không thay thế việc này.
 
 Hồ sơ chi tiết: kiem-chung-tung-muc.json và claim-audit-ledger.json. Ledger lưu nguồn, quyết định sửa, bất định và dấu SHA để phát hiện nội dung đã đổi sau đối chiếu.

@@ -19,7 +19,7 @@ function Place({card,width,onRead}){
  {(expanded?card.exact:card.exact.slice(0,2)).map(e=><Entry key={e.id} entry={e} detail={e.source.date||yearLabel(e.year)} onRead={onRead}/>)}
  {!expanded&&card.exact.length>2&&<Text style={styles.empty}>Còn {card.exact.length-2} mốc</Text>}
  <Text style={styles.label}>NHÂN VẬT CÙNG THỜI</Text>
- {(expanded?card.people:card.people.slice(0,1)).map(e=><Entry key={e.id} entry={e} detail={e.source.timeBasis==='activity'?'Chưa xác định tuổi':(e.source.cb?'Khoảng ':'')+(card.year-e.year-(e.year<0&&card.year>0?1:0))+' tuổi'} onRead={onRead}/>)}
+ {(expanded?card.people:card.people.slice(0,1)).map(e=><Entry key={e.id} entry={e} detail={e.source.timeBasis?'Chưa xác định tuổi':(e.source.cb?'Khoảng ':'')+(card.year-e.year-(e.year<0&&card.year>0?1:0))+' tuổi'} onRead={onRead}/>)}
  {!card.people.length&&<Text style={styles.empty}>Chưa có hồ sơ nhân vật.</Text>}
  {expanded&&card.near.length>0&&<><Text style={styles.label}>MỐC GẦN ĐÓ</Text>{card.near.map(e=><Entry key={e.id} entry={e} detail={yearLabel(e.year)+' · '+(Math.abs(e.year-card.year)-(e.year<0&&card.year>0||e.year>0&&card.year<0?1:0))+' năm '+(e.year<card.year?'trước':'sau')} onRead={onRead}/>)}</>}
  <Pressable accessibilityRole="button" accessibilityState={{expanded}} onPress={()=>setExpanded(!expanded)} style={{paddingTop:15,paddingBottom:3}}><Text style={{color:'#98442d',fontSize:13,fontWeight:'600'}}>{expanded?'Thu gọn ↑':'Xem thêm trong năm này ↓'}</Text></Pressable>

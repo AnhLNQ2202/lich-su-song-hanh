@@ -1320,6 +1320,1151 @@
         }
       ],
       "snapshotSHA256": "299db0cd8b1d66ff815ace7eed5243570c66e39b7139d44308c460e454571398"
+    },
+    {
+      "id": "wa-p-phoenicia-israel",
+      "reviewedAt": "2026-11-04",
+      "batch": "iron-audit-1",
+      "decisions": [
+        "Thu hẹp tiêu đề và nội dung về các cảng thị có nguồn đối chiếu; không gom các tiểu quốc khác nhau thành một chính quyền."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "d",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/ja/essays/the-phoenicians-1500-300-b-c",
+          "title": "The Met — Người Phoenicia",
+          "scope": "Các cảng thị độc lập ở ven Levant, niên đại rộng và thương mại Địa Trung Hải."
+        }
+      ],
+      "snapshotSHA256": "782bdaee6a2413148d3fc9dc421f6fa7e3d1bc6ea2b49f9e989bda57106c5e4f"
+    },
+    {
+      "id": "wa-p-ai-cap-hau-ky",
+      "reviewedAt": "2026-11-04",
+      "batch": "iron-audit-1",
+      "decisions": [
+        "Đổi tên để khung 1069–332 không bị nhầm là toàn bộ thuộc phân kỳ Late Period."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "r",
+        "d",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/3inter/index.html",
+          "title": "UCL — Ai Cập thời Chuyển tiếp thứ Ba",
+          "scope": "Khung khoảng 1069–664 TCN; phân quyền, các triều đại gốc Libya và Napata."
+        },
+        {
+          "url": "https://www.metmuseum.org/essays/egypt-in-the-late-period-ca-712-332-b-c",
+          "title": "The Met — Ai Cập Hậu kỳ",
+          "scope": "Khung 664–332 TCN, triều 26, các giai đoạn Ba Tư cai trị và các triều đại Ai Cập xen giữa."
+        }
+      ],
+      "snapshotSHA256": "e979eb34dbd3820f0843a76eb5f517efb299a116827b57ced751cf8c482e8f33"
+    },
+    {
+      "id": "wa-phoenicia-chu-cai-1050tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "iron-audit-1",
+      "decisions": [
+        "Bỏ thứ hạng thương nhân giỏi nhất, câu chuyện phát minh để ghi buôn bán cho nhanh và suy luận chữ viết lập tức hết là đặc quyền."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://mnamon.sns.it/index.php?id=23&lang=en&page=Scrittura",
+          "title": "Scuola Normale Superiore — Chữ Phoenicia",
+          "scope": "Chữ Phoenicia được chứng thực từ thế kỷ XII TCN; 22 dấu phụ âm, chiều viết và quan hệ với các truyền thống chữ sớm hơn."
+        },
+        {
+          "url": "https://www.metmuseum.org/exhibitions/listings/2014/assyria-to-iberia/blog/posts/alphabet",
+          "title": "The Met — The Alphabet",
+          "scope": "Chữ cái xuất hiện trước Phoenicia; truyền sang Hy Lạp, Etrusca và La Mã; tên alpha, beta."
+        }
+      ],
+      "snapshotSHA256": "022d4901a385eefab2a3d3af702f06dd20e230f4be225ee3121542d7ef3765b7"
+    },
+    {
+      "id": "cn-chu-diet-thuong-1046tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "iron-audit-1",
+      "decisions": [
+        "Bỏ phán xét tính cách Trụ Vương, suy đoán bị bôi đen và khoảng cách niên đại tiểu thuyết chưa đối chiếu."
+      ],
+      "uncertainties": [
+        "1046 TCN là lựa chọn trong hệ niên đại tham khảo."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "r",
+        "t",
+        "who",
+        "d",
+        "ca",
+        "date",
+        "consequencesTitle",
+        "consequences",
+        "fun"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/toah/ht/04/eac.html",
+          "title": "The Met — Trung Quốc, 1000 TCN–1",
+          "scope": "Khung Tây Chu 1046–771 TCN, Đông Chu từ 770 TCN; chuyển đô và cạnh tranh giữa các nước."
+        },
+        {
+          "url": "https://asia.si.edu/education/educator-resources/teaching-china-with-the-smithsonian/explore-by-dynasty/zhou-dynasty/",
+          "title": "Smithsonian — Nhà Chu",
+          "scope": "Nguồn gốc nhà Chu và Thiên mệnh trong việc giải thích thay thế nhà Thương."
+        },
+        {
+          "url": "https://www.ccpo.gov.hk/media/2025/09/%E2%80%98Mystery-of-Chinese-Writing-Roving-Exhibition_18-panels.pdf",
+          "title": "Văn phòng Phát huy Văn hóa Trung Hoa, Hong Kong — Bí ẩn chữ Hán",
+          "scope": "Minh văn Lợi quỹ ghi cuộc chinh phạt Thương của Chu Vũ Vương; phát hiện năm 1976 tại Lâm Đồng."
+        }
+      ],
+      "snapshotSHA256": "340ddb4d55064974c591f4998af5a332ecf7ccde2ade56f4a4416a561228b46a"
+    },
+    {
+      "id": "cn-p-tay-chu",
+      "reviewedAt": "2026-11-04",
+      "batch": "iron-audit-1",
+      "decisions": [
+        "Giữ khung tham khảo và bỏ định nghĩa phong kiến quá gọn."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "r",
+        "d",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/toah/ht/04/eac.html",
+          "title": "The Met — Trung Quốc, 1000 TCN–1",
+          "scope": "Khung Tây Chu 1046–771 TCN, Đông Chu từ 770 TCN; chuyển đô và cạnh tranh giữa các nước."
+        },
+        {
+          "url": "https://asia.si.edu/education/educator-resources/teaching-china-with-the-smithsonian/explore-by-dynasty/zhou-dynasty/",
+          "title": "Smithsonian — Nhà Chu",
+          "scope": "Nguồn gốc nhà Chu và Thiên mệnh trong việc giải thích thay thế nhà Thương."
+        }
+      ],
+      "snapshotSHA256": "8c2088c3d6b06ce5b93ff4d9253e3d1e3c64940779a757b0980244e5f95cb2ef"
+    },
+    {
+      "id": "vn-sa-huynh-1000tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "iron-audit-1",
+      "decisions": [
+        "Thay mốc khởi đầu tuyệt đối bằng giai đoạn tiêu biểu có nguồn; không khẳng định quan hệ trực tiếp đơn tuyến Sa Huỳnh → Chăm Pa."
+      ],
+      "uncertainties": [
+        "Phân kỳ và phạm vi Sa Huỳnh thay đổi theo địa điểm và công trình nghiên cứu."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "y2",
+        "ca",
+        "date",
+        "t",
+        "r",
+        "place",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://baotanglichsu.vn/vi/Articles/3101/68858/van-hoa-sa-huynh-nhin-tu-van-hoa-djong-nai.html",
+          "title": "Bảo tàng Lịch sử quốc gia — Sa Huỳnh nhìn từ Đồng Nai",
+          "scope": "Táng chum, đồ sắt, trang sức và quan hệ giao lưu giữa các cộng đồng."
+        },
+        {
+          "url": "https://baotanglichsu.vn/vi/Articles/3101/69526/ve-mot-loai-hinh-trang-suc-co-djoc-djao-khuyen-tai-hinh-hai-djauthu.html",
+          "title": "Bảo tàng Lịch sử quốc gia — Khuyên tai hai đầu thú",
+          "scope": "Đồ trang sức khoảng 2500–2000 năm trước; phân bố Sa Huỳnh và Đồng Nai, cặp khuyên tại Giồng Cá Vồ."
+        }
+      ],
+      "snapshotSHA256": "fe75e9238ee2b46406050de5c5906dad3be808a51772d102dfbf49d14d99b156"
+    },
+    {
+      "id": "wa-vuong-quoc-israel-1000tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "iron-audit-1",
+      "decisions": [
+        "Bỏ mệnh đề Jerusalem từ đó lập tức thành thánh địa của cả ba tôn giáo và suy luận nền móng tôn giáo từ một mốc lập quốc."
+      ],
+      "uncertainties": [
+        "Niên đại và quy mô vương quốc sớm còn tranh luận."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "who",
+        "t",
+        "d",
+        "consequencesTitle",
+        "consequences",
+        "fun"
+      ],
+      "sources": [
+        {
+          "url": "https://www.biblegateway.com/passage/?search=2+Samuel+5&version=NIV%3BNKJV",
+          "title": "Samuel quyển II, chương 5",
+          "scope": "Lời kể về David làm vua và Jerusalem; dùng như nguồn truyền thống, không coi là xác nhận khảo cổ."
+        },
+        {
+          "url": "https://www.biblegateway.com/passage/?search=1+kings+6&version=NIV",
+          "title": "Các Vua quyển I, chương 6",
+          "scope": "Lời kể Solomon xây Đền thờ."
+        },
+        {
+          "url": "https://thejewishmuseum.org/exhibitions/tel-dan-stele/",
+          "title": "The Jewish Museum — Bia Tel Dan",
+          "scope": "Bia tiếng Aram thế kỷ IX TCN có cụm nhà David; các mảnh tìm thấy năm 1993 và 1994."
+        }
+      ],
+      "snapshotSHA256": "927a1273d160dca80acd4098ca8c66e6752e858aaa59d9f6ae2480b8696e1c33"
+    },
+    {
+      "id": "wa-hoa-giao-1000tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "iron-audit-1",
+      "decisions": [
+        "Bỏ liên hệ Magi và magic chưa đủ đối chiếu; không đặt toàn bộ truyền thống vào một năm sáng lập chắc chắn."
+      ],
+      "uncertainties": [
+        "Niên đại Zoroaster chưa có đồng thuận; cách thực hành khác nhau giữa cộng đồng."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "who",
+        "t",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://www.iranicaonline.org/articles/zoroaster-iii-zoroaster-in-the-avesta/",
+          "title": "Encyclopaedia Iranica — Zoroaster trong Avesta",
+          "scope": "Bất định về thời đại, quê hương và quan hệ với các văn bản."
+        },
+        {
+          "url": "https://zoroastrian.org/faqs/",
+          "title": "Zarathushtrian Assembly — Hỏi đáp",
+          "scope": "Cách cộng đồng này giải thích Gatha, các lớp kinh văn, đạo đức và ý nghĩa của lửa."
+        }
+      ],
+      "snapshotSHA256": "4b2bda05c3600361a637320b22fcbd878908afc293583722e084373288b006f8"
+    },
+    {
+      "id": "wa-p-assyria",
+      "reviewedAt": "2026-11-04",
+      "batch": "iron-audit-1",
+      "decisions": [
+        "Phân biệt mốc kết thúc thời kỳ với kết thúc toàn bộ lực lượng và cư dân."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "r",
+        "d",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/04/wam.html",
+          "title": "The Met — Tây Á, 1000 TCN–1",
+          "scope": "Khung Tân Assyria 911–612 TCN."
+        },
+        {
+          "url": "https://www.metmuseum.org/pt/essays/nineveh",
+          "title": "The Met — Nineveh",
+          "scope": "Kinh đô, thất thủ năm 612 TCN và sự tồn tại ngắn của chính quyền còn lại."
+        }
+      ],
+      "snapshotSHA256": "1ae906e454973ff1f60e361f74d37379636a38d0c4d3710116b9f809f54fc413"
+    },
+    {
+      "id": "sa-upanishad-800tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "iron-audit-1",
+      "decisions": [
+        "Sửa khung của những bản sớm theo nguồn; bỏ gán nguồn gốc câu tục ngữ Việt vào một văn bản."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "d",
+        "consequencesTitle",
+        "consequences",
+        "fun"
+      ],
+      "sources": [
+        {
+          "url": "https://iep.utm.edu/upanisad/",
+          "title": "Internet Encyclopedia of Philosophy — Upanishads",
+          "scope": "Niên đại các lớp văn bản, chủ đề và các nhân vật nữ trong đối thoại."
+        }
+      ],
+      "snapshotSHA256": "2e86e193b1850877b03d7999a67e6d2b06e96b546255c9f4b97938d463a52c85"
+    },
+    {
+      "id": "eu-chu-hy-lap-800tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "iron-audit-1",
+      "decisions": [
+        "Bỏ so sánh dễ học hơn hẳn mọi chữ tượng hình; thay fun fact trùng với bài Phoenicia."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://mnamon.sns.it/index.php?id=12&lang=en&page=Scrittura",
+          "title": "Scuola Normale Superiore — Chữ Hy Lạp",
+          "scope": "Chứng cứ thế kỷ VIII TCN, dấu ghi nguyên âm, các biến thể địa phương và chữ thường thời trung đại."
+        },
+        {
+          "url": "https://www.metmuseum.org/exhibitions/listings/2014/assyria-to-iberia/blog/posts/alphabet",
+          "title": "The Met — The Alphabet",
+          "scope": "Chữ cái xuất hiện trước Phoenicia; truyền sang Hy Lạp, Etrusca và La Mã; tên alpha, beta."
+        }
+      ],
+      "snapshotSHA256": "9815940039e741b4f3163da21c871acc007577c9baf84d9d5f7b1f9cfee767c5"
+    },
+    {
+      "id": "eu-p-hy-lap",
+      "reviewedAt": "2026-11-04",
+      "batch": "iron-audit-1",
+      "decisions": [
+        "Đổi khung để bao gồm giai đoạn Hellenistic; không coi đây là thời gian của một quốc gia Hy Lạp thống nhất."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "r",
+        "d",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/greek-art-in-the-archaic-period",
+          "title": "The Met — Nghệ thuật Hy Lạp thời Archaic",
+          "scope": "Các thành bang, khác biệt địa phương, ngôn ngữ, lễ hội và giao lưu với Ai Cập, Cận Đông."
+        },
+        {
+          "url": "https://www.metmuseum.org/essays/art-of-the-hellenistic-age-and-the-hellenistic-tradition",
+          "title": "The Met — Thời Hellenistic",
+          "scope": "Khung 323–31 TCN, các vương quốc và sự tiếp tục nghệ thuật Hy Lạp dưới La Mã."
+        }
+      ],
+      "snapshotSHA256": "632098791a03c9de6d2a47ba54122003135378355fed367087f31ff75f2afb17"
+    },
+    {
+      "id": "cn-dong-chu-xuan-thu-770tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "iron-audit-1",
+      "decisions": [
+        "Bỏ chuyện Bao Tự như lời giải thích lịch sử đã chứng minh; không đặt Lão Tử và Tôn Tử vào niên đại chắc chắn."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "date",
+        "r",
+        "t",
+        "place",
+        "d",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/toah/ht/04/eac.html",
+          "title": "The Met — Trung Quốc, 1000 TCN–1",
+          "scope": "Khung Tây Chu 1046–771 TCN, Đông Chu từ 770 TCN; chuyển đô và cạnh tranh giữa các nước."
+        }
+      ],
+      "snapshotSHA256": "3fdff9854079a0d0b85b6aab9ef497dd48580ac8ff56fc1a6c26245a492f00b2"
+    },
+    {
+      "id": "cn-p-xuan-thu",
+      "reviewedAt": "2026-11-04",
+      "batch": "iron-audit-1",
+      "decisions": [
+        "Bỏ danh sách nhân vật có niên đại chưa chắc chắn và số lượng nước chưa đối chiếu."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "r",
+        "d",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/toah/ht/04/eac.html",
+          "title": "The Met — Trung Quốc, 1000 TCN–1",
+          "scope": "Khung Tây Chu 1046–771 TCN, Đông Chu từ 770 TCN; chuyển đô và cạnh tranh giữa các nước."
+        }
+      ],
+      "snapshotSHA256": "17e0cac99ee7c336e85d5d2310eb530f11d84d47b61facd9885dec7e97d754dc"
+    },
+    {
+      "id": "eu-rome-753tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "iron-audit-1",
+      "decisions": [
+        "Bỏ so sánh song song với một năm lập Văn Lang và chi tiết khảo cổ chưa có nguồn ngay trong bài."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "who",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://www.turismoroma.it/en/page/rome-nutshell",
+          "title": "Turismo Roma — Rome in a nutshell",
+          "scope": "Ngày lập thành 21/4/753 TCN theo truyền thống; thành phố và lịch sử lâu dài."
+        }
+      ],
+      "snapshotSHA256": "1a1a31be076170c22c99a52eba92b0324df5535e214a5d2c12a5c2b04d4b5073"
+    },
+    {
+      "id": "eu-homer-750tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "iron-audit-1",
+      "decisions": [
+        "Bỏ nhãn cổ nhất châu Âu và mô tả sai Iliad bao gồm những ngày kết thúc chiến tranh."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://www.lib.uchicago.edu/collex/exhibits/homer-print-transmission-and-reception-homers-works/homer-print/",
+          "title": "Thư viện Đại học Chicago — Homer in Print",
+          "scope": "Truyền miệng, khung thế kỷ VIII–VII TCN, ghi chép và những mảnh giấy cói còn lại."
+        }
+      ],
+      "snapshotSHA256": "31387e6ed34f70051710eaf363d2849b1f0f3dfda684f37686d6dd52f3b4a6e7"
+    },
+    {
+      "id": "vn-dong-son-700tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "iron-audit-1",
+      "decisions": [
+        "Bỏ nhãn đỉnh cao thời dựng nước như kết luận bao trùm; không định danh loài chim từ tên gọi biểu tượng chim Lạc."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "y2",
+        "ca",
+        "date",
+        "t",
+        "place",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://baotanglichsu.vn/DataFiles/2021/10/News/Ti%E1%BA%BFng%20Vi%E1%BB%87t/12.10.2021/Thong%20bao%20khoa%20hoc/Net%20dac%20sac%20cua%20nhom%20Bao%20vat%20Quoc%20gia...%20Nguyen%20Van%20Doan.pdf",
+          "title": "Nguyễn Văn Đoàn — Bảo vật văn hóa Đông Sơn, Thông báo khoa học BTLSQG",
+          "scope": "Khung thế kỷ VII TCN–I/II, lưu vực sông Hồng, Mã, Cả và các hiện vật."
+        },
+        {
+          "url": "https://baotanglichsu.vn/vi/Articles/3096/71184/net-djac-sac-nhom-bao-vat-quoc-gia-van-hoa-djong-son-luu-giu-tai-bao-tang-lich-su-quoc-gia.html",
+          "title": "Bảo tàng Lịch sử quốc gia — Bảo vật Đông Sơn",
+          "scope": "Trống Ngọc Lũ: trang trí 14 tia, cảnh sinh hoạt; phát hiện khoảng 1893–1894 rồi được giữ ở đình làng."
+        }
+      ],
+      "snapshotSHA256": "dc231ad39a742dd8cf4188d9d11b1f77630a5af56266941a8527e2146403a40a"
+    },
+    {
+      "id": "wa-thu-vien-ashurbanipal-669tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "iron-audit-1",
+      "decisions": [
+        "Bỏ câu lửa bảo quản mọi bảng đất sét và danh hiệu thư viện đầu tiên; phân biệt bảng với mảnh."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "date",
+        "r",
+        "who",
+        "place",
+        "t",
+        "d",
+        "fun",
+        "ca",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://ccp.yale.edu/introduction/cities-and-libraries",
+          "title": "Yale Cuneiform Commentaries Project — Cities and Libraries",
+          "scope": "Khoảng 30.000 bảng chữ, các bộ sưu tập ở Nineveh và dấu vết sở hữu tư nhân."
+        },
+        {
+          "url": "https://www.dfg.de/resource/blob/365490/13-ahrc-library-ashurbanipal.pdf",
+          "title": "DFG/AHRC — Reading the Library of Ashurbanipal",
+          "scope": "Khoảng 30.000 bảng đất sét và mảnh vỡ, bộ sưu tập thế kỷ VII TCN."
+        },
+        {
+          "url": "https://www.metmuseum.org/it/toah/hd/meru/hd_meru.htm",
+          "title": "The Met — Danh sách vua Lưỡng Hà",
+          "scope": "Mốc bắt đầu trị vì Ashurbanipal khoảng 668 TCN, dùng để đặt bài."
+        }
+      ],
+      "snapshotSHA256": "759384c504d3da84af99b26e3c36db09f64aa31fe660f279adfca8b9db740e8e"
+    },
+    {
+      "id": "wa-p-tan-babylon",
+      "reviewedAt": "2026-11-04",
+      "batch": "iron-audit-1",
+      "decisions": [
+        "Sửa năm khởi đầu từ 612 sang 626 TCN."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "r",
+        "d",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/278/",
+          "title": "UNESCO — Babylon",
+          "scope": "Khung Tân Babylon 626–539 TCN, di tích và nhiều lớp lịch sử đô thị."
+        }
+      ],
+      "snapshotSHA256": "08b5bffa3330c7a08d0f83d5759bb57588d66785ee4338cc709fd12d2ba44ada"
+    },
+    {
+      "id": "wa-np-nebuchadnezzar-ii",
+      "reviewedAt": "2026-11-04",
+      "batch": "iron-audit-1",
+      "decisions": [
+        "Bỏ năm sinh 642 TCN chưa được xác minh và mốc xây cổng 575 TCN; không suy tuổi từ thời trị vì."
+      ],
+      "uncertainties": [
+        "Khung trị vì có cách ghi 605 hoặc 604 TCN giữa các nguồn; chọn rõ hệ dùng cho hiện vật, không coi năm sinh."
+      ],
+      "fieldsReviewed": [
+        "n",
+        "b",
+        "d",
+        "cb",
+        "role",
+        "r",
+        "k",
+        "act",
+        "bio",
+        "fun",
+        "ck",
+        "timeBasis",
+        "lifeLabel"
+      ],
+      "sources": [
+        {
+          "url": "https://isaw.nyu.edu/exhibitions/ishtar-gate/objects/brick-nebuchadnezzar-ii-2",
+          "title": "NYU ISAW — Gạch Nebuchadnezzar II",
+          "scope": "Khung 604–562 TCN, dấu hoàng gia chữ hình nêm và chữ cái khắc thêm trên một viên gạch."
+        },
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/321676",
+          "title": "The Met — Trụ đất sét của Nebuchadnezzar II",
+          "scope": "Khung 604–562 TCN; văn bản xây thành, trụ đặt trong nền và dấu trên gạch."
+        }
+      ],
+      "snapshotSHA256": "7b98052f1d922937e6f745cb674917de39d5af465c7d91c7a327fd2f63322188"
+    },
+    {
+      "id": "wa-babylon-nebuchadnezzar-605tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "iron-audit-1",
+      "decisions": [
+        "Bỏ thứ hạng đô thị lớn nhất, niên đại hủy Jerusalem và giả thuyết vườn treo chưa đối chiếu trong mục này."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "y2",
+        "r",
+        "who",
+        "t",
+        "d",
+        "fun",
+        "ca",
+        "date",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/321676",
+          "title": "The Met — Trụ đất sét của Nebuchadnezzar II",
+          "scope": "Khung 604–562 TCN; văn bản xây thành, trụ đặt trong nền và dấu trên gạch."
+        },
+        {
+          "url": "https://whc.unesco.org/en/list/278/",
+          "title": "UNESCO — Babylon",
+          "scope": "Khung Tân Babylon 626–539 TCN, di tích và nhiều lớp lịch sử đô thị."
+        }
+      ],
+      "snapshotSHA256": "44aae5af0ea66f44b8a31eef9cd6a94585b28ea2ede2678ae0c49d443320ac92"
+    },
+    {
+      "id": "sa-p-muoi-sau-tieu-quoc",
+      "reviewedAt": "2026-11-04",
+      "batch": "classical-audit-1",
+      "decisions": [
+        "Không xem danh sách văn bản là một bản đồ cố định tồn tại suốt ba thế kỷ."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "r",
+        "d",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://ebooks.inflibnet.ac.in/icp01/chapter/mahajanapadas-rise-of-magadha-nandas-invasion-of-alexander/",
+          "title": "P. Bhaskar Reddy, INFLIBNET — Mahajanapadas và Magadha",
+          "scope": "Danh sách trong văn bản Phật giáo, Jain; các nhà nước khoảng thế kỷ VI TCN và sự lớn mạnh của Magadha."
+        }
+      ],
+      "snapshotSHA256": "f1eaef0f4a6054120d728a42f98d2ef484e4c6ba17f7508701cc7619f523ed54"
+    },
+    {
+      "id": "wa-tien-xu-lydia-600tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "classical-audit-1",
+      "decisions": [
+        "Bỏ mô hình trước tiền xu chỉ có đổi hàng, dấu tiền khiến không bao giờ cần cân và so sánh tiền đầu tiên Việt Nam chưa đối chiếu tại mục."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://www.sardisexpedition.org/en/essays/latw-kroll-coins-of-sardis",
+          "title": "John H. Kroll, Sardis Expedition — Tiền xu Sardis",
+          "scope": "Electrum, dấu bảo chứng, vấn đề tỷ lệ vàng–bạc và tiền vàng, bạc gắn với Croesus."
+        },
+        {
+          "url": "https://www.oeaw.ac.at/en/oeai/research/classical-studies/numismatics/early-lydian-coinage-and-chronology",
+          "title": "Viện Hàn lâm Khoa học Áo — Niên đại tiền Lydia sớm",
+          "scope": "Nguồn gốc và niên đại tiền sớm còn nhiều điểm chưa rõ; không phải mọi xưởng đều được xác định."
+        }
+      ],
+      "snapshotSHA256": "68d9efa6156511b184b610bf93394d790dd748d8f621629b61df682b21003c6c"
+    },
+    {
+      "id": "eu-np-pythagoras",
+      "reviewedAt": "2026-11-04",
+      "batch": "classical-audit-1",
+      "decisions": [
+        "Sửa mốc mất 495 thành khoảng 490 TCN theo nguồn; không trình bày mọi phát hiện của trường phái là thành tựu cá nhân."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "n",
+        "b",
+        "d",
+        "cb",
+        "cd",
+        "role",
+        "r",
+        "k",
+        "act",
+        "bio",
+        "fun",
+        "ck"
+      ],
+      "sources": [
+        {
+          "url": "https://plato.stanford.edu/entries/pythagoras/",
+          "title": "Carl Huffman, Stanford Encyclopedia of Philosophy — Pythagoras",
+          "scope": "Khoảng 570–490 TCN; Croton khoảng 530; tư liệu muộn, sách gán tên và giới hạn quy định lý cho cá nhân ông."
+        }
+      ],
+      "snapshotSHA256": "bc0b2bcc127a0ab6107de88e91a89d787fb7f5eb7b6fd2d3ac030ed79d139759"
+    },
+    {
+      "id": "eu-pythagoras-530tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "classical-audit-1",
+      "decisions": [
+        "Bỏ câu người Trung Quốc đã biết từ trước Pythagoras khi chưa đối chiếu niên đại; không coi chuyện cấm đậu là trọng tâm trường phái."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "who",
+        "place",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://plato.stanford.edu/entries/pythagoras/",
+          "title": "Carl Huffman, Stanford Encyclopedia of Philosophy — Pythagoras",
+          "scope": "Khoảng 570–490 TCN; Croton khoảng 530; tư liệu muộn, sách gán tên và giới hạn quy định lý cho cá nhân ông."
+        }
+      ],
+      "snapshotSHA256": "d60e8a94d405682dbb6de5e7c0e81ed6756774edd688e5bf4ebc2ae45f2cca16"
+    },
+    {
+      "id": "cn-np-khong-tu",
+      "reviewedAt": "2026-11-04",
+      "batch": "classical-audit-1",
+      "decisions": [
+        "Bỏ mốc chu du chính xác và số học trò chưa phân biệt nguồn; ghi rõ tính truyền thống của năm sinh, mất."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "n",
+        "b",
+        "d",
+        "role",
+        "r",
+        "k",
+        "act",
+        "bio",
+        "fun",
+        "cb",
+        "cd",
+        "ck",
+        "lifeLabel"
+      ],
+      "sources": [
+        {
+          "url": "https://plato.stanford.edu/entries/confucius/",
+          "title": "Stanford Encyclopedia of Philosophy — Confucius",
+          "scope": "Niên đại truyền thống, các lớp tiểu sử và văn bản, nội dung lễ, nhân, giáo dục và nguyên tắc ứng xử."
+        }
+      ],
+      "snapshotSHA256": "8bfc9fa2e986aaa695ef7adc5e3b105e3b934b43c589d65a4dd37edb53a05277"
+    },
+    {
+      "id": "cn-khong-tu-551tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "classical-audit-1",
+      "decisions": [
+        "Bỏ khẳng định Nho giáo chính thống đồng nhất ở bốn nước suốt hai nghìn năm và xếp hạng ảnh hưởng cá nhân."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "date",
+        "r",
+        "t",
+        "who",
+        "place",
+        "d",
+        "fun",
+        "ca",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://plato.stanford.edu/entries/confucius/",
+          "title": "Stanford Encyclopedia of Philosophy — Confucius",
+          "scope": "Niên đại truyền thống, các lớp tiểu sử và văn bản, nội dung lễ, nhân, giáo dục và nguyên tắc ứng xử."
+        }
+      ],
+      "snapshotSHA256": "5170152a1f0098e2a4f7e136d17abda1c14152513e6beb1dec2da8d79720970f"
+    },
+    {
+      "id": "sa-np-duc-phat",
+      "reviewedAt": "2026-11-04",
+      "batch": "classical-audit-1",
+      "decisions": [
+        "Bỏ so tuổi với Khổng Tử và tính tuổi tự động từ một hệ niên đại; giữ nhãn minh bạch cho khoảng tham chiếu."
+      ],
+      "uncertainties": [
+        "Các truyền thống và công trình nghiên cứu dùng những hệ niên đại khác nhau."
+      ],
+      "fieldsReviewed": [
+        "n",
+        "b",
+        "d",
+        "cb",
+        "cd",
+        "role",
+        "r",
+        "k",
+        "act",
+        "bio",
+        "fun",
+        "timeBasis",
+        "lifeLabel",
+        "ck"
+      ],
+      "sources": [
+        {
+          "url": "https://plato.stanford.edu/entries/buddha/",
+          "title": "Mark Siderits, Stanford Encyclopedia of Philosophy — Buddha",
+          "scope": "Khổ, giải thoát, lời kể về Gautama và tranh luận niên đại, gồm cách đặt niên đại mất khoảng 405 TCN."
+        },
+        {
+          "url": "https://www.open.edu/openlearn/history-the-arts/culture/religious-studies/the-dates-the-buddha",
+          "title": "Open University — Các hệ niên đại Đức Phật",
+          "scope": "Nhiều niên đại truyền thống và những cách tính lại; không có một cặp năm được mọi giới chấp nhận."
+        },
+        {
+          "url": "https://www.un.org/en/observances/vesak-day",
+          "title": "Liên Hợp Quốc — Ngày Vesak",
+          "scope": "Vesak và nghị quyết 54/115 năm 1999."
+        }
+      ],
+      "snapshotSHA256": "10fff3ad1d9d91b766886157ecf4aa56afc0561d1d000e596e01672dcd57fb87"
+    },
+    {
+      "id": "sa-duc-phat-563tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "classical-audit-1",
+      "decisions": [
+        "Bỏ cách kể rời ngai vàng như sự kiện đã chứng minh và khẳng định niên đại truyền bá Phật giáo Việt Nam chưa đối chiếu riêng."
+      ],
+      "uncertainties": [
+        "Giữ năm tham chiếu để bảo toàn đường dẫn, nhưng nêu rõ không có đồng thuận về niên đại."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "who",
+        "place",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://plato.stanford.edu/entries/buddha/",
+          "title": "Mark Siderits, Stanford Encyclopedia of Philosophy — Buddha",
+          "scope": "Khổ, giải thoát, lời kể về Gautama và tranh luận niên đại, gồm cách đặt niên đại mất khoảng 405 TCN."
+        },
+        {
+          "url": "https://www.open.edu/openlearn/history-the-arts/culture/religious-studies/the-dates-the-buddha",
+          "title": "Open University — Các hệ niên đại Đức Phật",
+          "scope": "Nhiều niên đại truyền thống và những cách tính lại; không có một cặp năm được mọi giới chấp nhận."
+        }
+      ],
+      "snapshotSHA256": "d91aa2424c209c2e142ede476ff5e13020495da4b5a811fdd5d0b07d7a1fd18d"
+    },
+    {
+      "id": "sa-mahavira-dao-jain-540tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "classical-audit-1",
+      "decisions": [
+        "Bỏ mô tả mọi tín đồ đều thực hành giống nhau và chuỗi ảnh hưởng đến Gandhi chưa đối chiếu ở mục này."
+      ],
+      "uncertainties": [
+        "Niên đại tiểu sử khác nhau giữa truyền thống và nghiên cứu."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "who",
+        "d",
+        "consequencesTitle",
+        "consequences",
+        "fun"
+      ],
+      "sources": [
+        {
+          "url": "https://jainpedia.org/article/themes/people/jina/mahavira/",
+          "title": "Jainpedia — Mahavira",
+          "scope": "Vị Jina thứ 24, cải cách một truyền thống có trước, danh hiệu và các nguồn tiểu sử."
+        },
+        {
+          "url": "https://jainpedia.org/resources/chronology/",
+          "title": "Jainpedia — Niên biểu",
+          "scope": "Phân biệt niên đại truyền thống Shvetambara 599–527 TCN với các cách đặt niên đại khác."
+        }
+      ],
+      "snapshotSHA256": "f2650173aa787fc030ce7d5ee080c129058e88d4f813603c67e43f6d9c03da3e"
+    },
+    {
+      "id": "wa-np-cyrus",
+      "reviewedAt": "2026-11-04",
+      "batch": "classical-audit-1",
+      "decisions": [
+        "Thay năm sinh ước đoán bằng khung trị vì; bỏ khẳng định khoan dung đồng đều mọi nơi, số tuổi Khổng Tử và giai thoại Alexander chưa đối chiếu riêng."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "n",
+        "b",
+        "d",
+        "cb",
+        "role",
+        "r",
+        "k",
+        "act",
+        "bio",
+        "fun",
+        "timeBasis",
+        "lifeLabel",
+        "ck"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/ja/essays/the-achaemenid-persian-empire-550-330-b-c",
+          "title": "The Met — Đế quốc Achaemenid, 550–330 TCN",
+          "scope": "Cyrus 559–530, thắng Media năm 550, Babylon 539; Darius 522–486, cơ cấu và xây dựng."
+        },
+        {
+          "url": "https://www.metmuseum.org/fr/perspectives/cyrus-the-great",
+          "title": "Michael Seymour, The Met — Di sản Cyrus",
+          "scope": "Trụ Cyrus, tự trình bày quyền vua, sự tiếp nhận trong Xenophon và giới hạn gọi là hiến chương nhân quyền."
+        }
+      ],
+      "snapshotSHA256": "c4defcb82d578160e6445df0d3fba34abb897e30fa9bbf5bc2b944d4b62d7926"
+    },
+    {
+      "id": "wa-cyrus-lap-ba-tu-550tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "classical-audit-1",
+      "decisions": [
+        "Bỏ nhãn nhân quyền đầu tiên như sự thật và không coi văn bản tự ca ngợi là đánh giá trung lập mọi hành động của Cyrus."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "r",
+        "who",
+        "t",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/ja/essays/the-achaemenid-persian-empire-550-330-b-c",
+          "title": "The Met — Đế quốc Achaemenid, 550–330 TCN",
+          "scope": "Cyrus 559–530, thắng Media năm 550, Babylon 539; Darius 522–486, cơ cấu và xây dựng."
+        },
+        {
+          "url": "https://www.metmuseum.org/fr/perspectives/cyrus-the-great",
+          "title": "Michael Seymour, The Met — Di sản Cyrus",
+          "scope": "Trụ Cyrus, tự trình bày quyền vua, sự tiếp nhận trong Xenophon và giới hạn gọi là hiến chương nhân quyền."
+        }
+      ],
+      "snapshotSHA256": "fb2089b738552f45a51e10682b8870dd5eff1d91a1217d83bef0b283df3b1e21"
+    },
+    {
+      "id": "wa-p-achaemenes",
+      "reviewedAt": "2026-11-04",
+      "batch": "classical-audit-1",
+      "decisions": [
+        "Sửa mốc đầu 539 sang 550 TCN để thống nhất với bài Cyrus."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "r",
+        "d",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/ja/essays/the-achaemenid-persian-empire-550-330-b-c",
+          "title": "The Met — Đế quốc Achaemenid, 550–330 TCN",
+          "scope": "Cyrus 559–530, thắng Media năm 550, Babylon 539; Darius 522–486, cơ cấu và xây dựng."
+        }
+      ],
+      "snapshotSHA256": "7a8edef06488ce40ee1d8c0e43ec63f47b1581402cbd7710f47d5df93ea98c77"
+    },
+    {
+      "id": "wa-np-darius-i",
+      "reviewedAt": "2026-11-04",
+      "batch": "classical-audit-1",
+      "decisions": [
+        "Bỏ năm sinh khoảng 550 chưa được nguồn hiện tại xác minh; dùng thời trị vì và không suy tuổi."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "n",
+        "b",
+        "d",
+        "cb",
+        "role",
+        "r",
+        "k",
+        "act",
+        "bio",
+        "fun",
+        "timeBasis",
+        "lifeLabel",
+        "ck"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/ja/essays/the-achaemenid-persian-empire-550-330-b-c",
+          "title": "The Met — Đế quốc Achaemenid, 550–330 TCN",
+          "scope": "Cyrus 559–530, thắng Media năm 550, Babylon 539; Darius 522–486, cơ cấu và xây dựng."
+        },
+        {
+          "url": "https://www.iranicaonline.org/articles/achaemenid-dynasty/achaemenid-dynasty-ii-the-empire/",
+          "title": "Encyclopaedia Iranica — Đế quốc Achaemenid",
+          "scope": "Mạng đường, tuyến Susa–Sardis khoảng 2600 km và các trạm; hệ thống sử dụng cả tuyến có trước."
+        },
+        {
+          "url": "https://whc.unesco.org/en/list/1222/",
+          "title": "UNESCO — Bisotun",
+          "scope": "Phù điêu, văn khắc ba ngôn ngữ của Darius và vai trò trong giải mã chữ hình nêm."
+        }
+      ],
+      "snapshotSHA256": "1da2dacc5e8a89aa30909fc48ffb479af0860ce04b217655be0db5724c369f62"
+    },
+    {
+      "id": "wa-darius-con-duong-hoang-gia-522tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "classical-audit-1",
+      "decisions": [
+        "Bỏ khẳng định thư đi đúng một tuần, đường do Darius tạo hoàn toàn và tiền tệ thống nhất mọi vùng."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "y",
+        "y2",
+        "r",
+        "who",
+        "t",
+        "d",
+        "fun",
+        "ca",
+        "date",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://www.iranicaonline.org/articles/achaemenid-dynasty/achaemenid-dynasty-ii-the-empire/",
+          "title": "Encyclopaedia Iranica — Đế quốc Achaemenid",
+          "scope": "Mạng đường, tuyến Susa–Sardis khoảng 2600 km và các trạm; hệ thống sử dụng cả tuyến có trước."
+        },
+        {
+          "url": "https://facts.usps.com/fun/",
+          "title": "USPS — About that motto",
+          "scope": "Chữ trên bưu điện Farley, nguồn Herodotus và việc USPS không có khẩu hiệu chính thức."
+        }
+      ],
+      "snapshotSHA256": "126f49e2b9d06eb64e8fefd389faf58024cc44b8e0c04308f8b5b4028997a6f9"
     }
   ],
   "updatedAt": "2026-11-04"
