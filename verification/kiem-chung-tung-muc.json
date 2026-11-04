@@ -4085,41 +4085,42 @@
       ]
     },
     {
-      "id": "wa-p-ptolemy",
-      "title": "Ai Cập thời Ptolemy",
-      "year": -332,
-      "kind": "period",
-      "structuralCheck": "passed",
-      "reference": null,
-      "reviewPrompts": [
-        "chưa có nguồn gắn với mục"
-      ],
-      "fullTextCheck": "pending_claim_by_claim_review"
-    },
-    {
       "id": "wa-alexandria-331tcn",
       "title": "Alexandria và thư viện lừng danh",
       "year": -331,
       "kind": "event",
       "structuralCheck": "passed",
-      "reference": null,
+      "reference": "https://www.bibalex.org/attachments_en/publications/files/englishbrochure.pdf",
       "reviewPrompts": [
-        "chưa có nguồn gắn với mục",
         "cần phân biệt lời trích, tên tác phẩm và cách diễn đạt"
       ],
-      "fullTextCheck": "pending_claim_by_claim_review"
-    },
-    {
-      "id": "wa-p-seleucid",
-      "title": "Alexander và nhà Seleucid",
-      "year": -330,
-      "kind": "period",
-      "structuralCheck": "passed",
-      "reference": null,
-      "reviewPrompts": [
-        "chưa có nguồn gắn với mục"
+      "fullTextCheck": "reviewed_scopes_listed",
+      "fieldReviewCheck": "reviewed_current_public_fields",
+      "scopes": [
+        {
+          "url": "https://www.bibalex.org/attachments_en/publications/files/englishbrochure.pdf",
+          "title": "Bibliotheca Alexandrina — Giới thiệu, ấn bản2007",
+          "scope": "Chỉ dùng mốc lập thành331TCN; không dùng năm 288 trong brochure để phủ nhận bất định về thư viện ởnguồnUCL."
+        },
+        {
+          "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/writing/library/alexandria.html",
+          "title": "UCL Digital Egypt — The Library of Alexandria: limits of knowledge",
+          "scope": "Cảngbiển/cảngsông, PtolemyIhoặcII ởthếkỷIII,Mouseion,thưviện và công việc xác lập bảnvăn; những câu hỏi còn chưa rõ."
+        },
+        {
+          "url": "https://www.open.edu/openlearn/history-the-arts/library-alexandria/content-section-3",
+          "title": "Open University — The destruction of the library",
+          "scope": "Đối chiếuPlutarch,Dio và những mô tả khác; khác biệt thưviện/sách/kho và giới hạn xác định vị trí."
+        }
       ],
-      "fullTextCheck": "pending_claim_by_claim_review"
+      "lastReviewed": "2026-11-04",
+      "uncertainties": [
+        "NguồnUCL chưa xác định chắc vua nào lập thư viện, điều kiện tiếp cận, quy mô và số phận từng bộ sưu tập."
+      ],
+      "decisions": [
+        "Bỏ kếtluận suy tàn vì thiếu kinh phí/thờơ như nguyên nhân chắc chắn; không thay một lời giải cháyduynhất bằng một lời giải duynhất khác.",
+        "Bỏ sốcuộnsách,Pharos/Euclid/Eratosthenes và giai thoại tàu thuyền chưa đối chiếu riêng ở mục; tập trung lịch sử thành phố và thư viện."
+      ]
     },
     {
       "id": "eu-np-euclid",
@@ -4162,6 +4163,55 @@
         "cần kiểm tra phạm vi khẳng định tuyệt đối"
       ],
       "fullTextCheck": "pending_claim_by_claim_review"
+    },
+    {
+      "id": "wa-p-seleucid",
+      "title": "Vương quốc Seleucid ở Tây Á",
+      "year": -312,
+      "kind": "period",
+      "structuralCheck": "passed",
+      "reference": "https://www.iranicaonline.org/articles/seleucid-empire/",
+      "reviewPrompts": [],
+      "fullTextCheck": "reviewed_scopes_listed",
+      "fieldReviewCheck": "reviewed_current_public_fields",
+      "scopes": [
+        {
+          "url": "https://www.iranicaonline.org/articles/seleucid-empire/",
+          "title": "Rolf Strootman, Encyclopaedia Iranica — Seleucid Empire",
+          "scope": "Lập312/311, các giai đoạn312–64, Babylonia mấtkhoảng141 và khủnghoảngkếvị; phânbiệtphạmvilãnhthổvớitoànvươngtriều."
+        }
+      ],
+      "lastReviewed": "2026-11-04",
+      "uncertainties": [
+        "312/311 là hai cách ghi mốc khởi đầu; thanh thời gian dùng312 làm mốc tham chiếu."
+      ],
+      "decisions": [
+        "TáchAlexander330 khỏi triềuSeleucid, đổi đầu312; đổi cuối141 thành64 với tiêu đềphạmviTâyÁ.",
+        "Nêu rõ141 là mấtBabylonia, không kéo dài quyềnSeleucid ởIran/LưỡngHà tới 64."
+      ]
+    },
+    {
+      "id": "wa-p-ptolemy",
+      "title": "Ai Cập thời Ptolemy",
+      "year": -305,
+      "kind": "period",
+      "structuralCheck": "passed",
+      "reference": "https://www.metmuseum.org/de/essays/egypt-in-the-ptolemaic-period",
+      "reviewPrompts": [],
+      "fullTextCheck": "reviewed_scopes_listed",
+      "fieldReviewCheck": "reviewed_current_public_fields",
+      "scopes": [
+        {
+          "url": "https://www.metmuseum.org/de/essays/egypt-in-the-ptolemaic-period",
+          "title": "Marsha Hill, The Met — Egypt in the Ptolemaic Period",
+          "scope": "Phân biệtAlexanderchiếmAiCập332 với mởđầutriềuPtolemy305; kếtthúc30,Alexandria và hai truyền thống nghệthuật vươngquyền."
+        }
+      ],
+      "lastReviewed": "2026-11-04",
+      "uncertainties": [],
+      "decisions": [
+        "Sửa đầu triều332 thành305, không dùng nămAlexander chiếmAiCập như nămPtolemy xưngvua."
+      ]
     },
     {
       "id": "sa-np-a-duc",
@@ -21041,8 +21091,8 @@
       "fullTextCheck": "pending_claim_by_claim_review"
     }
   ],
-  "scopedReviewCount": 265,
-  "pendingClaimReviewCount": 1142,
-  "currentPublicFieldReviewCount": 132,
-  "currentNarrativeReviewCount": 132
+  "scopedReviewCount": 268,
+  "pendingClaimReviewCount": 1139,
+  "currentPublicFieldReviewCount": 135,
+  "currentNarrativeReviewCount": 135
 }

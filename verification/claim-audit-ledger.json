@@ -4569,6 +4569,100 @@
         }
       ],
       "snapshotSHA256": "5dd658405e832fba04325d73777e81d370a5d170db6dbb1b8ac300dd1da09146"
+    },
+    {
+      "id": "wa-p-ptolemy",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-8",
+      "decisions": [
+        "Sửa đầu triều332 thành305, không dùng nămAlexander chiếmAiCập như nămPtolemy xưngvua."
+      ],
+      "uncertainties": [],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "r",
+        "d"
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/de/essays/egypt-in-the-ptolemaic-period",
+          "title": "Marsha Hill, The Met — Egypt in the Ptolemaic Period",
+          "scope": "Phân biệtAlexanderchiếmAiCập332 với mởđầutriềuPtolemy305; kếtthúc30,Alexandria và hai truyền thống nghệthuật vươngquyền."
+        }
+      ],
+      "snapshotSHA256": "6fd06cd56a6e2b821235acaf446ab6ddb2e72eee5077c9cd1abfead0211c3e65"
+    },
+    {
+      "id": "wa-p-seleucid",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-8",
+      "decisions": [
+        "TáchAlexander330 khỏi triềuSeleucid, đổi đầu312; đổi cuối141 thành64 với tiêu đềphạmviTâyÁ.",
+        "Nêu rõ141 là mấtBabylonia, không kéo dài quyềnSeleucid ởIran/LưỡngHà tới 64."
+      ],
+      "uncertainties": [
+        "312/311 là hai cách ghi mốc khởi đầu; thanh thời gian dùng312 làm mốc tham chiếu."
+      ],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "d",
+        "r"
+      ],
+      "sources": [
+        {
+          "url": "https://www.iranicaonline.org/articles/seleucid-empire/",
+          "title": "Rolf Strootman, Encyclopaedia Iranica — Seleucid Empire",
+          "scope": "Lập312/311, các giai đoạn312–64, Babylonia mấtkhoảng141 và khủnghoảngkếvị; phânbiệtphạmvilãnhthổvớitoànvươngtriều."
+        }
+      ],
+      "snapshotSHA256": "6ddf7b7a34dddd6d05b89de1aa7332e3ca6fa79bd7f910436de6cee9d1ff0517"
+    },
+    {
+      "id": "wa-alexandria-331tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-8",
+      "decisions": [
+        "Bỏ kếtluận suy tàn vì thiếu kinh phí/thờơ như nguyên nhân chắc chắn; không thay một lời giải cháyduynhất bằng một lời giải duynhất khác.",
+        "Bỏ sốcuộnsách,Pharos/Euclid/Eratosthenes và giai thoại tàu thuyền chưa đối chiếu riêng ở mục; tập trung lịch sử thành phố và thư viện."
+      ],
+      "uncertainties": [
+        "NguồnUCL chưa xác định chắc vua nào lập thư viện, điều kiện tiếp cận, quy mô và số phận từng bộ sưu tập."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "date",
+        "r",
+        "place",
+        "t",
+        "d",
+        "fun",
+        "alt",
+        "consequencesTitle",
+        "consequences",
+        "altTitle"
+      ],
+      "sources": [
+        {
+          "url": "https://www.bibalex.org/attachments_en/publications/files/englishbrochure.pdf",
+          "title": "Bibliotheca Alexandrina — Giới thiệu, ấn bản2007",
+          "scope": "Chỉ dùng mốc lập thành331TCN; không dùng năm 288 trong brochure để phủ nhận bất định về thư viện ởnguồnUCL."
+        },
+        {
+          "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/writing/library/alexandria.html",
+          "title": "UCL Digital Egypt — The Library of Alexandria: limits of knowledge",
+          "scope": "Cảngbiển/cảngsông, PtolemyIhoặcII ởthếkỷIII,Mouseion,thưviện và công việc xác lập bảnvăn; những câu hỏi còn chưa rõ."
+        },
+        {
+          "url": "https://www.open.edu/openlearn/history-the-arts/library-alexandria/content-section-3",
+          "title": "Open University — The destruction of the library",
+          "scope": "Đối chiếuPlutarch,Dio và những mô tả khác; khác biệt thưviện/sách/kho và giới hạn xác định vị trí."
+        }
+      ],
+      "snapshotSHA256": "b897faaab0b57f4d91202751d24299ce0dd3ea3734b0b2b4a9aef08e2e6b990d"
     }
   ],
   "updatedAt": "2026-11-04"

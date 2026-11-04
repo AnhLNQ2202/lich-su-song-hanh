@@ -4207,8 +4207,23 @@ TL_DATA.push({
   ],
   "ref": "https://www.metmuseum.org/ja/essays/the-achaemenid-persian-empire-550-330-b-c"
 },
-    { id: 'wa-p-seleucid', s: -330, e: -141, t: 'Alexander và nhà Seleucid', g: 'a',
-      d: 'Sau khi Alexander chinh phục Ba Tư, tướng của ông là Seleucus lập vương triều cai trị Lưỡng Hà và Iran; văn hóa Hy Lạp hòa trộn với văn hóa phương Đông.' },
+    {
+  "id": "wa-p-seleucid",
+  "s": -312,
+  "e": -64,
+  "t": "Vương quốc Seleucid ở Tây Á",
+  "g": "a",
+  "d": "Từ 312/311 TCN, Seleucus xây dựng vương quốc kế tục sau Alexander. Lãnh thổ thay đổi qua chiến tranh, nổi dậy và tranh ngôi. Nhà Seleucid mất Babylonia vào khoảng141 TCN nhưng vẫn còn tồn tại ở phía tây; phần vương quốc cuối cùng kết thúc năm 64 TCN. Một năm mất vùng đất không phải lúc cả triều đại chấm dứt.",
+  "r": "Tây Á",
+  "refs": [
+    {
+      "url": "https://www.iranicaonline.org/articles/seleucid-empire/",
+      "title": "Rolf Strootman, Encyclopaedia Iranica — Seleucid Empire",
+      "scope": "Lập312/311, các giai đoạn312–64, Babylonia mấtkhoảng141 và khủnghoảngkếvị; phânbiệtphạmvilãnhthổvớitoànvươngtriều."
+    }
+  ],
+  "ref": "https://www.iranicaonline.org/articles/seleucid-empire/"
+},
     { id: 'wa-p-parthia', s: -141, e: 224, t: 'Đế quốc Parthia (An Tức)', g: 'a', r: 'Ba Tư (Iran)',
       d: 'Người Parthia, sử sách Trung Hoa gọi là An Tức, làm chủ Iran và Lưỡng Hà, nắm giữ đoạn giữa Con đường tơ lụa và nhiều lần đánh bại quân La Mã.' },
     { id: 'wa-p-sasan', s: 224, e: 637, t: 'Đế quốc Sasan (Ba Tư)', g: 'a', r: 'Ba Tư (Iran)',
@@ -4335,8 +4350,23 @@ TL_DATA.push({
   ],
   "ref": "https://www.ucl.ac.uk/museums-static/digitalegypt/3inter/index.html"
 },
-    { id: 'wa-p-ptolemy', s: -332, e: -30, t: 'Ai Cập thời Ptolemy', g: 'b', r: 'Ai Cập',
-      d: 'Alexander chiếm Ai Cập năm 332 TCN; sau đó tướng Ptolemy lập vương triều gốc Hy Lạp, đóng đô ở Alexandria, kéo dài đến nữ hoàng Cleopatra VII.' },
+    {
+  "id": "wa-p-ptolemy",
+  "s": -305,
+  "e": -30,
+  "t": "Ai Cập thời Ptolemy",
+  "g": "b",
+  "r": "Ai Cập",
+  "d": "Năm305 TCN, Ptolemy nhận vương hiệu ở Ai Cập, sau giai đoạn cai quản từ khi Alexander mất. Nhà Ptolemy đặt trung tâm quyền lực tại Alexandria, đồng thời sử dụng cả hình ảnh vua Hy Lạp lẫn truyền thống pharaoh Ai Cập. Vương triều kéo dài tới 30 TCN, khi La Mã tiếp quản sau thất bại của Cleopatra VII.",
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/de/essays/egypt-in-the-ptolemaic-period",
+      "title": "Marsha Hill, The Met — Egypt in the Ptolemaic Period",
+      "scope": "Phân biệtAlexanderchiếmAiCập332 với mởđầutriềuPtolemy305; kếtthúc30,Alexandria và hai truyền thống nghệthuật vươngquyền."
+    }
+  ],
+  "ref": "https://www.metmuseum.org/de/essays/egypt-in-the-ptolemaic-period"
+},
     { id: 'wa-p-ai-cap-la-ma', s: -30, e: 641, t: 'Ai Cập thuộc La Mã', g: 'b', r: 'Ai Cập',
       d: 'Ai Cập thành “vựa lúa” của La Mã rồi Đông La Mã; Kitô giáo lan rộng và những tu viện đầu tiên của thế giới Kitô giáo ra đời ở sa mạc Ai Cập.' },
     { id: 'wa-p-ai-cap-khalip', s: 641, e: 969, t: 'Ai Cập dưới các khalip', g: 'b', r: 'Ai Cập',
@@ -5026,11 +5056,40 @@ TL_DATA.push({
   "ref": "https://www.iranicaonline.org/articles/achaemenid-dynasty/achaemenid-dynasty-ii-the-empire/"
 },
 
-    { id: 'wa-alexandria-331tcn', y: -331, date: 'Từ năm 331 TCN', r: 'Ai Cập', place: 'Alexandria', t: 'Alexandria và thư viện lừng danh', c: 'cul', imp: 2,
-      d: 'Alexander Đại đế lập thành Alexandria bên bờ Địa Trung Hải năm 331 TCN. Dưới các vua Ptolemy, thành phố trở thành trung tâm học thuật của thế giới Hy Lạp, với Thư viện Alexandria lưu giữ hàng vạn cuộn sách và ngọn hải đăng Pharos, một trong Bảy kỳ quan cổ đại. Euclid viết sách hình học và Eratosthenes đo chu vi Trái Đất tại đây.',
-      why: 'Alexandria biến Ai Cập thành “thủ đô tri thức” của thời cổ đại, nơi khoa học Hy Lạp và di sản Ai Cập gặp nhau.',
-      fun: 'Theo lời kể thời cổ, để làm giàu thư viện, các vua Ptolemy cho mượn sách trên mọi con tàu cập cảng để chép lại, rồi… trả bản sao cho chủ tàu và giữ lại bản gốc.',
-      alt: 'Thư viện không cháy rụi trong một đêm như phim ảnh hay kể, mà suy tàn dần qua nhiều thế kỷ vì chiến tranh, thiếu kinh phí và sự thờ ơ. Tri thức mất đi thường lặng lẽ như thế.' },
+    {
+  "id": "wa-alexandria-331tcn",
+  "y": -331,
+  "date": "Thành phố lập331 TCN; thư viện hình thành về sau trong thế kỷ III TCN",
+  "r": "Ai Cập",
+  "place": "Alexandria",
+  "t": "Alexandria và thư viện lừng danh",
+  "c": "cul",
+  "imp": 2,
+  "d": "Alexander lập Alexandria năm 331 TCN. Thành phố nối cảng biển Địa Trung Hải với đường vào nội địa Ai Cập. Sang thế kỷ III TCN, dưới Ptolemy I hoặc Ptolemy II, Mouseion và thư viện trở thành nơi phục vụ công việc của các học giả. Năm lập thành vì thế chưa phải năm thư viện mở cửa.",
+  "fun": "Mouseion ở đây là nơi gắn với các nữ thần nghệ thuật và công việc học thuật. Nghĩ ngay tới một bảo tàng trưng bày như ngày nay có thể khiến ta hình dung sai: ở đó còn có những người đang làm việc với tri thức.",
+  "alt": "Các nguồn cổ kể khác nhau về những vụ cháy và sách bị mất. Có văn bản nói thư viện, có văn bản nói sách trong kho gần cảng. Chúng ta chưa có một câu chuyện chắc chắn bao trùm toàn bộ quá trình biến mất của các bộ sưu tập.",
+  "consequencesTitle": "Gom sách còn để đọc và đối chiếu",
+  "consequences": "Các học giả tìm cách tập hợp và xác lập những bản văn Hy Lạp tốt nhất có thể. Thư viện gắn với công việc nghiên cứu, bên cạnh việc lưu giữ. Một cuộn sách có giá trị còn vì những người đọc, sửa và so sánh nó với bản khác.",
+  "altTitle": "Chuyện thư viện biến mất vẫn còn khoảng trống",
+  "refs": [
+    {
+      "url": "https://www.bibalex.org/attachments_en/publications/files/englishbrochure.pdf",
+      "title": "Bibliotheca Alexandrina — Giới thiệu, ấn bản2007",
+      "scope": "Chỉ dùng mốc lập thành331TCN; không dùng năm 288 trong brochure để phủ nhận bất định về thư viện ởnguồnUCL."
+    },
+    {
+      "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/writing/library/alexandria.html",
+      "title": "UCL Digital Egypt — The Library of Alexandria: limits of knowledge",
+      "scope": "Cảngbiển/cảngsông, PtolemyIhoặcII ởthếkỷIII,Mouseion,thưviện và công việc xác lập bảnvăn; những câu hỏi còn chưa rõ."
+    },
+    {
+      "url": "https://www.open.edu/openlearn/history-the-arts/library-alexandria/content-section-3",
+      "title": "Open University — The destruction of the library",
+      "scope": "Đối chiếuPlutarch,Dio và những mô tả khác; khác biệt thưviện/sách/kho và giới hạn xác định vị trí."
+    }
+  ],
+  "ref": "https://www.bibalex.org/attachments_en/publications/files/englishbrochure.pdf"
+},
 
     { id: 'wa-tran-carrhae-53tcn', y: -53, r: 'Parthia', who: 'Tướng La Mã Crassus', place: 'Carrhae (đông nam Thổ Nhĩ Kỳ)', t: 'Trận Carrhae: Parthia đánh bại La Mã', c: 'war', imp: 1,
       d: 'Năm 53 TCN, Crassus, người giàu nhất thành Rome, đem quân sang đánh Parthia để mong có chiến công sánh với Caesar và Pompey. Ở Carrhae, kỵ binh Parthia vừa phi ngựa vừa bắn cung, lại được đoàn lạc đà tiếp tên liên tục, khiến bộ binh La Mã đại bại. Crassus tử trận.',
