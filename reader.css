@@ -216,3 +216,10 @@ dialog{color:var(--ink);background:var(--paper);border:1px solid var(--line);bor
 .article-sources ul { padding-left:20px; }
 .article-sources li { margin-block:12px; font:14px/1.6 var(--ui); }
 .article-sources li p { color:var(--muted); font-size:12px; margin:3px 0; }
+
+.reading-question { margin:24px 0; padding:14px; border:1px solid var(--line); border-radius:8px; }
+.reading-question summary { min-height:44px; cursor:pointer; font:600 16px/1.5 var(--ui); }
+.reading-question h3 { font:600 19px/1.6 var(--ui); margin:14px 0; }
+.reading-question .answer { font:16px/1.5 var(--ui); min-height:48px; width:100%; text-align:left; white-space:normal; }
+.reading-feedback { font:16px/1.7 var(--ui); margin-top:12px; }
+.reading-question .incorrect { border:2px solid var(--rust); }

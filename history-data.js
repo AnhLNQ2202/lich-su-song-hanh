@@ -2368,10 +2368,29 @@ TL_DATA.push({
       why: 'Pháo đài tiêu biểu cho phong trào Thực học (Silhak) đề cao kiến thức thực tiễn và được UNESCO công nhận là di sản thế giới năm 1997.',
       fun: 'Toàn bộ quá trình xây dựng được ghi chép tỉ mỉ trong một bộ sách có cả hình vẽ, nhờ đó khi pháo đài bị hư hại trong Chiến tranh Triều Tiên, người ta phục dựng được gần như nguyên bản.',
       vn: 'Cùng thời gian đó ở Việt Nam, vua Quang Trung vừa đánh tan quân Thanh (1789) và ban các chiếu khuyến nông, lập học để phục hồi đất nước.' },
-    { id: 'ea-hokusai-1831', y: 1831, ca: true, date: 'Khoảng 1830 – 1832', r: 'Nhật Bản', t: 'Hokusai và con sóng lừng Kanagawa', c: 'cul', imp: 1, who: 'Katsushika Hokusai',
-      d: 'Thời Edo, tranh khắc gỗ ukiyo-e (“tranh phù thế”) vẽ diễn viên kịch, mỹ nhân và phong cảnh được in hàng loạt và bán rẻ cho dân thành thị. Khoảng năm 1831, Katsushika Hokusai cho ra loạt tranh “36 cảnh núi Phú Sĩ”, trong đó có bức con sóng khổng lồ nổi tiếng toàn cầu.',
-      why: 'Ukiyo-e ảnh hưởng mạnh tới các họa sĩ châu Âu như Van Gogh, Monet; con sóng của Hokusai trở thành biểu tượng của nghệ thuật Nhật Bản.',
-      fun: 'Ngày nay con sóng ấy xuất hiện khắp nơi, từ áo phông, cốc uống nước cho tới biểu tượng cảm xúc hình sóng biển trên điện thoại của bạn.' },
+    {
+  "id": "ea-hokusai-1831",
+  "y": 1831,
+  "ca": true,
+  "date": "Khoảng 1830 – 1832",
+  "r": "Nhật Bản",
+  "t": "Hokusai và con sóng lừng Kanagawa",
+  "c": "cul",
+  "imp": 1,
+  "who": "Katsushika Hokusai",
+  "d": "Khoảng năm 1831, Sóng lừng ngoài khơi Kanagawa xuất hiện trong loạt Ba mươi sáu cảnh núi Phú Sĩ của Hokusai. Sóng cuộn ở tiền cảnh, còn ngọn núi nhỏ hiện xa phía sau. Đây là một bản in khắc gỗ nhiều màu, được thực hiện qua công việc của người thiết kế, khắc ván và in.",
+  "consequencesTitle": "Sắc xanh còn phụ thuộc vào bàn tay người in",
+  "consequences": "Phân tích của The Met cho thấy thợ in pha chàm với xanh Phổ ở nét viền và in màu chồng lên nhau để tạo độ sâu. Hai bản in từ cùng một thiết kế vì thế vẫn có thể khác về sắc độ và chất lượng.",
+  "refs": [
+    {
+      "url": "https://www.metmuseum.org/essays/hokusai-great-wave",
+      "title": "The Met — The Great Wave: Anatomy of an Icon",
+      "scope": "Loạt tranh, người in, pha màu chàm với xanh Phổ và in chồng màu."
+    }
+  ],
+  "related": [],
+  "ref": "https://www.metmuseum.org/essays/hokusai-great-wave"
+},
     {
       "id": "ea-tau-den-perry-1853",
       "y": 1853,
@@ -3390,11 +3409,36 @@ TL_DATA.push({
       d: 'Khoảng năm 1744, ở vùng Najd giữa bán đảo Ả Rập, thủ lĩnh địa phương Muhammad ibn Saud liên minh với nhà truyền giáo Muhammad ibn Abd al-Wahhab, người chủ trương quay về lối sống Hồi giáo nghiêm ngặt. Liên minh này lập nên nhà nước Saudi đầu tiên.',
       why: 'Là gốc rễ của Vương quốc Ả Rập Xê Út ngày nay, nơi dòng họ Saud vẫn cầm quyền và tư tưởng Wahhab vẫn có ảnh hưởng lớn.' },
 
-    { id: 'wa-da-rosetta-1799', y: 1799, y2: 1822, r: 'Ai Cập', who: 'Jean-François Champollion', place: 'Rosetta (châu thổ sông Nile)', t: 'Đá Rosetta, chìa khóa giải mã chữ tượng hình', c: 'sci', imp: 2,
-      d: 'Trong cuộc viễn chinh Ai Cập của Napoléon (1798–1801), lính Pháp tìm thấy ở Rosetta một phiến đá khắc cùng một sắc lệnh bằng ba loại chữ: tượng hình, chữ bình dân Ai Cập và chữ Hy Lạp. Dựa vào phần chữ Hy Lạp đọc được, năm 1822 học giả Pháp Champollion giải mã thành công chữ tượng hình.',
-      why: 'Sau gần 1500 năm không ai đọc được, chữ tượng hình “lên tiếng” trở lại, mở ra ngành Ai Cập học.',
-      fun: 'Theo giai thoại, khi giải mã xong, Champollion chạy sang phòng anh trai hét lên “Em làm được rồi!” rồi ngất đi vì xúc động.',
-      alt: 'Phiến đá do lính Pháp tìm thấy nhưng lại nằm ở Bảo tàng Anh: thắng Pháp ở Ai Cập, người Anh nhận nó như chiến lợi phẩm năm 1801. Đến nay Ai Cập vẫn đòi lại.' },
+    {
+  "id": "wa-da-rosetta-1799",
+  "y": 1799,
+  "y2": 1822,
+  "r": "Ai Cập",
+  "who": "Jean-François Champollion",
+  "place": "Rosetta (châu thổ sông Nile)",
+  "t": "Đá Rosetta, chìa khóa giải mã chữ tượng hình",
+  "c": "sci",
+  "imp": 2,
+  "d": "Phiến đá được tìm thấy tại Rosetta năm 1799 ghi một sắc lệnh bằng tiếng Ai Cập và tiếng Hy Lạp, sử dụng ba hệ chữ. Phần tiếng Hy Lạp đọc được cho các học giả một điểm tựa để đối chiếu những phần chữ Ai Cập.",
+  "consequencesTitle": "Đọc một tên vua để lần sang những chữ khác",
+  "consequences": "Đối chiếu các tên vua giúp Champollion lần ra cách các dấu chữ ghi âm. Công việc còn dựa vào nhiều bản khắc khác. Năm 1822 là một bước ngoặt trong việc giải mã hệ chữ, sau nhiều năm nghiên cứu.",
+  "refs": [
+    {
+      "url": "https://heritage.bnf.fr/bibliothequesorient/jean-francois-champollion-1790-1832-0",
+      "title": "BnF — Jean-François Champollion",
+      "scope": "Hai ngôn ngữ, ba hệ chữ và công việc đối chiếu các tên vua."
+    }
+  ],
+  "related": [
+    {
+      "id": "eu-champollion-1822",
+      "kind": "connection",
+      "text": "Theo tiếp cách Champollion đối chiếu văn bản để giải mã.",
+      "ref": "https://heritage.bnf.fr/bibliothequesorient/jean-francois-champollion-1790-1832-0"
+    }
+  ],
+  "ref": "https://heritage.bnf.fr/bibliothequesorient/jean-francois-champollion-1790-1832-0"
+},
 
     { id: 'wa-muhammad-ali-ai-cap-1805', y: 1805, r: 'Ai Cập', who: 'Muhammad Ali Pasha', t: 'Muhammad Ali hiện đại hóa Ai Cập', c: 'pol', imp: 1,
       d: 'Muhammad Ali, một sĩ quan gốc Albania trong quân đội Ottoman, nắm quyền cai trị Ai Cập năm 1805. Ông lập quân đội theo kiểu châu Âu, xây nhà máy dệt, mở trường học, gửi sinh viên sang Pháp học và mở rộng trồng bông để xuất khẩu.',
@@ -4029,11 +4073,39 @@ TL_DATA.push({
       "consequencesTitle": "Ai đại diện cho quốc gia?",
       "ref": "https://en.chateauversailles.fr/discover/history/key-dates/versailles-heart-french-revolution"
     },
-    { id: 'eu-jenner-1796', y: 1796, r: 'Anh', t: 'Jenner và vắc-xin đậu mùa', c: 'sci', imp: 2, who: 'Edward Jenner',
-      d: 'Bác sĩ Jenner để ý rằng các cô vắt sữa từng mắc bệnh đậu bò (một bệnh nhẹ) thì không bị đậu mùa. Ông lấy dịch từ vết đậu bò cấy cho một cậu bé 8 tuổi, rồi chứng minh cậu đã miễn dịch với đậu mùa.',
-      why: 'Đây là vắc-xin đầu tiên trong lịch sử; nhờ tiêm chủng, đến năm 1980 bệnh đậu mùa đã bị xóa sổ hoàn toàn trên Trái Đất.',
-      fun: 'Chữ “vaccine” bắt nguồn từ tiếng Latinh “vacca”, nghĩa là con bò.',
-      alt: 'Trước Jenner, người Trung Quốc, Ấn Độ và Ottoman đã biết “chủng đậu” — lấy vảy đậu mùa nhẹ để tạo miễn dịch, dù rủi ro hơn nhiều.' },
+    {
+  "id": "eu-jenner-1796",
+  "y": 1796,
+  "r": "Anh",
+  "t": "Jenner và vắc-xin đậu mùa",
+  "c": "sci",
+  "imp": 2,
+  "who": "Edward Jenner",
+  "d": "Năm 1796, Edward Jenner thử ý tưởng rằng việc từng mắc đậu bò có thể bảo vệ một người trước đậu mùa. Ông lấy vật liệu từ vết đậu bò trên tay người vắt sữa Sarah Nelmes để chủng cho James Phipps, rồi thử khả năng bảo vệ bằng vật liệu đậu mùa.",
+  "consequencesTitle": "Gần hai thế kỷ từ thử nghiệm đến thanh toán bệnh",
+  "consequences": "Trước Jenner, nhiều cộng đồng đã thực hành chủng đậu bằng vật liệu lấy từ người mắc đậu mùa. Phương pháp dùng đậu bò mở thêm một hướng tiêm chủng. Những chiến dịch tiêm chủng và giám sát quốc tế về sau góp phần chấm dứt sự lưu hành tự nhiên của bệnh.",
+  "refs": [
+    {
+      "url": "https://www.cdc.gov/smallpox/about/history.html",
+      "title": "CDC — Lịch sử đậu mùa",
+      "scope": "Thử nghiệm của Jenner năm 1796, chủng đậu trước đó và diễn tiến tiêm chủng."
+    },
+    {
+      "url": "https://www.who.int/news-room/spotlight/history-of-vaccination/history-of-smallpox-vaccination",
+      "title": "WHO — Lịch sử tiêm chủng đậu mùa",
+      "scope": "Hợp tác quốc tế, giám sát ca bệnh và thanh toán đậu mùa năm 1980."
+    }
+  ],
+  "related": [
+    {
+      "id": "gb-smallpox-eradicated-1980",
+      "kind": "connection",
+      "text": "Thanh toán đậu mùa đòi hỏi nhiều thế hệ cải tiến vaccine, tổ chức tiêm và tìm ca bệnh.",
+      "ref": "https://www.who.int/news-room/spotlight/history-of-vaccination/history-of-smallpox-vaccination"
+    }
+  ],
+  "ref": "https://www.cdc.gov/smallpox/about/history.html"
+},
     { id: 'eu-napoleon-1804', y: 1804, r: 'Pháp', t: 'Napoléon lên ngôi Hoàng đế', c: 'pol', imp: 3, who: 'Napoléon Bonaparte',
       d: 'Từ một sĩ quan pháo binh, Napoléon nổi lên nhờ những chiến thắng lẫy lừng và lên ngôi Hoàng đế năm 1804. Cùng năm, ông ban hành Bộ luật Dân sự, khẳng định mọi công dân bình đẳng trước pháp luật. Quân Pháp lần lượt chinh phục phần lớn châu Âu.',
       why: 'Bộ luật Napoléon trở thành khuôn mẫu cho luật dân sự của nhiều nước, còn các cuộc chinh phạt của ông vẽ lại bản đồ châu Âu.',
@@ -4182,11 +4254,39 @@ TL_DATA.push({
       d: 'Sau nội chiến, nước Nga Xô viết cùng Ukraine, Belarus và vùng Ngoại Kavkaz hợp nhất thành Liên bang Cộng hòa Xã hội chủ nghĩa Xô viết. Về sau Liên Xô gồm 15 nước cộng hòa, chiếm khoảng một phần sáu diện tích đất liền thế giới.',
       why: 'Liên Xô trở thành một trong hai siêu cường của thế kỷ XX, có vai trò quyết định trong chiến thắng chủ nghĩa phát xít.',
       vn: 'Liên Xô là nơi đào tạo hàng chục nghìn kỹ sư, bác sĩ, nhà khoa học Việt Nam và là nguồn viện trợ lớn trong các cuộc kháng chiến và xây dựng đất nước.' },
-    { id: 'eu-penicillin-1928', y: 1928, r: 'Anh', t: 'Fleming tìm ra penicillin', c: 'sci', imp: 2, who: 'Alexander Fleming',
-      d: 'Đi nghỉ về, nhà khoa học Fleming thấy một đĩa nuôi vi khuẩn bị nấm mốc xâm nhập, và quanh vệt nấm, vi khuẩn chết sạch. Chất do nấm tiết ra được đặt tên là penicillin. Đến Thế chiến II, các nhà khoa học khác tìm ra cách sản xuất hàng loạt.',
-      why: 'Penicillin là thuốc kháng sinh đầu tiên, cứu sống hàng trăm triệu người khỏi các bệnh nhiễm trùng từng là án tử.',
-      fun: 'Một trong những phát minh vĩ đại nhất thế kỷ XX ra đời một phần nhờ... phòng thí nghiệm không được dọn dẹp trước kỳ nghỉ.',
-      alt: 'Chính Fleming đã sớm cảnh báo: dùng kháng sinh bừa bãi sẽ khiến vi khuẩn kháng thuốc — lời cảnh báo ngày càng đúng, kể cả ở Việt Nam hôm nay.' },
+    {
+  "id": "eu-penicillin-1928",
+  "y": 1928,
+  "r": "Anh",
+  "t": "Fleming tìm ra penicillin",
+  "c": "sci",
+  "imp": 2,
+  "who": "Alexander Fleming",
+  "d": "Năm 1928, Alexander Fleming quan sát một đĩa nuôi tụ cầu bị lẫn nấm mốc. Quanh đám nấm xuất hiện một vòng không có vi khuẩn. Ông nghiên cứu chất do nấm tạo ra và đặt tên là penicillin.",
+  "consequencesTitle": "Từ đĩa nuôi cấy đến một loại thuốc",
+  "consequences": "Để dùng penicillin điều trị, người nghiên cứu còn phải tách hoạt chất và kiểm tra hiệu quả. Ernst Chain, Howard Florey cùng các cộng sự tiếp tục công việc ấy. Năm 1945, Fleming, Chain và Florey cùng nhận Nobel Y học.",
+  "refs": [
+    {
+      "url": "https://www.nobelprize.org/prizes/medicine/1945/fleming/biographical/",
+      "title": "Nobel Prize — Alexander Fleming",
+      "scope": "Quan sát đĩa nuôi tụ cầu năm 1928 và vòng không có vi khuẩn quanh nấm."
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/medicine/1945/summary/",
+      "title": "Nobel Prize — Y học 1945",
+      "scope": "Ba người cùng nhận giải và đóng góp về penicillin."
+    }
+  ],
+  "related": [
+    {
+      "id": "eu-penicillin-nobel-1945",
+      "kind": "connection",
+      "text": "Giải thưởng ghi nhận cả phát hiện lẫn tác dụng điều trị đã được phát triển sau đó.",
+      "ref": "https://www.nobelprize.org/prizes/medicine/1945/summary/"
+    }
+  ],
+  "ref": "https://www.nobelprize.org/prizes/medicine/1945/fleming/biographical/"
+},
     { id: 'eu-hitler-1933', y: 1933, date: '30/1/1933', r: 'Đức', t: 'Hitler lên nắm quyền ở Đức', c: 'pol', imp: 2, who: 'Adolf Hitler',
       d: 'Giữa khủng hoảng kinh tế và thất nghiệp tràn lan, đảng Quốc xã của Hitler giành nhiều phiếu bầu và ông được bổ nhiệm làm Thủ tướng. Chỉ trong vài tháng, Hitler dẹp bỏ các đảng khác, đàn áp người bất đồng và người Do Thái, lập chế độ độc tài phát xít.',
       why: 'Chế độ phát xít Đức gây ra Thế chiến II và cuộc diệt chủng Holocaust.',
@@ -9706,6 +9806,201 @@ TL_DATA.push({
       ],
       "consequencesTitle": "Khi Tetris có thể đi theo người chơi",
       "ref": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-History-625945.html"
+    }
+  ]
+});
+
+TL_DATA.push({
+  "lane": "eu",
+  "periods": [],
+  "events": [
+    {
+      "id": "eu-penicillin-nobel-1945",
+      "y": 1945,
+      "t": "Nobel ghi nhận ba người trong hành trình phát triển penicillin",
+      "c": "sci",
+      "imp": 1,
+      "d": "Nobel Y học năm 1945 được chia đều cho Alexander Fleming, Ernst Chain và Howard Florey vì công trình về penicillin và tác dụng điều trị trong các bệnh nhiễm trùng.",
+      "consequencesTitle": "Một phát hiện đi qua nhiều nhóm nghiên cứu",
+      "consequences": "Quan sát ban đầu và việc phát triển thành phương pháp chữa bệnh là những công việc nối tiếp nhau. Danh sách ba người nhận giải nhắc đến cả hành trình ấy.",
+      "refs": [
+        {
+          "url": "https://www.nobelprize.org/prizes/medicine/1945/summary/",
+          "title": "Nobel Prize — Y học 1945",
+          "scope": "Ba người cùng nhận giải và đóng góp về penicillin."
+        }
+      ],
+      "related": [
+        {
+          "id": "eu-penicillin-1928",
+          "kind": "background",
+          "text": "Fleming bắt đầu từ vòng không có vi khuẩn quanh một đám nấm trên đĩa nuôi cấy.",
+          "ref": "https://www.nobelprize.org/prizes/medicine/1945/summary/"
+        }
+      ],
+      "ref": "https://www.nobelprize.org/prizes/medicine/1945/summary/"
+    }
+  ]
+});
+
+TL_DATA.push({
+  "lane": "eu",
+  "periods": [],
+  "events": [
+    {
+      "id": "gb-smallpox-eradicated-1980",
+      "y": 1980,
+      "t": "Thế giới xác nhận thanh toán bệnh đậu mùa",
+      "c": "sci",
+      "imp": 1,
+      "d": "Năm 1980, WHO tuyên bố đậu mùa đã được thanh toán. Ca mắc tự nhiên cuối cùng được ghi nhận tại Somalia năm 1977.",
+      "consequencesTitle": "Vaccine cần đi cùng việc tìm ca bệnh",
+      "consequences": "Các cơ quan y tế và cộng đồng phối hợp tiêm chủng, theo dõi người mắc và chặn đường lây. Kết quả đến từ cả công cụ phòng bệnh lẫn khả năng tổ chức hoạt động y tế trên nhiều quốc gia.",
+      "refs": [
+        {
+          "url": "https://www.who.int/news-room/spotlight/history-of-vaccination/history-of-smallpox-vaccination",
+          "title": "WHO — Lịch sử tiêm chủng đậu mùa",
+          "scope": "Hợp tác quốc tế, giám sát ca bệnh và thanh toán đậu mùa năm 1980."
+        },
+        {
+          "url": "https://www.cdc.gov/smallpox/about/history.html",
+          "title": "CDC — Lịch sử đậu mùa",
+          "scope": "Thử nghiệm của Jenner năm 1796, chủng đậu trước đó và diễn tiến tiêm chủng."
+        }
+      ],
+      "related": [
+        {
+          "id": "eu-jenner-1796",
+          "kind": "background",
+          "text": "Thử nghiệm với đậu bò năm 1796 thuộc lịch sử dài của tiêm chủng đậu mùa.",
+          "ref": "https://www.cdc.gov/smallpox/about/history.html"
+        }
+      ],
+      "ref": "https://www.who.int/news-room/spotlight/history-of-vaccination/history-of-smallpox-vaccination"
+    }
+  ]
+});
+
+TL_DATA.push({
+  "lane": "am",
+  "periods": [],
+  "events": [
+    {
+      "id": "am-voyager-1977",
+      "y": 1977,
+      "t": "Hai tàu Voyager lên đường đến các hành tinh khổng lồ",
+      "c": "sci",
+      "imp": 1,
+      "d": "Voyager 2 được phóng ngày 20/8/1977. Voyager 1 theo sau ngày 5/9, nhưng đi một đường bay đưa nó đến Sao Mộc và Sao Thổ sớm hơn.",
+      "consequencesTitle": "Số thứ tự không phải thứ tự phóng",
+      "consequences": "Voyager 2 tiếp tục thăm Sao Thiên Vương rồi Sao Hải Vương. Hai hành trình khác nhau giúp thu thập dữ liệu về cả bốn hành tinh khổng lồ.",
+      "refs": [
+        {
+          "url": "https://science.nasa.gov/mission/voyager/planetary-voyage/",
+          "title": "NASA — Hành trình qua các hành tinh",
+          "scope": "Voyager 2 phóng trước Voyager 1 và thăm bốn hành tinh khổng lồ."
+        },
+        {
+          "url": "https://science.nasa.gov/mission/voyager/voyager-1/",
+          "title": "NASA — Voyager 1",
+          "scope": "Phóng năm 1977, thăm Sao Mộc và Sao Thổ, vào không gian liên sao năm 2012."
+        }
+      ],
+      "related": [
+        {
+          "id": "am-voyager-interstellar-2012",
+          "kind": "connection",
+          "text": "Sau những lần thăm hành tinh, Voyager 1 tiếp tục ra xa và vượt ranh giới nhật quyển.",
+          "ref": "https://science.nasa.gov/mission/voyager/voyager-1/"
+        }
+      ],
+      "ref": "https://science.nasa.gov/mission/voyager/planetary-voyage/"
+    }
+  ]
+});
+
+TL_DATA.push({
+  "lane": "am",
+  "periods": [],
+  "events": [
+    {
+      "id": "am-voyager-interstellar-2012",
+      "y": 2012,
+      "t": "Voyager 1 vượt ra ngoài nhật quyển",
+      "c": "sci",
+      "imp": 1,
+      "d": "Tháng 8/2012, Voyager 1 đi vào môi trường liên sao sau khi vượt qua ranh giới ngoài của vùng do gió Mặt Trời chi phối. Kết luận được công bố sau khi các nhà khoa học phân tích dữ liệu.",
+      "consequencesTitle": "Vượt một ranh giới bằng phép đo",
+      "consequences": "Con tàu vẫn gửi dữ liệu từ xa. Để xác định nó đã sang môi trường nào, các nhà khoa học phải đọc những dấu hiệu vật lý quanh tàu, thay vì quan sát một đường biên nhìn thấy được.",
+      "refs": [
+        {
+          "url": "https://science.nasa.gov/mission/voyager/voyager-1/",
+          "title": "NASA — Voyager 1",
+          "scope": "Phóng năm 1977, thăm Sao Mộc và Sao Thổ, vào không gian liên sao năm 2012."
+        }
+      ],
+      "related": [
+        {
+          "id": "am-voyager-1977",
+          "kind": "background",
+          "text": "Voyager 1 đã rời Trái Đất từ năm 1977.",
+          "ref": "https://science.nasa.gov/mission/voyager/voyager-1/"
+        }
+      ],
+      "ref": "https://science.nasa.gov/mission/voyager/voyager-1/"
+    }
+  ]
+});
+
+TL_DATA.push({
+  "lane": "eu",
+  "periods": [],
+  "events": [
+    {
+      "id": "eu-higgs-observation-2012",
+      "y": 2012,
+      "t": "ATLAS và CMS thông báo hạt mới giống boson Higgs",
+      "c": "sci",
+      "imp": 1,
+      "d": "Ngày 4/7/2012, hai nhóm thực nghiệm tại CERN thông báo bằng chứng về một hạt mới có khối lượng khoảng 125–126 GeV. Các đặc điểm khi ấy tương thích với boson Higgs mà lý thuyết dự đoán.",
+      "consequencesTitle": "Từ tín hiệu mới đến đo tính chất hạt",
+      "consequences": "Sau thông báo, các nhóm tiếp tục thu thập dữ liệu và đo tính chất của hạt. Một phát hiện cần được kiểm tra qua nhiều dấu hiệu, kênh phân rã và những tập dữ liệu lớn hơn.",
+      "refs": [
+        {
+          "url": "https://home.cern/cern-experiments-observe-particle-consistent-with-long-sought-higgs-boson/",
+          "title": "CERN — Thông báo ngày 4/7/2012",
+          "scope": "Hai nhóm ATLAS và CMS thông báo hạt mới tương thích với boson Higgs."
+        }
+      ],
+      "date": "4/7/2012",
+      "related": [],
+      "ref": "https://home.cern/cern-experiments-observe-particle-consistent-with-long-sought-higgs-boson/"
+    }
+  ]
+});
+
+TL_DATA.push({
+  "lane": "eu",
+  "periods": [],
+  "events": [
+    {
+      "id": "culture-orsay-1986",
+      "y": 1986,
+      "t": "Ga Orsay mở cửa trở lại trong vai trò bảo tàng",
+      "c": "cul",
+      "imp": 1,
+      "d": "Sau khi được cải tạo từ nhà ga, Musée d’Orsay mở cửa đón công chúng ngày 9/12/1986. Lễ khánh thành diễn ra trước đó vào ngày 1/12.",
+      "consequencesTitle": "Nhà ga vẫn hiện diện trong phòng tranh",
+      "consequences": "Công trình xây cho Triển lãm thế giới năm 1900 được tái sử dụng để trưng bày nghệ thuật. Sảnh lớn và đồng hồ giúp khách nhận ra lịch sử của tòa nhà ngay khi xem tác phẩm.",
+      "refs": [
+        {
+          "url": "https://www.musee-orsay.fr/fr/articles/histoire-du-musee-60",
+          "title": "Musée d’Orsay — Lịch sử bảo tàng",
+          "scope": "Ga năm 1900, khánh thành 1/12/1986 và mở cửa công chúng 9/12."
+        }
+      ],
+      "date": "9/12/1986",
+      "ref": "https://www.musee-orsay.fr/fr/articles/histoire-du-musee-60"
     }
   ]
 });

@@ -735,6 +735,118 @@ const surpriseQuestions = [
     "why": "Hồ Quý Ly cho dựng thành khi ông còn làm quan nhà Trần. Ba năm sau ông mới lập nhà Hồ. Tên di tích quen thuộc ngày nay dễ khiến ta đặt nhầm năm xây thành sang triều đại kế tiếp.",
     "id": "vn-thanh-nha-ho-1397",
     "ref": "https://whc.unesco.org/en/list/1358/"
+  },
+  {
+    "key": "voyager-order",
+    "theme": "space",
+    "ask": "Voyager 1 và Voyager 2 có điểm nào dễ khiến ta đoán nhầm thứ tự phóng?",
+    "choices": [
+      "Voyager 2 rời Trái Đất trước Voyager 1",
+      "Cả hai được phóng trên cùng một tên lửa",
+      "Voyager 1 được đổi tên sau khi phóng"
+    ],
+    "correct": 0,
+    "why": "Voyager 2 phóng ngày 20/8/1977, Voyager 1 ngày 5/9. Đường bay nhanh hơn giúp Voyager 1 đến Sao Mộc và Sao Thổ trước.",
+    "id": "am-voyager-1977",
+    "ref": "https://science.nasa.gov/mission/voyager/planetary-voyage/"
+  },
+  {
+    "key": "voyager-four-planets",
+    "theme": "space",
+    "ask": "Tàu nào đã bay qua cả Sao Mộc, Sao Thổ, Sao Thiên Vương và Sao Hải Vương?",
+    "choices": [
+      "Voyager 1",
+      "Voyager 2",
+      "Cả hai tàu Voyager"
+    ],
+    "correct": 1,
+    "why": "Voyager 1 chỉ thăm Sao Mộc và Sao Thổ. Voyager 2 theo hành trình cho phép tiếp tục tới Sao Thiên Vương và Sao Hải Vương.",
+    "id": "am-voyager-1977",
+    "ref": "https://science.nasa.gov/mission/voyager/planetary-voyage/"
+  },
+  {
+    "key": "smallpox-surveillance",
+    "theme": "medicine",
+    "ask": "Sau khi có vaccine, điều gì vẫn cần làm để biết đậu mùa thực sự đã ngừng lây?",
+    "choices": [
+      "Chỉ đếm số liều vaccine đã sản xuất",
+      "Chỉ xét nghiệm những người vừa được tiêm",
+      "Chủ động tìm ca bệnh và theo dõi đường lây"
+    ],
+    "correct": 2,
+    "why": "Một chiến dịch có nhiều liều vaccine chưa tự cho biết virus còn lây ở đâu. Giám sát và tìm ca bệnh là phần thiết yếu của chương trình thanh toán.",
+    "id": "gb-smallpox-eradicated-1980",
+    "ref": "https://www.who.int/news-room/spotlight/history-of-vaccination/history-of-smallpox-vaccination"
+  },
+  {
+    "key": "penicillin-shared-prize",
+    "theme": "medicine",
+    "ask": "Vì sao Nobel Y học 1945 về penicillin được chia cho Fleming, Chain và Florey?",
+    "choices": [
+      "Công trình bao gồm cả phát hiện và phát triển tác dụng điều trị",
+      "Mỗi người tìm ra một loại nấm tạo ra penicillin",
+      "Cả ba cùng quan sát đĩa nuôi cấy đầu tiên năm 1928"
+    ],
+    "correct": 0,
+    "why": "Quan sát của Fleming là bước mở đầu. Chain và Florey tiếp tục nghiên cứu để phát triển khả năng chữa bệnh của penicillin. Giải thưởng ghi nhận công trình chung ấy.",
+    "id": "eu-penicillin-nobel-1945",
+    "ref": "https://www.nobelprize.org/prizes/medicine/1945/summary/"
+  },
+  {
+    "key": "higgs-two-experiments",
+    "theme": "science",
+    "ask": "Vì sao thông báo hạt mới ở CERN năm 2012 có cả tên ATLAS lẫn CMS?",
+    "choices": [
+      "Đó là tên hai lý thuyết cạnh tranh nhau",
+      "Hai nhóm thực nghiệm đều thấy bằng chứng về hạt mới",
+      "Một nhóm chế tạo hạt, nhóm kia đặt tên cho hạt"
+    ],
+    "correct": 1,
+    "why": "Hai thí nghiệm quan sát bằng các thiết bị riêng và cùng trình bày kết quả. Sự tương hợp giữa các phép đo giúp kiểm tra bằng chứng.",
+    "id": "eu-higgs-observation-2012",
+    "ref": "https://home.cern/cern-experiments-observe-particle-consistent-with-long-sought-higgs-boson/"
+  },
+  {
+    "key": "orsay-opening-dates",
+    "theme": "architecture",
+    "ask": "Tư liệu ghi Musée d’Orsay khánh thành ngày 1/12/1986 nhưng mở cửa ngày 9/12. Hai mốc này nói điều gì?",
+    "choices": [
+      "Bảo tàng đóng rồi mở lại trong một tuần",
+      "Hai lịch khác nhau được dùng ở Paris",
+      "Lễ khánh thành diễn ra trước ngày đón công chúng"
+    ],
+    "correct": 2,
+    "why": "Một công trình có thể có ngày tổ chức lễ riêng với ngày mở cửa cho người tham quan. Lịch sử chính thức của bảo tàng phân biệt hai mốc.",
+    "id": "culture-orsay-1986",
+    "ref": "https://www.musee-orsay.fr/fr/articles/histoire-du-musee-60"
+  },
+  {
+    "key": "wave-pigment-mixture",
+    "theme": "art",
+    "ask": "Phân tích bản Sóng lừng ở The Met cho thấy thợ in làm sắc xanh sâu hơn bằng cách nào?",
+    "choices": [
+      "Kết hợp chàm với xanh Phổ và in chồng màu",
+      "Phủ toàn bộ bản in bằng một lớp mực đen",
+      "Tô riêng bằng sơn dầu sau khi in"
+    ],
+    "correct": 0,
+    "why": "Pha sắc tố và đặt các lớp màu chồng lên nhau tạo được chuyển độ xanh. Người in góp phần trực tiếp vào cảm giác sâu và chuyển động của con sóng.",
+    "id": "ea-hokusai-1831",
+    "ref": "https://www.metmuseum.org/essays/hokusai-great-wave"
+  },
+  {
+    "key": "rosetta-language-script",
+    "theme": "language",
+    "ask": "Đá Rosetta có ba hệ chữ. Nó ghi bao nhiêu ngôn ngữ?",
+    "choices": [
+      "Ba",
+      "Hai",
+      "Một"
+    ],
+    "correct": 1,
+    "why": "Tiếng Ai Cập được viết bằng chữ tượng hình và demotic. Phần còn lại dùng tiếng Hy Lạp. Vì vậy hai ngôn ngữ xuất hiện dưới ba hệ chữ.",
+    "id": "wa-da-rosetta-1799",
+    "ref": "https://heritage.bnf.fr/bibliothequesorient/jean-francois-champollion-1790-1832-0"
   }
 ];
 const quizHistoryKey='lsh.quiz.seen';
@@ -925,13 +1037,32 @@ function articleSources(o) {
   if(!refs.length)return '';
   return '<details class="article-sources"><summary>Nguồn đối chiếu</summary><ul>'+refs.map(ref=>'<li><a href="'+escapeHTML(ref.url)+'" target="_blank" rel="noopener">'+escapeHTML(ref.title)+' ↗</a>'+(ref.scope?'<p>'+escapeHTML(ref.scope)+'</p>':'')+'</li>').join('')+'</ul></details>';
 }
+function readingQuestion(item) {
+  const questions=surpriseQuestions.filter(q=>q.id===item.id);
+  if(!questions.length)return '';
+  const q=questions[Math.floor(Math.random()*questions.length)];
+  return '<details class="reading-question"><summary>Thử một câu về bài này</summary><div data-reading-question="'+escapeHTML(q.key)+'"><h3>'+escapeHTML(q.ask)+'</h3>'+shuffled(q.choices.map((label,index)=>({label,index}))).map(c=>'<button type="button" class="answer" data-reading-choice="'+c.index+'">'+escapeHTML(c.label)+'</button>').join('')+'<div class="reading-feedback" role="status" aria-live="polite"></div></div></details>';
+}
+$('body-copy').addEventListener('click',event=>{
+  const button=event.target.closest('[data-reading-choice]');
+  if(!button)return;
+  const block=button.closest('[data-reading-question]');
+  const q=surpriseQuestions.find(q=>q.key===block.dataset.readingQuestion);
+  const correct=Number(button.dataset.readingChoice)===q.correct;
+  block.querySelectorAll('[data-reading-choice]').forEach(b=>{
+    b.disabled=true;
+    b.classList.toggle('correct',Number(b.dataset.readingChoice)===q.correct);
+    b.classList.toggle('incorrect',b===button&&!correct);
+  });
+  block.querySelector('.reading-feedback').innerHTML='<b>'+(correct?'Đúng rồi.':'Đáp án là '+escapeHTML(q.choices[q.correct]))+'</b>'+paragraphs(q.why)+'<a href="'+escapeHTML(q.ref)+'" target="_blank" rel="noopener">Xem nguồn ↗</a>';
+});
 function article(item) {
   const o = item.source;
   const body = item.kind === 'np' ? o.bio : o.d;
   const meta = [o.topic, o.date, o.place, o.role, item.kind === 'np' ? yearText(o.b)+' – '+(o.d == null ? 'nay' : yearText(o.d)) : '', ['pd','gb'].includes(item.kind) ? yearText(o.s)+' – '+yearText(o.e) : ''].filter(Boolean);
   const notes = [[o.altTitle||noteTitle(item.id,'alt'),o.alt],['Liên hệ Việt Nam',o.vn],['Một dấu mốc đáng nhớ',o.act ? 'Năm '+yearText(o.k)+', '+o.n+' '+o.act+'.' : ''],['Cùng thời',o.same],['Bạn có biết?',o.fun]];
   return (meta.length ? '<p class="meta">'+escapeHTML(meta.join(' · '))+'</p>' : '')+
-    '<div class="prose">'+paragraphs(o.context)+paragraphs(body)+articleVisuals(item)+eventEffects(item)+notes.filter(([,v])=>v).map(([h,v])=>(h?'<h2>'+escapeHTML(h)+'</h2>':'')+paragraphs(v)).join('')+(item.kind==='sl' ? sliceNotes(item) : '')+relatedStory(item)+highlightHTML(item)+storyPeople(item)+'</div>'+exploreHTML(item)+articleSources(o)+'<details id="comparison-details" class="comparison-end"><summary>Cùng thời ở những nơi khác <span>Mở đối chiếu +</span></summary><div id="world" aria-label="Đối chiếu cuối bài"></div></details>';
+    '<div class="prose">'+paragraphs(o.context)+paragraphs(body)+articleVisuals(item)+eventEffects(item)+notes.filter(([,v])=>v).map(([h,v])=>(h?'<h2>'+escapeHTML(h)+'</h2>':'')+paragraphs(v)).join('')+(item.kind==='sl' ? sliceNotes(item) : '')+relatedStory(item)+highlightHTML(item)+readingQuestion(item)+storyPeople(item)+'</div>'+exploreHTML(item)+articleSources(o)+'<details id="comparison-details" class="comparison-end"><summary>Cùng thời ở những nơi khác <span>Mở đối chiếu +</span></summary><div id="world" aria-label="Đối chiếu cuối bài"></div></details>';
 }
 function comparisonItems(item) {
   if (item.kind === 'sl') return (item.source.ev || []).map(id=>catalog.get(id)).filter(Boolean);
