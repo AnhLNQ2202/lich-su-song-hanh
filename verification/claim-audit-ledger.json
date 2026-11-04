@@ -4239,6 +4239,108 @@
         }
       ],
       "snapshotSHA256": "0941630dfd7cfecf878c06b81df9e2e03b5e2ad818b194687467aba3c453580f"
+    },
+    {
+      "id": "sa-ramayana-mahabharata-400tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-5",
+      "decisions": [
+        "Không áp cùng khoảng niên đại cho hai lịch sử văn bản khác nhau.",
+        "Bỏ số100000 câu, phép so thời lượng đọc và liên hệChăm chưa được đối chiếu riêng."
+      ],
+      "uncertainties": [
+        "Niên đại hình thành sử thi phụ thuộc phần văn bản và cách phân kỳ; không phải thời gian chiến tranh huyền thoại được xác minh."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "y2",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "d",
+        "fun",
+        "consequencesTitle",
+        "consequences"
+      ],
+      "sources": [
+        {
+          "url": "https://exhibits.libraries.emory.edu/life-of-an-item/about/",
+          "title": "Emory Libraries — Bản chép Mahabharata bằng tiếng Telugu",
+          "scope": "Khung400 TCN–400, chiến tranhKurukshetra, truyền thống kể lại và bảnUdyoga khoảng 1700 trênlá cọ."
+        },
+        {
+          "url": "https://www.metmuseum.org/exhibitions/listings/2010/epic-india?exhshow=art",
+          "title": "The Met — Epic India: Scenes from the Ramayana",
+          "scope": "Cốt truyệnRama/Sita, câu hỏi đạo đức, điêu khắc và tranh minh họa; không dùng bài triển lãm để xác định niên đại duy nhất của cảhai sửthi."
+        }
+      ],
+      "snapshotSHA256": "18c357623fee8dc108c1869257458ef2e0879ecbb4c4ca41119c537070e02e2a"
+    },
+    {
+      "id": "am-p-maya-tien-co-dien",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-5",
+      "decisions": [
+        "Sửa đầu thời kỳ400 TCN thành2000 TCN;400 chỉ gần một cách đặt đầu giai đoạn muộn chứ không toàn tiền cổ điển."
+      ],
+      "uncertainties": [
+        "Các tác giả đặt ranh giới các phân kỳ nhỏ khác nhau; dùng rõ hệUCSB trong nguồn."
+      ],
+      "fieldsReviewed": [
+        "s",
+        "e",
+        "t",
+        "r",
+        "d",
+        "ca"
+      ],
+      "sources": [
+        {
+          "url": "https://www.marc.ucsb.edu/research/maya/ancient-maya-civilization/preclassic-period",
+          "title": "UCSB MesoAmerican Research Center — Preclassic Period",
+          "scope": "Giai đoạn sớm khoảng 2000–1000 TCN, giữa1000–300 TCN, muộn300 TCN–250; cư trú, nông nghiệp, tổ chức và kiến trúc công cộng."
+        }
+      ],
+      "snapshotSHA256": "868c067635be7b3b5120935541b7953b2fd459f921d434ff9fbf52abf07f32e8"
+    },
+    {
+      "id": "am-maya-chu-viet-300tcn",
+      "reviewedAt": "2026-11-04",
+      "batch": "early-story-audit-5",
+      "decisions": [
+        "Tách chứng cứ lịch/chữ sớm khỏi số0 thời cổ điển; không gộp thành ba phát minh năm 300 TCN.",
+        "Bỏ so sánh hơn châuÂu, khẳng định độchínhxác lịch và lời đồn2012 chưa được đối chiếu trong mục."
+      ],
+      "uncertainties": [
+        "250 TCN là điểm đặt bài trong khoảng định tuổi300–200, không phải năm chính xác."
+      ],
+      "fieldsReviewed": [
+        "y",
+        "ca",
+        "date",
+        "r",
+        "t",
+        "d",
+        "fun",
+        "alt",
+        "consequencesTitle",
+        "consequences",
+        "altTitle"
+      ],
+      "sources": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35417231/",
+          "title": "Stuart, Hurst, Beltrán và Saturno — An early Maya calendar record from San Bartolo",
+          "scope": "Nghiên cứu2022: khoảng 300–200 TCN,7Deer,lịch 260ngày,10mảnh chữ khác,nhiều người viết và việc tiếp tục sử dụng lịch."
+        },
+        {
+          "url": "https://mayadecipherment.com/2012/06/15/the-calligraphic-zero/",
+          "title": "David Stuart — The Calligraphic Zero",
+          "scope": "Phân tích các dạng số0 thời cổ điển và ghi chúXultun; không xác định phát minh số0 ở 300 TCN."
+        }
+      ],
+      "snapshotSHA256": "03fcb9b5b2d812f59bc2f2ef8373119d5df5886ade43136e68ae3fdf032e3e99"
     }
   ],
   "updatedAt": "2026-11-04"

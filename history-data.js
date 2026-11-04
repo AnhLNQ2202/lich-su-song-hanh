@@ -3515,11 +3515,34 @@ TL_DATA.push({
   ],
   "ref": "https://jainpedia.org/article/themes/people/jina/mahavira/"
 },
-    { id: 'sa-ramayana-mahabharata-400tcn', y: -400, y2: 400, ca: true, date: 'Khoảng 400 TCN – 400', r: 'Ấn Độ', t: 'Hai sử thi Mahabharata và Ramayana', c: 'cul', imp: 2,
-      d: 'Hai bộ sử thi khổng lồ được nhiều thế hệ người kể chuyện bồi đắp suốt nhiều thế kỷ. Mahabharata kể cuộc chiến giữa hai dòng họ anh em nhà Pandava và Kaurava, trong đó có đoạn Bhagavad Gita bàn về bổn phận và đạo đức. Ramayana kể chuyện hoàng tử Rama cùng thần khỉ Hanuman giải cứu nàng Sita khỏi tay quỷ vương Ravana.',
-      why: 'Hai sử thi trở thành kho chuyện chung của cả Nam Á và Đông Nam Á, sống mãi trong múa, kịch, phù điêu đền đài từ Angkor đến Java.',
-      fun: 'Mahabharata dài hơn 100.000 câu thơ đôi, gấp nhiều lần hai bộ Iliad và Odyssey của Hy Lạp cộng lại; nếu mỗi ngày đọc một giờ, bạn sẽ mất nhiều tháng mới đọc hết.',
-      vn: 'Người Chăm ở miền Trung Việt Nam xưa theo đạo Hindu; nhiều tượng thần Shiva, Vishnu và phù điêu Chăm lấy cảm hứng từ thần thoại Ấn Độ. Ramayana còn có phiên bản riêng của người Lào, Khmer và Thái.' },
+    {
+  "id": "sa-ramayana-mahabharata-400tcn",
+  "y": -400,
+  "y2": 400,
+  "ca": true,
+  "date": "Truyền thống sử thi hình thành qua nhiều thế kỷ; 400 TCN–400 là khung tham chiếu cho Mahabharata",
+  "r": "Ấn Độ",
+  "t": "Hai sử thi Mahabharata và Ramayana",
+  "c": "cul",
+  "imp": 2,
+  "d": "Một cuộc chiến giữa các nhánh họ hàng trong Mahabharata; một chuyến lưu đày và cuộc tìm kiếm Sita trong Ramayana. Hai sử thi đưa người đọc vào những lựa chọn khó về bổn phận, quyền lực và điều đúng. Chúng lớn lên qua nhiều thế hệ kể lại, với lịch sử văn bản khác nhau. Thư viện Emory dùng khoảng 400 TCN–400 cho quá trình hình thành Mahabharata bằng tiếng Sanskrit; khung ấy không phải ngày ra đời chung của cả hai tác phẩm.",
+  "fun": "Emory giữ một bản phần Udyoga của Mahabharata bằng tiếng Telugu, chép trên lá cọ khoảng năm 1700. Phần này kể những nỗ lực tìm hòa bình giữa các bên sắp đánh nhau. Trong một sử thi nổi tiếng vì chiến tranh, vẫn có cả chỗ cho người cố ngăn nó.",
+  "consequencesTitle": "Câu chuyện tiếp tục sống khi đổi người kể",
+  "consequences": "Mahabharata được kể lại trong những ngôn ngữ khác, còn Ramayana đi vào điêu khắc và tranh minh họa. Mỗi tác phẩm nghệ thuật mở một lối vào câu chuyện; văn bản không phải nơi duy nhất sử thi sống tiếp.",
+  "refs": [
+    {
+      "url": "https://exhibits.libraries.emory.edu/life-of-an-item/about/",
+      "title": "Emory Libraries — Bản chép Mahabharata bằng tiếng Telugu",
+      "scope": "Khung400 TCN–400, chiến tranhKurukshetra, truyền thống kể lại và bảnUdyoga khoảng 1700 trênlá cọ."
+    },
+    {
+      "url": "https://www.metmuseum.org/exhibitions/listings/2010/epic-india?exhshow=art",
+      "title": "The Met — Epic India: Scenes from the Ramayana",
+      "scope": "Cốt truyệnRama/Sita, câu hỏi đạo đức, điêu khắc và tranh minh họa; không dùng bài triển lãm để xác định niên đại duy nhất của cảhai sửthi."
+    }
+  ],
+  "ref": "https://exhibits.libraries.emory.edu/life-of-an-item/about/"
+},
     { id: 'sa-maurya-322tcn', y: -322, ca: true, date: 'Khoảng 322 TCN', r: 'Ấn Độ', t: 'Chandragupta lập Đế quốc Maurya', c: 'pol', imp: 3,
       who: 'Chandragupta Maurya và quân sư Kautilya',
       d: 'Ngay sau khi quân của Alexander Đại đế rút khỏi tây bắc Ấn Độ, Chandragupta lật đổ triều Nanda ở xứ Magadha và lập ra nhà Maurya. Với mưu lược của quân sư Kautilya, ông dựng nên đế quốc đầu tiên thống nhất phần lớn tiểu lục địa Ấn Độ, có bộ máy thu thuế, quân đội đông đảo và mạng lưới do thám chặt chẽ.',
@@ -6718,8 +6741,24 @@ TL_DATA.push({
   ],
   "ref": "https://www.metmuseum.org/essays/olmec-art"
 },
-    { id: 'am-p-maya-tien-co-dien', s: -400, e: 250, t: 'Maya tiền cổ điển', g: 'a', r: 'Trung Mỹ',
-      d: 'Người Maya xây những thành phố lớn đầu tiên như El Mirador, phát triển chữ viết, lịch pháp và các kim tự tháp giữa rừng nhiệt đới Guatemala, Mexico.' },
+    {
+  "id": "am-p-maya-tien-co-dien",
+  "s": -2000,
+  "e": 250,
+  "t": "Maya tiền cổ điển",
+  "g": "a",
+  "r": "Trung Mỹ",
+  "d": "Khoảng2000 TCN–250 là khung tham chiếu cho thời tiền cổ điển Maya trong phân kỳ được dẫn. Từ những cộng đồng làm nông, các khu định cư dần mở rộng. Ở giai đoạn muộn, dân số tăng đi cùng công trình công cộng và cách tổ chức phức tạp hơn. Các miền phát triển khác nhau; đây là một quá trình dài trước những trung tâm nổi tiếng của thời cổ điển.",
+  "ca": true,
+  "refs": [
+    {
+      "url": "https://www.marc.ucsb.edu/research/maya/ancient-maya-civilization/preclassic-period",
+      "title": "UCSB MesoAmerican Research Center — Preclassic Period",
+      "scope": "Giai đoạn sớm khoảng 2000–1000 TCN, giữa1000–300 TCN, muộn300 TCN–250; cư trú, nông nghiệp, tổ chức và kiến trúc công cộng."
+    }
+  ],
+  "ref": "https://www.marc.ucsb.edu/research/maya/ancient-maya-civilization/preclassic-period"
+},
     { id: 'am-p-maya-co-dien', s: 250, e: 900, t: 'Maya cổ điển', g: 'a', r: 'Trung Mỹ',
       d: 'Thời hoàng kim của hàng chục thành bang Maya như Tikal, Calakmul, Palenque, Copán, với đền đài, bia ký, sân bóng và thiên văn học phát triển rực rỡ.' },
     { id: 'am-p-toltec-hau-co-dien', s: 900, e: 1325, t: 'Toltec và Maya hậu cổ điển', g: 'a', r: 'Mexico',
@@ -6907,11 +6946,35 @@ TL_DATA.push({
   "ref": "https://whc.unesco.org/en/list/700/"
 },
 
-    { id: 'am-maya-chu-viet-300tcn', y: -300, ca: true, date: 'Từ khoảng thế kỷ III TCN', r: 'Trung Mỹ', t: 'Người Maya có chữ viết, lịch và số 0', c: 'sci', imp: 3,
-      d: 'Người Maya dần hoàn thiện một hệ chữ viết gồm hàng trăm ký hiệu, ghi tên vua, chiến công và ngày tháng lên bia đá, đồ gốm và sách làm từ vỏ cây. Họ quan sát bầu trời, tính lịch rất chính xác, dùng hệ đếm cơ số 20 và có ký hiệu số 0 hình vỏ ốc.',
-      why: 'Nhờ chữ Maya đã được giải mã phần lớn, ngày nay ta đọc được lịch sử của họ qua chính lời họ kể, điều hiếm có ở châu Mỹ cổ đại.',
-      fun: 'Lịch Maya từng khiến cả thế giới lo “tận thế năm 2012”. Thật ra ngày 21/12/2012 chỉ là lúc một chu kỳ lớn của lịch quay về số tròn, giống đồng hồ công-tơ-mét xe máy nhảy sang con số mới.',
-      alt: 'Khi châu Âu còn dùng số La Mã không có số 0, các nhà thiên văn Maya đã khắc lên bia đá những ngày tháng tính bằng hàng triệu ngày kể từ mốc khởi đầu lịch của họ.' },
+    {
+  "id": "am-maya-chu-viet-300tcn",
+  "y": -250,
+  "ca": true,
+  "date": "Mảnh lịch San Bartolo khoảng 300–200 TCN; mốc đặt bài 250 TCN",
+  "r": "Trung Mỹ",
+  "t": "Maya ghi ngày tháng: dấu vết trên một mảnh tường",
+  "c": "sci",
+  "imp": 3,
+  "d": "Tại San Bartolo ở Guatemala, những mảnh tranh tường giữ lại dấu ghi ngày “7 Hươu”. Nhóm nghiên cứu công bố năm 2022 đặt chúng vào khoảng 300–200 TCN. Ngày ấy thuộc lịch nghi lễ260 ngày. Những mảnh chữ khác ở cùng khu di tích cho thấy đã có một truyền thống viết, với dấu tay của nhiều người ghi chép.",
+  "fun": "Một dấu ghi ngày và vài mảnh chữ còn cho thấy có nhiều người viết. Tường đã vỡ, nhưng nét chữ vẫn giữ được dấu của những bàn tay khác nhau.",
+  "alt": "Trong văn bản Maya thời cổ điển về sau, ký hiệu số0 có nhiều dạng, từ hình gần giống hoa tới biến thể hình đầu người. Nhà nghiên cứu David Stuart còn mô tả dạng bầu dục đơn giản ở Xultun. Gọi tất cả là một “vỏ ốc” sẽ bỏ lỡ sự đa dạng ấy.",
+  "consequencesTitle": "Một mảnh nhỏ nối vào truyền thống dài",
+  "consequences": "Dấu ghi này giúp đặt lịch 260 ngày vào lịch sử Maya từ rất sớm. Nhóm tác giả còn lưu ý cách đếm ấy vẫn được dùng trong các cộng đồng Maya bản địa ngày nay. Niên đại của hiện vật là bằng chứng lịch đã tồn tại lúc đó, chưa phải ngày nó được phát minh.",
+  "altTitle": "Số không cũng có nhiều nét chữ",
+  "refs": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35417231/",
+      "title": "Stuart, Hurst, Beltrán và Saturno — An early Maya calendar record from San Bartolo",
+      "scope": "Nghiên cứu2022: khoảng 300–200 TCN,7Deer,lịch 260ngày,10mảnh chữ khác,nhiều người viết và việc tiếp tục sử dụng lịch."
+    },
+    {
+      "url": "https://mayadecipherment.com/2012/06/15/the-calligraphic-zero/",
+      "title": "David Stuart — The Calligraphic Zero",
+      "scope": "Phân tích các dạng số0 thời cổ điển và ghi chúXultun; không xác định phát minh số0 ở 300 TCN."
+    }
+  ],
+  "ref": "https://pubmed.ncbi.nlm.nih.gov/35417231/"
+},
 
     { id: 'am-teotihuacan-100', y: 100, y2: 550, ca: true, date: 'Khoảng 100 – 550', r: 'Mexico', t: 'Teotihuacan, thành phố của các vị thần', c: 'cul', imp: 2,
       place: 'Gần Mexico City ngày nay',
