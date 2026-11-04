@@ -10004,3 +10004,1026 @@ TL_DATA.push({
     }
   ]
 });
+
+for (const block of TL_DATA) {
+  const event = block.events.find(item => item.id === "culture-spirited-away-2001");
+  if (event) Object.assign(event, {
+  "id": "culture-spirited-away-2001",
+  "y": 2001,
+  "t": "Spirited Away ra mắt khán giả Nhật Bản",
+  "c": "cul",
+  "imp": 1,
+  "context": "Studio Ghibli đã làm nhiều phim dài trước khi kể câu chuyện của Chihiro trong một thế giới đầy những vị khách kỳ lạ.",
+  "d": "Ngày 20/7/2001, Spirited Away được phát hành tại Nhật Bản. Hayao Miyazaki phụ trách nguyên tác, kịch bản và đạo diễn; Joe Hisaishi soạn nhạc.",
+  "consequencesTitle": "Một bộ phim có nhiều phần việc sáng tạo",
+  "consequences": "Hồ sơ tác phẩm ghi riêng người sản xuất, người soạn nhạc và người hát ca khúc chủ đề. Những phần việc ấy cùng tạo nên trải nghiệm xem phim.",
+  "ref": "https://www.ghibli.jp/works/chihiro/",
+  "refs": [
+    {
+      "url": "https://www.ghibli.jp/works/chihiro/",
+      "title": "Studio Ghibli — Hồ sơ Spirited Away",
+      "scope": "Ngày phát hành tại Nhật, Miyazaki, nhạc và ca khúc chủ đề."
+    },
+    {
+      "url": "https://www.ghibli.jp/chronology/",
+      "title": "Studio Ghibli — Niên biểu chính thức",
+      "scope": "Mở xưởng tháng 6/1985 và lịch sử sản xuất."
+    }
+  ],
+  "date": "20/7/2001",
+  "who": "Hayao Miyazaki",
+  "fun": "Nhạc phim do Joe Hisaishi viết, còn ca khúc chủ đề do Yumi Kimura thể hiện. Hai tên ở hai dòng credit khác nhau dễ bị gộp làm một khi nhắc tới âm nhạc của phim.",
+  "related": [
+    {
+      "id": "culture-ghibli-founded-1985",
+      "kind": "connection",
+      "text": "Trở lại lịch sử hình thành xưởng Ghibli.",
+      "ref": "https://www.ghibli.jp/chronology/"
+    }
+  ],
+  "why": null,
+  "alt": null
+});
+}
+
+TL_DATA.push({
+  "lane": "vn",
+  "periods": [],
+  "events": [
+    {
+      "id": "vn-y-khoa-ha-noi-1902",
+      "y": 1902,
+      "t": "Trường y ở Hà Nội bắt đầu lịch sử đào tạo y khoa",
+      "c": "sci",
+      "imp": 1,
+      "context": "Đào tạo nhân lực y tế cần nơi học lý thuyết, thực hành và nghiên cứu. Một trường y được thành lập tại Hà Nội vào đầu thế kỷ XX.",
+      "d": "Năm 1902 là mốc thành lập trong lịch sử Đại học Y Hà Nội. Cơ sở ban đầu nằm ở phố Lê Thánh Tông.",
+      "consequencesTitle": "Từ trường học đến nơi khám và nghiên cứu",
+      "consequences": "Qua nhiều thời kỳ, nhà trường phát triển công việc đào tạo gắn với bệnh viện thực hành. Lịch sử cơ sở vật chất cũng phản ánh việc quy mô và nhiệm vụ đào tạo y tế thay đổi.",
+      "ref": "https://apiwebhmu.hmu.edu.vn/Upload/Images/5adea893-cbf0-4080-84b2-dffefc76f0e6.pdf",
+      "refs": [
+        {
+          "url": "https://apiwebhmu.hmu.edu.vn/Upload/Images/5adea893-cbf0-4080-84b2-dffefc76f0e6.pdf",
+          "title": "Bộ Y tế / Đại học Y Hà Nội — Hồ sơ quy hoạch",
+          "scope": "Năm thành lập 1902, địa điểm ban đầu, chuyển địa điểm năm 1961 và nhiệm vụ đào tạo, thực hành."
+        }
+      ],
+      "fun": "Địa chỉ Tôn Thất Tùng quen thuộc ngày nay có từ lần chuyển trường năm 1961. Trường đã có nhiều thập kỷ hoạt động tại địa điểm khác trước đó."
+    },
+    {
+      "id": "vn-vov-1945",
+      "y": 1945,
+      "t": "Đài Tiếng nói Việt Nam lên sóng",
+      "c": "cul",
+      "imp": 1,
+      "context": "Sau Tuyên ngôn Độc lập ngày 2/9, chính quyền mới cần truyền tin tới người dân trong nước và người nghe ở nước ngoài.",
+      "d": "Lúc 11 giờ 30 ngày 7/9/1945, Đài Tiếng nói Việt Nam phát buổi đầu tiên từ Hà Nội, năm ngày sau lễ Tuyên ngôn Độc lập.",
+      "consequencesTitle": "Một phương tiện truyền tin vượt qua khoảng cách",
+      "consequences": "Phát thanh trở thành một kênh phổ biến thông tin của nhà nước mới. Trong chiến tranh, đài phải di chuyển nơi hoạt động nhiều lần để tiếp tục phát sóng.",
+      "ref": "https://vov.vn/xa-hoi/vov-ky-niem-79-nam-thanh-lap-dai-tieng-noi-viet-nam-post1119244.vov",
+      "refs": [
+        {
+          "url": "https://vov.vn/xa-hoi/vov-ky-niem-79-nam-thanh-lap-dai-tieng-noi-viet-nam-post1119244.vov",
+          "title": "VOV — Kỷ niệm 79 năm thành lập",
+          "scope": "Buổi phát đầu tiên, ba ngôn ngữ, và việc sơ tán trong chiến tranh."
+        }
+      ],
+      "date": "7/9/1945",
+      "fun": "Buổi phát thanh đầu tiên đã có ba ngôn ngữ. Ngay từ đầu, đài hướng tới cả người nghe trong nước lẫn người nghe ngoài Việt Nam."
+    },
+    {
+      "id": "vn-thuy-dien-hoa-binh-1994",
+      "y": 1994,
+      "t": "Khánh thành thủy điện Hòa Bình trên sông Đà",
+      "c": "sci",
+      "imp": 1,
+      "context": "Công trình khởi công năm 1979, trong quá trình xây dựng các nguồn điện lớn và mở rộng lưới điện quốc gia.",
+      "d": "Ngày 20/12/1994, thủy điện Hòa Bình được khánh thành sau hơn 15 năm xây dựng. Thiết kế ban đầu gồm tám tổ máy, tổng công suất 1.920 MW.",
+      "consequencesTitle": "Hồ chứa còn điều tiết nước cho hạ du",
+      "consequences": "Công trình được giao các nhiệm vụ phát điện, chống lũ, phục vụ tưới tiêu và cải thiện giao thông thủy. Vận hành hồ vì thế cần tính đến nhiều nhu cầu sử dụng nước.",
+      "ref": "https://www.evn.com.vn/d6/news/Thuy-dien-Hoa-Binh-Ban-hung-ca-the-ky-20-6-12-19307.aspx",
+      "refs": [
+        {
+          "url": "https://www.evn.com.vn/d6/news/Thuy-dien-Hoa-Binh-Ban-hung-ca-the-ky-20-6-12-19307.aspx",
+          "title": "EVN — Lịch sử thủy điện Hòa Bình",
+          "scope": "Khởi công, khánh thành, thiết kế tám tổ máy và bốn nhiệm vụ của công trình."
+        }
+      ],
+      "date": "20/12/1994",
+      "fun": "Nhà máy đã phát điện từ cuối năm 1988, khoảng sáu năm trước lễ khánh thành. Các tổ máy có thể lần lượt hoạt động trong khi phần còn lại của dự án vẫn tiếp tục thi công."
+    },
+    {
+      "id": "vn-dung-quat-san-pham-2009",
+      "y": 2009,
+      "t": "Dung Quất xuất dòng sản phẩm thương mại đầu tiên",
+      "c": "sci",
+      "imp": 1,
+      "context": "Để có nhiên liệu từ dầu thô, cần một chuỗi công nghệ lọc và chế biến. Dung Quất là một dự án công nghiệp lớn được xây dựng tại miền Trung.",
+      "d": "Ngày 22/2/2009, Nhà máy lọc dầu Dung Quất cho ra dòng sản phẩm thương mại đầu tiên. Việc vận hành đánh dấu một bước phát triển trong năng lực chế biến dầu ở Việt Nam.",
+      "consequencesTitle": "Từ xây dựng sang vận hành một tổ hợp công nghệ",
+      "consequences": "Sau khi có sản phẩm, công việc còn tiếp tục với vận hành, bảo dưỡng và phối hợp giữa các phân xưởng. Nhà máy trải qua nhiều đợt bảo dưỡng tổng thể trong những năm sau.",
+      "ref": "https://bsr.com.vn/vi/w/kỷ-niệm-16-năm-ngày-xuất-bán-dòng-sản-phẩm-thương-mại-đầu-tiên-nmld-dung-quất",
+      "refs": [
+        {
+          "url": "https://bsr.com.vn/vi/w/kỷ-niệm-16-năm-ngày-xuất-bán-dòng-sản-phẩm-thương-mại-đầu-tiên-nmld-dung-quất",
+          "title": "BSR — Kỷ niệm dòng sản phẩm thương mại đầu tiên",
+          "scope": "Ngày 22/2/2009, quá trình đưa vào vận hành và các kỳ bảo dưỡng."
+        },
+        {
+          "url": "https://www.bsr.com.vn/w/hanh-trinh-18-nam-con-nguoi-lam-nen-vi-the-trung-tam-loc-hoa-dau-viet-nam",
+          "title": "BSR — Các dấu mốc hình thành và vận hành",
+          "scope": "Phân biệt dòng sản phẩm năm 2009 với khánh thành ngày 6/1/2011."
+        }
+      ],
+      "date": "22/2/2009",
+      "fun": "Dung Quất có dòng sản phẩm thương mại đầu tiên năm 2009, còn lễ khánh thành nhà máy diễn ra ngày 6/1/2011. Một tổ hợp công nghiệp có thể vận hành trước khi tổ chức lễ khánh thành."
+    },
+    {
+      "id": "vn-evfta-2020",
+      "y": 2020,
+      "t": "Hiệp định thương mại Việt Nam – EU có hiệu lực",
+      "c": "pol",
+      "imp": 1,
+      "context": "Việt Nam và Liên minh châu Âu ký hiệp định thương mại ngày 30/6/2019. Văn bản cần qua các bước phê chuẩn trước khi được áp dụng.",
+      "d": "EVFTA có hiệu lực ngày 1/8/2020, với các cam kết về thuế quan, dịch vụ, mua sắm công và những quy tắc thương mại khác.",
+      "consequencesTitle": "Cam kết được thực hiện theo lộ trình",
+      "consequences": "Hiệp định mở thêm điều kiện tiếp cận thị trường. Doanh nghiệp phải tìm hiểu quy tắc áp dụng cho hàng hóa và dịch vụ của mình, thay vì chỉ nhìn vào mức thuế.",
+      "ref": "https://policy.trade.ec.europa.eu/eu-trade-relationships-country-and-region/countries-and-regions/viet-nam/eu-viet-nam-agreements_en",
+      "refs": [
+        {
+          "url": "https://policy.trade.ec.europa.eu/eu-trade-relationships-country-and-region/countries-and-regions/viet-nam/eu-viet-nam-agreements_en",
+          "title": "Ủy ban châu Âu — Các hiệp định EU – Việt Nam",
+          "scope": "Ngày ký, ngày có hiệu lực và các lĩnh vực cam kết."
+        },
+        {
+          "url": "https://www.wto.org/english/thewto_e/countries_e/vietnam_e.htm",
+          "title": "WTO — Viet Nam and the WTO",
+          "scope": "Ngày thành viên, biểu cam kết và tham gia khuôn khổ WTO."
+        }
+      ],
+      "date": "1/8/2020",
+      "fun": "Cùng ngày ký năm 2019 có hai văn bản riêng về thương mại và bảo hộ đầu tư. Mốc có hiệu lực của hiệp định thương mại cần được phân biệt với thủ tục phê chuẩn hiệp định bảo hộ đầu tư.",
+      "related": [
+        {
+          "id": "vn-wto-2007",
+          "kind": "connection",
+          "text": "Gia nhập WTO là một mốc khác để đọc về quá trình hội nhập thương mại của Việt Nam.",
+          "ref": "https://www.wto.org/english/thewto_e/countries_e/vietnam_e.htm"
+        }
+      ]
+    },
+    {
+      "id": "vn-cong-chieng-2005",
+      "y": 2005,
+      "t": "Không gian văn hóa cồng chiêng được UNESCO tuyên xưng",
+      "c": "cul",
+      "imp": 1,
+      "context": "Ở Tây Nguyên, tiếng chiêng gắn với sinh hoạt, nghi lễ và chu kỳ mùa vụ của nhiều cộng đồng.",
+      "d": "Năm 2005, không gian văn hóa cồng chiêng Tây Nguyên được tuyên xưng trong chương trình Kiệt tác di sản truyền khẩu và phi vật thể. Năm 2008, di sản được đưa vào Danh sách đại diện theo cơ chế công ước.",
+      "consequencesTitle": "Giữ cả môi trường nơi tiếng chiêng vang lên",
+      "consequences": "Bảo vệ di sản liên quan đến người biết đánh, cách truyền nghề và những dịp cộng đồng cùng thực hành. Một bộ chiêng trưng bày chỉ cho thấy phần vật chất của truyền thống.",
+      "ref": "https://ich.unesco.org/en/RL/space-of-gong-culture-00120",
+      "refs": [
+        {
+          "url": "https://ich.unesco.org/en/RL/space-of-gong-culture-00120",
+          "title": "UNESCO — Không gian văn hóa cồng chiêng",
+          "scope": "Phân biệt tuyên xưng 2005 với ghi danh 2008, chức năng nghi lễ và sinh hoạt."
+        },
+        {
+          "url": "https://ich.unesco.org/en/RL/nha-nhac-vietnamese-court-music-00074",
+          "title": "UNESCO ICH — Nha Nhac, Vietnamese court music",
+          "scope": "Nguồn gốc thực hành cung đình, tuyên xưng 2003 và ghi danh 2008."
+        }
+      ],
+      "fun": "UNESCO ghi danh một “không gian văn hóa”. Đối tượng được bảo vệ bao gồm mối liên hệ giữa tiếng chiêng, con người và nghi lễ, rộng hơn bản thân các nhạc cụ.",
+      "related": [
+        {
+          "id": "vn-nha-nhac-2003",
+          "kind": "connection",
+          "text": "Nhã nhạc và cồng chiêng có hai mốc tuyên xưng riêng, trước khi cùng được chuyển vào cơ chế danh sách năm 2008.",
+          "ref": "https://ich.unesco.org/en/RL/nha-nhac-vietnamese-court-music-00074"
+        }
+      ]
+    },
+    {
+      "id": "vn-xoan-khan-cap-2011",
+      "y": 2011,
+      "t": "Hát Xoan vào danh sách cần bảo vệ khẩn cấp",
+      "c": "cul",
+      "imp": 1,
+      "context": "Hát Xoan kết hợp hát, múa và nhạc gõ tại Phú Thọ.",
+      "d": "Năm 2011, UNESCO đưa Hát Xoan vào danh sách cần bảo vệ khẩn cấp vì khả năng trao truyền suy giảm.",
+      "consequencesTitle": "Truyền dạy để có người tiếp nối",
+      "consequences": "Cộng đồng và cơ quan quản lý triển khai hoạt động hỗ trợ và dạy hát.",
+      "ref": "https://ich.unesco.org/en/news/intangible-cultural-heritage-committee-recognizes-efforts-to-safeguard-xoan-singing-of-phu-th-province-viet-nam-00271",
+      "refs": [
+        {
+          "url": "https://ich.unesco.org/en/news/intangible-cultural-heritage-committee-recognizes-efforts-to-safeguard-xoan-singing-of-phu-th-province-viet-nam-00271",
+          "title": "UNESCO — Nỗ lực bảo vệ Hát Xoan",
+          "scope": "Ghi danh khẩn cấp 2011, truyền dạy và chuyển danh sách 2017."
+        }
+      ],
+      "fun": "Xoan thường được hát trong hai tháng đầu năm âm lịch tại đình, đền và miếu.",
+      "related": [
+        {
+          "id": "vn-xoan-chuyen-danh-sach-2017",
+          "kind": "connection",
+          "text": "Theo tiếp kết quả bảo vệ và truyền dạy được UNESCO ghi nhận năm 2017.",
+          "ref": "https://ich.unesco.org/en/news/intangible-cultural-heritage-committee-recognizes-efforts-to-safeguard-xoan-singing-of-phu-th-province-viet-nam-00271"
+        }
+      ]
+    },
+    {
+      "id": "vn-xoan-chuyen-danh-sach-2017",
+      "y": 2017,
+      "t": "Hát Xoan chuyển sang Danh sách đại diện",
+      "c": "cul",
+      "imp": 1,
+      "context": "Hoạt động truyền dạy được đẩy mạnh sau mốc ghi danh khẩn cấp.",
+      "d": "Ngày 8/12/2017, UNESCO chuyển Hát Xoan sang Danh sách đại diện, ghi nhận sức sống được củng cố.",
+      "consequencesTitle": "Kết quả được nhìn qua người thực hành",
+      "consequences": "Truyền dạy giúp cải thiện tình trạng của di sản.",
+      "ref": "https://ich.unesco.org/en/news/intangible-cultural-heritage-committee-recognizes-efforts-to-safeguard-xoan-singing-of-phu-th-province-viet-nam-00271",
+      "refs": [
+        {
+          "url": "https://ich.unesco.org/en/news/intangible-cultural-heritage-committee-recognizes-efforts-to-safeguard-xoan-singing-of-phu-th-province-viet-nam-00271",
+          "title": "UNESCO — Nỗ lực bảo vệ Hát Xoan",
+          "scope": "Quyết định chuyển danh sách ngày 8/12/2017 và lý do."
+        }
+      ],
+      "date": "8/12/2017",
+      "fun": "Hát Xoan là trường hợp đầu tiên ủy ban xem xét chuyển từ danh sách khẩn cấp sang Danh sách đại diện.",
+      "related": [
+        {
+          "id": "vn-xoan-khan-cap-2011",
+          "kind": "connection",
+          "text": "Trở lại mốc Hát Xoan được đưa vào danh sách cần bảo vệ khẩn cấp.",
+          "ref": "https://ich.unesco.org/en/news/intangible-cultural-heritage-committee-recognizes-efforts-to-safeguard-xoan-singing-of-phu-th-province-viet-nam-00271"
+        }
+      ]
+    },
+    {
+      "id": "vn-hoi-giong-2010",
+      "y": 2010,
+      "t": "Hội Gióng được ghi danh di sản phi vật thể",
+      "c": "cul",
+      "imp": 1,
+      "context": "Tại Phù Đổng và đền Sóc, người dân tổ chức lễ hội tưởng nhớ Thánh Gióng, người anh hùng trong truyền thuyết.",
+      "d": "Năm 2010, UNESCO ghi danh Hội Gióng ở đền Phù Đổng và đền Sóc. Nghi lễ kể lại chiến công bằng động tác, đội hình, cờ và âm thanh.",
+      "consequencesTitle": "Cộng đồng học cách cùng tổ chức một câu chuyện",
+      "consequences": "Người đảm nhiệm vai trò nghi lễ cần chuẩn bị và tập luyện. Qua mỗi mùa hội, kỹ năng và ký ức tập thể được truyền sang người tham gia mới.",
+      "ref": "https://ich.unesco.org/en/RL/giong-festival-of-phu-djong-and-soc-temples-00443",
+      "refs": [
+        {
+          "url": "https://ich.unesco.org/en/RL/giong-festival-of-phu-djong-and-soc-temples-00443",
+          "title": "UNESCO — Hội Gióng",
+          "scope": "Năm 2010, nhân vật truyền thuyết, diễn xướng cờ và vai trò nghi lễ."
+        }
+      ],
+      "fun": "Tại hội Phù Đổng, các vai tướng bên địch được giao cho những cô bé trong làng. Vai diễn trong nghi lễ tuân theo quy ước cộng đồng, khác với việc tái dựng một trận đánh theo lối điện ảnh."
+    },
+    {
+      "id": "vn-vi-giam-2014",
+      "y": 2014,
+      "t": "Ví, Giặm Nghệ Tĩnh được UNESCO ghi danh",
+      "c": "cul",
+      "imp": 1,
+      "context": "Lời ca Ví, Giặm từng đi cùng ruộng đồng, sông nước, nghề thủ công và việc ru con ở Nghệ An, Hà Tĩnh.",
+      "d": "Năm 2014, UNESCO đưa dân ca Ví, Giặm Nghệ Tĩnh vào Danh sách đại diện. Lời hát mang tiếng nói và cách diễn đạt của vùng Nghệ Tĩnh.",
+      "consequencesTitle": "Từ lúc làm việc đến những cuộc gặp ca hát",
+      "consequences": "Truyền thống tiếp tục qua người thực hành, nhóm hát, trường học và các cuộc trình diễn. Hoàn cảnh hát có thể thay đổi trong khi vốn lời và giọng địa phương vẫn được trao truyền.",
+      "ref": "https://ich.unesco.org/en/RL/vi-and-giam-folk-songs-of-nghe-tinh-01008",
+      "refs": [
+        {
+          "url": "https://ich.unesco.org/en/RL/vi-and-giam-folk-songs-of-nghe-tinh-01008",
+          "title": "UNESCO — Ví, Giặm Nghệ Tĩnh",
+          "scope": "Ghi danh 2014, lao động, phương ngữ và truyền dạy."
+        },
+        {
+          "url": "https://ich.unesco.org/en/Decisions/4.COM/13.76",
+          "title": "UNESCO — Decision 4.COM 13.76",
+          "scope": "Ghi danh 2009, quan hệ kết nghĩa làng và thực hành hát giao duyên."
+        }
+      ],
+      "fun": "Nhiều bài Ví, Giặm được hát không có nhạc cụ đệm. Nhịp lao động và đối đáp giữa người hát có thể tạo nên không gian âm nhạc.",
+      "related": [
+        {
+          "id": "culture-quan-ho-2009",
+          "kind": "connection",
+          "text": "Đọc thêm một truyền thống dân ca khác, gắn với lối đối đáp của các cộng đồng ở Bắc Ninh, Bắc Giang.",
+          "ref": "https://ich.unesco.org/en/Decisions/4.COM/13.76"
+        }
+      ]
+    },
+    {
+      "id": "vn-tho-mau-2016",
+      "y": 2016,
+      "t": "Thực hành tín ngưỡng thờ Mẫu Tam phủ được ghi danh",
+      "c": "cul",
+      "imp": 1,
+      "context": "Trong tín ngưỡng thờ Mẫu, cộng đồng thực hành các nghi lễ, lễ hội và hình thức diễn xướng tại những nơi thờ tự.",
+      "d": "Năm 2016, UNESCO ghi danh thực hành tín ngưỡng thờ Mẫu Tam phủ của người Việt. Người thực hành bao gồm thủ nhang, thanh đồng, người giúp lễ và cung văn.",
+      "consequencesTitle": "Một nghi lễ cần nhiều người cùng biết nghề",
+      "consequences": "Tri thức về lời hát, trang phục và trình tự nghi lễ được truyền bằng lời nói và thực hành. Các vai trò khác nhau cùng duy trì truyền thống.",
+      "ref": "https://ich.unesco.org/en/RL/practices-related-to-the-viet-beliefs-in-the-mother-goddesses-of-three-realms-01064",
+      "refs": [
+        {
+          "url": "https://ich.unesco.org/en/RL/practices-related-to-the-viet-beliefs-in-the-mother-goddesses-of-three-realms-01064",
+          "title": "UNESCO — Tín ngưỡng thờ Mẫu Tam phủ",
+          "scope": "Năm 2016, các miền tín ngưỡng, vai trò và cách trao truyền."
+        }
+      ],
+      "fun": "Ba miền trong tên Tam phủ ở hồ sơ này là trời, nước, núi rừng. Tên gọi mô tả một cách hình dung thế giới trong tín ngưỡng."
+    },
+    {
+      "id": "vn-then-2019",
+      "y": 2019,
+      "t": "Thực hành Then của người Tày, Nùng, Thái được ghi danh",
+      "c": "cul",
+      "imp": 1,
+      "context": "Then là thực hành nghi lễ trong đời sống tinh thần của người Tày, Nùng và Thái, kết hợp lời hát, nhạc cụ và động tác.",
+      "d": "Năm 2019, UNESCO ghi danh thực hành Then. Người làm Then hát bằng ngôn ngữ của cộng đồng, gảy đàn tính và sử dụng những vật dụng nghi lễ.",
+      "consequencesTitle": "Lời hát dẫn dắt một hành trình nghi lễ",
+      "consequences": "Trong nghi lễ, người làm Then thuật lại hành trình dâng lễ và cầu nguyện. Tri thức được truyền trực tiếp qua việc tham gia và thực hành.",
+      "ref": "https://ich.unesco.org/en/RL/practices-of-then-by-ty-nng-and-thi-ethnic-groups-in-viet-nam-01379",
+      "refs": [
+        {
+          "url": "https://ich.unesco.org/en/RL/practices-of-then-by-ty-nng-and-thi-ethnic-groups-in-viet-nam-01379",
+          "title": "UNESCO — Thực hành Then",
+          "scope": "Ghi danh 2019, đàn tính, hành trình nghi lễ và truyền miệng."
+        }
+      ],
+      "fun": "Người làm Then có thể là nam hoặc nữ. Hồ sơ UNESCO mô tả họ vừa hát, chơi đàn tính, vừa điều khiển nhiều động tác và vật dụng nghi lễ."
+    },
+    {
+      "id": "vn-xoe-2021",
+      "y": 2021,
+      "t": "Nghệ thuật Xòe Thái được UNESCO ghi danh",
+      "c": "cul",
+      "imp": 1,
+      "context": "Trong đám cưới, lễ hội và sinh hoạt cộng đồng của người Thái, những vòng Xòe tạo dịp để mọi người cùng tham gia.",
+      "d": "Năm 2021, nghệ thuật Xòe Thái được ghi vào Danh sách đại diện. Động tác và đội hình mang ý nghĩa gắn với cuộc sống và mong ước cộng đồng.",
+      "consequencesTitle": "Học điệu múa bằng cách bước vào vòng",
+      "consequences": "Xòe được truyền qua gia đình, đội múa và trường học. Các cuộc gặp giúp người trẻ tập cùng người đã biết và tiếp nối kỹ năng.",
+      "ref": "https://ich.unesco.org/en/RL/art-of-xoe-dance-of-the-tai-people-in-viet-nam-01575",
+      "refs": [
+        {
+          "url": "https://ich.unesco.org/en/RL/art-of-xoe-dance-of-the-tai-people-in-viet-nam-01575",
+          "title": "UNESCO — Nghệ thuật Xòe Thái",
+          "scope": "Năm 2021, ba nhóm hình thức, động tác và truyền dạy."
+        }
+      ],
+      "fun": "Xòe vòng là hình thức quen thuộc, nhưng hồ sơ còn phân biệt Xòe nghi lễ và Xòe trình diễn. Một tên gọi bao trùm nhiều cách múa."
+    },
+    {
+      "id": "vn-trang-an-2014",
+      "y": 2014,
+      "t": "Tràng An được ghi danh di sản văn hóa và thiên nhiên",
+      "c": "cul",
+      "imp": 1,
+      "context": "Giữa núi đá vôi và những thung lũng ngập nước ở Ninh Bình, hang động còn lưu dấu hoạt động của con người từ rất lâu.",
+      "d": "Năm 2014, Quần thể danh thắng Tràng An được UNESCO ghi danh theo cả giá trị văn hóa và thiên nhiên. Trong quần thể có khu kinh đô Hoa Lư.",
+      "consequencesTitle": "Hang động lưu dấu cách con người thích nghi",
+      "consequences": "Tư liệu khảo cổ ghi lại việc cư dân ứng phó với thay đổi khí hậu và những lần biển tiến. Cảnh quan đồng thời là môi trường sống và nơi giữ dấu vết lịch sử.",
+      "ref": "https://whc.unesco.org/en/list/1438",
+      "refs": [
+        {
+          "url": "https://whc.unesco.org/en/list/1438",
+          "title": "UNESCO — Tràng An",
+          "scope": "Ghi danh 2014, di sản hỗn hợp, khảo cổ trên 30.000 năm và Hoa Lư."
+        },
+        {
+          "url": "https://thanglong.chinhphu.vn/english/historical-stages-of-thang-long-ha-noi-110136.htm",
+          "title": "Cổng Chính phủ — Historical stages of Thăng Long-Hà Nội",
+          "scope": "Lý Thái Tổ dời đô năm 1010, từ Hoa Lư đến Đại La và đổi tên Thăng Long; bối cảnh triều Lý."
+        }
+      ],
+      "fun": "Hồ sơ Tràng An ghi nhận dấu vết hoạt động con người qua hơn 30.000 năm. Chuyến thuyền qua núi đá đi qua một cảnh quan có lịch sử dài hơn nhiều thời đại kinh đô.",
+      "related": [
+        {
+          "id": "vn-doi-do-thang-long-1010",
+          "kind": "connection",
+          "text": "Hoa Lư trong quần thể Tràng An là nơi triều Lý rời đi khi chọn Thăng Long làm kinh đô.",
+          "ref": "https://thanglong.chinhphu.vn/english/historical-stages-of-thang-long-ha-noi-110136.htm"
+        }
+      ]
+    },
+    {
+      "id": "vn-moc-ban-2009",
+      "y": 2009,
+      "t": "Mộc bản triều Nguyễn được ghi vào Ký ức Thế giới",
+      "c": "cul",
+      "imp": 1,
+      "context": "Trước khi in sách, người thợ khắc chữ lên những tấm gỗ để dùng làm khuôn. Các mộc bản còn lại giữ cả nội dung lẫn dấu tích kỹ thuật in.",
+      "d": "Năm 2009, mộc bản triều Nguyễn được ghi vào danh mục Ký ức Thế giới của UNESCO. Bộ sưu tập gồm hàng chục nghìn tấm khắc.",
+      "consequencesTitle": "Bảo tồn cả văn bản và vật liệu in",
+      "consequences": "Nấm và mối có thể làm hỏng gỗ. Công việc bảo quản phải giữ được cấu trúc vật liệu và những đường khắc để người nghiên cứu tiếp tục đọc, đối chiếu.",
+      "ref": "https://www.unesco.org/en/articles/saving-nguyen-dynasty-woodblocks",
+      "refs": [
+        {
+          "url": "https://www.unesco.org/en/articles/saving-nguyen-dynasty-woodblocks",
+          "title": "UNESCO — Bảo tồn mộc bản triều Nguyễn",
+          "scope": "Ghi danh 2009, vật liệu khắc và nguy cơ nấm, mối."
+        },
+        {
+          "url": "https://media.unesco.org/sites/default/files/webform/mow001/vietnam_nguyen_en.pdf",
+          "title": "UNESCO — Hồ sơ châu bản triều Nguyễn",
+          "scope": "Tính chất văn bản, thời kỳ 1802–1945, ngôn ngữ và ghi danh khu vực 2014."
+        }
+      ],
+      "fun": "Mộc bản là khuôn để tạo bản in. Giữ được tấm gỗ cũng là giữ bằng chứng về cách một văn bản được sản xuất.",
+      "related": [
+        {
+          "id": "vn-chau-ban-khu-vuc-2014",
+          "kind": "connection",
+          "text": "Đặt khuôn in sách cạnh hồ sơ hành chính để thấy hai loại sử liệu khác nhau của triều Nguyễn.",
+          "ref": "https://media.unesco.org/sites/default/files/webform/mow001/vietnam_nguyen_en.pdf"
+        }
+      ]
+    },
+    {
+      "id": "vn-chau-ban-khu-vuc-2014",
+      "y": 2014,
+      "t": "Châu bản triều Nguyễn được ghi danh Ký ức Thế giới khu vực",
+      "c": "cul",
+      "imp": 1,
+      "context": "Triều Nguyễn để lại nhiều văn bản quản lý từ địa phương tới triều đình, trong đó có những bản mang dấu phê duyệt của hoàng đế.",
+      "d": "Năm 2014, châu bản triều Nguyễn được ghi vào danh mục Ký ức Thế giới khu vực châu Á – Thái Bình Dương. Kho tư liệu phản ánh hoạt động hành chính của triều đại từ năm 1802 đến 1945.",
+      "consequencesTitle": "Lần theo một quyết định qua hồ sơ",
+      "consequences": "Văn bản cho phép tìm hiểu cách công việc được báo cáo và xử lý trong bộ máy nhà nước. Dấu phê, chữ viết và con dấu cũng là những phần của sử liệu.",
+      "ref": "https://media.unesco.org/sites/default/files/webform/mow001/vietnam_nguyen_en.pdf",
+      "refs": [
+        {
+          "url": "https://media.unesco.org/sites/default/files/webform/mow001/vietnam_nguyen_en.pdf",
+          "title": "UNESCO — Hồ sơ châu bản triều Nguyễn",
+          "scope": "Tính chất văn bản, thời kỳ 1802–1945, ngôn ngữ và ghi danh khu vực 2014."
+        },
+        {
+          "url": "https://www.unesco.org/en/articles/saving-nguyen-dynasty-woodblocks",
+          "title": "UNESCO — Bảo tồn mộc bản triều Nguyễn",
+          "scope": "Ghi danh 2009, vật liệu khắc và nguy cơ nấm, mối."
+        }
+      ],
+      "fun": "Kho châu bản chủ yếu dùng chữ Hán và chữ Nôm, nhưng một số văn bản muộn còn có tiếng Pháp và tiếng Việt. Sự thay đổi ngôn ngữ cũng để lại dấu trong hồ sơ.",
+      "related": [
+        {
+          "id": "vn-moc-ban-2009",
+          "kind": "connection",
+          "text": "Mộc bản lưu dấu cách sản xuất sách, còn châu bản lưu lại hoạt động xử lý công việc của triều đình.",
+          "ref": "https://www.unesco.org/en/articles/saving-nguyen-dynasty-woodblocks"
+        }
+      ]
+    },
+    {
+      "id": "vn-toan-thu-in-1697",
+      "y": 1697,
+      "t": "Đại Việt sử ký toàn thư được khắc in trong niên hiệu Chính Hòa",
+      "c": "cul",
+      "imp": 1,
+      "context": "Một bộ sử có thể trải qua nhiều đời biên soạn và sao chép trước khi trở thành bản khắc in.",
+      "d": "Năm 1697, trong niên hiệu Chính Hòa, Đại Việt sử ký toàn thư được khắc in và công bố. Đây là một mốc trong lịch sử lưu truyền bộ sử.",
+      "consequencesTitle": "Phân biệt việc biên soạn với việc xuất bản",
+      "consequences": "Khi đọc một bản sử, người nghiên cứu cần biết cả quá trình hình thành nội dung lẫn bản in đang sử dụng.",
+      "ref": "https://baotanglichsu.vn/vi/Articles/3096/5179/nhung-nam-suu-co-y-nghia-trong-lich-su-dan-toc-ta.html",
+      "refs": [
+        {
+          "url": "https://baotanglichsu.vn/vi/Articles/3096/5179/nhung-nam-suu-co-y-nghia-trong-lich-su-dan-toc-ta.html",
+          "title": "Bảo tàng Lịch sử Quốc gia — Mốc năm Đinh Sửu 1697",
+          "scope": "Mốc khắc in, công bố bộ sử năm 1697."
+        }
+      ],
+      "fun": "Mốc 1697 trên một bản in không có nghĩa toàn bộ nội dung được viết trong năm ấy. Tuổi đời văn bản và tuổi đời hiện vật sách có thể khác nhau."
+    },
+    {
+      "id": "vn-chong-thue-1908",
+      "y": 1908,
+      "t": "Phong trào chống sưu thuế lan từ Quảng Nam ra Trung Kỳ",
+      "c": "pol",
+      "imp": 1,
+      "context": "Gánh nặng sưu thuế và lao dịch đặt sức ép lên đời sống nông dân. Ở Quảng Nam, người dân tìm cách kiến nghị giảm nhẹ.",
+      "d": "Năm 1908, từ Đại Lộc, phong trào chống sưu thuế lan sang nhiều địa phương miền Trung. Những đoàn người tập hợp và gây sức ép tại các cơ quan cai trị.",
+      "consequencesTitle": "Yêu cầu dân sinh trở thành một cuộc vận động rộng",
+      "consequences": "Phong trào bị đàn áp. Sự lan rộng cho thấy việc thu thuế và huy động lao dịch đã trở thành vấn đề chính trị vượt khỏi một làng.",
+      "ref": "https://baotanglichsu.vn/vi/Articles/3097/14453/ky-niem-105-nam-1908-2013-no-ra-phong-trao-chong-suu-thue-o-trung-ky-quang-nam-noi-khoi-phat-djau-tien-phong-trao-khang-thue-cu-suu.html",
+      "refs": [
+        {
+          "url": "https://baotanglichsu.vn/vi/Articles/3097/14453/ky-niem-105-nam-1908-2013-no-ra-phong-trao-chong-suu-thue-o-trung-ky-quang-nam-noi-khoi-phat-djau-tien-phong-trao-khang-thue-cu-suu.html",
+          "title": "Bảo tàng Lịch sử Quốc gia — Phong trào chống sưu thuế 1908",
+          "scope": "Bối cảnh lao dịch, kiến nghị ở Đại Lộc, lan rộng và đàn áp."
+        }
+      ],
+      "fun": "Một lá đơn xin giảm sưu thuế tại Đại Lộc là một trong những bước mở đầu được tài liệu ghi lại. Việc kiến nghị tại địa phương đã phát triển thành những cuộc tập hợp đông người."
+    },
+    {
+      "id": "vn-thu-vien-trung-uong-1917",
+      "y": 1917,
+      "t": "Nghị định lập Thư viện Trung ương Đông Dương được ký",
+      "c": "cul",
+      "imp": 1,
+      "context": "Bộ máy thuộc địa tổ chức một cơ sở lưu trữ và thư viện trung tâm tại Hà Nội. Đây là một mốc trong lịch sử Thư viện Quốc gia Việt Nam.",
+      "d": "Ngày 29/11/1917, nghị định thành lập được ký. Thư viện Trung ương Đông Dương mở cửa cho công chúng ngày 1/9/1919.",
+      "consequencesTitle": "Lưu chiểu giúp giữ lại dấu vết xuất bản",
+      "consequences": "Năm 1922, cơ chế lưu chiểu được thiết lập để thu nhận sách, báo, tạp chí và bản đồ xuất bản ở Đông Dương.",
+      "ref": "https://nlv.gov.vn/ef/key-milestones.html",
+      "refs": [
+        {
+          "url": "https://nlv.gov.vn/ef/key-milestones.html",
+          "title": "Thư viện Quốc gia Việt Nam — Các dấu mốc",
+          "scope": "Nghị định 1917, mở cửa 1919, lưu chiểu 1922."
+        }
+      ],
+      "date": "29/11/1917",
+      "fun": "Thư viện có mốc thành lập năm 1917 nhưng đón công chúng năm 1919. Thành lập một cơ quan và bắt đầu phục vụ người đọc là hai bước riêng."
+    }
+  ]
+});
+
+TL_DATA.push({
+  "lane": "sa",
+  "periods": [],
+  "events": [
+    {
+      "id": "sa-dholavira-3000tcn",
+      "y": -3000,
+      "t": "Dholavira xây dựng đô thị giữa vùng khô hạn",
+      "c": "cul",
+      "imp": 1,
+      "context": "Văn minh Harappa hình thành nhiều đô thị tại Nam Á. Dholavira nằm trên đảo Khadir, nơi nguồn nước có tính mùa vụ.",
+      "d": "Di tích ghi nhận cư trú khoảng 3000–1500 TCN. Thành có các khu vực phân chia, đường phố, nơi ở và hệ thống trữ, quản lý nước. Năm 3000 TCN là mốc tham chiếu cho khoảng cư trú.",
+      "consequencesTitle": "Đời sống đô thị cần giữ được nước",
+      "consequences": "Hệ thống nước cho thấy cách cư dân tổ chức một điều kiện thiết yếu để sinh sống ở môi trường khô. Xưởng chế tác và hiện vật còn giúp tìm hiểu sản xuất và trao đổi.",
+      "ref": "https://whc.unesco.org/en/list/1645",
+      "refs": [
+        {
+          "url": "https://whc.unesco.org/en/list/1645",
+          "title": "UNESCO — Dholavira",
+          "scope": "Khoảng cư trú, môi trường khô, quy hoạch, quản lý nước và nghề chế tác."
+        }
+      ],
+      "ca": true,
+      "date": "Khoảng 3000–1500 TCN",
+      "fun": "Các nhà khảo cổ tìm thấy dấu vết làm hạt chuỗi và đồ bằng vỏ sò, đá, kim loại. Một đô thị cổ được nhận ra cả qua những xưởng sản xuất nhỏ."
+    },
+    {
+      "id": "sa-ajanta-200tcn",
+      "y": -200,
+      "t": "Những hang Phật giáo đầu tiên ở Ajanta",
+      "c": "cul",
+      "imp": 1,
+      "context": "Tại một vách núi gần sông Waghora ở Ấn Độ, người ta đục không gian thờ tự và cư trú vào đá.",
+      "d": "Nhóm hang đầu ở Ajanta được tạo trong khoảng thế kỷ II–I TCN. Một đợt xây dựng khác diễn ra vào thế kỷ V–VI. Năm 200 TCN là mốc tham chiếu, không phải ngày khởi công xác định.",
+      "consequencesTitle": "Một di tích có nhiều lớp xây dựng",
+      "consequences": "Khoảng ngắt dài giữa hai đợt giúp người nghiên cứu đối chiếu những thay đổi trong kiến trúc và nghệ thuật Phật giáo.",
+      "ref": "https://whc.unesco.org/en/list/242",
+      "refs": [
+        {
+          "url": "https://whc.unesco.org/en/list/242",
+          "title": "UNESCO — Hang Ajanta",
+          "scope": "Hai giai đoạn xây dựng, vị trí, tranh và điêu khắc."
+        }
+      ],
+      "ca": true,
+      "date": "Thế kỷ II–I TCN; thêm nhiều hang vào thế kỷ V–VI",
+      "fun": "Các hang Ajanta không được làm cùng một thời. Hai đợt đục hang chính cách nhau khoảng bốn thế kỷ."
+    },
+    {
+      "id": "sa-nalanda-500",
+      "y": 500,
+      "t": "Nalanda phát triển thành một trung tâm tu học lớn",
+      "c": "cul",
+      "imp": 1,
+      "context": "Việc học trong Phật giáo gắn với cộng đồng tu sĩ, nơi cư trú và những không gian giảng dạy.",
+      "d": "Tại Nalanda ở Bihar, một trung tâm tu viện và học thuật hoạt động từ thế kỷ V đến XIII. Năm 500 là mốc tham chiếu cho giai đoạn đầu của thiết chế này.",
+      "consequencesTitle": "Tri thức đi cùng cách tổ chức việc học",
+      "consequences": "Nalanda ảnh hưởng tới cách tổ chức những trung tâm tu học về sau. Di tích còn lưu lại dấu vết nơi thờ tự, cư trú và giáo dục.",
+      "ref": "https://whc.unesco.org/en/list/1502",
+      "refs": [
+        {
+          "url": "https://whc.unesco.org/en/list/1502",
+          "title": "UNESCO — Nalanda Mahavihara",
+          "scope": "Trung tâm tu học thế kỷ V–XIII, di tích và ảnh hưởng tổ chức."
+        }
+      ],
+      "ca": true,
+      "date": "Thế kỷ V–XIII",
+      "fun": "Những dấu tích khảo cổ ở Nalanda có thể sớm hơn trung tâm tu học nổi tiếng. Niên đại cư trú tại một địa điểm và niên đại thành lập trường là hai câu hỏi riêng."
+    },
+    {
+      "id": "sa-rani-ki-vav-1050",
+      "y": 1050,
+      "t": "Rani-ki-Vav kết hợp giếng nước với kiến trúc nghi lễ",
+      "c": "cul",
+      "imp": 1,
+      "context": "Tại tiểu lục địa Ấn Độ, giếng bậc thang đưa con người xuống gần mực nước qua các tầng kiến trúc.",
+      "d": "Rani-ki-Vav tại Patan được dựng vào thế kỷ XI như một công trình tưởng niệm. Năm 1050 là mốc tham chiếu trong thế kỷ, không phải niên đại khởi công đã xác định.",
+      "consequencesTitle": "Nguồn nước trở thành không gian điêu khắc",
+      "consequences": "Những tầng bậc và mảng chạm kết hợp nhu cầu sử dụng nước với ý nghĩa tôn giáo. Công trình được thiết kế theo hình dung một ngôi đền đảo xuống lòng đất.",
+      "ref": "https://whc.unesco.org/en/list/922/",
+      "refs": [
+        {
+          "url": "https://whc.unesco.org/en/list/922/",
+          "title": "UNESCO — Rani-ki-Vav",
+          "scope": "Thế kỷ XI, chức năng tưởng niệm, bảy tầng và ý niệm đền đảo ngược."
+        },
+        {
+          "url": "https://whc.unesco.org/en/list/1645",
+          "title": "UNESCO — Dholavira",
+          "scope": "Khoảng cư trú, môi trường khô, quy hoạch, quản lý nước và nghề chế tác."
+        }
+      ],
+      "ca": true,
+      "date": "Thế kỷ XI",
+      "fun": "Một “ngôi đền đảo ngược” có thể nằm dưới chân bạn. Ở Rani-ki-Vav, cầu thang dẫn xuống qua bảy tầng kiến trúc.",
+      "related": [
+        {
+          "id": "sa-dholavira-3000tcn",
+          "kind": "connection",
+          "text": "Hai di tích ở Gujarat cho thấy những cách tổ chức nguồn nước ở hai thời đại khác nhau.",
+          "ref": "https://whc.unesco.org/en/list/1645"
+        }
+      ]
+    }
+  ]
+});
+
+TL_DATA.push({
+  "lane": "cn",
+  "periods": [],
+  "events": [
+    {
+      "id": "cn-do-giang-yen-256tcn",
+      "y": -256,
+      "t": "Đô Giang Yển điều tiết nước cho đồng bằng Thành Đô",
+      "c": "sci",
+      "imp": 1,
+      "context": "Nước sông Mân vừa là nguồn tưới vừa đặt ra bài toán lũ và bùn cát tại Tứ Xuyên.",
+      "d": "Khoảng năm 256 TCN, hệ thống thủy lợi Đô Giang Yển được xây dựng, tận dụng địa hình và dòng chảy để chia nước, kiểm soát lũ và xử lý bùn cát.",
+      "consequencesTitle": "Một hệ thống cổ tiếp tục được sửa đổi",
+      "consequences": "Công trình được mở rộng và điều chỉnh qua nhiều triều đại, tiếp tục phục vụ tưới tiêu. Tuổi đời lâu dài gắn với cả thiết kế lẫn việc bảo trì.",
+      "ref": "https://whc.unesco.org/en/list/1001/",
+      "refs": [
+        {
+          "url": "https://whc.unesco.org/en/list/1001/",
+          "title": "UNESCO — Đô Giang Yển",
+          "scope": "Niên đại khoảng 256 TCN, cơ chế chia nước và sửa đổi qua các triều đại."
+        },
+        {
+          "url": "https://whc.unesco.org/en/list/1645",
+          "title": "UNESCO — Dholavira",
+          "scope": "Khoảng cư trú, môi trường khô, quy hoạch, quản lý nước và nghề chế tác."
+        }
+      ],
+      "ca": true,
+      "date": "Khoảng 256 TCN",
+      "fun": "Đô Giang Yển nổi bật ở cách điều tiết và phân dòng mà không dùng đập chặn ngang dòng chính như nhiều hồ chứa hiện đại.",
+      "related": [
+        {
+          "id": "sa-dholavira-3000tcn",
+          "kind": "connection",
+          "text": "Đọc một cách tổ chức nguồn nước khác trong môi trường khô hạn của một đô thị Nam Á.",
+          "ref": "https://whc.unesco.org/en/list/1645"
+        }
+      ]
+    }
+  ]
+});
+
+TL_DATA.push({
+  "lane": "eu",
+  "periods": [],
+  "events": [
+    {
+      "id": "eu-padua-botanical-1545",
+      "y": 1545,
+      "t": "Đại học Padua lập vườn thực vật",
+      "c": "sci",
+      "imp": 1,
+      "context": "Nghiên cứu thực vật và dược liệu cần chỗ trồng, quan sát và trao đổi mẫu cây.",
+      "d": "Năm 1545, vườn thực vật của Đại học Padua được lập. Phần trung tâm có bố cục tròn, bao quanh bởi một vòng nước.",
+      "consequencesTitle": "Cây sống trở thành tư liệu nghiên cứu",
+      "consequences": "Vườn tiếp tục phục vụ nghiên cứu khoa học, cùng với việc bổ sung công trình và thiết bị. Mẫu cây giúp người học đối chiếu tri thức với đối tượng đang sống.",
+      "ref": "https://whc.unesco.org/en/list/824",
+      "refs": [
+        {
+          "url": "https://whc.unesco.org/en/list/824",
+          "title": "UNESCO — Vườn thực vật Padua",
+          "scope": "Thành lập 1545, bố cục, vai trò nghiên cứu và tính liên tục tại địa điểm."
+        }
+      ],
+      "fun": "Nhà kính và hệ thống bơm nước là những phần thêm về sau. Một di tích có thể giữ bố cục cổ trong khi thiết bị phục vụ nghiên cứu liên tục thay đổi."
+    },
+    {
+      "id": "eu-micrographia-1665",
+      "y": 1665,
+      "t": "Micrographia đưa thế giới dưới kính hiển vi lên trang sách",
+      "c": "sci",
+      "imp": 1,
+      "context": "Kính hiển vi cho phép quan sát những chi tiết nhỏ vượt quá mắt thường. Để người khác xem cùng, cần mô tả và hình minh họa.",
+      "d": "Năm 1665, Robert Hooke xuất bản Micrographia. Sách có các bản khắc dựa trên hình vẽ quan sát, trong đó có một lát bần với những khoang nhỏ.",
+      "consequencesTitle": "Hình ảnh giúp người đọc cùng quan sát",
+      "consequences": "Tranh khắc đưa những chi tiết của mẫu vật đến người chưa có kính hiển vi. Người vẽ và người khắc cùng góp phần truyền đạt quan sát.",
+      "ref": "https://pictures.royalsociety.org/image-rs-8428",
+      "refs": [
+        {
+          "url": "https://pictures.royalsociety.org/image-rs-8428",
+          "title": "Royal Society — Lát bần trong Micrographia",
+          "scope": "Năm 1665, bản khắc, mẫu bần và quan hệ giữa hình vẽ với bản khắc."
+        },
+        {
+          "url": "https://www.nobelprize.org/prizes/medicine/1945/fleming/biographical/",
+          "title": "Nobel Prize — Alexander Fleming",
+          "scope": "Quan sát đĩa nuôi tụ cầu năm 1928 và vòng không có vi khuẩn quanh nấm."
+        }
+      ],
+      "who": "Robert Hooke",
+      "fun": "Hooke được học vẽ trước khi nổi tiếng trong khoa học. Ông vẽ hình cho Micrographia, nhưng các bản khắc in trên sách được làm theo hình của ông bởi người thợ khắc.",
+      "related": [
+        {
+          "id": "eu-penicillin-1928",
+          "kind": "connection",
+          "text": "Theo tiếp một bài về việc quan sát vi sinh vật trong phòng thí nghiệm nhiều thế kỷ sau.",
+          "ref": "https://www.nobelprize.org/prizes/medicine/1945/fleming/biographical/"
+        }
+      ]
+    },
+    {
+      "id": "eu-great-exhibition-1851",
+      "y": 1851,
+      "t": "Đại Triển lãm đưa máy móc và hàng hóa vào Crystal Palace",
+      "c": "cul",
+      "imp": 1,
+      "context": "Trong thế kỷ XIX, triển lãm là dịp để trưng bày sản phẩm công nghiệp, thiết kế và nguồn nguyên liệu từ nhiều nơi.",
+      "d": "Ngày 1/5/1851, Đại Triển lãm mở tại Hyde Park, London. Công trình Crystal Palace đón các hiện vật và người xem trong một không gian lớn.",
+      "consequencesTitle": "Triển lãm góp phần hình thành các bộ sưu tập",
+      "consequences": "Lịch sử các bộ sưu tập của V&A gắn với cuộc triển lãm. Những đồ vật được trưng bày giúp nối công nghệ sản xuất với thiết kế và thị hiếu.",
+      "ref": "https://www.vam.ac.uk/articles/the-great-exhibition-of-1851",
+      "refs": [
+        {
+          "url": "https://www.vam.ac.uk/articles/the-great-exhibition-of-1851",
+          "title": "V&A — Đại Triển lãm năm 1851",
+          "scope": "Khai mạc, Crystal Palace, phạm vi trưng bày và liên hệ với bộ sưu tập."
+        }
+      ],
+      "date": "1/5/1851",
+      "fun": "Người xem tới triển lãm có thể gặp cả nguyên liệu thô, máy móc và đồ thành phẩm. Cách sắp xếp ấy cho thấy một chuỗi từ vật liệu đến sản xuất rồi thiết kế."
+    },
+    {
+      "id": "eu-london-underground-1863",
+      "y": 1863,
+      "t": "Tàu chở khách chạy dưới lòng London",
+      "c": "sci",
+      "imp": 1,
+      "context": "Đường sắt có thể đưa người đi trong thành phố qua những đoạn tuyến dưới mặt đất.",
+      "d": "Ngày 10/1/1863, tuyến Metropolitan Railway mở dịch vụ giữa Paddington và Farringdon. Những chuyến tàu ban đầu dùng sức kéo hơi nước.",
+      "consequencesTitle": "Đường tàu thay đổi dần công nghệ vận hành",
+      "consequences": "Các tuyến và phương tiện tiếp tục phát triển trong những thập kỷ sau. Lịch sử Underground trải qua một thời gian dài trước khi đầu máy hơi nước thôi chở khách.",
+      "ref": "https://library.ltmuseum.co.uk/portal/Default/en-GB/RecordView/Index/97",
+      "refs": [
+        {
+          "url": "https://library.ltmuseum.co.uk/portal/Default/en-GB/RecordView/Index/97",
+          "title": "London Transport Museum — Tàu hơi nước trên Underground",
+          "scope": "Mở tuyến 10/1/1863 và lịch sử sử dụng hơi nước."
+        }
+      ],
+      "date": "10/1/1863",
+      "fun": "Tàu điện ngầm không khởi đầu bằng điện. Tên Underground nói về vị trí chạy tàu; đầu máy hơi nước từng hoạt động trên mạng này."
+    },
+    {
+      "id": "eu-philae-comet-2014",
+      "y": 2014,
+      "t": "Philae chạm xuống bề mặt sao chổi",
+      "c": "sci",
+      "imp": 1,
+      "context": "Tàu Rosetta của ESA tiếp cận sao chổi 67P/Churyumov–Gerasimenko và mang theo thiết bị đổ bộ Philae.",
+      "d": "Ngày 12/11/2014, Philae tách khỏi Rosetta rồi chạm xuống sao chổi. Dữ liệu đổ bộ được truyền qua tàu mẹ về Trái Đất.",
+      "consequencesTitle": "Đưa dụng cụ đo tới một bề mặt nhỏ",
+      "consequences": "Nhiệm vụ kết hợp quan sát từ tàu bay cùng sao chổi với đo đạc từ thiết bị trên bề mặt.",
+      "ref": "https://www.esa.int/Science_Exploration/Space_Science/Rosetta/Touchdown!_Rosetta_s_Philae_probe_lands_on_comet",
+      "refs": [
+        {
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Rosetta/Touchdown!_Rosetta_s_Philae_probe_lands_on_comet",
+          "title": "ESA — Philae hạ xuống sao chổi",
+          "scope": "Ngày 12/11/2014, tàu mẹ Rosetta và dữ liệu được chuyển tiếp."
+        },
+        {
+          "url": "https://darts.isas.jaxa.jp/en/datasets/darts%3Acuration-itokawa-samples/",
+          "title": "JAXA / ISAS — Kho dữ liệu mẫu Itokawa",
+          "scope": "Ngày trở về, xử lý khoang mẫu và xác nhận nguồn gốc hạt."
+        }
+      ],
+      "date": "12/11/2014",
+      "fun": "Tín hiệu từ Philae về Trái Đất đi qua Rosetta. Tàu mẹ làm trạm chuyển tiếp cho thiết bị đổ bộ.",
+      "related": [
+        {
+          "id": "ea-hayabusa-return-2010",
+          "kind": "connection",
+          "text": "Philae gửi dữ liệu từ sao chổi; Hayabusa đưa vật liệu của một tiểu hành tinh về phòng thí nghiệm.",
+          "ref": "https://darts.isas.jaxa.jp/en/datasets/darts%3Acuration-itokawa-samples/"
+        }
+      ]
+    }
+  ]
+});
+
+TL_DATA.push({
+  "lane": "am",
+  "periods": [],
+  "events": [
+    {
+      "id": "am-phonograph-1877",
+      "y": 1877,
+      "t": "Máy phonograph ghi rồi phát lại âm thanh",
+      "c": "sci",
+      "imp": 1,
+      "context": "Trước Edison đã có thiết bị ghi dấu sóng âm, nhưng việc nghe lại âm thanh vẫn là một bài toán khác.",
+      "d": "Năm 1877, Thomas Edison tạo máy phonograph có thể ghi và phát lại. Kim ghi tạo dấu trên lá thiếc quấn quanh một trụ quay.",
+      "consequencesTitle": "Âm thanh trở thành thứ có thể nghe lại",
+      "consequences": "Máy được giới thiệu trước công chúng và thử bán cho công việc đọc chính tả văn phòng. Chất lượng âm và độ bền vật liệu còn cần cải tiến.",
+      "ref": "https://www.americanhistory.si.edu/documentsgallery/exhibitions/hear-my-voice/4.html",
+      "refs": [
+        {
+          "url": "https://www.americanhistory.si.edu/documentsgallery/exhibitions/hear-my-voice/4.html",
+          "title": "Smithsonian — Edison và máy phát lại âm thanh",
+          "scope": "Năm 1877, lá thiếc, thiết bị trước đó và thử nghiệm thương mại."
+        }
+      ],
+      "who": "Thomas Edison",
+      "fun": "Những bản ghi ban đầu dùng lá thiếc. Chúng xuống cấp nhanh khi nghe lại nhiều lần, nên vật liệu ghi âm cũng là một phần của cuộc phát minh."
+    },
+    {
+      "id": "am-engelbart-demo-1968",
+      "y": 1968,
+      "t": "Engelbart trình diễn cách làm việc tương tác với máy tính",
+      "c": "sci",
+      "imp": 1,
+      "context": "Tại SRI, Douglas Engelbart và cộng sự nghiên cứu công cụ giúp con người thao tác với thông tin trên màn hình.",
+      "d": "Ngày 9/12/1968, nhóm trình diễn hệ thống trước giới chuyên môn tại San Francisco. Buổi giới thiệu có chuột, xử lý văn bản, chia sẻ tài liệu và liên lạc qua hình ảnh.",
+      "consequencesTitle": "Một buổi diễn cho thấy nhiều công cụ có thể kết hợp",
+      "consequences": "Những thành phần quen thuộc của công việc số được giới thiệu cùng nhau. Buổi diễn giúp hình dung máy tính như một môi trường làm việc tương tác.",
+      "ref": "https://computerhistory.org/sri-mouse-mn052024/",
+      "refs": [
+        {
+          "url": "https://computerhistory.org/sri-mouse-mn052024/",
+          "title": "Computer History Museum — Chuột SRI và buổi trình diễn 1968",
+          "scope": "Ngày, nơi, nhóm nghiên cứu và các tính năng trình diễn."
+        },
+        {
+          "url": "https://www.lk.cs.ucla.edu/internet_first_words.html",
+          "title": "UCLA — The First Words on the Internet",
+          "scope": "Nhật ký kết nối UCLA–SRI 29/10/1969 và lần thử LOGIN."
+        }
+      ],
+      "date": "9/12/1968",
+      "who": "Douglas Engelbart",
+      "fun": "Con chuột chỉ là một phần của buổi trình diễn. Chia sẻ tài liệu và hội thoại bằng hình ảnh cũng xuất hiện trong lần giới thiệu năm 1968.",
+      "related": [
+        {
+          "id": "am-arpanet-1969",
+          "kind": "connection",
+          "text": "Đọc thêm về một hướng phát triển khác của máy tính cùng thời, nối các máy ở xa nhau.",
+          "ref": "https://www.lk.cs.ucla.edu/internet_first_words.html"
+        }
+      ]
+    },
+    {
+      "id": "am-intel-4004-1971",
+      "y": 1971,
+      "t": "Intel 4004 đưa chức năng bộ xử lý lên một vi mạch",
+      "c": "sci",
+      "imp": 1,
+      "context": "Các kỹ sư tìm cách gom chức năng xử lý vốn cần nhiều mạch vào những thiết kế tích hợp nhỏ hơn.",
+      "d": "Năm 1971, Intel giới thiệu 4004, một bộ vi xử lý 4 bit phát triển trong công việc với hãng máy tính toán Busicom của Nhật Bản.",
+      "consequencesTitle": "Vi mạch xử lý vẫn cần các thành phần khác",
+      "consequences": "Một hệ thống hoàn chỉnh còn cần bộ nhớ và các chức năng ngoại vi. Việc tích hợp bộ xử lý mở thêm cách thiết kế thiết bị nhỏ gọn.",
+      "ref": "https://www.computerhistory.org/siliconengine/microprocessor-integrates-cpu-function-onto-a-single-chip/",
+      "refs": [
+        {
+          "url": "https://www.computerhistory.org/siliconengine/microprocessor-integrates-cpu-function-onto-a-single-chip/",
+          "title": "Computer History Museum — Vi xử lý năm 1971",
+          "scope": "4004, Busicom, nhóm thiết kế và sự cần thiết của các mạch hỗ trợ."
+        }
+      ],
+      "fun": "4004 gắn với một dự án máy tính toán cho khách hàng Nhật. Nhu cầu của một thiết bị cụ thể đã góp phần tạo nên một bộ xử lý dùng trên vi mạch."
+    },
+    {
+      "id": "am-hubble-launch-1990",
+      "y": 1990,
+      "t": "Kính Hubble được đưa lên quỹ đạo",
+      "c": "sci",
+      "imp": 1,
+      "context": "Ngoài khí quyển, kính thiên văn có điều kiện quan sát khác mặt đất.",
+      "d": "Ngày 24/4/1990, Discovery phóng lên cùng Hubble. Ngày 25/4, phi hành đoàn triển khai kính vào quỹ đạo.",
+      "consequencesTitle": "Một đài quan sát có thể được bảo dưỡng",
+      "consequences": "Hubble có thể được phi hành gia tiếp cận và thay thiết bị. Điều đó giúp giải quyết vấn đề quang học về sau.",
+      "ref": "https://science.nasa.gov/mission/hubble/overview/hubble-timeline/hubble-history-timeline-full-text/",
+      "refs": [
+        {
+          "url": "https://science.nasa.gov/mission/hubble/overview/hubble-timeline/hubble-history-timeline-full-text/",
+          "title": "NASA — Dòng thời gian Hubble",
+          "scope": "Hai mốc phóng, triển khai và nhiệm vụ bảo dưỡng."
+        }
+      ],
+      "date": "24/4/1990",
+      "fun": "Kính được chở trong khoang tàu con thoi trước khi triển khai. Ngày phóng và ngày thả Hubble cách nhau một ngày.",
+      "related": [
+        {
+          "id": "am-hubble-repair-1993",
+          "kind": "connection",
+          "text": "Khả năng bảo dưỡng được dùng để giải quyết vấn đề quang học sau khi Hubble lên quỹ đạo.",
+          "ref": "https://science.nasa.gov/mission/hubble/overview/hubble-timeline/hubble-history-timeline-full-text/"
+        }
+      ]
+    },
+    {
+      "id": "am-hubble-repair-1993",
+      "y": 1993,
+      "t": "Phi hành gia lắp hệ quang học khắc phục hình ảnh Hubble",
+      "c": "sci",
+      "imp": 1,
+      "context": "Hubble gặp vấn đề hình ảnh do sai lệch ở gương chính.",
+      "d": "Tháng 12/1993, nhiệm vụ STS-61 lắp hệ quang học hiệu chỉnh và máy ảnh mới.",
+      "consequencesTitle": "Sửa một đài quan sát ngay trên quỹ đạo",
+      "consequences": "Nhiệm vụ giúp Hubble tiếp tục công việc với hình ảnh rõ hơn.",
+      "ref": "https://science.nasa.gov/mission/hubble/overview/hubble-timeline/hubble-history-timeline-full-text/",
+      "refs": [
+        {
+          "url": "https://science.nasa.gov/mission/hubble/overview/hubble-timeline/hubble-history-timeline-full-text/",
+          "title": "NASA — Dòng thời gian Hubble",
+          "scope": "Vấn đề gương và nhiệm vụ bảo dưỡng tháng 12/1993."
+        }
+      ],
+      "date": "Tháng 12/1993",
+      "fun": "Phi hành gia lắp thiết bị hiệu chỉnh trên quỹ đạo, thay vì mang gương chính về để mài lại.",
+      "related": [
+        {
+          "id": "am-hubble-launch-1990",
+          "kind": "connection",
+          "text": "Trở lại chuyến phóng đã đưa kính và thiết bị lên quỹ đạo.",
+          "ref": "https://science.nasa.gov/mission/hubble/overview/hubble-timeline/hubble-history-timeline-full-text/"
+        }
+      ]
+    }
+  ]
+});
+
+TL_DATA.push({
+  "lane": "ea",
+  "periods": [],
+  "events": [
+    {
+      "id": "ea-hayabusa-return-2010",
+      "y": 2010,
+      "t": "Hayabusa đưa mẫu từ tiểu hành tinh Itokawa về Trái Đất",
+      "c": "sci",
+      "imp": 1,
+      "context": "Hayabusa rời Trái Đất năm 2003, đến Itokawa năm 2005 và thực hiện những lần tiếp cận bề mặt.",
+      "d": "Ngày 13/6/2010, khoang trở về của Hayabusa tái nhập khí quyển và được thu hồi tại Australia. Phân tích xác nhận trong khoang có hạt vật chất từ Itokawa.",
+      "consequencesTitle": "Mẫu nhỏ có thể được xét bằng thiết bị trên Trái Đất",
+      "consequences": "Thu hồi mẫu cho phép dùng phòng thí nghiệm để khảo sát khoáng vật và thành phần vật liệu ngoài không gian.",
+      "ref": "https://darts.isas.jaxa.jp/en/datasets/darts%3Acuration-itokawa-samples/",
+      "refs": [
+        {
+          "url": "https://darts.isas.jaxa.jp/en/datasets/darts%3Acuration-itokawa-samples/",
+          "title": "JAXA / ISAS — Kho dữ liệu mẫu Itokawa",
+          "scope": "Ngày trở về, xử lý khoang mẫu và xác nhận nguồn gốc hạt."
+        }
+      ],
+      "date": "13/6/2010",
+      "fun": "Khi mở khoang, người nghiên cứu không thấy những viên đá rõ bằng mắt thường. Phân tích các hạt rất nhỏ mới phân biệt được khoáng vật từ Itokawa với mảnh vật liệu của khoang chứa."
+    },
+    {
+      "id": "culture-ghibli-founded-1985",
+      "y": 1985,
+      "t": "Studio Ghibli mở xưởng hoạt hình",
+      "c": "cul",
+      "imp": 1,
+      "context": "Một bộ phim hoạt hình dài cần tổ chức công việc của nhiều người từ phát triển câu chuyện đến thực hiện hình ảnh.",
+      "d": "Tháng 6/1985, Studio Ghibli mở tại Kichijoji, Tokyo. Dòng thời gian chính thức của hãng ghi đây là mốc bắt đầu của xưởng.",
+      "consequencesTitle": "Một nơi để tổ chức những dự án tiếp nối",
+      "consequences": "Những bộ phim của xưởng được thực hiện qua các nhóm sáng tạo và sản xuất, với lịch sử có thể theo dõi từ tác phẩm này sang tác phẩm khác.",
+      "ref": "https://www.ghibli.jp/chronology/",
+      "refs": [
+        {
+          "url": "https://www.ghibli.jp/chronology/",
+          "title": "Studio Ghibli — Niên biểu chính thức",
+          "scope": "Mở xưởng tháng 6/1985 và lịch sử sản xuất."
+        },
+        {
+          "url": "https://www.ghibli.jp/works/chihiro/",
+          "title": "Studio Ghibli — Hồ sơ Spirited Away",
+          "scope": "Ngày phát hành tại Nhật, Miyazaki, nhạc và ca khúc chủ đề."
+        }
+      ],
+      "date": "Tháng 6/1985",
+      "fun": "Nausicaä phát hành tháng 3/1984, trước khi xưởng Ghibli mở tháng 6/1985. Bộ phim thường gắn với lịch sử Ghibli, dù nó có trước mốc mở xưởng.",
+      "related": [
+        {
+          "id": "culture-spirited-away-2001",
+          "kind": "connection",
+          "text": "Theo tiếp một bộ phim được thực hiện sau khi xưởng đã có nhiều năm hoạt động.",
+          "ref": "https://www.ghibli.jp/works/chihiro/"
+        }
+      ]
+    }
+  ]
+});
